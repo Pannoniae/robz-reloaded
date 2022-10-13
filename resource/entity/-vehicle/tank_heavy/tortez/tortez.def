@@ -1,0 +1,121 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/shadow/tank.inc"  scale(1.2))
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	{collider "tank.heavy"}
+	{props "heavy" "-turret" "vision_vehicle_maximum" "muzzle_large"}
+	{targetSelector "tank_at"}
+
+
+	{volume "body5"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body4"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body3"
+		{tags "body"}
+		{component "body"}
+	}
+
+	("armor_spa_heavy" armor(225 100 150 50))
+	("armor_spa_mantlet" t(90))
+	("armor_engine"  t(10 100 150 50))
+	
+	{extender "enumerator"}
+
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_Kv"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_Kv"} {end "seat_m7_mgunner"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+	}
+	("crew_7_human")
+
+	{extender "inventory"
+		{weapon "mgun"
+			{mask "weapon mgun"}
+		}
+		{box
+			{item "ammo mgun" 3500}
+			{item "eng_bullet93_qf32 apcbc" 44}
+			{item "eng_bullet93_qf32 apds" 6}
+            		{item "eng_bullet93_qf32 fg" 5}
+			{item "besa" filled {user "mgun"}}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "93mm_vickers" filling "eng_bullet93_qf32 apcbc" 1}
+			{RestoreIKAfterAim}	
+			("abm_low")
+		}
+		{place "mgun"
+			{type "mgun_aa"}
+			{weapon "besa_x2" filled}
+			{Barrels 2}
+			{gunner "commander"}
+			{charger "commander"}
+			{basic}
+		}
+		{place "mgun1"
+			{type "mgun_hull"}
+			{weapon "besa" filled}
+			{foresight "foresight4"}
+			{gunner "gunner3"}
+			{charger "gunner3"}
+		}
+	}
+	{Extension "tortez.mdl"}
+
+	{mass 79500}
+	{Chassis
+		("tank_trace" fx("tracks_big") step(0.47) len(1.2))
+		{Locomotion ("locomotion")
+			{MaxSpeed	19}
+			{maxSpeedAtMaxTurn 2}
+			{StartTime	70}
+			{TurnTime	40}
+			{TurnStart  2} 
+    			{BrakeTime  7}
+     			{StopTime   5} 
+    			{TurnRadius 11} 
+    			{TurnStop   1}
+			{Gears 0.1 0.2 0.3 0.5 1}
+    			{RearGears 0.1 0.2}
+		}
+		{FuelBag
+			{volume 950 }	;liters
+			{rate	300 }   ;liters/km
+			{remain 920 }
+			{fuel "fuel"}
+		}
+		{speed
+        		{Normal  8}
+    		}
+	}
+
+	{bone "gun_rot1"
+		{limits 10}
+		{speed 0.004}
+	}
+	{bone "turret_mgun"
+		{speed 0.045}
+	}
+}

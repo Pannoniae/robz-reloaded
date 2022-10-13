@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/8cm_bofors/8cm_bofors"}
+	{bump "$/model/8cm_bofors/8cm_bofors_bp"}
+	{specular "$/model/8cm_bofors/8cm_bofors_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

@@ -1,0 +1,111 @@
+{game_entity
+    (include "/properties/tank.ext")
+    (include "/properties/shadow/tank.inc"  scale(1.2))
+    (include "/properties/selection/vehicle.inc"  scale(1.2))
+    {collider "tank.heavy"}
+    {props "medium" "-turret" "vision_vehicle_medium" "muzzle_large"}
+    {targetSelector "tank_sup"}
+
+
+    {extender "enumerator"
+		{digit_folder "ger"}
+	}
+
+    {volume "body1"
+        {tags "body"}
+        {component "body"}
+    }
+    {volume "body2"
+        {tags "body"}
+        {component "body"}
+    }
+    {volume "body3"
+        {tags "body"}
+        {component "body"}
+    }
+
+    ("armor_spa_medium" armor(75 30 30 13))
+    ("armor_engine"  t(30))
+	("shield" args 10)
+
+
+    ("crew_4_human")
+
+    {boarder
+        {anm "left"
+            {forward    {begin  "board_Kv"}}
+            {reverse    {end    "emit_tank_1_hold"}}
+        }
+        {anm "right"
+            {forward    {begin  "board_tank_right"} {end "pose_mgun_pz6"}}
+            {reverse    {end    "emit_tank_2_hold"}}
+        }
+
+    }
+
+	{extender "shield"
+		{on}
+	}
+
+	{component "shieldl1" {tags "shield"}}
+	{component "shieldl2" {tags "shield"}}
+	{component "shieldl3" {tags "shield"}}
+	{component "shieldl4" {tags "shield"}}
+	{component "shieldr1" {tags "shield"}}
+	{component "shieldr2" {tags "shield"}}
+	{component "shieldr3" {tags "shield"}}
+	{component "shieldr4" {tags "shield"}}
+	
+    {extender "inventory"
+        {box
+			{item "bullet105 ap" 14}
+			{item "bullet105 heat" 6}
+			{item "bullet105 fg" 32}
+		}
+	}
+    {Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "105mm_40_43m" filling "bullet105 fg" 1}	
+			("abm_medium")
+		}
+    }
+
+    {Extension "zrinyi2.mdl"}
+
+	{mass 21600}
+	{Chassis
+		("tank_trace" fx("tracks_sm") step(0.3) len(0.13))
+		{Locomotion ("locomotion")
+			{Maxspeed   44}
+			{maxSpeedAtMaxTurn 4}
+			{StartTime  30}
+			{TurnTime   18}
+			{TurnStart  2}			
+			{TurnRadius 10} 
+    			{TurnStop   0.8}
+			{BrakeTime  1}
+			{StopTime   2}
+			{Gears   0.1 0.2 0.3 0.5 1}
+			{RearGears  0.24}
+		}
+		{FuelBag
+			{volume 400 }	
+			{rate	3.2 }   
+			{remain 400 }
+			{fuel "fuel"}
+		}
+		{speed
+        		{Normal  12}
+    		}
+	}
+
+	{bone "gun_rot1"
+		{speed 0.001}
+	}
+	{bone "gun_rot"
+		{speed 0.001}
+	}
+
+}

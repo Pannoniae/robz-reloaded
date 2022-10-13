@@ -1,0 +1,23 @@
+{game_entity
+	{Extension "botond_x.mdl"}
+	{Volume "body"
+	}
+	{Volume "bodyback"
+	}
+	{Volume "cabin"
+	}
+	{Volume "engine"
+	}
+	{Volume "wheelleft1"
+	}
+	{Volume "wheelleft2"
+	}
+	{Volume "wheelleft3"
+	}
+	{Volume "wheelright1"
+	}
+	{Volume "wheelright2"
+	}
+	{Volume "wheelright3"
+	}
+}

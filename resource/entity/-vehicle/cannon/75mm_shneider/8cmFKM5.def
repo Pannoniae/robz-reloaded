@@ -1,0 +1,19 @@
+{entity
+	(include "75mm_shneider.inc")
+	{extender "inventory"
+		{box
+			{item "bullet76 ap" 15}
+			{item "bullet76 fg" 35}
+
+			(mod "mp"
+				{item "sandbag_kit2"}
+			)
+		}
+	}
+	{Weaponry
+		{place "gun"
+			{weapon "76mm_fkm5" filled}
+			("abm_howitzer")
+		}
+	}
+}

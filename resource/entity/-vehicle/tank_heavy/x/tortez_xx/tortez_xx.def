@@ -1,0 +1,15 @@
+{game_entity
+	{Extension "tortez_xx.mdl"}
+	{Volume "body1"
+	}
+	{Volume "body2"
+	}
+	{Volume "engine"
+	}
+	{Volume "gun"
+	}
+	{Volume "trackleft"
+	}
+	{Volume "trackright"
+	}
+}

@@ -1,0 +1,100 @@
+{tags
+	{"date" "5th January 1945"}
+	{"menu:1_0" "Infantry: 0 units"}
+	{"menu:1_1" "Infantry: 1 unit"}
+	{"menu:1_2" "Infantry: 2 units"}
+	{"menu:1_3" "Infantry: 3 units"}
+	{"menu:1_4" "Infantry: 4 units"}
+	{"menu:1_5" "Infantry: 5 units"}
+	{"menu:2_0" ""}
+	{"menu:2_1" ""}
+	{"menu:2_2" ""}
+	{"menu:2_3" ""}
+	{"menu:2_4" ""}
+	{"menu:2_5" ""}
+	{"menu:back" "Return to menu"}
+	{"mission_killmachineguns0" "Eliminate majority of machine gun nests! <c(e74236)>0/8 killed"}
+	{"mission_killmachineguns1" "Eliminate majority of machine gun nests! <c(e74236)>1/8 killed"}
+	{"mission_killmachineguns2" "Eliminate majority of machine gun nests! <c(e74236)>2/8 killed"}
+	{"mission_killmachineguns3" "Eliminate majority of machine gun nests! <c(e74236)>3/8 killed"}
+	{"mission_killmachineguns4" "Eliminate majority of machine gun nests! <c(e74236)>4/8 killed"}
+	{"mission_killmachineguns5" "Eliminate majority of machine gun nests! <c(e74236)>5/8 killed"}
+	{"mission_killmachineguns6" "Eliminate majority of machine gun nests! <c(e74236)>6/8 killed"}
+	{"mission_killmachineguns7" "Eliminate majority of machine gun nests! <c(e74236)>7/8 killed"}
+	{"mission_killmachineguns8" "Eliminate majority of machine gun nests! <c(4fe736)>8 killed"}
+	{"mission_mgkillnote" "Eliminated enemy machine gun nest!"}
+	{"mission_killsnipers0" "Eliminate enemy snipers! <c(e74236)>0/5 killed"}
+	{"mission_killsnipers1" "Eliminate enemy snipers! <c(e74236)>1/5 killed"}
+	{"mission_killsnipers2" "Eliminate enemy snipers! <c(e74236)>2/5 killed"}
+	{"mission_killsnipers3" "Eliminate enemy snipers! <c(e74236)>3/5 killed"}
+	{"mission_killsnipers4" "Eliminate enemy snipers! <c(e74236)>4/5 killed"}
+	{"mission_killsnipers5" "Eliminate enemy snipers! <c(4fe736)>5 killed"}
+	{"mission_sniperkillnote" "Eliminated enemy sniper!"}
+	{"mission_enemyrepairarmor" "Destroy all armor at the enemy repair location!"}
+	{"mission_officer" "Assassinate the enemy officer arriving in an armed convoy!"}
+	{"mission_exit" "Proceed to extraction point to complete the mission!"}
+	{"mission_arty" "Destroy the enemy artillery vehicle!"}
+	{"mission_bonus" "Destroy all armor at the enemy repair location or kill all enemy snipers without making use of reinforcements."}
+	{"mission_option_select1" "Choose the time of day for your attack!"}
+	{"mission_option1" "Evening"}
+	{"mission_option2" "Foggy Morning"}
+	{"mission_option_select2" "Choose your type of soldiers!"}
+	{"mission_option3" "Snipers"}
+	{"mission_option4" "Assault infantry"}
+	{"name" "[Germany] Namur"}
+	{"name_big" "Namur"}
+	{"officer_convoy_01" "An enemy convoy with a high ranked officer is arriving soon. Our orders are to assasinate him. Set up an ambush of your choice!"}
+	{"officer_convoy_01_destroy" "Great job! You have successfully eliminated the enemy high ranked officer! The battalion is granting you additional resources!"}
+	{"officer_enemy_officer_comp" "Excellent strike on our enemies morale and command structures! Brigade headquarters grants you additional resources!"}
+	{"officer_enemy_sniper_kill" "Excellent kill on that enemy sniper! Brigade headquarters grants you additional resources!"}
+	{"officer_enemy_sniper_killall" "Congratulations all enemy snipers are dead! Brigade headquarters grants you additional resources!"}
+	{"officer_enemy_mg_killmajority" "Congratulations most enemy machine gunners are dead! Brigade headquarters grants you additional resources!"}
+	{"officer_enemy_armor_repair_kill" "Excellent! You have destroyed their tanks before they could repair and use them against our forces in the upcoming battle! Brigade headquarters grants you additional resources!"}
+	{"officer_start" "Herr Oberstleutnant, today we have a huge task ahead of us. Your objective is to infiltrate Namur and cause severe destruction to the British forces."}
+	{"officer_enemy_repair_seen" "Enemy tank crew have been alerted! Watch out as they may try and crew one of their tanks!"}
+	{"officer_start2" "Be advised that you are behind enemy lines. It is entirely up to you how to fulfill the mission objectives. However, it might be a good choice to silently take out your targets."}
+	{"officer_start_attack" "Herr Oberstleutnant, be careful, if enemy troops spot us or their fallen comrades, it's likely they will call for reinforcements!"}
+	{"officer_exit" "HQ provides you coordinates for extraction! Move on to the extraction point and keep losses at a minimum!"}
+	{"hint_start_attack" "Enemies will only attack you when they can see you. If necessary, fall back to hide and enemy troops will give up searching for you. Use guerrilla warfare to wear down your enemy!"}
+	{"hint_seen_counter" "If you make too much noise, enemies will call for reinforcements. Try to stay hidden, snipe at long range and hide dead bodies."}
+	{"hint_enemy_armor_repair" "To destroy enemy armor at the repair location use explosive devices such as AT grenades and dynamite. Prevent the tank crews from manning one of their tanks by taking them out in a surprise attack."}
+	{"outro_completed" "Excellent job! You've made the Fatherland proud!"}
+	{"outro_failed" "You have been defeated!"}
+	{"outro_start" ""}
+	{"place" "Namur, Belgium"}
+	{"player_money_000" "Progress: <c(e74236)>0%"}
+	{"player_money_005" "Progress: <c(e74236)>5%"}
+	{"player_money_010" "Progress: <c(e74236)>10%"}
+	{"player_money_015" "Progress: <c(e74236)>15%"}
+	{"player_money_020" "Progress: <c(e74236)>20%"}
+	{"player_money_025" "Progress: <c(e7c436)>25%"}
+	{"player_money_030" "Progress: <c(e7c436)>30%"}
+	{"player_money_035" "Progress: <c(e7c436)>35%"}
+	{"player_money_040" "Progress: <c(e7c436)>40%"}
+	{"player_money_045" "Progress: <c(e7c436)>45%"}
+	{"player_money_050" "Progress: <c(e7c436)>50%"}
+	{"player_money_055" "Progress: <c(4fe736)>55%"}
+	{"player_money_060" "Progress: <c(4fe736)>60%"}
+	{"player_money_065" "Progress: <c(4fe736)>65%"}
+	{"player_money_070" "Progress: <c(4fe736)>70%"}
+	{"player_money_075" "Progress: <c(4fe736)>75%"}
+	{"player_money_080" "Progress: <c(4fe736)>80%"}
+	{"player_money_085" "Progress: <c(4fe736)>85%"}
+	{"player_money_090" "Progress: <c(4fe736)>90%"}
+	{"player_money_095" "Progress: <c(4fe736)>95%"}
+	{"player_money_100" "Progress: <c(4fe736)>100%"}
+	{"reinf_01" "Paratroopers"}
+	{"reinf_02" "Sniper"}
+	{"reinf_03" "AT infantry"}
+	{"reinf_04" "Medic"}
+	{"reinf_05" "Officer"}
+	{"reinf_06" "Panzergrenadiere"}
+	{"reinf_bonus" "Air raid"}
+	{"skirmish_flag_capture" "We have captured a strategic position!"}
+	{"skirmish_flag_recapture" "We have lost a strategic position to the enemy!"}
+	{"skirmish_reinf_arrive" "Reinforcements have arrived!"}
+	{"skirmish_reinf_bonus" "Finally! That will show them!"}
+	{"start" "Press \"Continue\" to start the battle!"}
+	{"timer" "<e(shadow)><c(ffff00)>Estimated arrival of the enemy's officer convoy"}
+	{"timerwarn" "<e(shadow)><c(ff4200)>Estimated arrival of the enemy's officer convoy"}
+}

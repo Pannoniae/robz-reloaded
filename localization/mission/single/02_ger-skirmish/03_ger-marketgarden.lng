@@ -1,0 +1,113 @@
+{tags
+	{"hint_1st_line" "The \"Veteran Tiger\" is a Tiger heavy tank manned by a battle-hardened crew. This is the best that Germany has to offer. Smash through the enemy lines and seize the day!"}
+	{"hint_blockade" "Each flag provides resources and grants access to new equipment. Try to capture and hold as many as possible."}
+	{"hint_bonus" "The \"Goliath\" is a small remote-controlled tracked mine, excellent for destroying fortified enemy positions. Alternatively, it can be hidden in cover, where it can wait for the unsuspecting enemy to stumble upon it."}
+	{"menu:1_0" "Infantry: 0 units"}
+	{"menu:1_1" "Infantry: 1 unit"}
+	{"menu:1_2" "Infantry: 2 units"}
+	{"menu:1_3" "Infantry: 3 units"}
+	{"menu:1_4" "Infantry: 4 units"}
+	{"menu:1_5" "Infantry: 5 units"}
+	{"menu:2_0" "Support: 0 units"}
+	{"menu:2_1" "Support: 1 unit"}
+	{"menu:2_2" "Support: 2 units"}
+	{"menu:2_3" "Support: 3 units"}
+	{"menu:2_4" "Support: 4 units"}
+	{"menu:2_5" "Support: 5 units"}
+	{"menu:3_0" "Armor: 0 units"}
+	{"menu:3_1" "Armor: 1 unit"}
+	{"menu:3_2" "Armor: 2 units"}
+	{"menu:3_3" "Armor: 3 units"}
+	{"menu:3_4" "Armor: 4 units"}
+	{"menu:3_5" "Armor: 5 units"}
+	{"menu:4_0" "Heavy: 0 units"}
+	{"menu:4_1" "Heavy: 1 unit"}
+	{"menu:4_2" "Heavy: 2 units"}
+	{"menu:4_3" "Heavy: 3 units"}
+	{"menu:4_4" "Heavy: 4 units"}
+	{"menu:4_5" "Heavy: 5 units"}
+	{"menu:back" "Return to menu"}
+	{"mission_1st_line" "Capture the first line of defense!"}
+	{"mission_2nd_line" "Capture the second line of defense!"}
+	{"mission_3rd_line" "Capture the third line of defense!"}
+	{"mission_all_flags" "Capture and hold all strategic positions to achieve victory and defeat the enemy!"}
+	{"officer_1st_line" "Brigade headquarters grants you additional resources (200 MP), and access to the \"Veteran Tiger\" as a reward for your progress!"}
+	{"officer_2nd_line" "Brigade headquarters grants you additional resources (500 MP) for your remarkable progress!"}
+	{"officer_3rd_line" "Brigade headquarters grants you additional resources (800 MP) for your fantastic progress, but prepare yourself for fierce enemy resistance!"}
+	{"officer_blockade_complete" "Great job! Armored vehicles are now at your disposal."}
+	{"officer_bonus" "Our enemies will soon falter and crumble in the face of these masterpieces of engineering!"}
+	{"outro_completed" "Excellent job! You've made the Fatherland proud!"}
+	{"outro_failed" "You have been defeated!"}
+	{"outro_start" ""}
+	{"player_money_000" "<e(shadow)>%1% MP  <c(e74236)>0%"}
+	{"player_money_005" "<e(shadow)>%1% MP  <c(e74236)>3%"}
+	{"player_money_010" "<e(shadow)>%1% MP  <c(e74236)>5%"}
+	{"player_money_015" "<e(shadow)>%1% MP  <c(e74236)>8%"}
+	{"player_money_020" "<e(shadow)>%1% MP  <c(e74236)>11%"}
+	{"player_money_025" "<e(shadow)>%1% MP  <c(e74236)>14%"}
+	{"player_money_030" "<e(shadow)>%1% MP  <c(e74236)>16%"}
+	{"player_money_035" "<e(shadow)>%1% MP  <c(e74236)>19%"}
+	{"player_money_040" "<e(shadow)>%1% MP  <c(e74236)>22%"}
+	{"player_money_045" "<e(shadow)>%1% MP  <c(e74236)>24%"}
+	{"player_money_050" "<e(shadow)>%1% MP  <c(e74236)>27%"}
+	{"player_money_055" "<e(shadow)>%1% MP  <c(e74236)>30%"}
+	{"player_money_060" "<e(shadow)>%1% MP  <c(e74236)>32%"}
+	{"player_money_065" "<e(shadow)>%1% MP  <c(e74236)>35%"}
+	{"player_money_070" "<e(shadow)>%1% MP  <c(e7c436)>38%"}
+	{"player_money_075" "<e(shadow)>%1% MP  <c(e7c436)>41%"}
+	{"player_money_080" "<e(shadow)>%1% MP  <c(e7c436)>43%"}
+	{"player_money_085" "<e(shadow)>%1% MP  <c(e7c436)>46%"}
+	{"player_money_090" "<e(shadow)>%1% MP  <c(e7c436)>49%"}
+	{"player_money_095" "<e(shadow)>%1% MP  <c(e7c436)>51%"}
+	{"player_money_100" "<e(shadow)>%1% MP  <c(e7c436)>54%"}
+	{"player_money_105" "<e(shadow)>%1% MP  <c(e7c436)>57%"}
+	{"player_money_110" "<e(shadow)>%1% MP  <c(e7c436)>59%"}
+	{"player_money_115" "<e(shadow)>%1% MP  <c(e7c436)>62%"}
+	{"player_money_120" "<e(shadow)>%1% MP  <c(e7c436)>65%"}
+	{"player_money_125" "<e(shadow)>%1% MP  <c(e7c436)>68%"}
+	{"player_money_130" "<e(shadow)>%1% MP  <c(4fe736)>70%"}
+	{"player_money_135" "<e(shadow)>%1% MP  <c(4fe736)>73%"}
+	{"player_money_140" "<e(shadow)>%1% MP  <c(4fe736)>76%"}
+	{"player_money_145" "<e(shadow)>%1% MP  <c(4fe736)>78%"}
+	{"player_money_150" "<e(shadow)>%1% MP  <c(4fe736)>81%"}
+	{"player_money_155" "<e(shadow)>%1% MP  <c(4fe736)>84%"}
+	{"player_money_160" "<e(shadow)>%1% MP  <c(4fe736)>86%"}
+	{"player_money_165" "<e(shadow)>%1% MP  <c(4fe736)>89%"}
+	{"player_money_170" "<e(shadow)>%1% MP  <c(4fe736)>92%"}
+	{"player_money_175" "<e(shadow)>%1% MP  <c(4fe736)>95%"}
+	{"player_money_180" "<e(shadow)>%1% MP  <c(4fe736)>97%"}
+	{"player_money_185" "<e(shadow)>%1% MP  <c(4fe736)>100%"}
+	{"reinf_01" "Infantry"}
+	{"reinf_02" "AT infantry"}
+	{"reinf_03" "Flamethrower infantry"}
+	{"reinf_04" "Sniper"}
+	{"reinf_05" "Panzergrenadiere"}
+	{"reinf_06" "Heavy MG"}
+	{"reinf_07" "sGrW 34 mortar"}
+	{"reinf_08" "FlaK 38"}
+	{"reinf_09" "PaK 38"}
+	{"reinf_10" "Supply truck"}
+	{"reinf_11" "SdKfz 222"}
+	{"reinf_12" "Wirbelwind"}
+	{"reinf_13" "PzKpfw IV Ausf.H"}
+	{"reinf_14" "StuG IV Ausf.G"}
+	{"reinf_15" "PzKpfw V Panther Ausf.G"}
+	{"reinf_16" "PzKpfw VI Tiger Ausf.E"}
+	{"reinf_17" "Panzerwerfer 42"}
+	{"reinf_18" "Jagdpanther"}
+	{"reinf_bonus" "Goliath"}
+	{"reinf_hero" "Veteran Tiger"}
+	{"skirmish_flag_capture" "We have captured a strategic position!"}
+	{"skirmish_flag_recapture" "We have lost a strategic position to the enemy!"}
+	{"skirmish_reinf_arrive" "Reinforcements have arrived!"}
+	{"skirmish_reinf_bonus" "Stand back! Our Goliath has arrived!"}
+	{"skirmish_reinf_hero" "Finally! With armor like this, no one can stop us! Let the enemy cower before the power of German engineering!"}
+	{"start" "Press \"Continue\" to start the battle!"}
+	{"date" "20th September 1944 "}
+	{"mission_blockade" "Capture the strategic position on the road into town, so we can bring in our armored support!"}
+	{"name" "[Germany] Market Garden"}
+	{"name_big" "Market Garden"}
+	{"officer_blockade" "The Americans have set up blockades to halt the advance of our Panzers, while they pursue their own objectives. Capture the strategic position on the road so we can bring in our Panzers and stop them dead in their tracks!"}
+	{"officer_start" "Thank goodness you've arrived, Herr Oberstleutnant! The Allies have launched a massive airborne operation, and if successful it will allow them to circumvent the entire Siegfried line and strike at the very heart of Germany! We must attack before they secure their objectives! Strike swiftly -- the eyes of Germany are upon you!"}
+	{"place" "Veghel, North of Son, Operation Market Garden"}
+}

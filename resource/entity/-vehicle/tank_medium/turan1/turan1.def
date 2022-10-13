@@ -1,0 +1,130 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/shadow/tank.inc"  scale(1.2))
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	{props "medium" "turret_rotator" "vision_vehicle_medium" "muzzle_minimum"}
+	
+	{volume "body1"
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "body2"
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "engine"
+		{component "engine"}
+;		{thickness 15}
+	}
+	{Volume "gun"
+		{component "gun"}
+		{tags "gun"}
+	}
+	{Volume "mantlet"
+		{component "mantlet"}
+		{tags "mantlet"}
+	}
+	{Volume "turret"
+		{component "turret"}
+		{tags "turret"}
+	}
+	
+	("armor_medium" turret(50 30 30 20) body(50 30 30 15))
+	("armor_engine"  t(20 20 35 13))
+	("armor_mantlet" t(50))
+
+
+		{extender "enumerator"
+		{digit_folder "ger"}
+	}
+	
+	("crew_5_human")
+
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_tank_left"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_right"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "armor"
+			{forward	{begin	"board_LowArmor"} 	{end "pose_seat_armor_1"}}
+			{reverse 	{end	"emit_tank_1"}}
+		}
+	}
+
+	("seat_human" place(seat1) bone(seat01) door(emit5)  animation(armor))
+	("seat_human" place(seat2) bone(seat02) door(emit6)  animation(armor))
+	("seat_human" place(seat3) bone(seat03) door(emit3)  animation(armor))
+	("seat_human" place(seat4) bone(seat04) door(emit4)  animation(armor))
+
+	{extender "inventory"
+		{box
+            {item "bullet40 ap" 61}
+            {item "bullet40 apcr" 5}
+            {item "bullet40 fg" 35}
+            {item "ammo 8x56" 3150}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "40mm_42M" filling "bullet40 ap" 1}
+			("abm_medium")
+		}
+		{place "mgun1"
+			{type "mgun_hull"}
+			{weapon "gebauer_optic" filled}
+			{foresight "foresight4"}
+			{gunner "gunner3"}
+			{charger "gunner3"}
+			("abm_mgun")
+		}
+		{place "mgun2"
+			{type "mgun_coaxial"}
+			{weapon "gebauer_optic" filled}
+			{foresight "foresight5"}
+			("abm_mgun")
+            		{basic}
+		}
+	}
+	{Extension "turan1.mdl"}
+
+	{mass 18200}
+	{Chassis
+		("tank_trace" fx("tracks_sm") step(0.3) len(0.13))
+		{Locomotion ("locomotion")
+			{Maxspeed   47}
+			{maxSpeedAtMaxTurn 4}
+			{StartTime  30}
+			{TurnTime   18}
+			{TurnStart  2}			
+			{TurnRadius 10} 
+    			{TurnStop   0.8}
+			{BrakeTime  1}
+			{StopTime   2}
+			{Gears   0.1 0.2 0.3 0.5 1}
+			{RearGears  0.24}
+		}
+		{FuelBag
+			{volume 400 }	
+			{rate	3.2 }   
+			{remain 400 }
+			{fuel "fuel"}
+		}
+		{speed
+        		{Normal  12}
+    		}
+	}
+
+	{bone "turret"
+		{speed2 8.5}
+	}
+	{bone "mantlet"
+		{speed 0.001}
+	}
+	
+}

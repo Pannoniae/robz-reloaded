@@ -1,0 +1,17 @@
+{game_entity
+	{Extension "44m_buzoganyveto_xx.mdl"}
+	{Volume "body"
+	}
+	{Volume "gun"
+	}
+	{Volume "gun2"
+	}
+	{Volume "part1"
+	}
+	{Volume "stanina"
+	}
+	{Volume "wheelleft"
+	}
+	{Volume "wheelright"
+	}
+}

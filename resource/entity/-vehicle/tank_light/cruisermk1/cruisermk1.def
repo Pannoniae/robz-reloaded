@@ -1,0 +1,144 @@
+{entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	{props "light" "turret_rotator" "vision_vehicle_medium" "muzzle_minimum" "switch_mgun_coax"}
+	
+	{volume "body1"
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "body2"
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "body3"
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "body4"
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "body5"
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "turret"
+		{component "turret"}
+	}
+	{volume "mgturret1"
+		{tags "mgturret1"}
+		{component "mgturret1"}
+		{thickness 14 0.2}
+	}
+	{volume "mgturret2"
+		{tags "mgturret2"}
+		{component "mgturret2"}
+		{thickness 14 0.2}
+	}
+	{component "mgturret1"
+		{RepairTime 30}
+	}
+	{component "mgturret2"
+		{RepairTime 30}
+	}
+	
+
+	("armor_medium" turret(14 12 14 4) body(14 10 10 7))
+	("eng_1-9x_sight")
+
+	("crew_6_human")
+
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_cromwell"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_cromwell"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "armor"
+			{forward	{begin	"board_highArmor"} 	{end "pose_seat_armor_1"}}
+			{reverse 	{end	"emit_tank_2"}}
+		}
+		{anm "armor1"
+			{forward	{begin	"board_lowArmor"} {end "pose_seat_armor_2"}}
+			{reverse 	{end	"emit_body"}}
+		}
+		{anm "armor2"
+			{forward	{begin	"board_lowArmor"} {end "pose_seat_armor_1"}}
+			{reverse 	{end	"emit_body"}}
+		}
+	}
+
+	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor1))
+	("seat_human" place(seat2) bone(seat02) door(emit4)  animation(armor))
+	("seat_human" place(seat3) bone(seat03) door(emit5)  animation(armor2))
+
+	{extender "inventory"
+		{box
+			{item  "ammo british303_belt" 3000}
+			{item "bullet40 eng ap" 100}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "40mm_oqf2pdr" filling "bullet40 eng ap" 1}
+			("abm_low")
+		}
+		{place "mgun"
+			{type "mgun_coaxial"}
+			{weapon "vickers_mgun" filled}
+			{basic}
+		}
+		{place "mgun1"
+			{type "mgun_hull"}
+			{weapon "vickers_mgun" filled}
+			{foresight "foresight4"}
+			{gunner "gunner3"}
+			{charger "gunner3"}
+		}
+		{place "mgun2"
+			{type "mgun_hull"}
+			{weapon "vickers_mgun" filled}
+			{foresight "foresight5"}
+			{gunner "gunner4"}
+			{charger "gunner4"}
+		}
+	}
+	
+	{mass 14200}
+	{Chassis
+		("tank_trace" fx("tracks_mid") step(0.53) len(0.32))
+		{Locomotion ("locomotion")
+			{MaxSpeed 	    25}
+			{maxSpeedAtMaxTurn 6}
+			{StartTime 		25}
+			{BrakeTime 		1.5}
+			{StopTime		 2.2}
+			{TurnRadius     	13}
+			{TurnTime		15}
+			{TurnStart		 3}
+			{TurnStop	   0.5}
+			{Gears 0.1 0.2 0.3 1.0}
+			{RearGears 0.25}
+		}
+		{FuelBag
+			{volume 327}
+			{rate   14}
+			{remain 327}
+			{fuel "fuel"}
+		}
+	}
+	{Extension "cruisermk1.mdl"}
+
+	{bone "gun_rot"
+		{speed 0.001}
+	}
+	{bone "turret"
+		{speed 0.003}
+	}
+}

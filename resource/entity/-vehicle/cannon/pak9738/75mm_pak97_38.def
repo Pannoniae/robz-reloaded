@@ -1,0 +1,85 @@
+{entity
+	(include "/properties/cannon.ext")
+	(include "/properties/shadow/tank.inc"  scale(0.6))
+	{props "vehicle" "cannon" "medium" "round_sandbag2" "wheeled" "vision_cannon_medium" "muzzle_medium"}
+	
+	{targetSelector "cannon_at"}
+
+	("armor_medium")
+	
+	("wheel" args "wheelright")
+	("wheel" args "wheelleft")
+
+	("crew_wheeled_gun")
+	{boarder
+		{anm "gunner"
+			{forward	{end "pose_pak40_gunlayer" 10}}
+		}
+		{anm "commander"
+			{forward	{end "pose_pak40_charger" 10}}
+		}
+		{anm "driver1"
+			{forward {end "cannon_pak40_pusher_left" 10}}
+		}
+		{anm "driver2"
+			{forward {end "cannon_pak40_pusher_right" 10}}
+		}
+		{anm "seat1"
+			{forward {end "pose_seat_cannon_left" 10}}
+		}
+		{anm "seat2"
+			{forward {end "pose_seat_cannon_right" 10}}
+		}
+	}
+
+	{extender "inventory"
+		{box
+			{item "ger_bullet75_pak97_38 ap" 10}
+			{item "ger_bullet75_pak97_38 heatb" 30}
+			{item "ger_bullet75_pak97_38 fg" 5}
+			{item "sandbag_kit2"}
+		}
+	}
+	{Weaponry
+		{place "gun"
+			{weapon "75mm_pak97_38" filling "ger_bullet75_pak97_38 ap" 1}
+			{RestoreIKAfterAim}
+			{Rotate}
+			("abm_field_gun")
+		}
+	}
+	{mass 1270}
+	{Extension "pak9738.mdl"}
+	(include "/properties/selection/cannon.inc"  scale(0.7))
+
+	{extender "cannon"
+		{animation
+			{switch "close"}
+			{move "cannon_pak40_pusher_left" "cannon_pak40_pusher_right"}
+			{aim "cannon_pak40_gunlayer" ""}
+			{fire  "Cannon_gunlayer_fire-alert" "Cannon_zis3_charger_fire 0.2"}
+			{reload  "" "cannon_pak40_charger"}
+		}
+		{move {obstacle "close"}}
+		{attack {obstacle "open"}}
+		{rotate_ik_Limit 0}
+	}
+
+	{Chassis "track"
+		("car_trace" fx("tracewheel05") step(0.07) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("loco_small")
+	}
+
+	{bone "basis"
+	      {limits}
+	}
+	{bone "turret"
+		{speed 0.005}
+		{limits -20 20}
+	}
+	{bone "gun_rot"
+		{speed 0.002}
+		{limits -18 5}
+	}
+
+}

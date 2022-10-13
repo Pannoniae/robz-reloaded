@@ -1,0 +1,55 @@
+{game_entity
+	(include "/properties/cannon_mgun.ext")
+	(include "/properties/shadow/tank.inc"  scale(0.3))
+	{collider "cannon_small"}
+	{props"cannon_small" "round_sandbag2" "vision_cannon_minimum" }
+
+	("armor_light")
+
+	{Weaponry
+		{place "mgun"
+			{weapon "8mm_schwarzlose" filled}
+		}
+	} 
+	{extender "inventory"
+		{box
+			{item "ammo mgun" 1000}
+		}
+	} 	
+	
+	{Extension "8_mm_schwarzlose_m_7_12.mdl"}
+	
+	{boarder
+		{anm "gunner"
+			{forward	{end "pose_vicers_gunner" 10}}
+		}
+		{anm "commander"
+			{forward	{end "lie_take_item_end" 10}}
+		}
+	
+	}
+
+	{sensor 
+		{visor "main" 
+			{vision "cannon_mgun"}
+			{bone "turret"}
+		}
+	}
+	
+	{extender "cannon"
+		{animation
+			{reload  "" "lie_take_small end lie_take_item_end"}
+		}
+		{move {obstacle "close"}}
+		{attack {obstacle "open"}}
+		{rotate_ik_Limit 0}
+	}
+
+	{Volume "body"
+		{tags "body"}
+		{able{obstacle 0}}
+		{thickness 1}
+		{component "body"}
+	}
+	{texmod "bo4"}
+}

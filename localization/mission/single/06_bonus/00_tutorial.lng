@@ -1,0 +1,103 @@
+{tags
+	{"date" "USA vs Japan"}
+	{"hint:ai_defence" "Snipers are an excellent means of taking out heavy enemy defenses such as machine guns and AT guns. Their accuracy and skill with long range fire are their greatest assets. Use cover and foliage wisely to hide your sniper from enemy detection, and remember that the enemy can re-crew his stationary guns."}
+	{"hint:ammo" "Tanks use 3 different type of ammunition. \"Armor piercing\" (AP) shells are designed for use against other tanks or armored targets, \"high explosive\" (HE) shells are useful against soft targets or fortifications, and \"armor piercing composite rigid\" (APCR) shells are typically used against heavily armored tanks in close combat."}
+	{"hint:at_grenades" "Your SMG infantry are equipped with AT grenades, which means that they are capable of destroying even the heaviest tanks -- if you can exploit the vulnerabilities in their armor. While the soft spot may vary from vehicle to vehicle, the engine is always a good place to aim for."}
+	{"hint:autoassign" "In cooperative gameplay mode, your troops will be shared with other players, and reinforcements will be automatically distributed to the player with the fewest number of units. If you wish to call-in a specific unit for your own usage, transfer your current units to your teammates by selecting your units and clicking on the icon at the top-right corner of the screen. This will cause a new unit to be assigned to you. Remember, you can press \"H\" for your message history, where you can read the previous hints."}
+	{"hint:bonus" "Bonus weapons and abilities are powerful additions to your army. Some may be off-map call-ins which can inflict devastating power. Use them wisely, for they are quite expensive."}
+	{"hint:cover" "Cover not only protects your soldiers from enemy fire, but also improves their accuracy. White silhouettes indicate possible cover zones. You can crouch by pressing \"Alt\" and crawl by pressing \"Shift + Q\". Pressing \"Q\" will bring your troops back to standing position."}
+	{"hint:defence" "After capturing your first line of strategic points, it's time to prepare some defenses to repel the enemy counterattack. You have an engineer truck at your base, which is perfectly equipped for this task, and you have a number of support units available. Naturally, AT guns are the best choice for holding off enemy armored attacks."}
+	{"hint:directcontrol" "When you have a unit selected, you can directly engage the enemy yourself. Just press \"E\" to enable or disable direct control. To fire, press the \"Left Mouse Button\", and you can switch to the secondary weapon with the \"Right mouse button\"."}
+	{"hint:hide" "Each individual soldier has a realistic field of view. Use this knowledge to your advantage to sneak up on your enemies. Hide in the foliage and hold your fire in order to sneak up to your enemies and overwhelm them in close combat."}
+	{"hint:medic_dead" "Your medic is down! Search his inventory for first aid supplies. Press \"V\" to highlight him, then select the unit and press \"X\" to search his inventory."}
+	{"hint:middleinterface" "The central tab is a customizable and flexible interface element. You can drag and drop your buttons from one slot to another with the \"Left Mouse Button\". You can move buttons from the right interface tab to the centre tab in the same fashion."}
+	{"hint:minimap" "You can enable or disable your minimap by pressing \"M\", and you can change the minimap options by clicking on the minimap icon in the left interface tab."}
+	{"hint:repair" "Once in a while you will notice that tanks are not entirely destroyed, but only damaged or abandoned. You can click on the \"repair\" icon in the right interface tab to repair your own tanks and even enemy tanks, provided the damage is not too severe. Sometimes enemy equipment can come in quite handy!"}
+	{"hint:revive" "Use your medic to revive your fallen soldiers!"}
+	{"hint:skirmish" "You are holding a strategic point on the battlefield. For each strategic point you control, your HQ rewards you with additional resources and access to better equipment. Remember that you can call in reinforcements using the right side menu. That menu will display the kinds of units you currently have available."}
+	{"hint:tanks" "The game employ a realistic armor and gun penetration system for tanks. Each tank has their own armor value and their own weak spots. Some guns are not strong enough to penetrate the enemy's armor, but can still disable tracks or other vulnerable components. When you are directly controlling your tank, green will mark when you can penetrate the opponent's armor, yellow when you can at least cause some damage, and red when any shots fired would be ineffective. However, since the game also calculates the impact angle of the projectile, you are always better off when hitting your enemy squarely."}
+	{"hint_1st_line" "Use AT guns and other defenses to cement your control of strategic points, and to repel enemy counterattacks. Remember to attack with caution, for your enemies will use similar strategies to repel your advance!"}
+	{"hint_blockade" "Try to capture and hold as many strategic points as possible."}
+	{"hint_bonus" "Naval bombardment is now available. Target an area to signal where you want your ships to unleash hell and fury."}
+	{"menu:1_0" "Infantry: 0 units"}
+	{"menu:1_1" "Infantry: 1 unit"}
+	{"menu:1_2" "Infantry: 2 units"}
+	{"menu:1_3" "Infantry: 3 units"}
+	{"menu:1_4" "Infantry: 4 units"}
+	{"menu:1_5" "Infantry: 5 units"}
+	{"menu:2_0" "Support: 0 units"}
+	{"menu:2_1" "Support: 1 unit"}
+	{"menu:2_2" "Support: 2 units"}
+	{"menu:2_3" "Support: 3 units"}
+	{"menu:2_4" "Support: 4 units"}
+	{"menu:2_5" "Support: 5 units"}
+	{"menu:3_0" "Armor: 0 units"}
+	{"menu:3_1" "Armor: 1 unit"}
+	{"menu:3_2" "Armor: 2 units"}
+	{"menu:3_3" "Armor: 3 units"}
+	{"menu:3_4" "Armor: 4 units"}
+	{"menu:3_5" "Armor: 5 units"}
+	{"menu:4_0" "Heavy: 0 units"}
+	{"menu:4_1" "Heavy: 1 unit"}
+	{"menu:4_2" "Heavy: 2 units"}
+	{"menu:4_3" "Heavy: 3 units"}
+	{"menu:4_4" "Heavy: 4 units"}
+	{"menu:4_5" "Heavy: 5 units"}
+	{"menu:back" "Return to menu"}
+	{"mission_1st_line" "Capture the first line of defense!"}
+	{"mission_2nd_line" "Capture the second line of defense!"}
+	{"mission_3rd_line" "Capture the third line of defense!"}
+	{"mission_all_flags" "Capture and hold all strategic positions to claim final victory against your enemy!"}
+	{"mission_blockade" "Clear the road block and capture the strategic position!"}
+	{"name" "Introduction"}
+	{"name_big" "Introduction"}
+	{"officer_01" "Captain, the Japanese are putting up fierce resistance on the beachhead. They're hiding like rats in the foliage, but their weapon flashes are giving away their positions. Aim for those flashes! I only wish we had more time to prepare you for this, but the war won't wait! Good luck!"}
+	{"officer_02a" "Excellent work! We have set up a field HQ that will allow you to call in reinforcements. The further you progress and the more strategic points you capture, the more units you will have access to!"}
+	{"officer_02b" "Your next target will be a road block that the Japanese have set up. Eliminate it and we can send you some motorized troops!"}
+	{"officer_1st_line" "HQ is rewarding your progress with  additional (200 MP) resources! You now also have Jeeps at your disposal."}
+	{"officer_2nd_line" "HQ is granting you additional resources (500 MP) for your remarkable progress!"}
+	{"officer_3rd_line" "HQ is granting you additional resources (800 MP) for your fantastic progress, but expect fierce enemy resistance ahead!"}
+	{"officer_bonus" "Our battleships will teach those Japanese that hiding behind their fortifications means certain doom!"}
+	{"officer_start" ""}
+	{"outro_completed" "Great job! You've made Uncle Sam proud!"}
+	{"outro_failed" "You have been defeated!"}
+	{"outro_start" ""}
+	{"place" "The Pacific, Tarawa"}
+	{"player_money_000" "<e(shadow)>%1% MP  <c(e74236)>0%"}
+	{"player_money_005" "<e(shadow)>%1% MP  <c(e74236)>6%"}
+	{"player_money_010" "<e(shadow)>%1% MP  <c(e74236)>12%"}
+	{"player_money_015" "<e(shadow)>%1% MP  <c(e74236)>18%"}
+	{"player_money_020" "<e(shadow)>%1% MP  <c(e74236)>24%"}
+	{"player_money_025" "<e(shadow)>%1% MP  <c(e74236)>29%"}
+	{"player_money_030" "<e(shadow)>%1% MP  <c(e74236)>35%"}
+	{"player_money_035" "<e(shadow)>%1% MP  <c(e7c436)>41%"}
+	{"player_money_040" "<e(shadow)>%1% MP  <c(e7c436)>47%"}
+	{"player_money_045" "<e(shadow)>%1% MP  <c(e7c436)>53%"}
+	{"player_money_050" "<e(shadow)>%1% MP  <c(e7c436)>59%"}
+	{"player_money_055" "<e(shadow)>%1% MP  <c(e7c436)>65%"}
+	{"player_money_060" "<e(shadow)>%1% MP  <c(4fe736)>71%"}
+	{"player_money_065" "<e(shadow)>%1% MP  <c(4fe736)>76%"}
+	{"player_money_070" "<e(shadow)>%1% MP  <c(4fe736)>82%"}
+	{"player_money_075" "<e(shadow)>%1% MP  <c(4fe736)>88%"}
+	{"player_money_080" "<e(shadow)>%1% MP  <c(4fe736)>94%"}
+	{"player_money_085" "<e(shadow)>%1% MP  <c(4fe736)>100%"}
+	{"reinf_01" "U.S. Marines"}
+	{"reinf_02" "AT infantry"}
+	{"reinf_03" "Flamethrower infantry"}
+	{"reinf_04" "Sniper"}
+	{"reinf_05" "Heavy MG"}
+	{"reinf_06" "M1 mortar"}
+	{"reinf_07" "M1 AT gun"}
+	{"reinf_08" "Supply truck"}
+	{"reinf_09" "Willys MB"}
+	{"reinf_10" "M5A1 Stuart"}
+	{"reinf_11" "LVT(A)-4"}
+	{"reinf_bonus" "Naval bombardment"}
+	{"skirmish_flag_capture" "We have captured a strategic position!"}
+	{"skirmish_flag_recapture" "We have lost a strategic position to the enemy!"}
+	{"skirmish_reinf_arrive" "Reinforcements have arrived!"}
+	{"skirmish_reinf_bonus" "Keep your heads down! Our ships are opening fire!"}
+	{"start" "Press \"Continue\" to start the battle!"}
+	{"start:beach" "Clear the beach of enemy troops!"}
+	{"start:flag1" "Capture the strategic position on the road!"}
+}

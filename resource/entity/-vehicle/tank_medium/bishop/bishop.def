@@ -1,0 +1,117 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc" scale(1.2))
+	{props "medium" "-turret" "vision_vehicle_high" "muzzle_large_nodust" "gun_mode_change_art"}
+	
+	{extender "enumerator"}	
+
+	{volume "body1"
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "body2"
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "body3"
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "body4"
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "body5"
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "engine"
+		{component "engine"}
+		{tags "engine"}
+	}
+
+	("armor_medium_custom" turret(40 40 22 12) body(60 60 60 22))
+	("eng_3x_sight")
+
+	("crew_4_human")
+
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_tank_left"} {end "seat_armor"}}
+			{reverse 	{end	"emit_tank_1"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_right"} {end "seat_gunner_stand"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+	}
+     
+
+	{extender "inventory"
+		{box
+			{item "bullet88 eng fg" 32}
+			{item "bullet88 eng ap" 10}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}			
+			{weapon "88mm_oqfmk2" filling "ammo bullet88 eng fg" 6}
+			{StationaryFiring}
+			("abm_howitzer")
+		}
+		{place "gun1_2"
+			{RestoreIKAfterAim}	
+			{type "gun_change_direct"}		
+			{weapon "88mm_oqfmk2_2"}
+			("abm_medium")
+			{basic}
+		}
+	}
+
+	{mass 7900}
+	{Chassis
+		("tank_trace" fx("tracks_sm") step(0.3) len(0.13))
+		{Locomotion ("locomotion")
+			{Maxspeed   21}
+			{maxSpeedAtMaxTurn 4}
+			{StartTime  30}
+			{TurnTime   18}
+			{TurnStart  2}			
+			{TurnRadius 10} 
+    		{TurnStop   0.8}
+			{BrakeTime  1}
+			{StopTime   2}
+			{Gears   0.1 0.2 0.3 1}
+			{RearGears  0.24}
+		}
+		{FuelBag
+			{volume 400 }	
+			{rate	32 }   
+			{remain 400 }
+			{fuel "fuel"}
+		}
+		{speed
+        	{Normal  10}
+        	{Slow  16}
+    	}
+		{DisableMoveWhileFiring}
+	}
+	{Extension "bishop.mdl"}
+	{bone "turret"
+		{limits -15 15}
+		{speed 0.0008}
+	}
+	{bone "gun_rot"
+		{limits -5 50}
+		{speed 0.0008}
+	}
+	(mod "mp"
+		{brain
+			{properties
+				{fire_mode hold}
+			}
+		}
+	)
+}

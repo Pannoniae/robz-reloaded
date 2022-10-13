@@ -1,0 +1,11 @@
+; Created with MS3D to GEM2 converter (c) 2010, by Dietger van Antwerpen
+
+{material bump
+	
+	{diffuse "$/model/pak97/x/pak9738_xx.dds" }
+	{bump "$/model/pak97/x/pak9738_bp.dds"}
+	{specular "$/model/pak97/x/pak9738_sp.dds"}
+	{color "230 230 230 76"}
+	{blend test}
+	{tile}
+}

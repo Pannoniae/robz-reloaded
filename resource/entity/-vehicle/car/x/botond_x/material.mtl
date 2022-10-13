@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "botond_x"}
+	{bump "$/model/botond_bp"}
+	{specular "$/model/botond_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

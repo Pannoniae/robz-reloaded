@@ -1,0 +1,153 @@
+{Entity
+	;© 2008 Zeke Wolff & Ngvede.
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	{props "medium" "-turret" "opened" "vision_vehicle_medium" "muzzle_large_sides"}
+	{targetSelector "tank_at"}
+
+	{collider "tank.medium"}
+
+	{volume "sticky"
+		{tags "grenade_fg_target"}
+		{able clear {contact} {touch}}
+		{component "sticky_body"}
+	}
+	{component "sticky_body"}
+
+	{volume "body1"
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "body2"
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "body3"
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "body4"
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "body5"
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "body6"
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "body7"
+		{component "body"}
+		{tags "body"}
+	}
+	
+	("armor_spa_medium" armor(50 20 20 10))
+	("ger_5x8_sight")
+
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_hummel_driver"} {end "seat_driver_moto"} {base "open_driver"}}
+			{reverse 	{end	"board_hummel_driver" -1} {base "open_driver" -1}}
+		}
+		{anm "charger"
+			{forward	{begin	"board_sd222_driver"} {end "pose_m5_charger"} {base "open_gunner"}}
+			{reverse 	{end	"emit_sd222_driver" } {base "close_gunner" -1}}
+		}
+		{anm "charger2"
+			{forward	{begin	"board_sd222_gunner_2"} {end "pose_m5_charger"} {base "open_commander"}}
+			{reverse 	{end	"emit_sd222_gunner_2" } {base "close_commander" -1}}
+		}
+		{anm "gunner"
+			{forward	{begin	"board_sd222_driver"} {end "pose_flak38-1_charger"} {base "open_gunner"}}
+			{reverse 	{end	"emit_sd222_driver" } {base "close_gunner" -1}}
+		}
+		{anm "commander"
+			{forward	{begin	"board_sd222_gunner_2"} {end "seat_willysat_driver" 10} {base "open_commander"}}
+			{reverse 	{end	"emit_sd222_gunner_2" } {base "commander" -1}}
+		}
+	}
+	
+	(define "crew_human"
+		{placer
+			{place "%place" {group "crew"} {linkbone "%place"} {turnoff {sensor} {shadow}}}
+		}
+		{boarder
+			{door "%door1"}
+			{door "%door2"}
+			{link "%door1" "%place" {anm "%place"} {forward putoff} {reverse puton}}
+			{link "%door2" "%place" {anm "%place"} {forward putoff} {reverse puton}}
+		}
+	)
+
+	{placer
+		{place "driver" {group "crew"} {visor "driver"}}
+	}
+	{placer
+		{place "gunner" {visor "main"}}
+	}
+	{boarder
+		{door "emit0"}
+		{door "emit1"}
+		{link "emit0" "driver" {anm "driver"} {forward putoff} {reverse puton}}
+	}
+
+	("crew_human" place(commander)	door1(emit1))
+	("crew_human" place(gunner)	    	door1(emit2))
+	("crew_human" place(charger)		door1(emit1))
+	("crew_human" place(charger2)	door1(emit2))
+
+	{extender "inventory"
+		{box
+			{item "ammo bullet105 ger apc" 20}
+			{item "ammo bullet105 ger fg" 5}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "105mm_K18" filling "ammo bullet105 ger apc"}
+		}
+	}
+
+
+	{mass 25000}
+	{Chassis
+		("tank_trace" fx("tracks_mid") step(0.52) len(0.7))
+		{Locomotion ("locomotion")
+			{MaxSpeed	 22}
+			{maxSpeedAtMaxTurn 4}
+			{StartTime	  50}
+			{TurnTime  	  23}
+    		{TurnStart  1.4} 
+    		{BrakeTime    1} 
+    		{StopTime     2} 
+    		{TurnRadius   8} 
+    		{TurnStop   0.8}
+     		{Gears  0.1 0.2 0.3 1}
+    		{RearGears 0.28}
+		}
+		{FuelBag
+			{volume 470 }	
+			{rate	36 }   
+			{remain 470 }
+			{fuel "fuel"}
+		}
+		{speed
+        	{Normal  10}
+        	{Slow  16}
+    	}
+	}
+
+	{Extension "dickermax.mdl"}
+	
+	{bone "turret"
+		{speed 0.001}
+	}
+	{bone "gun_rot"
+		{speed 0.001}
+	}
+}

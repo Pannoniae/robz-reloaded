@@ -1,0 +1,102 @@
+{Entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc" scale(1.2))
+	{props "heavy" "-turret" "opened" "vision_vehicle_medium" "muzzle_maximum"}
+	
+	("armor_spa_medium" armor(30 25 20 13))
+	
+	{boarder
+			{anm "driver"
+				{forward	{begin	"board_hummel_driver"} {end "seat_gunner_stand"} {base "open_driver"}}
+				{reverse 	{end	"board_hummel_driver" -1} {base "open_driver" }}
+			}
+			{anm "charger"
+				{forward	{begin	"board_hummel"} {end "pose_pak40_gunlayer"} {base "open_back_door"}}
+				{reverse 	{end	"emit_body" 1} {base "open_back_door" -1}}
+			}
+			{anm "gunner"
+				{forward	{begin	"board_hummel"} {end "pose_pak40_charger"} {base "open_back_door"}}
+				{reverse 	{end	"emit_body" 1} {base "open_back_door" -1}}
+			}
+			{anm "commander"
+				{forward	{begin	"board_hummel"} {end "pose_pak40_gunlayer"} {base "open_back_door"}}
+				{reverse 	{end	"emit_body" 1} {base "open_back_door" -1}}
+			}
+	}
+	
+	(define "crew_human"
+			{placer
+				{place "%place" {group "crew"} {linkbone "%place"} {turnoff {sensor} {shadow}}}
+			}
+			{boarder
+				{door "%door1"}
+				{door "%door2"}
+				{link "%door1" "%place" {anm "%place"} {forward putoff} {reverse puton}}
+				{link "%door2" "%place" {anm "%place"} {forward putoff} {reverse puton}}
+			}
+	)
+	
+	{placer
+		{place "driver" {group "crew"} {visor "driver"}}
+	}
+	{placer
+		{place "gunner" {visor "main"}}
+	}
+	{boarder
+			{door "emit0"}
+			{door "emit1"}
+			{link "emit0" "driver" {anm "driver"} {forward putoff} {reverse puton}}
+	}
+
+	("crew_human" place(commander)	door1(emit1))
+	("crew_human" place(gunner)	door2(emit2))
+	("crew_human" place(charger)	door1(emit1))
+	
+	{extender "inventory"
+		{box
+		      	{item "usa_bullet240_m1 fg" 12}
+		}
+	}
+	{Weaponry
+		{place "gun"
+			{weapon "240mm_M1" filling "usa_bullet240_m1 fg"}
+			{StationaryFiring}
+			("abm_howitzer")
+		}
+	}
+	{Extension "t92.mdl"}
+	
+	{mass 58000}
+	{Chassis
+		("tank_trace" fx("tracks_mid") step(0.52) len(0.56))
+		{Locomotion ("locomotion")
+			{MaxSpeed	24}
+			{maxSpeedAtMaxTurn 4}
+			{StartTime	60}
+			{TurnTime	22}
+			{TurnStart  1.9} 
+    			{BrakeTime  2}
+     			{StopTime   3} 
+    			{TurnRadius 10} 
+    			{TurnStop   0.8}
+			{Gears 0.1 0.2 0.3 0.5 1}
+    			{RearGears  0.2} 
+		}
+		{FuelBag
+			{volume 690 }
+			{rate	5 }
+			{remain 690 }
+			{fuel "fuel"}
+		}
+		{speed
+        		{Normal  10}
+    		}
+	}
+
+	{brain
+		{properties
+			{fire_mode hold}
+		}
+	}
+
+}

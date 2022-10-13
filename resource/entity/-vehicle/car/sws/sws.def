@@ -1,0 +1,74 @@
+{game_entity
+	;© 2008 Zeke Wolff & Ngvede.
+	(include "/properties/car.ext")
+	(include "/properties/selection/vehicle.inc"  scale(1.0))
+	{props  "vehicle" "car" "tractor" "wheeled" "explosion_throw_crew"  "vision_vehicle_medium"}
+	{collider "truck"}
+	("armor_medium" args 1.0)
+	(include "crew.ext")
+
+	("wheel" args "wheelright1")
+	("wheel" args "wheelleft1")
+	("tracks")
+
+	{volume "body"
+		{tags "body"}
+		{component "body"}
+		{thickness 15}   
+	}
+	{volume "engine"
+		{thickness 5}
+	}
+	{Volume "bodyback"
+		{component "body"}
+		{thickness 8}
+	}
+	{volume "cabin"
+		{tags "cabin"}
+		{component "cabin"}
+		{thickness 15}
+	}
+	{Volume "fuel"
+		{thickness 15}
+	}
+	{Volume "wheelleft1"
+		{component "wheelleft1"}
+	}
+	{Volume "wheelright1"
+		{component "wheelright1"}
+	}
+	{Volume "trackright"
+		{component "trackright"}
+	}
+	{Volume "trackleft"
+		{component "trackleft"}
+	}
+
+
+	{mass 13500}
+	{Chassis
+		{Locomotion ("locomotion")
+			{MaxSpeed	17}
+			{maxSpeedAtMaxTurn 9}	
+			{StartTime	10}
+			{BrakeTime	1.5}	
+			{StopTime	2.5}
+			{TurnRadius	8}
+		}
+		{FuelBag
+			{volume 240}
+			{rate	24} 
+			{remain 240 }
+			{fuel "fuel"}
+		}
+		{speed
+        		{Normal  15}
+    		}
+		; left track must be first
+		("tank_trace" fx("tracks_mid") step(0.5) len(0.86) boneleft("FXtraceL2") boneright("FXtraceR2"))
+		("car_trace" fx("tracewheel02") step(0.09) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+	}
+	
+	
+	{Extension "sws.mdl"}
+}

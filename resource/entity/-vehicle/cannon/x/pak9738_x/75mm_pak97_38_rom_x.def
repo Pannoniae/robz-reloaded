@@ -1,0 +1,7 @@
+{game_entity
+	{Extension "pak9738_x.mdl"}
+	{Volume "wheelright"
+	}
+	{Volume "wheelleft"
+	}
+}

@@ -1,0 +1,113 @@
+{tags
+	{"date" "5th July 1943"}
+	{"menu:1_0" "Infantry: 0 units"}
+	{"menu:1_1" "Infantry: 1 unit"}
+	{"menu:1_2" "Infantry: 2 units"}
+	{"menu:1_3" "Infantry: 3 units"}
+	{"menu:1_4" "Infantry: 4 units"}
+	{"menu:1_5" "Infantry: 5 units"}
+	{"menu:2_0" "Support: 0 units"}
+	{"menu:2_1" "Support: 1 unit"}
+	{"menu:2_2" "Support: 2 units"}
+	{"menu:2_3" "Support: 3 units"}
+	{"menu:2_4" "Support: 4 units"}
+	{"menu:2_5" "Support: 5 units"}
+	{"menu:3_0" "Armor: 0 units"}
+	{"menu:3_1" "Armor: 1 unit"}
+	{"menu:3_2" "Armor: 2 units"}
+	{"menu:3_3" "Armor: 3 units"}
+	{"menu:3_4" "Armor: 4 units"}
+	{"menu:3_5" "Armor: 5 units"}
+	{"menu:4_0" ""}
+	{"menu:4_1" ""}
+	{"menu:4_2" ""}
+	{"menu:4_3" ""}
+	{"menu:4_4" ""}
+	{"menu:4_5" ""}
+	{"menu:back" "Return to menu"}
+	{"mission_attack" "Attack the fortified position and capture it!"}
+	{"mission_defend" "Repel the enemy and stall their advance!"}
+	{"mission_defend_east" "Defend the Eastern strategic position."}
+	{"mission_defend_hq" "Defend our field HQ."}
+	{"mission_defend_north" "Defend the Northern strategic position."}
+	{"mission_defend_west" "Defend the Western strategic position."}
+	{"mission_prepare_player" "Prepare to repel the major enemy assault!"}
+	{"name" "[Soviet Union] Kursk"}
+	{"name_big" "Kursk"}
+	{"officer_10min" "We are holding out! Continue and our reinforcements will arrive soon!"}
+	{"officer_20min" "Reports indicate our reinforcements are on the way. Keep it up, we have to defend our position at all costs!"}
+	{"officer_25min" "Our reinforcements are almost here. Don’t give up! We must smash our enemies... for Mother Russia!"}
+	{"officer_lostflag_1" "We can’t hold, we are losing our forward outpost. We request reinforcements!"}
+	{"officer_lostflag_2" "We are losing ground. Germans have overrun another forward position! We can’t keep this up... we must stop them!"}
+	{"officer_lostflag_3" "Retreat! They have taken all forward positions, we must fall back to our field HQ!"}
+	{"officer_lostflag_recapture" "Excellent counter-attack! All strategic positions have been recaptured! You are a tactical genius!"}
+	{"officer_start" "Comrade Commissar, thank goodness you’ve arrived... The German 4th Tank Army is preparing for a major assault on Kursk. Command has granted limited resources, but we must defend our position at all costs!"}
+	{"officer_start2" "Our defense sector is split into four strategic points. We can afford to lose some of them, but the field HQ must remain ours at all costs. The longer we hold out the more reinforcements HQ will grant us. Our armored divisions are already moving in and we are promised a swift counter-attack if we hold out!"}
+	{"officer_start_attack" "Comrade Commissar! Forward observers report a major enemy movement ahead. The assault has begun, so prepare yourself to defend Kursk. The Motherland cannot fall!"}
+	{"outro_completed" "Great job! You've achieved a glorious victory for the Motherland!"}
+	{"outro_failed" "You have been defeated!"}
+	{"outro_start" ""}
+	{"place" "Soviet Union, West of Kursk"}
+	{"player_money_000" "<e(shadow)>%1% MP  <c(e74236)>0%"}
+	{"player_money_005" "<e(shadow)>%1% MP  <c(e74236)>5%"}
+	{"player_money_010" "<e(shadow)>%1% MP  <c(e74236)>10%"}
+	{"player_money_015" "<e(shadow)>%1% MP  <c(e74236)>14%"}
+	{"player_money_020" "<e(shadow)>%1% MP  <c(e74236)>19%"}
+	{"player_money_025" "<e(shadow)>%1% MP  <c(e74236)>24%"}
+	{"player_money_030" "<e(shadow)>%1% MP  <c(e74236)>29%"}
+	{"player_money_035" "<e(shadow)>%1% MP  <c(e74236)>33%"}
+	{"player_money_040" "<e(shadow)>%1% MP  <c(e7c436)>38%"}
+	{"player_money_045" "<e(shadow)>%1% MP  <c(e7c436)>43%"}
+	{"player_money_050" "<e(shadow)>%1% MP  <c(e7c436)>48%"}
+	{"player_money_055" "<e(shadow)>%1% MP  <c(e7c436)>52%"}
+	{"player_money_060" "<e(shadow)>%1% MP  <c(e7c436)>57%"}
+	{"player_money_065" "<e(shadow)>%1% MP  <c(e7c436)>62%"}
+	{"player_money_070" "<e(shadow)>%1% MP  <c(e7c436)>67%"}
+	{"player_money_075" "<e(shadow)>%1% MP  <c(4fe736)>71%"}
+	{"player_money_080" "<e(shadow)>%1% MP  <c(4fe736)>76%"}
+	{"player_money_085" "<e(shadow)>%1% MP  <c(4fe736)>81%"}
+	{"player_money_090" "<e(shadow)>%1% MP  <c(4fe736)>86%"}
+	{"player_money_095" "<e(shadow)>%1% MP  <c(4fe736)>90%"}
+	{"player_money_100" "<e(shadow)>%1% MP  <c(4fe736)>95%"}
+	{"player_money_105" "<e(shadow)>%1% MP  <c(4fe736)>100%"}
+	{"player_money_110" "<e(shadow)>%1% MP  <c(4fe736)>100%"}
+	{"player_money_115" "<e(shadow)>%1% MP  <c(4fe736)>100%"}
+	{"player_money_120" "<e(shadow)>%1% MP  <c(4fe736)>100%"}
+	{"player_money_125" "<e(shadow)>%1% MP  <c(4fe736)>100%"}
+	{"player_money_130" "<e(shadow)>%1% MP  <c(4fe736)>100%"}
+	{"player_money_135" "<e(shadow)>%1% MP  <c(4fe736)>100%"}
+	{"player_money_140" "<e(shadow)>%1% MP  <c(4fe736)>100%"}
+	{"player_money_145" "<e(shadow)>%1% MP  <c(4fe736)>100%"}
+	{"player_money_150" "<e(shadow)>%1% MP  <c(4fe736)>100%"}
+	{"player_money_155" "<e(shadow)>%1% MP  <c(4fe736)>100%"}
+	{"player_money_160" "<e(shadow)>%1% MP  <c(4fe736)>100%"}
+	{"player_money_165" "<e(shadow)>%1% MP  <c(4fe736)>100%"}
+	{"player_money_170" "<e(shadow)>%1% MP  <c(4fe736)>100%"}
+	{"player_money_175" "<e(shadow)>%1% MP  <c(4fe736)>100%"}
+	{"player_money_180" "<e(shadow)>%1% MP  <c(4fe736)>100%"}
+	{"player_money_185" "<e(shadow)>%1% MP  <c(4fe736)>100%"}
+	{"reinf_01" "Infantry"}
+	{"reinf_02" "AT infantry"}
+	{"reinf_03" "Combat engineers"}
+	{"reinf_04" "Sniper"}
+	{"reinf_05" "Marines"}
+	{"reinf_06" "DShK Heavy MG"}
+	{"reinf_07" "BM-37 mortar"}
+	{"reinf_08" "61-k M1939"}
+	{"reinf_09" "ZIS-2"}
+	{"reinf_10" "Supply truck"}
+	{"reinf_11" "T-60"}
+	{"reinf_12" "ZiS-30"}
+	{"reinf_13" "T-34/76"}
+	{"reinf_14" "SU-76"}
+	{"reinf_15" "KV-1S"}
+	{"reinf_16" "SU-152"}
+	{"reinf_17" "SU-122"}
+	{"reinf_18" "Radio Operator"}
+	{"reinf_19" "Allied Infantry"}
+	{"reinf_20" "Guards Rifle"}
+	{"skirmish_flag_capture" "We have captured a strategic position!"}
+	{"skirmish_flag_recapture" "We have lost a strategic position to the enemy!"}
+	{"skirmish_reinf_arrive" "Reinforcements have arrived!"}
+	{"start" "Press \"Continue\" to start the battle!"}
+}

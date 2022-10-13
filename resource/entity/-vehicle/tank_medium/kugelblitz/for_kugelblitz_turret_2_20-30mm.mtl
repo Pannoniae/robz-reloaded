@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "Kugelblitz_20-30mm"}
+        {specular "$/model/kugelblitz/Kugelblitz_20-30mm_SM"}
+	{color "229 229 229 128"}
+	{blend test}
+}
+;三者炮塔共用的一部分

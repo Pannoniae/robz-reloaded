@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "pziv_ausfg"}
+        {specular "$/model/kugelblitz/pziv_ausfg_SM"}
+	{color "229 229 229 128"}
+	{blend test}
+}

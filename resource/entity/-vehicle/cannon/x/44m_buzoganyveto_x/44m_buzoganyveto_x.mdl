@@ -1,0 +1,98 @@
+;Exported by: Sergey
+;Date:        Sat Jun 16 10:06:53 2018
+;File:        D:\Documents\3dsmax\scenes\_resource_MoW\cannon\44M Buzoganyveto\44M Buz_x.max
+{Skeleton
+	{bone revolute "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Position -2.88831	-0.0174069	3.31391}
+			{VolumeView "body.ply"}
+			{bone "pivot_front"
+				{parameters "ID=body;"}
+				{Matrix34
+					1	0	0
+					0	0	1
+					0	-1	0
+					2.89227	0.011756	-0.338238
+				}
+				{VolumeView "pivot_front.ply"}
+				{bone revolute "wheelright"
+					{parameters "ID=wheelright;Support=1;Radius=0.19;"}
+					{Position 0	0	4.91663}
+					{VolumeView "wheelright.ply"}
+				}
+				{bone revolute "wheelleft"
+					{parameters "ID=wheelleft;Support=1;Radius=0.19;"}
+					{Matrix34
+						1	0	0
+						0	1	0
+						0	0	-1
+						0	0	-4.90676
+					}
+					{VolumeView "wheelleft.ply"}
+				}
+			}
+			{bone revolute "turret"
+				{parameters "ID=body;"}
+				{limits -30 30}
+				{speed 0.01}
+				{Position -0.0373545	0.0204689	2.37061}
+				{VolumeView "turret.ply"}
+				{bone revolute "gun_rot"
+					{Matrix34
+						1	0	0
+						0	0	1
+						0	-1	0
+						0.0181851	0.980751	2.07802
+					}
+					{VolumeView "gun_rot.ply"}
+					{bone "gun"
+						{parameters "ID=gun;"}
+						{Matrix34
+							0	0	1
+							0	1	0
+							-1	0	0
+							-8.90131	1.76188	-1.87229
+						}
+						{VolumeView "gun1.ply"}
+					}
+					{bone "gun2"
+						{parameters "ID=gun;"}
+						{Matrix34
+							0	0	1
+							0	1	0
+							-1	0	0
+							-8.89404	1.76188	3.85224
+						}
+						{VolumeView "gun2.ply"}
+					}
+				}
+				{bone "shield"
+					{parameters "ID=shield;"}
+					{Matrix34
+						0.981871	0.189552	0
+						0	0	1
+						0.189552	-0.981871	0
+						-4.60774	7.37527	3.11939
+					}
+					{VolumeView "shield.ply"}
+				}
+			}
+			{bone "stanina"
+				{parameters "ID=stanina;"}
+				{Matrix34
+					1	0	0
+					0	0	1
+					0	-1	0
+					-3.59069	-0.109528	-1.65346
+				}
+				{VolumeView "stanina.ply"}
+			}
+		}
+	}
+}

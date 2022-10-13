@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/kugelblitz/sturmpanzer_ii"}
+	{blend test}
+}

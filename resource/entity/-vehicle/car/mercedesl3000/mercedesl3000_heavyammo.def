@@ -1,0 +1,42 @@
+{entity
+	(include "mercedesl3000.inc")
+
+	{extender "inventory"
+		{box
+		{size 10 12}
+               	{clear}
+			{item "bullet105" "ap" "ammo" 30 {cell 0 0}}
+			{item "bullet105" "fg" "ammo" 30 {cell 5 0}}
+
+			{item "ger_bullet88_kwk43 ap" 40 {cell 0 1}}
+			{item "ger_bullet88_kwk43 fg" 40 {cell 5 1}}
+
+			{item "ger_bullet88_flak18 apcbc" 40 {cell 0 2}}
+			{item "ger_bullet88_flak18 fg" 40 {cell 5 2}}
+
+			{item "ger_bullet76_pak36 ap" 50 {cell 0 3}}
+			{item "ger_bullet76_pak36 fg" 50 {cell 5 3}}
+
+			{item "ger_bullet75_kwk42 ap" 50 {cell 0 4}}
+			{item "ger_bullet75_kwk42 fg" 50 {cell 5 4}}
+
+			{item "ger_bullet75_pak40 ap" 50 {cell 0 5}}
+			{item "ger_bullet75_pak40 fg" 50 {cell 5 5}}
+
+			{item "ger_bullet75_kwk40 ap" 50 {cell 0 6}}
+			{item "ger_bullet75_kwk40 fg" 50 {cell 5 6}}
+
+			{item "ger_bullet75_pak97_38 ap" 50 {cell 0 7}}
+			{item "ger_bullet75_pak97_38 fg" 50 {cell 4 7}}
+			{item "ger_bullet75_pak97_38 heatb" 15 {cell 0 8}}
+			{item "ger_bullet75_pak97_38 heatb" 15 {cell 4 8}}
+
+			{item "bullet75" "ap" "ammo" 50 {cell 0 9}}
+			{item "bullet75" "ap" "ammo" 50 {cell 5 9}}
+			{item "bullet75" "fg" "ammo" 50 {cell 0 10}}
+			{item "bullet75" "fg" "ammo" 50 {cell 5 10}}
+			{item "bullet75" "heat" "ammo" 15 {cell 0 11}}
+			{item "bullet75" "heat" "ammo" 15 {cell 5 11}}
+		}
+	}
+}

@@ -1,0 +1,118 @@
+{tags
+	{"mission_option_select1" "Choose your mission customizations!"}
+	{"mission_option1" "Skip stealth mission part"}
+	{"date" "USA vs Germany"}
+	{"menu:1_0" "Infantry: 0 units"}
+	{"menu:1_1" "Infantry: 1 unit"}
+	{"menu:1_2" "Infantry: 2 units"}
+	{"menu:1_3" "Infantry: 3 units"}
+	{"menu:1_4" "Infantry: 4 units"}
+	{"menu:1_5" "Infantry: 5 units"}
+	{"menu:2_0" "Support: 0 units"}
+	{"menu:2_1" "Support: 1 unit"}
+	{"menu:2_2" "Support: 2 units"}
+	{"menu:2_3" "Support: 3 units"}
+	{"menu:2_4" "Support: 4 units"}
+	{"menu:2_5" "Support: 5 units"}
+	{"menu:3_0" "Armor: 0 units"}
+	{"menu:3_1" "Armor: 1 unit"}
+	{"menu:3_2" "Armor: 2 units"}
+	{"menu:3_3" "Armor: 3 units"}
+	{"menu:3_4" "Armor: 4 units"}
+	{"menu:3_5" "Armor: 5 units"}
+	{"menu:back" "Return to menu"}
+	{"mission_enemylightpost" "Destroy the German early warning radar station!"}
+	{"mission_killaaguns0" "Eliminate Anti-Aircraft guns! <c(e74236)>0/5 neutralized"}
+	{"mission_killaaguns1" "Eliminate Anti-Aircraft guns! <c(e74236)>1/5 neutralized"}
+	{"mission_killaaguns2" "Eliminate Anti-Aircraft guns! <c(e74236)>2/5 neutralized"}
+	{"mission_killaaguns3" "Eliminate Anti-Aircraft guns! <c(e74236)>3/5 neutralized"}
+	{"mission_killaaguns4" "Eliminate Anti-Aircraft guns! <c(e74236)>4/5 neutralized"}
+	{"mission_killaaguns5" "Eliminate Anti-Aircraft guns! <c(4fe736)>5 neutralized"}
+	{"mission_killcoastguns0" "Destroy German coastal batteries! <c(e74236)>0/4 destroyed"}
+	{"mission_killcoastguns1" "Destroy German coastal batteries! <c(e74236)>1/4 destroyed"}
+	{"mission_killcoastguns2" "Destroy German coastal batteries! <c(e74236)>2/4 destroyed"}
+	{"mission_killcoastguns3" "Destroy German coastal batteries! <c(e74236)>3/4 destroyed"}
+	{"mission_killcoastguns4" "Destroy German coastal batteries! <c(4fe736)>4/4 destroyed"}
+	{"mission_officer" "Kill the German officer doing the rounds along the shoreline!"}
+	{"mission_final" "Hold the beach against all German counter-attacks!"}
+	{"mission_arty0" "Neutralize the German artillery guns! <c(e74236)>0/4 destroyed"}
+	{"mission_arty1" "Neutralize the German artillery guns! <c(e74236)>1/4 destroyed"}
+	{"mission_arty2" "Neutralize the German artillery guns! <c(e74236)>2/4 destroyed"}
+	{"mission_arty3" "Neutralize the German artillery guns! <c(e74236)>3/4 destroyed"}
+	{"mission_arty4" "Neutralize the German artillery guns! <c(4fe736)>4/4 destroyed"}
+	{"mission_air" "Destroy the enemy interceptors!"}
+	{"mission_monster" "Destroy the enemy prototype tank!"}
+	{"mission_finish" "Eliminate all traces of the enemy!"}
+	{"name" "[USA] Normandy"}
+	{"name_big" "Normandy"}
+	{"officer_start" "Major, welcome to the waters of Normandy. Your objective is to infiltrate the shoreline ahead of our airborne operations."}
+	{"officer_start2" "The Germans have installed a radar station somewhere near the lighthouse. In addition there is a number of AA guns protecting the coast. Destroy all of them and you will be able to safely call-in paratrooper reinforcements."}
+	{"officer_enemy_aa_killnote" "One less Jerry AA gun to worry about!"}
+	{"officer_enemy_cb_killnote" "Great job! Every destroyed coastal battery means fewer problems for our fleet!"}
+	{"officer_enemy_arty_killnote" "Excellent! The German artillery guns near the coast have been silenced!"}
+	{"officer_enemy_lightpost_kill" "Excellent! You have eliminated the German early warning radar station!"}
+	{"officer_enemy_lightpost_seen" "An enemy watch-post has been alerted!"}
+	{"officer_start_attack" "Looks like we caught them asleep. Stay undetected for as long as possible to avoid waking them up!"}
+	{"officer_stick_to_obj" "Major, focus on your objectives, the Germans have plenty of reinforcements nearby!"}
+	{"officer_enemy_aa_killall" "Congratulations you have neutralized all enemy anti-aircraft guns!"}
+	{"officer_paradrop" "Major, you can now call-in an Airborne squad at any location of your choice!"}
+	{"officer_enemy_coastbattery" "Before our ships can arrive and start the offensive we must disable the German high calibre gun batteries as well as the artillery guns near the coast. Check your objectives for their locations!"}
+	{"officer_enemy_cb_killall" "Great job getting rid of those coastal batteries! We've established communications with our fleet. Naval bombardment will be available to you momentarily!"}
+	{"officer_enemyofficer" "Our intelligence has received information of a German high ranking officer doing inspection of the shore near your location. Take him out!"}
+	{"officer_enemyofficerkilled" "Good job! Without their officer their defenses won't be half as good!"}
+	{"officer_money_for_veh_kill" "The battalion will grant you additional resources for every destroyed enemy armoured vehicle, tank or cannon!"}
+	{"officer_warning_enemy_plane" "Enemy planes! Quick we must find a way to shoot them down!  (Alt: We must find a way to shoot them down quickly!) Paratrooper call-ins are unavailable until all enemy planes are dealt with!"}
+	{"officer_monster_tank" "Woah! What the hell is that!?! Look at that behemoth of a tank, we must destroy it!"}
+	{"officer_monster_tankdead" "Impressive!"}
+	{"officer_enemy_plane_down1" "German plane down!"}
+	{"officer_enemy_plane_down2" "Great shooting! Enemy planes are dealt with for the time being. HQ informed us that our airborne support is available again!"}
+	{"warning_artillerycall" "The location you marked for artillery is out of bounds for targeting. Please call-in artillery on a new location!"}
+	{"officer_arty_called" "Keep your heads down! Our ships are opening fire!"}
+	{"officer_lostflag_left" "We lost our west beach outpost. Without it we cannot access infantry reinforcements!"}
+	{"officer_lostflag_right" "We are losing ground! For as long as our east beach point is in enemy hands we cannot call-in armoured reinforcements!"}
+	{"officer_final" "Major, we are tasked to protect the beach from enemy counter attacks! Hold our middle location at all costs! Keep control of our flanks to ensure a safe stream of reinforcements."}
+	{"officer_finishthem" "HQ informed us that enemy reinforcements lines have been cut off inland. Destroy any remnants of the German division."}
+	{"outro_completed" "Great job! You've made Uncle Sam proud!"}
+	{"outro_failed" "You have been defeated!"}
+	{"outro_start" ""}
+	{"place" "Normandy, France - near Cherbourg"}
+	{"player_money_000" "Progress: <c(e74236)>0%"}
+	{"player_money_005" "Progress: <c(e74236)>5%"}
+	{"player_money_010" "Progress: <c(e74236)>10%"}
+	{"player_money_015" "Progress: <c(e74236)>15%"}
+	{"player_money_020" "Progress: <c(e74236)>20%"}
+	{"player_money_025" "Progress: <c(e7c436)>25%"}
+	{"player_money_030" "Progress: <c(e7c436)>30%"}
+	{"player_money_035" "Progress: <c(e7c436)>35%"}
+	{"player_money_040" "Progress: <c(e7c436)>40%"}
+	{"player_money_045" "Progress: <c(e7c436)>45%"}
+	{"player_money_050" "Progress: <c(e7c436)>50%"}
+	{"player_money_055" "Progress: <c(4fe736)>55%"}
+	{"player_money_060" "Progress: <c(4fe736)>60%"}
+	{"player_money_065" "Progress: <c(4fe736)>65%"}
+	{"player_money_070" "Progress: <c(4fe736)>70%"}
+	{"player_money_075" "Progress: <c(4fe736)>75%"}
+	{"player_money_080" "Progress: <c(4fe736)>80%"}
+	{"player_money_085" "Progress: <c(4fe736)>85%"}
+	{"player_money_090" "Progress: <c(4fe736)>90%"}
+	{"player_money_095" "Progress: <c(4fe736)>95%"}
+	{"player_money_100" "Progress: <c(4fe736)>100%"}
+	{"reinf_air" "Air strike"}
+	{"reinf_arty" "Naval bombardment"}
+	{"reinf_paradrop" "Airborne paradrop"}
+	{"reinf_01" "Infantry"}
+	{"reinf_02" "Rangers"}
+	{"reinf_03" "Ammo paradrop"}
+	{"reinf_04" "M16"}
+	{"reinf_05" "M18 Hellcat"}
+	{"skirmish_flag_capture" "We have captured a strategic position!"}
+	{"skirmish_flag_recapture" "We have lost a strategic position to the enemy!"}
+	{"skirmish_reinf_arrive" "Reinforcements have arrived!"}
+	{"skirmish_reinf_bonus" "Finally! That will show them!"}
+	{"hint_lightpost" "In order to destroy the radar you may have to use explosives such as tnt or satchels. Check your soldiers, dead enemy bodies and any vehicles as they may contain those items. Alternatively, there maybe a way to use captured vehicle or gun to destroy it if necessary."}
+	{"hint_start_attack" "Enemies will only attack you when they are able to see you. If necessary, fall back to hide and enemy troops may give up searching for you."}
+	{"hint_seen_counter" "Be careful, making too much noise could alert more enemies. Do not let them stumble over dead bodies either."}
+	{"hint_enemy_targets" "To destroy the enemy cannons, vehicles or guns use explosive devices such as AT-grenades and dynamite. You can even capture enemy guns."}
+	{"timer" "Hold the coast and fight off the German counter-attack"}
+	{"timerwarn9" "Hold the coast and fight off the German counter-attack"}
+}

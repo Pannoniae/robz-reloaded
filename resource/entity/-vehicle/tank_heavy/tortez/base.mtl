@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "tortez"}
+	{bump "$/model/tortez_bp"}
+	{specular "$/model/tortez_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

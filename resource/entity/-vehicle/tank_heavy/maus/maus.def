@@ -1,0 +1,152 @@
+{game_entity	
+	(include "/properties/tank_addon.ext")
+;	(include "/properties/shadow/tank.inc"  scale(1.3))
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	{collider "tank.heavy"}
+	{props "heavy" "turret_rotator" "vision_vehicle_maximum" "muzzle_large" "cupola"}
+	{tag "maus"}
+
+	{extender "enumerator"
+		{digit_folder "ger"}
+	}
+	{Volume "body1"
+		{tags "body"}
+		{component "body"}
+	}
+	{Volume "body2"
+		{tags "body"}
+		{component "body"}
+	}
+	{Volume "gun"
+		{tags "gun"}
+		{component "gun"}
+	}
+	{Volume "mantlet"
+		{tags "mantlet"}
+		{component "mantlet"}
+	}
+	{Volume "turret"
+		{tags "turret"}
+		{component "turret"}
+	}
+	{volume "engine"
+		{tags "engine"}
+		{component "engine"}
+	}
+
+
+	("armor_heavy" turret(240 210 210 120) body(240 185 178 105) body1(240 185 178 105) body2(240 185 160 105))
+	("armor_engine"  t(30 30 30 65))
+	("armor_mantlet" t(400))
+
+	("crew_6_human")
+
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_Kv"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_right"} {end "pose_mgun_pz6"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+
+		{anm "armor"
+			{forward	{begin	"board_HighArmor"} 	{end "seat_armor"}}
+			{reverse 	{end	"emit_tank_2"}}
+		}
+		{anm "armor1"
+			{forward	{begin	"board_HighArmor"} {end "seat_armor"}}
+			{reverse 	{end	"emit_body"}}
+		}
+	}
+	{sensor		
+		{visor "top"
+			{vision "vehicle_top_mgun"}
+			{bone "visor3"}
+		}
+	}
+	
+	
+	{extender "inventory"
+		{box
+			{item "bullet128 ger apcbc" 22}
+			{item "bullet128 ger fg" 10}
+			{item "bullet75 ger apcbc" 50}
+			{item "bullet75 ger fg" 50}
+			{item "ammo mg_mauser belt" 2000}
+			{item "mg42" filled {user "mgun"}}
+			{item "barrel" 2 filling "fuel" 500}
+		}
+	}
+	
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "128mm_kwk44" filling "ammo bullet128 ger apcbc" 1}	
+			("abm_medium")
+                }
+		{place "gun2"
+			{type "gun"}
+			{weapon "75mm_kwk40" filling "ammo bullet75 ger apcbc" 1}
+			{foresight "foresight2"}
+			{gunner "gunner1"}
+			{charger "charger1"}
+			("abm_medium")
+			{basic}
+		}
+		{place "mgun"
+			{type "mgun_aa"}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{LinkBone "mgun_rot"}
+			{LinkAnimation "off"}
+			("abm_mgun")
+			{basic}
+		}
+		{place "mgun2"
+			{type "mgun_coaxial"}
+			{weapon "mg34_optic" filled}
+			{foresight "foresight5"}
+			("abm_mgun")
+			{basic}
+		}
+	}
+	
+	{mass 188000}
+	{Chassis
+		("tank_trace" fx("tracks_big") step(0.47) len(2.2))
+		{Locomotion ("locomotion")
+			{MaxSpeed	13}
+			{maxSpeedAtMaxTurn 2}
+			{StartTime	70}
+			{TurnTime	60}
+			{TurnStart  2.5} 
+    			{BrakeTime  3.5}
+     			{StopTime   4.0} 
+    			{TurnRadius 16} 
+    			{TurnStop   1.2}
+			{Gears  0.1 0.2 0.3 1} 
+    			{RearGears  0.1 0.2}
+		}
+		{FuelBag
+			{volume 2700 }
+			{rate	168}
+			{remain 2700 }
+			{fuel "fuel"}
+		}
+		{speed
+			{Fast	13}  
+      			{Normal 8}
+        		{Slow	4}
+    		}
+	}
+	{Extension "maus.mdl"}
+	{bone "turret"
+		{speed 0.0012}
+	}
+	{bone "gun_rot"
+		{speed 0.0005}
+	}
+}

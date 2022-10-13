@@ -1,0 +1,906 @@
+maps:
+- carentan 3x3 combat
+- beachland
+
+maybe/later shit::::
+- make shells detonate after certain thicknesses (with HE filler ofc)
+- sturmpionere with skill 5? explosives and flamethrowers, minedetector,mines
+;ger-elite-ss skin with mp40/stg44;;; this is old skin now fuck dat
+- brandenburgers SP? 4SP? 12 man squad, 1mg, 2 carriers pzfaust 150, 80 range
+- more british SP in 1942, ffs arty
+- maybe make rarity based MP mode?
+- make big smoke when nebel/panzerwerfer/rocket arty fires
+- pomerania mission, blue soviets
+
+more prioritized shit::::
+- add anzac? bearly used in ww2, maybe not
+- fix the US mortar halftrack somehow; this shit doesnt fucking work, fuck that shit, fag truck
+- add new voices for infantry types , paras,fallschirm,rangers..etc..
+- add more SP in early years, blitzkrieg for ger?
+- add random postwar tanks for fun shit? MAYBE
+- reduce blood pit size/visibility?
+- turn off engine after fuel runs out? not possible? check the movement activation, check all components
+- german army SP, volksgren sturm company? 2 sturm squads, 1 heavy sturm
+- german army SP, fortress MG battalion?, MGs, pschreck teams, mortars
+- add hydraulic/electric turret drives?, test code under vet panther in interaction
+- make SS das reich squad?
+- edit bren carrier and hellcat so guys dont stick out?
+- add fallschirms models, file called shrek the third, its in my laptop currently
+- mortar hits in water make big fx?
+- make US pacific variant
+- edit some gun sounds? combine sounds with audacity?
+- change resupply values, inf ammo should be worth less, later than 1.24.2
+- make karl pre 42 variant with only heavy HE, do this later than 1.24.2
+- make pre 42 variant of british ml3 mortar with less range, do this later than 1.24.2
+- move ger mortar halftrack to arty menu, do this later than 1.24.2
+
+
+- seperate explosive load for 100/105mm HE shells
+- new US army uniforms and 101st airborne? and rangers
+- maps by rexpw622, awaiting
+- possible to make the airdrop not tilt at an angle when standing in non flat terrain? like the mg42 lafette; no idea what property this is
+- gsm 30/50 brownings are sitting tripods; not a "addition", just notes that it exists if needed
+- bug with artillery, while in barrage u can turn off the "engine" and it cant move
+
+
+- US and british skins update
+- force crash related to human spawning of gore parts?
+- uber reverse of halftracks? dont know why;; i know why but gay fix
+- increase sniper cost for semi compared to bolt
+- rename sturmtiger
+- IS3 model is not correct
+- bedford truck has no idle sound
+- individual SS and wehr flag doesnt show anything
+- add rings to other vet king tiger skins
+- redo pen of kwk40 L/43 according to ww2 ballistics
+- change the min pen range to simulate more close combat pens?
+- nerf hetzer mobility? low hp/ton compared to tiger, panzerIV, stug3
+- nerf 240mm call-in
+- add grass mod see how it fits in?
+- WP doesnt make detonate FX in water
+- add minesweepers tanks to frontlines
+
+
+- reduce panzergren skill for wehrmacht to skill 4, maybe not?
+- add SS Sturmpioneere to urban warfare doctrine?
+- change SS camo to all use smocks?
+- armor and arty doctrine special needs to be added, armor done for test
+- add the agro AI into the main mod?
+- localization for hit/penetration messages, russian guy wants to translate
+- was thinking of something with random variation camo, how it can be fixed per inf man, forgot it
+- add command tank with negative CP and maybe a new invisible gun ontop to call in things?
+- test "spreadtolerance" maybe it forces AI to stop firing after certain recoil, nop
+- M10 wolverine to combined arms
+- edit tiger 2 sound?
+- redo some speeds to make turning more realistic of certain tanks, like sherman
+
+- redo tank code? new fx, new events, new components, ammo chance modifiers per tank, crew chance modifiers
+- new advanced localization stats: range, penetration, accuracy; done for tank and arty guns
+
+
+- elite tank crew SP buy?
+- ppsh drum and stick mag change; no it fucks shit up
+- sniper ace?
+- add full auto to single MG units, non tanks
+- elite jumbo for doctrines?
+- SS pak40 into a single pak40?
+- add sdkfz231 with pzb 41, maybe not?
+- add special formations including many units but at around 30% discount from the individual cost, 50% for company formations?
+--- write amount of vehicles and amount of discount % in the unit name
+- increase fuel useage?
+- add infantry carrying AT gun rounds, to all anti-tank guns?not to all
+- british airlanding squad? just 7 men squad, 1 sniper (sometimes replaced with PIAT), 2 rifles, 1 bren, 3 sten
+- british light paratrooper squad? 1 bren and 1 sniper, 2inch mortar, rest enfields except mortar and SL
+- unlink paradrop from other elites in MP
+- check new maps from the map packs
+- winter fx?
+
+- add binocs with less range? use sniper skill maybe?
+- redo winter FX, done small
+- add grenadier pzb39? gsm?
+- add 2.8cm sPzB?
+- fix all MIP issues and entity names in crash logs
+- fix water graphics
+- reduce static weapon setup time? test code in np_pak40
+- bm31 in all settings over 1 hour timer? no?
+- some tanks run around in circles, probably cus destroyed tag is added too early
+
+- different vision stats for recon soldiers?
+- AT guns set up time, script it?
+- turret hitbox of staghound and e1
+
+- other rare vehicles high charge timer?
+
+
+- do some testing with spread accuracy
+- british 76mm field gun? only used early war;;; add M8
+- brit SP super officer HQ truck? too much effort
+- type2 smg to jap elites? no, too rare and not very different
+
+- make flares trigger on objects? NO, it can be abused to spawn up to 4 arty strikes with 1 bullet
+- gun and turret jamming on hit? mantlet pen?
+;;;;;- stuh to 4sp?
+- flame tank range decrease?
+- body armor mechanic redo?
+-- add towing vehicles;;;; normal trucks work
+- easter egg unit?
+
+
+- increase CP cost of elite tiger/IS; max range is reworked so maybe not
+- diagnostics button to show all damage?
+- add sequence units?
+- add more sequencer units
+- check all cumulative values for HEAT projectiles
+- add damage effect to new hedges?
+
+DUN - add panzerfaust to ger halftrack
+DUN - add M15 WP grenade to US?
+DUN - add more late war SS squads, sturm variants
+DUN - redo SS delay connections?
+DUN - increase price of M36? by 50
+DUN - decrease price of pershing and jumbo76 by jumbo 1150 to 900, pershing 1450 to 1250
+DUN - add satchels to all US airborne?
+DUN - increase velocity of stuh HE
+DUN - add explode code to flamers
+DUN - increase range of aircontroller from 150 to 250, resupply cost reduced
+DUN - reduce price of slow , low pen autocannons
+DUN - changed some HMG tripod prices
+DUN - reduced price of some AA vehicles and shorter start time
+DUN - timer on paratrooper platoon?
+DUN - remove all bonus from HEAT to sideskirts
+DUN - small timer and price changes, ostfront top inf is not connected
+DUN - vet tank crew is now only commander
+
+
+timers redesign
+sec:	600		700		800		900		1000		1100		1200		1300		1400		1500		1600		1700		1800		1900	
+US	M4-6-m10	-6-m18				M4 76mm						m36		m36b1/m26							superP
+Brit	crom-6-m10	660churchix			archer-6-comet					achilles	-2-firefly	elite comet			elite achilles	elite firefly
+Rus	t-34-76				-6-su85		t-34-85/kv85					is-1										is2 43-6-is2
+Ger	-6-pz4g		-6-pz4										tiger/pz5							-2-nashorn	jpz5		pz6b/p/jtiger
+SS	-6-pz4g		-6-pz4				pz4vet-6-tiger					vet tiger			pz5										pz6b
+ger2			pz4g		pz4		pz756								-2-pz6/5									pz6p		pz6b
+
+
+edited difference from AP range
+57mm M1, 10m
+75mm type5, 10m
+76mm M5/M1A1, 10m
+76mm l11/f32,34/zis3/zis5, 10m
+76mm QF, 10m
+77mm HV, 10m
+85mm zis53, 10m
+88mm flak/kwk, 20m
+90mm M3, 10m
+90mm M15, 10m
+100mm D10, 10m
+122mm D25/A19, 10m
+
+
+
+
+ram .8 ::: startup:1056,,,,multiplayer menu:1233-1248,,,,lobby:1280,3320-3361
+ram .9 ::: startup:1040,,,,multiplayer menu:1133-1146,,,,lobby:1157 w/wavemode and doctrines
+ram .9 ::: startup:1058,,,,multiplayer menu:1062-1073,,,,lobby:1096-1130
+ram .9 ::: startup:1056,,,,multiplayer menu:1079-1099,,,,lobby:1099,3173-3208
+
+
+
+open mowas_2.exe with WinHex, 
+search for "AUeCondition" to browse all CONDITIONs within the game engine.
+
+2.2
+2.17
+
+1.85
+1.84 start
+1.8
+
+ram test: warfare 2 map
+ultra and all filtering max
+all nations
+3,49
+3,4 - 3,5
+
+
+[21:21]
+Normand:
+	Hi
+	Should we try to change KT P 'mantlet' volume onto 'turret3' volume.
+	{Volume "turret3"	
+		{Polyhedron "mantlet.vol"}	
+		{Bone "turret"}
+	And setup ("armor_heavy" turret(180 80 80 40)..
+
+
+
+NEW MAPS TO ADD, later
+maps from mappack?
+6v6 okinawa? has 3v3 too
+5v5 tobruk_airfield?
+5v5_siegfried?
+3v3 soviet_valley?
+3v3 frozenriver winterwar?
+3v3 easttern ej ph?
+hotel on hill?
+
+old bosy
+- fix music and weather for warfares map
+DUN - anzac multi, greece 5v5, and later frontline map?
+- anzac single nz, crete-atk 2v2?
+- anzac single aus, africa-atk 4v4 + remix
+DUN - ger, uman 3 3v3
+DUN - ger, bulge 4v4 + remix
+- ger, foy 2v2, bit larger map us, bulge attack
+DUN - us, utah-armr (low q) 3v3, 4v4? + remix
+DUN - us, bulge defend, 5v5 + remix
+
+special formations:
+UK carrier platoon
+12 + 1 HQ carriers
+4 2inch mortar
+4 PIAT
+rifle platoon: 1 piat per 3 squad
+airlanding platoon: 1 piat per3squad, 1 sniper in other 2 squads
+
+weapons platoon:
+2 MG
+3 60mm mortar
+
+airborne:::., check it
+
+rifles:
+3x 12man squads, all grenadiers
+1st squad, 1sniper,2 BAR
+2nd squad, 1 bazooka, 2 BAR,1 sniper
+3rd squad, 1 bazooka, 2 BAR
+total:3 SL, 3 Gren, 6 BAR, 6 asst, 2 sniper, 2bazooka,14 rifle
+
+armored rifles:
+5x halftracks
+3x 10man squads,lead team has sniper,grenadier ,1x BAR, all garands
+1 sl, 1 gren, 1 bar, 7rifle (6 in leader, 1 sniper)
+2 Machineguns
+1 60mm mortar
+
+
+guards SPs;;;
+dual KV-85s
+elite iS-2
+elite t-34-85, metal shields model
+officer?
+elite sniper team
+defensive support 2x zis-2 and 2x DShK_stank
+heavy guards mortar platoon, 2x guards 120mm
+sg-43 platoon
+"hold the line" defensive equipment like US one, with no mortars
+
+add recon squad, 5smg, 1 rifle...2pps,3ppsh
+
+veteran/elite arty guns in SP? with truck extra, ML20 howitzer maybe?
+
+
+inf score,cp
+-us rifle grenadier
+-mgun_asst
+-elite6_asst
+-elite3_asst
+-elite3b_asst
+
+elite tiger2 camos:(dünkelgelb base with dünkelbraun and dünkelgrün/olivegrün stripes)
+
+;;;;;;;;;;;;;; veteran/elite stats, stats can change depending on heavy or light units
+veteran arty -40% reload time
+veteran AT -20% reload time, +10% stealth, -10% turn time, +0.003 turn speeds
+elite AT -40% reload time, +20% stealth, -20% turn time, +0.006 turn speeds
+veteran -15% starttime +0.03 gear, -15% reload, -10% turn time, +0.0001 turret speed, +0.0002 gun speed
+elite -25% starttime +0.06gear, -30% reload,-20% turn time,+0.0002 turret speed, +0.0004 gun speed
+
+Skins for ostfront::
+ger-hauptmann ; for veteran officer; nevermind its SS uniform
+ger-zelt ; for jäger
+add m40_camo_foliage, and m40_camo for gebirgsjäger or jäger
+
+
+ostfront veteranen:::---------------------------
+- entity stats------------
+dun jagdtiger
+dun elefant
+dun nashorn
+
+- structure---------------
+dun mg34_stan
+dun sdkfz138/1 grille
+dun t34-85-beute
+
+- localization------------
+dun stormtrooper specialized squads
+dun mg34_stan
+many weapons, check set/gun folder, including small arms
+
+- sound/interaction-------
+dun kfz15 idle sound
+dun sdkfz250/1
+dun sdkfz250/11
+dun sdkfz7
+dun sdkfz7/2
+dun sdkfz234/1
+dun sdkfz234/3
+dun sdkfz234/4
+dun elefant
+dun nashorn (add tags in entity.def file for many duped units)
+dun jagdtiger
+dun sdkfz8 flak
+
+
+;-----------------------------------------------
+
+- add new skins
+;SKIN THINGS:::
+DUN - british para/sas
+DUN - british para/sas camo helmet
+- ger fallschirm, lacks eyes
+DUN - ger fallschirm camo helmet
+
+
+- 1 sp units
+- add elite jumbo and vet sherman entities?
+- add special call ins for doctrines, like stuka dive bomb?
+- fix many things in error log
+
+- remote detonated demo charge?
+- add working smoke, mortar/rocket rounds collide with the smoke??
+--- small WP: 2m radius
+--- medium WP: 6m radius
+--- big WP: 8m radius
+--- WP: 4m radius
+--- medium smoke: 8m radius
+--- big smoke: 10m radius
+
+
+
+map changes
+- big desert town crash 4v4 to 3v3;; still crashes?
+- railway 3v3 to 2v2
+dun- remove new shattered, included in vanilla
+DUN- stlo crash 4v4 to 3v3
+DUN - foggy woods 4v4 to 3v3
+DUN - remove overlord 3v3
+
+map sizes:::
+DUN - leningrad REMOVE
+DUN - elsas lothringen REMOVE
+DUN- french community 4v4 to 3v3
+DUN- ostfront 4v4 to 3v3
+DUN- road to takama 4v4 to 3v3
+DUN- seaside 4v4 to 2v2
+DUN- wetland 4v4 to 3v3
+DUN- spaetbugunder 4v4 to 3v3
+DUN- train station 4v4 to 3v3
+DUN- summer fields 4v4 to 3v3
+DUN- alamo 4v4 to 3v3
+DUN- trun 4v4 to 3v3
+DUN- helishoop 4v4 to 3v3
+DUN- couldron 5v5 to 3v3
+DUN- derna 5v5 to 3v3
+DUN- nikolaev 5v5 to 3v3
+DUN- ostwind 5v5 to 4v4
+DUN- province 5v5 to 3v3
+DUN- red flag 5v5 to 3v3
+DUN- rochefort 5v5 to 3v3
+DUN- romania 5v5 to 3v3
+DUN- country roads 5v5 to 4v4
+DUN- river 5v5 to 3v3
+DUN- bir hachel 5v5 to 3v3
+DUN- warfare 5v5 to 4v4
+DUN- rauray 6v6 to 4v4
+DUN- june 6v6 to 5v5
+DUN- december 6v6 to 5v5
+DUN- poland 6v6 to 4v4
+DUN- kharkov 6v6 to 4v4
+DUN- russia 6v6 to 4v4
+DUN- desert hills 6v6 to 4v4
+DUN- coastal town 8v8 to 3v3
+DUN - airfield REMOVE
+DUN- port 8v8 to 6v6
+DUN- disaster 8v8 to 5v5
+
+
+doctrines:   light vehicles     heavy light and mortar	medium vehicles	   heavy art/AT		   heavy vehicles     end vehicles (tiger 2..etc..)
+game times; 7min/420sec Early, 10min/600sec Early-Mid, 15min/900sec Mid, 20min/1200sec Mid-Late, 25min/1500sec Late, 30min/1800sec Endgame
+	    5min/300sec:halftracks/37-50mm AT guns
+		times can have +- 100sec depending on power of the unit
+
+
+guards rifle squad: 1 PPSh41 ldr, 3 PPS-43, 2 SVT-40, 1 DP-27, 4 mosin ; 11 men -regular rifles have this setup too, 4smg,2auto,4mosin
+guards smg squad: 5 PPSh41 + ldr, 5 PPS-43
+43 squad, 4smg, 1svt40, 2dp27, 2mosin
+
+
+remix maps:
+dun - 8v8 desert walk,vanilla
+dun - 6v6 rauray, 2 remix possible
+dun - 6v6 medvedovka
+dun - 6v6 june
+dun - 6v6 general winter
+dun - 6v6 river valley
+dun - 6v6 hunting,vanilla
+dun - 6v6 dubovka,vanilla
+dun - 6v6 desert hills
+dun - 6v6 december
+dun - 5v5 ostwindrmx
+dun - 5v5 brettevilette
+dun - 5v5 breakthrough
+dun - 5v5 big desert town
+dun - 4v4 wetland
+dun - 4v4 tessel
+dun - 4v4 st lo
+dun - 4v4 town, vanilla
+dun - 3v3 bastogne town
+
+dun - remove 4v4 seek and destroy
+
+
+- radiomen::::::::::
+mortar: 5 shots, 20shell-barrage, 300mp
+105mm: 5 shots, 12shell-barrage, 450mp
+155mm: 5 shots, 6shell-barrage, 550mp
+240mm: 5 shots, 3shell-barrage, 700mp
+
+
+DUN - change sherman loadouts to 20% AP, 70% HE, 10% smoke;;; 76mm 30% AP, 70% HE
+DUN ^or not, 55HE, 43AP, 6WP`?  A3:104 shells, A1:88 shells, M4:97 shells
+DUN M36 got 11 HE, 33 AP, 3 APCR
+DUN M10 got 13 HE and 36 AP and additonal 3 smoke; fuck chem smoke, replaced with AP/HE
+DUN sherman 76 got 39 HE and 28 AP
+
+- experiment with multirole guns, basicly have 2 bones with 2 guns that can be hidden/shown;
+indirect ranges:
+105mm M4= 11270m / 380m
+90mm M3	= 17373m / 580m
+76mm M1 = 13400m / 450m
+75mm M3 = 10236m / 340m
+
+IF adding US Pacific
+- replace marines with US 1st infantry division
+in pacific there was:
+US army, US rangers, marines, marine raiders, US army paras, paramarines
+
+- graphic settings with blood? make blood entity like craters which dissapear?
+- buff japan
+
+
+ maps need fixing; reduce max player count to working amount
+DUN - prokorovka 6v6 crashs on big AZ, crash 5v5 and up
+DUN - brettville 5v5 check if spawns are fucked on 4v4 and up? crash 4v4 and up
+DUN - some 6v6 vanilla map, the river and island in mid soviet map, flags fucked
+DUN - russy 5v5 not work AZ, check player count, crash 4v4 and up
+DUN - minsk 6v6, crash in 4v4 and up
+DUN - tessel 4v4 gsm, crash in 4v4
+unfixable; elzas4x4, remove BZ
+
+
+kwk37----
+7.5cm Gr.38 HL 		= 52mm pen, 1940
+7.5cm Gr.38 HL/A 	= 81mm pen, 1941
+7.5cm Gr.38 HL/B	= 87mm pen, 1942
+7.5cm Gr.38 HL/C	= 100mm pen, 1943
+kwk40----
+7.5cm Gr.38 HL/B	= 87mm pen, 1942
+7.5cm Gr.38 HL/C	= 100mm pen, 1943
+le.ig----
+7.5cm IGr.38
+
+10.5cm Gr.39 HL/C	= 115mm pen
+
+-------------------------------------------------------
+arty pricing;;		caliber		range	special shells	transport w/ammo	price/self propelled	old price
+--light arty---
+25 pdr			88mm		410m	none		no			400/600			625
+
+--medium arty---
+m2a1l			105mm		380m	WP,HEAT		no			550/850			670
+BL 45			114mm		600m	none		no			650			700
+Le.FH 18		105mm		350m	HEAT		no			500/800			650
+type 91			105mm		360m	none		no			500			660
+m30			122mm		390m	WP		no			600			700
+
+--heavy arty---
+m114			155mm		500m	WP,AP		no			800			850
+m12			155mm		650m	WP,AP		self-prop		850/1250		1100
+long tom		155mm		790m	WP,AP		no			1000			950
+BL 6			152mm		350m	none		no			650			720
+long tom (UK)		155mm		790m	WP,AP		no			1000			950
+S.FH 18			150mm		440m	none		no			750/1150		820
+type 96			150mm		400m	none		no			700			800
+ML-20			152mm		580m	none		no			875			880
+D-1			152mm		410m	none		no			725			790
+
+--super heavy arty---	
+BL 7.2 inch		183mm		600m	none		no			1100
+m115			203mm		560m	none		no			1100			1150
+Mörser 18		210mm		560m	none		no			1150			1100
+B-4			203mm		600m	none		no			1200			1200
+BR-5			280mm		370m	heavy HE	no			1500			1500
+karl			600mm		310m	heavy HE	no			1600			1600
+
+--rocket arty---	ex load		range	special shells	rockets in mag/reload	price/self propelled	old price
+land mattress		3,18kg		320m	-		32/330sec		750			900
+nebel 41 15cm		2,5kg		310m	smoke		6/180sec		450			500
+nebel 41 28cm/stuka	49,9kg		250m	incendiary	6/250sec		900/1500		900/1300
+panzerwerfer		2,5kg		310m	smoke		10/240sec		650			850
+bm-8-24			0,5kg		300m	-		24/250sec		500			700
+bm-8-48			0,5kg		300m	-		48/350sec		650			
+bm-13-16		4,9kg		330m	-		16/300sec		850			900
+bm-31-12		28,9kg		280m	-		12/330sec		1250
+m4a3 calliope		1,95kg		270m	-		60/400sec		900			950
+-------------------------------------------------------
+mortar pricings;
+;light mortars		range	   	speical shells		new price	old price
+5cm GrW.36		110m		---			150		250
+2-inch Mk.II		110m		WP			170		250
+60mm M2			155m		WP			220		250
+
+;medium mortars
+8cm GrW.34		180m		---			320		350
+81mm M1			195m,160m	WP, heavy HE		385		350
+3inch Ml3		180m		WP			340		350
+82mm BM-37		195m		---			350		350
+90mm type 97		220m		---			390		350
+
+;heavy mortars
+4.2inch M2		230m		WP			600		450
+4.2inch Mk.II		220m		WP			620		450
+12cm SGrW.42		300m		---			670		450
+120mm PM-38		290m		incendiary, HE-frag	690		450
+150mm type97		220m		---			590		500
+200mm type4		190m		---			700		600
+
+--------------------------------------------------------
+tigers explosive worth
+AP shell = 0.9; 	1,8 + 1,2 = 3 energy
+APCR shell = 0.9;	0,9 + 1 = 1,9 energy
+HEAT/HE shell = 5.5;	6,325 + 1,2 = 7,525 energy
+AP x 43 = 129
+HE x 41 = 308,525
+APCR x 2 = 3,8
+HEAT x 5 = 37,625
+dynamite = 21
+total 	= 499,95 energy	;138,8% overload
+			*3.32 times higher explosive chances
+			*3.54 times higher spall explosive chances
+59% chance of explosion hit in hull by own gun
+53% chance of explosion by spalling from 150-155 HE
+
+panther G explosive worth
+AP shell = 		1,72 + 1,2 = 2,92 energy
+HE shell =		3,68 + 1,5 + 1,2 = 6,38 energy
+APCR shell =		0,86 + 1 = 1,86 energy
+AP x 37 = 108,04
+HE x 41 = 261,58
+APCR x 4 = 7,44
+dynamite = 21
+total	= 398,06 energy ;132,6% overload
+			*3.32 times higher explosive chances
+			*3.54 times higher spall explosive chances
+43% chance of explosion hit in hull by own gun
+88% chance of explosion by spalling from 150-155 HE
+---------------------------------------------------------
+grenades	weight  	filler  	range in-game	explosive
+
+pattern= range 25m, TNT=1 3.25-6.5 , TNT=0.1 8-8	real life average throw is 20-30m
+
+F1		600g		60g,big frag	22m	1,1 4.5-8			0,55 at 6.25m| 0,27 at 7.125m
+M24		595g,stick	170g,small frag	27m	1,3 2-4.5 | 0.5 3.5-8.5 	0,65 at 3.25m| 0,25 at 6m
+M39		230g		112g,small frag	30m	1,2 2-4 | 0.5 3-7.5		0,6  at 3m   | 0,25 at 5.25m
+Mk2		595g		52g,big frag	22m	1,1 4.3-7.8			0,55 at 6.05m| 0,27 at 6.925m
+mills		765g		70g,big frag	19m	1,1 5-9				0,55 at 7m   | 0,27 at 8m
+Type97		450g		65g,small frag	24m	1,0 3.5-6.5			half at 5m
+Type99		300g		58g,small frag	27m	1,0 3.3-6.3
+--------------------
+rifle grenades		range		weight	filler & pen	in-game range	spread		ex force ingame
+gewehrgranate 		300m		255g	31gPETN/51gTNT		95m	10		1,0 3.0-6.0
+gross gpzg		90m				70mm		55m	5
+gpzg 46 (SS)		200m				90mm		75m	9
+gpzg 61 (SS)		200m				130mm		75m	9
+M17 frag		200m		667g	57g			75m	9
+M9A1			285m						90m	10
+M19 WP			195m						75m	9
+mills			140m		same as nades			65m	7
+
+recoilless HE				272g							1,0 3.5-7.0
+			diameter	warhead		pen	damage define
+gross pzgr 		44mm		130g		70mm	cumulative_tiny
+gpzg 46			46mm		146g		90mm	cumulative_small
+gpzg 61			61mm		246g		130mm	cumulative_small
+M9A1			48mm		113g		50mm	cumulative_tiny
+Type 2			40mm		107g		50mm	cumulative_tiny
+bazooka			60mm		700g?		100mm	cumulative_small
+PIAT			83mm		1100g		100mm	cumulative
+recoilless		57mm		177g		76mm	cumulative_small
+Pzschreck		88mm		660g		160mm	cumulative
+faustpatrone		100mm		400g		140mm	cumulative
+Pzfaust			150mm		800g		200mm	cumulative_big
+type 4 			70mm		?		150mm	cumulative
+---------------------------------------------------------
+, 15cm Gr.19 : 5,1kg	15cm IGr.38 : 8,6kg	155mm M101 : 6,88kg
+, 152mm OF-530 : 6,95kg		152mm OF-540 : 6,25kg
+
+mortar ranges
+Type 4 20cm rocket mortar = 2745m
+
+E = highest energy
+mortar fillers 		     fg value|   min - max dist|fg define	    mid damage |min - max dist
+; 8cm wgr = 0.57kg 		3.3	4,15 - 7,47	fg_min
+; 81mm M43A1 = 0.55kg		3.25	4,125- 7,425	fg_min
+; 81mm M45 = 2.03kg		6.2	7,84 - 12,32	fg_med
+; 82mm O-832 = 0.41kg		2.9	3,95 - 7,11	fg_min
+; 3inch HE Mk.II = 0.5kg	3.2	4,05 - 7,29	fg_min
+; 90mm type 97 = 1.06kg		5.7	5,35 - 9,63	fg
+; 4.2inch US = 3.64kg		7.5	8,75 - 13,75	fg_med
+; 4.2inch UK = 4.25kg		8.1	9,17 - 14,41	fg_med
+; 12cm Wgr. 42 = 2.78kg		6.8	8,26 - 12,98	fg_med
+; 120mm F-843 = 3.9kg		7.7	8,89 - 13,97	fg_med
+; 120mm OF-843A = 1.58kg frag	4.0	4,5  - 8,1	fg_min
+; 150mm type 97 = 4.07kg	7.9	9,03 - 14,19	fg_med
+; 200mm rocket = 16,2kg		25	19,25- 28,5	custom			12,5	 7,4 - 12,5
+; 300mm rocket = ~30kg?		35	26,0 - 36,0	custom			16,0	10,0 - 17,0
+
+E = highest energy							     
+150+ fillers / energy							    mid damage | min - max dist
+; 15cm Gr.19 = 5.1kg		12	11,9 - 18,7	fg_heavy		2,4	 5,5 - 6,0
+; 15cm IGr.38 = 8.6kg		18	16,1 - 25,3	fg_heavy		3,6	 5,5 - 6,0
+; 150mm Type 92 = 5kg		11.9	11,83- 18,59	fg_heavy		2,38	 5,5 - 6,0
+; 152mm Mk.II.D = 4.9kg		11.8	11,76- 18,48	fg_heavy		2,36	 5,5 - 6,0
+; 152mm OF-530 = 6.95kg		15.5	14,35- 22,55	fg_heavy		3,1	 5,5 - 6,0
+; 152mm OF-540 = 6.25kg		14	13,3 - 20,9	fg_heavy		2,8	 5,5 - 6,0
+; 155mm M101 = 6.88kg		15.3	14,21- 22,33	fg_heavy		3,06	 5,5 - 6,0
+; 290mm mortar = 12kg		25	15,0 - 20,0	custom			10	 7,0 - 12,0
+; 183mm shell = 12.64kg		21	16,9 - 24,7	fg_maximum		9,45	 6,3 - 10,5
+; 203mm shell = 15,36kg		24.1	18,85- 27,55	fg_maximum		10,8	 7,2 - 12,0
+; 203mm US M106 = 16,46kg	26	20,15- 29,45	fg_maximum		11,7	 7,8 - 13,0
+; 21cm Gr 18 = 17,35kg		28	21,45- 31,35	fg_maximum		12,6	 8,4 - 14,0
+; 240mm M114 = 24,52kg|2,55-6,8	34	26,0 - 37,0	custom			14,5	10,2 - 17,0
+; 280mm F-674K = 33,6kg|2,8-7,6	38	27,95- 40,85	fg_maximum		17,1	11,4 - 19,0
+; 280mm F-674 = 58,7kg|3,15-8,4	42	30,55- 44,65	fg_maximum		18,9	12,6 - 21,0
+;--------------------------------------------------------------------------------------------------
+; 38cm spreng = 125kg		50	 8,0 - 12,0				18,9	16,0 - 25,0
+				1,5	 45,0- 60,0
+;--------------------------------------------------------------------------------------------------
+; 60cm light = 220/280kg	60	14,0 - 18,0				20	22,0 - 30,0
+				1,5	70,0 - 85,0
+;--------------------------------------------------------------------------------------------------
+; 60cm heavy = 280/350kg	65	18,0 - 25,0				20	30,0 - 38,0
+				1,5	85,0 - 100,0
+;--------------------------------------------------------------------------------------------------
+; 54cm spreng = 460kg
+
+;rocket damage overall less than compareable shells due to less "material" for fragments
+rocket fillers 		     fg value||  min - max dist|fg define	mid/max damage	| min - max dist
+; 82-mm M-8 = 0,5kg		3.0	4,0  - 	7,2	fg_min			3,45	  0,1 - 0,2
+; 132-mm M-13 = 4,9kg		11.8	10,92-  17,64	fg_rkt_heavy		11,8	  2,0 - 6,0
+; 300-mm M-30 = 28,9kg
+; 300-mm M-31 = 28,9kg		23	2,0  -  6,0	custom			10,0	  6,0 - 10,0
+				1,2	12,0 -  19,0				
+; 4.5-in HE M8 = 1,95kg		5.0	6,0  -	10,0	fg_rkt_med		6,0	  1,0 - 3,0
+; land mattress = 3,18kg	8.0	7,8  - 	14,3	fg_rkt_med		9,6	  1,0 - 3,0
+; 15cm wurfg 41 spr = 2,5kg	6.5	6,9  -  12,65	fg_rkt_med		7,8	  1,0 - 3,0
+; 28cm wurfköpr spr = 49,9kg	40	3,0  -  8,0	custom			18,0	  8,0 - 15,0
+				1,2	20,0 -  30,0
+; 32cm wurfköpr MF1 50 = 39,8kg	25	1,5  -  4,0	custom			15,5	  4,0 - 8,0
+				1,2	12,0 -  18,0
+
+http://www.nevingtonwarmuseum.com/karl-gerat.html
+
+fg_maximum max damage = fg_value, area *0,75; 1		mid damage =  %0*0,45
+
+other shell fillers
+75mm HE M48 = 0.67kg		3.5	4,25 - 7,65	fg_min
+7.5cm sprgr.34 = 0.68kg		3.5
+7.5cm sprgr.42 = 0.6kg		3.2
+76mm HE M42A1 = 0.39kg		2.0	3,50 - 6,3	fg_min
+
+85mm OF-365 = 0.78kg		5.2			fg
+88mm Mk.I.D = 0.82kg		5.3			fg
+8.8cm L/4.5 = 0.9kg		5.5			fg
+8.8cm sprgr.43 = 1kg		5.8	5,4  -	9,72	fg
+90mm HE M71 = 0.97kg		5.7			fg
+
+105mm HE = 2.18kg		6.5	8,05 - 12,65	fg_med
+122mm HE = 3.67kg		7.5	8,75 - 13,75	fg_med
+128mm HE = 3.37kg		7.2			fg_med
+57mm T18 HE = 0.17kg		2.5	2,6  - 5,2	fg_min_low
+37mm HE				1.8	2,32 - 4,64	fg_min_low
+
+
+WP speeds. 
+75mm WP = 60 projectiles, 5-20 speed
+105mm WP= 80 projectiles, 5-24 speed
+155mm WP= 120 projectiles, 5-30 speed
+
+DUN --------- sturm: 6-7stg,1-2mp40,1g43, stg leader, mp40 assist..9men
+DUN --------- heavy sturm:4stg, 2mp40, 2mg42,1g43, stg leader, mp40 assist..9men
+DUN --------- volksgren: 2mp40 sl and assist, 1mg42, rest k98..8men
+DUN --------- fusilier squad: 1mp40 sl, k98 assist, 2stg, 1g43, 1mg42, 3k98, skill 5... 9men
+			43, 1mp40 sl, k98 asst, 1mp40, 1g43, 1mg42, 5k98, skill 5... 10men
+			<42, 1mp40 sl, k98 asst, 2g41, 1mg42, 5k98, skill 5... 10men
+DUN --------- panzergrenadier squad: 44-45: 1stg ldr, 1k98 asst, 2mg42, 1stg, 2g43, 2k98... 9men skill5
+				43:1mp40 ldr, 1k98 asst, 2mg42, 3g43, 3k98... 10men
+				42:1mp40 ldr, 1k98 asst, 2mg42, 3g41, 3k98... 10men
+				41:1mp40 ldr, 1k98 asst, 2mg34, 3g41, 3k98... 10men
+				40:1mp40 ldr, 1k98 asst, 2mg34, 6k98... 10men
+DUN --------- grenadier squad: 1mp40 ldr, 1k98 asst, 1mg42, 2g43, 4k98... 9men
+DUN --------- sturmgrenadier squads: 1stg ldr, 1 stg asst, 6 stg... 8men ...... no pre44
+DUN --------- elite panzergrenadier grossdeutschland 44-45: 3 stg ldlr + asst, 2g43 +scoped, 2mg42, 2k98, skill6
+						43: 1mp40 ldr, 1k98 asst, 3g43 + scoped, 2mg42, 3k98
+DUN --------- gebirgsjäger squad: 44-45: 4stg ldr + asst, 3mp40, 1g43, 1k98,1mg42... 10men
+				43: 5mp40 ldr + asst, 2g43, 3k98, 1mg42... 11men
+				<42: 2mp40 ldr + asst, 3g41, 5k98, 1mg42/34... 11men
+DUN --------- fallschirm squads: 44-45: 1mp40 ldr,2fg42+asst,1k98 sniper,1stg+pf30,1k98+pf30,2mg42,2mg asst..10men
+			43: 1mp40 ldr, 2fg42+asst, 1k98 sniper, 1g43, 2k98, 2mg42, 2mg asst..11men
+			42: 1mp40 ldr, 1fg42 asst, 1k98 sniper, 1g41, 3k98, 2mg42, 2mg asst..11men
+			41: 1mp40 ldr, 1mp40 asst, 1k98 sniper, 1g41, 3k98, 2mg34, 2mg asst..11men
+			40: 1mp40 ldr, 1mp40 asst, 1k98 sniper, 4k98, 2mg34, 2mg asst..11men
+DUN --------- jäger squad: 44-45: 3stg ldr + asst, 3mp40, 1g43, 2k98, 1mg42... 10 men, skill:5
+			43: 5mp40 ldr + asst, 1g43, 4k98, 1mg42... 11men
+		no pre->42: 2mp40 ldr + asst, 2g41, 6k98, 1mg42... 11men
+Waffen SS
+DUN --------- SS-VT skill2
+		mp40s,k98s,zb53
+		44-45: 1mp40 ldr, 1k98 asst, 1k98+pzfst30, 4k98, 1zb53, 1mg asst ...9men
+		41-43: 1mp40 ldr, 1k98 asst, 6k98, 1zb53, 1mg asst ...10men
+DUN --------- SS Grenadiers skill5
+		44-45: 1mp40 ldr, 1k98 asst, 1stg, 1g43, 3k98+2pzfst60, 1mg42, 1mgasst ...9men
+		43: 1mp40 ldr, 1k98 asst, 2g43, 4k98, 1mg42, 1mg asst ...10men
+		42: 1mp40 ldr, 1k98 asst, 2g41, 4k98, 1mg42, 1mg asst
+		41: 1mp40 ldr, 1k98 asst, 1g41, 5k98, 1mg34, 1mg asst
+DUN --------- SS Panzergrenadiers skill5 ;armored
+		44-45: 1stg ldr, 1k98 asst+pzfst100, 1stg, 1g43+pzfst60, 1k98+pzfst60, 2mg42, 2mg asst, ...9men
+		43: 1mp40 ldr, 1k98 asst, 2g43, 2k98, 2mg42, 2mg asst ...10men
+		42: 1mp40 ldr, 1k98 asst, 2g41, 2k98, 2mg42, 2mg asst
+		41: 1mp40 ldr, 1k98 asst, 1g41, 3k98, 2mg34, 2mg asst
+DUN --------- SS Totenkopf panzergrenadiers skill6 ;kampfgruppe
+		44-45: 1mp40, 1k98 sniper asst, 1stg+pf100, 2g43+1pf60, 2k98+1pf100, 2mg42, 2mg asst ...11men
+		43: 1mp40, 1k98 sniper asst, 2g43, 3k98, 2mg42, 2mg asst
+		42: 1mp40, 1k98 sniper asst, 2g41, 3k98, 2mg42, 2mg asst
+		41: 1mp40, 1k98 sniper asst, 2g41, 3k98, 2mg34, 2mg asst
+DUN --------- SS LSSAH panzergrenadiers skill 7 ;kampfgruppe/motorized 1-2stg, 2-3g43, 2pf100, 1pf60
+		44-45: 1stg, g43 sniper asst, 1stg+pf100, 2g43+pf100/60, 2mg42, 2mg asst, 1Pschrk, 1Pschrk asst,... 11men
+		43: 1mp40, g43 sniper asst, 2g43, 1k98, 2mg42, 2mg asst, 1pschrk, 1pschrk asst
+		42: 1mp40, k98 sniper asst, 2g41, 3k98, 2mg42, 2mg asst
+		41: 1mp40, k98 sniper asst, 2g41, 3k98, 2mg34, 2mg asst
+DUN --------- SS Fallschirmjägers only 44-45 skill7
+		44-45: 1mp40 ldr,2fg42+asst,1k98 sniper,1stg+pf30,1k98+pf30,2mg42,2mg asst..10men
+DUN --------- SS gebirgsjägers prinz eugen 42-45 skill5
+		mp40s,k98s,zb53
+		44-45: 2mp40 ldr + asst, 1stg44+pzfst, 3mp40, 2k98+pzfst, 1zb53, 1mg asst ...10men
+		43: 5mp40 ldr + asst, 4k98, 1zb53, 1mg asst ...11men
+		42: 2mp40 ldr + asst, 7k98, 1zb53, 1mg asst ...11men
+
+Random camo variation code meaning:::::
+no variations = 1 skin total
+#1var1 = 1st variation, 1 variations total, 1 var + main skin = 2 skins total
+#2var1 = 1st variation, 2 variations total, 2 var + main skin = 3 skins total
+#5var3 = 3rd variation, 5 variations total, 5 var + main skin = 6 skins total
+
+
+eng skins--
+-eng-inf-pvt regular infantry skin
+-eng-scot-pvt scottish infantry, high landers?
+-eng-sas-pvt SAS infantry
+-eng-para-pvt Paratrooper infantry
+-eng-hg-pvt home guard, conscripts
+-eng-can-pvt Canadian troops
+-eng-scout-pvt sniper/scout skin
+-eng-commando
+-eng-engineer
+
+headgear
+-beret_eng_comm
+-beret_eng_para
+-beret_eng_sas
+-cap_eng_com ;commando cap
+-cap_eng_fs ;unknown, loooks like conscript cap thing
+-cap_eng_off ;officer
+-cap_eng_radiohead ;radioman hat
+-cap_eng_tamoshanter ;highlanders/scots hat
+-helmet_eng_1 ;normal flat eng helmet
+-helmet_eng_2 ;netting flat eng helmet
+-helmet_eng_3 ;netting with camo flat helmet
+-helmet_eng_cover ;flat helmet with cover
+-helmet_eng_medic ;medic helmet
+-helmet_eng_mk3 ;high helmet
+-helmet_eng_mk3b ;high netting helmet
+-helmet_eng_mk3c ;high netting with camo helmet
+
+
+
+add infantry info desctriptions
+DUN - ger
+- usa
+- jap
+- rus
+- eng
+
+GORE parts
+DUN corp = full, no legs
+DUN foot = foot/half leg, simple
+DUN full = full, no head
+DUN guts = random gore part
+DUN halflimb = random gore part, looks like half a leg
+DUN hand = hand, simple
+DUN head = head, simple
+DUN leg = full leg
+lowtor = full legs + half torso
+DUN sguts = random tarm/bowel
+torse = upper torso, no arms, no legs, no head
+DUN xlcorp = same as corp, some different textures
+-------------------------------------------------------------------
+
+JAPAN
+squad size 15
+inf types?
+
+
+HEAT ammo
+caliber/pen
+57  / 55
+70  / 90
+75  / 100
+105 / 120
+120 / 140
+149 / 150
+
+tanks:
+chi-i "medium-tank"
+ta-se "tank
+na-t "btr"
+
+http://www3.plala.or.jp/takihome/fqa.htm
+http://www3.plala.or.jp/takihome/tankguns.htm
+http://forum.axishistory.com/viewtopic.php?t=139224
+http://www.bayonetstrength.150m.com/Weapons/infantry_weapons_of_world_war_tw.htm
+https://forums.spacebattles.com/threads/wwii-soldier-ammo-loadouts.154190/
+
+
+
+
+
+
+random mobility shit lel
+	;tiger 1 E "herr514th" code
+	{MaxSpeed   40}
+	{maxSpeedAtMaxTurn 5}
+	{StartTime  27.75}
+	{TurnTime   25.5}
+	{TurnStart   0.8}
+	{BrakeTime  2.5}
+	{StopTime   4.5}
+	{TurnRadius 15}
+	{TurnStop   0.85}
+	{Gears      0.065 0.098 0.140 0.206 1.0}
+	{RearGears  0.064 0.095 0.125 0.185}
+
+	;tiger 2 H
+	{MaxSpeed42};maximum road speed (kilometers per hour)
+	{maxSpeedAtMaxTurn 5};maximum speed (km/h) when at full turn under direct control
+	{StartTime28};?time taken to reach full speed from rest under direct control
+	{TurnTime26};time taken to turn 360 degrees in place
+	{TurnStart  0.5} ;time taken to initiate a full turn under direct control
+    	{BrakeTime  2.5};time taken to brake (reverse key applied) to a stop from full speed under direct control
+     	{StopTime   4.5} ;time taken to coast (letting off accelerator) to a stop from full speed under direct control
+	{TurnRadius 15};radius of turn circle (m) when under given movement order or under AI control
+    	{TurnStop   0.55};time taken to recover from a turn and allow direction change under direct control
+	{Gears      0.065 0.098 0.140 0.206 1.0};gearbox ratios for transmission in forward gear 
+    	{RearGears  0.064 0.095 0.128 0.185};gearbox ratios for transmission in reverse gear
+}
+{speed
+	{Fast  38};speed when given rush command under AI control (km/h)
+        {Normal  15};speed when given standard movement command under AI control (km/h)
+        {Slow  5};speed when scripted for slow movement under AI control (km/h)
+}
+
+
+~~20sec tiger 2 ground,25sec tiger 2 road; 28sec starttime
+~~39sec tiger 1 ground,52sec tiger 1 road; 60sec starttime
+

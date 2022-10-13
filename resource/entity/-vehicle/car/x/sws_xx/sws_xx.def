@@ -1,0 +1,24 @@
+{game_entity
+	(include "/properties/shadow/tank.inc"  scale(1.1))
+	{volume "body"
+		{tags "body"}
+		{component "body"}
+		{thickness 8}   
+	}
+	{volume "cabin"
+		{tags "body"}
+		{component "body"}
+		{thickness 8}
+	}
+	{volume "bodyback"
+		{tags "body"}
+		{component "body"}
+		{thickness 8}
+	}
+	{Volume "wheelleft1"
+	}
+	{Volume "wheelright1"	
+	}
+	{Extension "sws_xx.mdl"}
+}
+

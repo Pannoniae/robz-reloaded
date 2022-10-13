@@ -1,0 +1,107 @@
+{tags
+	{"date" "Germany vs Soviet Union"}
+	{"hint_start_attack" "Enemies will only attack when they can see you. If necessary, fall back to hide and enemy troops will give up searching for you. Use guerrilla warfare to wear down your enemy!"}
+	{"menu:1_0" "Infantry: 0 units"}
+	{"menu:1_1" "Infantry: 1 unit"}
+	{"menu:1_2" "Infantry: 2 units"}
+	{"menu:1_3" "Infantry: 3 units"}
+	{"menu:1_4" "Infantry: 4 units"}
+	{"menu:1_5" "Infantry: 5 units"}
+	{"menu:2_0" ""}
+	{"menu:2_1" ""}
+	{"menu:2_2" ""}
+	{"menu:2_3" ""}
+	{"menu:2_4" ""}
+	{"menu:2_5" ""}
+	{"menu:3_0" ""}
+	{"menu:3_1" ""}
+	{"menu:3_2" ""}
+	{"menu:3_3" ""}
+	{"menu:3_4" ""}
+	{"menu:3_5" ""}
+	{"menu:4_0" ""}
+	{"menu:4_1" ""}
+	{"menu:4_2" ""}
+	{"menu:4_3" ""}
+	{"menu:4_4" ""}
+	{"menu:4_5" ""}
+	{"menu:back" "Return to menu"}
+	{"mission_all_flags" "Capture and hold all strategic positions to achieve victory!"}
+	{"mission_convoy_01" "Let the first enemy convoy pass!"}
+	{"mission_convoy_01_destroy" "Destroy the first enemy convoy!"}
+	{"mission_convoy_02" "Let the second enemy convoy pass!"}
+	{"mission_convoy_02_destroy" "Destroy the second enemy convoy!"}
+	{"mission_officer" "Assassinate the enemy officer in command!"}
+	{"name" "[Germany] Kharkov"}
+	{"name_big" "Kharkov"}
+	{"officer_capture3" "Very nice! But don't slow down, we have to carry on with our mission and annihilate their defending forces!"}
+	{"officer_capture6" "We are almost there, but stay careful, our observers spotted incoming enemy armor. Ready our anti-tank weapons!"}
+	{"officer_convoy_01" "An enemy convoy is heading our way! Should we attack or let them pass? Awaiting your order!"}
+	{"officer_convoy_01_comp" "Excellent work! Brigade headquarters grants you additional resources (100 MP)!"}
+	{"officer_convoy_01_destroy" "Ha! You seem to enjoy killing them! Brigade headquarters grants you additional resources (100 MP)!"}
+	{"officer_convoy_02" "Another enemy convoy is heading our way! Keep your heads down!"}
+	{"officer_convoy_02_comp" "Wonderful, you are a master of stealth! Brigade headquarters grants you additional resources (100 MP)!"}
+	{"officer_convoy_02_destroy" "You crushed the enemy convoy! Brigade headquarters grants you additional resources (100 MP)!"}
+	{"officer_convoy_02_start" "Intelligence spotted another convoy, be advised!"}
+	{"officer_enemy_officer_comp" "Excellent strike on our enemies morale and command structures! Brigade headquarters grants you additional resources (50 MP)!"}
+	{"officer_start" "Herr Oberstleutnant, today I have a task of huge importance for you. Your objective is to infiltrate and capture all strategic positions in support of the Kharkov counter offensive!"}
+	{"officer_start2" "Be advised that our intelligence spotted enemy convoys on the way to our position. It is your choice whether to engage them, but the Russians are outnumbering us ten to one, so don't draw anymore attention then necessary"}
+	{"officer_start_attack" "Herr Oberstleutnant, our positions have been compromised! Should we retreat to hide or engage our enemies before they can alert the others!?"}
+	{"outro_completed" "Excellent job! You've made the Fatherland proud!"}
+	{"outro_failed" "You have been defeated!"}
+	{"outro_start" ""}
+	{"place" "Germany, East of Berlin"}
+	{"player_money_000" "Progress: <c(e74236)>0%"}
+	{"player_money_005" "Progress: <c(4fe736)>15%"}
+	{"player_money_010" "Progress: <c(4fe736)>30%"}
+	{"player_money_015" "Progress: <c(4fe736)>45%"}
+	{"player_money_020" "Progress: <c(4fe736)>60%"}
+	{"player_money_025" "Progress: <c(4fe736)>75%"}
+	{"player_money_030" "Progress: <c(4fe736)>90%"}
+	{"player_money_035" "Progress: <c(4fe736)>100%"}
+	{"player_money_040" "Progress: <c(4fe736)>100%"}
+	{"player_money_045" "Progress: <c(4fe736)>100%"}
+	{"player_money_050" "Progress: <c(4fe736)>100%"}
+	{"player_money_055" "Progress: <c(4fe736)>100%"}
+	{"player_money_060" "Progress: <c(4fe736)>100%"}
+	{"player_money_065" "Progress: <c(4fe736)>100%"}
+	{"player_money_070" "Progress: <c(4fe736)>100%"}
+	{"player_money_075" "Progress: <c(4fe736)>100%"}
+	{"player_money_080" "Progress: <c(4fe736)>100%"}
+	{"player_money_085" "Progress: <c(4fe736)>100%"}
+	{"player_money_090" "Progress: <c(4fe736)>100%"}
+	{"player_money_095" "Progress: <c(4fe736)>100%"}
+	{"player_money_100" "Progress: <c(4fe736)>100%"}
+	{"player_money_105" "Progress: <c(4fe736)>100%"}
+	{"player_money_110" "Progress: <c(4fe736)>100%"}
+	{"player_money_115" "Progress: <c(4fe736)>100%"}
+	{"player_money_120" "Progress: <c(4fe736)>100%"}
+	{"player_money_125" "Progress: <c(4fe736)>100%"}
+	{"player_money_130" "Progress: <c(4fe736)>100%"}
+	{"player_money_135" "Progress: <c(4fe736)>100%"}
+	{"player_money_140" "Progress: <c(4fe736)>100%"}
+	{"player_money_145" "Progress: <c(4fe736)>100%"}
+	{"player_money_150" "Progress: <c(4fe736)>100%"}
+	{"player_money_155" "Progress: <c(4fe736)>100%"}
+	{"player_money_160" "Progress: <c(4fe736)>100%"}
+	{"player_money_165" "Progress: <c(4fe736)>100%"}
+	{"player_money_170" "Progress: <c(4fe736)>100%"}
+	{"player_money_175" "Progress: <c(4fe736)>100%"}
+	{"player_money_180" "Progress: <c(4fe736)>100%"}
+	{"player_money_185" "Progress: <c(4fe736)>100%"}
+	{"reinf_01" "Brandenburger"}
+	{"reinf_02" "AT-Rifle Infantry"}
+	{"reinf_03" "AT infantry"}
+	{"reinf_04" "Medic"}
+	{"reinf_05" "Officer"}
+	{"reinf_06" "Veteran Sniper"}
+	{"reinf_07" "le. PaK 41"}
+	{"reinf_08" "Kubel VW82"}
+	{"reinf_09" "SdKfz 223"}
+	{"reinf_10" "PzKpfw II Luchs"}
+	{"skirmish_flag_capture" "We have captured a strategic position!"}
+	{"skirmish_flag_recapture" "We have lost a strategic position to the enemy!"}
+	{"skirmish_reinf_arrive" "Reinforcements have arrived!"}
+	{"start" "Press \"Continue\" to start the battle!"}
+	{"timer" "Estimated arrival of enemy convoy"}
+}

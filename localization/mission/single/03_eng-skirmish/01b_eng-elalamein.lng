@@ -1,0 +1,97 @@
+{tags
+	{"date" "23rd October 1942"}
+	{"menu:1_0" "Infantry: 0 units"}
+	{"menu:1_1" "Infantry: 1 unit"}
+	{"menu:1_2" "Infantry: 2 units"}
+	{"menu:1_3" "Infantry: 3 units"}
+	{"menu:1_4" "Infantry: 4 units"}
+	{"menu:1_5" "Infantry: 5 units"}
+	{"menu:2_0" "Support: 0 units"}
+	{"menu:2_1" "Support: 1 unit"}
+	{"menu:2_2" "Support: 2 units"}
+	{"menu:2_3" "Support: 3 units"}
+	{"menu:2_4" "Support: 4 units"}
+	{"menu:2_5" "Support: 5 units"}
+	{"menu:3_0" "Armor: 0 units"}
+	{"menu:3_1" "Armor: 1 unit"}
+	{"menu:3_2" "Armor: 2 units"}
+	{"menu:3_3" "Armor: 3 units"}
+	{"menu:3_4" "Armor: 4 units"}
+	{"menu:3_5" "Armor: 5 units"}
+	{"menu:4_0" ""}
+	{"menu:4_1" ""}
+	{"menu:4_2" ""}
+	{"menu:4_3" ""}
+	{"menu:4_4" ""}
+	{"menu:4_5" ""}
+	{"menu:back" "Return to menu"}
+	{"mission_prepare_player" "Prepare to repel the enemy assault!"}
+	{"mission_defend_hq" "Defend our field HQ  at all costs!"}
+	{"mission_survive" "Maintain a defensive presence, survive and eliminate the majority of enemy units!"}
+	{"mission_convoy" "Repair  and recover a powerful allied tank disabled during an ambush on an allied convoy!"}
+	{"name" "[UK] El Alamein"}
+	{"name_big" "El Alamein"}
+	{"officer_money" "Good job, you survived another enemy attack wave! HQ grants you additional resources. Use them wisely and prepare for the next enemy attack wave!"}
+	{"officer_finish" "Enemy attack waves are over! To ensure victory eliminate the majority of enemy forces that are still on the battlefield!"}
+	{"officer_start" "Major, today we have a huge task ahead of us. Your objective is to defend el Alamein from a German armored counter offensive!"}
+	{"officer_start2" "Our field HQ must remain ours at all costs. The more enemy attack waves we survive, the more reinforcements HQ will grant us."}
+	{"officer_start_attack" "Major! I have received reports from forward observers claiming there is a major enemy armor column ahead. It seems like the assault is starting, prepare yourself to defend!"}
+	{"officer_counter1" "Major! Stronger enemy forces than expected have been spotted!"}
+	{"officer_counter2" "Alarm! Reports are coming that heavy enemy units are approaching!"}
+	{"officer_counter3" "Brace yourself! Enemy is throwing their best units at us in their final push!"}
+	{"officer_convoy" "Enemy intercepted our convoy not far from our location. This convoy contains a special tank. We should try and recover this tank to ensure victory!"}
+	{"officer_convoyfail" "The enemy managed to destroy the special tank from the allied convoy!"}
+	{"officer_convoyassign" "Any allied convoy survivors are now under your command!"}
+	{"officer_convoycomplete" "Excellent job! You've repaired and recovered the special tank lost during an attack on our allied convoy. Now use it to defend your position!"}
+	{"hint_start_attack" "Make sure you have positioned yourself well and picked up the right tools to take out vast amounts of enemy armor!"}
+	{"hint_direction" "HQ indicates that enemy forces will be attacking from the North!"}
+	{"hint_nomedic" "Be Careful. In this mission medics are not available. When your soldiers get severly wounded, they cannot be revived."}
+	{"hint_resources" "Expect to be outnumbered and outgunned. Think of saving resources if possible. Try to steal enemy weapons as well as repair enemy tanks!"}
+	{"outro_completed" "Superb! You've claimed victory for King and country!"}
+	{"outro_failed" "You have been defeated!"}
+	{"kill_majority" "Kill majority of enemy forces to earn Victory!"}
+	{"outro_start" ""}
+	{"place" "Egypt, near El Alamein"}
+	{"wave_01" "<e(shadow)>Progress: Enemy Attack Wave 1/8"}
+	{"wave_01c" "<e(shadow)>Wave 1/8 complete! Additional resources received."}
+	{"wave_02" "<e(shadow)>Progress: Enemy Attack Wave 2/8"}
+	{"wave_02c" "<e(shadow)>Wave 2/8 complete! Additional resources received."}
+	{"wave_03" "<e(shadow)>Progress: Enemy Attack Wave 3/8"}
+	{"wave_03c" "<e(shadow)>Wave 3/8 complete! Additional resources received."}
+	{"wave_04" "<e(shadow)>Progress: Enemy Attack Wave 4/8"}
+	{"wave_04c" "<e(shadow)>Wave 4/8 complete! Additional resources received."}
+	{"wave_05" "<e(shadow)>Progress: Enemy Attack Wave 5/8"}
+	{"wave_05c" "<e(shadow)>Wave 5/8 complete! Additional resources received."}
+	{"wave_06" "<e(shadow)>Progress: Enemy Attack Wave 6/8"}
+	{"wave_06c" "<e(shadow)>Wave 6/8 complete! Additional resources received."}
+	{"wave_07" "<e(shadow)>Progress: Enemy Attack Wave 7/8"}
+	{"wave_07c" "<e(shadow)>Wave 7/8 complete! Additional resources received."}
+	{"wave_08" "<e(shadow)>Progress: Enemy Attack Wave 8/8"}
+	{"wave_08c" "<e(shadow)>Wave 8/8 complete! Additional resources received."}
+	{"wave_09" "<e(shadow)>Progress: Enemy Attack Wave 9/10"}
+	{"wave_09c" "<e(shadow)>Wave 9/10 complete! Additional resources received."}
+	{"wave_10" "<e(shadow)>Progress: Enemy Attack Wave 10/10"}
+	{"wave_10c" "<e(shadow)>Wave 10 Complete!"}
+	{"reinf_i01" "AT infantry"}
+	{"reinf_i02" "Tank crew"}
+	{"reinf_s01" "Oerlikon 20mm"}
+	{"reinf_s02" "QF 2-pdr"}
+	{"reinf_s03" "M1 Bofors L/60"}
+	{"reinf_s04" "QF 6-pdr"}
+	{"reinf_s05" "Supply truck"}
+	{"reinf_a01" "Daimler AC Mk.I"}
+	{"reinf_a02" "Mk.VI Crusader"}
+	{"reinf_a03" "Mk.IIA Matilda"}
+	{"reinf_sp01" "M3 Stuart"}
+	{"reinf_sp02" "Mk.III Valentine"}
+	{"reinf_sp03" "M3 Grant"}
+	{"reinf_sp04" "Mk.IV Churchill"}
+	{"skirmish_flag_capture" "We have captured a strategic position!"}
+	{"skirmish_flag_recapture" "We have lost a strategic position to the enemy!"}
+	{"skirmish_reinf_arrive" "Reinforcements have arrived!"}
+	{"start" "Press \"Continue\" to start the battle!"}
+	{"timer" "<e(shadow)><c(fdef03)>Estimated arrival of enemy forces."}
+	{"timerwave" "<e(shadow)><c(fdef03)>Time you must defend your position to receive more resources."}
+	{"timerwaveold" "<e(shadow)><c(fdef03)>Estimated exhaust of enemy wave reinforcements."}
+	{"timerpause" "<e(shadow)><c(fdef03)>Estimated arrival of a new enemy wave."}
+}

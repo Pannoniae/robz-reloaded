@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/model/skr/doskahun_xx"}
+	{specular "$/model/skr/doski_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

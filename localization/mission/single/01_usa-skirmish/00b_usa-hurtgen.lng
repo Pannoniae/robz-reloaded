@@ -1,0 +1,102 @@
+{tags
+	{"date" "20th September 1944"}
+	{"menu:1_0" "Infantry: 0 units"}
+	{"menu:1_1" "Infantry: 1 unit"}
+	{"menu:1_2" "Infantry: 2 units"}
+	{"menu:1_3" "Infantry: 3 units"}
+	{"menu:1_4" "Infantry: 4 units"}
+	{"menu:1_5" "Infantry: 5 units"}
+	{"menu:2_0" "Support: 0 units"}
+	{"menu:2_1" "Support: 1 unit"}
+	{"menu:2_2" "Support: 2 units"}
+	{"menu:2_3" "Support: 3 units"}
+	{"menu:2_4" "Support: 4 units"}
+	{"menu:2_5" "Support: 5 units"}
+	{"menu:3_0" "Armor: 0 units"}
+	{"menu:3_1" "Armor: 1 unit"}
+	{"menu:3_2" "Armor: 2 units"}
+	{"menu:3_3" "Armor: 3 units"}
+	{"menu:3_4" "Armor: 4 units"}
+	{"menu:3_5" "Armor: 5 units"}
+	{"menu:back" "Return to menu"}
+	{"mission_defendbase" "Defend your field HQ!"}
+	{"mission_1st_line" "Capture the first line of defense!"}
+	{"mission_2nd_line" "Capture the second line of defense!"}
+	{"mission_3rd_line" "Capture the third line of defense!"}
+	{"mission_capture_all" "Capture all strategic positions!"}
+	{"mission_heal" "Heal a fallen comrade!"}
+	{"mission_bonus" "Repair and recover the damaged allied tank!"}
+	{"mission_defend_hq" "Defend our new field HQ!"}
+	{"mission_stay_alive" "Keep your men alive!"}
+	{"mission_destroy_tank" "Eliminate an enemy tank!"}
+	{"name" "[USA] Hurtgen Forest"}
+	{"name_big" "Hurtgen"}
+	{"officer_start" "Major, thank goodness you’ve arrived... the Germans are charging our position. We must hold it at all costs!"}
+	{"officer_reinf1" "HQ sent us reinforcements including an armored vehicle!"}
+	{"officer_reinf2" "HQ sent us more reinforcements along with armored support!"}
+	{"officer_clearbase" "Eliminate the remaining enemy infantry and push them back!"}
+	{"officer_clearbase2" "Great Job! They are retreating!"}
+	{"officer_bonusshow" "Major, the enemy knocked out one of our tanks nearby! See if you can repair and recover this armor, it would go a long way to ensure our Victory!"}
+	{"officer_bonuscomplete" "Excellent job! You've repaired and manned our lost tank. That should give the Germans a nice little suprise!"}
+	{"officer_bonusfail" "Bad luck, our allied tank you tried to recover has been destroyed!"}
+	{"officer_start2" "Your troops are now tasked with advancing into enemy positions. We are counting on you!"}
+	{"officer_start3" "You will receive reinforcements sent by the HQ and even ability to request your own reinforcements for capturing each of the three enemy defense lines. Good luck!"}
+	{"officer_tocover" "Look, here are some good spots to take cover as you advance on enemy positions!"}
+	{"officer_destroytank1" "Scouts report an enemy tank defending positions ahead, we must eliminate it!"}
+	{"officer_destroytank2" "Excellent job at taking their tank out! The batallion granted you additional resources!"}
+	{"officer_start_defend" "Major, set-up defenses around our new field HQ! Reports indicate that enemy forces will try to retake this position shortly!"}
+	{"officer_start_defend2" "We have received reports from forward observers claiming there is a major enemy movement ahead. It seems like the assault is starting, prepare yourself to defend our new field HQ!"}
+	{"officer_5min" "Reports indicate our reinforcements are on the way. Keep it up, we have to defend our position at all costs!"}
+	{"officer_10min" "Our reinforcements are almost here. Don’t give up! We must smash our enemies... for freedom!"}
+	{"hint_heal" "Wounded soldiers can be healed during battle. Use your Medic who comes with a first aid kit."}
+	{"hint_at" "An orange or yellow bar over your squad icon indicates that a squad member is equipped with anti tank weapons such as anti-tank rockets or anti-tank rifles. Many soldiers also carry anti-tank grenades. Use this knowledge to destroy enemy armored vehicles."}
+	{"hint_heal2" "You can queue your medic to heal multiple soldiers by holding shift and clicking on all wounded soldiers."}
+	{"hint_repair" "Most cannons, vehicles and tanks contain at least one repair box. Use them to fix damaged vehicles."}
+	{"hint_repair2" "You can repair several damaged vehicle parts at one time by ordering more than one soldier to repair it. Each soldier will require at least one repair box."}
+	{"hint_ammodrop" "As a reward for your progress, our airforce is dropping an ammo box near your location, watch for red smoke!"}
+	{"hint_cover" "Cover protects your soldiers from enemy fire, but also improves their accuracy. White silhouettes indicate possible cover zones. You can crouch by pressing \"Alt\" and crawl by pressing \"Shift + Q\". Pressing \"Q\" will bring your troops back to standing position."}
+	{"hint_direction" "HQ indicates that enemy forces will be attacking from the North!"}
+	{"hint_atguns" "Place your defending forces carefully. Use cover wisely and hide in surrending foliage."}
+	{"outro_completed" "Great job! You've made Uncle Sam proud!"}
+	{"outro_failed" "You have been defeated!"}
+	{"outro_start" ""}
+	{"place" "Hurtgen Forest, near Aachen"}
+	{"player_money_000" "Progress: <c(e74236)>0%"}
+	{"player_money_005" "Progress: <c(e74236)>5%"}
+	{"player_money_010" "Progress: <c(e74236)>10%"}
+	{"player_money_015" "Progress: <c(e74236)>15%"}
+	{"player_money_020" "Progress: <c(e74236)>20%"}
+	{"player_money_025" "Progress: <c(e7c436)>25%"}
+	{"player_money_030" "Progress: <c(e7c436)>30%"}
+	{"player_money_035" "Progress: <c(e7c436)>35%"}
+	{"player_money_040" "Progress: <c(e7c436)>40%"}
+	{"player_money_045" "Progress: <c(e7c436)>45%"}
+	{"player_money_050" "Progress: <c(e7c436)>50%"}
+	{"player_money_055" "Progress: <c(4fe736)>55%"}
+	{"player_money_060" "Progress: <c(4fe736)>60%"}
+	{"player_money_065" "Progress: <c(4fe736)>65%"}
+	{"player_money_070" "Progress: <c(4fe736)>70%"}
+	{"player_money_075" "Progress: <c(4fe736)>75%"}
+	{"player_money_080" "Progress: <c(4fe736)>80%"}
+	{"player_money_085" "Progress: <c(4fe736)>85%"}
+	{"player_money_090" "Progress: <c(4fe736)>90%"}
+	{"player_money_095" "Progress: <c(4fe736)>95%"}
+	{"player_money_100" "Progress: <c(4fe736)>100%"}
+	{"reinf_01" "Infantry"}
+	{"reinf_02" "AT infantry"}
+	{"reinf_03" "Flamethrower infantry"}
+	{"reinf_04" "Sniper"}
+	{"reinf_05" "Rangers"}
+	{"reinf_06" "M1 AT gun"}
+	{"reinf_07" "M45 Maxson AA"}
+	{"reinf_08" "Supply truck"}
+	{"reinf_09" "M5A1 Stuart"}
+	{"reinf_10" "M4 Sherman"}
+	{"skirmish_flag_capture" "We have captured a strategic position!"}
+	{"skirmish_flag_recapture" "We have lost a strategic position to the enemy!"}
+	{"skirmish_reinf_arrive" "Reinforcements have arrived!"}
+	{"start" "Press \"Continue\" to start the battle!"}
+	{"timerbase" "<e(shadow)><c(fdef03)>Defend your position!"}
+	{"timer" "<e(shadow)><c(fdef03)>Estimated arrival of enemy forces!"}
+	{"timerwave" "<e(shadow)><c(fdef03)>You must defend your current position until reinforcements arrive!"}
+}

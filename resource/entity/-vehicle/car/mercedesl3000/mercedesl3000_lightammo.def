@@ -1,0 +1,36 @@
+{entity
+	(include "mercedesl3000.inc")
+
+	{extender "inventory"
+		{box
+      		{size 12 8}
+        	{clear}         
+			{item "ger_bullet50_pak38 apc" 70 {cell 0 0}}
+			{item "ger_bullet50_pak38 apc" 70 {cell 4 0}}
+			{item "ger_bullet50_pak38 fg" 70 {cell 0 1}}
+			{item "ger_bullet50_pak38 fg" 70 {cell 4 1}}
+
+			{item "bullet40" "ap" "ammo" 70 {cell 0 2}}
+			{item "bullet40" "fg" "ammo" 70 {cell 4 2}}
+
+			{item "ger_bullet37_czech ap" 80 {cell 0 3}}
+			{item "ger_bullet37_czech ap" 80 {cell 3 3}}
+			{item "ger_bullet37_czech fg" 80 {cell 6 3}}
+			{item "ger_bullet37_czech fg" 80 {cell 9 3}}
+
+			{item "bullet37" "ap" "ammo" 80 {cell 0 4}}
+			{item "bullet37" "fg" "ammo" 80 {cell 4 4}}
+
+			{item "usa_bullet40_bofors ap" 200 {cell 0 5}}
+			{item "usa_bullet40_bofors ap" 200 {cell 3 5}}
+			{item "usa_bullet40_bofors fg" 200 {cell 6 5}}
+			{item "usa_bullet40_bofors fg" 200 {cell 9 5}}
+
+			{item "ger_bullet20_flak38 ap" 300 {cell 0 6}}
+			{item "ger_bullet20_flak38 fg" 300 {cell 3 6}}
+
+			{item "bullet20 zenite" 300 {cell 6 6}}
+			{item "bullet20 he" 300 {cell 9 6}}
+		}
+	}
+}

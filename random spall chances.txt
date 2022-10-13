@@ -1,0 +1,25 @@
+7.5% base, 5.25% front	;spall 85mm	tiger
+25% base, 17.5% front ;spall 122mm
+5% base, 16.3% overload 122mm
+2% base, 6.8% overload 85mm
+
+6.52/100
+5.25/100
+34.23/10000
+
+;85mm
+0.3% front per shell
+0.5% side per shell
+
+;122mm
+2.8% front per shell
+4.0% side per shell
+
+
+15% base, 10,5% front	;spall		panther
+4% base, 13,04% overload
+
+136,92/10000
+
+1,36% front per shell
+1,95% side per shell

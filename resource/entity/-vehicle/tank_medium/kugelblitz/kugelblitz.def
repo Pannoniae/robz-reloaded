@@ -1,0 +1,201 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	{props "medium" "zenite" "turret_rotator" "flak" "vision_vehicle_high" "muzzle_zenite"}
+	{extension "crew.ext"}
+
+	{Volume "body"
+		{component "body"}
+		{tags "body"}
+	}
+	{Volume "body2"
+		{component "body"}
+		{tags "body"}
+	}
+	{Volume "turret"
+		{tags "turret"}
+		{component "turret"}
+		{thickness 20}
+	}
+	{Volume "turret2"
+		{tags "turret"}
+		{component "turret"}
+		{thickness 20}
+	}
+	{Volume "turret3"
+		{tags "turret"}
+		{component "turret"}
+		{thickness 20}
+	}
+	{Volume "mantlet1"
+		{tags "mantlet"}
+		{component "mantlet"}
+		{thickness 30}
+	}
+	{Volume "mantlet2"
+		{tags "mantlet"}
+		{component "mantlet"}
+		{thickness 30}
+	}
+	{Volume "trackright"
+	}
+	{Volume "trackleft"
+	}
+	{Volume "body_ekran1"
+		{tags "body_ekran"}
+		{component "body_ekran"}
+		{thickness 5}
+	}
+	{Volume "body_ekran2"
+		{tags "body_ekran"}
+		{component "body_ekran"}
+		{thickness 5}
+	}
+	{Volume "body_ekran3"
+		{tags "body_ekran"}
+		{component "body_ekran"}
+		{thickness 5}
+	}
+	{Volume "body_ekran4"
+		{tags "body_ekran"}
+		{component "body_ekran"}
+		{thickness 5}
+	}
+	{Volume "body_ekran5"
+		{tags "body_ekran"}
+		{component "body_ekran"}
+		{thickness 5}
+	}
+	{Volume "body_ekran6"
+		{tags "body_ekran"}
+		{component "body_ekran"}
+		{thickness 5}
+	}
+	{Volume "body_ekran7"
+		{tags "body_ekran"}
+		{component "body_ekran"}
+		{thickness 30}
+	}
+	{Volume "body_ekran8"
+		{tags "body_ekran"}
+		{component "body_ekran"}
+		{thickness 30}
+	}
+	{Volume "turret_ekran"
+		{tags "turret_ekran"}
+		{component "turret_ekran"}
+		{thickness 30}
+	}
+	{Volume "turret_ekran2"
+		{tags "turret_ekran"}
+		{component "turret_ekran"}
+		{thickness 30}
+	}
+	{Volume "gun"
+		{tags "gun"}
+		{component "gun"}
+	}
+	{Volume "gun2"
+		{tags "gun"}
+		{component "gun"}
+	}
+
+	("armor_medium" turret(20 20 20 20) body(80 30 30 20))
+	("armor_engine"  t(20 20 20 20))
+	("armor_mantlet" t(30))
+
+        {sensor
+		{visor "driver"
+			{vision "tank_driver"}
+			{bone "visor2"}
+		}
+		{visor "driver2"
+			{vision "tank_driver"}
+			{bone "foresight3"}
+		}
+		{visor "driver3"
+			{vision "tank_driver"}
+			{bone "visor3"}
+		}
+		{visor "driver4"
+			{vision "tank_driver"}
+			{bone "visor4"}
+		}
+		{visor "main"
+			{vision "tank_main-l"}
+			{bone "visor1"}
+		}
+	}
+
+	{extender "inventory"
+		{box
+			{item "bullet30 ger zenite ap" 400}
+			{item "bullet30 ger zenite apcr" 200}
+			{item "bullet30 ger zenite fg" 1300}
+			{item  "ammo mg_mauser belt" 1350}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "30mm_mk103_x2" filling "bullet30 ger zenite fg" 100}
+			{foresight "foresight1"}
+			{charger "gunner"}
+			{gunner "charger"}	
+			("abm_zenite")
+			{Barrels 2}			
+		}
+		{place "mgun"
+			{type "mgun_hull"}
+			{weapon "mg34_optic" filled}
+			{foresight "foresight3"}
+			{gunner "gunner2"}
+			{charger "gunner2"}
+			("abm_mgun")
+			{basic}
+		}
+	}
+	
+	{Extension "kugelblitz_MK103.mdl"}
+
+	{mass 23000}
+	{Chassis
+		("tank_trace" fx("tracks_mid") step(0.52) len(0.7))
+		{Locomotion ("locomotion")
+			{MaxSpeed	 34}
+			{maxSpeedAtMaxTurn 4}
+			{StartTime	  45}
+			{TurnTime  	  18}
+    			{TurnStart  1.4} 
+    			{BrakeTime    1} 
+    			{StopTime     2} 
+    			{TurnRadius   8} 
+    			{TurnStop   0.8}
+     			{Gears  0.1 0.2 0.3 0.5 1}
+    			{RearGears 0.28}
+		}
+		{FuelBag
+			{volume 470 }	
+			{rate	3.8 }   
+			{remain 470 }
+			{fuel "fuel"}
+		}
+		{speed
+        	{Normal  10}
+        	{Slow  16}
+    	}
+	}
+    
+    {texmod "2"}
+
+
+	{bone "turret"
+		{speed 0.0065}
+	}
+	{bone "gun_rot"
+		{speed 0.008}
+	}
+
+}

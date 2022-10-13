@@ -1,0 +1,118 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/shadow/tank.inc" scale(1.0))
+	(include "/properties/selection/vehicle.inc" scale(1.2))
+
+	{collider "tank.light"}
+	{patherId "tank.light"}
+	{props "light" "turret_rotator" "with_gun" "vision_vehicle_low" "muzzle_minimum"}
+	{targetClass "light_tank"}
+	
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "turret"
+		{tags "turret"}
+		{component "turret"}
+	}
+	{volume "mantlet"
+		{tags "mantlet"}
+		{component "mantlet"}
+	}
+	{volume "engine"
+		{tags "engine"}
+		{component "engine"}
+	}
+	
+	{extender "enumerator"
+		{digit_folder "ger"}
+	}
+
+	("armor_light" turret(20 16 14 8) body(20 16 14 8))
+	("armor_mantlet" t(30))
+	("armor_engine"  t(16))
+
+	("crew_3_human_extended")
+
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_pz4_driver"} {end "seat_gunner_stand"} {base "open_driver"}}
+			{reverse 	{end	"board_pz4_driver" -1} {base "open_driver" -1}}
+		}
+		{anm "left"
+			{forward	{begin	"board_tank_left"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_right"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+
+	}
+
+	{extender "inventory"
+		{box
+			{item "bullet20 ger zenite" 250}
+			{item "bullet20 ger zenite he" 150}
+			{item "ammo 8x56" 2300}
+			{size 8 8}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "20mm_solothurn" filling "ammo ger bullet20 zenite" 10} 
+			{charger "gunner"}        
+			("abm_zenite")
+		}
+		{place "mgun1"
+			{type "mgun_coaxial"}
+			{weapon "gebauer_optic" filled}
+			{foresight "foresight4"}
+			("abm_mgun")
+			{basic}
+		}
+	}
+	
+	{Extension "toldi1.mdl"}
+	
+	{mass 8500}
+	{Chassis
+		("tank_trace" fx("tracks_sm") step(0.3) len(0.1))
+		{Locomotion ("locomotion")
+			{maxspeed   50}
+			{maxSpeedAtMaxTurn 6}
+			{StartTime  20}
+			{TurnTime   15}
+			{TurnStart  1.2}			
+			{TurnRadius 7} 
+    			{TurnStop   0.6}
+			{BrakeTime  1.5}
+			{StopTime   2}
+     			{Gears  0.1 0.2 0.3 0.5 1}
+			{RearGears  0.25}
+		}
+		{FuelBag
+			{volume 175 }	
+			{rate	0.9 }   
+			{remain 175 }
+			{fuel "fuel"}
+		}
+		{speed
+        		{Normal  18}
+    		}
+	}
+	{bone "turret"
+		{speed2 8.5}
+	}
+	{bone "mantlet"
+		{speed 0.002}
+	}
+
+}

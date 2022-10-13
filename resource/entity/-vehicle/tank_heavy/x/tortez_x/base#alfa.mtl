@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "tortez_x"}
+	{blend test}
+}

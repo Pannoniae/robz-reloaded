@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/animation/superpershing_track"}
+	{blend test}
+}

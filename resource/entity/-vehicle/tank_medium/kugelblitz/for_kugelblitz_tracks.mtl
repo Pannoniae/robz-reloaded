@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/model/kugelblitz/hummel_track"}
+        {specular "$/model/kugelblitz/hummel_track_SM"}
+	{color "229 229 229 128"}
+	{blend test}
+}

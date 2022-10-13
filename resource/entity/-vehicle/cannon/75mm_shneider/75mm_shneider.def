@@ -1,0 +1,20 @@
+{entity
+	(include "75mm_shneider.inc")
+
+	{extender "inventory"
+		{box
+			{item "fr_bullet75_sa35 ap" 15}
+			{item "fr_bullet75_sa35 fg" 35}
+
+			(mod "mp"
+				{item "sandbag_kit2"}
+			)
+		}
+	}
+	{Weaponry
+		{place "gun"
+			{weapon "75mm_1912" filling "fr_bullet75_sa35 fg"}
+			("abm_howitzer")
+		}
+	}
+}

@@ -1,0 +1,67 @@
+{tags
+	{"date" "Commonwealth vs Germany"}
+	{"menu:back" "Return to menu"}
+	{"mission_1" "Support allied tanks on the battlefield!"}
+	{"mission_2" "Advance into enemy territory, destroy all defenses along the way!"}
+	{"mission_defend" "Defend your location from enemy counter attacks!"}
+	{"mission_enemy_fuel" "Destroy the enemy fuel supplies!"}
+	{"mission_defend_radioop" "Keep your radio operator alive and you will receive artillery support!"}
+	{"mission_defend_heavy" "Destroy incoming enemy heavy tanks!"}
+	{"mission_3" "Rush even further into enemy territory and obliterate them before they can regroup!"}
+	{"mission_killtankace" "Eliminate the enemy tank ace!"}
+	{"mission_enemyarty" "Neutralise the enemy artillery battery!"}
+	{"mission_survive" "Keep your tank operational and your crew alive!"}
+	{"mission_option_select1" "Choose your tank!"}
+	{"mission_option1" "Comet I (A34)"}
+	{"mission_option2" "M4A4 Firefly"}
+	{"mission_option3" "Mk.VII Churchill"}
+	{"name" "[UK] Wadi Akarit"}
+	{"name_big" "Wadi Akarit"}
+	{"officer_crewdeath" "Major, some of your tank crew haven just been killed. Shrapnel will kill your men inside the tank even though the tank is still operational. You'd better watch out, as we don't have an infinite supply of troops!"}
+	{"officer_start" "Major, our boys are engaged in a heavy tank battle and require immediate assistance!"}
+	{"officer_mission_defend" "Major, your tank must defend this position at all costs!"}
+	{"officer_mission_defend_radio" "Nearby is our artillery spotter who will provide you with friendly artillery support. Make sure you keep him alive, you will need him!"}
+	{"officer_enemy_supply" "HQ have informed us that our enemies have a lot of fuel stored nearby, be sure to blow it up!"}
+	{"officer_defend" "You have to hold this position until new orders arrive!"}
+	{"officer_rotate" "Make sure you hold this location at all costs, but don't show your weak sides to the enemy!"}
+	{"officer_artillerycall" "Incoming artillery barrage!"}
+	{"officer_allied_spotter_dead" "Damn them! They've killed our artillery spotter! Nothing we can do though, we have to carry on. Hold this position!"}
+	{"officer_defend_warning" "Commander, heavy enemy tanks have been reported. You are our only hope, destroy them!"}
+	{"officer_move" "Commander, it's time to find some better cover. Move your tank and outmanoeuvre them!"}
+	{"officer_defend_complete" "Impressive! The German offensive has been stalled. Unfortunately, your tank has broken down, however our engineers are doing everything they can to get it up and running again. Before our enemies can regroup I must ask you to infiltrate their lines. Eliminate their artillery battery before they start shelling our positions!"}
+	{"officer_infmission1" "Scavenge the area for weapons, our air force has delivered us some goodies nearby!"}
+	{"officer_infmission2" "We must hurry and destroy their artillery before they open fire on our positions!"}
+	{"officer_artycomp" "Great job Major! You have proven to be deadly both with your tank and fighting on foot! Your tank is fixed and ready to go, get back out there and show them who's boss!"}
+	{"officer_enemy_ace" "Major, watch yourself! A dangerous German tank ace just destroyed our entire tank column not far from your location, avenge our boys and eliminate him!"}
+	{"outro_completed" "Superb! You've claimed victory for King and country!"}
+	{"outro_failed" "You have been defeated!"}
+	{"outro_start" ""}
+	{"hint_fuel" "Watch your fuel consumption, you may get resupplied later, but until then you may stand still."}
+	{"hint_inf" "You can try to fix a damaged tank or scavenge the battlefield for other heavy weaponry."}
+	{"place" "Operation Scipio, Tunisia"}
+	{"player_progress_000" "Progress: <c(e74236)>0%"}
+	{"player_money_005" "Progress: <c(e74236)>5%"}
+	{"player_money_010" "Progress: <c(e74236)>10%"}
+	{"player_money_020" "Progress: <c(e74236)>20%"}
+	{"player_money_030" "Progress: <c(e7c436)>30%"}
+	{"player_money_040" "Progress: <c(e7c436)>40%"}
+	{"player_money_050" "Progress: <c(e7c436)>50%"}
+	{"player_money_060" "Progress: <c(4fe736)>60%"}
+	{"player_money_070" "Progress: <c(4fe736)>70%"}
+	{"player_money_080" "Progress: <c(4fe736)>80%"}
+	{"player_money_090" "Progress: <c(4fe736)>90%"}
+	{"player_money_100" "Progress: <c(4fe736)>100%"}
+	{"reinf_arty" "Artillery strike"}
+	{"skirmish_flag_capture" "We have captured a strategic position!"}
+	{"skirmish_flag_recapture" "We have lost a strategic position to the enemy!"}
+	{"skirmish_reinf_arrive" "Reinforcements have arrived!"}
+	{"low_ammo" "<e(shadow)><c(e74f36)>We are low on ammunition... requesting resupply."}
+	{"ap_ammo" "<e(shadow)><c(abe736)>resupplying anti-tank ammunition..."}
+	{"he_ammo" "<e(shadow)><c(79e736)>resupplying high explosive ammunition..."}
+	{"mg_ammo" "<e(shadow)><c(57e736)>resupplying machine-gun ammunition..."}
+	{"done_ammo" "<e(shadow)><c(cdef65)>Ammunition has been resupplied!"}
+	{"timerdefense" "<e(shadow)><c(fdef03)>Defend your position!"}
+	{"timerinf10" "<e(shadow)><c(4fe736)>Destroy the enemy artillery battery"}
+	{"timerinf5" "<e(shadow)><c(e7c436)>Destroy the enemy artillery battery"}
+	{"timerinf1" "<e(shadow)><c(e74236)>Destroy the enemy artillery battery"}
+}

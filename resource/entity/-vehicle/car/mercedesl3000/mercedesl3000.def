@@ -1,0 +1,61 @@
+{entity
+	(include "mercedesl3000.inc")
+	("passenger_10_human")
+	{extender "inventory"
+		{box
+		{clear}
+		{size 6 10}
+			;{item "brandflasche" "grenade" 5  {cell 0 0}}
+			;{item "brandflasche" "grenade" 5  {cell 2 0}}
+			;{item "grenade kasapanos" 5  {cell 4 0}}
+			;{item "grenade kasapanos" 5  {cell 6 0}}
+			;{item "grenade hungarian_36m" 8  {cell 0 1}}
+			;{item "grenade hungarian_36m" 8  {cell 2 1}}
+			;{item "grenade hungarian_36m" 8  {cell 4 1}}
+			;{item "grenade hungarian_42m" 8  {cell 5 1}}
+			;{item "grenade hungarian_42m" 8  {cell 6 1}}
+			;{item "grenade hungarian_42m" 8  {cell 7 1}}
+			;{item "smoke" "grenade" 6  {cell 0 2}}
+			;{item "smoke" "grenade" 6  {cell 2 2}}
+			;{item "smoke" "grenade" 6  {cell 4 2}}
+			;{item "smoke" "grenade" 6  {cell 6 2}}
+			;{item "bandage" 4  {cell 0 3}}
+			;{item "bandage" 4  {cell 2 3}}
+			;{item "bandage" 4  {cell 4 3}}
+			;{item "bandage" 4  {cell 6 3}}
+			;{item "hmgun" "ammo" 300  {cell 0 4}}
+			;{item "hmgun" "ammo" 300  {cell 2 4}}
+			;{item "hmgun" "ammo" 300  {cell 4 4}}
+			;{item "hmgun" "ammo" 300  {cell 6 4}}
+			;{item "mgun" "ammo" 1000  {cell 0 6}}
+			;{item "mgun" "ammo" 1000  {cell 2 6}}
+			;{item "mgun" "ammo" 1000  {cell 4 6}}
+			;{item "mgun" "ammo" 1000  {cell 6 6}}
+			;{item "rifle" "ammo" 200  {cell 0 7}}
+			;{item "rifle" "ammo" 200  {cell 1 7}}
+			;{item "rifle" "ammo" 200  {cell 2 7}}
+			;{item "rifle" "ammo" 200  {cell 3 7}}
+			;{item "rifle" "ammo" 200  {cell 4 7}}
+			;{item "rifle" "ammo" 200  {cell 5 7}}
+			;{item "rifle" "ammo" 200  {cell 6 7}}
+			;{item "rifle" "ammo" 200  {cell 7 7}}
+			;{item "pistol" "ammo" 500  {cell 0 8}}
+			;{item "pistol" "ammo" 500  {cell 2 8}}
+			;{item "pistol" "ammo" 500  {cell 4 8}}
+			;{item "pistol" "ammo" 500  {cell 6 8}}
+			;{item "ptr" "ammo" 30 {cell 0 9}}
+			;{item "ammo panzershreck" 20 {cell 2 9}}
+			;{item "ammo 42lp" 20 {cell 4 9}}
+			{item "balloon" filling "fuel" 30}
+            {item "grenade hungarian_42m" 20 }
+			{item "grenade hungarian_36m" 10 }
+            {item "smoke" "grenade" 10}
+			{item "dynamite" 2}
+			{item "can" }
+			{item "repair_kit" 2}
+            {item "ammo_box_small_ger"}
+		}
+	}
+	(include "/properties/resupply_generic.inc")
+	("truck_ammo_ger_inf")
+}

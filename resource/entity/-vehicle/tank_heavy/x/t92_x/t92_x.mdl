@@ -1,0 +1,42 @@
+;Exported by: Jakob
+;Date:        Thu Oct 16 09:38:16 2014
+;File:        C:\Users\Jakob\Desktop\Files\Wot models\mow porting\x\T92_x\T92_x.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "trackr"
+			{parameters "id=trackright;"}
+			{Position 1.52584	-27.9862	12.3003}
+			{VolumeView "trackr.ply"}
+		}
+		{bone "trackl"
+			{parameters "id=trackleft;"}
+			{Position 1.50713	27.9991	12.8367}
+			{VolumeView "trackl.ply"}
+		}
+		{bone "body"
+			{parameters "id=body;"}
+			{Position -7.25193	-0.159031	34.6663}
+			{VolumeView "body.ply"}
+			{bone "turret"
+				{parameters "id=turret;"}
+				{Position -16.4531	0.823514	2.67904}
+				{VolumeView "turret.ply"}
+				{bone "gun_rot"
+					{parameters "id=spa;"}
+					{Position -14.7365	-1.70779	5.79705}
+					{VolumeView "gun_rot.ply"}
+					{bone "gun"
+						{parameters "id=gun;"}
+						{Position 50.6478	1.63395	0.798985}
+						{VolumeView "gun.ply"}
+					}
+				}
+			}
+		}
+	}
+}

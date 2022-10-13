@@ -1,0 +1,241 @@
+;Exported by: Sergey
+;Date:        Thu Jun 14 13:23:03 2018
+;File:        D:\Documents\3dsmax\scenes\_resource_MoW\cannon\44M Buzoganyveto\44M Buz_00.max
+{Skeleton
+	{animation
+		{sequence "close" {speed 0.5}}
+	}
+	{bone revolute "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "emit1"
+			{Position -22.4784	5.02174	0}
+		}
+		{bone "gunner"
+			{Matrix34
+				0.970478	-0.241191	0
+				0.241191	0.970478	0
+				0	0	1
+				-16.131	16.6802	0
+			}
+		}
+		{bone "driver"
+			{Position 11.2002	-2.20757	0}
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Position -2.88831	-0.0174069	3.31391}
+			{VolumeView "body.ply"}
+			{bone "pivot_front"
+				{parameters "ID=body;"}
+				{Matrix34
+					1	0	0
+					0	0	1
+					0	-1	0
+					2.89227	0.011756	-0.338238
+				}
+				{VolumeView "pivot_front.ply"}
+				{bone revolute "wheelright"
+					{parameters "ID=wheelright;Support=1;Radius=0.19;"}
+					{Position 0	0	4.91663}
+					{VolumeView "wheelright.ply"}
+				}
+				{bone revolute "wheelleft"
+					{parameters "ID=wheelleft;Support=1;Radius=0.19;"}
+					{Matrix34
+						1	0	0
+						0	1	0
+						0	0	-1
+						0	0	-4.90676
+					}
+					{VolumeView "wheelleft.ply"}
+				}
+				{bone "fxtracer1"
+					{Matrix34
+						1	0	0
+						0	0	-1
+						0	1	0
+						-0.00975157	-2.97567	4.92248
+					}
+				}
+				{bone "fxtracel1"
+					{Matrix34
+						1	0	0
+						0	0	-1
+						0	1	0
+						-0.00730036	-2.97567	-5.10406
+					}
+				}
+			}
+			{bone revolute "turret"
+				{parameters "ID=body;"}
+				{limits -30 30}
+				{speed 0.01}
+				{Position -0.0373545	0.0204689	2.37061}
+				{VolumeView "turret.ply"}
+				{bone revolute "gun_rot"
+					{limits -10 60}
+					{Matrix34
+						1	0	0
+						0	0	1
+						0	-1	0
+						0.0181851	0.980751	2.07802
+					}
+					{VolumeView "gun_rot.ply"}
+					{bone "gun"
+						{parameters "ID=gun;"}
+						{Matrix34
+							0	0	1
+							0	1	0
+							-1	0	0
+							-8.90131	1.76188	-1.87229
+						}
+						{VolumeView "gun1.ply"}
+						{bone "foresight1"
+							{Matrix34
+								0	0	-1
+								0	1	0
+								1	0	0
+								0.0236983	-0.00466061	-11.705
+							}
+						}
+						{bone "shooter_a00"
+							{Matrix34
+								0	0	-1
+								-1	0	0
+								0	1	0
+								-0.0147839	0.00132179	-0.0118332
+							}
+							{bone "rocket_a00"
+								{Matrix34
+									0	-1	0
+									0	0	1
+									-1	0	0
+									11.797	-0.0335915	-0.00132084
+								}
+								{VolumeView "rocket00.ply"}
+							}
+						}
+						{bone "shooter_a01"
+							{Matrix34
+								0	0	-1
+								-1	0	0
+								0	1	0
+								5.72453	0.00132179	-0.0118332	
+							}
+							{bone "rocket_a01"
+								{Matrix34
+									0	-1	0
+									0	0	1
+									-1	0	0
+									11.797	-0.0335915	-0.00132084
+								}
+								{VolumeView "rocket00.ply"}
+							}
+						}
+					}
+					{bone "gun2"
+						{parameters "ID=gun;"}
+						{Matrix34
+							0	0	1
+							0	1	0
+							-1	0	0
+							-8.89404	1.76188	3.85224
+						}
+						{VolumeView "gun2.ply"}
+					}
+				}
+				{bone "shield"
+					{parameters "ID=shield;"}
+					{Matrix34
+						0.981871	0.189552	0
+						0	0	1
+						0.189552	-0.981871	0
+						-4.60774	7.37527	3.11939
+					}
+					{VolumeView "shield.ply"}
+				}
+				{bone "visor"
+					{parameters "Vis;"}
+					{Matrix34
+						1	0	0
+						0	0	1
+						0	-1	0
+						2.86311	10.1506	12.9387
+					}
+				}
+			}
+			{bone "stanina"
+				{parameters "ID=stanina;"}
+				{Matrix34
+					1	0	0
+					0	0	1
+					0	-1	0
+					-3.59069	-0.109528	-1.65346
+				}
+				{VolumeView "stanina.ply"}
+			}
+		}
+		{bone "pivot_back"
+			{Matrix34
+				1	0	0
+				0	0	1
+				0	-1	0
+				-18.4634	0	0
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 9.84252 6.53485 5.90551}
+	{Bone "body"}
+	{Position -0.777488	0.0567969	0.73096}
+}
+{Volume "gun"
+	{Cylinder 1.15616 11.8701}
+	{Bone "gun"}
+	{Position -0.0396369	0.0016124	-5.87374}
+}
+{Volume "gun2"
+	{Cylinder 1.17046 11.9188}
+	{Bone "gun2"}
+	{Position -0.0119193	0.0259874	-5.84209}
+}
+{Volume "shield"
+	{Box 22.9609 16.2019 0.5878}
+	{Bone "shield"}
+	{Matrix34
+		0.99885	0	-0.047935
+		0	1	0
+		0.047935	0	0.99885
+		-0.313975	1.74258	-0.0252094
+	}
+}
+{Volume "stanina"
+	{Box 13.0805 6.77723 2.16535}
+	{Bone "stanina"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		-6.25212	-0.577775	-0.123266
+	}
+}
+{Volume "wheelleft"
+	{Cylinder 3.15552 0.959625}
+	{Bone "wheelleft"}
+	{Matrix34
+		1	0	0
+		0	1	0
+		0	0	-1
+		0.0249528	-0.0132971	0.0160878
+	}
+}
+{Volume "wheelright"
+	{Cylinder 3.15552 0.979109}
+	{Bone "wheelright"}
+	{Position 0.0249527	-0.0132966	0.0561253}
+}
