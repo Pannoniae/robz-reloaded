@@ -1,0 +1,6 @@
+{bitmap
+	{frame "mech_inf_ita_00.tga"}
+	{frame "mech_inf_ita_01.tga"}
+	{frame "mech_inf_ita_02.tga"}
+	{frame "mech_inf_ita_03.tga"}
+}

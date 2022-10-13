@@ -1,0 +1,198 @@
+{mission
+	{Entity "map_point" 0xc001
+		{Position -3018.73 -4186.38}
+		{xform zl 91.63}
+		{Extender "map_point"
+			{name b1}
+			{team b}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 1}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 26}
+	}
+	{Entity "map_point" 0xc002
+		{Position -872.97 -4243.54}
+		{xform zl 91.63}
+		{Extender "map_point"
+			{name b2}
+			{team b}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 2}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 27}
+	}
+	{Entity "map_point" 0xc009
+		{Position -668.59 6928.31}
+		{xform zl -84.58}
+		{Extender "map_point"
+			{name a1}
+			{team a}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 1}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 34}
+	}
+	{Entity "map_point" 0xc00a
+		{Position -2916.15 7037.42}
+		{xform zl -84.58}
+		{Extender "map_point"
+			{name a2}
+			{team a}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 2}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 35}
+	}
+	{Tags "keep_places_without_door" 0x10ec}
+	{Tags "keep_places_without_door" 0x110c}
+	{Tags "keep_places_without_door" 0x4000}
+	{Tags "keep_places_without_door" 0x7000}
+	{Tags "keep_places_without_door" 0x70f4}
+	{Tags "keep_places_without_door" 0x70f5}
+	{Tags "keep_places_without_door" 0x7357}
+	{Tags "keep_places_without_door" 0x6809}
+	{Tags "keep_places_without_door" 0x6829}
+	{Tags "keep_places_without_door" 0x285d}
+	{Tags "keep_places_without_door" 0x285f}
+	{Tags "keep_places_without_door" 0x4880}
+	{Tags "keep_places_without_door" 0x4881}
+	{Tags "keep_places_without_door" 0x48b6}
+	{Tags "keep_places_without_door" 0x4049}
+	{Tags "keep_places_without_door" 0x1c00}
+	{Tags "keep_places_without_door" 0x2400}
+	{Tags "keep_places_without_door" 0x5013}
+	{Tags "keep_places_without_door" 0x384b}
+	{Tags "keep_places_without_door" 0x6449}
+	{Tags "keep_places_without_door" 0x2038}
+	{Tags "keep_places_without_door" 0x2058}
+	{Tags "keep_places_without_door" 0x2077}
+	{Tags "keep_places_without_door" 0x2092}
+	{Tags "keep_places_without_door" 0x20dd}
+	{Tags "keep_places_without_door" 0x20de}
+	{Tags "keep_places_without_door" 0x326}
+	{Tags "keep_places_without_door" 0x327}
+	{Tags "keep_places_without_door" 0x3096}
+	{Tags "keep_places_without_door" 0x7079}
+	{Tags "keep_places_without_door" 0x707a}
+	{Tags "keep_places_without_door" 0x70b0}
+	{Tags "keep_places_without_door" 0x70b1}
+	{Tags "keep_places_without_door" 0x2110}
+	{Tags "keep_places_without_door" 0x212b}
+	{Tags "keep_places_without_door" 0x2160}
+	{Tags "keep_places_without_door" 0x2161}
+	{Tags "keep_places_without_door" 0x217d}
+	{Tags "keep_places_without_door" 0x2199}
+	{Tags "keep_places_without_door" 0x21ce}
+	{Tags "keep_places_without_door" 0x3091}
+	{Tags "keep_places_without_door" 0x1070}
+	{Tags "keep_places_without_door" 0x416e}
+	{Tags "keep_places_without_door" 0x20ab}
+	{Tags "keep_places_without_door" 0x20cf}
+	{Tags "keep_places_without_door" 0xa88}
+	{Tags "keep_places_without_door" 0x30b7}
+	{Tags "keep_places_without_door" 0x30d7}
+	{Tags "keep_places_without_door" 0x6172}
+	{Tags "keep_places_without_door" 0x6197}
+	{Tags "keep_places_without_door" 0x61b2}
+	{Tags "keep_places_without_door" 0x61cd}
+	{Tags "keep_places_without_door" 0x61e8}
+	{Tags "keep_places_without_door" 0x621d}
+	{Tags "keep_places_without_door" 0x621e}
+	{Tags "keep_places_without_door" 0x41b8}
+	{Tags "keep_places_without_door" 0x41b9}
+	{Tags "keep_places_without_door" 0x41ee}
+	{Tags "keep_places_without_door" 0x41ef}
+	{Tags "keep_places_without_door" 0x2823}
+	{Tags "keep_places_without_door" 0x3095}
+	{Tags "keep_places_without_door" 0x309f}
+	{Tags "keep_places_without_door" 0x5822}
+	{Tags "keep_places_without_door" 0x6824}
+	{Tags "keep_places_without_door" 0x6846}
+	{Tags "keep_places_without_door" 0x684b}
+	{Tags "keep_places_without_door" 0x6883}
+	{Tags "keep_places_without_door" 0x689c}
+	{Tags "keep_places_without_door" 0x400}
+	{Tags "keep_places_without_door" 0x38f}
+	{Tags "keep_places_without_door" 0x2401}
+	{Tags "keep_places_without_door" 0x241f}
+	{Tags "keep_places_without_door" 0x2430}
+	{Tags "keep_places_without_door" 0x2452}
+	{Tags "keep_places_without_door" 0x2456}
+	{Tags "keep_places_without_door" 0x245b}
+	{Tags "keep_places_without_door" 0x41f6}
+	{Tags "keep_places_without_door" 0x425a}
+	{Tags "keep_places_without_door" 0x4273}
+	{Tags "keep_places_without_door" 0x50d1}
+	{Tags "keep_places_without_door" 0x42b7}
+	{Tags "keep_places_without_door" 0x42d0}
+	{Tags "keep_places_without_door" 0x4301}
+	{Tags "keep_places_without_door" 0x4302}
+	{Tags "keep_places_without_door" 0xb4d}
+	{Tags "keep_places_without_door" 0x709d}
+	{Tags "keep_places_without_door" 0x3105}
+	{Tags "keep_places_without_door" 0xafd}
+	{Tags "keep_places_without_door" 0xb04}
+	{Tags "keep_places_without_door" 0x1800}
+	{Tags "keep_places_without_door" 0x6408}
+	{Tags "keep_places_without_door" 0x2427}
+	{Tags "keep_places_without_door" 0x2428}
+	{Tags "keep_places_without_door" 0x741d}
+	{Tags "keep_places_without_door" 0x625b}
+	{Tags "keep_places_without_door" 0x6263}
+	{Tags "keep_places_without_door" 0x2014}
+	{Tags "keep_places_without_door" 0xcd7}
+	{Tags "keep_places_without_door" 0x5101}
+	{Tags "keep_places_without_door" 0x5138}
+	{Tags "keep_places_without_door" 0x5139}
+	{Tags "keep_places_without_door" 0x5170}
+	{Tags "keep_places_without_door" 0x5171}
+	{Tags "keep_places_without_door" 0x3149}
+	{Tags "keep_places_without_door" 0x3153}
+	{Tags "keep_places_without_door" 0x23a2}
+	{Tags "keep_places_without_door" 0x1885}
+	{Tags "keep_places_without_door" 0x502b}
+	{Tags "keep_places_without_door" 0x1303}
+	{Tags "keep_places_without_door" 0x1312}
+	{Tags "keep_places_without_door" 0x469}
+	{Tags "keep_places_without_door" 0xcf3}
+	{Environment "skirmish/ger-sthilaire"}
+	{Helpers
+		{reinforcements
+			{scoreTotal 0}
+			{scoreCurrent 0}
+		}
+	}
+	{Fog 1}
+}

@@ -1,0 +1,6 @@
+{bitmap
+	{frame "flak38_wheeled_00.tga"}
+	{frame "flak38_wheeled_01.tga"}
+	{frame "flak38_wheeled_02.tga"}
+	{frame "flak38_wheeled_03.tga"}
+}

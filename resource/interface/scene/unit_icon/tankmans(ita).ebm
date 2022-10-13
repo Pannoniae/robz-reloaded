@@ -1,0 +1,6 @@
+{bitmap
+	{frame "tankman(ita)_00.tga"}
+	{frame "tankman(ita)_01.tga"}
+	{frame "tankman(ita)_02.tga"}
+	{frame "tankman(ita)_03.tga"}
+}

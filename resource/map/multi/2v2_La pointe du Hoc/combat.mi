@@ -1,0 +1,97 @@
+{mission
+	{Entity "map_point" 0xc001
+		{Position -1219.32 -707.66}
+		{xform zl 64.1}
+		{Extender "map_point"
+			{name b1}
+			{team b}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 1}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 26}
+	}
+	{Entity "map_point" 0xc002
+		{Position -1107.93 -782.42}
+		{xform zl 64.1}
+		{Extender "map_point"
+			{name b2}
+			{team b}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 2}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 27}
+	}
+	{Entity "map_point" 0xc009
+		{Position 1618.39 3189.57}
+		{xform zl -121.5}
+		{Extender "map_point"
+			{name a1}
+			{team a}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 1}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 34}
+	}
+	{Entity "map_point" 0xc00a
+		{Position 1496.07 3302.02}
+		{xform zl -121.5}
+		{Extender "map_point"
+			{name a2}
+			{team a}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 2}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 35}
+	}
+	{Tags "pointer" 0x702a}
+	{Tags "pointer" 0x702c}
+	{Tags "pointer" 0x702d}
+	{Tags "pointer" 0x702e}
+	{Tags "keep_places_without_door" 0x222b}
+	{Tags "keep_places_without_door" 0x2239}
+	{Tags "keep_places_without_door" 0x1034}
+	{Tags "keep_places_without_door" 0x5992}
+	{Tags "keep_places_without_door" 0x117}
+	{Tags "keep_places_without_door" 0x5c93}
+	{Tags "keep_places_without_door" 0x607f}
+	{Environment "skirmish/usa-omaha"}
+	{Helpers
+		{reinforcements
+			{scoreTotal 0}
+			{scoreCurrent 0}
+		}
+	}
+	{Fog 1}
+}

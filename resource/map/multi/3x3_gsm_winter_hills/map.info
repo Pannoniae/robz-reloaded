@@ -1,0 +1,5 @@
+; originally "guerra_de_invierno" 
+{game
+  {maxPlayers 6}
+  {texMod 1}
+}	

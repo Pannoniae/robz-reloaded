@@ -1,0 +1,6 @@
+{bitmap
+	{frame "home_guard(rom)_00.tga"}
+	{frame "home_guard(rom)_01.tga"}
+	{frame "home_guard(rom)_02.tga"}
+	{frame "home_guard(rom)_03.tga"}
+}

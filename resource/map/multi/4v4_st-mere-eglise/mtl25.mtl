@@ -1,0 +1,10 @@
+{material
+	{layer bump
+		{diffuse "/texture/land/leaves/leaves6_steppe2a"}
+		{bump "/texture/land/leaves/leaves6_steppe2a_nm"}
+	}
+	{layer bump
+		{diffuse "/texture/land/town/masonry_work2"}
+		{bump "/texture/land/town/masonry_work2_nm"}
+	}
+}

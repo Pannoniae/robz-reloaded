@@ -1,0 +1,53 @@
+{mission
+	{Entity "map_point" 0x8000
+		{Position -2134.36 2118.55 0.09}
+		{xform zl -45.99}
+		{Extender "map_point"
+			{name a1}
+			{team a}
+			{phase 0}
+			{order 1}
+			{visor SpawnPoint}
+		}
+		{Player 255}
+		{MID 1}
+	}
+	{Entity "map_point" 0x8001
+		{Position 1111.96 -3393.39}
+		{xform zl 89.47}
+		{Extender "map_point"
+			{name b1}
+			{team b}
+			{phase 0}
+			{order 1}
+			{visor SpawnPoint}
+		}
+		{Player 255}
+		{MID 2}
+	}
+	{Tags "keep_places_without_door" 0x8f}
+	{Tags "keep_places_without_door" 0x73e}
+	{Tags "keep_places_without_door" 0xcfa}
+	{Tags "keep_places_without_door" 0x368f}
+	{Tags "keep_places_without_door" 0x2872}
+	{Tags "keep_places_without_door" 0x106d}
+	{Tags "keep_places_without_door" 0x106e}
+	{Tags "keep_places_without_door" 0x106f}
+	{Tags "keep_places_without_door" 0x6832}
+	{Tags "keep_places_without_door" 0x62c9}
+	{Tags "keep_places_without_door" 0x317e}
+	{Tags "keep_places_without_door" 0x6237}
+	{Tags "keep_places_without_door" 0x626e}
+	{Tags "keep_places_without_door" 0x5035}
+	{Tags "keep_places_without_door" 0xea1}
+	{Tags "keep_places_without_door" 0xf8a}
+	{Tags "keep_places_without_door" 0xfab}
+	{Environment "multi/multi_09"}
+	{Helpers
+		{reinforcements
+			{scoreTotal 0}
+			{scoreCurrent 0}
+		}
+	}
+	{Fog 1}
+}

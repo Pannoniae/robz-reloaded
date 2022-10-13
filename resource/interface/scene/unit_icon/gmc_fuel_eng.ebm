@@ -1,0 +1,6 @@
+{bitmap
+	{frame "gmc_fuel_00.tga"}
+	{frame "gmc_fuel_01.tga"}
+	{frame "gmc_fuel_02.tga"}
+	{frame "gmc_fuel_03.tga"}
+}

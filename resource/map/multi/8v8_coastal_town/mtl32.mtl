@@ -1,0 +1,14 @@
+{material
+	{layer bump
+		{diffuse "/texture/land/_kustrin/clay_q4"}
+		{bump "/texture/land/_kustrin/clay_q4_nm"}
+		{color 0xffffffff}
+		{parallax_scale 0}
+	}
+	{layer bump
+		{diffuse "/texture/land/_kustrin/clay_q4"}
+		{bump "/texture/land/_kustrin/clay_q4_nm"}
+		{color 0xffffffff}
+		{parallax_scale 0}
+	}
+}

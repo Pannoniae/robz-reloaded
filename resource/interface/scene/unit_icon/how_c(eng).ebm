@@ -1,0 +1,6 @@
+{bitmap
+	{frame "land_mattress_00.tga"}
+	{frame "land_mattress_01.tga"}
+	{frame "land_mattress_02.tga"}
+	{frame "land_mattress_03.tga"}
+}

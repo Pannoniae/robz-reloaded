@@ -1,0 +1,13 @@
+{material
+	{layer bump
+		{diffuse "/texture/land/bass/cornfield_4"}
+		{color 0xffffffff}
+		{parallax_scale 0}
+	}
+	{layer bump
+		{diffuse "/texture/land/_new/grass_01"}
+		{bump "/texture/land/_new/grass_01_nm"}
+		{color 0xffffffff}
+		{parallax_scale 0}
+	}
+}

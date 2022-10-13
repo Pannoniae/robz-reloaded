@@ -1,0 +1,70 @@
+{materials
+	{"mtl0"
+		{layer bump
+			{diffuse "/texture/land/snow/clay_snow12"}
+			{bump "/texture/land/snow/clay_snow12_nm"}
+			{specular "/texture/land/snow/clay_snow12_sp"}
+		}
+		{layer bump
+			{diffuse "/texture/land/snow/clay_snow15"}
+			{bump "/texture/land/snow/clay_snow15_nm"}
+			{specular "/texture/land/snow/clay_snow15_sp"}
+		}
+	}
+	{"mtl1"
+		{layer bump
+			{diffuse "/texture/land/snow/clay_snow12"}
+			{bump "/texture/land/snow/clay_snow12_nm"}
+			{specular "/texture/land/snow/clay_snow12_sp"}
+		}
+		{layer bump
+			{diffuse "/texture/land/fields/.winter/field_1win"}
+			{bump "/texture/land/fields/.winter/field_1win_nm"}
+		}
+	}
+	{"mtl2"
+		{layer bump
+			{diffuse "/texture/land/snow/clay_snow12"}
+			{bump "/texture/land/snow/clay_snow12_nm"}
+			{specular "/texture/land/snow/clay_snow12_sp"}
+		}
+		{layer bump
+			{diffuse "/texture/land/fields/.winter/field_2win"}
+			{bump "/texture/land/fields/.winter/field_2win_nm"}
+		}
+	}
+	{"mtl3"
+		{layer bump
+			{diffuse "/texture/land/snow/clay_snow12"}
+			{bump "/texture/land/snow/clay_snow12_nm"}
+			{specular "/texture/land/snow/clay_snow12_sp"}
+		}
+		{layer bump
+			{diffuse "/texture/land/snow/snow_1a"}
+			{bump "/texture/land/snow/snow_1a_nm"}
+		}
+	}
+	{"mtl4"
+		{layer bump
+			{diffuse "/texture/land/snow/clay_snow12"}
+			{bump "/texture/land/snow/clay_snow12_nm"}
+			{specular "/texture/land/snow/clay_snow12_sp"}
+		}
+		{layer bump
+			{diffuse "/texture/land/winter/ice_crust1a"}
+			{bump "/texture/land/winter/ice_crust1a_nm"}
+			{specular "/texture/land/winter/ice_crust1a_sp"}
+		}
+	}
+	{"mtl5"
+		{layer bump
+			{diffuse "/texture/land/snow/clay_snow12"}
+			{bump "/texture/land/snow/clay_snow12_nm"}
+			{specular "/texture/land/snow/clay_snow12_sp"}
+		}
+		{layer bump
+			{diffuse "/texture/land/dirt/clay_2"}
+			{bump "/texture/land/dirt/clay_2_nm"}
+		}
+	}
+}

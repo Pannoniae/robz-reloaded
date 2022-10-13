@@ -1,0 +1,103 @@
+{mission
+	{Entity "map_point" 0xc001
+		{Position -1853.29 -4237.69}
+		{xform zl 91.63}
+		{Extender "map_point"
+			{name b1}
+			{team b}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 1}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 26}
+	}
+	{Entity "map_point" 0xc002
+		{Position 1840.69 -4176.65}
+		{xform zl 91.63}
+		{Extender "map_point"
+			{name b2}
+			{team b}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 2}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 27}
+	}
+	{Entity "map_point" 0xc009
+		{Position 1474.48 4462.7}
+		{xform zl -84.58}
+		{Extender "map_point"
+			{name a1}
+			{team a}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 1}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 34}
+	}
+	{Entity "map_point" 0xc00a
+		{Position -1645.66 4399.39}
+		{xform zl -84.58}
+		{Extender "map_point"
+			{name a2}
+			{team a}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 2}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 35}
+	}
+	{Tags "keep_places_without_door" 0x4037}
+	{Tags "keep_places_without_door" 0x5000}
+	{Tags "keep_places_without_door" 0x2055}
+	{Tags "keep_places_without_door" 0x6024}
+	{Tags "keep_places_without_door" 0x602c}
+	{Tags "keep_places_without_door" 0x3000}
+	{Tags "keep_places_without_door" 0x7004}
+	{Tags "keep_places_without_door" 0x40ea}
+	{Tags "keep_places_without_door" 0x521}
+	{Tags "keep_places_without_door" 0x20d6}
+	{Tags "smgw" "jammable" 0x6106}
+	{Tags "keep_places_without_door" 0x41c3}
+	{Tags "keep_places_without_door" 0x41e6}
+	{Tags "keep_places_without_door" 0x2226}
+	{Tags "keep_places_without_door" 0x9b6}
+	{Tags "keep_places_without_door" 0xa35}
+	{Tags "keep_places_without_door" 0x3079}
+	{Environment "skirmish/usa-avalanche"}
+	{Helpers
+		{reinforcements
+			{scoreTotal 0}
+			{scoreCurrent 0}
+		}
+	}
+	{Fog 1}
+}

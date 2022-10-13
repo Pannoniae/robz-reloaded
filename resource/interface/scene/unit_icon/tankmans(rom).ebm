@@ -1,0 +1,6 @@
+{bitmap
+	{frame "tankman(rom)_00.tga"}
+	{frame "tankman(rom)_01.tga"}
+	{frame "tankman(rom)_02.tga"}
+	{frame "tankman(rom)_03.tga"}
+}

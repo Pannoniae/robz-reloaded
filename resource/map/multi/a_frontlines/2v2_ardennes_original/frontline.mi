@@ -1,0 +1,1051 @@
+{mission
+	{Entity "flag_point" 0x8002
+		{Position 100.02 -2908.69}
+		{Extender "map_point"
+			{name f11}
+			{team b}
+			{zoneA 23}
+			{zoneB 23}
+			{phase 1}
+			{order 1}
+			{show All}
+			{allow
+				{capture "a"}
+				{release "a"}
+			}
+		}
+		{Player 0}
+		{MID 1}
+	}
+	{Entity "flag_point" 0x8004
+		{Position 330.27 -2312.86}
+		{Extender "map_point"
+			{name f12}
+			{team b}
+			{zoneA 23}
+			{zoneB 23}
+			{phase 1}
+			{order 2}
+			{show All}
+			{allow
+				{capture "a"}
+				{release "a"}
+			}
+		}
+		{Player 0}
+		{MID 2}
+	}
+	{Entity "flag_point" 0x8007
+		{Position 6489.85 -3363.65}
+		{Extender "map_point"
+			{name f21}
+			{team b}
+			{zoneA 23}
+			{zoneB 23}
+			{phase 2}
+			{order 1}
+			{show All}
+			{allow
+				{capture "a"}
+				{release "a"}
+			}
+		}
+		{Player 0}
+		{MID 3}
+	}
+	{Entity "flag_point" 0x8009
+		{Position 6527.1 -2020.3}
+		{Extender "map_point"
+			{name f22}
+			{team b}
+			{zoneA 23}
+			{zoneB 23}
+			{phase 2}
+			{order 2}
+			{show All}
+			{allow
+				{capture "a"}
+				{release "a"}
+			}
+		}
+		{Player 0}
+		{MID 4}
+	}
+	{Entity "flag_slave" 0x800a
+		{Position -3052.56 -3604.12}
+		{Extender "map_point"
+			{name f11_1}
+			{team a}
+			{zoneA 7.5}
+			{zoneB 7.5}
+			{phase 1}
+			{order 1}
+			{show All}
+			{allow
+				{capture "a"}
+				{release "a"}
+			}
+		}
+		{Player 0}
+		{MID 5}
+	}
+	{Entity "flag_slave" 0x800d
+		{Position -1703.98 -3675.05}
+		{Extender "map_point"
+			{name f11_2}
+			{team a}
+			{zoneA 7.5}
+			{zoneB 7.5}
+			{phase 1}
+			{order 1}
+			{show All}
+			{allow
+				{capture "a"}
+				{release "a"}
+			}
+		}
+		{Player 0}
+		{MID 6}
+	}
+	{Entity "flag_slave" 0x800f
+		{Position -681.04 -3120.09}
+		{Extender "map_point"
+			{name f11_3}
+			{team a}
+			{zoneA 7.5}
+			{zoneB 7.5}
+			{phase 1}
+			{order 1}
+			{show All}
+			{allow
+				{capture "a"}
+				{release "a"}
+			}
+		}
+		{Player 0}
+		{MID 7}
+	}
+	{Entity "flag_slave" 0x8011
+		{Position -3021.41 -1891.23}
+		{Extender "map_point"
+			{name f12_1}
+			{team a}
+			{zoneA 7.5}
+			{zoneB 7.5}
+			{phase 1}
+			{order 2}
+			{show All}
+			{allow
+				{capture "a"}
+				{release "a"}
+			}
+		}
+		{Player 0}
+		{MID 8}
+	}
+	{Entity "flag_slave" 0x8013
+		{Position -696.43 -2237.17}
+		{Extender "map_point"
+			{name f12_2}
+			{team a}
+			{zoneA 7.5}
+			{zoneB 7.5}
+			{phase 1}
+			{order 2}
+			{show All}
+			{allow
+				{capture "a"}
+				{release "a"}
+			}
+		}
+		{Player 0}
+		{MID 9}
+	}
+	{Entity "flag_slave" 0x8015
+		{Position -1774.73 -2344.08}
+		{Extender "map_point"
+			{name f12_3}
+			{team a}
+			{zoneA 7.5}
+			{zoneB 7.5}
+			{phase 1}
+			{order 2}
+			{show All}
+			{allow
+				{capture "a"}
+				{release "a"}
+			}
+		}
+		{Player 0}
+		{MID 10}
+	}
+	{Entity "flag_slave" 0x8017
+		{Position 2537.19 -3227.24}
+		{Extender "map_point"
+			{name f21_1}
+			{team a}
+			{zoneA 7.5}
+			{zoneB 7.5}
+			{phase 2}
+			{order 1}
+			{show All}
+			{allow
+				{capture "a"}
+				{release "a"}
+			}
+		}
+		{Player 0}
+		{MID 11}
+	}
+	{Entity "flag_slave" 0x8019
+		{Position 4052.52 -3731.19}
+		{Extender "map_point"
+			{name f21_2}
+			{team a}
+			{zoneA 7.5}
+			{zoneB 7.5}
+			{phase 2}
+			{order 1}
+			{show All}
+			{allow
+				{capture "a"}
+				{release "a"}
+			}
+		}
+		{Player 0}
+		{MID 12}
+	}
+	{Entity "flag_slave" 0x801b
+		{Position 5301.49 -3441.3}
+		{Extender "map_point"
+			{name f21_3}
+			{team a}
+			{zoneA 7.5}
+			{zoneB 7.5}
+			{phase 2}
+			{order 1}
+			{show All}
+			{allow
+				{capture "a"}
+				{release "a"}
+			}
+		}
+		{Player 0}
+		{MID 13}
+	}
+	{Entity "flag_slave" 0x801d
+		{Position 2503 -1962.32}
+		{Extender "map_point"
+			{name f22_1}
+			{team a}
+			{zoneA 7.5}
+			{zoneB 7.5}
+			{phase 2}
+			{order 2}
+			{show All}
+			{allow
+				{capture "a"}
+				{release "a"}
+			}
+		}
+		{Player 0}
+		{MID 14}
+	}
+	{Entity "flag_slave" 0x801f
+		{Position 4247.48 -2253.47}
+		{Extender "map_point"
+			{name f22_2}
+			{team a}
+			{zoneA 7.5}
+			{zoneB 7.5}
+			{phase 2}
+			{order 2}
+			{show All}
+			{allow
+				{capture "a"}
+				{release "a"}
+			}
+		}
+		{Player 0}
+		{MID 15}
+	}
+	{Entity "flag_slave" 0x8021
+		{Position 5227.02 -2107.11}
+		{Extender "map_point"
+			{name f22_3}
+			{team a}
+			{zoneA 7.5}
+			{zoneB 7.5}
+			{phase 2}
+			{order 2}
+			{show All}
+			{allow
+				{capture "a"}
+				{release "a"}
+			}
+		}
+		{Player 0}
+		{MID 16}
+	}
+	{Entity "map_point" 0x8022
+		{Position -6177.45 -3437.18}
+		{Extender "map_point"
+			{name a11}
+			{team a}
+			{phase 1}
+			{order 1}
+		}
+		{Player 0}
+		{MID 17}
+	}
+	{Entity "map_point" 0x8023
+		{Position -6217.64 -1887.31}
+		{Extender "map_point"
+			{name a12}
+			{team a}
+			{phase 1}
+			{order 2}
+		}
+		{Player 0}
+		{MID 18}
+	}
+	{Entity "spawn_point" 0x8024
+		{Position -5946.36 -3430.01}
+		{Extender "spawn_point"
+			{mapPoint a11}
+			{pos 1}
+		}
+		{Player 0}
+		{MID 19}
+	}
+	{Entity "spawn_point" 0x8025
+		{Position -5070.84 -3418.16}
+		{Extender "spawn_point"
+			{mapPoint a11}
+			{pos 2}
+		}
+		{Player 0}
+		{MID 20}
+	}
+	{Entity "spawn_point" 0x8026
+		{Position -3846.75 -3337.13}
+		{Extender "spawn_point"
+			{mapPoint a11}
+			{pos 3}
+		}
+		{Player 0}
+		{MID 21}
+	}
+	{Entity "spawn_point" 0x8027
+		{Position -6046.39 -1871.75}
+		{Extender "spawn_point"
+			{mapPoint a12}
+			{pos 1}
+		}
+		{Player 0}
+		{MID 22}
+	}
+	{Entity "spawn_point" 0x8028
+		{Position -5093.9 -1956.26}
+		{Extender "spawn_point"
+			{mapPoint a12}
+			{pos 2}
+		}
+		{Player 0}
+		{MID 23}
+	}
+	{Entity "spawn_point" 0x8029
+		{Position -3842.46 -1859.87}
+		{Extender "spawn_point"
+			{mapPoint a12}
+			{pos 3}
+		}
+		{Player 0}
+		{MID 24}
+	}
+	{Entity "map_point" 0x802a
+		{Position -1134.05 -3452.07}
+		{Extender "map_point"
+			{name a21}
+			{team a}
+			{phase 2}
+			{order 1}
+		}
+		{Player 0}
+		{MID 25}
+	}
+	{Entity "map_point" 0x802b
+		{Position -1056.29 -1882.56}
+		{Extender "map_point"
+			{name a22}
+			{team a}
+			{phase 2}
+			{order 2}
+		}
+		{Player 0}
+		{MID 26}
+	}
+	{Entity "spawn_point" 0x802c
+		{Position 467.53 -3600.1}
+		{Extender "spawn_point"
+			{mapPoint a21}
+			{pos 1}
+		}
+		{Player 0}
+		{MID 27}
+	}
+	{Entity "spawn_point" 0x802d
+		{Position 1736.96 -3734.31}
+		{Extender "spawn_point"
+			{mapPoint a21}
+			{pos 2}
+		}
+		{Player 0}
+		{MID 28}
+	}
+	{Entity "spawn_point" 0x802e
+		{Position 2717.04 -3602.67}
+		{Extender "spawn_point"
+			{mapPoint a21}
+			{pos 3}
+		}
+		{Player 0}
+		{MID 29}
+	}
+	{Entity "spawn_point" 0x802f
+		{Position 751.53 -2019.45}
+		{Extender "spawn_point"
+			{mapPoint a22}
+			{pos 1}
+		}
+		{Player 0}
+		{MID 30}
+	}
+	{Entity "spawn_point" 0x8030
+		{Position 1893.87 -2590.62}
+		{Extender "spawn_point"
+			{mapPoint a22}
+			{pos 2}
+		}
+		{Player 0}
+		{MID 31}
+	}
+	{Entity "spawn_point" 0x8031
+		{Position 2809.33 -2613.6}
+		{Extender "spawn_point"
+			{mapPoint a22}
+			{pos 3}
+		}
+		{Player 0}
+		{MID 32}
+	}
+	{Entity "map_point" 0x8032
+		{Position 628.85 -3616.58}
+		{xform zl 173.72}
+		{Extender "map_point"
+			{name b11}
+			{team b}
+			{phase 1}
+			{order 1}
+		}
+		{Player 0}
+		{MID 33}
+	}
+	{Entity "map_point" 0x8033
+		{Position 743.47 -1921.39}
+		{xform zl 173.72}
+		{Extender "map_point"
+			{name b12}
+			{team b}
+			{phase 1}
+			{order 2}
+		}
+		{Player 0}
+		{MID 34}
+	}
+	{Entity "spawn_point" 0x8034
+		{Position -1205.9 -3108.67}
+		{xform zl 170.06}
+		{Extender "spawn_point"
+			{mapPoint b11}
+			{pos 1}
+		}
+		{Player 0}
+		{MID 35}
+	}
+	{Entity "spawn_point" 0x8035
+		{Position 556.22 -3667.61}
+		{xform zl -174.85}
+		{Extender "spawn_point"
+			{mapPoint b11}
+			{pos 2}
+		}
+		{Player 0}
+		{MID 36}
+	}
+	{Entity "spawn_point" 0x8036
+		{Position 1400.5 -3772.96}
+		{xform zl -174.85}
+		{Extender "spawn_point"
+			{mapPoint b11}
+			{pos 3}
+		}
+		{Player 0}
+		{MID 37}
+	}
+	{Entity "spawn_point" 0x8037
+		{Position -1650.54 -1772.96}
+		{xform zl 170.06}
+		{Extender "spawn_point"
+			{mapPoint b12}
+			{pos 1}
+		}
+		{Player 0}
+		{MID 38}
+	}
+	{Entity "spawn_point" 0x8038
+		{Position 787.27 -1982.2}
+		{xform zl 170.06}
+		{Extender "spawn_point"
+			{mapPoint b12}
+			{pos 2}
+		}
+		{Player 0}
+		{MID 39}
+	}
+	{Entity "spawn_point" 0x8039
+		{Position 1508.2 -2521.55}
+		{xform zl 175.29}
+		{Extender "spawn_point"
+			{mapPoint b12}
+			{pos 3}
+		}
+		{Player 0}
+		{MID 40}
+	}
+	{Entity "map_point" 0x803a
+		{Position 3491.45 -3232.25}
+		{xform zl 173.72}
+		{Extender "map_point"
+			{name b21}
+			{team b}
+			{phase 2}
+			{order 1}
+		}
+		{Player 0}
+		{MID 41}
+	}
+	{Entity "spawn_point" 0x803b
+		{Position 3447.71 -3287.44}
+		{xform zl 170.59}
+		{Extender "spawn_point"
+			{mapPoint b21}
+			{pos 1}
+		}
+		{Player 0}
+		{MID 42}
+	}
+	{Entity "spawn_point" 0x803c
+		{Position 6251.78 -3166.26}
+		{xform zl 170.59}
+		{Extender "spawn_point"
+			{mapPoint b21}
+			{pos 2}
+		}
+		{Player 0}
+		{MID 43}
+	}
+	{Entity "spawn_point" 0x803d
+		{Position 7282.16 -3628.42}
+		{xform zl 170.59}
+		{Extender "spawn_point"
+			{mapPoint b21}
+			{pos 3}
+		}
+		{Player 0}
+		{MID 44}
+	}
+	{Entity "map_point" 0x803e
+		{Position 3664.32 -2572.65}
+		{xform zl 173.72}
+		{Extender "map_point"
+			{name b22}
+			{team b}
+			{phase 2}
+			{order 2}
+		}
+		{Player 0}
+		{MID 45}
+	}
+	{Entity "spawn_point" 0x803f
+		{Position 3584.4 -2644.63}
+		{xform zl 170.59}
+		{Extender "spawn_point"
+			{mapPoint b22}
+			{pos 1}
+		}
+		{Player 0}
+		{MID 46}
+	}
+	{Entity "spawn_point" 0x8040
+		{Position 6643.07 -2577.82}
+		{xform zl 170.59}
+		{Extender "spawn_point"
+			{mapPoint b22}
+			{pos 2}
+		}
+		{Player 0}
+		{MID 47}
+	}
+	{Entity "spawn_point" 0x8041
+		{Position 7232.98 -1644.93}
+		{xform zl 170.59}
+		{Extender "spawn_point"
+			{mapPoint b22}
+			{pos 3}
+		}
+		{Player 0}
+		{MID 48}
+	}
+	{Entity "map_point" 0x8042
+		{Position 7441.97 -1699.03}
+		{xform zl 173.72}
+		{Extender "map_point"
+			{name b32}
+			{team b}
+			{phase 3}
+			{order 2}
+		}
+		{Player 0}
+		{MID 49}
+	}
+	{Entity "map_point" 0x8043
+		{Position 7678.28 -3721.76}
+		{xform zl 173.72}
+		{Extender "map_point"
+			{name b31}
+			{team b}
+			{phase 3}
+			{order 1}
+		}
+		{Player 0}
+		{MID 50}
+	}
+	{Tags "keep_places_without_door" 0x8e0}
+	{Tags "keep_places_without_door" 0x7b0}
+	{Tags "keep_places_without_door" 0x76}
+	{Tags "keep_places_without_door" 0x1171}
+	{Tags "keep_places_without_door" 0xfd}
+	{Tags "keep_places_without_door" 0x1826}
+	{Tags "keep_places_without_door" 0x1827}
+	{Tags "keep_places_without_door" 0x1d4}
+	{Tags "keep_places_without_door" 0x1ed}
+	{Tags "keep_places_without_door" 0xe0}
+	{Tags "keep_places_without_door" 0x13a}
+	{Tags "keep_places_without_door" 0x110d}
+	{Tags "keep_places_without_door" 0x306}
+	{Tags "keep_places_without_door" 0x307}
+	{Tags "keep_places_without_door" 0x335}
+	{Tags "keep_places_without_door" 0x336}
+	{Tags "keep_places_without_door" 0x33b}
+	{Tags "keep_places_without_door" 0x1144}
+	{Tags "keep_places_without_door" 0x1030}
+	{Tags "keep_places_without_door" 0x855}
+	{Tags "keep_places_without_door" 0xc04}
+	{Tags "keep_places_without_door" 0x16e}
+	{Tags "keep_places_without_door" 0x1015}
+	{Tags "keep_places_without_door" 0x803}
+	{Tags "keep_places_without_door" 0x1848}
+	{Tags "keep_places_without_door" 0x86c}
+	{Tags "keep_places_without_door" 0x10b4}
+	{Tags "keep_places_without_door" 0x4ce}
+	{Tags "keep_places_without_door" 0x4db}
+	{Tags "keep_places_without_door" 0x4dc}
+	{Tags "keep_places_without_door" 0x4e5}
+	{Tags "keep_places_without_door" 0x4d6}
+	{Tags "keep_places_without_door" 0x2e8}
+	{Tags "keep_places_without_door" 0x552}
+	{Tags "keep_places_without_door" 0x1825}
+	{Tags "keep_places_without_door" 0x1082}
+	{Tags "keep_places_without_door" 0x1145}
+	{Tags "keep_places_without_door" 0x1863}
+	{Tags "keep_places_without_door" 0x11f4}
+	{Tags "keep_places_without_door" 0x11f9}
+	{Tags "keep_places_without_door" 0x11ff}
+	{Tags "keep_places_without_door" 0x17c}
+	{Tags "keep_places_without_door" 0x1f3}
+	{Tags "keep_places_without_door" 0x1c20}
+	{Tags "keep_places_without_door" 0x114a}
+	{Tags "keep_places_without_door" 0x11bc}
+	{Tags "keep_places_without_door" 0x28f}
+	{Tags "keep_places_without_door" 0x291}
+	{Tags "keep_places_without_door" 0x3da}
+	{Tags "keep_places_without_door" 0x1229}
+	{Tags "keep_places_without_door" 0x615}
+	{Tags "keep_places_without_door" 0x630}
+	{Tags "keep_places_without_door" 0x1253}
+	{Tags "keep_places_without_door" 0x1272}
+	{Tags "keep_places_without_door" 0x128e}
+	{Tags "keep_places_without_door" 0x693}
+	{Tags "keep_places_without_door" 0x36a}
+	{Tags "keep_places_without_door" 0x8ac}
+	{Tags "keep_places_without_door" 0x382}
+	{Tags "keep_places_without_door" 0x1847}
+	{Tags "keep_places_without_door" 0x83a}
+	{Tags "keep_places_without_door" 0x1132}
+	{Tags "keep_places_without_door" 0x81d}
+	{Tags "keep_places_without_door" 0x1624}
+	{Tags "keep_places_without_door" 0x11f5}
+	{Tags "keep_places_without_door" 0x7b5}
+	{Tags "keep_places_without_door" 0xa74}
+	{Tags "keep_places_without_door" 0x1419}
+	{Tags "keep_places_without_door" 0xb22}
+	{Tags "keep_places_without_door" 0x1300}
+	{Tags "keep_places_without_door" 0x1620}
+	{Tags "keep_places_without_door" 0xc00}
+	{Tags "keep_places_without_door" 0x9d4}
+	{Tags "keep_places_without_door" 0x1161}
+	{Tags "keep_places_without_door" 0xa8f}
+	{Tags "keep_places_without_door" 0xa92}
+	{Tags "keep_places_without_door" 0x163e}
+	{Tags "keep_places_without_door" 0x83d}
+	{Tags "keep_places_without_door" 0x91d}
+	{Tags "keep_places_without_door" 0x920}
+	{Tags "keep_places_without_door" 0x925}
+	{Tags "keep_places_without_door" 0x926}
+	{Tags "keep_places_without_door" 0x859}
+	{Tags "keep_places_without_door" 0x86d}
+	{Tags "keep_places_without_door" 0x719}
+	{Tags "keep_places_without_door" 0x4013}
+	{Tags "keep_places_without_door" 0x4cf}
+	{Tags "keep_places_without_door" 0x401c}
+	{Tags "keep_places_without_door" 0x4021}
+	{Tags "keep_places_without_door" 0x93a}
+	{Tags "keep_places_without_door" 0x4051}
+	{Tags "keep_places_without_door" 0x204a}
+	{Tags "keep_places_without_door" 0x380b}
+	{Tags "keep_places_without_door" 0x4048}
+	{Tags "keep_places_without_door" 0x2010}
+	{Tags "keep_places_without_door" 0x385b}
+	{Tags "main" 0x8002}
+	{Tags "main" 0x8004}
+	{Tags "main" 0x8007}
+	{Tags "main" 0x8009}
+	{Tags "keep_places_without_door" {0x803 "5"}}
+	{Environment "multi/multi_01"}
+	{Helpers
+		{reinforcements
+			{scoreTotal 0}
+			{scoreCurrent 0}
+		}
+		{triggers
+			{"environment"
+				{condition
+				}
+				{actions
+					{"switch"
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_10"}
+							}
+							{"delete"
+								{selector
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_09"}
+							}
+							{"delete"
+								{selector
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{amount 1
+									}
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_08"}
+							}
+							{"delete"
+								{selector
+									{amount 2
+									}
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_07"}
+							}
+							{"delete"
+								{selector
+									{amount 2
+									}
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_06"}
+							}
+							{"delete"
+								{selector
+									{amount 2
+									}
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_05"}
+							}
+							{"delete"
+								{selector
+									{amount 2
+									}
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_04"}
+							}
+							{"delete"
+								{selector
+									{amount 2
+									}
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_03"}
+							}
+							{"delete"
+								{selector
+									{amount 2
+									}
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_02"}
+							}
+							{"delete"
+								{selector
+									{amount 2
+									}
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{"default"
+							{"environment"
+								{name "multi/multi_01"}
+							}
+							{"delete"
+								{selector
+									{amount 2
+									}
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+					}
+				}
+			}
+			{"music"
+				{condition
+				}
+				{actions
+					{"music"
+						{start "/music/skirmish_background_01.mp3"}
+						{stop_all}
+						{volume game}
+						{fade 5}
+						{loop}
+					}
+					{"delay"
+						{time 480}
+					}
+					{"music"
+						{start "/music/skirmish_background_02.mp3"}
+						{stop_all}
+						{volume game}
+						{fade 5}
+						{loop}
+					}
+					{"delay"
+						{time 120}
+					}
+					{"music"
+						{start "/music/skirmish_background_01.mp3"}
+						{stop_all}
+						{volume game}
+						{fade 5}
+						{loop}
+					}
+					{"delay"
+						{time 480}
+					}
+					{"music"
+						{start "/music/skirmish_background_02.mp3"}
+						{stop_all}
+						{volume game}
+						{fade 5}
+						{loop}
+					}
+					{"delay"
+						{time 120}
+					}
+					{"trigger"
+						{name "music"}
+					}
+				}
+			}
+		}
+	}
+	{Fog 1}
+}

@@ -1,0 +1,95 @@
+{mission
+	{Entity "map_point" 0x8005
+		{Position 13.04 5863.31}
+		{xform zl -88.77}
+		{Extender "map_point"
+			{name a_1}
+			{team a}
+			{phase 0}
+			{order 1}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 6}
+	}
+	{Entity "map_point" 0x8006
+		{Position -2304.43 5633.12}
+		{xform zl -67.82}
+		{Extender "map_point"
+			{name a_2}
+			{team a}
+			{phase 0}
+			{order 2}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 7}
+	}
+	{Entity "map_point" 0x8007
+		{Position 2268.59 5773.13}
+		{xform zl -131.25}
+		{Extender "map_point"
+			{name a_3}
+			{team a}
+			{phase 0}
+			{order 3}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 8}
+	}
+	{Entity "map_point" 0x800d
+		{Position 43.3 -1103.79}
+		{xform zl 91.56}
+		{Extender "map_point"
+			{name b_1}
+			{team b}
+			{phase 0}
+			{order 1}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 14}
+	}
+	{Entity "map_point" 0x800e
+		{Position 1918.63 -879.76 283.02}
+		{xform zl 113.91}
+		{Extender "map_point"
+			{name b_2}
+			{team b}
+			{phase 0}
+			{order 2}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 15}
+	}
+	{Entity "map_point" 0x800f
+		{Position -2109.09 -967.09}
+		{xform zl 66.11}
+		{Extender "map_point"
+			{name b_3}
+			{team b}
+			{phase 0}
+			{order 3}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 16}
+	}
+	{Tags "keep_places_without_door" 0x1}
+	{Tags "keep_places_without_door" 0x234}
+	{Tags "keep_places_without_door" 0x6800}
+	{Tags "keep_places_without_door" 0x6801}
+	{Tags "keep_places_without_door" 0x6802}
+	{Tags "keep_places_without_door" 0x425}
+	{Tags "keep_places_without_door" 0x1e5}
+	{Environment "skirmish/_bonus_02"}
+	{Helpers
+		{reinforcements
+			{scoreTotal 0}
+			{scoreCurrent 0}
+		}
+	}
+	{Fog 1}
+}

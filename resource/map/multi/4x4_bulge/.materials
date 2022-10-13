@@ -1,0 +1,93 @@
+{materials
+	{"mtl0"
+		{layer bump
+			{diffuse "/texture/land/winter/snow_5"}
+			{bump "/texture/land/winter/snow_5_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/dirt/.winter/muddy_win_2"}
+			{bump "/texture/land/dirt/.winter/muddy_win_2_nm"}
+		}
+	}
+	{"mtl1"
+		{layer bump
+			{diffuse "/texture/land/winter/snow_5"}
+			{bump "/texture/land/winter/snow_5_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/winter/clay_snow1"}
+			{bump "/texture/land/winter/clay_snow1_nm"}
+		}
+	}
+	{"mtl2"
+		{layer bump
+			{diffuse "/texture/land/winter/snow_5"}
+			{bump "/texture/land/winter/snow_5_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/dirt/.winter/muddy_win_1"}
+			{bump "/texture/land/dirt/.winter/muddy_win_1_nm"}
+		}
+	}
+	{"mtl3"
+		{layer bump
+			{diffuse "/texture/land/winter/snow_5"}
+			{bump "/texture/land/winter/snow_5_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/winter/snow_trace"}
+			{bump "/texture/land/winter/snow_trace_nm"}
+		}
+	}
+	{"mtl4"
+		{layer bump
+			{diffuse "/texture/land/winter/snow_5"}
+			{bump "/texture/land/winter/snow_5_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/fields/.winter/field_2win"}
+			{bump "/texture/land/fields/.winter/field_2win_nm"}
+		}
+	}
+	{"mtl5"
+		{layer bump
+			{diffuse "/texture/land/winter/snow_5"}
+			{bump "/texture/land/winter/snow_5_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/winter/ridden_snow1q2"}
+			{bump "/texture/land/winter/ridden_snow1q2_nm"}
+		}
+	}
+	{"mtl6"
+		{layer bump
+			{diffuse "/texture/land/winter/snow_5"}
+			{bump "/texture/land/winter/snow_5_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/winter/snow_crust1"}
+			{bump "/texture/land/winter/snow_crust1_nm"}
+		}
+	}
+	{"mtl7"
+		{layer bump
+			{diffuse "/texture/land/winter/ice_d"}
+			{bump "/texture/land/winter/ice_d_nm"}
+			{specular "/texture/land/winter/ice_d_sp"}
+		}
+		{layer bump
+			{diffuse "/texture/land/winter/snow_crust1"}
+			{bump "/texture/land/winter/snow_crust1_nm"}
+		}
+	}
+	{"mtl8"
+		{layer bump
+			{diffuse "/texture/land/winter/snow_5"}
+			{bump "/texture/land/winter/snow_5_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/winter/ridden_snow1q2"}
+			{bump "/texture/land/winter/ridden_snow1q2_nm"}
+		}
+	}
+}

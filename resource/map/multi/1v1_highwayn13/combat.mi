@@ -1,0 +1,48 @@
+{mission
+	{Entity "map_point" 0x8000
+		{Position -458.63 2845.39}
+		{xform zl -95.54}
+		{Extender "map_point"
+			{name a1}
+			{team a}
+			{phase 0}
+			{order 1}
+			{visor SpawnPoint}
+		}
+		{Player 255}
+		{MID 1}
+	}
+	{Entity "map_point" 0x8001
+		{Position -147.02 -2809.53}
+		{xform zl 91.71}
+		{Extender "map_point"
+			{name b1}
+			{team b}
+			{phase 0}
+			{order 1}
+			{visor SpawnPoint}
+		}
+		{Player 255}
+		{MID 2}
+	}
+	{Tags "keep_places_without_door" 0x7400}
+	{Tags "keep_places_without_door" 0x7406}
+	{Tags "keep_places_without_door" 0x1405}
+	{Tags "keep_places_without_door" 0xc0f}
+	{Tags "keep_places_without_door" 0x7000}
+	{Tags "keep_places_without_door" 0x300e}
+	{Tags "keep_places_without_door" 0x1800}
+	{Tags "keep_places_without_door" 0x7841}
+	{Tags "keep_places_without_door" 0x167}
+	{Tags "keep_places_without_door" 0x103f}
+	{Tags "keep_places_without_door" 0x540f}
+	{Tags "keep_places_without_door" 0x545d}
+	{Environment "skirmish/ger-sthilaire"}
+	{Helpers
+		{reinforcements
+			{scoreTotal 0}
+			{scoreCurrent 0}
+		}
+	}
+	{Fog 1}
+}

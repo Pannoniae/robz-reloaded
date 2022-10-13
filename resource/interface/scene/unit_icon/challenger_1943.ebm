@@ -1,0 +1,6 @@
+{bitmap
+	{frame "challenger_00.tga"}
+	{frame "challenger_01.tga"}
+	{frame "challenger_02.tga"}
+	{frame "challenger_03.tga"}
+}

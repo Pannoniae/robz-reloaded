@@ -1,0 +1,6 @@
+{bitmap
+	{frame "stormtrooper(rom)_00.tga"}
+	{frame "stormtrooper(rom)_01.tga"}
+	{frame "stormtrooper(rom)_02.tga"}
+	{frame "stormtrooper(rom)_03.tga"}
+}

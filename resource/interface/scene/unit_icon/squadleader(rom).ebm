@@ -1,0 +1,6 @@
+{bitmap
+	{frame "officer(rom)_00.tga"}
+	{frame "officer(rom)_01.tga"}
+	{frame "officer(rom)_02.tga"}
+	{frame "officer(rom)_03.tga"}
+}

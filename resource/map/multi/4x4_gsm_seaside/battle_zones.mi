@@ -1,0 +1,657 @@
+{mission
+	{Entity "map_point" 0x8012
+		{Position -1838.86 -3215.9}
+		{xform zl 115.27}
+		{Extender "map_point"
+			{name a1}
+			{team a}
+			{phase 0}
+			{order 1}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 6}
+	}
+	{Entity "map_point" 0x8013
+		{Position -2501.24 -3214.95}
+		{xform zl 90}
+		{Extender "map_point"
+			{name a2}
+			{team a}
+			{phase 0}
+			{order 2}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 7}
+	}
+	{Entity "map_point" 0x8014
+		{Position -3028.75 -3214.7}
+		{xform zl 52.84}
+		{Extender "map_point"
+			{name a3}
+			{team a}
+			{phase 0}
+			{order 3}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 8}
+	}
+	{Entity "map_point" 0x8015
+		{Position -3413.12 -3157.74}
+		{xform zl 40.1}
+		{Extender "map_point"
+			{name a4}
+			{team a}
+			{phase 0}
+			{order 4}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 9}
+	}
+	{Entity "map_point" 0xc000
+		{Position 2338.43 2946.83}
+		{xform zl -142.03}
+		{Extender "map_point"
+			{name b1}
+			{team b}
+			{phase 0}
+			{order 1}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 21}
+	}
+	{Entity "map_point" 0xc001
+		{Position 1281.21 3149.47}
+		{xform zl -90}
+		{Extender "map_point"
+			{name b2}
+			{team b}
+			{phase 0}
+			{order 2}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 26}
+	}
+	{Entity "map_point" 0xc002
+		{Position 841.41 3124.11}
+		{xform zl -90}
+		{Extender "map_point"
+			{name b3}
+			{team b}
+			{phase 0}
+			{order 3}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 27}
+	}
+	{Entity "map_point" 0xc003
+		{Position 1892.36 3147.07}
+		{xform zl -95.73}
+		{Extender "map_point"
+			{name b4}
+			{team b}
+			{phase 0}
+			{order 4}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 28}
+	}
+	{Entity "side_star" 0x8008
+		{Extender "bone_rotator"
+			{"rotate"
+				{speed 10}
+			}
+		}
+	}
+	{Entity "flag_point" 0x8009
+		{Position -675.73 -62.13}
+		{Extender "map_point"
+			{name f1}
+			{zoneA 27}
+			{zoneB 27}
+			{phase 0}
+			{order 1}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{capture "b" "a"}
+				{release "b" "a"}
+			}
+		}
+		{Player 0}
+		{MID 11}
+	}
+	{Entity "side_star" 0xe000
+		{Extender "bone_rotator"
+			{"rotate"
+				{speed 10}
+			}
+		}
+	}
+	{Entity "flag_point" 0xe001
+		{Position 886.8 -23.56}
+		{Extender "map_point"
+			{name f2}
+			{zoneA 27}
+			{zoneB 27}
+			{phase 0}
+			{order 2}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{capture "b" "a"}
+				{release "b" "a"}
+			}
+		}
+		{Player 0}
+		{MID 16}
+	}
+	{Entity "side_star" 0xe002
+		{Extender "bone_rotator"
+			{"rotate"
+				{speed 10}
+			}
+		}
+	}
+	{Entity "flag_point" 0xe003
+		{Position -2110.66 22.12}
+		{Extender "map_point"
+			{name f3}
+			{zoneA 27}
+			{zoneB 27}
+			{phase 0}
+			{order 3}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{capture "b" "a"}
+				{release "b" "a"}
+			}
+		}
+		{Player 0}
+		{MID 1}
+	}
+	{Entity "side_star" 0xe008
+		{Extender "bone_rotator"
+			{"rotate"
+				{speed 10}
+			}
+		}
+	}
+	{Entity "flag_point" 0xe009
+		{Position 2453.81 -2959.08}
+		{Extender "map_point"
+			{name f4}
+			{zoneA 27}
+			{zoneB 27}
+			{phase 0}
+			{order 4}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{capture "b" "a"}
+				{release "b" "a"}
+			}
+		}
+		{Player 0}
+		{MID 4}
+	}
+	{Entity "side_star" 0xb000
+		{Extender "bone_rotator"
+			{"rotate"
+				{speed 10}
+			}
+		}
+	}
+	{Entity "flag_point" 0xb001
+		{Position 2486.39 567.15}
+		{Extender "map_point"
+			{name f7}
+			{zoneA 27}
+			{zoneB 27}
+			{phase 0}
+			{order 7}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{capture "b" "a"}
+				{release "b" "a"}
+			}
+		}
+		{Player 0}
+		{MID 17}
+	}
+	{Entity "side_star" 0xb002
+		{Extender "bone_rotator"
+			{"rotate"
+				{speed 10}
+			}
+		}
+	}
+	{Entity "flag_point" 0xb003
+		{Position -3283.64 -1043.47}
+		{Extender "map_point"
+			{name f6}
+			{zoneA 27}
+			{zoneB 27}
+			{phase 0}
+			{order 6}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{capture "b" "a"}
+				{release "b" "a"}
+			}
+		}
+		{Player 0}
+		{MID 18}
+	}
+	{Entity "side_star" 0xb004
+		{Extender "bone_rotator"
+			{"rotate"
+				{speed 10}
+			}
+		}
+	}
+	{Entity "flag_point" 0xb005
+		{Position -3398.55 2629.48}
+		{Extender "map_point"
+			{name f5}
+			{zoneA 27}
+			{zoneB 27}
+			{phase 0}
+			{order 5}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{capture "b" "a"}
+				{release "b" "a"}
+			}
+		}
+		{Player 0}
+		{MID 19}
+	}
+	{Entity "map_point" 0x8001
+		{Position -3286.64 -2700.98}
+		{xform zl 40.1}
+		{Extender "map_point"
+			{name a5}
+			{team a}
+			{phase 0}
+			{order 5}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 2}
+	}
+	{Entity "map_point" 0x8005
+		{Position 2736.82 2461.22}
+		{xform zl -95.73}
+		{Extender "map_point"
+			{name b5}
+			{team b}
+			{phase 0}
+			{order 5}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 12}
+	}
+	{Link 0x8008 {0x8009 "side_pointer"}}
+	{Link 0xe000 {0xe001 "side_pointer"}}
+	{Link 0xe002 {0xe003 "side_pointer"}}
+	{Link 0xe008 {0xe009 "side_pointer"}}
+	{Link 0xb000 {0xb001 "side_pointer"}}
+	{Link 0xb002 {0xb003 "side_pointer"}}
+	{Link 0xb004 {0xb005 "side_pointer"}}
+	{Tags "destroyed" 0x5001}
+	{Tags "crushed" 0x5004}
+	{Tags "crushed" 0x5805}
+	{Tags "switch_right" 0x582f}
+	{Tags "crushed" {0x22 "breakwater2"}}
+	{Tags "crushed" {0x22 "1"}}
+	{Brain 0x1023
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Brain 0x3859
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Brain 0x6190
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Brain 0x61a8
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Brain 0x659
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Brain 0x4617
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Brain 0x462f
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Brain 0x4647
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Brain 0x465f
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Environment "multi/multi_01"}
+	{Helpers
+		{reinforcements
+			{scoreTotal 0}
+			{scoreCurrent 0}
+		}
+		{triggers
+			{"environment"
+				{condition
+				}
+				{actions
+					{"switch"
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_10"}
+							}
+							{"delete"
+								{selector
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_09"}
+							}
+							{"delete"
+								{selector
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{amount 1
+									}
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_08"}
+							}
+							{"delete"
+								{selector
+									{amount 2
+									}
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_07"}
+							}
+							{"delete"
+								{selector
+									{amount 2
+									}
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_06"}
+							}
+							{"delete"
+								{selector
+									{amount 2
+									}
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_05"}
+							}
+							{"delete"
+								{selector
+									{amount 2
+									}
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_04"}
+							}
+							{"delete"
+								{selector
+									{amount 2
+									}
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_03"}
+							}
+							{"delete"
+								{selector
+									{amount 2
+									}
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_02"}
+							}
+							{"delete"
+								{selector
+									{amount 2
+									}
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{"default"
+							{"environment"
+								{name "multi/multi_01"}
+							}
+							{"delete"
+								{selector
+									{amount 2
+									}
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	{Players
+		{count 17}
+		{diplomacy
+			1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+		}
+	}
+	{Fog 1}
+	{EntityManager {Enabled}
+		{CountScale "x0.5"}
+	}
+}

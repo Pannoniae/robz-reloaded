@@ -1,0 +1,8480 @@
+{map
+	{Land
+		{Position 0 0}
+	}
+	{Clips
+		{"[auto]"
+			{world -4000 -4000 4000 4000}
+			{camera -3506.79 -3557.13 3518.99 3519.78}
+			{pather -3414.38 -3451.61 3413.75 3430.91}
+			{distance 100 1500}
+			{viewAngle 20 50}
+			{water -25}
+		}
+	}
+	{Entity "road_sand_af1b_k" 0x4000
+		{Position -1450.77 3836.55}
+		{xform zl -75}
+	}
+	{Entity "road_sand_af1b_k" 0x4001
+		{Position -1351.15 3525.31}
+		{xform zl 115}
+	}
+	{Entity "road_sand_af1b_k" 0x4003
+		{Position -1216.09 3236.32 -21.07}
+		{xform zl -65}
+	}
+	{Entity "road_sand_af1b_k" 0x4004
+		{Position -1059.75 2945.97 -19.01}
+		{xform zl 125}
+	}
+	{Entity "road_sand_af1b_k" 0x4005
+		{Position -873.29 2702.93 -18.85}
+		{xform zl -55}
+	}
+	{Entity "road_sand_af1b_k" 0x4006
+		{Position -683.32 2435.46 -18.19}
+		{xform zl 130}
+	}
+	{Entity "road_sand_af1b_k" 0x4007
+		{Position -529.63 2190.32 -18.99}
+		{xform zl 115}
+	}
+	{Entity "road_sand_af1b_k" 0x4008
+		{Position -368.11 1925.52 -31.43}
+		{xform zl -55}
+	}
+	{Entity "road_sand_af1b_k" 0x4009
+		{Position -172.14 1703.44 -27.78}
+		{xform zl -40}
+	}
+	{Entity "road_sand_af1b_k" 0x400a
+		{Position 64.5 1488.35 -31.13}
+		{xform zl 140}
+	}
+	{Entity "road_sand_af1b_k" 0x400b
+		{Position 310.93 1301.63 -32.87}
+		{xform zl -40}
+	}
+	{Entity "road_sand_af1b_k" 0x400c
+		{Position 547.57 1086.54 -19.72}
+		{xform zl 140}
+	}
+	{Entity "road_sand_af1b_k" 0x400d
+		{Position 816.26 929.47}
+		{xform zl -25}
+	}
+	{Entity "road_sand_af1b_k" 0x400e
+		{Position 1110.74 784.65}
+		{xform zl 155}
+	}
+	{Entity "road_sand_af1b_k" 0x400f
+		{Position 1689.54 536.68}
+		{xform zl 165}
+	}
+	{Entity "road_sand_af1b_k" 0x4010
+		{Position 1402.55 652.28}
+		{xform zl -25}
+	}
+	{Entity "road_sand_af1b_k" 0x4011
+		{Position 2307.67 413.78}
+		{xform zl 170}
+	}
+	{Entity "road_sand_af1b_k" 0x4012
+		{Position 1998.03 474.21}
+		{xform zl -10}
+	}
+	{Entity "road_sand_af1b_k" 0x4013
+		{Position 2928.76 323.64}
+		{xform zl 175}
+	}
+	{Entity "road_sand_af1b_k" 0x4014
+		{Position 2607.64 372.83}
+		{xform zl -10}
+	}
+	{Entity "road_sand_af1b_k" 0x4015
+		{Position 3227.73 276.43}
+		{xform zl 165}
+	}
+	{Entity "road_sand_af1b_k" 0x4016
+		{Position 3505.42 175.79}
+		{xform zl 155}
+	}
+	{Entity "road_sand_af1b_k" 0x4017
+		{Position 3787.89 54.56}
+		{xform zl -25}
+	}
+	{Entity "road_sand_af1c_k" 0x2000
+		{Position 641.92 838.46}
+		{xform zl -120}
+	}
+	{Entity "road_sand_af1b_k" 0x2001
+		{Position 517.34 556.29}
+		{xform zl -110}
+	}
+	{Entity "road_sand_af1b_k" 0x2002
+		{Position 400.55 256.9}
+		{xform zl 70}
+	}
+	{Entity "road_sand_af1b_k" 0x2003
+		{Position 287.52 -46.7}
+		{xform zl -110}
+	}
+	{Entity "road_sand_af1b_k" 0x2004
+		{Position 170.73 -346.09}
+		{xform zl 70}
+	}
+	{Entity "road_sand_af1b_k" 0x2005
+		{Position 64.39 -651.37}
+		{xform zl -110}
+	}
+	{Entity "road_sand_af1b_k" 0x2006
+		{Position -52.4 -950.76}
+		{xform zl 70}
+	}
+	{Entity "road_sand_af1b_k" 0x2007
+		{Position -159.66 -1261.08}
+		{xform zl -110}
+	}
+	{Entity "road_sand_af1b_k" 0x2008
+		{Position -276.45 -1560.47}
+		{xform zl 70}
+	}
+	{Entity "road_sand_af1b_k" 0x2009
+		{Position -381.79 -1861.68}
+		{xform zl -110}
+	}
+	{Entity "road_sand_af1b_k" 0x200a
+		{Position -498.58 -2161.07}
+		{xform zl 70}
+	}
+	{Entity "road_sand_af1b_k" 0x200b
+		{Position -602.2 -2461.61}
+		{xform zl -110}
+	}
+	{Entity "road_sand_af1b_k" 0x200c
+		{Position -718.99 -2761}
+		{xform zl 70}
+	}
+	{Entity "road_sand_af1b_k" 0x200d
+		{Position -820.48 -3053.51}
+		{xform zl -110}
+	}
+	{Entity "road_sand_af1b_k" 0x200e
+		{Position -937.27 -3352.9}
+		{xform zl 70}
+	}
+	{Entity "road_sand_af1b_k" 0x200f
+		{Position -1041.71 -3665.54}
+		{xform zl -110}
+	}
+	{Entity "road_sand_af1b_k" 0x2010
+		{Position -1158.5 -3964.92}
+		{xform zl 70}
+	}
+	{Entity "a_house_104" 0x6003
+		{Position 487.41 1280.65 -7.57}
+		{xform zl -30}
+	}
+	{Entity "afric_ch" 0x6026
+		{Position 1125.83 1315.72}
+		{xform zl 120}
+	}
+	{Entity "afric_farm_1" 0x6038
+		{Position 880.84 557.79}
+		{xform zl 45}
+	}
+	{Entity "afric_small" 0x606e
+		{Position 743.04 314.14}
+		{xform zl 70}
+	}
+	{Entity "african_village_502" 0x608d
+		{Position 358.62 895.49}
+	}
+	{Entity "house_af1_a" 0x1011
+		{Position 1142.97 1040.61}
+		{xform zl 60}
+	}
+	{Entity "house_af1_b" 0x101c
+		{Position 517.05 1390.8}
+		{xform zl 150}
+	}
+	{Entity "house_n1_af" 0x1024
+		{Position 861.21 1383.83}
+		{xform zl 150}
+	}
+	{Entity "n1_af_w1" 0x1033
+		{Placer
+			{State "1" {Broken}}
+		}
+	}
+	{Entity "house_n2_af" 0x1037
+		{Position 1101.98 585.06}
+	}
+	{Entity "house_n3_af" 0x103e
+		{Position 649.19 1465.78}
+	}
+	{Entity "house_n4_af" 0x3000
+		{Position 354.71 684.67}
+		{xform zl -90}
+	}
+	{Entity "house_af1_b" 0x2817
+		{Position 272.75 1074.19 -3.97}
+		{xform zl -60}
+	}
+	{Entity "road_cross1" 0x4800
+		{Position 930.28 1114.12}
+		{xform zl 180}
+	}
+	{Entity "sand_pebble122ba" 0x4801
+		{Position 884.21 715.91}
+	}
+	{Entity "sand_pebble122bc" 0x3800
+		{Position 470.78 1236.98 -22.34}
+	}
+	{Entity "sand_pebble122bc" 0x3801
+		{Position 626.63 1344.22}
+		{xform zl 20}
+	}
+	{Entity "sand_pebble122bc" 0x3802
+		{Position 583.61 355.81 -1.12}
+		{xform zl 120}
+	}
+	{Entity "sand_pebble122ba" 0x3803
+		{Position 695.31 568.6}
+		{xform zl 30}
+	}
+	{Entity "sand_pebble122ba" 0x3804
+		{Position 630.52 622.17}
+		{xform zl 30}
+	}
+	{Entity "sand_pebble122bc" 0x3805
+		{Position 507.75 842.5 -10.28}
+		{xform zl -60}
+	}
+	{Entity "sand_pebble122bc" 0x3806
+		{Position 397.26 1177.24 -38}
+		{xform zl -30}
+	}
+	{Entity "sand_pebble122bc" 0x3807
+		{Position 1030.95 1233.09}
+	}
+	{Entity "sand_pebble122bc" 0x3808
+		{Position 486.61 702.74}
+		{xform zl 120}
+	}
+	{Entity "sand_pebble122bc" 0x3809
+		{Position 1176.73 691.5 -10.03}
+	}
+	{Entity "palm4" 0x380a
+		{Position 1420.8 908.73}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "palm4" 0x380b
+		{Position 1443.15 1207.47}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "palm4" 0x380c
+		{Position 1507.65 1016.15}
+		{xform scale 0.75}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "palm4" 0x380d
+		{Position 740.06 1169.29 0.73}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "palm4" 0x380e
+		{Position 411.92 1657.51}
+		{xform scale 0.75}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "palm4" 0x380f
+		{Position 670.8 1654.6}
+		{xform scale 1.2}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "palm4" 0x3810
+		{Position 885.66 1663.24}
+		{xform scale 0.75}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "palm4" 0x3811
+		{Position 1037.86 1586.02}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "palm4" 0x3812
+		{Position 29.93 1093.05}
+		{xform scale 0.75}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "palm4" 0x3813
+		{Position 65.18 912.85}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "palm4" 0x3814
+		{Position 56.04 677.3}
+		{xform scale 1.2}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "palm4" 0x3815
+		{Position 117.11 467.24}
+		{xform scale 0.75}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "palm4" 0x3816
+		{Position 121.87 254.1}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "palm4" 0x3817
+		{Position 699.7 8.11}
+		{xform scale 1.2}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "palm4" 0x3818
+		{Position 911.79 20.79}
+		{xform scale 0.75}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "palm4" 0x3819
+		{Position 972.58 172.91}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "palm4" 0x381a
+		{Position 1241.92 328.53}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "palm4" 0x381b
+		{Position 1421.08 360.85}
+		{xform scale 1.2}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "palm4" 0x381c
+		{Position 1330.97 401.7}
+		{xform scale 0.75}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "cane3" 0x381d
+		{Position 893.81 1662.92}
+	}
+	{Entity "cane3" 0x381e
+		{Position 1043.83 1594.43}
+	}
+	{Entity "cane3" 0x381f
+		{Position 678.29 1672.47}
+	}
+	{Entity "cane3" 0x3820
+		{Position 423.64 1659.36}
+	}
+	{Entity "cane3" 0x3821
+		{Position 46.14 1097.78}
+	}
+	{Entity "cane3" 0x3822
+		{Position 70.7 919.48}
+	}
+	{Entity "cane3" 0x3823
+		{Position 63.36 682.37}
+	}
+	{Entity "cane3" 0x3824
+		{Position 122.41 473.93}
+	}
+	{Entity "cane3" 0x3825
+		{Position 136.19 260.39 3.51}
+	}
+	{Entity "cane3" 0x3826
+		{Position 703.75 9.41}
+	}
+	{Entity "cane3" 0x3827
+		{Position 918.89 46.15}
+	}
+	{Entity "cane3" 0x3828
+		{Position 976.77 171.99}
+	}
+	{Entity "cane3" 0x3829
+		{Position 1246.85 331.42}
+	}
+	{Entity "cane3" 0x382a
+		{Position 1340.7 401.4}
+	}
+	{Entity "cane3" 0x382b
+		{Position 1430.78 360.77}
+	}
+	{Entity "cane3" 0x382c
+		{Position 1433.28 910.98}
+	}
+	{Entity "cane3" 0x382d
+		{Position 1520.1 1018.28}
+	}
+	{Entity "cane3" 0x382e
+		{Position 1447.62 1206.65}
+	}
+	{Entity "desert_bush" 0x382f
+		{Position 1435.92 1164.63}
+	}
+	{Entity "desert_bush" 0x3830
+		{Position 1453.86 1073.12}
+	}
+	{Entity "desert_bush" 0x3831
+		{Position 1492.14 1124.28}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x3832
+		{Position 1443.72 959.7}
+	}
+	{Entity "desert_bush" 0x3833
+		{Position 1538.24 832.1}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x3834
+		{Position 1514.59 934.98}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x3835
+		{Position 1417.45 421.6}
+	}
+	{Entity "desert_bush" 0x3836
+		{Position 1334.8 337.68}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x3837
+		{Position 1269.65 368.95}
+	}
+	{Entity "desert_bush" 0x3838
+		{Position 822.6 81.7}
+	}
+	{Entity "desert_bush" 0x3839
+		{Position 740.64 -49.3}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x383a
+		{Position 914.5 94.04}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x383b
+		{Position 975.81 95.02}
+	}
+	{Entity "desert_bush" 0x383c
+		{Position 133.1 343.21}
+	}
+	{Entity "desert_bush" 0x383d
+		{Position 147.31 413.77}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x383e
+		{Position 94.8 547.01}
+	}
+	{Entity "desert_bush" 0x383f
+		{Position 78.22 623.92}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x3840
+		{Position 67.68 753.62}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x3841
+		{Position 84.24 830.49}
+	}
+	{Entity "desert_bush" 0x3842
+		{Position 44.66 996.33}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x3843
+		{Position 85.82 1074.6}
+	}
+	{Entity "desert_bush" 0x3844
+		{Position 44.93 1162.09 1.35}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x3845
+		{Position 1008.54 1625.49}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x3846
+		{Position 949.76 1634.43}
+	}
+	{Entity "desert_bush" 0x3847
+		{Position 795.64 1644.06}
+	}
+	{Entity "desert_bush" 0x3848
+		{Position 748.05 1690.35}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x3849
+		{Position 590.63 1677.21}
+	}
+	{Entity "desert_bush" 0x384a
+		{Position 453.23 1585.02}
+	}
+	{Entity "desert_bush" 0x384b
+		{Position 503.64 1690.15}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x384c
+		{Position 828.72 1679.72}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x384d
+		{Position 349.64 1636.39}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x384e
+		{Position 486.49 1624.09}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x384f
+		{Position 965.86 1653.89}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x3850
+		{Position 1438.67 1122.24}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x3851
+		{Position 1484.55 869.22}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x3852
+		{Position 1224.91 289.72}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x3853
+		{Position 1387.98 430.62}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x3854
+		{Position 807.27 7.76}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x3855
+		{Position 952.11 141.37}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x3856
+		{Position 633.47 10.27}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x3857
+		{Position 99.52 393.79}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x3858
+		{Position 166.51 323.54}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x3859
+		{Position 98.46 590.7}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x385a
+		{Position 53.05 861.58}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x385b
+		{Position 34.95 1056.75}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x385c
+		{Position 695.44 1192.72}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x385d
+		{Position 780.83 1172.84}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x385e
+		{Position 751.39 1194.37}
+	}
+	{Entity "desert_bush" 0x385f
+		{Position 710.46 1160.25 0.18}
+	}
+	{Entity "afr_evidences" 0x3860
+		{Position 832.96 1342.61 0.02}
+	}
+	{Entity "afr_evidences" 0x3861
+		{Position 431.79 671.72}
+	}
+	{Entity "afr_evidences" 0x3862
+		{Position 328.47 1003.94}
+	}
+	{Entity "bags2" 0x3863
+		{Position 850.59 617.67}
+	}
+	{Entity "barrel_woods4" 0x3864
+		{Position 999.83 643.94}
+	}
+	{Entity "barrel_woods4" 0x3865
+		{Position 1186.71 1127.06}
+	}
+	{Entity "barrel_woods" 0x3866
+		{Position 1151.74 1136.97}
+	}
+	{Entity "barrel_woods" 0x3867
+		{Position 1170.98 1145.76}
+	}
+	{Entity "barrel_woods6" 0x3868
+		{Position 714.46 1489.47}
+	}
+	{Entity "barrel_woods" 0x3869
+		{Position 704.58 1521.22}
+	}
+	{Entity "barrel_woods" 0x386a
+		{Position 707.3 1445.95}
+	}
+	{Entity "cart" 0x386b
+		{Position 734.22 453.42}
+	}
+	{Entity "pot" 0x386c
+		{Position 430.62 731.08}
+	}
+	{Entity "pot1" 0x386d
+		{Position 431.82 744.8 -4.2}
+	}
+	{Entity "pot1" 0x386e
+		{Position 384.12 998.27}
+	}
+	{Entity "pot" 0x386f
+		{Position 397.68 998.61 -3.57}
+	}
+	{Entity "pot" 0x3870
+		{Position 353.28 1117.26 -26.6}
+	}
+	{Entity "pot" 0x3871
+		{Position 359.73 1105.1 -24.27}
+	}
+	{Entity "pot1" 0x3872
+		{Position 366.75 1094.59 -22.51}
+	}
+	{Entity "pot1" 0x3873
+		{Position 597 1453.03}
+	}
+	{Entity "pot1" 0x3874
+		{Position 578.47 1455.24}
+	}
+	{Entity "pot" 0x3875
+		{Position 588.83 1461.67}
+	}
+	{Entity "shaft_african" 0x3876
+		{Position 1252.88 1174.87}
+		{xform zl 120}
+	}
+	{Entity "shaft_african" 0x3877
+		{Position 1009.96 364.2}
+		{xform zl 30}
+	}
+	{Entity "shaft_african" 0x3878
+		{Position 479.69 1019.25}
+		{xform zl -30}
+	}
+	{Entity "st_debris_af" 0x14
+		{Position 714.41 1596.95}
+	}
+	{Entity "st_fence1_af" 0x15
+		{Position 620.81 1595.39}
+	}
+	{Entity "st_fence2_af" 0x16
+		{Position 781.3 1599.44}
+		{xform zl 180}
+	}
+	{Entity "st_fence1_af" 0x5800
+		{Position 443.94 1549.12}
+		{xform zl 20}
+	}
+	{Entity "st_debris_af" 0x5801
+		{Position 524.19 1580.53}
+		{xform zl 20}
+	}
+	{Entity "st_fence1_af" 0x5802
+		{Position 869.96 1582.7}
+		{xform zl -10}
+	}
+	{Entity "st_fence2_af" 0x5803
+		{Position 953.05 1561.74}
+		{xform zl -20}
+	}
+	{Entity "st_fence1_af" 0x5804
+		{Position 1097.53 1508.16}
+		{xform zl -20}
+	}
+	{Entity "st_debris_af" 0x5805
+		{Position 1006.65 1543.72}
+		{xform zl -20}
+	}
+	{Entity "house_n2_af" 0x580c
+		{Position 312.03 450.46}
+		{xform zl -100}
+	}
+	{Entity "sand_pebble122bc" 0x580d
+		{Position 414.99 394.75 -12.12}
+		{xform zl 120}
+	}
+	{Entity "st_debris_af" 0x580e
+		{Position 1357.55 1220.78}
+		{xform zl 100}
+	}
+	{Entity "st_fence1_af" 0x580f
+		{Position 1374.63 1129.2}
+		{xform zl 100}
+	}
+	{Entity "st_fence2_af" 0x5810
+		{Position 1345.91 1282.63}
+		{xform zl -80}
+	}
+	{Entity "st_fence2_af" 0x5811
+		{Position 1381.02 1045.83}
+		{xform zl -90}
+	}
+	{Entity "st_fence1_af" 0x5812
+		{Position 1370.86 959.44}
+		{xform zl -100}
+	}
+	{Entity "st_debris_af" 0x5813
+		{Position 1354.32 868.45}
+		{xform zl -100}
+	}
+	{Entity "st_debris_af" 0x5814
+		{Position 1307.08 541 -2.99}
+		{xform zl 50}
+	}
+	{Entity "st_fence1_af" 0x5815
+		{Position 1258.44 476.46}
+		{xform zl 50}
+	}
+	{Entity "st_fence2_af" 0x5816
+		{Position 1206.14 415.03}
+		{xform zl 50}
+	}
+	{Entity "st_fence1_af" 0x5817
+		{Position 1142.95 356.32}
+		{xform zl 40}
+	}
+	{Entity "st_debris_af" 0x5818
+		{Position 1063.16 299.46}
+		{xform zl 30}
+	}
+	{Entity "st_fence1_af" 0x5819
+		{Position 979.39 247.22}
+		{xform zl 30}
+	}
+	{Entity "st_fence2_af" 0x581a
+		{Position 908.59 205.68}
+		{xform zl -150}
+	}
+	{Entity "st_fence1_af" 0x581b
+		{Position 831.2 157.31}
+		{xform zl 30}
+	}
+	{Entity "st_debris_af" 0x581c
+		{Position 742.2 122.5}
+	}
+	{Entity "st_fence1_af" 0x581d
+		{Position 641.02 121.02}
+	}
+	{Entity "st_fence2_af" 0x581e
+		{Position 566.12 117.65}
+	}
+	{Entity "st_debris_af" 0x581f
+		{Position 505.62 117.9}
+	}
+	{Entity "st_debris_af" 0x5820
+		{Position 350.61 1527.17}
+	}
+	{Entity "st_fence1_af" 0x5821
+		{Position 652.9 1135.67 -7.21}
+		{xform zl -40}
+	}
+	{Entity "st_fence2_af" 0x5822
+		{Position 724.95 1096.44}
+	}
+	{Entity "st_debris_af" 0x5823
+		{Position 774.41 1101.52 -4.46}
+	}
+	{Entity "sand_pebble122bc" 0x5824
+		{Position 590.81 1202.14 -7.8}
+		{xform zl 20}
+	}
+	{Entity "sand_pebble122bc" 0x5825
+		{Position 709.73 1315.13}
+		{xform zl 150}
+	}
+	{Entity "st_fence1_af" 0x5000
+		{Position 137.52 1069.56}
+		{xform zl -80}
+	}
+	{Entity "st_fence2_af" 0x5001
+		{Position 164.4 907.28}
+		{xform zl -80}
+	}
+	{Entity "st_fence2_af" 0x5002
+		{Position 108.91 1222.38 -8.2}
+		{xform zl -80}
+	}
+	{Entity "st_debris_af" 0x5003
+		{Position 119.49 1162.37}
+		{xform zl -80}
+	}
+	{Entity "st_debris_af" 0x5004
+		{Position 154.84 970.24}
+		{xform zl -80}
+	}
+	{Entity "st_fence1_af" 0x5005
+		{Position 169.82 820.44}
+		{xform zl -90}
+	}
+	{Entity "st_fence1_af" 0x5006
+		{Position 178.83 702.89}
+		{xform zl -85}
+	}
+	{Entity "st_debris_af" 0x5007
+		{Position 189.01 604.01}
+		{xform zl -85}
+	}
+	{Entity "st_fence2_af" 0x4002
+		{Position 197.15 537.87}
+		{xform zl -80}
+	}
+	{Entity "st_debris_af" 0x4018
+		{Position 200.15 468.38}
+		{xform zl -90}
+	}
+	{Entity "st_fence1_af" 0x4019
+		{Position 269.43 266.97}
+		{xform zl -40}
+	}
+	{Entity "st_fence2_af" 0x401a
+		{Position 218.3 336.32 -4.23}
+		{xform zl 100}
+	}
+	{Entity "st_debris_af" 0x401b
+		{Position 207.77 389.87}
+		{xform zl 100}
+	}
+	{Entity "rock01" 0x9f
+		{Position -1340.17 -3568.05}
+		{xform zl 36.53 y 25.68 zw -33.72}
+		{Constrain surface}
+	}
+	{Entity "rock02" 0xa0
+		{Position -1541.45 -3025.39 100}
+		{xform zl -121.09 y 12.12 zw 121.66}
+		{Constrain surface}
+	}
+	{Entity "rock03" 0xa1
+		{Position -1906.28 -3261.15}
+		{xform zl -150.26 y 18.06 zw 151.49}
+		{Constrain surface}
+	}
+	{Entity "rock04" 0xa2
+		{Position -1077.78 -3188.47}
+		{xform zl 15.35 y 13.2 zw -14.96}
+		{Constrain surface}
+	}
+	{Entity "rock05" 0xa3
+		{Position -1111.29 -3233.04}
+		{xform zl 16.51 y 26.37 zw -14.87}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0xa4
+		{Position -1962.8 -3281.81}
+		{xform zl -141.85 y 8.45 zw 142.16}
+		{Constrain surface}
+	}
+	{Entity "stone1" 0xa5
+		{Position -853.55 -1967.67 5}
+		{xform zl -114.6 y 13.22 zw 115.19}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0xa6
+		{Position -1942.88 -3229.44}
+		{xform zl -150.27 y 7.65 zw 150.49}
+		{Constrain surface}
+	}
+	{Entity "stone11" 0xa7
+		{Position -790.61 -1998.27 5}
+		{xform zl -49.41 y 8.03 zw 49.13}
+		{Constrain surface}
+	}
+	{Entity "stone12" 0xa8
+		{Position -2056.07 -3691.96 0}
+		{xform zl -134.94 y 19.93 zw 136.71}
+		{Constrain surface}
+	}
+	{Entity "stone2" 0xa9
+		{Position -1660.79 -3435.59}
+		{xform zl -69.61 y 6.09 zw 69.5}
+		{Constrain surface}
+	}
+	{Entity "stone4" 0xab
+		{Position -1205.22 -2597.9 100}
+		{xform zl 90.16 y 5.71 zw -90}
+		{Constrain surface}
+	}
+	{Entity "stone5" 0xac
+		{Position -890.25 -2616.03}
+		{xform zl 28.44 y 22.59 zw -26.57}
+		{Constrain surface}
+	}
+	{Entity "stone6" 0xad
+		{Position -1149.26 -2693.76 90}
+		{xform zl 90 y 6.13 zw -90}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x401c
+		{Position -940.52 -2580.64}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x401d
+		{Position -918.38 -2687.58}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x401e
+		{Position -1244.61 -2656.82}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x401f
+		{Position -1161.64 -2632.05}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x4020
+		{Position -829.47 -2054.84}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x4021
+		{Position -825.29 -1942.22}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x4022
+		{Position -744.97 -2054.91}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x4023
+		{Position -1493.62 -3075}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x4024
+		{Position -1589.66 -3002.89}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x4025
+		{Position -1618.11 -3334.22}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x4026
+		{Position -1699.5 -3448.34}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x4027
+		{Position -1902.14 -3225.26}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x4028
+		{Position -1959.6 -3315.85}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x4029
+		{Position -1299.6 -3502.5}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x402a
+		{Position -1415.68 -3575.88}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x402b
+		{Position -1116.76 -3209.24}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x402c
+		{Position -1082.53 -3222.19}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x402d
+		{Position -2041.71 -3621.09}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x402e
+		{Position -2099.68 -3679.85}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x402f
+		{Position -1659.84 -3327.91}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x4030
+		{Position -1116.26 -2757.4}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x4031
+		{Position -1569.62 -3075}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x4032
+		{Position -1974.71 -3244.61}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x4033
+		{Position -1372.73 -3653}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x4034
+		{Position -1080.52 -3166.95}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x4035
+		{Position -843.17 -2610.04}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x4036
+		{Position -717.08 -1978.35}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x4037
+		{Position -2007.23 -3686.61}
+		{xform scale 2}
+	}
+	{Entity "sand_dark" 0x4038
+		{Position -1858.65 -3460.14 44.24}
+	}
+	{Entity "sand_dark" 0x4039
+		{Position -1696.59 -3039.42 69.09}
+	}
+	{Entity "sand_dark" 0x403a
+		{Position -1490.73 -3896.11 65.9}
+	}
+	{Entity "sand_dark" 0x403b
+		{Position -1185.83 -3057.13 75.25}
+	}
+	{Entity "sand_dark" 0x403c
+		{Position -865.68 -2319.74}
+	}
+	{Entity "sand_dark" 0x403d
+		{Position -2346.71 -1937.68}
+		{xform zl 53.48 y 26.28 zw -50.45}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x403e
+		{Position -2409.05 -1503.81}
+		{xform zl -76.12 y 11.4 zw 75.85}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x403f
+		{Position -1967.01 -1264.44}
+		{xform zl -24.61 y 13.82 zw 23.98}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x4040
+		{Position -2868.84 -1508.13}
+		{xform zl -129.28 y 12.06 zw 129.9}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x4041
+		{Position -3294.89 -1636.2}
+		{xform zl -112.58 y 9.57 zw 112.87}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x4042
+		{Position -3606.01 -2203.09}
+		{xform zl 40.83 y 7.5 zw -40.58}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x4043
+		{Position -3367.77 -2575.24}
+		{xform zl -47.29 y 5.96 zw 47.13}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x4044
+		{Position -2951.38 -2052.56}
+		{xform zl 55.79 y 6.91 zw -55.59}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x4045
+		{Position -3041.31 -2639.78}
+		{xform zl 39.98 y 26.57 zw -36.87}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x4046
+		{Position -3774.64 -2964.22}
+		{xform zl 46.2 y 3.88 zw -46.13}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x4047
+		{Position -3647.02 -3368.94}
+		{xform zl 26.29 y 19.95 zw -24.91}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x4048
+		{Position -3836.5 -3608.84}
+		{xform zl 57.36 y 17.41 zw -56.13}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x4049
+		{Position -3904.83 -2350.08}
+		{xform zl 127.83 y 8.93 zw -128.17}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x404a
+		{Position -3836.21 -1804.29}
+		{xform zl 114.29 y 8.28 zw -114.52}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x404b
+		{Position -3655.9 -1554.71}
+		{xform zl -101.4 y 22.08 zw 102.28}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x404c
+		{Position -1979.12 -3245.65 -2.9}
+	}
+	{Entity "stone_af" 0x404d
+		{Position -2079.37 -3690.16 14.06}
+	}
+	{Entity "stone_af" 0x404e
+		{Position -1101.73 -3213.95 10.76}
+	}
+	{Entity "stone_af" 0x404f
+		{Position -814.28 -1928.61}
+	}
+	{Entity "stone_af" 0x4050
+		{Position -929.84 -1908.09 -9.13}
+	}
+	{Entity "stone_af" 0x4051
+		{Position -1219.9 -2671.84}
+	}
+	{Entity "stone_af" 0x4052
+		{Position -1171.3 -2712.51}
+	}
+	{Entity "stone_af" 0x4053
+		{Position -867.71 -2640.8 4.6}
+	}
+	{Entity "stone_af" 0x4054
+		{Position -1649.31 -3349.58 76.14}
+	}
+	{Entity "stone_af" 0x4055
+		{Position -1361.46 -3639.24 54.63}
+	}
+	{Entity "stone_af" 0x4056
+		{Position -1523.13 -2972.1 99.97}
+	}
+	{Entity "stone_af" 0x4057
+		{Position -1544.45 -3073.59}
+	}
+	{Entity "trace_waves1" 0x4058
+		{Position -2660.12 -2774.93}
+		{xform zl -90 y 8.05 zw 135}
+		{Constrain surface}
+	}
+	{Entity "trace_waves1" 0x4059
+		{Position -2854.43 -2975.28}
+		{xform zl 4.41 y 4.32 zw 40.61}
+		{Constrain surface}
+	}
+	{Entity "trace_waves1" 0x405a
+		{Position -3039.25 -3172.25}
+		{xform zl -126.44 y 0.83 zw 171.45}
+		{Constrain surface}
+	}
+	{Entity "trace_waves1" 0x405b
+		{Position -3213.03 -3410.51}
+		{xform zl 20.44 y 5.32 zw 34.64}
+		{Constrain surface}
+	}
+	{Entity "trace_waves1" 0x405c
+		{Position -3365.78 -3640.37}
+		{xform zl 55}
+		{Constrain surface}
+	}
+	{Entity "trace_waves1" 0x405d
+		{Position -3484.71 -3867.21}
+		{xform zl 65}
+	}
+	{Entity "trace_waves1" 0x405e
+		{Position -2485.6 -2589.93}
+		{xform zl -92.78 y 8.47 zw 137.81}
+		{Constrain surface}
+	}
+	{Entity "trace_waves1" 0x405f
+		{Position -2292.25 -2412.91}
+		{xform zl -115.11 y 11.5 zw 150.56}
+		{Constrain surface}
+	}
+	{Entity "trace_waves1" 0x4060
+		{Position -2140.7 -2306.09}
+		{xform zl -73.71 y 6.85 zw 108.6}
+		{Constrain surface}
+	}
+	{Entity "trace_waves1" 0x4061
+		{Position -1954.9 -2176.11}
+		{xform zl -55.81 y 10.44 zw 90.37}
+		{Constrain surface}
+	}
+	{Entity "trace_waves1" 0x4062
+		{Position -1797.69 -2007.54}
+		{xform zl -142.68 y 5.62 zw -162.19}
+		{Constrain surface}
+	}
+	{Entity "trace_waves1" 0x4063
+		{Position -1695.87 -1819.92}
+		{xform zl -82.34 y 13.39 zw 147.13}
+		{Constrain surface}
+	}
+	{Entity "trace_waves1" 0x4064
+		{Position -1642.8 -1589.33}
+		{xform zl 174.99 y 2.75 zw -90}
+		{Constrain surface}
+	}
+	{Entity "trace_waves1" 0x4065
+		{Position -1676.22 -1330.77}
+		{xform zl -61.03 y 5.89 zw 165.9}
+		{Constrain surface}
+	}
+	{Entity "trace_waves1" 0x4066
+		{Position -1754.87 -1086.02}
+		{xform zl -79.04 y 5.72 zw -176.02}
+		{Constrain surface}
+	}
+	{Entity "trace_waves1" 0x4067
+		{Position -1685.53 -2490.04}
+		{xform zl -130}
+	}
+	{Entity "trace_waves1" 0x4068
+		{Position -1857.28 -2735.25}
+		{xform zl -120}
+	}
+	{Entity "trace_waves1" 0x4069
+		{Position -1983.25 -2943.48}
+		{xform zl -120}
+	}
+	{Entity "trace_waves1" 0x406a
+		{Position -2106.57 -3176.69}
+		{xform zl -120}
+	}
+	{Entity "trace_waves1" 0x406b
+		{Position -2214.33 -3417.5}
+		{xform zl -110}
+	}
+	{Entity "trace_waves1" 0x406c
+		{Position -2305.61 -3686.08}
+		{xform zl -110}
+	}
+	{Entity "trace_waves1" 0x406d
+		{Position -2368.83 -3904.78}
+		{xform zl -110}
+	}
+	{Entity "trace_waves1" 0x2011
+		{Position -1526.28 -2284.8}
+		{xform zl -130}
+	}
+	{Entity "trace_waves1" 0x2012
+		{Position -1359.79 -2107.17}
+		{xform zl -135}
+	}
+	{Entity "trace_waves1" 0x2013
+		{Position -1152.07 -1930.96}
+		{xform zl -145}
+	}
+	{Entity "trace_waves1" 0x2014
+		{Position -916.5 -1784.43}
+		{xform zl -155}
+	}
+	{Entity "trace_waves1" 0x2015
+		{Position -756.35 -1733.01}
+		{xform zl -165}
+	}
+	{Entity "rock03" 0x2016
+		{Position -1812.09 -1708.65}
+		{xform zl -4.45 y 15.5 zw 6.35}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x2017
+		{Position -1866.62 -1732}
+		{xform zl -9.2 y 14.71 zw 8.68}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x2018
+		{Position -1848.69 -1676.94}
+		{xform zl 19.56 y 12.74 zw -17.91}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x2019
+		{Position -1807.95 -1672.76}
+		{xform zl 5.34 y 11.35 zw -5.04 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x201a
+		{Position -1865.41 -1763.35}
+		{xform zl -16.91 y 9.76 zw 16.23 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x201b
+		{Position -1876.91 -1695.4}
+		{xform y 12.62 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x201c
+		{Position -1812.63 -1701.46}
+		{xform y 15.7}
+		{Constrain surface}
+	}
+	{Entity "stone2" 0x201d
+		{Position -3303.42 -2061.2}
+		{xform zl -120.5 y 8.37 zw 121.06}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x201e
+		{Position -3260.74 -1959.83}
+		{xform zl -158.7 y 8.43 zw 159.32 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x201f
+		{Position -3342.13 -2073.95}
+		{xform zl -104.32 y 10.29 zw 105 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x2020
+		{Position -3302.47 -1953.52}
+		{xform zl -171.1 y 8.96 zw 171.41 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x2021
+		{Position -3291.94 -1975.19}
+		{xform zl -169.13 y 9.13 zw 169.53}
+		{Constrain surface}
+	}
+	{Entity "rock01" 0x2022
+		{Position -3544.99 -3135.56}
+		{xform zl 31.77 y 12.74 zw -26.25}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x2023
+		{Position -3504.42 -3070.01}
+		{xform zl 38.54 y 20.46 zw -36.74 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x2024
+		{Position -3620.5 -3143.39}
+		{xform zl 18.89 y 19.48 zw -17.87 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x2025
+		{Position -3577.55 -3220.51}
+		{xform zl 7.87 y 18.77 zw -7.45 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x2026
+		{Position -3566.28 -3206.75}
+		{xform zl 1.37 y 17.62 zw -1.3}
+		{Constrain surface}
+	}
+	{Entity "stone4" 0x2027
+		{Position -2740.82 -1814.66 130}
+		{xform zl -90.58 y 5.79 zw 90}
+		{Constrain surface}
+	}
+	{Entity "stone6" 0x2028
+		{Position -2684.86 -1910.52 120}
+		{xform zl 45.83 y 15.79 zw -45}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x2029
+		{Position -2780.21 -1873.58}
+		{xform zl -55.98 y 5.22 zw 55.86 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x202a
+		{Position -2697.24 -1848.81}
+		{xform zl 23.23 y 6.41 zw -23.1 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x202b
+		{Position -2651.86 -1974.16}
+		{xform zl 47.97 y 7.42 zw -47.73 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x202c
+		{Position -2683.45 -1844.88}
+		{xform zl 22 y 9.03 zw -21.64}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x202d
+		{Position -2706.9 -1929.27}
+		{xform zl 27.13 y 12.6 zw -26.56}
+		{Constrain surface}
+	}
+	{Entity "stone2" 0x202e
+		{Position -3701.76 -3677.71}
+		{xform zl 41.79 y 26.57 zw -36.87}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x202f
+		{Position -3659.08 -3576.34}
+		{xform zl 37.39 y 28.24 zw -33.96 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x2030
+		{Position -3740.47 -3690.46}
+		{xform zl 43.54 y 27.61 zw -40.1 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x2031
+		{Position -3700.81 -3570.03}
+		{xform zl 42.7 y 29.46 zw -38.78 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x2032
+		{Position -3690.28 -3591.7}
+		{xform zl 41.66 y 31.62 zw -37.14}
+		{Constrain surface}
+	}
+	{Entity "stone12" 0x2033
+		{Position -2952.1 -2485.28 50}
+		{xform zl 41.04 y 16.79 zw -36.19}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x2034
+		{Position -2922.93 -2398.8}
+		{xform zl 55.69 y 9.85 zw -55.29 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x2035
+		{Position -2980.9 -2457.56}
+		{xform zl 32.44 y 10.11 zw -32.04 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x2036
+		{Position -2888.45 -2464.32}
+		{xform zl 57.71 y 19.74 zw -56.12 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x2037
+		{Position -2960.59 -2467.87}
+		{xform zl 37.82 y 15.22 zw -36.83}
+		{Constrain surface}
+	}
+	{Entity "rock04" 0x2038
+		{Position -3109.45 -2960.89}
+		{xform zl 0.78}
+		{Constrain surface}
+	}
+	{Entity "rock05" 0x2039
+		{Position -3142.96 -3005.46}
+		{xform zl 3.37}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x203a
+		{Position -3148.43 -2981.66}
+		{xform scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x203b
+		{Position -3114.2 -2994.61}
+		{xform zl 14.08 y 0.1 zw -14.08 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x203c
+		{Position -3112.19 -2939.37}
+		{xform zl 90 y 2.95 zw -90 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x203d
+		{Position -3133.4 -2986.37}
+		{Constrain surface}
+	}
+	{Entity "stone5" 0x203e
+		{Position -2629.16 -1428.44}
+		{xform zl -69.48 y 15.68 zw 69.13}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x203f
+		{Position -2679.43 -1393.05}
+		{xform zl -80.97 y 16.87 zw 80.57 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x2040
+		{Position -2657.29 -1499.99}
+		{xform zl -30.96 y 6.42 zw 30.8 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x2041
+		{Position -2582.08 -1422.45}
+		{xform zl -78.96 y 15.09 zw 78.57 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x2042
+		{Position -2606.62 -1453.21}
+		{xform zl -72.98 y 13.29 zw 72.54}
+		{Constrain surface}
+	}
+	{Entity "stone5" 0x2043
+		{Position -3778.94 -2024.9}
+		{xform zl -61.34 y 13.09 zw 61.2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x2044
+		{Position -3829.21 -1989.51}
+		{xform zl -22.26 y 15.23 zw 21.55 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x2045
+		{Position -3807.07 -2096.46}
+		{xform zl -61.52 y 11.94 zw 60.99 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x2046
+		{Position -3731.86 -2018.91}
+		{xform zl -94.86 y 16.76 zw 95.08 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x2047
+		{Position -3756.4 -2049.67}
+		{xform zl -90.05 y 16.7 zw 90.05}
+		{Constrain surface}
+	}
+	{Entity "stone1" 0x2048
+		{Position -2046.23 -1037.42}
+		{xform zl -55.29 y 17.11 zw 56.68}
+		{Constrain surface}
+	}
+	{Entity "stone11" 0x2049
+		{Position -1983.29 -1068.02}
+		{xform zl -61.53 y 10.34 zw 60.93}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x204a
+		{Position -2022.15 -1124.59}
+		{xform zl -43.02 y 16.71 zw 41.79 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x204b
+		{Position -2017.97 -1011.97}
+		{xform zl -63.43 y 10.6 zw 63.03 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x204c
+		{Position -1937.65 -1124.66}
+		{xform zl -50.93 y 13.22 zw 50.17 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x204d
+		{Position -1909.76 -1048.1}
+		{xform zl -45.28 y 8.05 zw 45 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x204e
+		{Position -2006.96 -998.36}
+		{xform zl -79.36 y 7.45 zw 79.27}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x204f
+		{Position -2122.52 -977.84}
+		{xform zl -63.99 y 12.6 zw 63.43}
+		{Constrain surface}
+	}
+	{Entity "rock02" 0x2050
+		{Position -3181.51 -1666.92}
+		{xform zl -46.54 y 7.74 zw 47.35}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x2051
+		{Position -3133.68 -1716.53}
+		{xform y 5.23 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x2052
+		{Position -3229.72 -1644.42}
+		{xform zl -90 y 5.77 zw 90 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x2053
+		{Position -3209.68 -1716.53}
+		{xform zl 4.44 y 0.89 zw -4.44 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x2054
+		{Position -3163.19 -1613.63}
+		{xform zl -78.18 y 14.95 zw 77.78}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x2055
+		{Position -3184.51 -1715.12}
+		{Constrain surface}
+	}
+	{Entity "rock02" 0x2056
+		{Position -3564.38 -2693.37}
+		{xform zl -127.84 y 3.67 zw 127.16}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x2057
+		{Position -3516.55 -2742.98}
+		{xform zl 63.99 y 12.6 zw -63.44 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x2058
+		{Position -3612.59 -2670.87}
+		{xform zl -127.5 y 9.02 zw 127.84 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x2059
+		{Position -3592.55 -2742.98}
+		{xform scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x205a
+		{Position -3546.06 -2640.08}
+		{xform zl -144.55 y 12.37 zw 145.18}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x205b
+		{Position -3567.38 -2741.57}
+		{xform zl 71.93 y 2.69 zw -71.91}
+		{Constrain surface}
+	}
+	{Entity "rock02" 0x205c
+		{Position -2273.91 -1813.64}
+		{xform zl 30.1 y 24.09 zw -26.57}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x205d
+		{Position -2226.08 -1863.25}
+		{xform zl 34.78 y 30.25 zw -30.96 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x205e
+		{Position -2322.12 -1791.14}
+		{xform zl 9.29 y 15.16 zw -8.97 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x205f
+		{Position -2302.08 -1863.25}
+		{xform zl 38.68 y 26.22 zw -35.68 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x2060
+		{Position -2255.59 -1760.35}
+		{xform zl 18.71 y 18.07 zw -17.84}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x2061
+		{Position -2276.91 -1861.84}
+		{xform zl 39.27 y 26.37 zw -36.22}
+		{Constrain surface}
+	}
+	{Entity "rock02" 0x2062
+		{Position -3649.44 -1381.82}
+		{xform zl -99.09 y 20.63 zw 97.76}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x2063
+		{Position -3601.61 -1431.43}
+		{xform zl -90 y 30.96 zw 90 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x2064
+		{Position -3697.65 -1359.32}
+		{xform zl -94.92 y 19.43 zw 95.21 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x2065
+		{Position -3677.61 -1431.43}
+		{xform zl -95.63 y 31.13 zw 96.57 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x2066
+		{Position -3631.12 -1328.53}
+		{xform zl -97.07 y 13.6 zw 97.27}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x2067
+		{Position -3652.44 -1430.02}
+		{xform zl -91.79 y 32.59 zw 92.12}
+		{Constrain surface}
+	}
+	{Entity "trace_waves1" 0x2068
+		{Position -1914.52 -870.02}
+		{xform zl -119.59 y 5.71 zw -90.02}
+		{Constrain surface}
+	}
+	{Entity "trace_waves1" 0x2069
+		{Position -2149.43 -786}
+		{xform zl 170.67}
+	}
+	{Entity "trace_waves1" 0x206a
+		{Position -2335.95 -809.29}
+		{xform zl -169.33}
+	}
+	{Entity "trace_waves1" 0x206b
+		{Position -2591.12 -896.86}
+		{xform zl -159.33}
+	}
+	{Entity "trace_waves1" 0x206c
+		{Position -2802.76 -985.43}
+		{xform zl -159.33}
+	}
+	{Entity "trace_waves1" 0x206d
+		{Position -3049.06 -1063.86}
+		{xform zl -169.33}
+	}
+	{Entity "trace_waves1" 0x206e
+		{Position -3291.99 -1120.52}
+		{xform zl -169.33}
+	}
+	{Entity "trace_waves1" 0x206f
+		{Position -3539.65 -1155.83}
+		{xform zl -179.33}
+	}
+	{Entity "trace_waves1" 0x2070
+		{Position -3840.15 -1183.12}
+		{xform zl -179.33}
+	}
+	{Entity "sand_pebble122ba" 0xaa
+		{Position 893.08 346.96}
+		{xform zl 80}
+	}
+	{Entity "sand_pebble122ba" 0xae
+		{Position 1163.42 1170.75}
+		{xform zl 80}
+	}
+	{Entity "post-wood3" 0xaf
+		{Position -1224.8 -3893.47 -7.89}
+		{xform zl -20}
+	}
+	{Entity "post-wood3" 0xb0
+		{Position -948.95 -3137.19 -7.85}
+		{xform zl -20}
+	}
+	{Entity "post-wood3" 0xb1
+		{Position -676.39 -2396.14 -5.34}
+		{xform zl -20}
+	}
+	{Entity "post-wood3" 0xb2
+		{Position -342.67 -1430.51 -4.43}
+		{xform zl -20}
+	}
+	{Entity "post-wood3" 0xb3
+		{Position 38.2 -404.68 -2.92}
+		{xform zl -20}
+	}
+	{Entity "post-wood3" 0xb4
+		{Position 316.03 308.42 -13.14}
+		{xform zl -20}
+	}
+	{Entity "cane3" 0xb5
+		{Position 36.98 -399.8 -2.57}
+		{xform zl 60}
+		{TexMod "bare"}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "cane3" 0xb6
+		{Position -340.12 -1424.99 -4.36}
+		{xform zl 80}
+		{TexMod "bare"}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "cane3" 0xb7
+		{Position -671.77 -2389.09 -5.64}
+		{xform zl 70}
+		{TexMod "bare"}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "cane3" 0xb8
+		{Position -946.68 -3131.54 -7.4}
+		{xform zl 80}
+		{TexMod "bare"}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "cane3" 0xb9
+		{Position -1225.42 -3886.99 -7.32}
+		{xform zl 60}
+		{TexMod "bare"}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "cane3" 0xba
+		{Position 316.15 311.19 -12.91}
+		{xform zl 60}
+		{TexMod "bare"}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "trace_waves1" 0xbb
+		{Position -3326.67 -129.99}
+		{xform zl 10.67}
+	}
+	{Entity "trace_waves1" 0xbc
+		{Position -3574.33 -165.3}
+		{xform zl 0.67}
+	}
+	{Entity "trace_waves1" 0xbd
+		{Position -3874.83 -192.59}
+		{xform zl 0.67}
+	}
+	{Entity "trace_waves1" 0xbe
+		{Position -3038.83 -71.64}
+		{xform zl 10.67}
+	}
+	{Entity "trace_waves1" 0xbf
+		{Position -2767.01 7.34}
+		{xform zl 20.67}
+	}
+	{Entity "trace_waves1" 0xc0
+		{Position -2506.02 122.95}
+		{xform zl 20.67}
+	}
+	{Entity "trace_waves1" 0xc1
+		{Position -2238.3 257.49}
+		{xform zl 30.67}
+	}
+	{Entity "trace_waves1" 0xc2
+		{Position -2006.85 393.52}
+		{xform zl 30.67}
+	}
+	{Entity "trace_waves1" 0xc3
+		{Position -1758.95 505.81}
+		{xform zl 15.67}
+	}
+	{Entity "trace_waves1" 0xc4
+		{Position -1480.31 579.92}
+		{xform zl 15.67}
+	}
+	{Entity "trace_waves1" 0xc5
+		{Position -1225.63 687.2}
+		{xform zl 25.67}
+	}
+	{Entity "trace_waves1" 0xc6
+		{Position -1006.85 803.55}
+		{xform zl 35.67}
+	}
+	{Entity "trace_waves1" 0xc7
+		{Position -797.27 971.31}
+		{xform zl 35.67}
+	}
+	{Entity "trace_waves1" 0xc8
+		{Position -608.63 1146.56}
+		{xform zl 45.67}
+	}
+	{Entity "post-wood3" 0xc9
+		{Position 78.67 1345.3}
+		{xform zl 11.48 y 2.29 zw 28.53}
+		{Constrain surface}
+	}
+	{Entity "post-wood3" 0xca
+		{Position -461.36 1873.85 -20.25}
+		{xform zl 40}
+	}
+	{Entity "post-wood3" 0xcb
+		{Position -895.82 2548.53 -13.18}
+		{xform zl 40}
+	}
+	{Entity "post-wood3" 0xcc
+		{Position -1258.27 3100.33 -10.12}
+		{xform zl 40}
+	}
+	{Entity "post-wood3" 0xcd
+		{Position -1549.22 3771.85}
+		{xform zl 20}
+	}
+	{Entity "cane3" 0xce
+		{Position 71.79 1343.02}
+		{xform zl 89.39 y 5.08 zw 50.61}
+		{Constrain surface}
+		{TexMod "bare"}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "cane3" 0xcf
+		{Position -467.97 1875.39 -18.79}
+		{xform zl 140}
+		{TexMod "bare"}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "cane3" 0xd0
+		{Position -904.85 2549.62 -12.29}
+		{xform zl 130}
+		{TexMod "bare"}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "cane3" 0xd1
+		{Position -1263.93 3102.92 -9.72}
+		{xform zl 130}
+		{TexMod "bare"}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "cane3" 0xd2
+		{Position -1553.48 3768.82 -11.52}
+		{xform zl 110}
+		{TexMod "bare"}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "rock04" 0xd3
+		{Position -2620.33 -3539.69}
+		{xform zl 2.03}
+		{Constrain surface}
+	}
+	{Entity "rock05" 0xd4
+		{Position -2653.84 -3584.26}
+		{xform zl -36.67 y 3.83 zw 40.44}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0xd5
+		{Position -2659.31 -3560.46}
+		{xform zl -44.49 y 8.01 zw 44.74 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0xd6
+		{Position -2625.08 -3573.41}
+		{xform zl 0.51 y 0.12 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0xd7
+		{Position -2623.07 -3518.17}
+		{xform zl 1.53 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0xd8
+		{Position -2644.28 -3565.17}
+		{xform zl -41.53 y 4.29 zw 42.75}
+		{Constrain surface}
+	}
+	{Entity "rock04" 0xd9
+		{Position -810.42 306.12}
+		{xform zl -109.35 y 2.29 zw 110.24}
+		{Constrain surface}
+	}
+	{Entity "rock05" 0xda
+		{Position -843.93 261.55}
+		{xform zl 4.21 y 1.65 zw -0.83}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0xdb
+		{Position -849.4 285.35}
+		{xform zl -3.24 y 2.72 zw 3.1 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0xdc
+		{Position -815.17 272.4}
+		{xform zl 53.39 y 4.29 zw -53.42 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0xdd
+		{Position -813.16 327.64}
+		{xform zl 60.34 y 7.32 zw -60.63 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0xde
+		{Position -834.37 280.64}
+		{xform zl -40.16 y 1.71 zw 40.32}
+		{Constrain surface}
+	}
+	{Entity "rock04" 0xdf
+		{Position -2364.34 -442.2}
+		{xform zl 39.53 y 3.28 zw -38.54}
+		{Constrain surface}
+	}
+	{Entity "rock05" 0xe0
+		{Position -2397.85 -486.77}
+		{xform zl -176.77 y 4.57 zw 179.76}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0xe1
+		{Position -2403.32 -462.97}
+		{xform zl -154 y 3.02 zw 153.72 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0xe2
+		{Position -2369.09 -475.92}
+		{xform zl 76.93 y 3.04 zw -76.93 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0xe3
+		{Position -2367.08 -420.68}
+		{xform zl 104.04 y 5.99 zw -104.09 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0xe4
+		{Position -2388.29 -467.68}
+		{xform zl 178.85 y 4.29 zw -179.23}
+		{Constrain surface}
+	}
+	{Entity "rock04" 0xe5
+		{Position -727.97 -998.69}
+		{xform zl 0.98 y 1.97}
+		{Constrain surface}
+	}
+	{Entity "rock05" 0xe6
+		{Position -761.48 -1043.26}
+		{xform zl -8.87 y 8.42 zw 11.6}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0xe7
+		{Position -766.95 -1019.46}
+		{xform zl -44.99 y 8.05 zw 45 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0xe8
+		{Position -732.72 -1032.41}
+		{xform zl -11.07 y 7.28 zw 11.18 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0xe9
+		{Position -730.71 -977.17}
+		{xform zl 68.76 y 4.6 zw -68.65 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0xea
+		{Position -751.92 -1024.17}
+		{xform zl -41.01 y 8.44 zw 40.96}
+		{Constrain surface}
+	}
+	{Entity "rock03" 0xeb
+		{Position -3062.41 -3765.55}
+		{xform zl -159.29 y 17.87 zw 160.84}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0xec
+		{Position -3118.93 -3786.21}
+		{xform zl -165.38 y 7.6 zw 165.9}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0xed
+		{Position -3099.01 -3733.84}
+		{xform zl -130.35 y 4.91 zw 130.37}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0xee
+		{Position -3058.27 -3729.66}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0xef
+		{Position -3115.73 -3820.25}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0xf0
+		{Position -3130.84 -3749.01}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0xf1
+		{Position -3135.25 -3750.05 9.03}
+	}
+	{Entity "rock03" 0xf2
+		{Position -1177.86 -1743.8}
+		{xform zl -151.28 y 23.7 zw 150.89}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0xf3
+		{Position -1234.38 -1764.46}
+		{xform zl -135.05 y 7.38 zw 134.97}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0xf4
+		{Position -1214.46 -1712.09}
+		{xform zl -124.21 y 9.16 zw 124.24}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0xf5
+		{Position -1173.72 -1707.91}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0xf6
+		{Position -1231.18 -1798.5}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0xf7
+		{Position -1246.29 -1727.26}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0xf8
+		{Position -1250.7 -1728.3 -1.09}
+	}
+	{Entity "rock03" 0xf9
+		{Position -1342.3 -840.44}
+		{xform zl -150.26 y 18.06 zw 151.49}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0xfa
+		{Position -1398.82 -861.1}
+		{xform zl -125.85 y 11.13 zw 125.96}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0xfb
+		{Position -1378.9 -808.73}
+		{xform zl -115.92 y 7.96 zw 115.96}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0xfc
+		{Position -1338.16 -804.55}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0xfd
+		{Position -1395.62 -895.14}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0xfe
+		{Position -1410.73 -823.9}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0xff
+		{Position -1415.14 -824.94 25.03}
+	}
+	{Entity "rock03" 0x100
+		{Position -542.83 -148.96}
+		{xform zl -150.7 y 20.43 zw 151.68}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x101
+		{Position -599.35 -169.62}
+		{xform zl -163.96 y 4.2 zw 164.47}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x102
+		{Position -579.43 -117.25}
+		{xform zl -148.35 y 7.26 zw 148.59}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x103
+		{Position -538.69 -113.07}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x104
+		{Position -596.15 -203.66}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x105
+		{Position -611.26 -132.42}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x106
+		{Position -615.67 -133.46 2.66}
+	}
+	{Entity "rock03" 0x107
+		{Position -1620.19 -73.51}
+		{xform zl -150.26 y 18.06 zw 151.49}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x108
+		{Position -1676.71 -94.17}
+		{xform zl -141.85 y 8.45 zw 142.16}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x109
+		{Position -1656.79 -41.8}
+		{xform zl -150.27 y 7.65 zw 150.49}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x10a
+		{Position -1616.05 -37.62}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x10b
+		{Position -1673.51 -128.21}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x10c
+		{Position -1688.62 -56.97}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x10d
+		{Position -1693.03 -58.01 16.03}
+	}
+	{Entity "rock03" 0x10e
+		{Position -3174.57 -639.47}
+		{xform zl -153.86 y 23.78 zw 154.89}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x10f
+		{Position -3231.09 -660.13}
+		{xform zl -163.17 y 14.56 zw 163.44}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x110
+		{Position -3211.17 -607.76}
+		{xform zl -146.75 y 13.6 zw 146.74}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x111
+		{Position -3170.43 -603.58}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x112
+		{Position -3227.89 -694.17}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x113
+		{Position -3243 -622.93}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x114
+		{Position -3247.41 -623.97 5.68}
+	}
+	{Entity "sand_dark" 0x115
+		{Position -2647.95 -3554.99 -0.02}
+	}
+	{Entity "sand_dark" 0x116
+		{Position -3115.66 -3755.2 9.98}
+	}
+	{Entity "sand_dark" 0x117
+		{Position -1247.69 -1746.31 -0.29}
+	}
+	{Entity "sand_dark" 0x118
+		{Position -762.76 -1029.32 10.28}
+	}
+	{Entity "sand_dark" 0x119
+		{Position -1386.07 -839.21 22.63}
+	}
+	{Entity "sand_dark" 0x11a
+		{Position -600.62 -148.78 3.97}
+	}
+	{Entity "sand_dark" 0x11b
+		{Position -834.24 259.22 21.45}
+	}
+	{Entity "sand_dark" 0x11c
+		{Position -1663.65 -70.27 16.98}
+	}
+	{Entity "sand_dark" 0x11d
+		{Position -2394.52 -461.67 12.26}
+	}
+	{Entity "sand_dark" 0x11e
+		{Position -3233.26 -632.1 5.98}
+	}
+	{Entity "rock03" 0x11f
+		{Position -2229.24 -2771.36}
+		{xform zl -133.17 y 13.78 zw 134.58}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x120
+		{Position -2285.76 -2792.02}
+		{xform zl -171.01 y 12.52 zw 171.45}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x121
+		{Position -2265.84 -2739.65}
+		{xform zl -140.86 y 10.44 zw 140.58}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x122
+		{Position -2225.1 -2735.47}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x123
+		{Position -2282.56 -2826.06}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x124
+		{Position -2297.67 -2754.82}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x125
+		{Position -2302.08 -2755.86 0.03}
+	}
+	{Entity "sand_dark" 0x126
+		{Position -2282.49 -2761.01 0.68}
+	}
+	{Entity "trace_waves1" 0x127
+		{Position -488.11 1342.67}
+		{xform zl 65.67}
+	}
+	{Entity "trace_waves1" 0x128
+		{Position -31.26 -84.29}
+		{xform zl -114.33}
+	}
+	{Entity "trace_waves1" 0x129
+		{Position -115.58 -333.36}
+		{xform zl -104.33}
+	}
+	{Entity "trace_waves1" 0x12a
+		{Position -190.96 -623.48}
+		{xform zl -104.33}
+	}
+	{Entity "trace_waves1" 0x12b
+		{Position -291.2 -919.31}
+		{xform zl -114.33}
+	}
+	{Entity "trace_waves1" 0x12c
+		{Position -400.6 -1157.48}
+		{xform zl -114.33}
+	}
+	{Entity "trace_waves1" 0x12d
+		{Position -501.17 -1401.02}
+		{xform zl -114.33}
+	}
+	{Entity "trace_waves1" 0x12e
+		{Position -567.03 -1560.27}
+		{xform zl -114.33}
+	}
+	{Entity "rock04" 0x12f
+		{Position -633.89 -1639.18}
+		{xform zl 0.98 y 1.97}
+		{Constrain surface}
+	}
+	{Entity "rock05" 0x130
+		{Position -667.4 -1683.75}
+		{xform zl 59.77 y 9.33 zw -57.78}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x131
+		{Position -672.87 -1659.95}
+		{xform zl -76.32 y 1 zw 75.76 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x132
+		{Position -638.64 -1672.9}
+		{xform zl -12.43 y 6.5 zw 12.53 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x133
+		{Position -636.63 -1617.66}
+		{xform zl 68.76 y 4.6 zw -68.65 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x134
+		{Position -657.84 -1664.66}
+		{xform zl -16.01 y 2.68 zw 15.45}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x135
+		{Position -668.68 -1669.81 -1.94}
+	}
+	{Entity "rock04" 0x136
+		{Position -367.89 1519.64}
+		{xform zl 0.98 y 1.97}
+		{Constrain surface}
+	}
+	{Entity "rock05" 0x137
+		{Position -401.4 1475.07}
+		{xform zl -8.87 y 8.42 zw 11.6}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x138
+		{Position -406.87 1498.87}
+		{xform zl -44.99 y 8.05 zw 45 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x139
+		{Position -372.64 1485.92}
+		{xform zl -11.07 y 7.28 zw 11.18 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x13a
+		{Position -370.63 1541.16}
+		{xform zl 68.76 y 4.6 zw -68.65 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x13b
+		{Position -391.84 1494.16}
+		{xform zl -41.01 y 8.44 zw 40.96}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x13c
+		{Position -402.68 1489.01 -0.02}
+	}
+	{Entity "rock04" 0x13d
+		{Position 56.62 125.52}
+		{xform zl 0.98 y 1.97 zw 0.04}
+		{Constrain surface}
+	}
+	{Entity "rock05" 0x13e
+		{Position 23.11 80.95}
+		{xform zl -8.87 y 8.42 zw 11.61}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x13f
+		{Position 17.64 104.75}
+		{xform zl -44.99 y 8.05 zw 45 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x140
+		{Position 51.87 91.8}
+		{xform zl -11.07 y 7.28 zw 11.13 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x141
+		{Position 53.88 147.04}
+		{xform zl 83.46 y 9.16 zw -83.15 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x142
+		{Position 32.67 100.04}
+		{xform zl -41.01 y 8.44 zw 41.04}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x143
+		{Position 21.83 94.89 -0.02}
+	}
+	{Entity "trace_waves1" 0x144
+		{Position -87.66 295.35}
+		{xform zl -74.33}
+	}
+	{Entity "trace_waves1" 0x145
+		{Position -168.97 583.23}
+		{xform zl -74.33}
+	}
+	{Entity "trace_waves1" 0x146
+		{Position -221.62 859.91}
+		{xform zl -84.33}
+	}
+	{Entity "trace_waves1" 0x147
+		{Position -252 1160.86}
+		{xform zl -84.33}
+	}
+	{Entity "trace_waves1" 0x148
+		{Position -284.45 1356.78}
+		{xform zl -84.33}
+	}
+	{Entity "sand_dark" 0x149
+		{Position -1226.17 1112.03}
+		{xform zl 87.81 y 5.38 zw -88.88}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x14a
+		{Position -1872.76 953.5}
+		{xform zl 64.29 y 22.98 zw -63.74}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x14b
+		{Position -2350.81 642.48}
+		{xform zl -152.32 y 6.19 zw 148.01}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x14c
+		{Position -2438.3 1442.26}
+		{xform zl -94.13 y 11.93 zw 90.92}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x14d
+		{Position -1672.53 1861}
+		{xform zl 121.14 y 11.89 zw -119.54}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x14e
+		{Position -1142.34 1773.34}
+		{xform zl 30.31 y 17.9 zw -31.69}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x14f
+		{Position -1403.31 2521.21}
+		{xform zl -18.09 y 22.47 zw 12.9}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x150
+		{Position -1957.46 2871.18}
+		{xform zl 148.68 y 20.3 zw -147.79}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x151
+		{Position -2006.09 3532.28}
+		{xform zl 47.3 y 18.82 zw -47.77}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x152
+		{Position -2505.97 3542.63}
+		{xform zl 126.71 y 9.02 zw -128.96}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x153
+		{Position -2517.67 2759.73}
+		{xform zl 136.04 y 8.36 zw -138.95}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x154
+		{Position -2520.03 2293.13}
+		{xform zl 40.23 y 6.69 zw -39.35}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x155
+		{Position -2831.84 1741.53}
+		{xform zl -50.19 y 14.79 zw 50.91}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x156
+		{Position -3180.84 2227.56}
+		{xform zl 55.25 y 21.66 zw -58.33}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x157
+		{Position -2922.87 2855.21}
+		{xform zl 119.01 y 10.19 zw -117.3}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x158
+		{Position -3176.34 3584.85}
+		{xform zl 66.74 y 18.91 zw -64.8}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x159
+		{Position -3457.65 3166.35}
+		{xform zl -23.91 y 5.22 zw 26.2}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x15a
+		{Position -3738.21 2490.54}
+		{xform zl 22.67 y 6.93 zw -23.33}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x15b
+		{Position -3450.19 1588.8}
+		{xform zl 114.43 y 2.05 zw -114.72}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x15c
+		{Position -3151.52 1342.42}
+		{xform zl 62.08 y 16.86 zw -62.78}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x15d
+		{Position -2766.35 314.22}
+		{xform zl 56.4 y 26.02 zw -54.88}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x15e
+		{Position -3676.7 194.49}
+		{xform zl -151.67 y 12.17 zw 146.09}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x15f
+		{Position -3667.42 545}
+		{xform zl -162.87 y 10.34 zw 163.66}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x160
+		{Position -3156.16 892.71}
+		{xform zl 6.45 y 9.87 zw -14.21}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x161
+		{Position -3698.55 967.82}
+		{xform zl -12.44 y 5.87 zw 13.23}
+		{Constrain surface}
+	}
+	{Entity "rock03" 0x162
+		{Position -924.69 1099.55}
+		{xform zl -98.11 y 20.21 zw 95.96}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x163
+		{Position -979.22 1076.2}
+		{xform zl -84.72 y 19.12 zw 82.58}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x164
+		{Position -961.29 1131.26}
+		{xform zl -14.76 y 4.82 zw 17.15}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x165
+		{Position -920.55 1135.44}
+		{xform zl -115.35 y 18.86 zw 111.31 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x166
+		{Position -978.01 1044.85}
+		{xform zl -100.45 y 24.79 zw 96.32 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x167
+		{Position -989.51 1112.8}
+		{xform zl -50.51 y 12.86 zw 50.86 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x168
+		{Position -925.23 1106.74}
+		{xform zl -90.16 y 21.52 zw 88.15}
+		{Constrain surface}
+	}
+	{Entity "rock03" 0x169
+		{Position -2527.89 246.88}
+		{xform zl -22.94 y 12.38 zw 24.02}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x16a
+		{Position -2582.42 223.53}
+		{xform zl -37.74 y 17.32 zw 38.53}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x16b
+		{Position -2564.49 278.59}
+		{xform zl -43.56 y 9.08 zw 45.61}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x16c
+		{Position -2523.75 282.77}
+		{xform zl -30.79 y 13.11 zw 32.3 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x16d
+		{Position -2581.21 192.18}
+		{xform zl -23.32 y 12.44 zw 23.74 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x16e
+		{Position -2592.71 260.13}
+		{xform zl -54.98 y 12.51 zw 54.22 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x16f
+		{Position -2528.43 254.07}
+		{xform zl -3.26 y 12.73 zw 3.02}
+		{Constrain surface}
+	}
+	{Entity "rock03" 0x170
+		{Position -1378.82 2914.33}
+		{xform zl -4.45 y 15.5 zw 6.35}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x171
+		{Position -1433.35 2890.98}
+		{xform zl -21.61 y 21.77 zw 22.16}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x172
+		{Position -1415.42 2946.04}
+		{xform zl 19.56 y 12.74 zw -17.91}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x173
+		{Position -1374.68 2950.22}
+		{xform zl 15.05 y 5.91 zw -14.72 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x174
+		{Position -1432.14 2859.63}
+		{xform zl -27.68 y 29.34 zw 28.33 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x175
+		{Position -1443.64 2927.58}
+		{xform zl -5.41 y 19.41 zw 5.63 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x176
+		{Position -1379.36 2921.52}
+		{xform y 15.7}
+		{Constrain surface}
+	}
+	{Entity "rock01" 0x177
+		{Position -2235.44 942.55}
+		{xform zl 132.7 y 9.28 zw -127.74}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x178
+		{Position -2194.87 1008.1}
+		{xform zl 115.83 y 12.58 zw -116.38 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x179
+		{Position -2310.95 934.72}
+		{xform zl 85.26 y 17.51 zw -85.03 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x17a
+		{Position -2268 857.6}
+		{xform zl 107.63 y 17.55 zw -108.44 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x17b
+		{Position -2256.73 871.36}
+		{xform zl 115.57 y 20.09 zw -116.99}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x17c
+		{Position -3514.57 517}
+		{xform zl 62.4 y 19.83 zw -56.29}
+		{Constrain surface}
+	}
+	{Entity "rock02" 0x17d
+		{Position -3401.19 486.28}
+		{xform zl 78.91 y 27.32 zw -78.84}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x17e
+		{Position -3353.36 436.67}
+		{xform zl 178.83 y 0.42 zw 180 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x17f
+		{Position -3449.4 508.78}
+		{xform zl 60.49 y 26.75 zw -52.6 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x180
+		{Position -3429.36 436.67}
+		{xform zl 5.76 y 14.03 zw -3.03 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x181
+		{Position -3382.87 539.57}
+		{xform zl 75.79 y 25.03 zw -79.52}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x182
+		{Position -3404.19 438.08}
+		{xform zl 26.23 y 4.64 zw -25.14}
+		{Constrain surface}
+	}
+	{Entity "stone5" 0x183
+		{Position -1669.07 1354.94}
+		{xform zl 52.03 y 6.65 zw -50.03}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x184
+		{Position -1719.34 1390.33}
+		{xform zl 65.93 y 12.56 zw -63.33 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x185
+		{Position -1697.2 1283.38}
+		{xform zl -137.33 y 16.82 zw 138.58 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x186
+		{Position -1621.99 1360.93}
+		{xform zl 5.69 y 8.51 zw -4.28 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x187
+		{Position -1646.53 1330.17}
+		{xform zl -88.28 y 7.57 zw 90.26}
+		{Constrain surface}
+	}
+	{Entity "rock02" 0x188
+		{Position -1189.14 1597.58}
+		{xform zl 29.75 y 20.89 zw -27.58}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x189
+		{Position -1141.31 1547.97}
+		{xform zl -99.2 y 29.06 zw 100.32 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x18a
+		{Position -1237.35 1620.08}
+		{xform zl -51 y 22.39 zw 53.99 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x18b
+		{Position -1217.31 1547.97}
+		{xform zl -78.07 y 26.31 zw 73.19 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x18c
+		{Position -1170.82 1650.87}
+		{xform zl -82.68 y 17.49 zw 85.78}
+		{Constrain surface}
+	}
+	{Entity "stone4" 0x18d
+		{Position -2091.61 2384.91}
+		{xform zl -170.39 y 8.51 zw 170.74}
+		{Constrain surface}
+	}
+	{Entity "stone6" 0x18e
+		{Position -2035.65 2289.05}
+		{xform zl -179.98 y 5.8 zw 180}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x18f
+		{Position -2131 2325.99}
+		{xform zl -178.76 y 2.02 zw 178.76 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x190
+		{Position -2048.03 2350.76}
+		{xform zl -176.98 y 7.7 zw 177 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x191
+		{Position -2002.65 2225.41}
+		{xform zl 155.09 y 9.35 zw -155.38 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x192
+		{Position -2106.29 2310.97}
+		{xform zl -169.42 y 5.57 zw 169.47}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x193
+		{Position -2057.69 2270.3}
+		{xform zl 180 y 5.74 zw 180}
+		{Constrain surface}
+	}
+	{Entity "stone4" 0x194
+		{Position -3493.22 2171.78}
+		{xform zl 27.75 y 4.97 zw -27.29}
+		{Constrain surface}
+	}
+	{Entity "stone6" 0x195
+		{Position -3437.26 2075.92}
+		{xform zl -179.91 y 11.31 zw 180}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x196
+		{Position -3532.61 2112.86}
+		{xform zl 33.88 y 2.34 zw -33.86 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x197
+		{Position -3449.64 2137.63}
+		{xform zl 180 y 7.69 zw 180 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x198
+		{Position -3404.26 2012.28}
+		{xform zl -176.97 y 16.58 zw 177.1 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x199
+		{Position -3507.9 2097.84}
+		{xform zl 49.66 y 5.09 zw -49.55}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x19a
+		{Position -3459.3 2057.17}
+		{xform zl 174.27 y 9.58 zw -174.35}
+		{Constrain surface}
+	}
+	{Entity "rock01" 0x19b
+		{Position -2830.45 1969.95}
+		{xform zl 146.23 y 4.4 zw -139.29}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x19c
+		{Position -2789.88 2035.5}
+		{xform zl -86.42 y 5.71 zw 90 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x19d
+		{Position -2905.96 1962.12}
+		{xform zl -41.92 y 8.14 zw 44.33 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x19e
+		{Position -2863.01 1885}
+		{xform zl -51.91 y 4.44 zw 53.04 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x19f
+		{Position -2851.74 1898.76}
+		{xform zl -179.93 y 0.27 zw 180}
+		{Constrain surface}
+	}
+	{Entity "rock01" 0x1a0
+		{Position -2298.12 3084.37}
+		{xform zl -179.48 y 5.74 zw -173.72}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x1a1
+		{Position -2257.55 3149.92}
+		{xform zl 163.15 y 8.21 zw -158.31 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x1a2
+		{Position -2373.63 3076.54}
+		{xform zl -139.82 y 4 zw 142.15 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x1a3
+		{Position -2330.68 2999.42}
+		{xform zl 1.08 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x1a4
+		{Position -2319.41 3013.18}
+		{xform zl 106 y 3.18 zw -105.6}
+		{Constrain surface}
+	}
+	{Entity "rock01" 0x1a5
+		{Position -2652.5 1074.39}
+		{xform zl 179.82 y 6.19 zw -174.26}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x1a6
+		{Position -2611.93 1139.94}
+		{xform zl 125.52 y 5.9 zw -120.23 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x1a7
+		{Position -2728.01 1066.56}
+		{xform zl 93.95 y 10.07 zw -93.84 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x1a8
+		{Position -2685.06 989.44}
+		{xform zl -141.04 y 7.59 zw 141.85 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x1a9
+		{Position -2673.79 1003.2}
+		{xform zl -141.3 y 8.08 zw 140.47}
+		{Constrain surface}
+	}
+	{Entity "rock01" 0x1aa
+		{Position -1595.07 2273.83}
+		{xform zl -38.54 y 8.05 zw 45}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x1ab
+		{Position -1554.5 2339.38}
+		{xform zl -45.87 y 8.85 zw 50.06 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x1ac
+		{Position -1670.58 2266}
+		{xform zl -67.64 y 6.38 zw 69.34 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x1ad
+		{Position -1627.63 2188.88}
+		{xform zl -27.34 y 5.73 zw 27.61 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x1ae
+		{Position -1616.36 2202.64}
+		{xform zl -16.56 y 5.72 zw 16.46}
+		{Constrain surface}
+	}
+	{Entity "rock01" 0x1af
+		{Position -3217.68 3064.18}
+		{xform zl -161.59 y 4.36 zw 167.81}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x1b0
+		{Position -3177.11 3129.73}
+		{xform zl -175.91 y 0.11 zw 180 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x1b1
+		{Position -3293.19 3056.35}
+		{xform zl 176.7 y 5.73 zw -174.98 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x1b2
+		{Position -3250.24 2979.23}
+		{xform zl -177.61 y 8.13 zw 178.93 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x1b3
+		{Position -3238.97 2992.99}
+		{xform zl -169.85 y 8.95 zw 170.94}
+		{Constrain surface}
+	}
+	{Entity "stone12" 0x1b4
+		{Position -3337.85 1229.23 100}
+		{xform zl 25.4 y 8.41 zw -21.59}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x1b5
+		{Position -3323.49 1300.1}
+		{xform zl 90 y 3.07 zw -90 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x1b6
+		{Position -3381.46 1241.34}
+		{xform zl 52.74 y 3.21 zw -52.7 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x1b7
+		{Position -3289.01 1234.58}
+		{xform zl 48.77 y 15.12 zw -47.77 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x1b8
+		{Position -3361.15 1231.03}
+		{xform zl 43.62 y 7.55 zw -43.37}
+		{Constrain surface}
+	}
+	{Entity "stone12" 0x1b9
+		{Position -876.67 1980.55 -7.97}
+		{xform zl -25.17 y 23.6 zw 30.43}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x1ba
+		{Position -894.48 1938.11}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x1bb
+		{Position -881.24 2038.83}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x1bc
+		{Position -811.43 1980.64}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x1bd
+		{Position -860.93 2028.52 -0.1}
+	}
+	{Entity "road_aero" 0x1be
+		{Position 1495.17 -1782.46}
+		{xform zl 120}
+		{Color 0xfffff078}
+	}
+	{Entity "road_aero" 0x1bf
+		{Position 1268.35 -1895.45}
+		{xform zl 105}
+		{Color 0xfffff078}
+	}
+	{Entity "ju-52_destroyed" 0x1c0
+		{Position 1567.11 -1768.91}
+		{xform zl -72.17 y 6.52 zw 70}
+		{Constrain surface}
+		{Placer
+			{State "gunner1" {Broken}}
+			{State "gunner2" {Broken}}
+		}
+		{Player 0}
+		{MID 10001}
+	}
+	{Entity "mg1_ju52" 0x1c1
+		{Extender "cannon"
+			{animation
+				{switch close}
+			}
+		}
+		{Player 0}
+		{MID 10002}
+	}
+	{Entity "mg2_ju52" 0x1c3
+		{Extender "cannon"
+			{animation
+				{switch close}
+			}
+		}
+		{Player 0}
+		{MID 10003}
+	}
+	{Entity "sand_dark" 0x1c5
+		{Position 1520.22 -1765.78}
+	}
+	{Entity "sand_dark2" 0x1c6
+		{Position 1669.55 -1768.47}
+	}
+	{Entity "sand_light" 0x1c7
+		{Position 1628.28 -1633.78}
+	}
+	{Entity "sand_light" 0x1c8
+		{Position 1667.2 -1831.32 13.92}
+	}
+	{Entity "sand_light" 0x1c9
+		{Position 1352.75 -1852.95}
+	}
+	{Entity "sand_light" 0x1ca
+		{Position 1142.1 -1935.2 -7.88}
+	}
+	{Entity "sand_light" 0x1cb
+		{Position 1276.07 -1924.38}
+	}
+	{Entity "rock03" 0x1cc
+		{Position 1794.55 -1486.86}
+		{xform zl -136.39 y 24.62 zw 135.05}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x1cd
+		{Position 1738.03 -1507.52}
+		{xform zl -114.66 y 16.22 zw 113.44}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x1ce
+		{Position 1757.95 -1455.15}
+		{xform zl -106.45 y 13.42 zw 106.17}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x1cf
+		{Position 1798.69 -1450.97}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x1d0
+		{Position 1741.23 -1541.56}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x1d1
+		{Position 1726.12 -1470.32}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x1d2
+		{Position 1721.71 -1471.36 0.03}
+	}
+	{Entity "sand_dark" 0x1d3
+		{Position 1750.78 -1485.63 -0.02}
+	}
+	{Entity "water_shallow" 0x1d4
+		{Position 2216.93 -1415.12}
+		{xform scale 0.75}
+	}
+	{Entity "rock04" 0x1d5
+		{Position 2529.5 -1720.84}
+		{xform zl 39.53 y 3.28 zw -38.54}
+		{Constrain surface}
+	}
+	{Entity "rock05" 0x1d6
+		{Position 2495.99 -1765.41}
+		{xform zl -176.77 y 4.57 zw 179.76}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x1d7
+		{Position 2490.52 -1741.61}
+		{xform zl -154 y 3.02 zw 153.72 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x1d8
+		{Position 2524.75 -1754.56}
+		{xform zl 76.93 y 3.04 zw -76.93 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x1d9
+		{Position 2526.76 -1699.32}
+		{xform zl 104.04 y 5.99 zw -104.09 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x1da
+		{Position 2505.55 -1746.32}
+		{xform zl 178.85 y 4.29 zw -179.23}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x1db
+		{Position 2499.32 -1740.31 -0.03}
+	}
+	{Entity "palm4" 0x1dc
+		{Position 2074.91 -1244.31}
+		{xform zl 90.64 y 11.43 zw -90.77 scale 1.2}
+		{Constrain surface}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "cane3" 0x1dd
+		{Position 2078.96 -1243.01}
+		{xform zl 86.82 y 12.16 zw -86.77}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x1de
+		{Position 1967.92 -1282.54}
+		{xform zl 58.71 y 12.95 zw -57.73 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x1df
+		{Position 2182.48 -1244.66}
+		{xform zl 87.18 y 16.65 zw -87.05 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x1e0
+		{Position 2008.68 -1242.15}
+		{xform zl 92.36 y 11.32 zw -92.41 scale 2}
+		{Constrain surface}
+	}
+	{Entity "palm4" 0x1e1
+		{Position 2248.73 -1276.66}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "cane3" 0x1e2
+		{Position 2253.66 -1273.77}
+	}
+	{Entity "desert_bush" 0x1e3
+		{Position 2276.46 -1236.24}
+	}
+	{Entity "desert_bush_2" 0x1e4
+		{Position 2317.55 -1284.9}
+		{xform scale 2}
+	}
+	{Entity "palm4" 0x1e5
+		{Position 2282.92 -1734.88}
+		{xform zl -113.35 y 12.07 zw 113.82 scale 1.2}
+		{Constrain surface}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "cane3" 0x1e6
+		{Position 2290.24 -1729.81}
+		{xform zl -115.71 y 12.57 zw 116.26}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x1e7
+		{Position 2305.1 -1788.26}
+		{xform zl -90 y 0.99 zw 90 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x1e8
+		{Position 2325.34 -1821.48}
+		{xform zl 180 y 5.7 zw 180 scale 2}
+		{Constrain surface}
+	}
+	{Entity "palm4" 0x1e9
+		{Position 1879.05 -1339.92}
+		{xform zl 16.48 y 9.56 zw -16.26 scale 0.75}
+		{Constrain surface}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "cane3" 0x1ea
+		{Position 1879.52 -1343.43}
+		{xform zl 7.74 y 7.83 zw -7.67}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x1eb
+		{Position 1934.94 -1358.37}
+	}
+	{Entity "desert_bush" 0x1ec
+		{Position 1912.41 -1291.6}
+		{xform zl 8.01 y 7.97 zw -7.93 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x1ed
+		{Position 1901.46 -1407.06}
+		{xform y 2.3 scale 2}
+		{Constrain surface}
+	}
+	{Entity "palm4" 0x1ee
+		{Position 2357.89 -1666.08}
+		{xform zl -167.37 y 8.76 zw 167.52 scale 0.75}
+		{Constrain surface}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "cane3" 0x1ef
+		{Position 2374.1 -1661.35}
+		{xform zl 180 y 1.57 zw 180}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x1f0
+		{Position 2413.78 -1684.53}
+		{xform y 4.75}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x1f1
+		{Position 2372.89 -1597.04}
+		{xform zl 180 y 7.17 zw 180 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x1f2
+		{Position 2362.91 -1702.38}
+		{xform zl 180 y 5.71 zw 180 scale 2}
+		{Constrain surface}
+	}
+	{Entity "palm4" 0x1f3
+		{Position 1925.21 -1226.12}
+		{xform zl -91.43 y 3.94 zw 91.43}
+		{Constrain surface}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "palm4" 0x1f4
+		{Position 1754.34 -1354.18}
+		{xform zl 83.33 y 5.55 zw -83.3 scale 1.2}
+		{Constrain surface}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "palm4" 0x1f5
+		{Position 1664.23 -1313.33}
+		{xform zl -130.95 y 7.57 zw 131.2 scale 0.75}
+		{Constrain surface}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "cane3" 0x1f6
+		{Position 1673.96 -1313.63}
+		{xform zl -98.57 y 5.78 zw 98.61}
+		{Constrain surface}
+	}
+	{Entity "cane3" 0x1f7
+		{Position 1764.04 -1354.26}
+		{xform zl 90 y 5.56 zw -90}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x1f8
+		{Position 1750.71 -1293.43}
+		{xform zl -107.97 y 5.88 zw 108.06}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x1f9
+		{Position 1668.06 -1377.35}
+		{xform zl 55.08 y 5.77 zw -54.94 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x1fa
+		{Position 1721.24 -1284.41}
+		{xform zl -90 y 5.71 zw 90 scale 2}
+		{Constrain surface}
+	}
+	{Entity "cane3" 0x1fb
+		{Position 1924.6 -1235.69}
+		{xform zl 37.77 y 7.46 zw -37.53}
+		{Constrain surface}
+	}
+	{Entity "palm4" 0x1fc
+		{Position 2429.79 -2096.6}
+		{xform zl 178.13 y 2.48 zw -178.13}
+		{Constrain surface}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "palm4" 0x1fd
+		{Position 2375.3 -1799.65}
+		{xform zl -87.44 y 1.52 zw 87.44}
+		{Constrain surface}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "palm4" 0x1fe
+		{Position 2439.8 -1990.97}
+		{xform scale 0.75}
+		{Constrain surface}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "cane3" 0x1ff
+		{Position 2437.97 -2101.63}
+		{xform zl 140.33 y 4.78 zw -140.43}
+		{Constrain surface}
+	}
+	{Entity "cane3" 0x200
+		{Position 2452.25 -1988.84}
+		{xform y 3.88}
+		{Constrain surface}
+	}
+	{Entity "cane3" 0x201
+		{Position 2379.77 -1800.47}
+		{xform zl -37.94 y 0.39 zw 37.94}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x202
+		{Position 2368.07 -1842.49}
+		{xform zl 180 y 4.24 zw 180}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x203
+		{Position 2386.01 -1934}
+		{xform zl 134.97 y 3.42 zw -135.02}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x204
+		{Position 2424.29 -1882.84}
+		{xform y 0.68 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x205
+		{Position 2375.87 -2047.42}
+		{xform zl 180 y 5.71 zw 180}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x206
+		{Position 2462.07 -2051.63}
+		{xform zl -90 y 0.27 zw 90 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x207
+		{Position 2370.82 -1884.88}
+		{xform zl 180 y 1.43 zw 180 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x208
+		{Position 2493.54 -2136.11}
+		{xform zl 36.49 y 0.47 zw -36.49 scale 2}
+		{Constrain surface}
+	}
+	{Entity "palm4" 0x209
+		{Position 2252.65 -1808.97}
+		{xform y 2.03 scale 0.75}
+		{Constrain surface}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "cane3" 0x20a
+		{Position 2265.1 -1806.84}
+		{xform zl -25.46 y 10.11 zw 25.74}
+		{Constrain surface}
+	}
+	{Entity "palm4" 0x20b
+		{Position 2318.27 -1215.65}
+		{xform zl 103.01 y 4.23 zw -103.36 scale 0.75}
+		{Constrain surface}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "cane3" 0x20c
+		{Position 2330.72 -1213.52}
+		{xform zl 6.44 y 5.55 zw -6.46}
+		{Constrain surface}
+	}
+	{Entity "palm4" 0x20d
+		{Position 1794.8 -1280.73}
+		{xform zl -90 y 5.71 zw 90 scale 0.75}
+		{Constrain surface}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "cane3" 0x20e
+		{Position 1807.25 -1278.6}
+		{xform zl -178.59 y 0.77 zw 179.05}
+		{Constrain surface}
+	}
+	{Entity "palm4" 0x20f
+		{Position 2346.29 -1359.83}
+		{xform zl 116.23 y 1.42 zw -116.24}
+		{Constrain surface}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "desert_bush_2" 0x210
+		{Position 2301.67 -1336.4}
+		{xform zl 152 y 14.27 zw -152.74 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x211
+		{Position 2387.06 -1356.28}
+		{xform scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x212
+		{Position 2357.62 -1334.75}
+		{xform zl 178.27 y 1.23 zw -178.27}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x213
+		{Position 2316.69 -1368.87}
+		{xform zl 151.09 y 18.66 zw -152.38}
+		{Constrain surface}
+	}
+	{Entity "palm4" 0x214
+		{Position 2361.08 -1506.99}
+		{xform zl -178.83 y 12.94 zw 178.85}
+		{Constrain surface}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "desert_bush_2" 0x215
+		{Position 2345.52 -1460.69}
+		{xform zl -178.84 y 16.7 zw 180 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x216
+		{Position 2405.19 -1519.64}
+		{xform zl -87.77 y 1.55 zw 87.77 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x217
+		{Position 2372.41 -1481.91}
+		{xform zl -169.53 y 4.52 zw 169.56}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x218
+		{Position 2331.48 -1516.03}
+		{xform zl -164.42 y 21.74 zw 165.48}
+		{Constrain surface}
+	}
+	{Entity "cane3" 0x219
+		{Position 2354.06 -1360.68}
+		{xform zl -30.68 y 0.07 zw 30.81}
+		{Constrain surface}
+	}
+	{Entity "cane3" 0x21a
+		{Position 2365.11 -1508.48}
+		{xform zl -172.48 y 12.62 zw 172.82}
+		{Constrain surface}
+	}
+	{Entity "cane3" 0x21b
+		{Position 743.26 1162.48}
+		{xform zl -126.27 y 4.46 zw 126.28}
+		{Constrain surface}
+	}
+	{Entity "palm4" 0x21c
+		{Position 2327.11 -1870.45}
+		{xform zl -179.3 y 5.63 zw 180 scale 0.75}
+		{Constrain surface}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "cane3" 0x21d
+		{Position 2327.58 -1873.96}
+		{xform zl -179.61 y 5.18 zw 180}
+		{Constrain surface}
+	}
+	{Entity "palm4" 0x21e
+		{Position 2368.44 -1972.48}
+		{xform zl 147.69 y 3.43 zw -147.27 scale 0.75}
+		{Constrain surface}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "cane3" 0x21f
+		{Position 2368.91 -1975.99}
+		{xform zl -60 y 4.46}
+		{Constrain surface}
+	}
+	{Entity "jjj" 0x406e
+		{Position 1902.64 -1742.57}
+		{xform zl -90}
+	}
+	{Entity "sand_dark" 0x406f
+		{Position 1802.79 -1745.11}
+	}
+	{Entity "sand_light_02" 0x4070
+		{Position 1890.32 -1833.69}
+	}
+	{Entity "ground_clay5x" 0x4071
+		{Position 2305.02 -1511.82 -18.53}
+		{xform zl 90}
+	}
+	{Entity "ground_clay5x" 0x4072
+		{Position 2116.95 -1609.93}
+		{xform zl -40}
+	}
+	{Entity "ground_clay5bx" 0x4073
+		{Position 2251.71 -1661.46}
+		{xform zl 40}
+	}
+	{Entity "ground_clay5bx" 0x4074
+		{Position 2260.05 -1351.12}
+		{xform zl 150}
+	}
+	{Entity "ground_clay5x" 0x4075
+		{Position 2010.76 -1476.29}
+		{xform zl -60}
+	}
+	{Entity "ground_clay5bx" 0x4076
+		{Position 1988.78 -1325.86}
+		{xform zl -120}
+	}
+	{Entity "ground_clay5x" 0x4077
+		{Position 2113.79 -1302.87}
+		{xform zl 180}
+	}
+	{Entity "palm4" 0x4078
+		{Position 2174.21 -1771.59}
+		{xform zl 0.27 scale 1.2}
+		{Constrain surface}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "cane3" 0x4079
+		{Position 2178.26 -1770.29}
+		{xform zl 0.48}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x407a
+		{Position 2107.98 -1769.43}
+		{xform zl 153.83 y 4.77 zw -153.88 scale 2}
+		{Constrain surface}
+	}
+	{Entity "palm4" 0x407b
+		{Position 1932.8 -1457.46}
+		{xform zl -18.78 y 9.78 zw 18.33}
+		{Constrain surface}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "desert_bush_2" 0x407c
+		{Position 1973.57 -1453.91}
+		{xform zl -21.19 y 16.72 zw 20.7 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x407d
+		{Position 1944.13 -1432.38}
+		{xform zl -18.58 y 18.72 zw 17.23}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x407e
+		{Position 1903.2 -1466.5}
+		{xform zl -46.49 y 6.63 zw 43.65}
+		{Constrain surface}
+	}
+	{Entity "cane3" 0x407f
+		{Position 1940.57 -1458.31}
+		{xform zl -0.9 y 10.98}
+		{Constrain surface}
+	}
+	{Entity "palm4" 0x4080
+		{Position 2099.86 -1697.56}
+		{xform zl -83.5 y 5.51 zw 83.43}
+		{Constrain surface}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "desert_bush_2" 0x4081
+		{Position 2140.63 -1694.01}
+		{xform zl -50.65 y 15.01 zw 48.73 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x4082
+		{Position 2111.19 -1672.48}
+		{xform zl -61.93 y 11.68 zw 61.08}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x4083
+		{Position 2070.26 -1706.6}
+		{xform zl -83.76 y 5.68 zw 81.19}
+		{Constrain surface}
+	}
+	{Entity "cane3" 0x4084
+		{Position 2107.63 -1698.41}
+		{xform zl -88.03 y 4.13 zw 88.09}
+		{Constrain surface}
+	}
+	{Entity "palm4" 0x4085
+		{Position 2049.22 -1643.63}
+		{xform zl -47.97 y 8.41 zw 47.46 scale 0.75}
+		{Constrain surface}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "cane3" 0x4086
+		{Position 2049.69 -1647.14}
+		{xform zl -45.94 y 8.05 zw 45}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x4087
+		{Position 1515.23 -1361.9}
+		{xform zl 92.69 y 13.13 zw -92.45 scale 2}
+		{Constrain surface}
+	}
+	{Entity "cane3" 0x4088
+		{Position 1586.41 -1391.01}
+	}
+	{Entity "desert_bush" 0x4089
+		{Position 1609.21 -1353.48}
+	}
+	{Entity "cane3" 0x408a
+		{Position 1400.46 -1485.21}
+	}
+	{Entity "palm4" 0x408b
+		{Position 1580.16 -1381.37}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "palm4" 0x2071
+		{Position 1393.43 -1477.18}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "palm4" 0x2073
+		{Position 1339.82 -1525.88}
+		{xform zl -141.57 y 10.25 zw 141.1 scale 0.75}
+		{Constrain surface}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "cane3" 0x2074
+		{Position 1349.55 -1526.18}
+		{xform zl -116.48 y 5.63 zw 115.7}
+		{Constrain surface}
+	}
+	{Entity "palm4" 0x2075
+		{Position 1482.85 -1420.7}
+		{xform zl -114.61 y 11.22 zw 114.87 scale 0.75}
+		{Constrain surface}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "cane3" 0x2076
+		{Position 1492.58 -1421}
+		{xform zl -112.87 y 6.27 zw 112.85}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x6000
+		{Position 1461.49 -1468.3}
+		{xform zl 77.87 y 4.56 zw -77.7 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x6001
+		{Position 1314.08 -1582.68}
+		{xform zl 54.01 y 5.44 zw -53.86 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x6002
+		{Position 1400.28 -1421.21}
+		{xform zl 39.47 y 1.35 zw -39.09 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x6004
+		{Position 1851.29 -1230.13}
+		{xform zl 24.63 y 3.65 zw -24.48 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x6005
+		{Position 2080.29 -1192.46}
+		{xform zl 18.16 y 7.31 zw -17.61 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x6006
+		{Position 2375.93 -1282.85}
+		{xform zl 54.6 y 8.81 zw -54.67 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x6007
+		{Position 2410.98 -1431.47}
+		{xform zl 9.29 y 6.02 zw -9.02 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x6008
+		{Position 2031.83 -1681.36}
+		{xform zl 114.93 y 5.15 zw -114.21 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x6009
+		{Position 2450.5 -2160.21}
+		{xform zl 39.63 y 4.42 zw -39.15 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x600a
+		{Position 1863.83 -1377.77}
+		{xform zl 55.08 y 5.77 zw -54.94 scale 2}
+		{Constrain surface}
+	}
+	{Entity "rock04" 0x600b
+		{Position 2191.31 -1128.36}
+		{xform zl 55.06 y 8.09 zw -54.55}
+		{Constrain surface}
+	}
+	{Entity "rock05" 0x600c
+		{Position 2157.8 -1172.93}
+		{xform zl -107.31 y 1.08 zw 109.69}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x600d
+		{Position 2152.33 -1149.13}
+		{xform zl 162.57 y 5.61 zw -162.8 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x600e
+		{Position 2186.56 -1162.08}
+		{xform zl 118.14 y 7.85 zw -117.59 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x600f
+		{Position 2188.57 -1106.84}
+		{xform zl 112.87 y 3.53 zw -113.01 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x6010
+		{Position 2167.36 -1153.84}
+		{xform zl 166.99 y 9.2 zw -166.23}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x6011
+		{Position 2161.13 -1147.83 4.75}
+	}
+	{Entity "st_fence1_af" 0x6012
+		{Position 1408.71 -1325.1}
+		{xform zl -150}
+	}
+	{Entity "st_fence1_af" 0x6014
+		{Position 1305.99 -1390.93}
+		{xform zl -140}
+	}
+	{Entity "st_debris_af" 0x6015
+		{Position 1246.33 -1463.57}
+		{xform zl -120}
+	}
+	{Entity "st_debris_af" 0x1000
+		{Position 2071.87 -1134.65}
+	}
+	{Entity "st_fence1_af" 0x1001
+		{Position 1972.72 -1134.94}
+	}
+	{Entity "st_fence2_af" 0x1002
+		{Position 1894.66 -1142.18}
+		{xform zl 10}
+	}
+	{Entity "st_debris_af" 0x1003
+		{Position 1834.35 -1153.76}
+		{xform zl 20}
+	}
+	{Entity "st_fence1_af" 0x1004
+		{Position 1733.85 -1186.25}
+		{xform zl 20}
+	}
+	{Entity "st_fence1_af" 0x1005
+		{Position 1625.64 -1226.31}
+		{xform zl 20}
+	}
+	{Entity "st_debris_af" 0x1006
+		{Position 1540.01 -1262.26}
+		{xform zl 20}
+	}
+	{Entity "st_fence2_af" 0x1007
+		{Position 1481.19 -1289.23}
+		{xform zl 20}
+	}
+	{Entity "st_fence1_af" 0x1008
+		{Position 2317.56 -1159.86}
+		{xform zl -20}
+	}
+	{Entity "st_debris_af" 0x1009
+		{Position 2400.42 -1196.25}
+		{xform zl -30}
+	}
+	{Entity "st_debris_af" 0x100a
+		{Position 2448.03 -1304.2}
+		{xform zl 100}
+	}
+	{Entity "st_fence1_af" 0x100b
+		{Position 2465.11 -1395.78}
+		{xform zl 100}
+	}
+	{Entity "st_fence2_af" 0x100c
+		{Position 2436.39 -1242.35}
+		{xform zl -80}
+	}
+	{Entity "st_debris_af" 0x100d
+		{Position 2504.43 -1634.81}
+		{xform zl 100}
+	}
+	{Entity "st_fence1_af" 0x100e
+		{Position 2484.29 -1510.71}
+		{xform zl 100}
+	}
+	{Entity "st_fence2_af" 0x100f
+		{Position 2494.8 -1589.7}
+		{xform zl -80}
+	}
+	{Entity "st_fence1_af" 0x1010
+		{Position 2539.46 -1913.04}
+		{xform zl 100}
+	}
+	{Entity "st_debris_af" 0x1012
+		{Position 2578.78 -2152.07}
+		{xform zl 100}
+	}
+	{Entity "st_fence1_af" 0x1013
+		{Position 2558.64 -2027.97}
+		{xform zl 100}
+	}
+	{Entity "st_fence2_af" 0x1014
+		{Position 2569.15 -2106.96}
+		{xform zl -80}
+	}
+	{Entity "st_debris_af" 0x1015
+		{Position 2524.87 -1836.13}
+		{xform zl 100}
+	}
+	{Entity "road_sand_af1b" 0x1016
+		{Position 2095.23 -2012.69}
+		{xform zl 130}
+	}
+	{Entity "road_sand_af1b" 0x1017
+		{Position 2302.6 -2234.2}
+		{xform zl -50}
+	}
+	{Entity "road_sand_af1b" 0x1018
+		{Position 2695.68 -2709.01}
+		{xform zl -50}
+	}
+	{Entity "road_sand_af1b" 0x1019
+		{Position 2488.31 -2487.5}
+		{xform zl 130}
+	}
+	{Entity "road_sand_af1b" 0x101a
+		{Position 3094.51 -3177.15}
+		{xform zl -50}
+	}
+	{Entity "road_sand_af1b" 0x101b
+		{Position 2887.14 -2955.64}
+		{xform zl 130}
+	}
+	{Entity "road_sand_af1b" 0x101d
+		{Position 3507.29 -3657.07}
+		{xform zl -50}
+	}
+	{Entity "road_sand_af1b" 0x101e
+		{Position 3299.92 -3435.56}
+		{xform zl 130}
+	}
+	{Entity "road_sand_af1b" 0x1020
+		{Position 3695.43 -3907.67}
+		{xform zl 130}
+	}
+	{Entity "sand_dark" 0x5008
+		{Position 665.64 -1634.23 91.04}
+	}
+	{Entity "sand_dark" 0x5009
+		{Position 306.14 -1999.58 101.12}
+	}
+	{Entity "sand_dark" 0x500a
+		{Position -33.24 -2158.79 61.22}
+	}
+	{Entity "sand_dark" 0x500b
+		{Position -17.15 -1756.63 82.65}
+	}
+	{Entity "sand_dark" 0x500c
+		{Position 205.98 -1734.16 138.43}
+	}
+	{Entity "sand_dark" 0x500d
+		{Position 102.32 -1268.82 49.64}
+	}
+	{Entity "sand_dark" 0x500e
+		{Position 621.91 -1113.2 101.53}
+	}
+	{Entity "sand_dark" 0x500f
+		{Position 894.83 -824.61 115.33}
+	}
+	{Entity "sand_dark" 0x5010
+		{Position 889.06 -1328.61 91.47}
+	}
+	{Entity "sand_dark" 0x5011
+		{Position 1215.95 -971.98 86.24}
+	}
+	{Entity "sand_dark" 0x5012
+		{Position 1611.57 -432.42 115.3}
+	}
+	{Entity "sand_dark" 0x5013
+		{Position 1847.02 16.91 42.17}
+	}
+	{Entity "sand_dark" 0x5014
+		{Position 1483.11 -25.39 91.78}
+	}
+	{Entity "sand_dark" 0x5015
+		{Position 1116.04 -464.52 156.03}
+	}
+	{Entity "sand_dark" 0x5016
+		{Position 859.73 -328.67 95.4}
+	}
+	{Entity "sand_dark" 0x5017
+		{Position 436.18 -563.95 60.01}
+	}
+	{Entity "sand_dark" 0x5018
+		{Position 612.23 -752.24 129.51}
+	}
+	{Entity "sand_dark" 0x5019
+		{Position 208.64 -983.89 40.11}
+	}
+	{Entity "stone4" 0x501a
+		{Position 566.23 -1116.68 90}
+		{xform zl -78.4 y 5.73 zw 85.69}
+		{Constrain surface}
+	}
+	{Entity "stone6" 0x501b
+		{Position 572 -1312.14}
+		{xform zl -106.87 y 14.57 zw 130.93}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x501c
+		{Position 526.84 -1175.6}
+		{xform zl 0.6 y 11.31 zw 1.11 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x501d
+		{Position 542.12 -1256.54}
+		{xform zl 13.42 y 16.65 zw -14.18 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x501e
+		{Position 621.23 -1237.8}
+		{xform zl -174.23 y 20.12 zw 174.87 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x501f
+		{Position 551.55 -1190.62}
+		{xform zl 0.21 y 14.62 zw -0.92}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x5020
+		{Position 600.15 -1231.29}
+		{xform zl -168.26 y 13.64 zw 171.92}
+		{Constrain surface}
+	}
+	{Entity "road_sand_af1c_k" 0x220
+		{Position -383.17 -2291.33}
+		{xform zl -20}
+	}
+	{Entity "road_sand_af1b_k" 0x221
+		{Position -93.17 -2385.56}
+		{xform zl -20}
+	}
+	{Entity "road_sand_af1b_k" 0x222
+		{Position 208.78 -2439.17}
+	}
+	{Entity "road_sand_af1b_k" 0x223
+		{Position 539.47 -2447.73}
+		{xform zl 180}
+	}
+	{Entity "road_sand_af1b_k" 0x224
+		{Position 850.92 -2442.98}
+	}
+	{Entity "road_sand_af1b_k" 0x225
+		{Position 1182.12 -2485.69}
+		{xform zl 170}
+	}
+	{Entity "road_sand_af1b_k" 0x226
+		{Position 1471.39 -2591.11}
+		{xform zl 150}
+	}
+	{Entity "road_sand_af1b_k" 0x227
+		{Position 1704.79 -2792.2}
+		{xform zl 130}
+	}
+	{Entity "road_sand_af1b_k" 0x228
+		{Position 1909.99 -3020.14}
+		{xform zl -50}
+	}
+	{Entity "road_sand_af1b_k" 0x229
+		{Position 2110.4 -3273.53}
+		{xform zl 130}
+	}
+	{Entity "road_sand_af1b_k" 0x22a
+		{Position 2324.7 -3510.19}
+		{xform zl -50}
+	}
+	{Entity "road_sand_af1b_k" 0x22b
+		{Position 2510 -3749.88}
+		{xform zl 130}
+	}
+	{Entity "road_sand_af1b_k" 0x22c
+		{Position 2704.26 -3951.93}
+		{xform zl -50}
+	}
+	{Entity "rock04" 0x239
+		{Position -193.94 -2107.35}
+		{xform zl 167.56 y 27.02 zw -168.69}
+		{Constrain surface}
+	}
+	{Entity "rock05" 0x23a
+		{Position -227.45 -2151.91}
+		{xform zl 175.68 y 8.83 zw -172.31}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x23b
+		{Position -232.92 -2128.12}
+		{xform zl 157.89 y 13.13 zw -157.88 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x23c
+		{Position -198.69 -2141.07}
+		{xform zl 154.93 y 27.99 zw -158.23 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x23d
+		{Position -196.68 -2085.83}
+		{xform zl 178.25 y 26.21 zw -178.49 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x23e
+		{Position -217.89 -2132.83}
+		{xform zl 161.52 y 19.94 zw -161.75}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x23f
+		{Position -228.73 -2137.97}
+		{xform zl 162.51 y 13.1 zw -162.94}
+		{Constrain surface}
+	}
+	{Entity "rock04" 0x408c
+		{Position 191.07 -863.69}
+		{xform zl -148.62 y 22.81 zw 152.89}
+		{Constrain surface}
+	}
+	{Entity "rock05" 0x408d
+		{Position 157.56 -908.26}
+		{xform zl -159.21 y 22.54 zw 164.51}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x408e
+		{Position 152.09 -884.46}
+		{xform zl -147.4 y 21.9 zw 150.26 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x408f
+		{Position 186.32 -897.41}
+		{xform zl -156.57 y 19.02 zw 157.92 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x4090
+		{Position 188.33 -842.17}
+		{xform zl -158.81 y 25.35 zw 162.81 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x4091
+		{Position 167.12 -889.17}
+		{xform zl -155.07 y 23.52 zw 157.8}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x4092
+		{Position 156.28 -894.32}
+		{xform zl -151.29 y 24.09 zw 153.43}
+		{Constrain surface}
+	}
+	{Entity "rock02" 0x4093
+		{Position 240.17 -1540.47}
+		{xform zl -85.49 y 5.72 zw 86.56}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x4094
+		{Position 288 -1590.08}
+		{xform zl -103.05 y 16.71 zw 103.6 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x4095
+		{Position 191.96 -1517.97}
+		{xform zl 136.02 y 0.81 zw -136.02 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x4096
+		{Position 212 -1590.08}
+		{xform zl -122.72 y 17.22 zw 123.93 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x4097
+		{Position 258.49 -1487.18}
+		{xform zl 180 y 5.71 zw 180}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x4098
+		{Position 237.17 -1588.67}
+		{xform zl -119.28 y 20.58 zw 120.91}
+		{Constrain surface}
+	}
+	{Entity "rock02" 0x4099
+		{Position 1454.95 -577.01}
+		{xform zl 7.62 y 10.27 zw -6.3}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x409a
+		{Position 1502.78 -626.62}
+		{xform zl 41.7 y 9.02 zw -41.34 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x409b
+		{Position 1406.74 -554.51}
+		{xform zl 31.88 y 32.96 zw -27.56 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x409c
+		{Position 1426.78 -626.62}
+		{xform zl -18.49 y 22.25 zw 17.2 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x409d
+		{Position 1473.27 -523.72}
+		{xform zl 77.69 y 27.14 zw -76.22}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x409e
+		{Position 1451.95 -625.21}
+		{xform zl -12.22 y 26.28 zw 10.99}
+		{Constrain surface}
+	}
+	{Entity "rock02" 0x409f
+		{Position 995.93 -560.84}
+		{xform zl 72.45 y 3.09 zw -71.54}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x40a0
+		{Position 1043.76 -610.45}
+		{xform zl -142.42 y 21.32 zw 144.36 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x40a1
+		{Position 947.72 -538.34}
+		{xform zl -6.89 y 30.99 zw 5.92 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x40a2
+		{Position 967.76 -610.45}
+		{xform zl -8.77 y 22.92 zw 8.08 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x40a3
+		{Position 1014.25 -507.55}
+		{xform zl 104.57 y 20.51 zw -105.51}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x40a4
+		{Position 992.93 -609.04}
+		{xform zl -58.28 y 13.33 zw 57.57}
+		{Constrain surface}
+	}
+	{Entity "stone2" 0x40a5
+		{Position 801.84 -820.9}
+		{xform zl -93.57 y 5.72 zw 92.86}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x40a6
+		{Position 844.52 -719.53}
+		{xform zl 88.37 y 30.11 zw -88.12 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x40a7
+		{Position 763.13 -833.65}
+		{xform zl 60.17 y 16.75 zw -59.09 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x40a8
+		{Position 802.79 -713.22}
+		{xform zl 74.65 y 34.55 zw -71.57 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x40a9
+		{Position 813.32 -734.89}
+		{xform zl 68.59 y 28.53 zw -65.95}
+		{Constrain surface}
+	}
+	{Entity "stone12" 0x40aa
+		{Position 1025.3 -1011.87 60}
+		{xform zl -47.6 y 9.13 zw 51.95}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x40ab
+		{Position 1039.66 -941}
+		{xform zl 134.57 y 15.9 zw -134.59 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x40ac
+		{Position 981.69 -999.76}
+		{xform zl -56.42 y 19.57 zw 55.67 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x40ad
+		{Position 1074.14 -1006.52}
+		{xform zl 136.15 y 7.18 zw -136.06 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x40ae
+		{Position 1002 -1010.07}
+		{xform zl -55.68 y 16.17 zw 55.65}
+		{Constrain surface}
+	}
+	{Entity "rock03" 0x40af
+		{Position 636.94 -1918.41}
+		{xform zl 91.95 y 10.55 zw -90}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x40b0
+		{Position 580.42 -1939.07}
+		{xform zl 55.17 y 10.08 zw -54.88}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x40b1
+		{Position 600.34 -1886.7}
+		{xform zl 69.96 y 16.52 zw -69.75}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x40b2
+		{Position 641.08 -1882.52}
+		{xform zl 87.41 y 15.66 zw -87.31 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x40b3
+		{Position 583.62 -1973.11}
+		{xform zl 69.91 y 9.61 zw -69.65 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x40b4
+		{Position 568.51 -1901.87}
+		{xform zl 41.38 y 20.76 zw -39.48 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x40b5
+		{Position 564.1 -1902.91}
+		{xform zl 39.59 y 24.11 zw -37.05}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x40b6
+		{Position 593.17 -1917.18}
+		{xform zl 56.2 y 12.32 zw -55.58}
+		{Constrain surface}
+	}
+	{Entity "rock03" 0x40b7
+		{Position 1871.48 -379.31}
+		{xform zl 90.84 y 2.69 zw -88.37}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x40b8
+		{Position 1814.96 -399.97}
+		{xform zl 23.86 y 12.13 zw -21.7}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x40b9
+		{Position 1834.88 -347.6}
+		{xform zl 50.87 y 11.32 zw -49.52}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x40ba
+		{Position 1875.62 -343.42}
+		{xform zl 17.17 y 9.51 zw -16.95 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x40bb
+		{Position 1818.16 -434.01}
+		{xform zl 39.84 y 8.47 zw -39.53 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x40bc
+		{Position 1803.05 -362.77}
+		{xform zl 24.82 y 16.15 zw -23.96 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x40bd
+		{Position 1798.64 -363.81}
+		{xform zl 19.57 y 21.58 zw -18.29}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x40be
+		{Position 1827.71 -378.08}
+		{xform zl 35.83 y 15.32 zw -34.85}
+		{Constrain surface}
+	}
+	{Entity "rock03" 0x40bf
+		{Position -30.3 829.38}
+		{xform zl 2.88}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x40c0
+		{Position -86.82 808.72}
+		{xform zl -179.31 y 4.41 zw 180}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x40c1
+		{Position -66.9 861.09}
+		{xform zl -179.76 y 5.71 zw 180}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x40c2
+		{Position -26.16 865.27}
+		{xform zl 177.67 y 0.94 zw -177.67 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x40c3
+		{Position -83.62 774.68}
+		{xform zl 180 y 5.2 zw 180 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x40c4
+		{Position -98.73 845.92}
+		{xform zl -170.24 y 3.97 zw 170.26 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x40c5
+		{Position -103.14 844.88}
+		{xform zl 180 y 5.36 zw 180}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x40c6
+		{Position -74.07 830.61}
+		{xform zl 180 y 5.45 zw 180}
+		{Constrain surface}
+	}
+	{Entity "rock01" 0x40c7
+		{Position 160.76 -1883.96}
+		{xform zl -62.04 y 17.77 zw 66.79}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x40c8
+		{Position 201.33 -1818.41}
+		{xform y 3.62 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x40c9
+		{Position 85.25 -1891.79}
+		{xform zl -90.49 y 14.36 zw 90.51 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x40ca
+		{Position 128.2 -1968.91}
+		{xform zl -63.99 y 12.6 zw 63.44 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x40cb
+		{Position 139.47 -1955.15}
+		{xform zl -55.79 y 13.72 zw 55.02}
+		{Constrain surface}
+	}
+	{Entity "rock01" 0x40cc
+		{Position 1657.35 27.36}
+		{xform zl -52.48 y 19.83 zw 56.31}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x40cd
+		{Position 1697.92 92.91}
+		{xform zl -85.2 y 15.75 zw 85.01 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x40ce
+		{Position 1581.84 19.53}
+		{xform zl -64.76 y 12.52 zw 64.23 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x40cf
+		{Position 1624.79 -57.59}
+		{xform zl 139.02 y 6.51 zw -139.2 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x40d0
+		{Position 1636.06 -43.83}
+		{xform zl 136.88 y 3.44 zw -136.93}
+		{Constrain surface}
+	}
+	{Entity "house_af1_b" 0x40d8
+		{Position 1932.56 -2104.7}
+		{xform zl -60}
+	}
+	{Entity "n1_af_w1" 0x40ed
+		{Placer
+			{State "1" {Broken}}
+		}
+	}
+	{Entity "house_n2_af" 0x40fc
+		{Position 2251.29 -1949.06}
+		{xform zl 120}
+	}
+	{Entity "house_n1_af" 0x40fd
+		{Position 1809.51 -1957.4}
+		{xform zl -30}
+	}
+	{Entity "palm4" 0x252
+		{Position 1667.57 -2210.28}
+		{xform zl 150.08 y 8.16 zw -150.15}
+		{Constrain surface}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "palm4" 0x253
+		{Position 1677.58 -2104.65}
+		{xform zl -30.45 y 3.36 zw 30.41 scale 0.75}
+		{Constrain surface}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "cane3" 0x254
+		{Position 1675.75 -2215.31}
+		{xform zl 139.3 y 9.18 zw -139.31}
+		{Constrain surface}
+	}
+	{Entity "cane3" 0x255
+		{Position 1690.03 -2102.52}
+		{xform zl -42.22 y 8.2 zw 42.3}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x256
+		{Position 1623.79 -2047.68}
+		{xform zl 165.78 y 2.5 zw -165.87}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x257
+		{Position 1699.85 -2165.31}
+		{xform zl -14.31 y 1.09 zw 14.31 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x258
+		{Position 1731.32 -2249.79}
+		{xform zl 131.37 y 8 zw -131.65 scale 2}
+		{Constrain surface}
+	}
+	{Entity "palm4" 0x259
+		{Position 1606.22 -2086.16}
+		{xform zl -168.11 y 6.52 zw 168.6 scale 0.75}
+		{Constrain surface}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "cane3" 0x25a
+		{Position 1606.69 -2089.67}
+		{xform zl -160.03 y 2.86 zw 99.69}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x25b
+		{Position 1688.28 -2273.89}
+		{xform zl 51.17 y 3.98 zw -50.68 scale 2}
+		{Constrain surface}
+	}
+	{Entity "palm4" 0x25c
+		{Position 1907.42 -2317.23}
+		{xform zl 147.66 y 7.43 zw -147.71}
+		{Constrain surface}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "palm4" 0x25d
+		{Position 2084.49 -2267.76}
+		{xform zl -90 y 10.59 zw 90 scale 0.75}
+		{Constrain surface}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "cane3" 0x25e
+		{Position 1915.6 -2322.26}
+		{xform zl 117.31 y 11.56 zw -117.23}
+		{Constrain surface}
+	}
+	{Entity "cane3" 0x25f
+		{Position 2096.94 -2265.63}
+		{xform zl -47.65 y 10.66 zw 47.69}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x260
+		{Position 2019.28 -2229.63}
+		{xform zl -168.36 y 2.48 zw 168.24}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x261
+		{Position 1939.7 -2272.26}
+		{xform zl -99.42 y 10.47 zw 99.57 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x262
+		{Position 2050.58 -2295.65}
+		{xform zl -85.99 y 5.44 zw 86.01 scale 2}
+		{Constrain surface}
+	}
+	{Entity "palm4" 0x263
+		{Position 2001.71 -2268.11}
+		{xform zl -101.37 y 14.93 zw 101.37 scale 0.75}
+		{Constrain surface}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "cane3" 0x264
+		{Position 2002.18 -2271.62}
+		{xform zl -132.32 y 16.87 zw 73.05}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x265
+		{Position 1992.94 -2348.79}
+		{xform zl 83 y 16.59 zw -83.07 scale 2}
+		{Constrain surface}
+	}
+	{Entity "palm4" 0x266
+		{Position 2093.51 -2332.59}
+		{xform zl 73.71 y 10.8 zw -72.99}
+		{Constrain surface}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "cane3" 0x267
+		{Position 2101.69 -2337.62}
+		{xform zl 82.75 y 14.32 zw -82.09}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x268
+		{Position 1835.67 -2287.48}
+		{xform zl 100.54 y 6.98 zw -100.47}
+		{Constrain surface}
+	}
+	{Entity "palm4" 0x269
+		{Position 1792.93 -2297.72}
+		{xform zl 117.82 y 11.11 zw -117.32 scale 0.75}
+		{Constrain surface}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "cane3" 0x26a
+		{Position 1793.4 -2301.23}
+		{xform zl 14.57 y 9.25 zw -74.1}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x26b
+		{Position 1851.41 -2332.63}
+		{xform zl 107.48 y 13.39 zw -107.42}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x26c
+		{Position 2155.12 -2350.68}
+		{xform zl 68.41 y 8.76 zw -68.17}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x26d
+		{Position 1630.41 -2168.78}
+		{xform zl 137.55 y 7.2 zw -137.55}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x26e
+		{Position 1543.5 -2069.87}
+		{xform zl 149.91 y 2.98 zw -149.98}
+		{Constrain surface}
+	}
+	{Entity "mound_steep1a" 0x26f
+		{Position 1907.42 -2455.23}
+		{xform zl -10}
+	}
+	{Entity "mound_steep1a" 0x270
+		{Position 1709.64 -2377.54 -13.71}
+		{xform zl -30}
+	}
+	{Entity "mound_steep1a" 0x271
+		{Position 1527.93 -2261.36 -10.28}
+		{xform zl -30}
+	}
+	{Entity "mound_steep1a" 0x272
+		{Position 2114.38 -2491.96}
+		{xform zl -10}
+	}
+	{Entity "mound_steep1a" 0x273
+		{Position 2065.06 -2703.25}
+		{xform zl 170}
+	}
+	{Entity "mound_steep1a" 0x274
+		{Position 1695.63 -2524.29}
+		{xform zl 145}
+	}
+	{Entity "mound_steep1a" 0x275
+		{Position 1869.55 -2644.06}
+		{xform zl 150}
+	}
+	{Entity "mound_steep1a" 0x276
+		{Position 1526.47 -2403.17}
+		{xform zl 145}
+	}
+	{Entity "mound_steep1a" 0x277
+		{Position 1459.04 -2361.33}
+		{xform zl 145}
+	}
+	{Entity "mound_steep1a" 0x278
+		{Position 2182.83 -2610.56}
+		{xform zl 90}
+	}
+	{Entity "rock03" 0x279
+		{Position 2100.52 -2592.88}
+		{xform zl -113.24 y 6.33 zw 116.33}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x27a
+		{Position 2044 -2613.54}
+		{xform zl -105.37 y 17.92 zw 108.42}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x27b
+		{Position 2063.92 -2561.17}
+		{xform zl -160.85 y 10.3 zw 162.35}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x27c
+		{Position 2104.66 -2556.99}
+		{xform zl 171.07 y 12.71 zw -171.95 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x27d
+		{Position 2047.2 -2647.58}
+		{xform zl -85.9 y 24.59 zw 86.24 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x27e
+		{Position 2032.09 -2576.34}
+		{xform zl -117.15 y 4.81 zw 121.66 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x27f
+		{Position 2027.68 -2577.38}
+		{xform zl -131.36 y 5.07 zw 137.93}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x280
+		{Position 2056.75 -2591.65}
+		{xform zl -169.32 y 10.39 zw 171.69}
+		{Constrain surface}
+	}
+	{Entity "rock04" 0x281
+		{Position 1450.1 -2250.67}
+		{xform zl 105.93 y 15.41 zw -109.91}
+		{Constrain surface}
+	}
+	{Entity "rock05" 0x282
+		{Position 1416.59 -2295.24}
+		{xform zl -36.48 y 15.91 zw 35.11}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x283
+		{Position 1411.12 -2271.44}
+		{xform zl 47.51 y 5.5 zw -47.66 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x284
+		{Position 1445.35 -2284.39}
+		{xform zl 46.92 y 7.9 zw -45.48 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x285
+		{Position 1447.36 -2229.15}
+		{xform zl 112.42 y 14.93 zw -117.22 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x286
+		{Position 1426.15 -2276.15}
+		{xform zl 39.06 y 7.33 zw -40.6}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x287
+		{Position 1415.31 -2281.3}
+		{xform zl -15.74 y 7.97 zw 15.6}
+		{Constrain surface}
+	}
+	{Entity "african_village_502" 0x28f
+		{Position 1683.03 -1740.59 -11.41}
+		{Constrain none}
+		{Placer
+			{State "c2_502" {Unlinked}}
+			{State "c3_502" {Unlinked}}
+			{State "w1_502" {Unlinked}}
+		}
+	}
+	{Entity "crash_brick1" 0x40d1
+		{Position 1679.65 -1838.84 4.89}
+	}
+	{Entity "crash_brick1c" 0x40d2
+		{Position 1641.2 -1641.61 2.15}
+	}
+	{Entity "crash_brick1c" 0x40d3
+		{Position 1667.77 -1711.72 3.87}
+	}
+	{Entity "crash_brick1c" 0x40d4
+		{Position 1645.88 -1819.51 14.02}
+	}
+	{Entity "crash_brick1c" 0x40d5
+		{Position 1699.65 -1682.39 -4.44}
+	}
+	{Entity "crash_brick3" 0x40d6
+		{Position 1702.09 -1808.61}
+	}
+	{Entity "cobble1" 0x40d7
+		{Position 1713.3 -1688.5}
+	}
+	{Entity "cobble2" 0x40d9
+		{Position 1595.67 -1609.76 -12.6}
+	}
+	{Entity "cobble2" 0x40da
+		{Position 1714.88 -1859.7}
+	}
+	{Entity "cobble3" 0x40db
+		{Position 1659.22 -1818.96}
+	}
+	{Entity "cobble1" 0x40dc
+		{Position 1717.31 -1792.94 -4.74}
+	}
+	{Entity "cobble2" 0x40dd
+		{Position 1656.16 -1726.04 -1.16}
+	}
+	{Entity "cobble3" 0x40de
+		{Position 1639.54 -1803.86 5.27}
+	}
+	{Entity "cobble1" 0x40df
+		{Position 1639.2 -1835.46 9.4}
+	}
+	{Entity "cobble2" 0x40e0
+		{Position 1683.98 -1800.89}
+	}
+	{Entity "cobble2" 0x40e1
+		{Position 1708.66 -1741.79 -1.59}
+	}
+	{Entity "cobble3" 0x40e2
+		{Position 1679.3 -1741.71}
+	}
+	{Entity "cobble3" 0x40e3
+		{Position 1672.23 -1637.08}
+	}
+	{Entity "cobble1" 0x40e4
+		{Position 1627.78 -1620.61 -6.5}
+	}
+	{Entity "sand_pebble122bc" 0x40e5
+		{Position 1948.73 -1921.16 -5.95}
+		{xform zl 120}
+	}
+	{Entity "sand_pebble122bc" 0x40e6
+		{Position 2101.16 -1929.26 -7.03}
+		{xform zl 120}
+	}
+	{Entity "sand_pebble122bc" 0x40e7
+		{Position 2018.26 -1986.58 -8.97}
+		{xform zl 180}
+	}
+	{Entity "pot1" 0x40e8
+		{Position 2018.26 -2071.02 -0.99}
+	}
+	{Entity "afr_evidences" 0x40e9
+		{Position 1831.91 -1916.75}
+	}
+	{Entity "pot" 0x40ea
+		{Position 2022.16 -2081.55}
+	}
+	{Entity "pot" 0x40eb
+		{Position 2011.24 -2060.51}
+	}
+	{Entity "barrel_woods6" 0x40ec
+		{Position 1996.45 -2167}
+		{xform zl 120}
+	}
+	{Entity "afr_evidences" 0x40ee
+		{Position 2189.7 -1967.25}
+	}
+	{Entity "pot1" 0x40ef
+		{Position 2197.82 -1982.28 -2.29}
+	}
+	{Entity "cart" 0x40f0
+		{Position 1936.97 -1995.42}
+	}
+	{Entity "shaft_african" 0x2072
+		{Position 2124.64 -1842.72}
+		{xform zl 150}
+	}
+	{Entity "barrel_woods" 0x2077
+		{Position 2103.76 -1806.46}
+	}
+	{Entity "barrel_woods" 0x2078
+		{Position 1909.55 -2016.1}
+	}
+	{Entity "barrel_woods" 0x2079
+		{Position 1766.32 -1661}
+	}
+	{Entity "barrel_woods" 0x207a
+		{Position 1766.69 -1680.77}
+	}
+	{Entity "barrel_woods" 0x207b
+		{Position 1895.9 -2035.85}
+	}
+	{Entity "st_fence1_af" 0x207c
+		{Position 1724.15 -2059.05}
+		{xform zl -40}
+	}
+	{Entity "st_fence1_af" 0x207d
+		{Position 1797.82 -2140.47}
+		{xform zl -55}
+	}
+	{Entity "st_fence2_af" 0x207e
+		{Position 1849.86 -2202.89}
+		{xform zl -40}
+	}
+	{Entity "st_debris_af" 0x207f
+		{Position 1651.39 -1998.76}
+		{xform zl -40}
+	}
+	{Entity "st_fence1_af" 0x2080
+		{Position 2053.99 -2189.35}
+		{xform zl 30}
+	}
+	{Entity "st_fence1_af" 0x2081
+		{Position 2517.73 -2203.45}
+	}
+	{Entity "st_fence2_af" 0x2082
+		{Position 1904.65 -2225.99}
+	}
+	{Entity "st_debris_af" 0x2083
+		{Position 1961.05 -2224.42}
+	}
+	{Entity "st_debris_af" 0x2084
+		{Position 2429.58 -2205.47}
+	}
+	{Entity "barrel_woods4" 0x2085
+		{Position 1226.1 933.9}
+	}
+	{Entity "trafficator_af_1" 0x2086
+		{Position 735.5 823 -16.77}
+		{xform zl 90}
+		{TexMod "algiers"}
+	}
+	{Entity "wood_stick1" 0x5021
+		{Position 741.51 515.21 51.9}
+	}
+	{Entity "mound_steep1a" 0x5022
+		{Position 297.32 2074.26}
+		{xform zl -175}
+	}
+	{Entity "mound_steep1a" 0x5023
+		{Position 103.82 2111.2}
+		{xform zl 150}
+	}
+	{Entity "rock03" 0x5024
+		{Position 419.24 1925.61}
+		{xform zl 103.41 y 5.88 zw -100.83}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x5025
+		{Position 362.72 1904.95}
+		{xform zl -34.91 y 9.21 zw 38.1}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x5026
+		{Position 382.64 1957.32}
+		{xform zl 80.57 y 15.33 zw -77.78}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x5027
+		{Position 423.38 1961.5}
+		{xform zl 101.23 y 17.24 zw -104.77 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x5028
+		{Position 365.92 1870.91}
+		{xform zl -59.69 y 9.95 zw 58.54 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x5029
+		{Position 350.81 1942.15}
+		{xform zl 31.92 y 8.78 zw -26.07 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x502a
+		{Position 346.4 1941.11}
+		{xform zl 23.58 y 10.86 zw -15.47}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x502b
+		{Position 375.47 1926.84}
+		{xform zl 48.42 y 8.05 zw -45}
+		{Constrain surface}
+	}
+	{Entity "mound_steep1a" 0x502c
+		{Position 484.17 2032.52}
+		{xform zl 145}
+	}
+	{Entity "mound_steep1a" 0x502d
+		{Position 662.4 1960}
+		{xform zl 165}
+	}
+	{Entity "mound_steep1a" 0x502e
+		{Position 659.29 1857.84}
+		{xform zl -5}
+	}
+	{Entity "mound_steep1a" 0x502f
+		{Position 452.09 1857.56}
+		{xform zl 10}
+	}
+	{Entity "mound_steep1a" 0x5030
+		{Position 258.75 1866.94}
+		{xform zl -5}
+	}
+	{Entity "mound_steep1a" 0x5031
+		{Position 74.98 1926.06}
+		{xform zl -25}
+	}
+	{Entity "mound_steep1a" 0x5032
+		{Position -57.03 2050.25}
+		{xform zl -65}
+	}
+	{Entity "rock04" 0x5033
+		{Position -10.56 2169.5}
+		{xform zl 104.1 y 20.47 zw -105.54}
+		{Constrain surface}
+	}
+	{Entity "rock05" 0x5034
+		{Position -44.07 2124.93}
+		{xform zl 67.54 y 12.75 zw -63.77}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x5035
+		{Position -49.54 2148.73}
+		{xform zl 77.17 y 13.39 zw -77.85 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x5036
+		{Position -15.31 2135.78}
+		{xform zl 90.26 y 16.77 zw -91.48 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x5037
+		{Position -13.3 2191.02}
+		{xform zl 110.68 y 14.79 zw -112.11 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x5038
+		{Position -34.51 2144.02}
+		{xform zl 72.55 y 17.54 zw -71.63}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x5039
+		{Position -45.35 2138.87}
+		{xform zl 72.32 y 16.45 zw -71.62}
+		{Constrain surface}
+	}
+	{Entity "rock04" 0x503a
+		{Position 761.89 1923.35}
+		{xform zl 167.44 y 15.17 zw -167.1}
+		{Constrain surface}
+	}
+	{Entity "rock05" 0x503b
+		{Position 728.38 1878.78}
+		{xform zl -127.27 y 11.86 zw 130.43}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x503c
+		{Position 722.91 1902.58}
+		{xform zl -171.03 y 10.32 zw 170.86 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x503d
+		{Position 757.14 1889.63}
+		{xform zl -157.49 y 11.76 zw 158.02 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x503e
+		{Position 759.15 1944.87}
+		{xform zl 152.85 y 12.6 zw -153.43 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x503f
+		{Position 737.94 1897.87}
+		{xform zl -174.19 y 10.28 zw 173.92}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x5040
+		{Position 727.1 1892.72}
+		{xform zl -149.17 y 12.24 zw 149.75}
+		{Constrain surface}
+	}
+	{Entity "road_sand_af1c" 0x3001
+		{Position 2057.08 -2942.81}
+		{xform zl 40}
+	}
+	{Entity "road_sand_af1b" 0x3002
+		{Position 2248.55 -2748.11}
+		{xform zl 45}
+	}
+	{Entity "road_sand_af1c" 0x3003
+		{Position 2442.35 -2588.68}
+		{xform zl -140}
+	}
+	{Entity "post-wood3" 0x3004
+		{Position 92.91 -2533.83 -3.6}
+		{xform zl 70}
+	}
+	{Entity "cane3" 0x3005
+		{Position 92.61 -2535.74 -3.29}
+		{TexMod "bare"}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "post-wood3" 0x3006
+		{Position 826.5 -2526.17 -13.04}
+		{xform zl 80}
+	}
+	{Entity "cane3" 0x3007
+		{Position 826.2 -2528.08 -12.34}
+		{xform zl 10}
+		{TexMod "bare"}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "post-wood3" 0x3008
+		{Position 1454.81 -2649.16 -19.07}
+		{xform zl 60}
+	}
+	{Entity "cane3" 0x3009
+		{Position 1454.51 -2651.07 -18.67}
+		{xform zl -20}
+		{TexMod "bare"}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "post-wood3" 0x300a
+		{Position 1959.7 -3205.06 -6.82}
+		{xform zl 35}
+	}
+	{Entity "cane3" 0x300b
+		{Position 1959.4 -3206.97 -6.29}
+		{xform zl -55}
+		{TexMod "bare"}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "post-wood3" 0x300c
+		{Position 2473.25 -3792.49 -7.32}
+		{xform zl 35}
+	}
+	{Entity "cane3" 0x300d
+		{Position 2470.28 -3793.54 -6.89}
+		{xform zl -55}
+		{TexMod "bare"}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "rock04" 0x300e
+		{Position 1237.18 -2908.61}
+		{xform zl 0.98 y 1.97}
+		{Constrain surface}
+	}
+	{Entity "rock05" 0x300f
+		{Position 1203.67 -2953.18}
+		{xform zl -8.87 y 8.42 zw 11.6}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x3010
+		{Position 1198.2 -2929.38}
+		{xform zl -44.99 y 8.05 zw 45 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x3011
+		{Position 1232.43 -2942.33}
+		{xform zl -11.07 y 7.28 zw 11.18 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x3012
+		{Position 1234.44 -2887.09}
+		{xform zl 68.76 y 4.6 zw -68.65 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x3013
+		{Position 1213.23 -2934.09}
+		{xform zl -41.01 y 8.44 zw 40.96}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x3014
+		{Position 1202.39 -2939.24 -0.02}
+	}
+	{Entity "rock03" 0x3015
+		{Position 622.85 -2750.36}
+		{xform zl -136.67 y 21.48 zw 137.08}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x3016
+		{Position 566.33 -2771.02}
+		{xform zl -113.9 y 16.13 zw 113.68}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x3017
+		{Position 586.25 -2718.65}
+		{xform zl -105.51 y 14.81 zw 105.33}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x3018
+		{Position 626.99 -2714.47}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x3019
+		{Position 569.53 -2805.06}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x301a
+		{Position 554.42 -2733.82}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x301b
+		{Position 550.01 -2734.86 -7.44}
+	}
+	{Entity "sand_dark" 0x301c
+		{Position 579.08 -2749.13 -5.06}
+	}
+	{Entity "rock04" 0x301d
+		{Position 470.58 -3636.41}
+		{xform zl 0.98 y 1.97}
+		{Constrain surface}
+	}
+	{Entity "rock05" 0x301e
+		{Position 437.07 -3680.98}
+		{xform zl -8.87 y 8.42 zw 11.6}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x301f
+		{Position 431.6 -3657.18}
+		{xform zl -44.99 y 8.05 zw 45 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x3020
+		{Position 465.83 -3670.13}
+		{xform zl -11.07 y 7.28 zw 11.18 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x3021
+		{Position 467.84 -3614.89}
+		{xform zl 68.76 y 4.6 zw -68.65 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x3022
+		{Position 446.63 -3661.89}
+		{xform zl -41.01 y 8.44 zw 40.96}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x3023
+		{Position 435.79 -3667.04 -0.02}
+	}
+	{Entity "rock03" 0x3024
+		{Position 960.4 -3541.52}
+		{xform zl -150.26 y 18.06 zw 151.49}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x3025
+		{Position 903.88 -3562.18}
+		{xform zl -125.85 y 11.13 zw 125.96}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x3026
+		{Position 923.8 -3509.81}
+		{xform zl -115.92 y 7.96 zw 115.96}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x3027
+		{Position 964.54 -3505.63}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x3028
+		{Position 907.08 -3596.22}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x3029
+		{Position 891.97 -3524.98}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x302a
+		{Position 887.56 -3526.02 0.03}
+	}
+	{Entity "sand_dark" 0x302b
+		{Position 916.63 -3540.29 -0.02}
+	}
+	{Entity "trace_waves1" 0x302c
+		{Position 434.42 -2666.74}
+		{xform zl -164.33}
+	}
+	{Entity "trace_waves1" 0x302d
+		{Position 727.93 -2633.69}
+		{xform zl 175.67}
+	}
+	{Entity "trace_waves1" 0x302e
+		{Position 1056.12 -2654.87}
+		{xform zl 175.67}
+	}
+	{Entity "trace_waves1" 0x302f
+		{Position 1315.34 -2768.12}
+		{xform zl 135.67}
+	}
+	{Entity "trace_waves1" 0x3030
+		{Position 1439.55 -3025.31}
+		{xform zl 95.67}
+	}
+	{Entity "trace_waves1" 0x3031
+		{Position 1354.27 -3296.34}
+		{xform zl 55.67}
+	}
+	{Entity "trace_waves1" 0x3032
+		{Position 1203.82 -3533.99}
+		{xform zl 55.67}
+	}
+	{Entity "trace_waves1" 0x3033
+		{Position 1057.35 -3762.46}
+		{xform zl 55.67}
+	}
+	{Entity "trace_waves1" 0x3034
+		{Position 915.83 -3951.8}
+		{xform zl 55.67}
+	}
+	{Entity "trace_waves1" 0x7000
+		{Position 360.3 -2819.81}
+		{xform zl -99.33}
+	}
+	{Entity "trace_waves1" 0x7001
+		{Position 315.27 -3055.51}
+		{xform zl -99.33}
+	}
+	{Entity "trace_waves1" 0x7002
+		{Position 282.11 -3334.59}
+		{xform zl -99.33}
+	}
+	{Entity "trace_waves1" 0x7003
+		{Position 251.23 -3617.12}
+		{xform zl -89.33}
+	}
+	{Entity "trace_waves1" 0x7004
+		{Position 248.77 -3858.47}
+		{xform zl -89.33}
+	}
+	{Entity "smoke_aero_small" 0x40f1
+		{Position 1641.61 -1872.03 10}
+		{StoreAble 1}
+		{Fogable always}
+	}
+	{Entity "smoke_aero_dead_big" 0x40f2
+		{Position 1593.37 -1704.52 -2.13}
+		{StoreAble 1}
+		{Fogable always}
+	}
+	{Entity "path_sand2a" 0x28c
+		{Position 318.5 -387.21 -1.98}
+		{xform zl 120}
+		{TexMod "clay1"}
+	}
+	{Entity "path_sand2a" 0x28d
+		{Position 516.34 -238.26 0.02}
+		{xform zl -60}
+		{TexMod "clay1"}
+	}
+	{Entity "path_sand2a" 0x28e
+		{Position 727.81 -135.56 0.02}
+		{xform zl -80}
+		{TexMod "clay1"}
+	}
+	{Entity "path_sand2a" 0x290
+		{Position 977.44 -51.48 0.02}
+		{xform zl 110}
+		{TexMod "clay1"}
+	}
+	{Entity "path_sand2a" 0x291
+		{Position 1138.9 61.67 0.02}
+		{xform zl 130}
+		{TexMod "clay1"}
+	}
+	{Entity "path_sand2a" 0x292
+		{Position 1344.16 225.4 2.82}
+		{xform zl -70}
+		{TexMod "clay1"}
+	}
+	{Entity "path_sand2a" 0x293
+		{Position 1582.91 357.16 0.02}
+		{xform zl 120}
+		{TexMod "clay1"}
+	}
+	{Entity "path_sand2a" 0x294
+		{Position 181.89 1651.07}
+		{xform zl -60}
+		{TexMod "clay1"}
+	}
+	{Entity "path_sand2a" 0x295
+		{Position 409.75 1747.4}
+		{xform zl -85}
+		{TexMod "clay1"}
+	}
+	{Entity "path_sand2a" 0x296
+		{Position 678.06 1761.71}
+		{xform zl 85}
+		{TexMod "clay1"}
+	}
+	{Entity "path_sand2a" 0x297
+		{Position 931.05 1739.4}
+		{xform zl -110}
+		{TexMod "clay1"}
+	}
+	{Entity "path_sand2a" 0x298
+		{Position 1145.4 1618.91}
+		{xform zl -140}
+		{TexMod "clay1"}
+	}
+	{Entity "path_sand2a" 0x299
+		{Position 1249.58 1404.94}
+		{xform zl 180}
+		{TexMod "clay1"}
+	}
+	{Entity "path_sand2a" 0x29a
+		{Position 1347.88 1427.93}
+		{xform zl -140}
+		{TexMod "clay1"}
+	}
+	{Entity "path_sand2a" 0x29b
+		{Position 1514.59 1237.92}
+		{xform zl -150}
+		{TexMod "clay1"}
+	}
+	{Entity "path_sand2a" 0x29c
+		{Position 1604.02 1000.49}
+		{xform zl 180}
+		{TexMod "clay1"}
+	}
+	{Entity "path_sand2a" 0x29d
+		{Position 1587.31 774.52}
+		{xform zl 160}
+		{TexMod "clay1"}
+	}
+	{Entity "rock03" 0x29e
+		{Position 2821.51 -2262.8}
+		{xform zl -152.42 y 29.78 zw 149.58}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x29f
+		{Position 2764.99 -2283.46}
+		{xform zl -130.61 y 13.79 zw 128.75}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x2a0
+		{Position 2784.91 -2231.09}
+		{xform zl -123.56 y 13.68 zw 122.24}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x2a1
+		{Position 2825.65 -2226.91}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x2a2
+		{Position 2768.19 -2317.5}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x2a3
+		{Position 2753.08 -2246.26}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x2a4
+		{Position 2748.67 -2247.3 0.03}
+	}
+	{Entity "sand_dark" 0x2a5
+		{Position 2751.68 -2265.31 -0.03}
+	}
+	{Entity "rock03" 0x2a6
+		{Position 3770.07 -3054.21}
+		{xform zl -129.92 y 25.81 zw 128.3}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x2a7
+		{Position 3713.55 -3074.87}
+		{xform zl -80.92 y 10.4 zw 80.65}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x2a8
+		{Position 3733.47 -3022.5}
+		{xform zl -86.19 y 7.67 zw 85.92}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x2a9
+		{Position 3774.21 -3018.32}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x2aa
+		{Position 3716.75 -3108.91}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x2ab
+		{Position 3701.64 -3037.67}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x2ac
+		{Position 3697.23 -3038.71 12.28}
+	}
+	{Entity "sand_dark" 0x2ad
+		{Position 3700.24 -3056.72 13.72}
+	}
+	{Entity "rock03" 0x2ae
+		{Position 3348.77 -416.92}
+		{xform zl -142.42 y 20.73 zw 142.09}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x2af
+		{Position 3292.25 -437.58}
+		{xform zl -159.88 y 11.65 zw 159.87}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x2b0
+		{Position 3312.17 -385.21}
+		{xform zl -124.25 y 7.68 zw 124.77}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x2b1
+		{Position 3352.91 -381.03}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x2b2
+		{Position 3295.45 -471.62}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x2b3
+		{Position 3280.34 -400.38}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x2b4
+		{Position 3275.93 -401.42 14.03}
+	}
+	{Entity "sand_dark" 0x2b5
+		{Position 3278.94 -419.43 13.97}
+	}
+	{Entity "rock03" 0x2b6
+		{Position 2379.94 -491.09}
+		{xform zl -145.26 y 26.65 zw 143.72}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x2b7
+		{Position 2323.42 -511.75}
+		{xform zl 177.67 y 5.43 zw -177.9}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x2b8
+		{Position 2343.34 -459.38}
+		{xform zl -132.85 y 10.07 zw 132.84}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x2b9
+		{Position 2384.08 -455.2}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x2ba
+		{Position 2326.62 -545.79}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x2bb
+		{Position 2311.51 -474.55}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x2bc
+		{Position 2307.1 -475.59 17.83}
+	}
+	{Entity "sand_dark" 0x2bd
+		{Position 2310.11 -493.6 16.96}
+	}
+	{Entity "rock04" 0x2be
+		{Position 2849.41 -926.27}
+		{xform zl 18.35 y 5.4 zw -17.52}
+		{Constrain surface}
+	}
+	{Entity "rock05" 0x2bf
+		{Position 2815.9 -970.84}
+		{xform zl 39.9 y 4.6 zw -36.5}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x2c0
+		{Position 2810.43 -947.04}
+		{xform zl 39.05 y 6.56 zw -39.26 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x2c1
+		{Position 2844.66 -959.99}
+		{xform zl 24 y 9.28 zw -24.06 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x2c2
+		{Position 2846.67 -904.75}
+		{xform zl 36.73 y 10.02 zw -37.52 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x2c3
+		{Position 2825.46 -951.75}
+		{xform zl -4.49 y 2.02 zw 4.65}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x2c4
+		{Position 2825.59 -973.17 17.47}
+	}
+	{Entity "rock04" 0x2c5
+		{Position 3591.4 -1472.32}
+		{xform zl 131.76 y 6.4 zw -130.72}
+		{Constrain surface}
+	}
+	{Entity "rock05" 0x2c6
+		{Position 3557.89 -1516.89}
+		{xform zl 50.73 y 1.43 zw -47.21}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x2c7
+		{Position 3552.42 -1493.09}
+		{xform zl 87.32 y 3.96 zw -87.4 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x2c8
+		{Position 3586.65 -1506.04}
+		{xform zl 88.1 y 6.66 zw -87.99 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x2c9
+		{Position 3588.66 -1450.8}
+		{xform zl 91.4 y 10.37 zw -91.71 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x2ca
+		{Position 3567.45 -1497.8}
+		{xform zl 66.26 y 6.67 zw -66.26}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x2cb
+		{Position 3567.58 -1519.22 2.69}
+	}
+	{Entity "rock04" 0x2cc
+		{Position 3423.19 -2134.06}
+		{xform zl -165.63 y 10.6 zw 165.5}
+		{Constrain surface}
+	}
+	{Entity "rock05" 0x2cd
+		{Position 3389.68 -2178.63}
+		{xform zl -101.79 y 2.87 zw 105.66}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x2ce
+		{Position 3384.21 -2154.83}
+		{xform zl -56.56 y 0.38 zw 56.6 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x2cf
+		{Position 3418.44 -2167.78}
+		{xform zl 132.18 y 4.7 zw -132.49 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x2d0
+		{Position 3420.45 -2112.54}
+		{xform zl 147.3 y 7.69 zw -147.46 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x2d1
+		{Position 3399.24 -2159.54}
+		{xform zl -136.84 y 5.33 zw 137.23}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x2d2
+		{Position 3399.37 -2180.96 -0.02}
+	}
+	{Entity "rock04" 0x2d3
+		{Position 2376.56 220.06}
+		{xform zl -93.74 y 10.08 zw 94.55}
+		{Constrain surface}
+	}
+	{Entity "rock05" 0x2d4
+		{Position 2343.05 175.49}
+		{xform zl -71.96 y 11.98 zw 75.34}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x2d5
+		{Position 2337.58 199.29}
+		{xform zl -78.37 y 13.84 zw 78.58 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x2d6
+		{Position 2371.81 186.34}
+		{xform zl -71.64 y 8.29 zw 71.8 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x2d7
+		{Position 2373.82 241.58}
+		{xform zl 11.6 y 3.77 zw -11.56 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x2d8
+		{Position 2352.61 194.58}
+		{xform zl -78.85 y 12.65 zw 78.78}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x2d9
+		{Position 2352.74 173.16 -5.56}
+	}
+	{Entity "rock01" 0x2da
+		{Position 3277.74 1051.3 111}
+		{xform zl 136.73 y 19.3 zw -142.36}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x2db
+		{Position 3297.75 1001.48}
+		{xform zl 149.8 y 21.83 zw -133.79 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x2dc
+		{Position 3246.36 1066.73}
+		{xform zl 125.42 y 19.11 zw -123.04 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x2dd
+		{Position 3245.18 966.35}
+		{xform zl -80.55 y 14.12 zw 80.84 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x2de
+		{Position 3256.45 980.11}
+		{xform zl -90.68 y 11.31 zw 90}
+		{Constrain surface}
+	}
+	{Entity "rock04" 0x2df
+		{Position 3479.64 636.33}
+		{xform zl -0.69}
+	}
+	{Entity "rock05" 0x2e0
+		{Position 3451.67 604.17}
+		{xform zl 3.2}
+	}
+	{Entity "desert_bush" 0x2e1
+		{Position 3440.66 615.56}
+		{xform zl -0.97 scale 2}
+	}
+	{Entity "desert_bush" 0x2e2
+		{Position 3474.89 602.61}
+		{xform zl -0.99 scale 2}
+	}
+	{Entity "desert_bush_2" 0x2e3
+		{Position 3476.9 657.85}
+		{xform zl -2.53 scale 2}
+	}
+	{Entity "stone_af" 0x2e4
+		{Position 3455.69 610.85}
+		{xform zl 0.78}
+	}
+	{Entity "sand_dark" 0x2e5
+		{Position 3455.82 589.43}
+	}
+	{Entity "trace_waves1" 0x2e6
+		{Position 3874.58 -3704.29}
+		{xform zl 131.77}
+	}
+	{Entity "trace_waves1" 0x2e7
+		{Position 3697.71 -3517.72}
+		{xform zl 131.77}
+	}
+	{Entity "trace_waves1" 0x2e8
+		{Position 3514.24 -3327.6}
+		{xform zl 131.77}
+	}
+	{Entity "trace_waves1" 0x2e9
+		{Position 3358.19 -3123.43}
+		{xform zl 121.77}
+	}
+	{Entity "trace_waves1" 0x2ea
+		{Position 3212.76 -2916.98}
+		{xform zl 121.77}
+	}
+	{Entity "trace_waves1" 0x2eb
+		{Position 3082.92 -2727.59}
+		{xform zl 121.77}
+	}
+	{Entity "trace_waves1" 0x2ec
+		{Position 2936.56 -2551.42}
+		{xform zl 131.77}
+	}
+	{Entity "trace_waves1" 0x2ed
+		{Position 2781.9 -2384.67}
+		{xform zl 131.77}
+	}
+	{Entity "trace_waves1" 0x2ee
+		{Position 2675.32 -2118.06}
+		{xform zl 91.77}
+	}
+	{Entity "trace_waves1" 0x2ef
+		{Position 2699.81 -1877.48}
+		{xform zl 76.77}
+	}
+	{Entity "trace_waves1" 0x2f0
+		{Position 2742.07 -1640.43}
+		{xform zl 76.77}
+	}
+	{Entity "trace_waves1" 0x2f1
+		{Position 2725.89 -1381.21}
+		{xform zl 106.77}
+	}
+	{Entity "trace_waves1" 0x2f2
+		{Position 2567.87 -1167.3}
+		{xform zl 146.77}
+	}
+	{Entity "trace_waves1" 0x2f3
+		{Position 2355.2 -1042.48}
+		{xform zl 146.77}
+	}
+	{Entity "trace_waves1" 0x2f4
+		{Position 2080.69 -986.92}
+		{xform zl -173.23}
+	}
+	{Entity "trace_waves1" 0x2f5
+		{Position 1799.62 -1069}
+		{xform zl -163.23}
+	}
+	{Entity "trace_waves1" 0x2f6
+		{Position 1588.42 -1159.23}
+		{xform zl -153.23}
+	}
+	{Entity "rock03" 0x2f7
+		{Position 1496.7 -1186.02}
+		{xform zl -153.35 y 26.92 zw 152.26}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x2f8
+		{Position 1440.18 -1206.68}
+		{xform zl -143.53 y 3.69 zw 143.75}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x2f9
+		{Position 1460.1 -1154.31}
+		{xform zl -177.04 y 7 zw 177.36}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x2fa
+		{Position 1500.84 -1150.13}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x2fb
+		{Position 1443.38 -1240.72}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x2fc
+		{Position 1428.27 -1169.48}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x2fd
+		{Position 1423.86 -1170.52 0.03}
+	}
+	{Entity "sand_dark" 0x2fe
+		{Position 1426.87 -1188.53 -0.03}
+	}
+	{Entity "trace_waves1" 0x2ff
+		{Position 3171.31 -33.4}
+		{xform zl -20}
+	}
+	{Entity "trace_waves1" 0x300
+		{Position 3426.98 -134.9}
+		{xform zl -20}
+	}
+	{Entity "trace_waves1" 0x301
+		{Position 3728 -242.51}
+		{xform zl -20}
+	}
+	{Entity "trace_waves1" 0x302
+		{Position 3996.34 -340.75}
+		{xform zl -20}
+	}
+	{Entity "trace_waves1" 0x303
+		{Position 2910.71 31.69}
+		{xform zl -10}
+	}
+	{Entity "trace_waves1" 0x304
+		{Position 2671.85 62.97}
+		{xform zl -10}
+	}
+	{Entity "trace_waves1" 0x305
+		{Position 2450.04 142.78}
+		{xform zl -30}
+	}
+	{Entity "trace_waves1" 0x306
+		{Position 2197.35 120.52}
+		{xform zl 30}
+	}
+	{Entity "trace_waves1" 0x307
+		{Position 2080.49 -110.37}
+		{xform zl 80}
+	}
+	{Entity "trace_waves1" 0x308
+		{Position 2047.95 -362.34}
+		{xform zl 80}
+	}
+	{Entity "trace_waves1" 0x309
+		{Position 1896.32 -634.5}
+		{xform zl 40}
+	}
+	{Entity "trace_waves1" 0x30a
+		{Position 1726.92 -822.57}
+		{xform zl 50}
+	}
+	{Entity "trace_waves1" 0x30b
+		{Position 1565.2 -1020.88}
+		{xform zl 50}
+	}
+	{Entity "st_fence1_af" 0x30c
+		{Position 504.2 1047.34 -12.23}
+		{xform zl -40}
+	}
+	{Entity "st_fence2_af" 0x40f3
+		{Position 445.74 1082.82}
+	}
+	{Entity "st_fence2_af" 0x40f4
+		{Position 551.19 993.77}
+		{xform zl 90}
+	}
+	{Entity "mound_steep1a" 0x40f5
+		{Position 1840.56 1421.24}
+		{xform zl 150}
+	}
+	{Entity "mound_steep1a" 0x40f6
+		{Position 1927 1291.89}
+		{xform zl 100}
+	}
+	{Entity "mound_steep1a" 0x40f7
+		{Position 1936.84 1087.21}
+		{xform zl 90}
+	}
+	{Entity "mound_steep1a" 0x40f8
+		{Position 1897.19 903.34}
+		{xform zl 70}
+	}
+	{Entity "mound_steep1a" 0x40f9
+		{Position 1711.9 1377.4}
+		{xform zl -110}
+	}
+	{Entity "mound_steep1a" 0x40fa
+		{Position 1680.82 1173.2}
+		{xform zl -90}
+	}
+	{Entity "mound_steep1a" 0x40fb
+		{Position 1725.66 971.15}
+		{xform zl -60}
+	}
+	{Entity "rock04" 0x40fe
+		{Position 1837.09 887.04}
+		{xform zl 78.94 y 10.89 zw -80.61}
+		{Constrain surface}
+	}
+	{Entity "rock05" 0x40ff
+		{Position 1803.58 842.47}
+		{xform zl -34.25 y 6.09 zw 35.67}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x4100
+		{Position 1798.11 866.27}
+		{xform zl 82.59 y 6.02 zw -83.88 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x4101
+		{Position 1832.34 853.32}
+		{xform zl -2.37 y 3.82 zw 0.81 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x4102
+		{Position 1834.35 908.56}
+		{xform zl 64.04 y 6.59 zw -64.93 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x4103
+		{Position 1813.14 861.56}
+		{xform zl 24.45 y 11.29 zw -29.6}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x4104
+		{Position 1802.3 856.41}
+		{xform zl 46.63 y 1.65 zw -48.13}
+		{Constrain surface}
+	}
+	{Entity "rock03" 0x4105
+		{Position 1821.03 1334.03}
+		{xform zl -179.59 y 23 zw 178.93}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x4106
+		{Position 1764.51 1313.37}
+		{xform zl 48.96 y 3.06 zw -47.86}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x4107
+		{Position 1784.43 1365.74}
+		{xform zl 133.08 y 8.76 zw -131.18}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x4108
+		{Position 1825.17 1369.92}
+		{xform zl 142.32 y 28.45 zw -143.07 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x4109
+		{Position 1767.71 1279.33}
+		{xform zl 69.1 y 6.13 zw -73.01 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x410a
+		{Position 1752.6 1350.57}
+		{xform zl 12.66 y 13.55 zw -7.75 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x410b
+		{Position 1748.19 1349.53}
+		{xform zl 10.64 y 15.3 zw -3.98}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x410c
+		{Position 1777.26 1335.26}
+		{xform zl 167.58 y 5.44 zw -168.04}
+		{Constrain surface}
+	}
+	{Entity "rock03" 0x410d
+		{Position 489.52 -91.02}
+		{xform zl -140.88 y 19.53 zw 141.81}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x410e
+		{Position 433 -111.68}
+		{xform zl -127.88 y 10.62 zw 128.06}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x410f
+		{Position 452.92 -59.31}
+		{xform zl -116.12 y 7.97 zw 116.05}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x4110
+		{Position 493.66 -55.13}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x4111
+		{Position 436.2 -145.72}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x4112
+		{Position 421.09 -74.48}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x4113
+		{Position 416.68 -75.52 -2.97}
+	}
+	{Entity "sand_dark" 0x4114
+		{Position 445.75 -89.79 -2.02}
+	}
+	{Entity "post-wood3" 0x4115
+		{Position 1602.07 476.43}
+		{xform zl -23.52 y 3.63 zw 100}
+		{Constrain surface}
+	}
+	{Entity "cane3" 0x4116
+		{Position 1595.19 474.15}
+		{xform zl 50.75 y 4.06 zw 100}
+		{Constrain surface}
+		{TexMod "bare"}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "post-wood3" 0x4117
+		{Position 2354.46 317.35}
+		{xform zl -26.78 y 3.71 zw 103.32}
+		{Constrain surface}
+	}
+	{Entity "cane3" 0x4118
+		{Position 2347.58 315.07}
+		{xform zl 11.86 y 7.07 zw 139.36}
+		{Constrain surface}
+		{TexMod "bare"}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "post-wood3" 0x4119
+		{Position 3106.64 192.97}
+		{xform zl -109.59 y 5.6 zw -174}
+		{Constrain surface}
+	}
+	{Entity "cane3" 0x411a
+		{Position 3099.76 190.69}
+		{xform zl 16.21 y 5 zw 134.41}
+		{Constrain surface}
+		{TexMod "bare"}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "post-wood3" 0x411b
+		{Position 3874.84 -89.93}
+		{xform zl 73.44 y 10.67 zw -6.12}
+		{Constrain surface}
+	}
+	{Entity "cane3" 0x411c
+		{Position 3867.96 -92.21}
+		{xform zl -145.37 y 2.87 zw -6.67}
+		{Constrain surface}
+		{TexMod "bare"}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "sand_dark" 0x411d
+		{Position -44 -3891.88 75.57}
+	}
+	{Entity "sand_dark" 0x411e
+		{Position 25.89 -3563.01 25.1}
+	}
+	{Entity "sand_dark" 0x411f
+		{Position -330.79 -3338.27 136.09}
+	}
+	{Entity "sand_dark" 0x4120
+		{Position -457.61 -3782.59 153.28}
+	}
+	{Entity "sand_dark" 0x4121
+		{Position -773.55 -3966.32 46.81}
+	}
+	{Entity "sand_dark" 0x4122
+		{Position -496.33 -3025.6 95.59}
+	}
+	{Entity "sand_dark" 0x4123
+		{Position -364.38 -2665.68 83.8}
+	}
+	{Entity "sand_dark" 0x4124
+		{Position 46.78 -2784.48 71.07}
+	}
+	{Entity "sand_dark" 0x4125
+		{Position -181.08 -3037.95 133.43}
+	}
+	{Entity "sand_dark" 0x4126
+		{Position -967.89 -4098.14 51.04}
+	}
+	{Entity "sand_dark" 0x4127
+		{Position 2293.02 -3909.22 76.14}
+	}
+	{Entity "sand_dark" 0x4128
+		{Position 2006.6 -3852.92 139.16}
+	}
+	{Entity "sand_dark" 0x4129
+		{Position 2059.06 -3643.43 74.83}
+	}
+	{Entity "sand_dark" 0x412a
+		{Position 1855.1 -3393.72 75.3}
+	}
+	{Entity "sand_dark" 0x412b
+		{Position 1568.04 -3433.15 60.2}
+	}
+	{Entity "sand_dark" 0x412c
+		{Position 1778.25 -3752.44 110.03}
+	}
+	{Entity "sand_dark" 0x412d
+		{Position 1566.93 -3706.92 90.84}
+	}
+	{Entity "sand_dark" 0x412e
+		{Position 1299.07 -3994.72 38.82}
+	}
+	{Entity "sand_dark" 0x412f
+		{Position 1610.77 -3910.94 106.93}
+	}
+	{Entity "sand_dark" 0x4130
+		{Position 1407.96 -3795.97 71.89}
+	}
+	{Entity "sand_dark" 0x4131
+		{Position 3307.62 -3879.37 24.07}
+	}
+	{Entity "sand_dark" 0x4132
+		{Position 3062.51 -3927.6 62.92}
+	}
+	{Entity "sand_dark" 0x4133
+		{Position 3072.22 -3704.44 73.65}
+	}
+	{Entity "sand_dark" 0x4134
+		{Position 2906.25 -3708.5 86.42}
+	}
+	{Entity "sand_dark" 0x4135
+		{Position 2944.46 -3445.41 31.74}
+	}
+	{Entity "sand_dark" 0x4136
+		{Position 2719.19 -3057.6 24.09}
+	}
+	{Entity "sand_dark" 0x4137
+		{Position 2400.53 -2855.04 42.63}
+	}
+	{Entity "sand_dark" 0x4138
+		{Position 2599.8 -3175.01 103.16}
+	}
+	{Entity "sand_dark" 0x4139
+		{Position 2672.51 -3492.6 68.16}
+	}
+	{Entity "sand_dark" 0x413a
+		{Position 3888.75 648.01 91.35}
+	}
+	{Entity "sand_dark" 0x413b
+		{Position 3772.2 962.87 118.79}
+	}
+	{Entity "sand_dark" 0x413c
+		{Position 3462.99 770.98 119.37}
+	}
+	{Entity "sand_dark" 0x413d
+		{Position 3070.83 846.75 134.37}
+	}
+	{Entity "sand_dark" 0x413e
+		{Position 2999.08 1194.41 116.61}
+	}
+	{Entity "sand_dark" 0x413f
+		{Position 3292.08 1269.39 113.21}
+	}
+	{Entity "sand_dark" 0x4140
+		{Position 2798.47 878.57 139.15}
+	}
+	{Entity "sand_dark" 0x4141
+		{Position 2336.13 777.25 101.03}
+	}
+	{Entity "sand_dark" 0x4142
+		{Position 2540.95 1086.47 170.37}
+	}
+	{Entity "sand_dark" 0x4143
+		{Position 2654.01 1479.37 115.83}
+	}
+	{Entity "sand_dark" 0x4144
+		{Position 3019.77 1458.18 100.63}
+	}
+	{Entity "sand_dark" 0x4145
+		{Position 3557.64 1465.71 102.35}
+	}
+	{Entity "sand_dark" 0x4146
+		{Position 3869.95 1639.81 60.12}
+	}
+	{Entity "sand_dark" 0x4147
+		{Position 3534.26 1745.31 95.9}
+	}
+	{Entity "sand_dark" 0x4148
+		{Position 3793.94 2115.38 109.94}
+	}
+	{Entity "sand_dark" 0x4149
+		{Position 3492.11 2000.69 106.06}
+	}
+	{Entity "sand_dark" 0x414a
+		{Position 3599.62 2237.03 67.52}
+	}
+	{Entity "sand_dark" 0x414b
+		{Position 3158.73 2023 56.35}
+	}
+	{Entity "sand_dark" 0x414c
+		{Position 3111.73 1771.65 125.94}
+	}
+	{Entity "sand_dark" 0x414d
+		{Position 2599.91 1631.09 53.73}
+	}
+	{Entity "sand_dark" 0x414e
+		{Position 3391.34 1562.27 90.06}
+	}
+	{Entity "sand_dark" 0x414f
+		{Position 3811.78 486.6 42.43}
+	}
+	{Entity "sand_dark" 0x4150
+		{Position 2712.39 676.16 23.52}
+	}
+	{Entity "sand_dark" 0x4151
+		{Position 3032.16 704.41 19.84}
+	}
+	{Entity "sand_dark" 0x4152
+		{Position 2151.65 765.33 35.5}
+	}
+	{Entity "sand_dark" 0x4153
+		{Position 2278.95 1203.2 38.46}
+	}
+	{Entity "sand_dark" 0x4154
+		{Position 3103.04 2194.85 -43.47}
+	}
+	{Entity "rock01" 0x4155
+		{Position -241.95 -3577.05}
+		{xform zl -12 y 32.13 zw 22.19}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x4156
+		{Position -201.38 -3511.5}
+		{xform zl 37.64 y 25.19 zw -37.52 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x4157
+		{Position -317.46 -3584.88}
+		{xform zl -17.29 y 19.49 zw 19.82 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x4158
+		{Position -274.51 -3662}
+		{xform zl -28.23 y 24.11 zw 26.55 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x4159
+		{Position -263.24 -3648.24}
+		{xform zl -21.39 y 29.09 zw 18.52}
+		{Constrain surface}
+	}
+	{Entity "stone2" 0x415a
+		{Position -251.91 -2958.86}
+		{xform zl -132.49 y 8.79 zw 132.75}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x415b
+		{Position -209.23 -2857.49}
+		{xform zl 71.64 y 6.14 zw -71.54 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x415c
+		{Position -290.62 -2971.61}
+		{xform zl -71.65 y 21.32 zw 70.4 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x415d
+		{Position -250.96 -2851.18}
+		{xform zl 5.6 y 26.16 zw -5.03 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x415e
+		{Position -240.43 -2872.85}
+		{xform zl 12.2 y 23.54 zw -11.22}
+		{Constrain surface}
+	}
+	{Entity "stone12" 0x415f
+		{Position -657.7 -3763.24 80}
+		{xform zl -149.14 y 19.34 zw 150.8}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x4160
+		{Position -643.34 -3692.37}
+		{xform zl -178.06 y 33.38 zw 178.38 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x4161
+		{Position -701.31 -3751.13}
+		{xform zl 28.18 y 2.46 zw -28.15 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x4162
+		{Position -608.86 -3757.89}
+		{xform zl -158.15 y 16.55 zw 158.97 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x4163
+		{Position -681 -3761.44}
+		{xform zl 58.7 y 1.76 zw -58.69}
+		{Constrain surface}
+	}
+	{Entity "stone4" 0x4164
+		{Position 1501.34 -3643.85 43.18}
+		{xform zl -176.62 y 15.44 zw 178.47}
+		{Constrain surface}
+	}
+	{Entity "stone6" 0x4165
+		{Position 1553.39 -3722.9 70.55}
+		{xform zl 119.99 y 17.11 zw -119.07}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x4166
+		{Position 1458.04 -3685.96}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x4167
+		{Position 1541.01 -3661.19}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x4168
+		{Position 1586.39 -3786.54}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x4169
+		{Position 1482.75 -3700.98}
+	}
+	{Entity "stone_af" 0x416a
+		{Position 1531.35 -3741.65}
+	}
+	{Entity "rock03" 0x416b
+		{Position -457.29 -3212.66}
+		{xform zl -170.61 y 30.06 zw 177.77}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x416c
+		{Position -513.81 -3233.32}
+		{xform zl -0.72 y 4.49}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x416d
+		{Position -493.89 -3180.95}
+		{xform zl 137.88 y 23.18 zw -135.52}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x416e
+		{Position -453.15 -3176.77}
+		{xform zl 176.28 y 33.96 zw -176.92 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x416f
+		{Position -510.61 -3267.36}
+		{xform zl 148.14 y 20.22 zw -149.75 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x4170
+		{Position -525.72 -3196.12}
+		{xform zl -79.45 y 10.37 zw 79.28 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x4171
+		{Position -530.13 -3197.16}
+		{xform zl -82.4 y 9.99 zw 82.29}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x4172
+		{Position -501.06 -3211.43}
+		{xform zl -103.46 y 16.54 zw 104.02}
+		{Constrain surface}
+	}
+	{Entity "rock03" 0x4173
+		{Position -64.28 -3308.36}
+		{xform zl -15.05 y 22.63 zw 16.48}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x4174
+		{Position -120.8 -3329.02}
+		{xform zl 0.36 y 14.22 zw -0.89}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x4175
+		{Position -100.88 -3276.65}
+		{xform zl -22.63 y 25.45 zw 21.05}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x4176
+		{Position -60.14 -3272.47}
+		{xform zl 17.54 y 13.38 zw -17.09 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x4177
+		{Position -117.6 -3363.06}
+		{xform zl 57.79 y 13.22 zw -57.09 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x4178
+		{Position -132.71 -3291.82}
+		{xform zl -6.75 y 18.26 zw 6.42 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x4179
+		{Position -137.12 -3292.86}
+		{xform zl -1.74 y 15.33 zw 1.67}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x417a
+		{Position -108.05 -3307.13}
+		{xform zl -10.33 y 25.62 zw 9.34}
+		{Constrain surface}
+	}
+	{Entity "stone1" 0x417b
+		{Position 1747.04 -3240.4}
+		{xform zl -86.44 y 17.79 zw 86.13}
+		{Constrain surface}
+	}
+	{Entity "stone11" 0x417c
+		{Position 1809.98 -3271}
+		{xform zl -74.71 y 24.45 zw 70.27}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x417d
+		{Position 1771.12 -3327.57}
+		{xform zl -81.63 y 33.15 zw 80.03 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x417e
+		{Position 1775.3 -3214.95}
+		{xform zl -47.46 y 4.5 zw 47.38 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x417f
+		{Position 1855.62 -3327.64}
+		{xform zl -77.33 y 34.56 zw 74.73 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x4180
+		{Position 1883.51 -3251.08}
+		{xform y 0.17 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x4181
+		{Position 1786.31 -3201.34}
+		{Constrain surface}
+	}
+	{Entity "stone5" 0x4182
+		{Position 2276.28 -3643.99}
+		{xform zl 3.67}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x4183
+		{Position 2226.01 -3608.6}
+		{xform zl -34.11 y 17.92 zw 32.8 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x4184
+		{Position 2248.15 -3715.54}
+		{xform zl -37.64 y 34.84 zw 32.33 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x4185
+		{Position 2323.36 -3638}
+		{xform zl -23.21 y 10.98 zw 22.83 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x4186
+		{Position 2298.82 -3668.76}
+		{xform zl -90 y 0.4 zw 90}
+		{Constrain surface}
+	}
+	{Entity "rock04" 0x4187
+		{Position 1978.75 -3580.78}
+		{xform zl -27.2 y 6.25 zw 28.68}
+		{Constrain surface}
+	}
+	{Entity "rock05" 0x4188
+		{Position 1945.24 -3625.35}
+		{xform zl -36.08 y 10.53 zw 39.08}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x4189
+		{Position 1939.77 -3601.55}
+		{xform zl -54.42 y 10.32 zw 54.49 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x418a
+		{Position 1974 -3614.5}
+		{xform zl -12.63 y 6.34 zw 12.76 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x418b
+		{Position 1976.01 -3559.26}
+		{xform zl 30.47 y 8.5 zw -30.01 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x418c
+		{Position 1954.8 -3606.26}
+		{xform zl -49.3 y 11.16 zw 49.51}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x418d
+		{Position 1943.96 -3611.41 73.01}
+	}
+	{Entity "rock04" 0x418e
+		{Position 1825.35 -3866.54}
+		{xform zl 16.61 y 8.05 zw -17.1}
+		{Constrain surface}
+	}
+	{Entity "rock05" 0x418f
+		{Position 1791.84 -3911.11}
+		{xform zl 75.1 y 24.65 zw -74.75}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x4190
+		{Position 1786.37 -3887.31}
+		{xform zl -3.03 y 5.84 zw 2.12 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x4191
+		{Position 1820.6 -3900.26}
+		{xform zl 37.8 y 17.68 zw -40.17 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x4192
+		{Position 1822.61 -3845.02}
+		{xform zl 50.84 y 8.66 zw -51.8 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x4193
+		{Position 1801.4 -3892.02}
+		{xform zl -23.02 y 17.63 zw 21.33}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x4194
+		{Position 1790.56 -3897.17 145.51}
+	}
+	{Entity "rock04" 0x4195
+		{Position 2534.66 -2742.01}
+		{xform zl 127.17 y 6.48 zw -124.16}
+		{Constrain surface}
+	}
+	{Entity "rock05" 0x4196
+		{Position 2501.15 -2786.58}
+		{xform zl -15.06 y 8.25 zw 17.9}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x4197
+		{Position 2495.68 -2762.78}
+		{xform zl -46.13 y 10.41 zw 45.83 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x4198
+		{Position 2529.91 -2775.73}
+		{xform zl -46.39 y 8.92 zw 46.89 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x4199
+		{Position 2531.92 -2720.49}
+		{xform zl 114.14 y 22.75 zw -110.88 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x419a
+		{Position 2510.71 -2767.49}
+		{xform zl -47.97 y 9.52 zw 48.01}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x419b
+		{Position 2499.87 -2772.64 17.28}
+	}
+	{Entity "rock04" 0x419c
+		{Position 3287.11 -3658.59}
+		{xform zl -37.74 y 2.04 zw 38.75}
+		{Constrain surface}
+	}
+	{Entity "rock05" 0x419d
+		{Position 3253.6 -3703.16}
+		{xform zl -8.2 y 12.68 zw 10.76}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x419e
+		{Position 3248.13 -3679.36}
+		{xform zl -48.09 y 8.52 zw 48.13 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x419f
+		{Position 3282.36 -3692.31}
+		{xform zl -20.14 y 5.69 zw 20.27 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x41a0
+		{Position 3284.37 -3637.07}
+		{xform zl 105.42 y 5.9 zw -105.01 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x41a1
+		{Position 3263.16 -3684.07}
+		{xform zl -41.01 y 8.44 zw 40.96}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x41a2
+		{Position 3252.32 -3689.22 -0.02}
+	}
+	{Entity "rock04" 0x41a3
+		{Position 2731.2 -3642.98}
+		{xform zl 91.81 y 8.92 zw -92.52}
+		{Constrain surface}
+	}
+	{Entity "rock05" 0x41a4
+		{Position 2697.69 -3687.55}
+		{xform zl -13.36 y 17.13 zw 16.84}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x41a5
+		{Position 2692.22 -3663.75}
+		{xform zl -51.65 y 24.04 zw 57.28 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x41a6
+		{Position 2726.45 -3676.7}
+		{xform zl -14.37 y 10.52 zw 14.31 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x41a7
+		{Position 2728.46 -3621.46}
+		{xform zl 107.98 y 10.52 zw -109.71 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x41a8
+		{Position 2707.25 -3668.46}
+		{xform zl -39.25 y 17.21 zw 42.03}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x41a9
+		{Position 2696.41 -3673.61 5.35}
+	}
+	{Entity "rock01" 0x41aa
+		{Position 2747.64 -3197.53}
+		{xform zl -38.32 y 27.32 zw 42.64}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x41ab
+		{Position 2788.21 -3131.98}
+		{xform zl -31.73 y 19.83 zw 33.69 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x41ac
+		{Position 2672.13 -3205.36}
+		{xform zl -51.41 y 29.47 zw 42.91 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x41ad
+		{Position 2715.08 -3282.48}
+		{xform zl -44.14 y 15.75 zw 45.17 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x41ae
+		{Position 2726.35 -3268.72}
+		{xform zl -54.63 y 20.22 zw 52.51}
+		{Constrain surface}
+	}
+	{Entity "stone5" 0x41af
+		{Position 2959.13 -3701.77 80}
+		{xform zl -49.18 y 8.29 zw 53.95}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x41b0
+		{Position 2908.86 -3666.38}
+		{xform zl 177.55 y 8.24 zw 180 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x41b1
+		{Position 2931 -3773.32}
+		{xform zl 128.26 y 24.82 zw -142.24 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush_2" 0x41b2
+		{Position 3006.21 -3695.78}
+		{xform zl -51.75 y 7.8 zw 50.56 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x41b3
+		{Position 2968.95 -3760.35}
+		{xform zl 121.41 y 7.31 zw -121.89}
+		{Constrain surface}
+	}
+	{Entity "rock03" 0x41b4
+		{Position 2464.78 -3083}
+		{xform zl -120.97 y 18.57 zw 122.17}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x41b5
+		{Position 2408.26 -3103.66}
+		{xform zl -66.03 y 12.12 zw 65.75}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x41b6
+		{Position 2428.18 -3051.29}
+		{xform zl -58.18 y 19.84 zw 61.71}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x41b7
+		{Position 2468.92 -3047.11}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x41b8
+		{Position 2411.46 -3137.7}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x41b9
+		{Position 2396.35 -3066.46}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x41ba
+		{Position 2391.94 -3067.5 53.65}
+	}
+	{Entity "sand_dark" 0x41bb
+		{Position 2421.01 -3081.77 56.47}
+	}
+	{Entity "rock03" 0x41bc
+		{Position 1649.22 -3476.79}
+		{xform zl -175.79 y 47.28 zw -170.04}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x41bd
+		{Position 1592.7 -3497.45}
+		{xform zl -127.18 y 25.47 zw 136.54}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x41be
+		{Position 1612.62 -3445.08}
+		{xform zl 148.19 y 24.81 zw -137.11}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x41bf
+		{Position 1653.36 -3440.9}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x41c0
+		{Position 1595.9 -3531.49}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x41c1
+		{Position 1580.79 -3460.25}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x41c2
+		{Position 1576.38 -3461.29 64.21}
+	}
+	{Entity "sand_dark" 0x41c3
+		{Position 1605.45 -3475.56 66.38}
+	}
+	{Entity "rock03" 0x41c4
+		{Position 2087.89 -3816.84}
+		{xform zl -121.57 y 22.46 zw 120.64}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x41c5
+		{Position 2031.37 -3837.5}
+		{xform zl -172.55 y 11.08 zw 176.03}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x41c6
+		{Position 2051.29 -3785.13}
+		{xform zl -92.85 y 13.16 zw 92.34}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x41c7
+		{Position 2092.03 -3780.95}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x41c8
+		{Position 2034.57 -3871.54}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x41c9
+		{Position 2019.46 -3800.3}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x41ca
+		{Position 2015.05 -3801.34 114.11}
+	}
+	{Entity "sand_dark" 0x41cb
+		{Position 2044.12 -3815.61 111.32}
+	}
+	{Entity "rock03" 0x41cc
+		{Position 902.29 -1413.33}
+		{xform zl -162.9 y 12.8 zw 165.82}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x41cd
+		{Position 845.77 -1433.99}
+		{xform zl -133.43 y 15.64 zw 132.5}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x41ce
+		{Position 865.69 -1381.62}
+		{xform zl -170.61 y 13.76 zw 170.71}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x41cf
+		{Position 906.43 -1377.44}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x41d0
+		{Position 848.97 -1468.03}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x41d1
+		{Position 833.86 -1396.79}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x41d2
+		{Position 829.45 -1397.83 109.62}
+	}
+	{Entity "sand_dark" 0x41d3
+		{Position 858.52 -1412.1 96.25}
+	}
+	{Entity "rock03" 0x41d4
+		{Position 541.74 -670.74}
+		{xform zl -156.18 y 36.03 zw 153.7}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x41d5
+		{Position 485.22 -691.4}
+		{xform zl -151.03 y 14.7 zw 150.46}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x41d6
+		{Position 505.14 -639.03}
+		{xform zl -159.1 y 13.4 zw 159.87}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x41d7
+		{Position 545.88 -634.85}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x41d8
+		{Position 488.42 -725.44}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x41d9
+		{Position 473.31 -654.2}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x41da
+		{Position 468.9 -655.24 84.44}
+	}
+	{Entity "sand_dark" 0x41db
+		{Position 497.97 -669.51 89.48}
+	}
+	{Entity "rock03" 0x41dc
+		{Position 1336.09 -219.97}
+		{xform zl -148.55 y 18.5 zw 149.73}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x41dd
+		{Position 1279.57 -240.63}
+		{xform zl -163.84 y 11.55 zw 163.96}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x41de
+		{Position 1299.49 -188.26}
+		{xform zl -141.16 y 14.9 zw 140.23}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x41df
+		{Position 1340.23 -184.08}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x41e0
+		{Position 1282.77 -274.67}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x41e1
+		{Position 1267.66 -203.43}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x41e2
+		{Position 1263.25 -204.47 98.31}
+	}
+	{Entity "sand_dark" 0x41e3
+		{Position 1292.32 -218.74 102.41}
+	}
+	{Entity "rock03" 0x41e4
+		{Position -1323.1 -3199.51}
+		{xform zl -150.21 y 14.57 zw 152.16}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x41e5
+		{Position -1379.62 -3220.17}
+		{xform zl -101.26 y 12.36 zw 100.89}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x41e6
+		{Position -1359.7 -3167.8}
+		{xform zl -64.77 y 7.39 zw 64.59}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x41e7
+		{Position -1318.96 -3163.62}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x41e8
+		{Position -1376.42 -3254.21}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x41e9
+		{Position -1391.53 -3182.97}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x41ea
+		{Position -1395.94 -3184.01 104.29}
+	}
+	{Entity "sand_dark" 0x41eb
+		{Position -1366.87 -3198.28 110.03}
+	}
+	{Entity "rock03" 0x41ec
+		{Position -1660.85 -3755.35}
+		{xform zl -174.43 y 13.94 zw 177.17}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x41ed
+		{Position -1717.37 -3776.01}
+		{xform zl -98.69 y 14.41 zw 99.87}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x41ee
+		{Position -1697.45 -3723.64}
+		{xform zl -97.11 y 8.3 zw 97.65}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x41ef
+		{Position -1656.71 -3719.45}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x41f0
+		{Position -1714.17 -3810.05}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x41f1
+		{Position -1729.28 -3738.81}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x41f2
+		{Position -1733.69 -3739.85 95.38}
+	}
+	{Entity "sand_dark" 0x41f3
+		{Position -1704.62 -3754.12 90.83}
+	}
+	{Entity "rock03" 0x41f4
+		{Position -973.57 -2263.38}
+		{xform zl -144.93 y 18.93 zw 145.94}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x41f5
+		{Position -1030.09 -2284.04}
+		{xform zl -104.86 y 14.42 zw 104.5}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x41f6
+		{Position -1010.17 -2231.67}
+		{xform zl -89.98 y 10.07 zw 90.66}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x41f7
+		{Position -969.43 -2227.49}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x41f8
+		{Position -1026.89 -2318.08}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x41f9
+		{Position -1042 -2246.84}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x41fa
+		{Position -1046.41 -2247.88 81.71}
+	}
+	{Entity "sand_dark" 0x41fb
+		{Position -1017.34 -2262.15 87.94}
+	}
+	{Entity "rock03" 0x41fc
+		{Position -2782.35 -2269.34}
+		{xform zl -146.28 y 17.32 zw 147.92}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x41fd
+		{Position -2838.87 -2290}
+		{xform zl -129.97 y 14.46 zw 129.09}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x41fe
+		{Position -2818.95 -2237.63}
+		{xform zl -105.34 y 12.21 zw 105.29}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x41ff
+		{Position -2778.21 -2233.45}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x4200
+		{Position -2835.67 -2324.04}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x4201
+		{Position -2850.78 -2252.8}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x4202
+		{Position -2855.19 -2253.84 106.17}
+	}
+	{Entity "sand_dark" 0x4203
+		{Position -2826.12 -2268.11 103.7}
+	}
+	{Entity "rock03" 0x4204
+		{Position -3223.93 -2724.87}
+		{xform zl -141.08 y 13.43 zw 143.66}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x4205
+		{Position -3280.45 -2745.53}
+		{xform zl -109.6 y 11.77 zw 110.93}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x4206
+		{Position -3260.53 -2693.16}
+		{xform zl -92.98 y 15.44 zw 93.5}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x4207
+		{Position -3219.79 -2688.98}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x4208
+		{Position -3277.25 -2779.57}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x4209
+		{Position -3292.36 -2708.33}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x420a
+		{Position -3296.77 -2709.37 114.24}
+	}
+	{Entity "sand_dark" 0x420b
+		{Position -3267.7 -2723.64 104.79}
+	}
+	{Entity "rock03" 0x420c
+		{Position -3430.24 -2305.17}
+		{xform zl -178.54 y 13.63 zw -179.09}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x420d
+		{Position -3486.76 -2325.83}
+		{xform zl -82.85 y 12.42 zw 83.56}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x420e
+		{Position -3466.84 -2273.46}
+		{xform zl -148.55 y 8.4 zw 148.27}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x420f
+		{Position -3426.1 -2269.28}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x4210
+		{Position -3483.56 -2359.87}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x4211
+		{Position -3498.67 -2288.63}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x4212
+		{Position -3503.08 -2289.67 115.73}
+	}
+	{Entity "sand_dark" 0x4213
+		{Position -3474.01 -2303.94 109.19}
+	}
+	{Entity "rock03" 0x4214
+		{Position -3646.1 -3090.55}
+		{xform zl -138.28 y 18.47 zw 139.85}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x4215
+		{Position -3702.62 -3111.21}
+		{xform zl -137.1 y 11.29 zw 136.95}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x4216
+		{Position -3682.7 -3058.84}
+		{xform zl -113.14 y 6.71 zw 113.38}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x4217
+		{Position -3641.96 -3054.66}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x4218
+		{Position -3699.42 -3145.25}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x4219
+		{Position -3714.53 -3074.01}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x421a
+		{Position -3718.94 -3075.05 131.3}
+	}
+	{Entity "sand_dark" 0x421b
+		{Position -3689.87 -3089.32 122.1}
+	}
+	{Entity "rock03" 0x421c
+		{Position -3586.17 -1749.17}
+		{xform zl -156.13 y 22.39 zw 156.53}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x421d
+		{Position -3642.69 -1769.83}
+		{xform zl -124.94 y 13.41 zw 124.7}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x421e
+		{Position -3622.77 -1717.46}
+		{xform zl -115.45 y 7.5 zw 115.39}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x421f
+		{Position -3582.03 -1713.28}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x4220
+		{Position -3639.49 -1803.87}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x4221
+		{Position -3654.6 -1732.63}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x4222
+		{Position -3659.01 -1733.67 142.44}
+	}
+	{Entity "sand_dark" 0x4223
+		{Position -3629.94 -1747.94 142.98}
+	}
+	{Entity "rock03" 0x4224
+		{Position -2858.1 -1508.35}
+		{xform zl -142.22 y 20.22 zw 142.96}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x4225
+		{Position -2914.62 -1529.01}
+		{xform zl -113.28 y 21.7 zw 112.81}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x4226
+		{Position -2894.7 -1476.64}
+		{xform zl -116.09 y 8.12 zw 116.14}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x4227
+		{Position -2853.96 -1472.46}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x4228
+		{Position -2911.42 -1563.05}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x4229
+		{Position -2926.53 -1491.81}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x422a
+		{Position -2930.94 -1492.85 125.41}
+	}
+	{Entity "sand_dark" 0x422b
+		{Position -2901.87 -1507.12 133.03}
+	}
+	{Entity "rock03" 0x422c
+		{Position -2193.1 -1530.06}
+		{xform zl -140.39 y 17.86 zw 141.28}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x422d
+		{Position -2249.62 -1550.72}
+		{xform zl -131.69 y 11.27 zw 131.77}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x422e
+		{Position -2229.7 -1498.35}
+		{xform zl -94.13 y 18.69 zw 93.99}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x422f
+		{Position -2188.96 -1494.17}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x4230
+		{Position -2246.42 -1584.76}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x4231
+		{Position -2261.53 -1513.52}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x4232
+		{Position -2265.94 -1514.56 111.77}
+	}
+	{Entity "sand_dark" 0x4233
+		{Position -2236.87 -1528.83 103.11}
+	}
+	{Entity "rock03" 0x4234
+		{Position -2356.14 -2280.17}
+		{xform zl -151.04 y 15.79 zw 152.94}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x4235
+		{Position -2412.66 -2300.83}
+		{xform zl -114.25 y 10.56 zw 115.16}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x4236
+		{Position -2392.74 -2248.46}
+		{xform zl -123.25 y 2.24 zw 123.79}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x4237
+		{Position -2352 -2244.28}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x4238
+		{Position -2409.46 -2334.87}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x4239
+		{Position -2424.57 -2263.63}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x423a
+		{Position -2428.98 -2264.67 27.87}
+	}
+	{Entity "sand_dark" 0x423b
+		{Position -2399.91 -2278.94 18.18}
+	}
+	{Entity "rock03" 0x423c
+		{Position -2037.49 1559.69}
+		{xform zl -125.26 y 24.1 zw 124.97}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x423d
+		{Position -2094.01 1539.03}
+		{xform zl -90.29 y 19.36 zw 88.59}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x423e
+		{Position -2074.09 1591.4}
+		{xform zl -87.84 y 19.82 zw 87.28}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x423f
+		{Position -2033.35 1595.58}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x4240
+		{Position -2090.81 1504.99}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x4241
+		{Position -2105.92 1576.23}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x4242
+		{Position -2110.33 1575.19 137.53}
+	}
+	{Entity "sand_dark" 0x4243
+		{Position -2081.26 1560.92 144.67}
+	}
+	{Entity "rock03" 0x4244
+		{Position -2307.1 1651.35}
+		{xform zl -156.12 y 15.67 zw 157.6}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x4245
+		{Position -2363.62 1630.69}
+		{xform zl -115.77 y 8.02 zw 115.72}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x4246
+		{Position -2343.7 1683.06}
+		{xform zl -109.84 y 8.77 zw 109.81}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x4247
+		{Position -2302.96 1687.24}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x4248
+		{Position -2360.42 1596.65}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x4249
+		{Position -2375.53 1667.89}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x424a
+		{Position -2379.94 1666.85 88.75}
+	}
+	{Entity "sand_dark" 0x424b
+		{Position -2350.87 1652.58 91.56}
+	}
+	{Entity "rock03" 0x424c
+		{Position -2535.77 2324.58}
+		{xform zl -150.26 y 18.06 zw 151.49}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x424d
+		{Position -2592.29 2303.92}
+		{xform zl -125.85 y 11.13 zw 125.96}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x424e
+		{Position -2572.37 2356.29}
+		{xform zl -115.92 y 7.96 zw 115.96}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x424f
+		{Position -2531.63 2360.47}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x4250
+		{Position -2589.09 2269.88}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x4251
+		{Position -2604.2 2341.12}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x4252
+		{Position -2608.61 2340.08 51.21}
+	}
+	{Entity "sand_dark" 0x4253
+		{Position -2579.54 2325.81 55.98}
+	}
+	{Entity "rock03" 0x4254
+		{Position -2681.75 742}
+		{xform zl -148.93 y 18.26 zw 150.11}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x4255
+		{Position -2738.27 721.34}
+		{xform zl -116.68 y 16.57 zw 116.1}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x4256
+		{Position -2718.35 773.71}
+		{xform zl -105.29 y 7.22 zw 105.93}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x4257
+		{Position -2677.61 777.89}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x4258
+		{Position -2735.07 687.3}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x4259
+		{Position -2750.18 758.54}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x425a
+		{Position -2754.59 757.5 113.66}
+	}
+	{Entity "sand_dark" 0x425b
+		{Position -2725.52 743.23 99.49}
+	}
+	{Entity "rock03" 0x425c
+		{Position -1788.27 953.93}
+		{xform zl -152.33 y 17.9 zw 153.51}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x425d
+		{Position -1844.79 933.27}
+		{xform zl -129.6 y 11.66 zw 129.26}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x425e
+		{Position -1824.87 985.64}
+		{xform zl -109.15 y 7.55 zw 109.55}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x425f
+		{Position -1784.13 989.82}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x4260
+		{Position -1841.59 899.23}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x4261
+		{Position -1856.7 970.47}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x4262
+		{Position -1861.11 969.43 165.14}
+	}
+	{Entity "sand_dark" 0x4263
+		{Position -1832.04 955.16 154.96}
+	}
+	{Entity "rock03" 0x4264
+		{Position -1374.9 866.23}
+		{xform zl -126.62 y 25.02 zw 127.06}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x4265
+		{Position -1431.42 845.57}
+		{xform zl -120.82 y 23.6 zw 118.74}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x4266
+		{Position -1411.5 897.94}
+		{xform zl -97.43 y 18.34 zw 97.12}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x4267
+		{Position -1370.76 902.12}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x4268
+		{Position -1428.22 811.53}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x4269
+		{Position -1443.33 882.77}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x426a
+		{Position -1447.74 881.73 3.98}
+	}
+	{Entity "sand_dark" 0x426b
+		{Position -1418.67 867.46 0.68}
+	}
+	{Entity "rock03" 0x426c
+		{Position -2993.27 463}
+		{xform zl -154.94 y 29.33 zw 155.31}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x426d
+		{Position -3049.79 442.34}
+		{xform zl -108 y 24.4 zw 107.25}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x426e
+		{Position -3029.87 494.71}
+		{xform zl -80.98 y 12.3 zw 82.93}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x426f
+		{Position -2989.13 498.89}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x4270
+		{Position -3046.59 408.3}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x4271
+		{Position -3061.7 479.54}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x4272
+		{Position -3066.11 478.5 104.95}
+	}
+	{Entity "sand_dark" 0x4273
+		{Position -3037.04 464.23 97.39}
+	}
+	{Entity "rock03" 0x4274
+		{Position -1544.74 1710.78}
+		{xform zl -150.85 y 20.61 zw 151.24}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x4275
+		{Position -1601.26 1690.12}
+		{xform zl -169.5 y 19.53 zw 169.6}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x4276
+		{Position -1581.34 1742.49}
+		{xform zl -161.94 y 18.46 zw 163.7}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x4277
+		{Position -1540.6 1746.67}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x4278
+		{Position -1598.06 1656.08}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x4279
+		{Position -1613.17 1727.32}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x427a
+		{Position -1617.58 1726.28 148.42}
+	}
+	{Entity "sand_dark" 0x427b
+		{Position -1588.51 1712.01 154.03}
+	}
+	{Entity "rock03" 0x427c
+		{Position -1855.05 2637.9}
+		{xform zl -150.66 y 18.34 zw 151.82}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x427d
+		{Position -1911.57 2617.24}
+		{xform zl -151.9 y 9.36 zw 152.12}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x427e
+		{Position -1891.65 2669.61}
+		{xform zl -156.59 y 8.37 zw 156.86}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x427f
+		{Position -1850.91 2673.79}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x4280
+		{Position -1908.37 2583.2}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x4281
+		{Position -1923.48 2654.44}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x4282
+		{Position -1927.89 2653.4 109.36}
+	}
+	{Entity "sand_dark" 0x4283
+		{Position -1898.82 2639.13 114.12}
+	}
+	{Entity "rock03" 0x4284
+		{Position -2743.1 2675.47}
+		{xform zl -150.26 y 18.06 zw 151.49}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x4285
+		{Position -2799.62 2654.81}
+		{xform zl -125.85 y 11.13 zw 125.96}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x4286
+		{Position -2779.7 2707.18}
+		{xform zl -115.92 y 7.96 zw 115.96}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x4287
+		{Position -2738.96 2711.36}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x4288
+		{Position -2796.42 2620.77}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x4289
+		{Position -2811.53 2692.01}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x428a
+		{Position -2815.94 2690.97 103.41}
+	}
+	{Entity "sand_dark" 0x428b
+		{Position -2786.87 2676.7 93.96}
+	}
+	{Entity "rock03" 0x428c
+		{Position -3617.91 1591.2}
+		{xform zl -160.69 y 40.13 zw 157.14}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x428d
+		{Position -3674.43 1570.54}
+		{xform zl -125.01 y 21.48 zw 124.41}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x428e
+		{Position -3654.51 1622.91}
+		{xform zl -146.63 y 22.14 zw 147.16}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x428f
+		{Position -3613.77 1627.09}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x4290
+		{Position -3671.23 1536.5}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x4291
+		{Position -3686.34 1607.74}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x4292
+		{Position -3690.75 1606.7 67.95}
+	}
+	{Entity "sand_dark" 0x4293
+		{Position -3661.68 1592.43 69.94}
+	}
+	{Entity "rock03" 0x4294
+		{Position -3385.77 922.64}
+		{xform zl -165 y 16.38 zw 167.27}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x4295
+		{Position -3442.29 901.98}
+		{xform zl -144.7 y 9.63 zw 144.94}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x4296
+		{Position -3422.37 954.35}
+		{xform zl -124.27 y 9.31 zw 124.35}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x4297
+		{Position -3381.63 958.53}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x4298
+		{Position -3439.09 867.94}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x4299
+		{Position -3454.2 939.18}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x429a
+		{Position -3458.61 938.14 110}
+	}
+	{Entity "sand_dark" 0x429b
+		{Position -3429.54 923.87 114.98}
+	}
+	{Entity "rock03" 0x429c
+		{Position -2853.54 3530.59}
+		{xform zl -99.04 y 18.26 zw 103.81}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x429d
+		{Position -2910.06 3509.93}
+		{xform zl -137.22 y 12.38 zw 136.49}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x429e
+		{Position -2890.14 3562.3}
+		{xform zl -89.71 y 17.23 zw 90.28}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x429f
+		{Position -2849.4 3566.48}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x42a0
+		{Position -2906.86 3475.89}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x42a1
+		{Position -2921.97 3547.13}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x42a2
+		{Position -2926.38 3546.09 112.54}
+	}
+	{Entity "sand_dark" 0x42a3
+		{Position -2897.31 3531.82 119.59}
+	}
+	{Entity "rock03" 0x42a4
+		{Position -2096.57 3373.77}
+		{xform zl -148.9 y 19.54 zw 149.95}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x42a5
+		{Position -2153.09 3353.11}
+		{xform zl -125.85 y 11.13 zw 125.96}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x42a6
+		{Position -2133.17 3405.48}
+		{xform zl -133.37 y 7.88 zw 133.24}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x42a7
+		{Position -2092.43 3409.66}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x42a8
+		{Position -2149.89 3319.07}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x42a9
+		{Position -2165 3390.31}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x42aa
+		{Position -2169.41 3389.27 84.15}
+	}
+	{Entity "sand_dark" 0x42ab
+		{Position -2140.34 3375 86.49}
+	}
+	{Entity "rock03" 0x42ac
+		{Position -3553.81 2688.81}
+		{xform zl -151.68 y 26.93 zw 151.87}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x42ad
+		{Position -3610.33 2668.15}
+		{xform zl -133.9 y 12.34 zw 134.09}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x42ae
+		{Position -3590.41 2720.52}
+		{xform zl -147.7 y 7.91 zw 148.04}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x42af
+		{Position -3549.67 2724.7}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x42b0
+		{Position -3607.13 2634.11}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x42b1
+		{Position -3622.24 2705.35}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x42b2
+		{Position -3626.65 2704.31 65.07}
+	}
+	{Entity "sand_dark" 0x42b3
+		{Position -3597.58 2690.04 60.6}
+	}
+	{Entity "rock03" 0x42b4
+		{Position -1665.61 3326.5}
+		{xform zl -96.25 y 17.95 zw 97.74}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x42b5
+		{Position -1722.13 3305.84}
+		{xform zl -98.45 y 9.23 zw 98.3}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x42b6
+		{Position -1702.21 3358.21}
+		{xform zl -43.61 y 18.29 zw 44.3}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x42b7
+		{Position -1661.47 3362.39}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x42b8
+		{Position -1718.93 3271.8}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x42b9
+		{Position -1734.04 3343.04}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x42ba
+		{Position -1738.45 3342 32.55}
+	}
+	{Entity "sand_dark" 0x42bb
+		{Position -1709.38 3327.73 26.21}
+	}
+	{Entity "rock03" 0x42bc
+		{Position -733.51 1361.32}
+		{xform zl -143.88 y 45.32 zw 134.41}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x42bd
+		{Position -790.03 1340.66}
+		{xform zl -125.44 y 37.63 zw 116.95}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x42be
+		{Position -770.11 1393.03}
+		{xform zl -140.78 y 33.58 zw 133.42}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x42bf
+		{Position -729.37 1397.21}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x42c0
+		{Position -786.83 1306.62}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x42c1
+		{Position -801.94 1377.86}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x42c2
+		{Position -806.35 1376.82 7.83}
+	}
+	{Entity "sand_dark" 0x42c3
+		{Position -777.28 1362.55 -0.02}
+	}
+	{Entity "rock03" 0x42c4
+		{Position 2522.28 951.19}
+		{xform zl -136.29 y 24.03 zw 136.31}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x42c5
+		{Position 2465.76 930.53}
+		{xform zl 178.86 y 27.97 zw -174.03}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x42c6
+		{Position 2485.68 982.9}
+		{xform zl -169.11 y 28.05 zw 165.49}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x42c7
+		{Position 2526.42 987.08}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x42c8
+		{Position 2468.96 896.49}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x42c9
+		{Position 2453.85 967.73}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x42ca
+		{Position 2449.44 966.69 151.48}
+	}
+	{Entity "sand_dark" 0x42cb
+		{Position 2478.51 952.42 164.61}
+	}
+	{Entity "rock03" 0x42cc
+		{Position 3646.64 817.64}
+		{xform zl -134.15 y 13.55 zw 135.73}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x42cd
+		{Position 3590.12 796.98}
+		{xform zl -78.75 y 13.77 zw 79.49}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x42ce
+		{Position 3610.04 849.35}
+		{xform zl -52.41 y 15.16 zw 54.47}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x42cf
+		{Position 3650.78 853.53}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x42d0
+		{Position 3593.32 762.94}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x42d1
+		{Position 3578.21 834.18}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x42d2
+		{Position 3573.8 833.14 143.23}
+	}
+	{Entity "sand_dark" 0x42d3
+		{Position 3602.87 818.87 137.42}
+	}
+	{Entity "rock03" 0x42d4
+		{Position 3747.11 1554.69}
+		{xform zl -114.15 y 11.88 zw 116.95}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x42d5
+		{Position 3690.59 1534.03}
+		{xform zl 117.44 y 10.53 zw -116.29}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x42d6
+		{Position 3710.51 1586.4}
+		{xform zl -127.8 y 17.02 zw 126.73}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x42d7
+		{Position 3751.25 1590.58}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x42d8
+		{Position 3693.79 1499.99}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x42d9
+		{Position 3678.68 1571.23}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x42da
+		{Position 3674.27 1570.19 85.09}
+	}
+	{Entity "sand_dark" 0x42db
+		{Position 3703.34 1555.92 83.21}
+	}
+	{Entity "rock03" 0x42dc
+		{Position 3711.17 1977.18}
+		{xform zl -144.89 y 14.22 zw 146.12}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x42dd
+		{Position 3654.65 1956.52}
+		{xform zl 122.99 y 26.71 zw -121.86}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x42de
+		{Position 3674.57 2008.89}
+		{xform zl -145.42 y 9.74 zw 143.14}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x42df
+		{Position 3715.31 2013.07}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x42e0
+		{Position 3657.85 1922.48}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x42e1
+		{Position 3642.74 1993.72}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x42e2
+		{Position 3638.33 1992.68 113.69}
+	}
+	{Entity "sand_dark" 0x42e3
+		{Position 3667.4 1978.41 103.81}
+	}
+	{Entity "rock03" 0x42e4
+		{Position 3133.96 1660.55}
+		{xform zl -151.12 y 18.32 zw 152.26}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x42e5
+		{Position 3077.44 1639.89}
+		{xform zl -100.58 y 11.36 zw 101.92}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x42e6
+		{Position 3097.36 1692.26}
+		{xform zl -109.21 y 10.76 zw 109.15}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x42e7
+		{Position 3138.1 1696.44}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x42e8
+		{Position 3080.64 1605.85}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x42e9
+		{Position 3065.53 1677.09}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x42ea
+		{Position 3061.12 1676.05 127.2}
+	}
+	{Entity "sand_dark" 0x42eb
+		{Position 3090.19 1661.78 117.56}
+	}
+	{Entity "stone2" 0x42ec
+		{Position 2742.7 1484.27}
+		{xform zl 150.58 y 6.49 zw -149.26}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x42ed
+		{Position 2785.38 1585.64}
+		{xform zl 130.66 y 10.47 zw -131.94 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x42ee
+		{Position 2703.99 1471.52}
+		{xform zl 72.67 y 13.85 zw -70.61 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x42ef
+		{Position 2743.65 1591.95}
+		{xform zl 59.93 y 52.03 zw -66.13 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x42f0
+		{Position 2754.18 1570.28}
+		{xform zl 33.61 y 22.57 zw -32.1}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x42f1
+		{Position 3416.88 1626.37 89.85}
+	}
+	{Entity "stone4" 0x42f2
+		{Position 3361.2 1622.89 96.48}
+		{xform zl 46.7 y 30.72 zw -37.63}
+		{Constrain surface}
+	}
+	{Entity "stone6" 0x42f3
+		{Position 3366.97 1427.43}
+		{xform zl -99.42 y 17.59 zw 127.91}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x42f4
+		{Position 3321.81 1563.97}
+		{xform zl 72.51 y 30.23 zw -70.77 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x42f5
+		{Position 3337.09 1483.03}
+		{xform zl -131.56 y 8.49 zw 126.13 scale 2}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x42f6
+		{Position 3416.2 1501.77}
+		{xform zl -137.85 y 17.89 zw 138.9 scale 2}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x42f7
+		{Position 3346.52 1548.95}
+		{xform zl 27.18 y 11.33 zw -30.61}
+		{Constrain surface}
+	}
+	{Entity "stone_af" 0x42f8
+		{Position 3395.12 1508.28}
+		{xform zl -130.44 y 12.6 zw 132.98}
+		{Constrain surface}
+	}
+	{Entity "sand_dark" 0x42f9
+		{Position 2900.59 1167.69 118.52}
+	}
+	{Entity "stone4" 0x42fa
+		{Position 2835 1230.76 96.87}
+		{xform zl 134.53 y 2.35 zw -133.69}
+		{Constrain surface}
+	}
+	{Entity "stone6" 0x42fb
+		{Position 2887.05 1151.71 108.09}
+		{xform zl 171.93 y 17.49 zw -171.03}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x42fc
+		{Position 2791.7 1188.65}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x42fd
+		{Position 2874.67 1213.42}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x42fe
+		{Position 2920.05 1088.07}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x42ff
+		{Position 2816.41 1173.63}
+	}
+	{Entity "stone_af" 0x4300
+		{Position 2865.01 1132.96}
+	}
+	{Entity "rock03" 0x4301
+		{Position 3178.34 3058.13}
+		{xform zl -147.22 y 17.2 zw 147.59}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x4302
+		{Position 3121.82 3037.47}
+		{xform zl -160.04 y 13.19 zw 159.97}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x4303
+		{Position 3141.74 3089.84}
+		{xform zl -159.05 y 4.91 zw 159.98}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x4304
+		{Position 3182.48 3094.02}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x4305
+		{Position 3125.02 3003.43}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x4306
+		{Position 3109.91 3074.67}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x4307
+		{Position 3105.5 3073.63 -55.97}
+	}
+	{Entity "sand_dark" 0x4308
+		{Position 3108.51 3055.62 -55.03}
+	}
+	{Entity "rock03" 0x4309
+		{Position 1065.42 3551.15}
+		{xform zl -150.4 y 25.42 zw 150.23}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x430a
+		{Position 1008.9 3530.49}
+		{xform zl -170.62 y 17.04 zw 171.37}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x430b
+		{Position 1028.82 3582.86}
+		{xform zl -166.95 y 9.85 zw 168.01}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x430c
+		{Position 1069.56 3587.04}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x430d
+		{Position 1012.1 3496.45}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x430e
+		{Position 996.99 3567.69}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x430f
+		{Position 992.58 3566.65 -130.89}
+	}
+	{Entity "sand_dark" 0x4310
+		{Position 995.59 3548.64 -129.43}
+	}
+	{Entity "rock03" 0x4311
+		{Position -179.52 2845.75}
+		{xform zl -142.07 y 20.83 zw 141.8}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x4312
+		{Position -236.04 2825.09}
+		{xform zl -145.62 y 10.54 zw 145.49}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x4313
+		{Position -216.12 2877.46}
+		{xform zl -106.91 y 9.79 zw 107.31}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x4314
+		{Position -175.38 2881.64}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x4315
+		{Position -232.84 2791.05}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x4316
+		{Position -247.95 2862.29}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x4317
+		{Position -252.36 2861.25 -1.97}
+	}
+	{Entity "sand_dark" 0x4318
+		{Position -249.35 2843.24 -2.03}
+	}
+	{Entity "rock03" 0x4319
+		{Position 1633.61 1801.34}
+		{xform zl -140.27 y 21.62 zw 137.86}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x431a
+		{Position 1577.09 1780.68}
+		{xform zl -167.63 y 11.91 zw 166.62}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x431b
+		{Position 1597.01 1833.05}
+		{xform zl -140.61 y 6.48 zw 139.74}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x431c
+		{Position 1637.75 1837.23}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x431d
+		{Position 1580.29 1746.64}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x431e
+		{Position 1565.18 1817.88}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x431f
+		{Position 1560.77 1816.84 -2.62}
+	}
+	{Entity "sand_dark" 0x4320
+		{Position 1563.78 1798.83 -2.03}
+	}
+	{Entity "rock03" 0x4321
+		{Position 1825.72 2819.38}
+		{xform zl -143.09 y 26.64 zw 141.62}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x4322
+		{Position 1769.2 2798.72}
+		{xform zl 131.66 y 5.46 zw -131.76}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x4323
+		{Position 1789.12 2851.09}
+		{xform zl -122.54 y 11.67 zw 122.53}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x4324
+		{Position 1829.86 2855.27}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x4325
+		{Position 1772.4 2764.68}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x4326
+		{Position 1757.29 2835.92}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x4327
+		{Position 1752.88 2834.88 -59.41}
+	}
+	{Entity "sand_dark" 0x4328
+		{Position 1755.89 2816.87 -58.66}
+	}
+	{Entity "rock03" 0x4329
+		{Position -358.49 3573.41}
+		{xform zl -146.3 y 22.73 zw 145.06}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x432a
+		{Position -415.01 3552.75}
+		{xform zl 138 y 3.67 zw -138.71}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x432b
+		{Position -395.09 3605.12}
+		{xform zl 153.94 y 4.79 zw -153.92}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x432c
+		{Position -354.35 3609.3}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x432d
+		{Position -411.81 3518.71}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x432e
+		{Position -426.92 3589.95}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x432f
+		{Position -431.33 3588.91 -72.94}
+	}
+	{Entity "sand_dark" 0x4330
+		{Position -428.32 3570.9 -72.19}
+	}
+	{Entity "rock03" 0x4331
+		{Position 691.63 2677.75}
+		{xform zl -143.01 y 27.96 zw 141.24}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x4332
+		{Position 635.11 2657.09}
+		{xform zl 169.74 y 3.66 zw -169.89}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x4333
+		{Position 655.03 2709.46}
+		{xform zl -114.73 y 8.15 zw 114.53}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x4334
+		{Position 695.77 2713.64}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x4335
+		{Position 638.31 2623.05}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x4336
+		{Position 623.2 2694.29}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x4337
+		{Position 618.79 2693.25 -18.24}
+	}
+	{Entity "sand_dark" 0x4338
+		{Position 621.8 2675.24 -17.09}
+	}
+	{Entity "rock03" 0x4339
+		{Position 3725.17 3748.6}
+		{xform zl -144.43 y 29.33 zw 142.19}
+		{Constrain surface}
+	}
+	{Entity "rock07" 0x433a
+		{Position 3668.65 3727.94}
+		{xform zl -172.48 y 5.48 zw 172.73}
+		{Constrain surface}
+	}
+	{Entity "stone10" 0x433b
+		{Position 3688.57 3780.31}
+		{xform zl -139.97 y 15.89 zw 139.7}
+		{Constrain surface}
+	}
+	{Entity "desert_bush" 0x433c
+		{Position 3729.31 3784.49}
+		{xform scale 2}
+	}
+	{Entity "desert_bush" 0x433d
+		{Position 3671.85 3693.9}
+		{xform scale 2}
+	}
+	{Entity "desert_bush_2" 0x433e
+		{Position 3656.74 3765.14}
+		{xform scale 2}
+	}
+	{Entity "stone_af" 0x433f
+		{Position 3652.33 3764.1 -113.97}
+	}
+	{Entity "sand_dark" 0x4340
+		{Position 3655.34 3746.09 -114.31}
+	}
+	{Entity "beachtracks" 0x4341
+		{Position 257.88 1969.71}
+	}
+	{Entity "beachtracks" 0x4342
+		{Position 143.56 1986.52 -49.2}
+	}
+	{Entity "beachtracks" 0x4343
+		{Position 41.55 2058.92}
+	}
+	{Entity "beachtracks" 0x4344
+		{Position 521.24 1942.07}
+	}
+	{Entity "beachtracks" 0x4345
+		{Position 1801.14 1248.41 -52.53}
+	}
+	{Entity "beachtracks" 0x4346
+		{Position 1782 1059.34 -31.01}
+	}
+	{Entity "beachtracks" 0x4347
+		{Position 1845.8 969.68}
+	}
+	{Entity "beachtracks" 0x4348
+		{Position 1951.53 -2568.48}
+	}
+	{Entity "beachtracks" 0x4349
+		{Position 1836.23 -2536.89}
+	}
+	{Entity "beachtracks" 0x434a
+		{Position 1689.22 -2427.7 -28.69}
+	}
+	{Entity "beachtracks" 0x434b
+		{Position 1559.67 -2347.66}
+	}
+	{Entity "beachtracks" 0x434c
+		{Position 1242.34 1672.58}
+	}
+	{Entity "beachtracks" 0x434d
+		{Position 1407.37 1540.54}
+	}
+	{Entity "beachtracks" 0x434e
+		{Position 1598.53 1515.28}
+	}
+	{Entity "beachtracks" 0x434f
+		{Position 1328.4 1599.36}
+	}
+	{Entity "beachtracks" 0x4350
+		{Position 1481.57 1471.65}
+	}
+	{Entity "beachtracks" 0x4351
+		{Position 1128.21 1796.67}
+	}
+	{Entity "beachtracks" 0x4352
+		{Position 1008.46 1817.52}
+	}
+	{Entity "trace_waves1" 0x2087
+		{Position 1863.2 2230.58}
+	}
+	{Entity "trace_waves1" 0x2088
+		{Position 2117.25 2271.1}
+		{xform zl 20}
+	}
+	{Entity "trace_waves1" 0x2089
+		{Position 2360.2 3209.44}
+	}
+	{Entity "trace_waves1" 0x208a
+		{Position 2614.25 3249.96}
+		{xform zl 20}
+	}
+	{Entity "trace_waves1" 0x208b
+		{Position 261.57 3026.08}
+		{xform zl -20}
+	}
+	{Entity "trace_waves1" 0x208c
+		{Position 477.25 2994.41}
+	}
+	{Entity "trace_waves1" 0x208d
+		{Position 720.97 3033.21}
+		{xform zl 20}
+	}
+	{Entity "netting" 0x30d
+		{Position 336.85 577.34}
+		{xform zl 85 scale 0.9}
+	}
+	{Entity "n1_af_w3" 0x24e
+		{Volume "hole1"
+			{able {touch 0}}
+		}
+	}
+	{Link 0x1033 {0x1024 "w1"}}
+	{Link 0x1c1 {0x1c0 "side1"}}
+	{Link 0x1c3 {0x1c0 "side2"}}
+	{Link 0x40ed {0x40fd "w1"}}
+	{Link 0x24e {0x40fd "w3"}}
+}

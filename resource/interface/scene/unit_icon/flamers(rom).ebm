@@ -1,0 +1,6 @@
+{bitmap
+	{frame "flamer(rom)_00.tga"}
+	{frame "flamer(rom)_01.tga"}
+	{frame "flamer(rom)_02.tga"}
+	{frame "flamer(rom)_03.tga"}
+}

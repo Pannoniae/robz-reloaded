@@ -1,0 +1,6 @@
+{bitmap
+	{frame "smg(rom)_00.tga"}
+	{frame "smg(rom)_01.tga"}
+	{frame "smg(rom)_02.tga"}
+	{frame "smg(rom)_03.tga"}
+}

@@ -1,0 +1,6 @@
+{bitmap
+	{frame "sdkfz8_flak_00.tga"}
+	{frame "sdkfz8_flak_01.tga"}
+	{frame "sdkfz8_flak_02.tga"}
+	{frame "sdkfz8_flak_03.tga"}
+}

@@ -1,0 +1,6 @@
+{material "gui.progress"
+	{diffuse "progress"
+		{NoCompression}
+	}
+	{blend mod2x}
+}

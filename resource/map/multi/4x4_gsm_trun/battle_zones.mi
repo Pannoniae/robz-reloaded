@@ -1,0 +1,1011 @@
+{mission
+	{Entity "flag_point" 0x802f
+		{Position 185.45 -3198.96}
+		{Extender "map_point"
+			{name f1}
+			{zoneA 20}
+			{zoneB 20}
+			{phase 0}
+			{order 1}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{capture "b" "a"}
+				{release "b" "a"}
+			}
+		}
+		{Player 0}
+		{MID 48}
+	}
+	{Entity "map_point" 0xc000
+		{Position 5717.72 -733.42}
+		{xform zl 175.26}
+		{Extender "map_point"
+			{name a1}
+			{team a}
+			{phase 0}
+			{order 1}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 1}
+	}
+	{Entity "map_point" 0x8014
+		{Position 5681.89 -1412.19}
+		{xform zl 179.82}
+		{Extender "map_point"
+			{name a3}
+			{team a}
+			{phase 0}
+			{order 3}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 20}
+	}
+	{Entity "map_point" 0xc001
+		{Position 5589.71 -2783.85}
+		{xform zl -166.43}
+		{Extender "map_point"
+			{name a2}
+			{team a}
+			{phase 0}
+			{order 2}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 21}
+	}
+	{Entity "birds" 0xc402
+		{Position -468.13 -3793.58}
+	}
+	{Entity "birds" 0xc404
+		{Position 983.62 -1673.57}
+	}
+	{Entity "birds" 0xc405
+		{Position 284.02 4121.82}
+	}
+	{Entity "birds" 0xc406
+		{Position -1677.89 4747.17 -5.15}
+	}
+	{Entity "waterrun" 0xe802
+		{Position 4455.31 -112.83 65.53}
+		{Extender "speaker"
+			{SoundName "world/water/05"}
+		}
+	}
+	{Entity "waterrun" 0x8000
+		{Position 5187.31 -65.01 -65.38}
+		{Extender "speaker"
+			{SoundName "world/water/05"}
+		}
+	}
+	{Entity "waterrun" 0x8001
+		{Position 3749.58 446.17 -15.47}
+		{Extender "speaker"
+			{SoundName "world/water/03"}
+		}
+	}
+	{Entity "birds" 0x8003
+		{Position -3719.92 2954.39 139.86}
+		{Extender "speaker"
+			{SoundName "world/birds/07"}
+		}
+	}
+	{Entity "birds" 0x8004
+		{Position -4196.21 -2112.61 52.29}
+		{Extender "speaker"
+			{SoundName "world/birds/00"}
+		}
+	}
+	{Entity "birds" 0x800a
+		{Position -1376.27 -3723.34 106.08}
+		{Extender "speaker"
+			{SoundName "world/birds/00"}
+		}
+	}
+	{Entity "birds" 0xa000
+		{Position 291.51 -4856.55 51.75}
+		{Extender "speaker"
+			{SoundName "world/village/00"}
+		}
+	}
+	{Entity "birds" 0xa001
+		{Position -2242.87 -1393.51 154.02}
+		{Extender "speaker"
+			{SoundName "world/village/01"}
+		}
+	}
+	{Entity "chicken" 0x8021
+		{Position 350.29 954.85}
+		{xform zl 114.24}
+		{Player 0}
+		{MID 28}
+	}
+	{Entity "chicken" 0x8022
+		{Position 353.75 -503.05}
+		{xform zl -112.33}
+		{Player 0}
+		{MID 29}
+	}
+	{Entity "chicken" 0x8025
+		{Position 388.9 915.32}
+		{xform zl -13.38}
+		{Player 0}
+		{MID 32}
+	}
+	{Entity "chicken" 0x8027
+		{Position 372.21 936.88}
+		{xform zl 16.69}
+		{TexMod "1"}
+		{Player 0}
+		{MID 34}
+	}
+	{Entity "chicken" 0x8029
+		{Position 373.26 901.87}
+		{xform zl -50.36}
+		{Player 0}
+		{MID 36}
+	}
+	{Entity "chicken" 0xc004
+		{Position 323.85 951.55}
+		{xform zl 153.18}
+		{Player 0}
+		{MID 30}
+	}
+	{Entity "chicken" 0xc005
+		{Position 376.17 -481.81}
+		{xform zl 63.07}
+		{Player 0}
+		{MID 31}
+	}
+	{Entity "chicken" 0xc009
+		{Position 375.79 915.03}
+		{xform zl -51.78}
+		{TexMod "1"}
+		{Player 0}
+		{MID 35}
+	}
+	{Entity "chicken" 0xc00b
+		{Position 338.77 908.06}
+		{xform zl -152.61}
+		{Player 0}
+		{MID 37}
+	}
+	{Entity "chicken" 0xc00f
+		{Position 349.06 899.52}
+		{xform zl -126.81}
+		{TexMod "2"}
+		{Player 0}
+		{MID 40}
+	}
+	{Entity "chicken" 0xc010
+		{Position 368.83 954.65}
+		{xform zl 36.55}
+		{Player 0}
+		{MID 41}
+	}
+	{Entity "chicken" 0xc013
+		{Position 374.4 -462.61}
+		{xform zl -16.32}
+		{Player 0}
+		{MID 44}
+	}
+	{Entity "chicken" 0x800f
+		{Position 357.08 -476.41}
+		{xform zl -15.12}
+		{Player 0}
+		{MID 4}
+	}
+	{Entity "chicken" 0x8015
+		{Position 356.87 873.65}
+		{xform zl -98.64}
+		{TexMod "2"}
+		{Player 0}
+		{MID 6}
+	}
+	{Entity "chicken" 0x8016
+		{Position 356.21 -488.12}
+		{xform zl -52.62}
+		{TexMod "2"}
+		{Player 0}
+		{MID 7}
+	}
+	{Entity "chicken" 0x8017
+		{Position 336.21 953.1}
+		{xform zl 68.6}
+		{Player 0}
+		{MID 10}
+	}
+	{Entity "chicken" 0x8018
+		{Position 330.94 931.67}
+		{xform zl 169.48}
+		{Player 0}
+		{MID 12}
+	}
+	{Entity "chicken" 0x8019
+		{Position 361.95 896.57}
+		{xform zl 14.11}
+		{Player 0}
+		{MID 13}
+	}
+	{Entity "chicken" 0x801a
+		{Position 384.82 905.34}
+		{xform zl -49.51}
+		{Player 0}
+		{MID 16}
+	}
+	{Entity "chicken" 0x801b
+		{Position 357.08 -458.87}
+		{xform zl -15.24}
+		{Player 0}
+		{MID 19}
+	}
+	{Entity "chicken" 0x801c
+		{Position 347.82 937.15}
+		{xform zl 173.09}
+		{Player 0}
+		{MID 22}
+	}
+	{Entity "chicken" 0x801d
+		{Position 357.08 926.82}
+		{xform zl 10.72}
+		{Player 0}
+		{MID 24}
+	}
+	{Entity "chicken" 0x801e
+		{Position 357.08 -1249.67}
+		{xform zl -28.44}
+		{Player 0}
+		{MID 25}
+	}
+	{Entity "chicken" 0x801f
+		{Position 392.92 929.4}
+		{xform zl 6.09}
+		{Player 0}
+		{MID 26}
+	}
+	{Entity "chicken" 0x8020
+		{Position 251.52 -1800.72}
+		{xform zl -37.31}
+		{Player 0}
+		{MID 27}
+	}
+	{Entity "chicken" 0xc00c
+		{Position 359.79 963.39}
+		{xform zl 85.76}
+		{Player 0}
+		{MID 38}
+	}
+	{Entity "chicken" 0xc00e
+		{Position 369.69 -473.47}
+		{xform zl 13.54}
+		{TexMod "2"}
+		{Player 0}
+		{MID 39}
+	}
+	{Entity "chicken" 0xc011
+		{Position 339.1 -462.56}
+		{xform zl 152.35}
+		{Player 0}
+		{MID 42}
+	}
+	{Entity "chicken" 0xc014
+		{Position 349.09 -447.34}
+		{xform zl 121.06}
+		{Player 0}
+		{MID 47}
+	}
+	{Entity "chicken" 0xc015
+		{Position 345.41 -487.34}
+		{xform zl -115.93}
+		{Player 0}
+		{MID 50}
+	}
+	{Entity "chicken" 0xc016
+		{Position 330.35 -476.57}
+		{xform zl -166.43}
+		{Player 0}
+		{MID 52}
+	}
+	{Entity "chicken" 0xc017
+		{Position 368.53 -447.59}
+		{xform zl 47.75}
+		{Player 0}
+		{MID 53}
+	}
+	{Entity "chicken" 0xc018
+		{Position 353.04 914.33}
+		{xform zl -122.78}
+		{Player 0}
+		{MID 54}
+	}
+	{Entity "chicken" 0xc019
+		{Position 372.38 -495.85}
+		{xform zl -46.05}
+		{Player 0}
+		{MID 55}
+	}
+	{Entity "map_point" 0xb000
+		{Position 5587.76 -2199.58}
+		{xform zl -175.09}
+		{Extender "map_point"
+			{name a4}
+			{team a}
+			{phase 0}
+			{order 4}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 2}
+	}
+	{Entity "map_point" 0xb008
+		{Position -5733.38 927.74}
+		{xform zl -21.96}
+		{Extender "map_point"
+			{name b1}
+			{team b}
+			{phase 0}
+			{order 1}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 18}
+	}
+	{Entity "map_point" 0xb009
+		{Position -6076.18 -867.57}
+		{xform zl -32.84}
+		{Extender "map_point"
+			{name b3}
+			{team b}
+			{phase 0}
+			{order 3}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 23}
+	}
+	{Entity "map_point" 0xb00a
+		{Position -5917.18 399.22}
+		{xform zl -22.93}
+		{Extender "map_point"
+			{name b2}
+			{team b}
+			{phase 0}
+			{order 2}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 46}
+	}
+	{Entity "map_point" 0xb00b
+		{Position -6010.57 -51.11}
+		{xform zl -20.19}
+		{Extender "map_point"
+			{name b4}
+			{team b}
+			{phase 0}
+			{order 4}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 49}
+	}
+	{Entity "birds" 0x8006
+		{Position 1041.03 1092.46 90.29}
+	}
+	{Entity "birds" 0x8008
+		{Position -1129.9 -1285.41 87.29}
+		{Extender "speaker"
+			{SoundName "world/village"}
+		}
+	}
+	{Entity "flag_point" 0x8009
+		{Position 221.42 -189.23}
+		{Extender "map_point"
+			{name f2}
+			{zoneA 20}
+			{zoneB 20}
+			{phase 0}
+			{order 1}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{capture "b" "a"}
+				{release "b" "a"}
+			}
+		}
+		{Player 0}
+		{MID 8}
+	}
+	{Entity "flag_point" 0x800c
+		{Position 199.1 3154.69}
+		{Extender "map_point"
+			{name f3}
+			{zoneA 20}
+			{zoneB 20}
+			{phase 0}
+			{order 1}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{capture "b" "a"}
+				{release "b" "a"}
+			}
+		}
+		{Player 0}
+		{MID 33}
+	}
+	{Entity "flag_point" 0x800e
+		{Position -1642.73 -1600.66}
+		{Extender "map_point"
+			{name f4}
+			{zoneA 20}
+			{zoneB 20}
+			{phase 0}
+			{order 1}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{capture "b" "a"}
+				{release "b" "a"}
+			}
+		}
+		{Player 0}
+		{MID 43}
+	}
+	{Entity "flag_point" 0x8011
+		{Position -1728.1 1708.56}
+		{Extender "map_point"
+			{name f5}
+			{zoneA 20}
+			{zoneB 20}
+			{phase 0}
+			{order 1}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{capture "b" "a"}
+				{release "b" "a"}
+			}
+		}
+		{Player 0}
+		{MID 45}
+	}
+	{Entity "flag_point" 0x8013
+		{Position 2285.15 -1750.46}
+		{Extender "map_point"
+			{name f7}
+			{zoneA 20}
+			{zoneB 20}
+			{phase 0}
+			{order 1}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{capture "b" "a"}
+				{release "b" "a"}
+			}
+		}
+		{Player 0}
+		{MID 56}
+	}
+	{Entity "flag_point" 0x8024
+		{Position 2155.1 1561.42}
+		{Extender "map_point"
+			{name f6}
+			{zoneA 20}
+			{zoneB 20}
+			{phase 0}
+			{order 1}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{capture "b" "a"}
+				{release "b" "a"}
+			}
+		}
+		{Player 0}
+		{MID 57}
+	}
+	{Tags "keep_places_without_door" 0x1401}
+	{Tags "keep_places_without_door" 0x4c0d}
+	{Tags "keep_places_without_door" 0x1c00}
+	{Tags "switch_left" 0x5001}
+	{Tags "keep_places_without_door" 0x3400}
+	{Tags "keep_places_without_door" 0x3c00}
+	{Tags "keep_places_without_door" 0x1007}
+	{Tags "switch_right" {0x1007 "1"}}
+	{Tags "keep_places_without_door" 0x814}
+	{Tags "keep_places_without_door" 0x4407}
+	{Tags "keep_places_without_door" 0x6019}
+	{Tags "keep_places_without_door" 0x402c}
+	{Tags "keep_places_without_door" 0x404a}
+	{Tags "keep_places_without_door" 0x7001}
+	{Tags "keep_places_without_door" 0x4c6f}
+	{Tags "keep_places_without_door" 0x4c7d}
+	{Tags "keep_places_without_door" 0x4c8b}
+	{Tags "keep_places_without_door" 0x2800}
+	{Tags "keep_places_without_door" 0x2845}
+	{Tags "keep_places_without_door" 0x285f}
+	{Tags "keep_places_without_door" 0x287d}
+	{Tags "keep_places_without_door" 0x28a6}
+	{Tags "keep_places_without_door" 0x5826}
+	{Tags "keep_places_without_door" 0x4a}
+	{Tags "keep_places_without_door" 0x132}
+	{Tags "keep_places_without_door" 0x6027}
+	{Tags "keep_places_without_door" 0x179}
+	{Tags "keep_places_without_door" 0x54a}
+	{Tags "keep_places_without_door" 0x60ff}
+	{Tags "keep_places_without_door" 0x5535}
+	{Tags "keep_places_without_door" 0x21cc}
+	{Tags "keep_places_without_door" 0x21d1}
+	{Tags "keep_places_without_door" 0x4bdd}
+	{Tags "keep_places_without_door" 0x4e1c}
+	{Tags "keep_places_without_door" 0x4e2e}
+	{Tags "keep_places_without_door" 0x4e44}
+	{Tags "keep_places_without_door" 0x152a}
+	{Tags "keep_places_without_door" 0x5ba4}
+	{Brain 0x8021
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Brain 0x8022
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Brain 0x8025
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Brain 0x8027
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Brain 0x8029
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Brain 0xc004
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Brain 0xc005
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Brain 0xc009
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Brain 0xc00b
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Brain 0xc00f
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Brain 0xc010
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Brain 0xc013
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Brain 0x800f
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Brain 0x8015
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Brain 0x8016
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Brain 0x8017
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Brain 0x8018
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Brain 0x8019
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Brain 0x801a
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Brain 0x801b
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Brain 0x801c
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Brain 0x801d
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Brain 0x801e
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Brain 0x801f
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Brain 0x8020
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Brain 0xc00c
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Brain 0xc00e
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Brain 0xc011
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Brain 0xc014
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Brain 0xc015
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Brain 0xc016
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Brain 0xc017
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Brain 0xc018
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Brain 0xc019
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Environment "multi/multi_01"}
+	{Helpers
+		{reinforcements
+			{scoreTotal 0}
+			{scoreCurrent 0}
+		}
+		{triggers
+			{"environment"
+				{condition
+				}
+				{actions
+					{"switch"
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_10"}
+							}
+							{"delete"
+								{selector
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_09"}
+							}
+							{"delete"
+								{selector
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{amount 1
+									}
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_08"}
+							}
+							{"delete"
+								{selector
+									{amount 2
+									}
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_07"}
+							}
+							{"delete"
+								{selector
+									{amount 2
+									}
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_06"}
+							}
+							{"delete"
+								{selector
+									{amount 2
+									}
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_05"}
+							}
+							{"delete"
+								{selector
+									{amount 2
+									}
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_04"}
+							}
+							{"delete"
+								{selector
+									{amount 2
+									}
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_03"}
+							}
+							{"delete"
+								{selector
+									{amount 2
+									}
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_02"}
+							}
+							{"delete"
+								{selector
+									{amount 2
+									}
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{"default"
+							{"environment"
+								{name "multi/multi_01"}
+							}
+							{"delete"
+								{selector
+									{amount 2
+									}
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	{Players
+		{count 17}
+		{diplomacy
+			1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+		}
+	}
+	{Fog 1}
+	{EntityManager {Enabled}
+		{CountScale "x0.5"}
+	}
+}
