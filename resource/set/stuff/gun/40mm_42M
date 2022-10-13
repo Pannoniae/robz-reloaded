@@ -1,0 +1,34 @@
+{from "pattern gun"		; "Toldi2" , "Turan 1"
+	{filling "bullet40"}
+	{fireSound "gun/40mm_42m"}
+	{reloadSound "pak35"}
+	{rechargeTime 4}
+    
+    {range 170 170}
+
+	;("37-57caliber" speed(750) cal(40))
+    ("speed_all" ap(762) apcr(1030) fg(700) heat(110))
+
+	;("damage" a(70) b(63) c(55) d(48) e(41))
+    ("caliber_minimum")     
+	{projectileDamage 70}	
+	("damage_170" a(70) b(63) c(55) d(48) e(41) range(170))
+
+	;("damage_apcr" ta(95) tb(83) tc(70) td(58) te(46)) 
+
+	{parameters "apcr"
+        ("damage_100" a(93) b(76) c(63) d(11) e(5) range(160))
+        {range 160 160}
+	}
+	{parameters "fg"
+        {range 150 150}
+	}
+    
+    {parameters "heat"
+	   	("damage_heat" a(210) range(90))
+		{range 90 90}
+		{rechargeTime 12}
+	}
+	
+	("accuracy_low")
+}

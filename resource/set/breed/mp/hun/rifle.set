@@ -1,0 +1,55 @@
+{breed
+	{skin "hun_rifle"}
+	{portrait "hun_soldier2"}
+	{nationality hun}
+	{icon "riflemans"}
+	{icon_priority 0}
+	{armors
+		{head "helmet1_hun"}
+	}
+	{perks
+		{"health" "125%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "100%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.8
+		}
+		{"tank"	0.8
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		{"pistol" none
+		}
+		{"smg" none
+		}
+		{"mgun" none
+		}
+		{"rifle" basic
+		}
+		{"rocketlauncher" none
+		}
+		{"melee" basic
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "feg_35m" filled}
+		{item "ammo rifle" 44}
+		{item "bandage" 4}
+		{item "grenade hungarian_42m" 1}
+		{item "grenade molotov_coctail" 2}
+		{item "sandbag_kit" 1}
+		{in_hands 0}
+	}
+}

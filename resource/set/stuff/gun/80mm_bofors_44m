@@ -1,0 +1,12 @@
+{from "80mm_bofors"     ; Tas44 vet
+	{filling "bullet80 ger"}
+	{fireSound "gun/85to100_cal/93mm_vickers"}
+	{reloadSound "gun_r03"}
+	{rechargeTime 7}
+	("range_medium")  
+	("speed" s(750))
+	("caliber_medium")
+	{projectileDamage 111}
+	("damage" a(110) b(99) c(92) d(83) e(74))
+	("accuracy_medium")
+}

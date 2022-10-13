@@ -1,0 +1,11 @@
+{from "105mm_stuh42"		; "stuh42"
+	{rechargeTime 13.6}
+	{range 200 200}
+	("damage_170" a(78) b(73) c(67) d(62) e(57) range(200))
+	{parameters "heat"
+		("damage_heat" a(115) range(200))
+	}
+	("accuracy_grazinghowitzer_high_200m")
+}
+
+

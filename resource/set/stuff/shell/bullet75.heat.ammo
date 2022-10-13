@@ -1,0 +1,17 @@
+{from "pattern heat"
+	{tag "big" "size2" "heat" "size_medium" "pierce"}
+	{inventory
+		{size 5 1}
+		{weight 100}
+		{fsm "stuff"}
+	}
+
+	{mass 11.9}
+	("heat" args 0.78)
+	{entity "shell_heat_75"}
+
+	{damage blastwave    
+		{energy 0.6}
+		{area 3 4}
+	}
+}

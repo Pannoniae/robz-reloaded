@@ -1,0 +1,24 @@
+{from "pattern he"
+	{tag "size_minimum"}
+	{inventory
+		{weight 25}
+		{size 2 2}
+		{block 5}
+		{fsm "stuff"}
+	}
+	{mass 1.2}
+
+	{entity "he_20mm"}
+
+	("fg_light" args 1.75)
+
+	{trace
+		{view "/texture/fx/trace_zenite2"
+			{ScaleY 0.30}
+			{Light 2}
+		}
+		{length 4}
+	}
+
+
+}

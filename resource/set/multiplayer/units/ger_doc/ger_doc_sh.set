@@ -1,0 +1,28 @@
+;----- Germany -----
+
+("squad_with7types_doc" side(ger) doc(ger_doc_sh) name(stormtroopers_44) c(60) g(squad_1) c1(sturmovik_sl:1) c2(sturmovik_sl_asst:1) c3(sturmovik_pzfst_stg:1) c4(sturmovik_pzfst:1) c5(sturmovik2:1) c6(sturmovik6:2) c7(sturmovik6b:2) b(squad1) t(doc) level(1) cost(230) f(1.0))
+("squad_with8types_vehicle_doc" side(ger) doc(ger_doc_sh) name(stormtroopers_btr) c(240) g(squad_2) v1(np_sdkfz251_1) c1(tankman:1) c2(sturmovik_sl:1) c3(sturmovik_sl_asst:1) c4(sturmovik_pzfst_stg:1) c5(sturmovik_pzfst:1) c6(sturmovik2:1) c7(sturmovik6:2) c8(sturmovik6b:2) b(squad1) t(doc) level(1) cost(280) f(0.0))
+
+("squad_with1types_doc" side(ger) doc(ger_doc_sh) name(tankmans) c(0) g(soldier_1) c1(tankman:4) b(squad1) t(tankmans doc) level(1) cost(40) f(-1.0))
+("squad_with2types_doc" side(ger) doc(ger_doc_sh) name(elite_tankmans) c(0) g(soldier_2) c1(vet_tankman2:1) c2(vet_tankman:4) b(squad1) t(tankmans doc) level(1) cost(100) f(-1.0))
+
+("squad_with1types_doc" side(ger) doc(ger_doc_sh) name(officers) c(150) g(soldier_3) c1(oficer_panzer:1) b(squad2) t(officer doc) level(1) cost(350) f(0))
+
+;°°°Button 1°°°
+{"blitz3_6art(sh)"   	("vs_ger" c(0) v1(blitz3_6art) t(doc) s(ger_doc_sh) n(2) g(b1) b(v1)) {level 1} {cost 300} {fore 0.0}}		;0sec
+{"sdkfz251_1(sh)"    	("vs_ger" c(10) v1(sdkfz251_1) t(doc) s(ger_doc_sh) n(2) g(b2) b(v1)) {level 1} {cost 150} {fore -29.0}}	;300sec
+
+;°°°Button support 2°°° artillery guns
+{"wespe(sh)"            ("v_ger" c(60) v1(wespe) t(doc) s(ger_doc_sh) n1(3) n2(1) g(cc1) b(v22)) {level 1} {cost 750} {fore -14.0}}		;900sec
+{"sdkfz4(sh)"           ("v_ger" c(60) v1(sdkfz4) t(doc) s(ger_doc_sh) n1(2) n2(0) g(cc2) b(v22)) {level 1} {cost 750} {fore -19.0}}	;1200sec
+
+;°°°Button 3°°°
+{"pz2l(sh)"   			("v_ger" c(10) v1(pz2l) t(doc) s(ger_doc_sh) n1(2) n2(1) g(v1) b(v3)) {level 1} {cost 250} {fore -59.0}} 		;600sec
+{"sdkfz234(sh)"   		("v_ger" c(10) v1(sdkfz234) t(doc) s(ger_doc_sh) n1(2) n2(1) g(v2) b(v3)) {level 1} {cost 350} {fore -89.0}} 	;900sec
+
+;°°°Button 4°°°
+{"stuh42(sh)"   		("v_ger" c(10) v1(stuh42) t(doc) s(ger_doc_sh) n1(4) n2(1) g(e1) b(v4)) {level 1} {cost 600} {fore -149.0}}	;1500sec
+{"stug3g(sh)"  			("v_ger" c(10) v1(stug3g) t(doc) s(ger_doc_sh) n1(3) n2(1) g(e2) b(v4)) {level 1} {cost 700} {fore -149.0}}	;1500sec
+
+{"pz5g(sh)"  			("v_ger" c(750) v1(pz5g) t(doc) s(ger_doc_sh) n1(4) n2(1) g(e3) b(v4)) {level 1} {cost 1600} {fore -2.0}}			;2250sec
+{"pz5g_veteran(sh)"  	("v_ger_vet" c(1200) v1(pz5g_veteran) t(doc) s(ger_doc_sh) n1(4) n2(1) g(e4) b(v4)) {level 1} {cost 1750} {fore -1.0}} ;2400sec

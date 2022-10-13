@@ -1,0 +1,7 @@
+{from "breda_37"
+	{filling "ammo mgun" 40}
+        {reloadSound "breda30x2_reload"}
+
+        {rechargeTime 4}
+	("rof" r(700))
+}

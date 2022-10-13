@@ -1,0 +1,19 @@
+;----- USA -----
+
+("squad_with4types_doc" side(usa) doc(usa_doc_td) name(riflemans) c(120) g(squad_1) c1(armor_squadleader:1) c2(armor_rifle:9) c3(armor_rifle_grenadier:1) c4(armor_bazooker:1) b(squad1) t(doc) level(1) cost(200) f(1.0))
+
+("squad_with1types_doc" side(usa) doc(usa_doc_td) name(tankmans) c(0) g(soldier_1) c1(tankman:4) b(squad1) t(tankmans doc) level(1) cost(40) f(-1.0))
+
+("squad_with1types_doc" side(usa) doc(usa_doc_td) name(officers) c(0) g(soldier_2) c1(oficer_armor:1) b(squad1) t(officer doc) level(1) cost(350) f(-1.0))
+
+;같캛utton 1같�
+
+{"gmc_art(td)"      ("vs_usa" c(0) v1(gmc_art) t(doc) s(usa_doc_td) n(2) g(b1) b(v1)) {level 1} {cost 300} {fore 0.0}}		;0sec
+
+;같캛utton support 4같� artillery guns
+
+{"np_t48(td)"     	("vs_usa" c(10) v1(np_t48) t(doc) s(usa_doc_td) n(4) g(f1) b(v5)) {level 1} {cost 400} {fore -89.0}}	;900sec
+{"m18(td)"     		("v_usa" c(10) v1(m18) t(doc) s(usa_doc_td) n1(3) n2(1) g(f2) b(v5)) {level 1} {cost 575} {fore -129.0}}	;1300sec
+{"m10wolverine(td)" ("v_usa" c(10) v1(m10wolverine) t(doc) s(usa_doc_td) n1(4) n2(1) g(f3) b(v5)) {level 1} {cost 500} {fore -119.0}}	;1200sec
+{"m36(td)" 			("v_usa" c(60) v1(m36) t(doc) s(usa_doc_td) n1(4) n2(1) g(f4) b(v5)) {level 1} {cost 850} {fore -29.0}}	;1800sec
+{"m36b1(td)" 		("v_usa" c(60) v1(m36b1) t(doc) s(usa_doc_td) n1(4) n2(1) g(f5) b(v5)) {level 1} {cost 900} {fore -29.0}}	;1800sec

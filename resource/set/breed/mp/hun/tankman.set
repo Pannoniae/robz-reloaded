@@ -1,0 +1,52 @@
+{breed
+	{skin "hun_tankman"}
+	{portrait "hun_tankman"}
+	{nationality hun}
+	{icon "tankman"}
+	{icon_priority 0}
+	{armors
+		{head "berett_rom"}
+	}
+	{tags "tankman2"}
+	{perks
+		{"health" "75%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "75%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" mp_soldier
+		}
+		{"speed" 0.8
+		}
+		{"tank"	1.0
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		{"pistol" basic
+		}
+		{"smg" basic
+		}
+		{"mgun" none
+		}
+		{"rifle" none
+		}
+		{"rocketlauncher" none
+		}
+		{"melee" none
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "frommer_37m" filled}
+		{item "ammo pistol" 30}
+		{in_hands 0}
+	}
+}

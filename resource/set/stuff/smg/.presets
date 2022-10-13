@@ -1,0 +1,41 @@
+(include "\set\small.firearms.accuracy")
+
+(define "speed"   
+	{speed (* 1.0 %s)}  
+)
+
+(define "recoveryTime"   
+	{recoveryTime (/ 60 %r)}
+)
+
+(define "power" 
+	{healthDamage (+ (* (/ %speed 100)  %calibre) (* 2 %calibre))}		;Speed / 100 * Caliber + 2 * Caliber
+	{range (/ (* %speed %calibre ) 65) (+ (/ (* %speed %calibre ) 65) 10)}  ;aimrange = Speed * Caliber / 65 , maxrange = aimrange +10
+	{speed (* 0.5 %speed)}
+	{calibre %calibre}
+)
+
+(define "rof"   
+	{recoveryTime (/ 60 %r)}
+)
+
+(define "burst_short"
+	{burst
+		{short 5 0.5}
+		{long 8 0.5}
+	}
+)
+
+(define "burst_medium"
+	{burst
+		{short 7 0.5}
+		{long 12 0.5}
+	}
+)
+
+(define "burst_long"
+	{burst
+		{short 9 0.5}
+		{long 25 0.5}
+	}	
+)

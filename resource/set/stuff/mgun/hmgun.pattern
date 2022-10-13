@@ -1,0 +1,29 @@
+{from "pattern mgun"
+	{tag "weapon mgun hmgun bullet to_hand"}
+	{filling "ammo hmgun" 100}
+	{fireSound	"mgun/browning_burst/"}
+	{reloadSound "cal30_reload"}
+	{inventory 	{handle_bone "handle_box"}}
+	{entity "browningm2"}
+	{mass 34}
+	{range 110 120}
+	("burst_long")
+	{cursor "zenite_on"}
+	{cursorReloading "zenite_reload"}
+	{Spreading	
+		{BurstAccuracy 100 97 94 91 88 85 83 80 77 74 71 68 65 62 59 56 53 50}
+	}
+
+	("rof" r(560))
+	{rechargeTime 10}
+	("speed" s(890))
+
+	{projectileDamage 17}
+	{projectileDamageClip 17}
+	
+	{healthDamage     200}
+	{healthDamageClip 200}
+	{calibre 12.7}
+	
+	("accuracy_dshk")
+}

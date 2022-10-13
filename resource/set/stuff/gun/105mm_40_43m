@@ -1,0 +1,21 @@
+{from "pattern gun"     ; "zrinyi2
+	{filling "bullet105"}
+	{fireSound "gun/105mm_type6"}
+	{reloadSound "tankgun_r02"}
+	{rechargeTime 16}
+	("100-128caliber" speed(410) cal(105))  
+	("Supporter")
+
+	("damage" a(63) b(59) c(54) d(50) e(46))
+
+	("damage_heat" a(106) range(220))
+
+	{parameters "heat"
+		("speed" s(450))
+	}
+	{parameters "fg"
+		("speed" s(380))
+	}
+}
+
+

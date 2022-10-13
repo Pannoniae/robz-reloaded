@@ -1,0 +1,3 @@
+{from "37mm_bofors"		; 37mm bofors
+	{rechargeTime 3}
+}

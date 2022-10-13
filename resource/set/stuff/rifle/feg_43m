@@ -1,0 +1,6 @@
+{from "pattern rifle"
+	{entity "feg_43_m"}
+	{fireSound "rifle/mosin"}
+	{reloadSound "mosin_reload"}
+	("power" speed(770) calibre(7.92))
+}

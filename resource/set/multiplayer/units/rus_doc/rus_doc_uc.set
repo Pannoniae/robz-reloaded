@@ -1,0 +1,28 @@
+;----- USA -----
+
+("squad_with3types_doc" side(usa) doc(usa_doc_a) name(riflemans) c(120) g(squad_1) c1(armor_squadleader:1) c2(armor_rifle:10) c3(armor_rifle_grenadier:1) b(squad1) t(doc) level(1) cost(170) f(1.0))
+("squad_with4types_vehicle_doc" side(usa) doc(usa_doc_a) name(riflemans_btr) c(300) g(squad_2) v1(m3_usa) c1(tankman:1) c2(armor_squadleader:1) c3(armor_rifle:7) c4(armor_rifle_grenadier:1) b(squad1) t(doc) level(1) cost(270) f(0.0))
+
+("squad_with1types_doc" side(usa) doc(usa_doc_a) name(tankmans) c(0) g(soldier_1) c1(tankman:4) b(squad1) t(tankmans doc) level(1) cost(40) f(-1.0))
+
+("squad_with1types_doc" side(usa) doc(usa_doc_a) name(officers) c(0) g(soldier_2) c1(oficer_armor:1) b(squad1) t(officer doc) level(1) cost(350) f(-1.0))
+
+;°°°Button 1°°°
+
+{"zis5art(uc)"   ("vs_rus" c(0) v1(zis5art) t(doc) s(rus_doc_uc) n(2) g(b1) b(v1)) {level 1} {cost 150} {fore 0.0}}	;0sec
+{"dshk_zenit(uc)"	("vs_rus" c(10) v1(dshk_zenit) t(doc) s(rus_doc_uc) n(2) g(b2) b(v2)) {level 1} {cost 200} {fore 0.0}}			;0sec
+
+;°°°Button support 2°°° artillery guns
+
+{"203b4(uc)"	("vs_rus_noinfo" c(60) v1(203b4) t(doc) s(rus_doc_uc) n(2) g(c1) b(v2)) {level 1} {cost 1200} {fore -19.0}}		;1200sec
+{"su122(uc)"    ("v_rus" c(60) v1(su122) t(doc) s(rus_doc_uc) n1(3) n2(1) g(c2) b(v2)) {level 1} {cost 600} {fore -21.0}}	;1320sec
+{"su152(uc)"    ("v_rus" c(60) v1(isu152) t(doc) s(rus_doc_uc) n1(3) n2(1) g(c3) b(v2)) {level 1} {cost 1000} {fore -29.0}}		;1800sec
+{"kv2(uc)"    	("v_rus" c(60) v1(kv2) t(doc) s(rus_doc_uc) n1(3) n2(1) g(c4) b(v2)) {level 1} {cost 900} {fore -29.0}}		;1800sec
+
+;°°°Button support 3°°° light
+
+{"zsu37(uc)"      	("v_rus" c(10) v1(zsu37) t(doc) s(rus_doc_uc) n1(3) n2(1) g(d1) b(v3)) {level 1} {cost 300} {fore -89.0}}	;900sec
+
+;°°°Button support 4°°° armor guns
+
+{"ot34_2(uc)"   	("v_rus" c(10) v1(ot34_2) t(doc) s(rus_doc_uc) n1(3) n2(1) g(e1) b(v4)) {level 1} {cost 400} {fore -119.0}}	;1200sec

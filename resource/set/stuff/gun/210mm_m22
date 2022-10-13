@@ -1,0 +1,8 @@
+{from "pattern gun"    ; "obice da 210/22"
+	{filling "bullet210" 1}
+	{fireSound "gun/howitzer/203mm"}
+	{reloadSound "tankgun_r02"}
+	("heavy_howitzer")	
+	{rechargeTime 90}
+	("range_art_medium")
+}

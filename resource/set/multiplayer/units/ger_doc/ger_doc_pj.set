@@ -1,0 +1,19 @@
+;----- Germany -----
+
+("squad_with6types_doc" side(ger) doc(ger_doc_pj) name(volksgrens) c(0) g(squad_1) c1(volksgren_sl_smg:1) c2(volksgren_sl_asst:1) c3(volksgren_mg:1) c4(volksgren_mg_asst:1) c5(volksgren_rifle:1) c6(volksgren_pzfst:3) b(squad1) t(doc) level(1) cost(125) f(1.0))
+("squad_with7types_doc" side(ger) doc(ger_doc_pj) name(grenadiers_44) c(120) g(squad_2) c1(squadleader:1) c2(grenadier_ober:1) c3(grenadier_sa:1) c4(grenadier_rifle_grenadier:1) c5(grenadier_pzfst:3) c6(grenadier_mg:1) c7(grenadier_mg_asst:1) b(squad1) t(doc) level(1) cost(175) f(1.0))
+
+("squad_with1types_doc" side(ger) doc(ger_doc_pj) name(tankmans) c(0) g(soldier_1) c1(tankman:4) b(squad1) t(tankmans doc) level(1) cost(40) f(-1.0))
+
+("squad_with2types_doc" side(ger) doc(ger_doc_pj) name(bazookers) c1(bazooker:1) c2(bazooker2:1) c(0) g(soldier_2) b(squad2) t(doc) level(1) cost(100) f(1.0))
+("squad_with1types_doc" side(ger) doc(ger_doc_pj) name(bazooker3) c1(bazooker3:2) c(0) g(soldier_3) b(squad2) t(doc) level(1) cost(60) f(1.0))
+
+;같캛utton 1같�
+{"blitz3_6art(pj)"   		("vs_ger" c(0) v1(blitz3_6art) t(doc) s(ger_doc_pj) n(2) g(b1) b(v1)) {level 1} {cost 300} {fore 0.0}}		;0sec
+
+;같캛utton 5같�
+{"hetzer(pj)"  				("v_ger" c(10) v1(hetzer) t(doc) s(ger_doc_pj) n1(3) n2(1) g(f1) b(v5)) {level 1} {cost 650} {fore -149.0}}			;1500sec
+{"jagdpanzer_iv_l48(pj)"  	("v_ger" c(10) v1(jagdpanzer_iv_l48) t(doc) s(ger_doc_pj) n1(3) n2(1) g(f2) b(v5)) {level 1} {cost 600} {fore -149.0}} ;1500sec
+{"jagdpanzer_iv(pj)"  		("v_ger" c(10) v1(jagdpanzer_iv) t(doc) s(ger_doc_pj) n1(3) n2(1) g(f3) b(v5)) {level 1} {cost 1100} {fore -179.0}}	;1800sec
+{"jagdpanther(pj)"  		("v_ger" c(10) v1(jagdpanther) t(doc) s(ger_doc_pj) n1(3) n2(1) g(f4) b(v5)) {level 1} {cost 1950} {fore -209.0}}	;2100sec
+{"jagdtiger(pj)"  			("v_ger" c(10) v1(jagdtiger) t(doc) s(ger_doc_pj) n1(3) n2(1) g(f5) b(v5)) {level 1} {cost 2600} {fore -239.0}}		;2400sec

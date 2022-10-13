@@ -1,0 +1,22 @@
+{from "pattern fg"
+	{tag "big" "size_maximum" "203to600"}
+	{tag "itemin2hands"}
+	{inventory
+		{size 4 2}
+		{weight 150}
+	}	
+	{mass 50}
+	{entity "mortar_shell"}
+
+	("fg_sheavy" args 20)
+
+	
+	{trace
+		{view "/texture/fx/trace"
+			{Light 0.5}
+			{ScaleX 2}
+			{ScaleY 0.2}
+		}
+		{length 3}
+	}
+}

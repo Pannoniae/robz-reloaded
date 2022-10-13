@@ -1,0 +1,22 @@
+{from "pattern he"
+	{tag "size_minimum"}
+	{inventory
+		{weight 25}
+		{size 2 2}
+		{block 5}
+		{fsm "stuff"}
+	}
+	{mass 1.5}
+
+	{entity "he_37mm"}
+
+	("fg" args 2.5)
+
+	{trace
+		{view "/texture/fx/trace2"
+			{ScaleY 0.41}
+			{ScaleX 0.41}
+		}
+		{length 1.4}
+	}	
+}

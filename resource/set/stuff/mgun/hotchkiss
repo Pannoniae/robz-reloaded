@@ -1,0 +1,11 @@
+{from "pattern mgun"
+	{entity "hotchkiss"}
+	{filling "ammo mgun" 150}
+	{fireSound	"mgun/hotchkiss_burst/"}
+	{reloadSound "breda30_reload"}
+
+	("rof" r(450))
+	("burst_long")
+
+	("power" speed(724) calibre(8))
+}

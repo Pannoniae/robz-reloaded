@@ -1,0 +1,27 @@
+{from "pattern gun"	; 20mm fka gun
+	{filling "bullet20" 10}	
+	{fireSound "gun/20mm_wz38FK"}
+	{reloadSound "flak38"}
+	{RecoveryTime 0.171}
+	{RechargeTime 5}
+	{spreading
+		{BurstAccuracy 100 90 85 80 72 65 50 40 30}
+	}
+	{AimingTolerance 20}
+	{Automatic}
+	{burst
+		{min 1}
+		{short 2.5 1}
+		{long 7 2}
+	}	
+	("14-20caliber" speed(856) cal(20))
+	{RelaxationTime 0}
+
+	("damage" a(47) b(32) c(23) d(17) e(9))
+
+	{parameters "fg"
+		("speed" s(860))
+	}
+        
+	("accuracy_zenite_small")
+}

@@ -1,0 +1,9 @@
+{from "pattern apds"
+	{tag "big" "size2" "big_apcr" "pierce"}
+	{mass 17}
+	{inventory
+		{size 5 1}
+	}
+	("apds" args 1)
+	{entity "shell_apcr_93"}
+}

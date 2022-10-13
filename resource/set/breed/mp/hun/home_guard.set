@@ -1,0 +1,52 @@
+{breed
+	{skin "hun_soldier2"}
+	{portrait "hun_soldier1"}
+	{icon "home_guard"}
+	{nationality hun}
+	{armors
+		{head "helmet1_hun"}
+	}
+	{perks
+		{"health" "75%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "75%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.8
+		}
+		{"tank"	0.6
+		}
+		{"vehicle" 0.8
+		}
+		{"cannon" 0.8
+		}
+		{"pistol" lvl_2
+		}
+		{"smg" lvl_2
+		}
+		{"mgun" lvl_1
+		}
+		{"rifle" lvl_2
+		}
+		{"rocketlauncher" lvl_1
+		}
+		{"melee" lvl_2
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "mannlicher_m1895" filled}
+		{item "ammo rifle" 35}
+		{item "bandage" 2}
+		{item "grenade hungarian_36m" 1}
+		{in_hands 0}
+	}
+}

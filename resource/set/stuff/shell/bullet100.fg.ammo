@@ -1,0 +1,10 @@
+{from "pattern fg"
+	{tag "big" "size_medium" "shell_big"  "100to128"}
+	{mass 20}
+	{inventory
+		{size 5 1}
+	}	
+	("fg_sheavy" args 8.75)
+	
+	{entity "shell_fg_100"}
+}

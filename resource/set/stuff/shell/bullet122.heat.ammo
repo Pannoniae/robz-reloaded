@@ -1,0 +1,14 @@
+{from "pattern heat"
+	{tag "big" "size3" "heat" "size_big" "pierce"}
+	{inventory
+		{size 6 1}
+	}	
+	{mass 19}
+	("heat" args 1.5)
+	{entity "shell_heat_122"}
+
+	{damage blastwave    
+		{energy 1.5}
+		{area 3 4}
+	}	
+}

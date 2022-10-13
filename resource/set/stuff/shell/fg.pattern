@@ -1,0 +1,11 @@
+{bullet
+	{tag "ammo shell fg itemin2hands"}
+	{detonationThickness 2}
+	{inventory
+		{size 4 1}
+		{weight 100}
+		{fsm "stuff"}
+		{block 5}
+	}
+	{entity "shell_fg_med"}
+}

@@ -1,0 +1,23 @@
+;----- USA -----
+
+("squad_with3types_doc" side(usa) doc(usa_doc_a) name(riflemans) c(120) g(squad_1) c1(armor_squadleader:1) c2(armor_rifle:10) c3(armor_rifle_grenadier:1) b(squad1) t(doc) level(1) cost(170) f(1.0))
+("squad_with4types_vehicle_doc" side(usa) doc(usa_doc_a) name(riflemans_btr) c(300) g(squad_2) v1(m3_usa) c1(tankman:1) c2(armor_squadleader:1) c3(armor_rifle:7) c4(armor_rifle_grenadier:1) b(squad1) t(doc) level(1) cost(270) f(0.0))
+
+("squad_with1types_doc" side(usa) doc(usa_doc_a) name(tankmans) c(0) g(soldier_1) c1(tankman:4) b(squad1) t(tankmans doc) level(1) cost(40) f(-1.0))
+
+("squad_with1types_doc" side(usa) doc(usa_doc_a) name(officers) c(0) g(soldier_2) c1(oficer_armor:1) b(squad1) t(officer doc) level(1) cost(350) f(-1.0))
+
+;같캛utton 1같�
+
+{"zis5art(td)"  ("vs_rus" c(0) v1(zis5art) t(doc) s(rus_doc_td) n(2) g(b1) b(v1)) {level 1} {cost 150} {fore 0.0}}	;0sec
+
+;같캛utton support 5같� td
+
+{"zis_30(td)"   ("v_rus" c(10) v1(zis_30) t(doc) s(rus_doc_td) n1(3) n2(1) g(f1) b(v5)) {level 1} {cost 425} {fore -89.0}}		;900sec
+{"su76(td)"     ("v_rus" c(10) v1(su76) t(doc) s(rus_doc_td) n1(3) n2(1) g(f2) b(v5)) {level 1} {cost 280} {fore -89.0}}		;900sec
+{"su85(td)"     ("v_rus" c(10) v1(su85) t(doc) s(rus_doc_td) n1(3) n2(1) g(f3) b(v5)) {level 1} {cost 550} {fore -149.0}}		;1500sec
+{"isu122(td)"  	("v_rus" c(10) v1(isu122) t(doc) s(rus_doc_td) n1(3) n2(1) g(f4) b(v5)) {level 1} {cost 1100} {fore -209.0}} 	;2100sec
+{"su100(td)"    ("v_rus" c(10) v1(su100) t(doc) s(rus_doc_td) n1(3) n2(1) g(f5) b(v5)) {level 1} {cost 1400} {fore -239.0}}		;2400sec
+
+
+{"zis_30"	{score 17.5}{cw 0}{cp 10}}

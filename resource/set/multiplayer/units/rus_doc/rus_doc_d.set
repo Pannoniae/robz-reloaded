@@ -1,0 +1,38 @@
+;----- USA -----
+
+("squad_with3types_doc" side(usa) doc(usa_doc_a) name(riflemans) c(120) g(squad_1) c1(armor_squadleader:1) c2(armor_rifle:10) c3(armor_rifle_grenadier:1) b(squad1) t(doc) level(1) cost(170) f(1.0))
+("squad_with4types_vehicle_doc" side(usa) doc(usa_doc_a) name(riflemans_btr) c(300) g(squad_2) v1(m3_usa) c1(tankman:1) c2(armor_squadleader:1) c3(armor_rifle:7) c4(armor_rifle_grenadier:1) b(squad1) t(doc) level(1) cost(270) f(0.0))
+
+("squad_with1types_doc" side(usa) doc(usa_doc_a) name(tankmans) c(0) g(soldier_1) c1(tankman:4) b(squad1) t(tankmans doc) level(1) cost(40) f(-1.0))
+
+("squad_with1types_doc" side(usa) doc(usa_doc_a) name(officers) c(0) g(soldier_2) c1(oficer_armor:1) b(squad1) t(officer doc) level(1) cost(350) f(-1.0))
+
+;같캛utton 1같�
+
+{"zis5art(d)"      		("vs_rus" c(0) v1(zis5art) t(doc) s(rus_doc_d) n(2) g(b1) b(v1)) {level 1} {cost 150} {fore 0.0}}			;0sec
+{"zis5eng(d)"      		("vs_rus" c(0) v1(zis5eng) t(doc) s(rus_doc_d) n(2) g(b1) b(v1)) {level 1} {cost 250} {fore 0.0}}			;0sec
+{"ammo_box_rus_inf(d)"  ("vs_rus" c(0) v1(ammo_box_rus_inf) t(doc) s(rus_doc_d) n(2) g(b2) b(v1)) {level 1} {cost 25} {fore 0.0}}	;0sec
+{"ammo_box_rus_art(d)"  ("vs_rus" c(0) v1(ammo_box_rus_art) t(doc) s(rus_doc_d) n(2) g(b3) b(v1)) {level 1} {cost 75} {fore 0.0}}	;0sec
+{"ammo_box_rus_special(d)"  ("vs_rus" c(0) v1(ammo_box_rus_special) t(doc) s(rus_doc_d) n(2) g(b4) b(v1)) {level 1} {cost 100} {fore 0.0}}	;0sec
+
+;같캛utton support 2같� support guns
+
+{"ds39_degtyaryov(d)"	("vs_rus" c(10) v1(ds39_degtyaryov) t(doc) s(rus_doc_d) n(2) g(c1) b(v2)) {level 1} {cost 115} {fore 0.0}}	;0sec
+{"maxim_1910_30(d)"	("vs_rus" c(10) v1(maxim_1910_30) t(doc) s(rus_doc_d) n(2) g(c2) b(v2)) {level 1} {cost 130} {fore 0.0}}		;0sec
+{"sg43_goryunov(d)"	("vs_rus" c(10) v1(sg43_goryunov) t(doc) s(rus_doc_d) n(2) g(c3) b(v2)) {level 1} {cost 130} {fore 0.0}}		;0sec
+{"dshk_zenit(d)"	("vs_rus" c(10) v1(dshk_zenit) t(doc) s(rus_doc_d) n(2) g(c4) b(v2)) {level 1} {cost 200} {fore 0.0}}			;0sec
+
+{"bm_37(d)"      	("vs_rus" c(0) v1(bm_37) t(doc) s(rus_doc_d) n(2) g(c5) b(v2)) {level 1} {cost 350} {fore 0.0}}		;0sec
+{"pm_38(d)"      	("vs_rus" c(60) v1(pm_38) t(doc) s(rus_doc_d) n(2) g(c6) b(v2)) {level 1} {cost 590} {fore -9.0}}	;600sec
+
+{"k61(d)"      		("vs_rus" c(30) v1(k61) t(doc) s(rus_doc_d) n(2) g(c7) b(v2)) {level 1} {cost 250} {fore -9.0}}		;300sec
+
+{"m37(d)"      		("vs_rus" c(10) v1(m37) t(doc) s(rus_doc_d) n(2) g(c8) b(v2)) {level 1} {cost 135} {fore -29.0}}		;300sec
+{"zis3(d)"      	("vs_rus" c(20) v1(zis3) t(doc) s(rus_doc_d) n(2) g(c9) b(v2)) {level 1} {cost 255} {fore -44.0}}		;900sec
+{"zis2(d)"      	("vs_rus" c(20) v1(zis2) t(doc) s(rus_doc_d) n(2) g(c10) b(v2)) {level 1} {cost 325} {fore -59.0}}		;1200sec
+{"np_52k_43(d)"     ("vs_rus" c(60) v1(np_52k_43) t(doc) s(rus_doc_d) n(2) g(c11) b(v2)) {level 1} {cost 400} {fore -24.0}}	;1500sec
+{"bs3(d)"      		("vs_rus" c(60) v1(bs3) t(doc) s(rus_doc_d) n(2) g(c12) b(v2)) {level 1} {cost 800} {fore -29.0}}		;1800sec
+
+
+;;;;
+{"m37"	{score 6.75}{cw 0}{cp 5}}

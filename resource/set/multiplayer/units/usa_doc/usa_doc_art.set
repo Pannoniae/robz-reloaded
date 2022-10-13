@@ -1,0 +1,33 @@
+;----- USA -----
+
+("squad_with3types_doc" side(usa) doc(usa_doc_art) name(riflemans) c(120) g(squad_1) c1(squadleader:1) c2(rifle:10) c3(rifle_grenadier:1) b(squad1) t(doc) level(1) cost(170) f(1.0))
+
+("squad_with1types_doc" side(usa) doc(usa_doc_art) name(vehic_supporter) c(0) g(soldier_1) c1(vehicle_supporter:2) b(squad1) t(doc) level(1) cost(20) f(-1.0))
+
+("squad_with1types_doc" side(usa) doc(usa_doc_art) name(officers) c(0) g(soldier_2) c1(oficer:1) b(squad1) t(officer doc) level(1) cost(200) f(-1.0))
+
+;°°°Button 1°°°
+
+{"gmc_art(art)"      		("vs_usa" c(0) v1(gmc_art) t(doc) s(usa_doc_art) n(2) g(b1) b(v1)) {level 1} {cost 300} {fore 0.0}}		;0sec
+{"ammo_box_us_art(art)" 	("vs_usa" c(0) v1(ammo_box_us_art) t(doc) s(usa_doc_art) n(2) g(b2) b(v1)) {level 1} {cost 75} {fore 0.0}}		;0sec
+
+;°°°Button 2°°° support weapons
+
+{"60mm_brandt_usa(art)"  ("vs_usa_noinfo" c(10) v1(60mm_brandt_usa) t(doc) s(usa_doc_art) n(1) g(c1) b(v2)) {level 1} {cost 220} {fore 1.0}}	;0sec
+{"81mm_brandt_usa(art)"  ("vs_usa_noinfo" c(10) v1(81mm_brandt_usa) t(doc) s(usa_doc_art) n(2) g(c2) b(v2)) {level 1} {cost 385} {fore 1.0}}	;0sec
+{"4_2_inch_mortar_m_2(art)" ("vs_usa_noinfo" c(60) v1(4_2_inch_mortar_m_2) t(doc) s(usa_doc_art) n(2) g(c3) b(v2)) {level 1} {cost 500} {fore -9.0}}	;600sec
+
+{"m8_howitzer(art)"      ("vs_usa" c(60) v1(m8_howitzer) t(doc) s(usa_doc_art) n(2) g(c4) b(v2)) {level 1} {cost 320} {fore 1.0}}	;0sec
+
+;°°°Button support 2°°° artillery guns
+
+{"m2a1l(art)"    		("vs_usa_tow" c(60) v1(gmc_art) v2(m2a1l) t(doc)	s(usa_doc_art) n(2) g(cc1) b(v22)) {level 1} {cost 670} {fore -14.0}}		;900sec
+{"m114(art)"    		("vs_usa_tow" c(60) v1(gmc_art) v2(m114) t(doc) s(usa_doc_art) n(2) g(cc2) b(v22)) {level 1} {cost 850} {fore -19.0}}		;1200sec
+{"longtom_155mm(art)" ("vs_usa_tow" c(60) v1(gmc_art) v2(longtom_155mm) t(doc) s(usa_doc_art) n(2) g(cc3) b(v22)) {level 1} {cost 950} {fore -19.0}}	;1200sec
+{"m115(art)"    		("vs_usa_tow" c(60) v1(gmc_art) v2(m115) t(doc) s(usa_doc_art) n(2) g(cc4) b(v22)) {level 1} {cost 1150} {fore -19.0}}		;1200sec
+
+{"np_t19(art)"        ("v_usa" c(60) v1(np_t19) t(doc) s(usa_doc_art) n1(3) n2(1) g(cc5) b(v22)) {level 1} {cost 740} {fore -14.0}}	;900sec
+{"m7(art)"           	("v_usa" c(60) v1(m7) t(doc) s(usa_doc_art) n1(3) n2(1) g(cc6) b(v22)) {level 1} {cost 770} {fore -14.0}}	;900sec
+{"m12gmc(art)"        ("v_usa" c(60) v1(m12gmc) t(doc) s(usa_doc_art) n1(3) n2(1) g(cc7) b(v22)) {level 1} {cost 1100} {fore -19.0}};1200sec
+{"m4a3c(art)"         ("v_usa" c(60) v1(m4a3c) t(doc) s(usa_doc_art) n1(3) n2(1) g(cc8) b(v22)) {level 1} {cost 950} {fore -19.0}}	;1200sec
+

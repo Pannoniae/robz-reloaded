@@ -1,0 +1,43 @@
+;----- Germany -----
+
+("squad_with5types_doc" side(ger) doc(ger_doc_a) name(grenadiers_44) c(150) g(squad_1) c1(squadleader:1) c2(grenadier_ober:1) c3(grenadier_rifle:5) c4(grenadier_mg_39:1) c5(grenadier_mg_asst:1) b(squad1) t(doc) level(1) cost(175) f(1.0))
+
+("squad_with1types_doc" side(ger) doc(ger_doc_a) name(vehic_supporter) c(0) g(soldier_1) c1(vehicle_supporter:2) b(squad1) t(doc) level(1) cost(20) f(-1.0))
+
+("squad_with1types_doc" side(ger) doc(ger_doc_a) name(officers) c(150) g(soldier_2) c1(oficer:1) b(squad2) t(officer doc) level(1) cost(200) f(0))
+
+;°°°Button 1°°°
+
+{"np_sdkfz8(a)"        ("vs_ger" c(0) v1(np_sdkfz8) t(doc) s(ger_doc_a) n(2) g(b1) b(v1)) {level 1} {cost 100} {fore 0.0}}		;0sec
+{"np_sdkfz251_4(a)"    ("vs_ger" c(10) v1(np_sdkfz251_4) t(doc) s(ger_doc_a) n(2) g(b2) b(v1)) {level 1} {cost 175} {fore -29.0}}	;300sec
+{"blitz3_6art(a)"      ("vs_ger" c(0) v1(blitz3_6art) t(doc) s(ger_doc_a) n(2) g(b3) b(v1)) {level 1} {cost 300} {fore 0.0}}		;0sec
+{"ammo_box_ger_art(a)" ("vs_ger" c(0) v1(ammo_box_ger_art) t(doc) s(ger_doc_a) n(2) g(b4) b(v1)) {level 1} {cost 75} {fore 0.0}}		;0sec
+
+
+;°°°Button 2°°° support weapons
+
+{"sgrw_34(a)"          ("vs_ger" c(10) v1(sgrw_34) t(doc) s(ger_doc_a) n(2) g(c1) b(v2)) {level 1} {cost 320} {fore 1.0}}	;0sec
+{"sgrw_42(a)"          ("vs_ger" c(60) v1(sgrw_42) t(doc) s(ger_doc_a) n(2) g(c2) b(v2)) {level 1} {cost 570} {fore -9.0}}	;600sec
+
+{"75mm_leig18(a)"      ("vs_ger_noinfo" c(60) v1(75mm_leig18) t(doc) s(ger_doc_a) n(2) g(c3) b(v2)) {level 1} {cost 320} {fore 1.0}}	;0sec
+{"15_cm_sig33(a)"      ("vs_ger_noinfo" c(60) v1(15_cm_sig33) t(doc) s(ger_doc_a) n(2) g(c4) b(v2)) {level 1} {cost 600} {fore -9.0}}	;600sec
+
+;°°°Button support 2°°° artillery guns
+
+{"flak18a(a)"          ("vs_ger" c(60) v1(flak18a) t(doc) s(ger_doc_a) n(2) g(cc1) b(v22)) {level 1} {cost 600} {fore -19.0}} 	;1200sec
+
+{"lefh18(a)"    	("vs_ger_tow" c(60) v1(np_sdkfz8) v2(lefh18) t(doc)	s(ger_doc_a) n(2) g(cc2) b(v22)) {level 1} {cost 650} {fore -14.0}}		;900sec
+{"sfh18(a)"    		("vs_ger_tow" c(60) v1(np_sdkfz8) v2(sfh18) t(doc) s(ger_doc_a) n(2) g(cc3) b(v22)) {level 1} {cost 820} {fore -19.0}}		;1200sec
+{"morser18(a)"    	("vs_ger_tow" c(60) v1(np_sdkfz8) v2(morser18) t(doc) s(ger_doc_a) n(2) g(cc4) b(v22)) {level 1} {cost 1100} {fore -19.0}}	;1200sec
+
+{"nebelwerfer41(a)"    ("vs_ger" c(60) v1(nebelwerfer41) t(doc) s(ger_doc_a) n(2) g(cc5) b(v22)) {level 1} {cost 500} {fore -14.0}}	;900sec
+{"nebelwerfer42(a)"    ("vs_ger" c(60) v1(nebelwerfer42) t(doc) s(ger_doc_a) n(2) g(cc6) b(v22)) {level 1} {cost 950} {fore -19.0}}	;1200sec
+{"np_sdkfz251_1w(a)"   ("vs_ger" c(60) v1(np_sdkfz251_1w) t(doc) s(ger_doc_a) n(3) g(cc7) b(v22)) {level 1} {cost 1100} {fore -19.0}}	;1200sec
+
+{"grille(a)"           ("v_ger" c(60) v1(grille) t(doc) s(ger_doc_a) n1(4) n2(1) g(cc8) b(v22)) {level 1} {cost 850} {fore -14.0}}	;900sec
+{"wespe(a)"            ("v_ger" c(60) v1(wespe) t(doc) s(ger_doc_a) n1(3) n2(1) g(cc9) b(v22)) {level 1} {cost 750} {fore -14.0}}	;900sec
+{"hummel(a)"           ("v_ger" c(60) v1(hummel) t(doc) s(ger_doc_a) n1(3) n2(1) g(cc10) b(v22)) {level 1} {cost 1020} {fore -19.0}};1200sec
+{"sdkfz4(a)"           ("v_ger" c(60) v1(sdkfz4) t(doc) s(ger_doc_a) n1(2) n2(0) g(cc11) b(v22)) {level 1} {cost 750} {fore -19.0}}	;1200sec
+
+;scores and CP
+;{"hummel"	{score %sc}{cw 0}{cp %cp}}

@@ -1,0 +1,8 @@
+{from "13mm_hotchkiss_x2"     ; 13mm_hotchkiss tank gun
+	{filling "ammo hmgun" 30}
+	{mass 160}
+	{foresight "foresight1"}
+
+	{recoveryTime 0.133}
+	{rechargeTime 5}
+}

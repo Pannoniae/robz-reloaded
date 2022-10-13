@@ -1,0 +1,22 @@
+;----- USA -----
+
+("squad_with3types_doc" side(usa) doc(usa_doc_a) name(riflemans) c(120) g(squad_1) c1(armor_squadleader:1) c2(armor_rifle:10) c3(armor_rifle_grenadier:1) b(squad1) t(doc) level(1) cost(170) f(1.0))
+("squad_with4types_vehicle_doc" side(usa) doc(usa_doc_a) name(riflemans_btr) c(300) g(squad_2) v1(m3_usa) c1(tankman:1) c2(armor_squadleader:1) c3(armor_rifle:7) c4(armor_rifle_grenadier:1) b(squad1) t(doc) level(1) cost(270) f(0.0))
+
+("squad_with1types_doc" side(usa) doc(usa_doc_a) name(tankmans) c(0) g(soldier_1) c1(tankman:4) b(squad1) t(tankmans doc) level(1) cost(40) f(-1.0))
+
+("squad_with1types_doc" side(usa) doc(usa_doc_a) name(officers) c(0) g(soldier_2) c1(oficer_armor:1) b(squad1) t(officer doc) level(1) cost(350) f(-1.0))
+
+;같캛utton 1같�
+
+{"gmc_art(a)"      		("vs_usa" c(0) v1(gmc_art) t(doc) s(usa_doc_a) n(2) g(b1) b(v1)) {level 1} {cost 300} {fore 0.0}}		;0sec
+
+;같캛utton support 4같� artillery guns
+
+{"m4a1(a)"     		("v_usa" c(10) v1(m4a1) t(doc) s(usa_doc_a) n1(3) n2(1) g(e1) b(v4)) {level 1} {cost 380} {fore -109.0}}	;1100sec
+{"m4sherman(a)"     ("v_usa" c(10) v1(m4sherman) t(doc) s(usa_doc_a) n1(4) n2(1) g(e2) b(v4)) {level 1} {cost 390} {fore -114.0}} ;1150sec
+{"m4a3_75(a)"     	("v_usa" c(10) v1(m4a3_75) t(doc) s(usa_doc_a) n1(4) n2(1) g(e3) b(v4)) {level 1} {cost 400} {fore -119.0}}	;1200sec
+{"m4a1_76w(a)"     	("v_usa" c(60) v1(m4a1_76w) t(doc) s(usa_doc_a) n1(3) n2(1) g(e4) b(v4)) {level 1} {cost 550} {fore -21.0}};1320sec
+{"m4a3e8(a)"     	("v_usa" c(60) v1(m4a3e8) t(doc) s(usa_doc_a) n1(4) n2(1) g(e5) b(v4)) {level 1} {cost 600} {fore -23.0}}	;1440sec
+
+{"armor_special(a)" ("v_usa_5x" c(700) v1(m4a3e8) v2(m4a3_75) v3(m4a3_75) v4(m4sherman) v5(m4sherman) t(doc) s(usa_doc_a) n1(4) n2(1) g(e6) b(v4)) {level 1} {cost 1400} {fore -1.0}}	;1400sec

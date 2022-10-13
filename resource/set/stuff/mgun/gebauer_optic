@@ -1,0 +1,13 @@
+{from "pattern mgun"
+	{filling "ammo 8x56" 100}
+	{entity "gebauer"}
+	{fireSound	"mgun/gebauer_burst/"}
+	{inventory 	{handle_bone "handle_box"}}
+	
+	("rof" r(1000))
+	("burst_long")
+
+	("power" speed(890) calibre(7.92))
+	("spread_optic")
+	("accuracy_mgun_tank")
+}

@@ -1,0 +1,11 @@
+{from "pattern rifle"
+	{entity "manliher_car_m1895"}
+	{fireSound "rifle/mauser98k"}
+	{reloadSound "kar98k_reload"}
+	{recoveryTime 1.75}
+	("accuracy_carabine")
+	("power" speed(670) calibre(8))
+
+	{aimRange 80}	; == maxRange
+	{maxRange 90}
+}

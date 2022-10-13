@@ -1,0 +1,33 @@
+;----- USA -----
+
+("squad_with3types_doc" side(usa) doc(usa_doc_a) name(riflemans) c(120) g(squad_1) c1(armor_squadleader:1) c2(armor_rifle:10) c3(armor_rifle_grenadier:1) b(squad1) t(doc) level(1) cost(170) f(1.0))
+("squad_with4types_vehicle_doc" side(usa) doc(usa_doc_a) name(riflemans_btr) c(300) g(squad_2) v1(m3_usa) c1(tankman:1) c2(armor_squadleader:1) c3(armor_rifle:7) c4(armor_rifle_grenadier:1) b(squad1) t(doc) level(1) cost(270) f(0.0))
+
+("squad_with1types_doc" side(usa) doc(usa_doc_a) name(tankmans) c(0) g(soldier_1) c1(tankman:4) b(squad1) t(tankmans doc) level(1) cost(40) f(-1.0))
+
+("squad_with1types_doc" side(usa) doc(usa_doc_a) name(officers) c(0) g(soldier_2) c1(oficer_armor:1) b(squad1) t(officer doc) level(1) cost(350) f(-1.0))
+
+;°°°Button 1°°°
+
+{"m72(lis)"      	("vs_rus" c(0) v1(m72) t(doc) s(rus_doc_lis) n(2) g(b1) b(v1)) {level 1} {cost 90} {fore 0.0}}		;300sec
+{"gaz67b(lis)"      ("vs_rus" c(0) v1(gaz67b) t(doc) s(rus_doc_lis) n(3) g(b2) b(v1)) {level 1} {cost 125} {fore 0.0}}		;300sec
+{"gazaaa4m(lis)"    ("vs_rus" c(0) v1(gazaaa4m) t(doc) s(rus_doc_lis) n(3) g(b3) b(v1)) {level 1} {cost 180} {fore 0.0}}		;300sec
+{"m3(lis)"      	("vs_rus" c(10) v1(m3) t(doc) s(rus_doc_lis) n(2) g(b4) b(v1)) {level 1} {cost 150} {fore -29.0}}		;300sec
+
+{"zis5art(lis)"     ("vs_rus" c(0) v1(zis5art) t(doc) s(rus_doc_lis) n(2) g(b5) b(v1)) {level 1} {cost 150} {fore 0.0}}		;0sec
+
+;°°°Button support 3°°° light
+
+{"ba64(lis)"      	("v_rus" c(10) v1(ba64) t(doc) s(rus_doc_lis) n1(1) n2(1) g(c1) b(v3)) {level 1} {cost 180} {fore -89.0}}	;900sec
+{"t-38(lis)"      	("v_rus" c(10) v1(t-38) t(doc) s(rus_doc_lis) n1(1) n2(1) g(c2) b(v3)) {level 1} {cost 180} {fore -89.0}}	;900sec
+{"t60(lis)"      	("v_rus" c(10) v1(t60) t(doc) s(rus_doc_lis) n1(1) n2(1) g(c3) b(v3)) {level 1} {cost 260} {fore -69.0}}	;700sec
+{"bt5(lis)"      	("v_rus" c(10) v1(bt5) t(doc) s(rus_doc_lis) n1(2) n2(1) g(c4) b(v3)) {level 1} {cost 210} {fore -89.0}}	;900sec
+{"bt7a(lis)"      	("v_rus" c(10) v1(bt7a) t(doc) s(rus_doc_lis) n1(2) n2(1) g(c5) b(v3)) {level 1} {cost 320} {fore -89.0}}	;900sec
+{"bt7_37_1(lis)"    ("v_rus" c(10) v1(bt7_37_1) t(doc) s(rus_doc_lis) n1(2) n2(1) g(c6) b(v3)) {level 1} {cost 220} {fore -89.0}}	;900sec
+{"t70(lis)"      	("v_rus" c(10) v1(t70) t(doc) s(rus_doc_lis) n1(1) n2(1) g(c7) b(v3)) {level 1} {cost 280} {fore -89.0}}	;900sec
+{"bm_8_24(lis)"     ("vs_rus" c(60) v1(bm_8_24) t(doc) s(rus_doc_lis) n(2) g(c8) b(v2)) {level 1} {cost 700} {fore -14.0}}		;900sec
+
+
+;°°°Button support 5°°° self propelled
+
+{"su76(lis)"      	("v_rus" c(10) v1(su76) t(doc) s(rus_doc_lis) n1(3) n2(1) g(f1) b(v5)) {level 1} {cost 300} {fore -89.0}}	;900sec

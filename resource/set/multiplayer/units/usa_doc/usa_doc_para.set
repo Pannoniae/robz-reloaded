@@ -1,0 +1,43 @@
+;----- USA -----
+
+("squad_with3types_doc" side(usa) doc(usa_doc_para) name(pathfinders) c(0) g(squad_1) c1(pathfinder_sl:1) c2(pathfinder:3) c3(pathfinder2:4) b(squad1) t(doc) level(1) cost(170) f(1.0))
+
+("squad_with7types_doc" side(usa) doc(usa_doc_para) name(elites) c(0) g(squad_2) c1(elite_sgt:1) c2(elite:3) c3(elitec:1) c4(eliteb:4) c5(elite_grenadier:1) c6(elite3:1) c7(elite3b:1) b(squad1) t(doc) level(1) cost(240) f(1.0))
+("squad_with7types_vehicle_doc" side(usa) doc(usa_doc_para) name(elites_44_drop) c(1200) g(squad_3) v1(airborne_spawner) c1(elite_sgt:1) c2(elite:3) c3(elitec:1) c4(eliteb:4) c5(elite_grenadier:1) c6(elite3:1) c7(elite3b:1) b(squad1) t(doc) level(1) cost(300) f(1.0))
+
+("squad_with7types_doc" side(usa) doc(usa_doc_para) name(elites_101st) c(0) g(squad_4) c1(elite_101st_para_sgt:1) c2(elite_101st_para:2) c3(elite_101st_parab:4) c4(elite_101st_para_grenadier:1) c5(elite_101st_para3:2) c6(elite_101st_para3b:1) c7(elite_101st_para4:1) b(squad1) t(doc) level(1) cost(320) f(1.0))
+("squad_with7types_vehicle_doc" side(usa) doc(usa_doc_para) name(elites_101st_drop) c(1200) g(squad_3) v1(airborne_spawner) c1(elite_101st_para_sgt:1) c2(elite_101st_para:2) c3(elite_101st_parab:4) c4(elite_101st_para_grenadier:1) c5(elite_101st_para3:2) c6(elite_101st_para3b:1) c7(elite_101st_para4:1) b(squad1) t(doc) level(1) cost(380) f(1.0))
+
+("squad_with7types_doc" side(usa) doc(usa_doc_para) name(elites_101st_special) c(1200) g(squad_6) c1(elite_101st_para_sgt:1) c2(elite_101st_para:2) c3(elite_101st_parab:4) c4(elite_101st_para_grenadier:1) c5(elite_101st_para3:2) c6(elite_101st_para3b:1) c7(elite_101st_para4:1) b(squad1) t(doc) level(1) cost(150) f(1.0))
+("squad_with7types_vehicle_doc" side(usa) doc(usa_doc_para) name(elites_101st_drop_special) c(1200) g(squad_6) v1(airborne_spawner) c1(elite_101st_para_sgt:1) c2(elite_101st_para:2) c3(elite_101st_parab:4) c4(elite_101st_para_grenadier:1) c5(elite_101st_para3:2) c6(elite_101st_para3b:1) c7(elite_101st_para4:1) b(squad1) t(doc) level(1) cost(200) f(1.0))
+
+("squad_with1types_doc" side(usa) doc(usa_doc_para) name(elite_101st_bazooker) c1(elite_101st_para4:1) c(0) g(soldier_1) b(squad2) t(doc) level(1) cost(120) f(1.0))
+("squad_with1types_doc" side(usa) doc(usa_doc_para) name(elite_sniper) c(150) g(soldier_2) c1(elitec:1) b(squad2) t(sniper doc) level(1) cost(100) f(0))
+
+("squad_with1types_doc" side(usa) doc(usa_doc_para) name(para_supporter) c(0) g(soldier_3) c1(elite_101st_para:2) b(squad1) t(doc) level(1) cost(40) f(-1.0))
+
+("squad_with1types_vehicle_doc" side(usa) doc(usa_doc_para) name(m1_57mm_drop) c(200) g(squad_7) v1(airborne_spawner_m1_57mm) c1(elite_101st_para:2) b(squad1) t(doc) level(1) cost(380) f(-5.0))
+
+;°°°Button 1°°°
+
+{"np_willysmb(para)" 		("vs_usa_para" c(30) v1(np_willysmb) t(doc) s(usa_doc_para) n(3) g(b1) b(v1)) {level 1} {cost 125} {fore 0.0}}		;30sec
+
+{"ammo_box_us_inf(para)" 	("vs_usa_para" c(0) v1(ammo_box_us_inf) t(doc) s(usa_doc_para) n(2) g(b6) b(v1)) {level 1} {cost 25} {fore 0.0}}		;0sec
+{"ammo_box_us_art(para)" 	("vs_usa_para" c(0) v1(ammo_box_us_art) t(doc) s(usa_doc_para) n(2) g(b4) b(v1)) {level 1} {cost 75} {fore 0.0}}		;0sec
+
+;°°°Button 2°°° support weapons
+
+{"30_browning_m1919a4(para)" ("vs_usa_para_noinfo" c(0) v1(30_browning_m1919a4) t(doc) s(usa_doc_para) n(2) g(c1) b(v2)) {level 1} {cost 125} {fore 0.0}}	;0sec
+{"50_browning_m2hb(para)"  	("vs_usa_para_noinfo" c(0) v1(50_browning_m2hb) t(doc) s(usa_doc_para) n(2) g(c2) b(v2)) {level 1} {cost 200} {fore 0.0}}	;0sec
+
+{"60mm_brandt_usa(para)"  	("vs_usa_para_noinfo" c(0) v1(60mm_brandt_usa) t(doc) s(usa_doc_para) n(1) g(c3) b(v2)) {level 1} {cost 220} {fore 0.0}}	;0sec
+{"81mm_brandt_usa(para)"  	("vs_usa_para_noinfo" c(10) v1(81mm_brandt_usa) t(doc) s(usa_doc_para) n(2) g(c4) b(v2)) {level 1} {cost 385} {fore -2.0}}	;30sec
+
+{"m8_howitzer(para)"      	("vs_usa_para" c(60) v1(m8_howitzer) t(doc) s(usa_doc_para) n(2) g(c4) b(v2)) {level 1} {cost 320} {fore 1.0}}	;0sec
+{"m1_57mm(para)"      		("vs_usa_para" c(20) v1(m1_57mm) t(doc) s(usa_doc_para) n(2) g(c9) b(v2)) {level 1} {cost 300} {fore -59.0}}	;1200sec
+
+;°°°Button 3°°°
+
+{"m8grayhound(para)"  	("v_usa" c(10) v1(m8grayhound) t(doc) s(usa_doc_para) n1(2) n2(1) g(d4) b(v3)) {level 1} {cost 260} {fore -79.0}}	;800sec
+{"m5a1(para)"      		("v_usa" c(10) v1(m5a1) t(doc) s(usa_doc_para) n1(3) n2(1) g(d6) b(v3)) {level 1} {cost 300} {fore -95.0}}	;960sec
+{"m8(para)"      		("v_usa" c(10) v1(m8) t(doc) s(usa_doc_para) n1(3) n2(1) g(d7) b(v3)) {level 1} {cost 300} {fore -95.0}}	;960sec

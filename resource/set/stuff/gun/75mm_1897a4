@@ -1,0 +1,7 @@
+{from "75mm_1897"      ; "m3_75"
+	{filling "usa_bullet75_m3"}
+
+	("damage" a(110) b(92) c(76) d(62) e(51))
+
+	("damage_apc" a(90) b(81) c(73) d(65) e(59))
+}

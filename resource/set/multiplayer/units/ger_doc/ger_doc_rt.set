@@ -1,0 +1,25 @@
+;----- Germany -----
+
+("squad_with4types_doc" side(ger) doc(ger_doc_rt) name(home_guards) c(60) g(squad_1) c1(home_guard:4) c2(home_guard2:2) c3(home_guard3:2) c4(home_guard4:2) b(squad1) t(doc) level(1) cost(100) f(1.0))
+("squad_with6types_doc" side(ger) doc(ger_doc_rt) name(volksgrens) c(60) g(squad_2) c1(volksgren_sl_smg:1) c2(volksgren_sl_asst:1) c3(volksgren_mg:1) c4(volksgren_mg_asst:1) c5(volksgren_rifle:3) c6(volksgren_pzfst:1) b(squad1) t(doc) level(1) cost(140) f(1.0))
+
+;°°°Button 3°°°
+{"sdkfz223(rt)"   		("v_ger" c(10) v1(sdkfz223) t(doc) s(ger_doc_rt) n1(1) n2(1) g(v1) b(v3)) {level 1} {cost 180} {fore -49.0}} ;500sec
+{"pzkpfw38t_b(rt)"   	("v_ger" c(10) v1(pzkpfw38t_b) t(doc) s(ger_doc_rt) n1(3) n2(1) g(v2) b(v3)) {level 1} {cost 350} {fore -89.0}} ;900sec
+
+;°°°Button 4°°°
+
+{"pz4e(rt)"  		("v_ger" c(10) v1(pz4e) t(doc) s(ger_doc_rt) n1(3) n2(1) g(e1) b(v4)) {level 1} {cost 500} {fore -119.0}}		;1200sec
+{"pz5d(rt)"  		("v_ger" c(1050) v1(pz5d) t(doc) s(ger_doc_rt) n1(4) n2(1) g(e2) b(v4)) {level 1} {cost 1700} {fore -1.0}}		;2100sec
+{"sdkfz182b(rt)"  	("v_ger" c(1200) v1(sdkfz182b) t(doc only-one) s(ger_doc_rt) n1(4) n2(1) g(e3) b(v4)) {level 1} {cost 2400} {fore -1.0}}	;2400sec
+
+;°°°Button 5°°°
+{"stug3f(rt)"   	("v_ger" c(10) v1(stug3f) t(doc) s(ger_doc_rt) n1(3) n2(1) g(f1) b(v5)) {level 1} {cost 650} {fore -139.0}}	;1400sec
+{"stug3f_8(rt)"		("v_ger" c(10) v1(stug3f_8) t(doc) s(ger_doc_rt) n1(3) n2(1) g(f2) b(v5)) {level 1} {cost 700} {fore -149.0}}	;1500sec
+
+;score and CP
+{"pzkpfw38t_b"	{score 12.5}{cw 0}{cp 5}}
+{"pz4e"			{score 20}{cw 0}{cp 15}}
+{"stug3f"		{score 20}{cw 0}{cp 15}}
+{"stug3f_8"		{score 25}{cw 0}{cp 15}}
+{"pz5d"			{score 65}{cw 0}{cp 30}}

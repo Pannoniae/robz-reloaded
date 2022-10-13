@@ -1,0 +1,42 @@
+;------------------------------Hungary----------------------------------------------------------------------------------
+
+("squad_with1types" side(hun) name(home_guards) c(20) g(reg_2) c1(home_guard:10) b(squad1) t(all 44 45 ) level(1) cost(55) f(1))
+("squad_with5types" side(hun) name(riflemans) c(120) g(reg_3) c1(rifle:3) c2(rifle2:2) c3(rifle3:3) c4(squadleader:1) c5(mgun:1) b(squad1) t(all 44 45 ) level(1) cost(120) f(1))
+("squad_with4types" side(hun) name(smgs) c(120) g(reg_4) c1(squadleader:1) c2(smg:5) c3(rifle3:3) c4(mgun:1) b(squad1) t(all 44 45 ) level(1) cost(130) f(1))
+
+{"mech_inf_hun" ("mech_troops"  c(120) c0(botond) c1(smg3:3) c2(rifle:3) c3(mgun:1) s(hun) g(reg_5) sc(21) b(squad1) i(7) t(all 44 45 mech_troops ) cw(0) cp(0) level(1)) {cost 180} {fore -1.5}}
+
+("squad_with4types" side(hun) name(elite) c(180) g(elite2) c1(elite:3) c2(elite2:2) c3(elite3:3) c4(elite4:2) b(squad1) t(all 44 45 elite ) level(1) cost(210) f(1))
+("squad_with4types" side(hun) name(stormtroopers) c(240) g(elite2) c1(sturmovik:3) c2(sturmovik3:3) c3(sturmovik2:2) c4(sturmovik4:2) b(squad1) t(all 44 45 elite ) level(1) cost(210) f(1))
+
+;{"sappers_hun" ("sappers" c(120) c0(blitz3_6eng) s(hun) g(min_4) sc(14) b(squad1) i(9) t(all 44 45 def ) cw(0) cp(0) level(1)) {cost 300} {fore 0}}
+("squad_with1types" side(hun) name(tankmans) c(120) g(reg_1) c1(tankman:2) b(squad1) t(all 44 45 ) level(1) cost(8) f(1))
+
+
+
+;("squad_with1types" side(hun) name(tankman) c(0) g(reg_0) c1(tankman:1) b(squad2) t(all 44 45 ) level(1) cost(5) f(1))
+("squad_with1types" side(hun) name(home_guard) c(0) g(reg_0) c1(home_guard:1) b(squad2) t(all 44 45 ) level(1) cost(8) f(1))
+("squad_with1types" side(hun) name(rifleman) c(0) g(reg_0) c1(rifle3:1) b(squad2) t(all 44 45 ) level(1) cost(13) f(1))
+("squad_with1types" side(hun) name(smg) c(0) g(reg_0) c1(smg3:1) b(squad2) t(all 44 45 ) level(1) cost(14) f(1))
+("squad_with2types" side(hun) name(mguns) c(120) g(reg_11) c1(mgun:1) c2(mgun_sup:1) b(squad1) t(all 44 45 ) level(1) cost(40) f(1))
+("squad_with1types" side(hun) name(mg) c(0) g(reg_0) c1(mgun:1) b(squad2) t(all 44 45 ) level(1) cost(30) f(1))
+
+("squad_with1types" side(hun) name(elite-smg) c(0) g(elite1) c1(sturmovik:1) b(squad2) t(all 44 45 elite ) level(1) cost(22) f(1))
+("squad_with1types" side(hun) name(elite-rifle) c(0) g(elite1) c1(elite3:1) b(squad2) t(all 44 45 elite ) level(1) cost(25) f(1))
+("squad_with1types" side(hun) name(elite-mg) c(0) g(elite1) c1(elite2:1) b(squad2) t(all 44 45 elite ) level(1) cost(50) f(1))
+
+("squad_with1types" side(hun) name(ap_miner) c(5) g(min_1) c1(ap_miner:1) b(squad2) t(all 44 45 ) level(1) cost(30) f(1))
+("squad_with1types" side(hun) name(at_miner) c(5) g(min_2) c1(at_miner:1) b(squad2) t(all 44 45 at_miner ) level(1) cost(32) f(1))
+("squad_with1types" side(hun) name(sapper) c(15) g(min_3) c1(saper:1) b(squad2) t(all 44 45 ) level(1) cost(35) f(1))
+
+;("squad_with1types" side(hun) name(at_rifle) c(15) g(anti_2) c1(at_rifle:1) b(squad2) t(all 44 45 at_rifle ) level(1) cost(40) f(1))
+("squad_with2types" side(hun) name(at_rifles) c(120) g(anti_2) c1(at_rifle:1) c2(at_rifle2:1) b(squad1) t(all 44 45 at_rifles ) level(1) cost(50) f(1))
+("squad_with2types" side(hun) name(bazookers) c(120) g(anti) c1(bazooker:1) c2(bazooker2:1) b(squad2) t(all 44 45 bazookers ) level(1) cost(80) f(1))
+;("squad_with1types" side(hun) name(bazooker) c(60) g(anti) c1(bazooker:1) b(squad2) t(all 44 45 bazooker ) level(1) cost(50) f(-4))
+("squad_with1types" side(hun) name(bazooker3) c(60) g(anti) c1(bazooker3:1) b(squad2) t(all 44 45 ) level(1) cost(50) f(-4))
+
+("squad_with1types" side(hun) name(flamers) c(60) g(anti_1) c1(flamer:1) b(squad2) t(all 44 45 off ) level(1) cost(90) f(-4))
+("squad_with1types" side(hun) name(snipers) c(120) g(steal_2) c1(sniper:1) b(squad2) t(all 44 45 sniper ) level(1) cost(150) f(-2.75))
+("squad_with1types" side(hun) name(radioman) c(120) g(spe_3) c1(radioman:1) b(squad2) t(all 44 45 radioman off ) level(1) cost(170) f(-5))
+
+{"officer_hun" ("officercar"  c(120) c0(pf508) s(hun) g(spe_3) sc(15) b(squad2) i(24) t(all 44 45 officer ) cw(0) cp(0)) level(1) {cost 180} {fore -4}}

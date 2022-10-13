@@ -1,0 +1,6 @@
+{from "breda_37"
+	{filling "ammo mgun" 24}
+	{entity "bredam38"}
+
+	("rof" r(600))
+}

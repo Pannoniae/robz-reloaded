@@ -1,0 +1,62 @@
+(include "\set\small.firearms.accuracy")
+
+(define "speed"   
+	{speed (* 1.0 %s)}
+)
+
+(define "power" 
+	{healthDamage (+ (* (/ %speed 82)  %calibre) (* 2 %calibre))}		;Speed / 82 * Caliber + 2 * Caliber
+	;{range (- (/ %speed 8.8) 10) (/ %speed 8.8)}
+	{speed (* 0.5 %speed)}
+	{calibre %calibre}
+)
+
+(define "power_hmgun" 
+	{healthDamage (+ (* (/ %speed 82)  %calibre) (* 2 %calibre))}		;Speed / 82 * Caliber + 2 * Caliber
+	{range (- (/ %speed 7) 10) (/ %speed 7)}
+	{speed (* 0.5 %speed)}
+	{calibre %calibre}
+)
+
+(define "recoveryTime"   
+	{recoveryTime (/ 60 %r)}
+)
+
+(define "rof"   
+	{recoveryTime (/ 60 %r)}
+)
+
+(define "burst_short"
+	{burst
+		{short 3 0.1}
+		{long 5 1}
+	}	
+)
+
+(define "burst_medium"
+	{burst
+		{short 4 0.1}
+		{long 7 1}
+	}	
+)
+
+(define "burst_long"
+	{burst
+		{short 5 0.1}
+		{long 10 1}
+	}	
+)
+(define "spread_optic"
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 97.5 95 92.5 90 85 80 70 60 50}
+	}
+)
+(define "mg_zeroing"
+	{ZeroingAccuracy 1 1 1 1 0.95 0.95 0.95 0.95 0.95 0.90 0.90 0.90 0.90 0.90 0.80 0.80 0.80 0.80 0.80 0.70}
+)
+(define "lmgun"
+	("accuracy_lmgun")	
+	{projectileDamageTable {0 12} {50 7} {100 4} {150 2} {225 0}} 
+)
+

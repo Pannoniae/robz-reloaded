@@ -1,0 +1,7 @@
+{from "pattern rifle"
+	{entity "manliher_m1895"}
+	{fireSound "rifle/mauser98k"}
+	{reloadSound "kar98k_reload"}
+	{recoveryTime 1.75}
+	("power" speed(720) calibre(8))
+}

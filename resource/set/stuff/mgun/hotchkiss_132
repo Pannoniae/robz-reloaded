@@ -1,0 +1,14 @@
+{from "pattern hmgun"
+	{filling "ammo hmgun" 30}
+	{entity "hotchkiss132"}
+	{fireSound	"gun/13mm_hotchkiss"}
+	{reloadSound "ptrd"}
+	{rechargeTime 6}
+
+	("rof" r(450))
+	("speed" s(800))
+
+	{projectileDamageTable {0 24} {50 20} {100 16} {150 13} {225 0}} 
+
+	("power" speed(800) calibre(13.2))
+}

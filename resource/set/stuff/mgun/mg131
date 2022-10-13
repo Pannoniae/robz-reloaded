@@ -1,0 +1,14 @@
+{from "pattern hmgun"
+	{filling "ammo hmgun" 30}
+	{entity "mg131"}
+	{fireSound	"gun/15mm_besa"}
+	{reloadSound "ptrd"}
+	{rechargeTime 6}
+
+	("rof" r(900))
+	("speed" s(750))
+
+	{projectileDamageTable {0 24} {50 20} {100 16} {150 13} {225 0}} 
+
+	("power_hmgun" speed(750) calibre(13))
+}

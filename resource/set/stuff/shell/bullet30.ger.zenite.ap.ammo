@@ -1,0 +1,21 @@
+{bullet
+	{tag "ammo small stackable shell_minimum pierce shell"}
+	{inventory
+		{weight 25}
+		{size 3 1}
+		{block 5}
+	}
+	{mass 1.2}
+	{entity "shell_ap_30_184b"}
+	{trace
+		{view "/texture/fx/trace_zenite2"
+			{ScaleY 0.20}
+			{Light 2}
+		}
+		{length 3.5}
+	}
+	;{damage blastwave  
+	;	{energy 0.3}
+	;	{area 1.5 2.5}
+	;}		
+}

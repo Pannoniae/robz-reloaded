@@ -1,0 +1,7 @@
+{from "pattern gun"     ; 152mm m.1909
+	{filling "rus_bullet152_ml20" 2}
+	("heavy_howitzer")
+	{fireSound "gun/howitzer/150mm_sfh18"}
+	{reloadSound "gun_r04"}
+	("range_art_short")
+}

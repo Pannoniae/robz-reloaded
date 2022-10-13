@@ -1,0 +1,17 @@
+{bullet
+	{tag "ammo small stackable 37to47 pierce"}
+	{inventory
+		{weight 25}
+		{size 2 2}
+		{block 5}
+	}
+	{mass 1.2}
+	{entity "ap_37mm_zenite"}
+	{trace
+		{view "/texture/fx/trace2"
+			{ScaleY 0.41}
+			{ScaleX 0.41}
+		}
+		{length 1.4}
+	}	
+}

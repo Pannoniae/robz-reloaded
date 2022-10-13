@@ -1,0 +1,9 @@
+{from "75mm_kwk40(l48)"	; "zrinyi1" 
+	{fireSound "gun/50to76_cal/76mm_pak36"}
+	
+	("damage" a(151) b(138) c(120) d(105) e(98))
+
+	("damage_apcr" ta(180) tb(159) tc(138) td(121) te(103))
+
+	("accuracy_long")
+}

@@ -1,0 +1,7 @@
+{from "pattern gun"     ; m1910 howitzer
+	{filling "rus_bullet122_m30" 3}
+	("howitzer_122mm")
+	{fireSound "gun/howitzer/122mm_m30"}
+	{reloadSound "tankgun_r04"}
+	("range_art_short")
+}

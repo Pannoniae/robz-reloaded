@@ -1,0 +1,28 @@
+;----- USA -----
+
+("squad_with3types_doc" side(usa) doc(usa_doc_a) name(riflemans) c(120) g(squad_1) c1(armor_squadleader:1) c2(armor_rifle:10) c3(armor_rifle_grenadier:1) b(squad1) t(doc) level(1) cost(170) f(1.0))
+("squad_with4types_vehicle_doc" side(usa) doc(usa_doc_a) name(riflemans_btr) c(300) g(squad_2) v1(m3_usa) c1(tankman:1) c2(armor_squadleader:1) c3(armor_rifle:7) c4(armor_rifle_grenadier:1) b(squad1) t(doc) level(1) cost(270) f(0.0))
+
+("squad_with1types_doc" side(usa) doc(usa_doc_a) name(tankmans) c(0) g(soldier_1) c1(tankman:4) b(squad1) t(tankmans doc) level(1) cost(40) f(-1.0))
+
+("squad_with1types_doc" side(usa) doc(usa_doc_a) name(officers) c(0) g(soldier_2) c1(oficer_armor:1) b(squad1) t(officer doc) level(1) cost(350) f(-1.0))
+
+;같캛utton 1같�
+
+{"zis5art(art)"      		("vs_rus" c(0) v1(zis5art) t(doc) s(rus_doc_art) n(2) g(b1) b(v1)) {level 1} {cost 150} {fore 0.0}}		;0sec
+{"ammo_box_rus_art(art)"  ("vs_rus" c(0) v1(ammo_box_rus_art) t(doc) s(rus_doc_art) n(2) g(b2) b(v1)) {level 1} {cost 75} {fore 0.0}}		;0sec
+
+;같캛utton support 2같� artillery guns
+
+{"bm_37(art)"      		("vs_rus" c(0) v1(bm_37) t(doc) s(rus_doc_art) n(2) g(c1) b(v2)) {level 1} {cost 350} {fore 0.0}}		;0sec
+{"pm_38(art)"      		("vs_rus" c(60) v1(pm_38) t(doc) s(rus_doc_art) n(2) g(c2) b(v2)) {level 1} {cost 590} {fore -9.0}}		;600sec
+
+{"m30_1938(art)"      	("vs_rus" c(60) v1(m30_1938) t(doc) s(rus_doc_art) n(2) g(c3) b(v2)) {level 1} {cost 700} {fore -14.0}}	;900sec
+{"np_ml20(art)"      	("vs_rus" c(60) v1(np_ml20) t(doc) s(rus_doc_art) n(2) g(c4) b(v2)) {level 1} {cost 880} {fore -19.0}}	;1200sec
+{"d1(art)"      		("vs_rus" c(60) v1(d1) t(doc) s(rus_doc_art) n(2) g(c5) b(v2)) {level 1} {cost 790} {fore -19.0}}		;1200sec
+
+{"203b4(art)"      		("vs_rus_noinfo" c(60) v1(203b4) t(doc) s(rus_doc_art) n(2) g(c6) b(v2)) {level 1} {cost 1200} {fore -19.0}}		;1200sec
+{"280br5(art)"      	("vs_rus_noinfo" c(60) v1(280br5) t(doc) s(rus_doc_art) n(2) g(c7) b(v2)) {level 1} {cost 1500} {fore -19.0}}		;1200sec
+
+{"bm_8_24(art)"      	("vs_rus" c(60) v1(bm_8_24) t(doc) s(rus_doc_art) n(2) g(c8) b(v2)) {level 1} {cost 700} {fore -14.0}}		;900sec
+{"bm13(art)"      		("vs_rus" c(60) v1(bm13) t(doc) s(rus_doc_art) n(2) g(c9) b(v2)) {level 1} {cost 900} {fore -19.0}}		;1200sec

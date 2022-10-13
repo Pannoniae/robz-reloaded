@@ -1,0 +1,14 @@
+{from "pattern gun"     		; m.1912  field gun
+	{filling "fr_bullet75_sa35"}
+	{fireSound "gun/50to76_cal/75mm_1912"}
+	{reloadSound "gun_r00"}
+	{rechargeTime 6.5}
+	("75-76caliber" speed(400) cal(75))  
+	("Supporter")
+	
+	("damage" a(48) b(42) c(35) d(24) e(13))
+
+	{parameters "fg"
+		("speed" s(360))
+	}
+}

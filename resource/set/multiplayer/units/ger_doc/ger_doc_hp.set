@@ -1,0 +1,25 @@
+;----- Germany -----
+
+("squad_with6types_doc" side(ger) doc(ger_doc_hp) name(stormtroopers_44) c(120) g(squad_1) c1(sturmovik_sl_40:1) c2(sturmovik_sl_asst:1) c3(sturmovik_pzfst:2) c4(sturmovik2:1) c5(sturmovik6_39:2) c6(sturmovik6b:2) b(squad1) t(doc) level(1) cost(230) f(1.0))
+("squad_with7types_vehicle_doc" side(ger) doc(ger_doc_hp) name(stormtroopers_btr) c(240) g(squad_2) v1(np_sdkfz251_1) c1(tankman:1) c2(sturmovik_sl_40:1) c3(sturmovik_sl_asst:1) c4(sturmovik_pzfst:2) c5(sturmovik2:1) c6(sturmovik6:2) c7(sturmovik6b:2) b(squad1) t(doc) level(1) cost(280) f(0.0))
+
+("squad_with1types_doc" side(ger) doc(ger_doc_hp) name(tankmans) c(0) g(soldier_1) c1(tankman:4) b(squad1) t(tankmans doc) level(1) cost(40) f(-1.0))
+("squad_with2types_doc" side(ger) doc(ger_doc_hp) name(elite_tankmans) c(0) g(soldier_2) c1(vet_tankman2:1) c2(vet_tankman:4) b(squad1) t(tankmans doc) level(1) cost(100) f(-1.0))
+
+("squad_with1types_doc" side(ger) doc(ger_doc_hp) name(officers) c(150) g(soldier_2) c1(oficer_panzer:1) b(squad2) t(officer doc) level(1) cost(350) f(0))
+
+;°°°Button 1°°°
+{"kubel_mgun_34(hp)"   	("vs_ger" c(30) v1(kubel_mgun_34) t(doc) s(ger_doc_hp) n(3) g(b1) b(v1)) {level 1} {cost 140} {fore 0.0}}	;0sec
+{"blitz3_6art(hp)"   	("vs_ger" c(0) v1(blitz3_6art) t(doc) s(ger_doc_hp) n(2) g(b2) b(v1)) {level 1} {cost 300} {fore 0.0}}		;0sec
+{"np_sdkfz251_1(hp)"    ("vs_ger" c(10) v1(np_sdkfz251_1) t(doc) s(ger_doc_hp) n(2) g(b3) b(v1)) {level 1} {cost 150} {fore -29.0}}	;300sec
+
+;°°°Button 3°°°
+{"np_sdkfz251_17(hp)"   ("vs_ger" c(10) v1(np_sdkfz251_17) t(doc) s(ger_doc_hp) n(3) g(v1) b(v3)) {level 1} {cost 220} {fore -59.0}} ;600sec
+
+;°°°Button 4°°°
+{"pz6e(hp)"  			("v_ger" c(10) v1(pz6e) t(doc) s(ger_doc_hp) n1(4) n2(1) g(e1) b(v4)) {level 1} {cost 900} {fore -209.0}}			;2100sec
+{"pz6e_dual(hp)"  		("v_ger_2x" c(1200) v1(pz6e) t(doc) s(ger_doc_hp) n1(4) n2(1) g(e2) b(v4)) {level 1} {cost 1500} {fore -1.0}}		;2400sec
+{"veteran_tiger(hp)"  	("v_ger_vet" c(1200) v1(veteran_tiger) t(doc) s(ger_doc_hp) n1(4) n2(1) g(e3) b(v4)) {level 1} {cost 1100} {fore -1.0}}	;2400sec
+{"sdkfz182b(hp)"  		("v_ger" c(10) v1(sdkfz182b) t(doc) s(ger_doc_hp) n1(4) n2(1) g(e4) b(v4)) {level 1} {cost 1350} {fore -229}}		;2300sec
+{"pz6bh(hp)"  			("v_ger" c(10) v1(pz6bh) t(doc) s(ger_doc_hp) n1(4) n2(1) g(e5) b(v4)) {level 1} {cost 1600} {fore -239}}			;2400sec
+{"pz6bh_dual(hp)"  		("v_ger_2x" c(1350) v1(pz6bh) t(doc) s(ger_doc_hp) n1(4) n2(1) g(e6) b(v4)) {level 1} {cost 2200} {fore -1.0}}		;2700sec

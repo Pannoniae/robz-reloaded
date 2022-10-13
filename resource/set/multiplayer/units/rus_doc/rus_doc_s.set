@@ -1,0 +1,31 @@
+;----- USA -----
+
+("squad_with3types_doc" side(usa) doc(usa_doc_a) name(riflemans) c(120) g(squad_1) c1(armor_squadleader:1) c2(armor_rifle:10) c3(armor_rifle_grenadier:1) b(squad1) t(doc) level(1) cost(170) f(1.0))
+("squad_with4types_vehicle_doc" side(usa) doc(usa_doc_a) name(riflemans_btr) c(300) g(squad_2) v1(m3_usa) c1(tankman:1) c2(armor_squadleader:1) c3(armor_rifle:7) c4(armor_rifle_grenadier:1) b(squad1) t(doc) level(1) cost(270) f(0.0))
+
+("squad_with1types_doc" side(usa) doc(usa_doc_a) name(tankmans) c(0) g(soldier_1) c1(tankman:4) b(squad1) t(tankmans doc) level(1) cost(40) f(-1.0))
+
+("squad_with1types_doc" side(usa) doc(usa_doc_a) name(officers) c(0) g(soldier_2) c1(oficer_armor:1) b(squad1) t(officer doc) level(1) cost(350) f(-1.0))
+
+;°°°Button 1°°°
+
+{"m3(s)"      	("vs_rus" c(10) v1(m3) t(doc) s(rus_doc_s) n(2) g(b4) b(v1)) {level 1} {cost 150} {fore -29.0}}		;300sec
+{"zis5art(s)"   ("vs_rus" c(0) v1(zis5art) t(doc) s(rus_doc_s) n(2) g(b1) b(v1)) {level 1} {cost 150} {fore 0.0}}	;0sec
+
+;°°°Button support 2°°° artillery guns
+
+{"pm_38(s)"   	("vs_rus" c(60) v1(pm_38) t(doc) s(rus_doc_s) n(2) g(b1) b(v2)) {level 1} {cost 590} {fore -9.0}}		;600sec
+{"bm13(s)"   	("vs_rus" c(60) v1(bm13) t(doc) s(rus_doc_s) n(2) g(b2) b(v2)) {level 1} {cost 900} {fore -19.0}}		;1200sec
+
+;°°°Button support 3°°° light
+
+{"t60(s)"    	("v_rus" c(10) v1(t60) t(doc) s(rus_doc_s) n1(1) n2(1) g(c1) b(v3)) {level 1} {cost 260} {fore -69.0}}	;700sec
+
+;°°°Button support 4°°° armor guns
+
+{"ot34_2(s)"   	("v_rus" c(10) v1(ot34_2) t(doc) s(rus_doc_s) n1(3) n2(1) g(e1) b(v4)) {level 1} {cost 400} {fore -119.0}}	;1200sec
+
+{"t34_3(s)"    	("v_rus" c(60) v1(t34_3) t(doc) s(rus_doc_s) n1(3) n2(1) g(e2) b(v4)) {level 1} {cost 700} {fore -23.0}}	;1440sec
+
+{"kv8_41(s)"   	("v_rus" c(10) v1(kv8_41) t(doc) s(rus_doc_s) n1(3) n2(1) g(e3) b(v4)) {level 1} {cost 600} {fore -149.0}}	;1500sec
+{"kv1s(s)"     	("v_rus" c(10) v1(kv1s) t(doc) s(rus_doc_s) n1(3) n2(1) g(e4) b(v4)) {level 1} {cost 625} {fore -149.0}}	;1500sec

@@ -1,0 +1,57 @@
+{breed
+	{skin "hun_elite2"}
+	{portrait "hun_elite2"}
+	{icon "stormtrooper"}
+	{icon_priority 2}
+	{nationality hun}
+	{armors
+		{body body_armor}
+		{head "helmet1_hun"}
+	}
+	{perks
+		{"health" "250%"
+		}
+		{"health_regeneration" "150%"
+		}
+		{"stamina" "200%"
+		}
+		{"stamina_regeneration" "125%"
+		}
+		{"vision" mp_elite
+		}
+		{"speed" 0.9
+		}
+		{"tank"	1.0
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		{"pistol" veteran
+		}
+		{"smg" veteran
+		}
+		{"mgun" veteran
+		}
+		{"rifle" veteran
+		}
+		{"rocketlauncher" veteran
+		}
+		{"melee" veteran
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "danuvia_39m" filled}
+		{item "ammo pistol" 270}
+		{item "bandage" 5}
+		{item "grenade hungarian_36m" 4}            
+		{item "dynamite"}
+		{item "smoke grenade" 2}
+		{item "kasapanos grenade" 2}
+		{in_hands 0}
+	}
+}
