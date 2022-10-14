@@ -1,0 +1,1461 @@
+{mission
+	{Entity "map_point" 0x802d
+		{Position -989.51 -3121.84}
+		{xform zl 41.89}
+		{Extender "map_point"
+			{name a1}
+			{team a}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 1}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 46}
+	}
+	{Entity "map_point" 0xc005
+		{Position -4605.99 -1560.09}
+		{xform zl 38.4}
+		{Extender "map_point"
+			{name b1}
+			{team b}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 1}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 8}
+	}
+	{Entity "map_point" 0x8000
+		{Position -1215.73 -3614.36}
+		{xform zl 63.38}
+		{Extender "map_point"
+			{name a2}
+			{team a}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 2}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 1}
+	}
+	{Entity "map_point" 0x8001
+		{Position -4880.67 -1465.33}
+		{xform zl 12.05}
+		{Extender "map_point"
+			{name b2}
+			{team b}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 2}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 2}
+	}
+	{Entity "flag_point_1" 0x8002
+		{Position 3213.55 2708.57}
+		{Skeleton
+			{MtlParams
+				{"specular color" "e6e6e6ff"}
+			}
+		}
+		{Extender "map_point"
+			{name f1}
+			{zoneA 12}
+			{zoneB 12}
+			{phase 0}
+			{order 1}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 3}
+	}
+	{Entity "flag_point_2" 0xc000
+		{Position -1542.35 919.64}
+		{Skeleton
+			{MtlParams
+				{"specular color" "e6e6e6ff"}
+			}
+		}
+		{Extender "map_point"
+			{name f2}
+			{zoneA 12}
+			{zoneB 12}
+			{phase 0}
+			{order 2}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 4}
+	}
+	{Entity "flag_point_3" 0xc001
+		{Position 2727.26 -2623.07}
+		{Skeleton
+			{MtlParams
+				{"specular color" "e6e6e6ff"}
+			}
+		}
+		{Extender "map_point"
+			{name f3}
+			{zoneA 12}
+			{zoneB 12}
+			{phase 0}
+			{order 3}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 5}
+	}
+	{Entity "flag_point_4" 0xc002
+		{Position 3093.44 -320.21}
+		{Skeleton
+			{MtlParams
+				{"specular color" "e6e6e6ff"}
+			}
+		}
+		{Extender "map_point"
+			{name f4}
+			{zoneA 12}
+			{zoneB 12}
+			{phase 0}
+			{order 4}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 6}
+	}
+	{Entity "flag_point_5" 0xc003
+		{Position 404.76 2108.65 -70.11}
+		{Skeleton
+			{MtlParams
+				{"specular color" "e6e6e6ff"}
+			}
+		}
+		{Extender "map_point"
+			{name f5}
+			{zoneA 12}
+			{zoneB 12}
+			{phase 0}
+			{order 5}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 7}
+	}
+	{Entity "night" 0x8011
+		{Position 2816.15 2307.57 -44.97}
+	}
+	{Entity "river" 0xc004
+		{Position 4638.52 4458.91 -92.69}
+		{Extender "speaker"
+			{SoundName "world/sea/am"}
+		}
+	}
+	{Entity "river" 0xc006
+		{Position 4701.02 4476.55 -94.61}
+		{Extender "speaker"
+			{SoundName "world/sea/pm"}
+		}
+	}
+	{Entity "river" 0xc007
+		{Position 3212.05 -3113.58 -87.38}
+		{Extender "speaker"
+			{SoundName "world/sea/am"}
+		}
+	}
+	{Entity "river" 0xc008
+		{Position 3274.55 -3095.94 -94.1}
+		{Extender "speaker"
+			{SoundName "world/sea/pm"}
+		}
+	}
+	{Entity "river" 0xc009
+		{Position -2101.82 -3941.58 -85.62}
+		{Extender "speaker"
+			{SoundName "world/sea/am"}
+		}
+	}
+	{Entity "river" 0xc00a
+		{Position -2039.32 -3923.94 -81.45}
+		{Extender "speaker"
+			{SoundName "world/sea/pm"}
+		}
+	}
+	{Entity "river" 0xc00b
+		{Position -4778.49 -2037.73 -98.72}
+		{Extender "speaker"
+			{SoundName "world/sea/am"}
+		}
+	}
+	{Entity "river" 0xc00c
+		{Position -4715.99 -2020.09 -92.67}
+		{Extender "speaker"
+			{SoundName "world/sea/pm"}
+		}
+	}
+	{Entity "river" 0xc00d
+		{Position -1397.36 -1143.6 -127.6}
+		{Extender "speaker"
+			{SoundName "world/sea/am"}
+		}
+	}
+	{Entity "river" 0xc00e
+		{Position -1334.86 -1125.96 -133.99}
+		{Extender "speaker"
+			{SoundName "world/sea/pm"}
+		}
+	}
+	{Entity "river" 0xc00f
+		{Position 2212.05 1328.49 -127.01}
+		{Extender "speaker"
+			{SoundName "world/sea/am"}
+		}
+	}
+	{Entity "river" 0xc010
+		{Position 2274.55 1346.13 -127}
+		{Extender "speaker"
+			{SoundName "world/sea/pm"}
+		}
+	}
+	{Tags "keep_places_without_door" 0x6000}
+	{Tags "keep_places_without_door" 0x4019}
+	{Tags "keep_places_without_door" 0x2014}
+	{Tags "keep_places_without_door" 0x418a}
+	{Tags "keep_places_without_door" 0x2269}
+	{Tags "keep_places_without_door" 0x212e}
+	{Tags "keep_places_without_door" 0x4061}
+	{Tags "keep_places_without_door" 0x31}
+	{Tags "keep_places_without_door" 0x28f}
+	{Tags "keep_places_without_door" 0x1011}
+	{Tags "keep_places_without_door" 0x5048}
+	{Tags "keep_places_without_door" 0x5071}
+	{Tags "keep_places_without_door" 0x606e}
+	{Tags "keep_places_without_door" 0x8b4}
+	{Tags "keep_places_without_door" 0x2817}
+	{Tags "keep_places_without_door" 0x20fb}
+	{Tags "keep_places_without_door" 0x211d}
+	{Tags "keep_places_without_door" 0x40d8}
+	{Tags "keep_places_without_door" 0x40fc}
+	{Tags "keep_places_without_door" 0x40fd}
+	{Tags "keep_places_without_door" 0x1883}
+	{Tags "keep_places_without_door" 0x1889}
+	{Tags "keep_places_without_door" 0x101c}
+	{Tags "keep_places_without_door" 0x1024}
+	{Tags "night" 0x8011}
+	{Tags "day" 0xc004}
+	{Tags "night" 0xc006}
+	{Tags "day" 0xc007}
+	{Tags "night" 0xc008}
+	{Tags "day" 0xc009}
+	{Tags "night" 0xc00a}
+	{Tags "day" 0xc00b}
+	{Tags "night" 0xc00c}
+	{Tags "day" 0xc00d}
+	{Tags "night" 0xc00e}
+	{Tags "day" 0xc00f}
+	{Tags "night" 0xc010}
+	{Environment "multi/multi_03"}
+	{Helpers
+		{event "Sequence_01/00"}
+		{event "Sequence_01/01"}
+		{event "Sequence_01/02"}
+		{event "Sequence_01/03"}
+		{event "Sequence_01/04"}
+		{event "Sequence_01/05"}
+		{event "Sequence_01/06"}
+		{event "Sequence_01/07"}
+		{event "Sequence_01/start"}
+		{reinforcements
+			{scoreTotal 0}
+			{scoreCurrent 0}
+		}		
+		{triggers
+			{"environment/environment"
+				{condition
+				}
+				{actions
+					{"switch"
+						{"case"
+							{condition
+								{type rand}
+								{value 1}
+							}
+							{"delete"
+								{selector
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+							{"event"
+								{event "Sequence_01/start"}
+								{mode set}
+								{delay 0}
+							}
+						}
+						{## "case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_09"}
+								{time -1}
+								{apply}
+							}
+							{"delete"
+								{selector
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{## "case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_08"}
+								{time -1}
+								{apply}
+							}
+							{"delete"
+								{selector
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{## "case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_07"}
+								{time -1}
+								{apply}
+							}
+							{"delete"
+								{selector
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{## "case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_06"}
+								{time -1}
+								{apply}
+							}
+							{"delete"
+								{selector
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{## "case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_05"}
+								{time -1}
+								{apply}
+							}
+							{"delete"
+								{selector
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{## "case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_04"}
+								{time -1}
+								{apply}
+							}
+							{"delete"
+								{selector
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{## "case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_03"}
+								{time -1}
+								{apply}
+							}
+							{"delete"
+								{selector
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{## "case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_02"}
+								{time -1}
+								{apply}
+							}
+							{"delete"
+								{selector
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{## "default"
+							{"environment"
+								{name "multi/multi_01"}
+								{time -1}
+								{apply}
+							}
+							{"delete"
+								{selector
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+					}
+				}
+			}
+			{"environment/Sequence_01/rand"
+				{condition
+					{terms
+						{"1.event"
+							{id "Sequence_01/start"}
+						}
+					}
+				}
+				{actions
+					{"switch"
+						{"case"
+							{condition
+								{type rand}
+								{value 0.16}
+							}
+							{"event"
+								{event "Sequence_01/00"}
+								{mode set}
+								{delay 0}
+							}
+							{"environment"
+								{name "multi/Sequence_01/07"}
+								{time -1}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.2}
+							}
+							{"event"
+								{event "Sequence_01/01"}
+								{mode set}
+								{delay 0}
+							}
+							{"environment"
+								{name "multi/Sequence_01/00"}
+								{time -1}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.12}
+							}
+							{"event"
+								{event "Sequence_01/02"}
+								{mode set}
+								{delay 0}
+							}
+							{"environment"
+								{name "multi/Sequence_01/01"}
+								{time -1}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.16}
+							}
+							{"event"
+								{event "Sequence_01/03"}
+								{mode set}
+								{delay 0}
+							}
+							{"environment"
+								{name "multi/Sequence_01/02"}
+								{time -1}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.2}
+							}
+							{"event"
+								{event "Sequence_01/05"}
+								{mode set}
+								{delay 0}
+							}
+							{"environment"
+								{name "multi/Sequence_01/04"}
+								{time -1}
+								{apply}
+							}
+						}
+						{"default"
+							{"event"
+								{event "Sequence_01/07"}
+								{mode set}
+								{delay 0}
+							}
+							{"environment"
+								{name "multi/Sequence_01/06"}
+								{time -1}
+								{apply}
+							}
+						}
+					}
+				}
+			}
+			{"environment/Sequence_01/phase_00"
+				{condition
+					{terms
+						{"1.event"
+							{id "Sequence_01/00"}
+						}
+					}
+				}
+				{actions
+					{"switch"
+						{"case"
+							{condition
+								{type rand}
+								{value 0.3}
+							}
+							{"environment"
+								{name "multi/Sequence_01/00_1"}
+								{time 300}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.15}
+							}
+							{"environment"
+								{name "multi/Sequence_01/00_2"}
+								{time 300}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.3}
+							}
+							{"environment"
+								{name "multi/Sequence_01/00_3"}
+								{time 300}
+								{apply}
+							}
+						}
+						{"default"
+							{"environment"
+								{name "multi/Sequence_01/00"}
+								{time 300}
+								{apply}
+							}
+						}
+					}
+					{"event"
+						{event "Sequence_01/00"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "Sequence_01/01"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/Sequence_01/phase_00"}
+					}
+				}
+			}
+			{"environment/Sequence_01/phase_01"
+				{condition
+					{terms
+						{"1.event"
+							{id "Sequence_01/01"}
+						}
+					}
+				}
+				{actions
+					{"switch"
+						{"case"
+							{condition
+								{type rand}
+								{value 0.3}
+							}
+							{"environment"
+								{name "multi/Sequence_01/01_1"}
+								{time 300}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.15}
+							}
+							{"environment"
+								{name "multi/Sequence_01/01_2"}
+								{time 300}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.3}
+							}
+							{"environment"
+								{name "multi/Sequence_01/01_3"}
+								{time 300}
+								{apply}
+							}
+						}
+						{"default"
+							{"environment"
+								{name "multi/Sequence_01/01"}
+								{time 300}
+								{apply}
+							}
+						}
+					}
+					{"event"
+						{event "Sequence_01/01"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "Sequence_01/02"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/Sequence_01/phase_01"}
+					}
+				}
+			}
+			{"environment/Sequence_01/phase_02"
+				{condition
+					{terms
+						{"1.event"
+							{id "Sequence_01/02"}
+						}
+					}
+				}
+				{actions
+					{"switch"
+						{"case"
+							{condition
+								{type rand}
+								{value 0.3}
+							}
+							{"environment"
+								{name "multi/Sequence_01/02_1"}
+								{time 300}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.15}
+							}
+							{"environment"
+								{name "multi/Sequence_01/02_2"}
+								{time 300}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.3}
+							}
+							{"environment"
+								{name "multi/Sequence_01/02_3"}
+								{time 300}
+								{apply}
+							}
+						}
+						{"default"
+							{"environment"
+								{name "multi/Sequence_01/02"}
+								{time 300}
+								{apply}
+							}
+						}
+					}
+					{"event"
+						{event "Sequence_01/02"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "Sequence_01/03"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/Sequence_01/phase_02"}
+					}
+				}
+			}
+			{"environment/Sequence_01/phase_03"
+				{condition
+					{terms
+						{"1.event"
+							{id "Sequence_01/03"}
+						}
+					}
+				}
+				{actions
+					{"switch"
+						{"case"
+							{condition
+								{type rand}
+								{value 0.3}
+							}
+							{"environment"
+								{name "multi/Sequence_01/03_1"}
+								{time 300}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.15}
+							}
+							{"environment"
+								{name "multi/Sequence_01/03_2"}
+								{time 300}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.3}
+							}
+							{"environment"
+								{name "multi/Sequence_01/03_3"}
+								{time 300}
+								{apply}
+							}
+						}
+						{"default"
+							{"environment"
+								{name "multi/Sequence_01/03"}
+								{time 300}
+								{apply}
+							}
+						}
+					}
+					{"event"
+						{event "Sequence_01/03"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "Sequence_01/04"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/Sequence_01/phase_03"}
+					}
+				}
+			}
+			{"environment/Sequence_01/phase_04"
+				{condition
+					{terms
+						{"1.event"
+							{id "Sequence_01/04"}
+						}
+					}
+				}
+				{actions
+					{"switch"
+						{"case"
+							{condition
+								{type rand}
+								{value 0.3}
+							}
+							{"environment"
+								{name "multi/Sequence_01/04_1"}
+								{time 300}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.15}
+							}
+							{"environment"
+								{name "multi/Sequence_01/04_2"}
+								{time 300}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.3}
+							}
+							{"environment"
+								{name "multi/Sequence_01/04_3"}
+								{time 300}
+								{apply}
+							}
+						}
+						{"default"
+							{"environment"
+								{name "multi/Sequence_01/04"}
+								{time 300}
+								{apply}
+							}
+						}
+					}
+					{"event"
+						{event "Sequence_01/04"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "Sequence_01/05"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/Sequence_01/phase_04"}
+					}
+				}
+			}
+			{"environment/Sequence_01/phase_05"
+				{condition
+					{terms
+						{"1.event"
+							{id "Sequence_01/05"}
+						}
+					}
+				}
+				{actions
+					{"switch"
+						{"case"
+							{condition
+								{type rand}
+								{value 0.3}
+							}
+							{"environment"
+								{name "multi/Sequence_01/05_1"}
+								{time 300}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.15}
+							}
+							{"environment"
+								{name "multi/Sequence_01/05_2"}
+								{time 300}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.3}
+							}
+							{"environment"
+								{name "multi/Sequence_01/05_3"}
+								{time 300}
+								{apply}
+							}
+						}
+						{"default"
+							{"environment"
+								{name "multi/Sequence_01/05"}
+								{time 300}
+								{apply}
+							}
+						}
+					}
+					{"event"
+						{event "Sequence_01/05"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "Sequence_01/06"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/Sequence_01/phase_05"}
+					}
+				}
+			}
+			{"environment/Sequence_01/phase_06"
+				{condition
+					{terms
+						{"1.event"
+							{id "Sequence_01/06"}
+						}
+					}
+				}
+				{actions
+					{"switch"
+						{"case"
+							{condition
+								{type rand}
+								{value 0.3}
+							}
+							{"environment"
+								{name "multi/Sequence_01/06_1"}
+								{time 300}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.15}
+							}
+							{"environment"
+								{name "multi/Sequence_01/06_2"}
+								{time 300}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.3}
+							}
+							{"environment"
+								{name "multi/Sequence_01/06_3"}
+								{time 300}
+								{apply}
+							}
+						}
+						{"default"
+							{"environment"
+								{name "multi/Sequence_01/06"}
+								{time 300}
+								{apply}
+							}
+						}
+					}
+					{"event"
+						{event "Sequence_01/06"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "Sequence_01/07"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/Sequence_01/phase_06"}
+					}
+				}
+			}
+			{"environment/Sequence_01/phase_07"
+				{condition
+					{terms
+						{"1.event"
+							{id "Sequence_01/07"}
+						}
+					}
+				}
+				{actions
+					{"switch"
+						{"case"
+							{condition
+								{type rand}
+								{value 0.3}
+							}
+							{"environment"
+								{name "multi/Sequence_01/07_1"}
+								{time 300}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.15}
+							}
+							{"environment"
+								{name "multi/Sequence_01/07_2"}
+								{time 300}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.3}
+							}
+							{"environment"
+								{name "multi/Sequence_01/07_3"}
+								{time 300}
+								{apply}
+							}
+						}
+						{"default"
+							{"environment"
+								{name "multi/Sequence_01/07"}
+								{time 300}
+								{apply}
+							}
+						}
+					}
+					{"event"
+						{event "Sequence_01/07"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "Sequence_01/00"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/Sequence_01/phase_07"}
+					}
+				}
+			}
+			{"engine/hover"
+				{condition
+				}
+				{actions
+					{"entity_state"
+						{selector
+							{tag hover_on}
+						}
+						{tag_add hover_on_trigger}
+						{tag_remove hover_on}
+					}
+					{"entity_state"
+						{selector
+							{tag hover_off}
+						}
+						{tag_add hover_off_trigger}
+						{tag_remove hover_off}
+					}
+					{"delay"
+						{time 1.01}
+					}
+					{"trigger"
+						{name "engine/hover"}
+					}
+				}
+			}
+			{"engine/fauna_melee"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{tag fauna_melee}
+								{state "not dead"}
+							}
+						}
+					}
+				}
+				{actions
+					{"actor_state"
+						{selector
+							{tag fauna_melee}
+						}
+						{control AI}
+						{fire_mode open}
+						{move_mode zone}
+						{move_radius 100}
+					}
+					{"delay"
+						{time 0.1}
+					}
+					{"entity_state"
+						{selector
+							{tag fauna_melee}
+						}
+						{tag_remove fauna_melee}
+					}
+					{"trigger"
+						{name "engine/fauna_melee"}
+					}
+				}
+			}
+			{"hover/speed_max"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{tag hover_off_trigger}
+								{state "not dead"}
+							}
+							{count
+								{op "=="}
+								{value 1}
+							}
+						}
+					}
+				}
+				{actions
+					{"actor_state"
+						{selector
+							{tag hover_off_trigger}
+						}
+						{movement
+							{max_speed_kph -1}
+						}
+					}
+					{"entity_state"
+						{selector
+							{tag hover_off_trigger}
+						}
+						{tag_remove hover_off_trigger}
+					}
+					{"delay"
+						{time 1}
+					}
+					{"trigger"
+						{name "hover/speed_max"}
+					}
+				}
+			}
+			{"hover/speed_min"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{tag hover_on_trigger}
+								{state "not dead"}
+							}
+							{count
+								{op "=="}
+								{value 1}
+							}
+						}
+					}
+				}
+				{actions
+					{"actor_state"
+						{selector
+							{tag hover_on_trigger}
+						}
+						{movement
+							{max_speed_kph 50}
+						}
+					}
+					{"delay"
+						{time 0.2}
+					}
+					{"actor_state"
+						{selector
+							{tag hover_on_trigger}
+						}
+						{movement
+							{max_speed_kph 45}
+						}
+					}
+					{"delay"
+						{time 0.2}
+					}
+					{"actor_state"
+						{selector
+							{tag hover_on_trigger}
+						}
+						{movement
+							{max_speed_kph 40}
+						}
+					}
+					{"delay"
+						{time 0.2}
+					}
+					{"actor_state"
+						{selector
+							{tag hover_on_trigger}
+						}
+						{movement
+							{max_speed_kph 35}
+						}
+					}
+					{"delay"
+						{time 0.2}
+					}
+					{"actor_state"
+						{selector
+							{tag hover_on_trigger}
+						}
+						{movement
+							{max_speed_kph 30}
+						}
+					}
+					{"delay"
+						{time 0.2}
+					}
+					{"actor_state"
+						{selector
+							{tag hover_on_trigger}
+						}
+						{movement
+							{max_speed_kph 25}
+						}
+					}
+					{"entity_state"
+						{selector
+							{tag hover_on_trigger}
+						}
+						{tag_remove hover_on_trigger}
+					}
+					{"trigger"
+						{name "hover/speed_min"}
+					}
+				}
+			}
+		}
+	}
+	{Players
+		{count 17}
+	}
+	{Fog 1}
+}

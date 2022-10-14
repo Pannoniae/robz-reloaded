@@ -1,0 +1,9 @@
+{material
+	{layer bump
+		{diffuse "/texture/land/sand/sand_4"}
+		{bump "/texture/land/sand/sand_4_nm"}
+	}
+	{layer bump
+		{diffuse "/texture/land/grass/gramma_6"}
+	}
+}

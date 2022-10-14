@@ -1,0 +1,11 @@
+name:t="user"
+
+replace_tex{
+  from:t="type_5_ho_ri_prototype_body_c*"
+  to:t="type_5_ho_ri_prototype_body_c.dds"
+}
+
+replace_tex{
+  from:t="type_5_ho_ri_prototype_gun_c*"
+  to:t="type_5_ho_ri_prototype_gun_c.dds"
+}

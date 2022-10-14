@@ -1,0 +1,10 @@
+{material
+	{layer bump
+		{diffuse "/texture/land/sand/sand_pebble2"}
+		{bump "/texture/land/bottom/bottom_sea1b_nm"}
+	}
+	{layer bump
+		{diffuse "/texture/land/sand/sand_roads1w"}
+		{bump "/texture/land/dirt/muddy_trace1_nm"}
+	}
+}

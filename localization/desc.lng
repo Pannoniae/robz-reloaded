@@ -4343,6 +4343,8 @@
 		{"bullet37 ger fg" 			"37mm SprGr.34 (HE)"}
 		{"bullet37 ger apcr" 		"37mm PzGr.40 (APCR)"}
 		{"bullet37 ger heat" 		"37mm Steil.Gr.41 (HEAT)"}
+		
+		{"bullet37 fra apc" 			"Mle1938 (APC)"}
         
         {"bullet40 ger ap" 			"40mm 36M (APHEBC-T)"}
 		{"bullet40 ger apcbc" 		"40mm PzGr.(t) umg. (APCBC-HE)"}
@@ -4472,7 +4474,8 @@
 		{"bullet75 japll aphe"		"75mm Type 5 Otsu APHE"}
 		{"bullet75 japll fg"		"75mm Type 1 HE"}
 
-		{"bullet88 jap aphe"	"88mm Type 1 APHE"}
+		{"bullet88 jap aphebc"		"88mm Type 5 APHEBC"}
+		{"bullet88 jap aphe"		"88mm Type 4 APHE"}
 		{"bullet88 jap fg"		"88mm Type 1 HE"}
 
 		{"bullet105 jap fg"		"105mm Type 1 HE"}

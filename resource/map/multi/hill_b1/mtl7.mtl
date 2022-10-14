@@ -1,0 +1,11 @@
+{material
+	{layer bump
+		{diffuse "/texture/land/grass/gramma_111"}
+		{bump "/texture/land/grass/gramma_111_nm"}
+	}
+	{layer bump
+		{diffuse "/texture/land/dirt/ground_smooth"}
+		{bump "/texture/land/dirt/ground_smooth_nm"}
+		{color 0x80131313}
+	}
+}
