@@ -31,7 +31,7 @@
 	{extender "inventory"
 		{box
 			{size 8 6}
-			{item "ammo dshk_belt ap" 300}
+			{item "ammo dshk_belt ap" 800}
 		}
 	}
 	{Weaponry

@@ -78,7 +78,7 @@
 		{box
 			{item "bullet88 ger apcbc" 50}
 			{item "bullet88 ger fg" 50}
-			{item "bullet88 ger apcr" 4}
+			{item "bullet88 ger apcr" 8}
 			{item "bullet88 ger heat" 5}
 		}
 	}

@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/model/type_98_ke_ni/type_98_ke_ni_rifled_barrel_a_am"}
+	{bump "$/model/type_98_ke_ni/type_98_ke_ni_rifled_barrel_a_nm"}
+	{blend none}
+}

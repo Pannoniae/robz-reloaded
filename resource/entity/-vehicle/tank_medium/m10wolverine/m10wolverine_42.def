@@ -18,6 +18,10 @@
 		{component "engine"}
 	}
 
+	{Volume "mantlet"
+		{tags "turret"}
+		{component "turret"}
+	}
 	{Volume "turret1"
 		{tags "turret"}
 		{component "turret"}
@@ -46,12 +50,8 @@
 		{tags "turret"}
 		{component "turret"}
 	}
-	{Volume "mantlet"
-		{tags "turret"}
-		{component "turret"}
-	}
 
-    ("armor_medium_advanced" turret(35 25 25 19) body(38 19 20 22) body2(51 25 20 22))
+    ("armor_medium" turret(35 25 25 19) body(38 19 20 22) body2(51 25 20 22))
 	("armor_engine"  t(40 25 25 19))
     ("armor_mantlet" t(57))
 	("us_5x_sight")
@@ -61,11 +61,11 @@
 	{boarder
 
 		{anm "left"
-			{forward	{begin	"board_tank_right"} {end "pose_mgun_pz6"}}
+			{forward	{begin	"board_tank_right"} {end "pose_dodge_sg2"}}
 			{reverse 	{end	"emit_tank_2_hold"}}
 		}
 		{anm "right"
-			{forward	{begin	"board_tank_left"} {end "pose_mgun_pz6"}}
+			{forward	{begin	"board_tank_left"} {end "pose_dodge_sg2"}}
 			{reverse 	{end	"emit_tank_2_hold"}}
 		}
 		{anm "armor"
@@ -111,8 +111,8 @@
 			{item "ammo bullet76 us3inch ap" 40}
 			{item "ammo bullet76 us3inch fg" 13}
 			{item "browning" filling "ammo hmgun ap" 100 {user "mgun"}}
-			{item "ammo hmgun ap" 400}
-			{item "ammo mgun" 3150}
+			{item "ammo hmgun ap"  600}
+			{item "ammo springfield_belt" 2500}
 		}
 	}
 	{Weaponry

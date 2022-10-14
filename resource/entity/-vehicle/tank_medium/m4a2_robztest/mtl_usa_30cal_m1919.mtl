@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "usa_mg_30cal_c"}
+	{blend none}
+}

@@ -31,7 +31,7 @@
 
 	{extender "inventory"
 		{box
-			{item "bullet155 fg" 6}
+			{item "bullet155 fg" 40}
 		}
 	}
 	{Weaponry

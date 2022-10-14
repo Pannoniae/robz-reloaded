@@ -33,7 +33,7 @@
 		{component "turret"}
 	}
 	
-	("armor_heavy_advanced" turret(110 80 80 40) body(150 80 80 40) body2(150 80 80 40) body3(100 80 80 40))
+	("armor_heavy" turret(110 80 80 40) body(150 80 80 40) body2(150 80 80 40) body3(100 80 80 40))
 	("armor_mantlet" t(110))
 	("armor_engine"  t(40 80 80 40))
 

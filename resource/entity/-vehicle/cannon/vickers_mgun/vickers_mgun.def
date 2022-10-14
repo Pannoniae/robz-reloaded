@@ -12,7 +12,7 @@
 	} 
 	{extender "inventory"
 		{box
-			{item "ammo british303_belt" 1000}
+			{item "ammo british303_belt" 2000}
 		}
 	} 	
 	{Extension "vickers_mgun.mdl"}

@@ -36,7 +36,7 @@
 
 	{extender "inventory"
 		{box
-			{item "ammo 20cm_rocket" 2}
+			{item "ammo 20cm_rocket" 20}
 			{item "sandbag_kit2"}
 		}
 	}

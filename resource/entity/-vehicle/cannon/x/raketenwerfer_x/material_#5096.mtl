@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "base_albedo_x"}
+	{blend none}
+}

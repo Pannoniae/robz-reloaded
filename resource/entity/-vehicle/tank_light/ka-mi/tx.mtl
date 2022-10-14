@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/type_2_ka_mi/type_2_ka_mi_tx_am"}
+	{blend blend}
+}

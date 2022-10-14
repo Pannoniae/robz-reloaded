@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/model/o-i/mi_to_130_tons_turret_01_am_hd_c"}
+	{bump "$/model/o-i/mi_to_130_tons_turret_01_anm_hd"}
+	{blend none}
+}

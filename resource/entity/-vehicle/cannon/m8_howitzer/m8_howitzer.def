@@ -36,7 +36,7 @@
 	("us_3x_sight")
 	{extender "inventory"
 		{box
-			{item "ammo bullet75 usm8 fg" 6}
+			{item "ammo bullet75 usm8 fg" 50}
 			{item "ammo bullet75 usm8 wp" 6}
 			{item "ammo bullet75 usm8 heat" 3}
 		}

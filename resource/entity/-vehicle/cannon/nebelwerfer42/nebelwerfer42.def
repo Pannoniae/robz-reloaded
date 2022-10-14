@@ -46,7 +46,7 @@
 	}
 	{extender "inventory"
 		{box
-			{item "ammo nebel" 12}
+			{item "ammo nebel" 50}
 			{item "ammo nebel incendiary" 12}
 			{item "sandbag_kit2"}
 		}

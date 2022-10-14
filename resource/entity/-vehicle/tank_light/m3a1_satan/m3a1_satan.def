@@ -1,0 +1,142 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc" scale(1.2))
+	{collider "tank.light"}
+	{props "light" "turret_rotator" "vision_vehicle_low" "muzzle_minimum"}
+	{targetClass "light_tank"}
+	{patherId "tank.light"}
+	
+	{extender "enumerator"}
+	
+	{Volume "Body"
+		{tags "body"}
+		{component "body"}
+	}
+	{Volume "Turret"
+		{tags "turret"}
+		{component "turret"}
+	}
+	
+	("armor_medium" turret(38 32 25 38) body(29 25 25 29))
+	("armor_engine"  t(25))
+	("armor_mantlet" t(51))
+	("us_3x_sight")
+	
+	("crew_4_human")
+
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_tank_left"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_right"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "armor"
+			{forward	{begin	"board_LowArmor"} 	{end "seat_armor"}}
+			{reverse 	{end	"emit_tank_1"}}
+		}
+	}
+
+	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor))
+	("seat_human" place(seat2) bone(seat02) door(emit4)  animation(armor))
+	
+	{extender "inventory"
+		{box
+			{item "bullet37 us ap" 70}
+			{item "bullet37 us fg" 32}
+			{item "ammo springfield_belt" 3350}
+			{item "grenade mk1" 6}
+			{item "ammo thompson_m1a1_mag" 450}
+			{item "thompson" filled}
+			{item "smoke grenade" 4}	
+			{item "tank_balloon" filled}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "flamer1"
+			{type "secondary_flamer"}
+			{weapon "flame_thrower_tank" filled}
+			{foresight "foresight1"}
+			{foresight "foresight7"}
+			{foresight "foresight8"}
+			{foresight "foresight9"}
+			{foresight "foresight10"}
+			{charger "gunner"}
+			{basic}
+		}
+		{place "mgun"
+			{type "mgun_hull"}
+			{weapon "browning_m19" filled}
+			{foresight "foresight3"}
+			{gunner "driver"}
+			{charger "driver"}
+			("abm_mgun")
+		}
+		{place "mgun1"
+			{type "mgun_coaxial"}
+			{weapon "browning_m19_optic" filled}
+			{foresight "foresight4"}
+			{gunner "gunner"}
+			{charger "gunner"}
+			("abm_mgun")
+			{basic}
+		}
+		{place "mgun3"
+			{type "mgun_right"}
+			{weapon "browning_m19" filled}
+			{foresight "foresight6"}
+			{gunner "commander"}
+			{charger "commander"}
+			("abm_mgun")
+		}
+		{place "mgun2"
+			{type "mgun_left"}
+			{weapon "browning_m19" filled}
+			{foresight "foresight5"}
+			{gunner "charger"}
+			{charger "charger"}
+			("abm_mgun")
+		}
+	}
+	{mass 15200}
+	{Chassis
+		("tank_trace" fx("tracks_sm2") step(0.15) len(0.45))
+		{Locomotion ("locomotion")
+			{maxspeed   38}
+			{maxSpeedAtMaxTurn 6}
+			{StartTime  25}
+			{TurnTime   14}
+			{TurnStart  1.1}			
+			{TurnRadius 7} 
+    		{TurnStop   0.6}
+			{BrakeTime  1.5}
+			{StopTime   2}
+			{Gears  0.1 0.2 0.3 1}
+			{RearGears  0.25}
+		}
+		{FuelBag
+			{volume 212 }	; liters
+			{rate	29}   ; liters per kilometer
+			{remain 212 }
+			{fuel "fuel"}
+		}
+		{speed
+        	{Normal  12}
+        	{Slow  18}
+    	}
+	}
+	
+	{Extension "m3_satan.mdl"}
+
+	{bone  "turret"       
+		{speed 0.003}     ;24° per second = 15 seconds / 360°
+	}
+        {bone "gun_rot"
+		{speed 0.001}
+        }
+
+}
+

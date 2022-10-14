@@ -4,6 +4,8 @@
 	{props "vehicle" "armored_car" "tractor" "tank" "opened" "vision_vehicle_low" "switch_mgun"}
 
 	{extender "enumerator"}
+	(include "/properties/resupply_generic.inc")
+	("halftrack_ammo_eng_inf")
 	
 	{volume "sticky"
 		{tags "grenade_fg_target"}

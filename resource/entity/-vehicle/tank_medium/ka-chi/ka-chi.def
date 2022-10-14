@@ -1,0 +1,173 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc" scale(1.2))
+	{props "light" "amphibia" "vision_vehicle_high" "muzzle_medium"}
+
+	{collider "tank.light"}
+	{PatherID "amphibia"}	
+	{extender "enumerator"}
+	
+	{Volume "body2"
+		{component "body"}
+		{tags "turret" "body"}
+	}
+	{Volume "body3"
+		{component "body"}
+		{tags "turret" "body"}
+	}
+	{Volume "body4"
+		{component "body"}
+		{tags "turret" "body"}
+	}
+	{Volume "body"
+		{component "body"}
+		{tags "turret" "body"}
+	}
+
+	{Volume "box01"
+		{Thickness 20}
+	}
+	{Volume "box02"
+		{Thickness 20}
+	}
+
+	("armor_medium" turret(50 25 25 20) body(50 25 25 20))
+	("armor_mantlet" t(50))
+	("armor_engine"  t(10 30 20 22))
+	("shield" args 10)
+
+
+	("crew_4_human")
+	
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_pz4_driver"} {end "pose_mgun_pz6"} }
+			{reverse 	{end	"board_pz4_driver" -1}}
+		}
+		{anm "left"
+			{forward	{begin	"board_Kv-85"} {end "pose_mgun_pz6"} {base "open1" }}
+			{reverse 	{end	"emit_tank_2_hold"} {base "open1" -1}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_left"} {end "pose_mgun_pz6"}{base "open2" -1}}
+			{reverse 	{end	"emit_tank_2_hold"}{base "open2" -1}}
+		}
+		{anm "armor"
+			{forward	{begin	"board_HighArmor"} 	{end "seat_armor"}}
+			{reverse 	{end	"emit_tank_2"}}
+		}
+		{anm "armor1"
+			{forward	{begin	"board_HighArmor"} {end "seat_armor"}}
+			{reverse 	{end	"emit_body"}}
+		}
+		{anm "gunner1"			
+			{forward	{begin	"board_hummel"} {end "pose_mgun_pz6"}}
+			{reverse 	{end	"emit_body" 1} }
+		}
+	}
+
+	("crew_human_visible" place(gunner01)	door1(emit9) door2(emit9) visor(main) animation(gunner1))
+	("crew_human_visible" place(gunner02)	door1(emit10) door2(emit10) visor(main) animation(gunner1))
+
+	{placer 
+		{place "gunner01" {openForCrush 0}}
+		{place "gunner02" {openForCrush 0}}
+	}
+
+	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor1))
+	("seat_human" place(seat2) bone(seat02) door(emit4)  animation(armor))
+	("seat_human" place(seat3) bone(seat03) door(emit5)  animation(armor))
+	("seat_human" place(seat4) bone(seat04) door(emit6)  animation(armor1))
+	("seat_human" place(seat5) bone(seat05) door(emit7)  animation(armor))
+	("seat_human" place(seat6) bone(seat06) door(emit8)  animation(armor1))
+	("seat_human" place(seat7) bone(seat07) door(emit9)  animation(armor))
+	("seat_human" place(seat8) bone(seat08) door(emit10)  animation(armor1))
+
+
+	("shield" args 8)
+	{extender "shield"
+		{on}
+	}
+
+	{component "shieldl1" {tags "shield"}}
+	{component "shieldl2" {tags "shield"}}
+	{component "shieldr1" {tags "shield"}}
+	{component "shieldr2" {tags "shield"}}
+
+
+
+	{extender "inventory"
+		{box
+			{item "ammo bullet47 jap aphe" 35}
+			{item "ammo bullet47 jap aphebc" 15}
+			{item "ammo bullet47 jap fg" 25}
+			{item "ammo type97_mag" 1500}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "47mm_type1" filling "ammo bullet47 jap aphe" 1}
+			("abm_low")
+		}
+
+		{place "mgun1"
+			{type "mgun_rear"}
+			{weapon "type97_mg" filled}
+			{foresight "foresight4"}
+			("abm_mgun")
+		}
+
+	}
+
+	{mass 18200}
+	{Chassis
+		("tank_trace_ex" fx("tracks_sm2") step(0.15) len(0.6) boneleft("wheels_l") boneright("wheels_r"))
+		{Locomotion ("locomotion")
+			{MaxSpeed   30}
+			{maxSpeedAtMaxTurn 10}
+			{StartTime	60}
+			{TurnTime	28}
+			{TurnStart  1.8} 
+    		{BrakeTime  1.5}
+     		{StopTime   2.5} 
+    		{TurnRadius 11} 
+    		{TurnStop   0.8} 
+    		{Gears      0.1 0.2 0.4 1.0}
+    		{RearGears  0.2}
+		}
+		{switch
+			{exitFromWater}
+			{terrain not "water" "deep_water"}
+		}
+		{FuelBag
+			{volume 500}	
+			{rate	40}   
+			{remain 500}
+			{fuel "fuel"}
+		}
+		{speed
+        	{Normal  12}
+        	{Slow  12}
+    	}
+	}
+
+	{Extension "ka-chi.mdl"}
+	{texmod ""}
+	{bone "turret"
+		{speed 0.00333333}
+	}
+	{bone "gun_rot"
+		{speed 0.00333333}
+	}
+
+	{chassis "water"
+		("chassis_defaults")
+		{ignorePatherBounds}
+		{waterline 1.4}
+		{switch
+			{terrain "water" "deep_water"}
+		}	
+	}
+}

@@ -1,0 +1,119 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc" scale(1.2))
+	(include "/properties/car_crew.ext")
+	{props "light" "amphibia" "vision_vehicle_high" "muzzle_medium"}
+
+	{collider "tank.light"}
+	{PatherID "amphibia"}	
+	
+	{volume "body"
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "body2"
+		{component "body2"}
+		{tags "body2"}
+	}
+	{volume "body3"
+		{component "body3"}
+		{tags "body3"}
+	}
+
+	("armor_light" turret(38 32 25 6) body(38 25 25 6) body2(38 25 25 6) body3(38 25 25 6))
+
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_HighArmor"} {end "seat_passenger"}}
+			{reverse 	{end	"emit_tank_1"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_HighArmor"} {end "pose_mgun_stan"}}
+			{reverse 	{end	"emit_tank_1"}}
+		}
+		{anm "armor"
+			{forward	{begin	"board_HighArmor"} {end "squat_take_small"}}
+			{reverse 	{end	"emit_tank_1"}}
+		}
+	}
+
+	("crew_human_visible_anm" place(driver) door1(emit1) door2(emit2) bone(driver) visor(visor1) anm_left(left) anm_right(left))
+	("crew_human_visible_anm" place(commander) door1(emit2) door2(emit1) bone(commander) visor(visor1) anm_left(left) anm_right(left))
+	("crew_human_visible_anm" place(gunner1) door1(emit3) door2(emit3) bone(gunner1) visor(visor2) anm_left(right) anm_right(right))
+	("crew_human_visible_anm" place(gunner2) door1(emit4) door2(emit4) bone(gunner2) visor(visor3) anm_left(right) anm_right(right))
+	("seat_human" place(seat1) bone(seat01) door(emit1)  animation(armor))
+	("seat_human" place(seat2) bone(seat02) door(emit2)  animation(armor))
+	("seat_human" place(seat3) bone(seat03) door(emit6)  animation(armor))
+	("seat_human" place(seat4) bone(seat04) door(emit5)  animation(armor))
+
+	{extender "inventory"
+		{box
+			{item "ammo mgun" 10000}
+		}
+	}
+	{Weaponry
+		{place "mgun1"
+			{weapon "browning_m19" filled}
+			{type "mgun_middle_left"}
+			{foresight "foresight4"}
+			{gunner "gunner1"}
+			{charger "gunner1"}
+			{LinkBone "mgun_rot1"}
+			{LinkAnimation "off"}
+			{basic}
+		}
+		{place "mgun2"
+			{weapon "browning_m19" filled}
+			{type "mgun_middle_right"}
+			{foresight "foresight5"}
+			{gunner "gunner2"}
+			{charger "gunner2"}
+			{LinkBone "mgun_rot2"}
+			{LinkAnimation "off"}
+			{basic}
+		}
+	}
+
+	{mass 14200}
+	{Chassis
+		("tank_trace_ex" fx("tracks_sm2") step(0.15) len(0.4) boneleft("wheels_l") boneright("wheels_r"))
+		{Locomotion ("locomotion")
+			{maxspeed   27}
+			{maxSpeedAtMaxTurn 20}
+			{StartTime	17}
+			{TurnTime	11}
+			{TurnStart  1.8} 
+    		{BrakeTime  1.5}
+     		{StopTime   2.5} 
+    		{TurnRadius 11} 
+    		{TurnStop   0.8} 
+    		{Gears      0.5 1.0}
+    		{RearGears  0.37}
+		}
+		{switch
+			{exitFromWater}
+			{terrain not "water" "deep_water"}
+		}
+		{FuelBag
+			{volume 295 }	
+			{rate	 90 }   
+			{remain 295 }
+			{fuel "fuel"}
+		}
+		{speed
+        	{Normal  12}
+        	{Slow  18}
+    	}
+	}
+
+	{Extension "lvt(a)-2_x.mdl"}
+
+	{chassis "water"
+		("chassis_defaults")
+		{ignorePatherBounds}
+		{waterline 1.0}
+		{switch
+			{terrain "water" "deep_water"}
+		}	
+	}
+}

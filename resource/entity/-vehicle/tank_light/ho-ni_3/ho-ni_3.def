@@ -85,7 +85,8 @@
 
 	{extender "inventory"
 		{box
-			{item "ammo bullet75 jap aphe2" 45}
+			{item "ammo bullet75 jap aphe" 40}
+			{item "ammo bullet75 jap wp" 5}
 			{item "ammo bullet75 jap fg" 25}
 		}
 	}
@@ -93,7 +94,7 @@
 		("restore_ik_time")
 		{place "gun"
 			{RestoreIKAfterAim}
-			{weapon "75mm_type3" filling "ammo bullet75 jap aphe2" 1}
+			{weapon "75mm_type3" filling "ammo bullet75 jap aphe" 1}
 			("abm_high")
 		}
 	}

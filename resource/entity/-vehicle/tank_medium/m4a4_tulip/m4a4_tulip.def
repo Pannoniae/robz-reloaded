@@ -81,7 +81,9 @@
 		{box
 			{item "ammo bullet75 us eng apcbc" 40}
 			{item "ammo bullet75 us fg" 45}
-			{item "ammo springfield_belt" 2350}
+			{item "browning" filling "ammo hmgun ap" 100 {user "mgun"}}
+			{item "ammo hmgun ap" 600}
+			{item "ammo springfield_belt" 2450}
 			{item "ammo tulip" 6}
 		}
 	}
@@ -98,13 +100,13 @@
 			{StationaryFiring}
 			("abm_howitzer")
 		}
-		{place "mgun1"
-			{type "mgun_hull"}
-			{weapon "browning_m19" filled}
-			{foresight "foresight4"}
-			{gunner "driver"}
-			{charger "driver"}
-			("abm_mgun")
+		{place "mgun"
+			{type "mgun_aa"}
+			{gunner "gunner2"}
+			{charger "gunner2"}
+			{LinkBone "mgun_rot"}
+			{LinkAnimation "off"}
+			("abm_mgun_heavy")
 		}
 		{place "mgun2"
 			{type "mgun_coaxial"}
@@ -112,6 +114,14 @@
 			{foresight "foresight5"}
 			("abm_mgun")
 			{basic}
+		}
+		{place "mgun1"
+			{type "mgun_hull"}
+			{weapon "browning_m19" filled}
+			{foresight "foresight4"}
+			{gunner "driver"}
+			{charger "driver"}
+			("abm_mgun")
 		}
 		{place "gun2"
 			{type "secondary_rockets"}
@@ -122,7 +132,7 @@
 			{charger "commander"}
 			;{StationaryFiring}
 			{basic}
-			("abm_tulip")
+			("abm_low")
 		}
 	}
 

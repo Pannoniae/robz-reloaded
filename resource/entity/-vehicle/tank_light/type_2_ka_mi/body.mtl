@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/type_2_ka_mi/type_2_ka_mi_body_am"}
+	{bump "$/model/type_2_ka_mi/type_2_ka_mi_body_nm"}
+	{specular "$/model/type_2_ka_mi/type_2_ka_mi_body_gmm"}
+	{color "229 229 229 25"}
+	{blend none}
+}

@@ -123,8 +123,7 @@
 				}
 			}
 			{bone socket "mgun1"
-				{limits 15}
-                                {speed2 80}
+				{limits 30}
 				{Matrix34
 					0	0	-1
 					0	1	0
@@ -143,6 +142,9 @@
 			}
 			{bone socket "gun_rot1"
 				{parameters "ID=gun;"}
+				{animation
+					{sequence "repair" {file "gun_r.anm"} {speed 0.5}}
+				}
 				{limits 7}
 				{speed 0.01}
 				{Matrix34
@@ -486,7 +488,7 @@
 	{Position 0.162422	-0.224618	41.0781}
 }
 {Volume "inventory"
-	{Box 19.0225 25.9437 20.198}
+	{Box 19.0225 52.9437 20.198}
 	{Bone "body"}
 	{Position -5.00746	-0.861366	2.94647}
 }

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "static_peleliu_palette_c"}
+	{blend none}
+}

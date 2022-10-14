@@ -46,14 +46,14 @@
 	}
 	{extender "inventory"
 		{box
-			{item "ammo nebel41 fg" 12}
+			{item "ammo nebel41" 50}
 			{item "ammo nebel41 sm" 12}
 			{item "sandbag_kit2"}
 		}
 	}
 	{Weaponry
 		{place "gun"
-			{weapon "weapon nebel41" filling "ammo nebel41 fg" 6}
+			{weapon "weapon nebel41" filled}
 			{Barrels 6}
 			{StationaryFiring}
 			{Rotate}

@@ -1,0 +1,122 @@
+{game_entity
+	(include "/properties/tank_unarmed.ext")
+	(include "/properties/selection/vehicle.inc"  scale(0.8))
+	{collider "tank.light"}
+	{props "light" "turret_rotator" "flak" "turret" "vision_vehicle_high"}
+	{targetClass "light_tank" "bullet"}
+	{targetSelector "tank_bullet"}
+
+	{patherId "tank.light"}
+	
+	{extender "enumerator"}
+	{volume "sticky"
+		{tags "grenade_fg_target"}
+		{able clear {contact} {touch}}
+		{component "sticky_body"}
+	}	
+
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body3"
+		{tags "body"}
+		{component "body"}
+	}
+
+	
+	("armor_light" turret(16 10 10 10) body(16 12 12 10))
+
+
+
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_SdKfz251-1"} {end "seat_driver_car"}}
+			{reverse 	{end	"emit_body" 1} }
+		}
+		{anm "gunner"
+			{forward	{begin	"board_HighArmor"} {end "pose_flak38_gunlayer"}}
+			{reverse 	{end	"emit_tank_2"}}
+		}
+	}
+
+	(define "crew_human"
+		{placer
+			{place "%place" {group "crew"} {linkbone "%place"} {turnoff {sensor} {shadow}}}
+		}
+		{boarder
+			{door "%door1"}
+			{door "%door2"}
+			{link "%door1" "%place" {anm "%place"} {forward putoff} {reverse puton}}
+			{link "%door2" "%place" {anm "%place"} {forward putoff} {reverse puton}}
+		}
+	)
+
+	{placer
+		{place "driver" {group "crew"} {visor "driver"}}
+	}
+	{placer
+		{place "gunner" {visor "main"}}
+	}
+	{boarder
+		{door "emit0"}
+		{door "emit1"}
+		{link "emit0" "driver" {anm "driver"} {forward putoff} {reverse puton}}
+	}
+
+	("crew_human_visible" place(gunner)	door1(emit1) door2(emit2) visor(main))
+	("crew_human" place(gunner)	door1(emit1))
+
+
+	{extender "inventory"
+		{box
+			{item "repair_kit" 1}
+			{item "bullet20 jap zenite ap" 250}
+			{item "bullet20 jap zenite fg" 250}
+		}
+	}
+	{Weaponry
+
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "20mm_type2" filled}
+			{charger "gunner"}
+			{Barrels 2}
+		}
+	}
+
+	("tracks")
+
+	{mass 21000}
+	{Chassis
+		("tank_trace" fx("tracks_sm2") step(0.15) len(0.2))
+		{Locomotion ("locomotion")
+			{maxspeed   38}
+			{StartTime  50}
+			{TurnTime   20}
+			{TurnStart  1.7}			
+			{TurnRadius 7} 
+	    	{TurnStop   0.7}
+			{BrakeTime  1.5}
+			{StopTime   2}
+     		{Gears  0.2 0.5 1}
+			{RearGears  0.4}
+		}
+		{FuelBag
+			{volume 200 }	
+			{rate	10 }   
+			{remain 200 }
+			{fuel "fuel"}
+		}
+		{speed
+        	{Normal  12}
+        	{Slow  16}
+    	}
+	}
+	{Extension "type_95_so_ki.mdl"}
+	{texmod ""}
+
+	{bone "turret"
+		{speed 0.01}
+	}
+}

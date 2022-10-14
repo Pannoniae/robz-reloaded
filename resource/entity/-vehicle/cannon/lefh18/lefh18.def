@@ -65,7 +65,7 @@
 
 	{extender "inventory"
 		{box
-			{item "ammo bullet105 ger fg" 8}
+			{item "ammo bullet105 ger fg" 40}
 			{item "ammo bullet105 ger sm" 4}
 			{item "ammo bullet105 ger heat" 3}
 			{item "sandbag_kit2"}

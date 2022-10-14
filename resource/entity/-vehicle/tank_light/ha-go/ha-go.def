@@ -22,9 +22,10 @@
 	
 	{extender "inventory"
 		{box
-			{item "ammo bullet37 jap aphe" 68}
-			{item "ammo bullet37 jap fg" 50}
-			{item "ammo type97_mag" 2400}
+			{item "ammo bullet37 jap aphe" 60}
+			{item "ammo bullet37 jap wp" 7}
+			{item "ammo bullet37 jap fg" 55}
+			{item "ammo type97_mag" 2500}
 		}
 	}
 	{Weaponry

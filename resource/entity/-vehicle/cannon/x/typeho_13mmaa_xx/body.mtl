@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "13mm_hotchkiss_xx"}
+	{blend test}
+}

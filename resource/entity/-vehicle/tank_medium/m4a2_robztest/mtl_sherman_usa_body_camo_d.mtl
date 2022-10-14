@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "sherman_camo_d_c"}
+	{blend none}
+}

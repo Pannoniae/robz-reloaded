@@ -61,9 +61,9 @@
 	("eng_3x_sight")
 	{extender "inventory"
 		{box
-			{item "bullet94 eng apcbc" 5}
-			{item "bullet94 eng apds" 4}
-			{item "bullet94 eng fg" 4}
+			{item "bullet94 eng apcbc" 50}
+			{item "bullet94 eng apds" 5}
+			{item "bullet94 eng fg" 5}
 		}
 	}
 	{Weaponry

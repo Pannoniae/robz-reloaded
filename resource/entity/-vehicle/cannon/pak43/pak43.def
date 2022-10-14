@@ -2,7 +2,6 @@
 	(include "/properties/cannon.ext")
 	{props "vehicle" "cannon" "wheeled" "round_sandbag2" "vision_cannon_maximum" "muzzle_large_sides"}
 	{PatherId "cannon.large"}
-	{collider "cannon_heavy"}
 	
 	("armor_heavy")
 
@@ -45,17 +44,11 @@
 	("ger_5x8_sight")
 	{extender "inventory"
 	   {box
-        	{item "ammo bullet88 gerl apcbc"}
-			{item "ammo bullet88 gerl apcbc"}
-			{item "ammo bullet88 gerl apcbc"}
-       		{item "ammo bullet88 gerl fg"}
-			{item "ammo bullet88 gerl fg"}
-			{item "ammo bullet88 gerl fg"}
-			;{item "ammo bullet88 gerl apcr" 5}
-			;{item "ammo bullet88 gerl heat" 5}
+        		{item "ammo bullet88 gerl apcbc" 5}
+       			{item "ammo bullet88 gerl fg" 5}
+			{item "ammo bullet88 gerl apcr" 5}
+			{item "ammo bullet88 gerl heat" 5}
 			{item "sandbag_kit2"}
-			{Size 6 8}
-			{Weight 100}
         }
 	}
 	{Weaponry
@@ -86,7 +79,7 @@
 
 	{Chassis "track"
 		("car_trace" fx("tracewheel03") step(0.09) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
-		("loco_nomove")
+		("loco_verybig")
     	}
 	{bone "gun_rot"
 		{speed 0.0004}

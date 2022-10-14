@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "m3stuart_gun_xx"}
+	{blend none}
+}

@@ -44,8 +44,7 @@
 
 	{extender "inventory"
 		{box
-			{item "bullet105 jap fg" 8}
-			{item "bullet105 jap heat" 4}
+			{item "bullet105 jap fg" 50}
 			{item "sandbag_kit2"}
 		}
 	}

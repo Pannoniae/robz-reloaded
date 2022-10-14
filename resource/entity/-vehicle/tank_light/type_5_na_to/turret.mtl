@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/model/type_5_na_to/type_5_na_to_turret_am"}
+	{specular "$/model/type_5_na_to/type_5_na_to_turret_gmm"}
+	{color "229 229 229 25"}
+	{blend none}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "tigerp_tracks"}
+	{blend none}
+}

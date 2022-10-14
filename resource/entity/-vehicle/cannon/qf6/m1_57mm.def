@@ -31,9 +31,9 @@
 	{extender "inventory"
 		{box
 			{item "ammo bullet57 us-eng us ap" 2}
-			{item "ammo bullet57 us-eng us apcbc" 3}
+			{item "ammo bullet57 us-eng us apcbc" 50}
 			{item "ammo bullet57 us-eng us fg" 5}
-			{item "ammo bullet57 apds" 4}
+			{item "ammo bullet57 apds" 5}
 		}
 	}
 	{Weaponry

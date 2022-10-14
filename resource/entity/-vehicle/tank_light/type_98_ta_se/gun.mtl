@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/type_98_ta_se/type_98_ta_se_gun_am"}
+	{bump "$/model/type_98_ta_se/type_98_ta_se_gun_nm"}
+	{specular "$/model/type_98_ta_se/type_98_ta_se_gun_gmm"}
+	{color "229 229 229 25"}
+	{blend none}
+}

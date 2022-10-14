@@ -1,7 +1,7 @@
 {game_entity
 	(include "/properties/tank.ext")
 	(include "/properties/selection/vehicle.inc" scale(1.2))
-	{props "light" "amphibia" "vision_vehicle_high" "muzzle_medium"}
+	{props "light" "amphibia" "vision_vehicle_high" "muzzle_medium" "gun_mode_change"}
 
 	{collider "tank.light"}
 	{PatherID "amphibia"}	
@@ -72,10 +72,15 @@
 
 	{extender "inventory"
 		{box
-			{item "ammo bullet75 usm8 fg" 60}
+			{item "ammo bullet75 usm8 fg" 94}
+			{item "ammo bullet75 usm8 wp" 2}
+			{item "ammo bullet75 usm8 heat" 4}
 			{item "browning" filling "ammo hmgun ap" 100 {user "mgun"}}
-			{item "ammo hmgun ap" 550}
-			{item "ammo springfield_belt" 1200}
+			{item "ammo hmgun ap" 600}
+			{item "ammo springfield_belt" 6000}
+			{item "grenade m61" 6}
+			{item "ammo thompson_m1a1_mag" 450}
+			{item "thompson" filled}
 		}
 	}
 	{Weaponry
@@ -85,6 +90,13 @@
 			{charger "gunner"}
 			{weapon "75mm_m2" filling "ammo bullet75 usm8 fg" 1}
 			("abm_low")
+		}
+		{place "gun1_2"
+			{type "gun_change_arty"}
+			{charger "gunner"}
+			{weapon "75mm_m2_2"}
+			{StationaryFiring}
+			("abm_howitzer")
 		}
 		{place "mgun"
 			{type "mgun_aa"}
@@ -104,7 +116,7 @@
 		}
 		{place "mgun2"
 			{type "mgun_coaxial"}
-			{weapon "browning_m19" filled}
+			{weapon "browning_m19_optic" filled}
 			{foresight "foresight5"}
 			{charger "gunner"}
 			("abm_mgun")
@@ -116,7 +128,7 @@
 	{Chassis
 		("tank_trace_ex" fx("tracks_sm2") step(0.15) len(0.4) boneleft("wheels_l") boneright("wheels_r"))
 		{Locomotion ("locomotion")
-			{maxspeed   22}
+			{maxspeed   32}
 			{maxSpeedAtMaxTurn 5}
 			{StartTime	30}
 			{TurnTime	18}

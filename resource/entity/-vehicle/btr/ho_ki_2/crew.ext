@@ -1,0 +1,106 @@
+;SDL
+
+
+{Placer
+	{place "driver"
+		{Group "crew"}
+		{LinkBone "driver"}
+		{turnoff {sensor} {shadow}}
+	}
+}
+{Placer
+	{place "gunner3"
+		{Group "crew"}
+		{LinkBone "gunner3"}
+		{turnoff {sensor} {shadow}}
+	}
+}
+{Placer
+	{place "gunner4"
+		{Group "crew"}
+		{LinkBone "gunner4"}
+		{turnoff {sensor} {shadow}}
+	}
+}
+{Placer
+	{place "gunner5"
+		{Group "crew"}
+		{LinkBone "gunner5"}
+		{turnoff {sensor} {shadow}}
+	}
+}
+{Placer
+	{place "gunner6"
+		{Group "crew"}
+		{LinkBone "gunner6"}
+		{turnoff {sensor} {shadow}}
+	}
+}
+
+(define "define_place"
+	{placer
+		{place "%place"
+			{linkbone "%place"}
+			{attach squat_lie}
+			{turnoff {shadow}}
+			{obstacle enable}
+		}
+	}
+	{Volume "%place"
+		{tags "attach" "attach_%place"}
+		{able clear {bullet 0} {touch 1}}
+	}
+)
+
+("define_place" place(place1))
+("define_place" place(place2))
+("define_place" place(place3))
+("define_place" place(place4))
+("define_place" place(place5))
+("define_place" place(place6))
+("define_place" place(place7))
+("define_place" place(place8))
+("define_place" place(place9))
+("define_place" place(place10))
+
+
+
+
+{boarder
+	{door "emit1"}
+	{door "emit2"}
+	{door "emit3"}
+
+	{anm "climb"
+		{forward	{begin	"board_body"} {end "stand_lie"}}
+		{reverse 	{end	"emit_body" 1}}
+	}
+	{anm "seat" 
+		{forward 	{begin	"board_body"} {end "seat_passenger"}}
+		{reverse 	{end	"emit_body" 1}}
+	}
+	{anm "gunner3"
+		{forward	{begin	"board_tank_right"} {end "seat_m7_mgunner"}}
+		{reverse 	{end	"emit_tank_1_hold"}}
+	}
+
+
+	{link "emit3"	"place1"	{anm "climb"} {forward puton} {reverse putoff}}
+	{link "emit3"	"place2"	{anm "climb"} {forward puton} {reverse putoff}}
+	{link "emit3"	"place3"	{anm "climb"} {forward puton} {reverse putoff}}
+	{link "emit3"	"place4"	{anm "climb"} {forward puton} {reverse putoff}}
+	{link "emit3"	"place5"	{anm "climb"} {forward puton} {reverse putoff}}
+	{link "emit3"	"place6"	{anm "climb"} {forward puton} {reverse putoff}}
+	{link "emit3"	"place7"	{anm "climb"} {forward puton} {reverse putoff}}
+	{link "emit3"	"place8"	{anm "climb"} {forward puton} {reverse putoff}}
+	{link "emit3"	"place9"	{anm "climb"} {forward puton} {reverse putoff}}
+
+
+	{link "emit1" "driver" {anm "seat"}}
+	{link "emit2" "gunner3" {anm "gunner3"}}
+	{link "emit3" "gunner4" {anm "gunner3"}}
+	{link "emit3" "gunner5" {anm "gunner3"}}
+	{link "emit3" "gunner6" {anm "gunner3"}}
+	                                        
+}
+

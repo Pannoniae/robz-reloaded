@@ -1,0 +1,25 @@
+{game_Entity
+	{Extension "type_5_chi_ri_x.mdl"}
+	{Volume "body2"
+	}
+	{Volume "body"
+	}
+	{Volume "crew"
+	}
+	{Volume "engine"
+	}
+	{Volume "gun2"
+	}
+	{Volume "gun"
+	}
+	{Volume "inventory"
+	}
+	{Volume "mantlet"
+	}
+	{Volume "trackleft"
+	}
+	{Volume "trackright"
+	}
+	{Volume "turret"
+	}
+}

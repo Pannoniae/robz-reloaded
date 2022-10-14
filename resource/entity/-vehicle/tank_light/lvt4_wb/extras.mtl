@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "lvt4extra"}
+	{bump "lvt4extra_bp"}
+	{specular "lvt4extra_sp"}
+	{color "255 255 255 25"}
+	{blend none}
+}

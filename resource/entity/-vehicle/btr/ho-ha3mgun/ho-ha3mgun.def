@@ -3,12 +3,13 @@
 	(include "/properties/selection/vehicle.inc"  scale(1.0))
 	{Extension "ho-ha3mgun.mdl"}
 	{extension "crew.ext"}
-	{props "vehicle" "armored_car" "tank" "turret" "wheeled_6" "explosion_throw_crew" "vision_vehicle_medium" "switch_mgun"}
+	{props "vehicle" "armored_car" "tank" "turret" "wheeled" "explosion_throw_crew" "vision_vehicle_medium"}
 	{targetSelector "tank"}
 
 	{extender "enumerator"}
 	(include "/properties/resupply_generic.inc")
 	("halftrack_ammo_jap_inf")
+
 	{volume "body"
 		{tags "body"}
 		{component "body"}

@@ -49,7 +49,7 @@
 
 	{extender "inventory"
 		{box
-			{item "bullet122 rus fg" 8}
+			{item "bullet122 rus fg" 40}
 			{item "bullet122 rus wp" 4}
 			{item "bullet122 rus heat" 4}
 			{item "sandbag_kit2"}

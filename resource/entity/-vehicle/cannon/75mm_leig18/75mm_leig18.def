@@ -32,7 +32,7 @@
 
 	{extender "inventory"
 		{box
-			{item "bullet75 gerlg fg" 6}
+			{item "bullet75 gerlg fg" 50}
 			{item "bullet75 gerlg heat" 5}
 			{item "sandbag_kit2"}
 		}

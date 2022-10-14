@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "sherman_tread_c"}
+	{blend none}
+}

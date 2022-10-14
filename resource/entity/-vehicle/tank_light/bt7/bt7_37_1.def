@@ -27,7 +27,9 @@
 		{box
 			{item "ammo dt29_mag" 2400}
 			{item "ammo bullet45 rus aphebc" 79}
-                        {item "ammo bullet45 rus fg" 108}
+                  		      {item "ammo bullet45 rus fg" 108}
+			{item "bullet45 rus apcr" 10}
+			{item "ammo dt29_mag" 900}
                         ;{item "grenade rpg40" 1}
                         {item "grenade f1" 3}
 		}

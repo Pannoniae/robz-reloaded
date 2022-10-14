@@ -38,7 +38,7 @@
 
 	{extender "inventory"
 		{Box
-			{item "ammo hmgun inc" 400}
+			{item "ammo hmgun inc" 2500}
 		}
 	}	
 	{Weaponry

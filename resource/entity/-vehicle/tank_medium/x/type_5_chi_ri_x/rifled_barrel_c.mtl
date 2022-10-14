@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/type_5_chi_ri/type_5_chi_ri_rifled_barrel_c_am"}
+	{bump "$/model/type_5_chi_ri/type_5_chi_ri_rifled_barrel_c_nm"}
+	{specular "$/model/type_5_chi_ri/type_5_chi_ri_rifled_barrel_c_gmm"}
+	{color "229 229 229 25"}
+	{blend none}
+}

@@ -32,7 +32,7 @@
 
 	{extender "inventory"
 		{box
-			{item "bullet114 eng fg" 8}
+			{item "bullet114 eng fg" 40}
 		}
 	}
 	{Weaponry

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/type_4_chi_to_late/type_4_chi_to_late_turret_am"}
+	{bump "$/model/type_4_chi_to_late/type_4_chi_to_late_turret_nm"}
+	{specular "$/model/type_4_chi_to_late/type_4_chi_to_late_turret_gmm"}
+	{color "229 229 229 25"}
+	{blend none}
+}

@@ -1,0 +1,150 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	{collider "tank.heavy"}
+	{props "heavy" "turret_rotator" "vision_vehicle_maximum" "muzzle_maximum"}
+	
+	{Volume "body1"
+		{tags "body"}
+		{component "body"}
+	}
+	
+	{Volume "engine"
+		{tags "engine"}
+		{component "engine"}
+	}
+
+	("armor_heavy" turret(150 150 150 50) body(150 70 150 50))
+	("armor_engine"  t(35 35 35 35))
+	("armor_mantlet" t(150))
+
+	{extender "enumerator"}
+
+	("crew_6_human")
+	("crew_human" place(gunner3) door1(emit1) door2(emit2) visor(top))
+	("crew_human" place(gunner4) door1(emit1) door2(emit2) visor(top))
+	("crew_human" place(loader2) door1(emit1) door2(emit2) visor(top))
+	("crew_human" place(gunner5) door1(emit1) door2(emit2) visor(top))
+	("crew_human" place(loader3) door1(emit1) door2(emit2) visor(top))
+    ("crew_human" place(gunner6) door1(emit1) door2(emit2) visor(top))
+	("crew_human" place(loader7) door1(emit1) door2(emit2) visor(top))
+	{placer 
+		{place "commander" {visor "back"}}
+	}
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_Kv-85"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_Kv-85"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "armor"
+			{forward	{begin	"board_HighArmor"} 	{end "seat_armor"}}
+			{reverse 	{end	"emit_tank_2"}}
+		}
+		{anm "armor1"
+			{forward	{begin	"board_HighArmor"} {end "seat_armor"}}
+			{reverse 	{end	"emit_body"}}
+		}
+	}
+
+	
+	{sensor
+		{visor "back"
+			{vision "tank_back"}
+			{bone "foresight4"}
+		}
+	}
+
+	{extender "inventory"
+		{box
+			{size 15 15}
+            {item "ammo bullet150 japo aphe" 15}
+            {item "ammo bullet150 japo wp" 5}
+            {item "ammo bullet150 japo heat" 5}
+            {item "ammo bullet150 japo fg" 20}
+	    {item "ammo bullet47 jap aphe" 100}
+	    {item "ammo bullet47 jap fg" 100}
+            {item  "ammo type97_mag" 2500}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "150mm_howitzer_type96" filling "ammo bullet150 japo aphe" 1}		
+			("abm_medium")
+		}
+		{place "gun2"
+			{type "secondary_main"}
+			{weapon "47mm_type1" filled}
+			{foresight "foresight2"}
+			{gunner "driver"}
+			{charger "driver"}
+			{LinkBone "hull_gun"}
+			("abm_medium")
+			{basic}
+		}
+		{place "gun3"
+			{type "secondary_main"}
+			{weapon "47mm_type1" filled}
+			{foresight "foresight3"}
+			{gunner "gunner3"}
+			{charger "gunner3"}
+			{LinkBone "hull_gun"}
+			("abm_medium")
+			{basic}
+		}
+		{place "mgun2"
+			{type "mgun_hull"}
+			{weapon "type97_mg" filled}
+			{foresight "foresight5"}
+			{gunner "gunner4"}
+			{charger "gunner4"}
+			("abm_mgun")
+			{basic}
+		}
+		{place "mgun1"
+			{type "mgun_rear"}
+			{weapon "type97_mg" filled}
+			{foresight "foresight4"}
+			{gunner "commander"}
+			{charger "commander"}
+			("abm_mgun")
+		}
+
+	}
+	{mass 150000}
+	{Chassis
+		("tank_trace" fx("tracks_big") step(0.47) len(0.183))
+		{Locomotion ("locomotion")
+			{MaxSpeed	20}
+			{maxSpeedAtMaxTurn 4}
+			{StartTime	90}
+			{TurnTime	40}
+			{TurnStart  1} 
+		{BrakeTime  1.5}
+		{StopTime   2.5}
+		{TurnRadius 14}
+		{TurnStop   1.1}
+		{Gears      0.1 0.18 0.28 1.0}
+		{RearGears  0.1 0.3} 
+		}
+		{FuelBag
+			{volume 1600 }	
+			{rate	100 }   
+			{remain 1600 }
+			{fuel "fuel"}
+		}
+		{speed
+        	{Normal  12}
+        	{Slow  10}
+    	}
+	}
+	
+	{Extension "o-i.mdl"}
+
+}
+

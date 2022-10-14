@@ -91,8 +91,8 @@
 		("restore_ik_time")
 		{place "gun"
 			{RestoreIKAfterAim}
-			{weapon "76mm_m1a2" filling "ammo bullet76 us apcbc" 1}
-			("abm_low")
+			{weapon "76mm_m1a2_m18" filling "ammo bullet76 us apcbc" 1}
+			("abm_high")
 		}
 		{place "gun1_2"
 			{type "gun_change_arty"}
@@ -115,27 +115,27 @@
 	{Chassis
 		("tank_trace" fx("tracks_sm") step(0.52) len(0.56))
 		{Locomotion ("locomotion")
-			{maxspeed   40}
+			{maxspeed   50}
 			{maxSpeedAtMaxTurn 6}
-			{StartTime  25}
-			{TurnTime   14}
+			{StartTime  21.25}
+			{TurnTime   12.6}
 			{TurnStart  1}
 			{TurnRadius 8}
     		{TurnStop   0.6}
 			{BrakeTime  1.5}
 			{StopTime   2.5}
-			{Gears  0.1 0.25 0.35 1}
-			{RearGears  0.25}
+			{Gears   0.21 0.31 0.41 1.4}
+			{RearGears  0.27}
 		}
 		{FuelBag
 			{volume 630 }
-			{rate	38 }
+			{rate	34}
 			{remain 630 }
 			{fuel "fuel"}
 		}
 		{speed
         	{Normal  12}
-        	{Slow  18}
+        	{Slow  20}
     	}
 	{DisableMoveWhileFiring}
 	}
@@ -143,12 +143,12 @@
 	{Extension "m18.mdl"}
 
 	{bone "turret"
-            {speed 0.0043}
+            {speed 0.0044}
         }
 
         {bone "gun_rot"
             {limits -10 20}
-            {speed 0.001}
+            {speed 0.003}
         }
 
 	{bone "turret_mgun"

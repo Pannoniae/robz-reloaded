@@ -1,0 +1,22 @@
+;Exported by: Thomas
+;Date:        Sat Aug 20 14:30:34 2016
+;File:        C:\Users\Thomas\Downloads\MOW\Men of War Max\Vehicles\LVT-4\LVT4 Buffalo_xx.max
+{Skeleton
+	{bone "basis"
+		{parameters "Wheelradius=0.40;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Position 7.86828	-1.6211	29.3371}
+			{VolumeView "body.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "body"}
+}

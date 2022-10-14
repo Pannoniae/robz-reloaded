@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/model/type_98_ke_ni/type_98_ke_ni_tx_am"}
+	{bump "$/model/type_98_ke_ni/type_98_ke_ni_tx_nm"}
+	{blend blend}
+}

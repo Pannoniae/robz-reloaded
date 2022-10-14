@@ -1,6 +1,6 @@
 {entity
 	(include "/properties/cannon.ext")
-	{props  "cannon"   "wheeled"   "vehicle"  "vision_cannon_low" "muzzle_small" "medium_weapons" "gun_mode_change"}
+	{props  "cannon"   "wheeled"   "vehicle"  "vision_cannon_low" "muzzle_small" "medium_weapons"}
 
 	{TexMods
  		{"ambush" "1"}
@@ -69,22 +69,13 @@
 			{Rotate}
 			("abm_field_gun")
 		}
-		{place "gun1_2"
-			{type "gun_change_arty"}
-			{weapon "75mm_type41_2"}
-			{basic}
-			{rotate}
-			{charger "gunner"}
-			{StationaryFiring}
-			("abm_howitzer")
-		}
 	}
 	{extender "inventory"
 		{box
-			{item "bullet75 japs aphe" 4}
-			{item "bullet75 japs fg" 6}
-			{item "bullet75 japs heat" 4}
-			{item "bullet75 japs wp" 10}
+			{item "bullet75 japs aphe" 50}
+			{item "bullet75 japs fg" 30}
+			{item "bullet75 japs heat" 8}
+			{item "bullet75 japs wp" 11}
 		}
 	}
 	{mass 800}
@@ -110,7 +101,6 @@
 		{speed 0.0007}
 	}
 	{bone "gun_rot"
-		{limits -40 18}
 		{speed 0.0005}
 	}
 

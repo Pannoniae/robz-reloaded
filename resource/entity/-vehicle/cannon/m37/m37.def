@@ -31,7 +31,7 @@
 	("rus_2-5x_sight")
 	{extender "inventory"
 		{box
-			{item "ammo bullet45 rus aphebc" 5}
+			{item "ammo bullet45 rus aphebc" 50}
 			{item "ammo bullet45 rus fg" 5}
 			{item "ammo bullet45 rus apcr" 5}
 		}

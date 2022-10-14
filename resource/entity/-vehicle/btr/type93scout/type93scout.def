@@ -2,7 +2,7 @@
 	(include "/properties/armoredcar.ext")
 	(include "/properties/selection/vehicle.inc"  scale(1.1))
 	{Extension "type93scout.mdl"}
-	{props "vehicle" "armored_car" "tank" "turret" "turret_rotator" "wheeled_6" "explosion_throw_crew" "vision_vehicle_low" "switch_mgun"}
+	{props "vehicle" "armored_car" "tank" "turret" "turret_rotator" "wheeled" "explosion_throw_crew" "vision_vehicle_low"}
 	{PatherId "vehicle.small"}
 
 	{extender "enumerator"}

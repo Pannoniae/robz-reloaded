@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/model/gun_75mm_type88/gun_75mm_type88_gun_75mm_type88_c_camo_darkgrey"}
+	{specular "$/model/gun_75mm_type88/gun_75mm_type88_gun_75mm_type88_n_s"}
+	{color "192 192 192 255"}
+	{blend none}
+}

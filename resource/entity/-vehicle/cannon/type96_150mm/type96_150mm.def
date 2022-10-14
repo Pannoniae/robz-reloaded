@@ -56,8 +56,10 @@
 
 	{extender "inventory"
 		{box
-			{item "bullet150 jap fg" 6}
-			{item "bullet150 jap wp" 3}
+			{item "bullet150 jap fg" 50}
+			{item "bullet150 jap aphe" 50}
+			{item "bullet150 jap heat" 10}
+			{item "bullet150 jap wp" 10}
 			{item "sandbag_kit2"}
 		}
 	}

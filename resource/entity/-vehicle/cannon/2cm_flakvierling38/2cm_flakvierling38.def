@@ -91,9 +91,9 @@
 	("ger_3x8_sight")
 	{extender "inventory"
 		{box
-			{item "bullet20 ger zenite ap" 160}
-			{item "bullet20 ger zenite apcr" 80}
-			{item "bullet20 ger zenite fg" 160}
+			{item "bullet20 ger zenite ap" 800}
+			{item "bullet20 ger zenite apcr" 100}
+			{item "bullet20 ger zenite fg" 400}
 		}
 	}	
 	{Weaponry

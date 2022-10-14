@@ -59,8 +59,8 @@
 	
 	{extender "inventory"
 		{box
-			{item "bullet37 rus zenite ap" 160}
-			{item "bullet37 rus zenite fg" 160}
+			{item "bullet37 rus zenite ap" 600}
+			{item "bullet37 rus zenite fg" 200}
 		}
 	}
 	{Weaponry

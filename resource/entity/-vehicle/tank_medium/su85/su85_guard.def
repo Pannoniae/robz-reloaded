@@ -84,9 +84,10 @@
 
     {extender "inventory"
         {box
-            {item "ammo bullet85 rus aphe" 19}
-            {item "ammo bullet85 rus fg" 20}
-            {item "ammo bullet85 rus apcr" 8}
+            {item "ammo bullet85 rus aphebc" 24}
+            {item "ammo bullet85 rus aphe" 4}
+            {item "ammo bullet85 rus fg" 16}
+            {item "ammo bullet85 rus apcr" 6}
         }
     }
     {Weaponry

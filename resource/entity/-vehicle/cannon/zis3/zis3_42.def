@@ -40,7 +40,8 @@
 
 	{extender "inventory"
 		{box
-			{item "bullet76 rus br350b" 6}
+			{item "bullet76 rus br350b" 50}
+			{item "bullet76 rus br350sp" 5}
 			{item "bullet76 rus fg" 6}
 			{item "bullet76 rus wp" 6}
 			{item "bullet76 rus heat" 5}

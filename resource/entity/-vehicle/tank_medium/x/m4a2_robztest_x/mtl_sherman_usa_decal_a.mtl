@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "sherman_decal_a"}
+	{blend none}
+}

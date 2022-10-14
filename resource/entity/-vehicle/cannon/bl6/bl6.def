@@ -64,7 +64,7 @@
 
 	{extender "inventory"
 		{box
-			{item "bullet152 eng fg" 6}
+			{item "bullet152 eng fg" 40}
 			;{item "bullet152 sm" 12}
 			{item "sandbag_kit2"}
 		}

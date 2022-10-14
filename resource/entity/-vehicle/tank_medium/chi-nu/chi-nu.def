@@ -77,9 +77,9 @@
 
 	{extender "inventory"
 		{box
-			{item "ammo bullet75 jap aphe" 42}
-			{item "ammo bullet75 jap aphe2" 10}
-			{item "ammo bullet75 jap fg" 37}
+			{item "ammo bullet75 jap aphe" 50}
+			{item "ammo bullet75 jap wp" 4}
+			{item "ammo bullet75 jap fg" 43}
 			{item "ammo type97_mag" 1200}
 		}
 	}

@@ -31,7 +31,7 @@
 	("ger_1x11_sight")
 	{extender "inventory"
 		{box
-			{item "bullet37 ger ap" 6}
+			{item "bullet37 ger ap" 50}
 			{item "bullet37 ger fg" 5}
 			{item "bullet37 ger apcr" 5}
 			{item "bullet37 ger heat" 5}

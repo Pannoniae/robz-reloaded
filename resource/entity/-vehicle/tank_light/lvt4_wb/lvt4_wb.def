@@ -1,0 +1,200 @@
+{Entity
+;Copyright 2014 GeneralJ927
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc" scale(1.4))
+	(include "/properties/resupply_generic.inc")
+	("halftrack_ammo_us_inf")
+
+	{collider "tank.light"}
+	{props "light" "amphibia" "vision_vehicle_high" "muzzle_medium"}
+	;{able "-emit_passangers_on_enemy"}
+	{PatherID "amphibia"}
+	{targetClass "light_tank"}
+
+	{Volume "body1"
+		{tags "body"}
+		{component "body"}
+	}
+	{Volume "body2"
+		{tags "body"}
+		{component "body"}
+	}
+	{Volume "engine"
+		{tags "engine"}
+		{component "engine"}
+		{thickness 1}
+	}
+	{Volume "ramp"
+		{tags "ramp"}
+		{component "ramp"}
+		{thickness 13}
+	}
+	{Volume "shieldl"
+		{tags "shield"}
+		{component "shieldl1"}
+		{thickness 6}
+	}
+	{Volume "shieldr"
+		{tags "shield"}
+		{component "shieldr1"}
+		{thickness 6}
+	}
+	("armor_light" turret(51 38 25 6) body(13 13 6.4 6.4))
+	("us_3x_sight")
+;turret is mandatory to avoid errors, do not remove!
+
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_HighArmor"} {end "pose_mgun_stan"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_HighArmor"} {end "pose_mgun_stan"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "armor"
+			{forward	{begin	"board_HighArmor"} 	{end "seat_armor"}}
+			{reverse 	{end	"emit_tank_2"}}
+		}
+		{anm "armor1"
+			{forward	{begin	"board_HighArmor"} {end "pose_stand_strap_1"}}
+			{reverse 	{end	"emit_body"}}
+		}
+	}
+	("crew_human" place(driver) door1(emit1) door2(emit1) animation(armor))
+	("crew_human" place(commander) door1(emit2) door2(emit2) animation(armor))
+	("crew_human_visible" place(gunner1) door1(emit3) door2(emit3) bone(gunner1) animation(left))
+	("crew_human_visible" place(gunner2) door1(emit4) door2(emit4) bone(gunner2) animation(right))
+	("crew_human_visible" place(gunner3) door1(emit3) door2(emit3) bone(gunner3) animation(left))
+	("crew_human_visible" place(gunner4) door1(emit4) door2(emit4) bone(gunner4) animation(right))
+	("seat_human" place(seat1) bone(seat01) door(emit5) animation(armor1))
+	("seat_human" place(seat2) bone(seat02) door(emit6) animation(armor1))
+	("seat_human" place(seat3) bone(seat03) door(emit7) animation(armor1))
+	("seat_human" place(seat4) bone(seat04) door(emit5) animation(armor1))
+	("seat_human" place(seat5) bone(seat05) door(emit6) animation(armor1))
+	("seat_human" place(seat6) bone(seat06) door(emit7) animation(armor1))
+	("seat_human" place(seat7) bone(seat07) door(emit5) animation(armor1))
+	("seat_human" place(seat8) bone(seat08) door(emit6) animation(armor1))
+	("seat_human" place(seat9) bone(seat09) door(emit7) animation(armor1))
+	("seat_human" place(seat10) bone(seat10) door(emit6) animation(armor1))
+
+	{extender "inventory"
+		{box
+			{item "ammo hmgun ap" 1550}
+			{item "ammo springfield_belt" 3200}
+			{item "n73at" "grenade" 10}
+			{item "m61" "grenade" 25}
+			{item "smoke" "grenade" 10}
+			{item "bandage" 20}
+			{item "dynamite"}
+			{item "ammo thompson_m1a1_mag" 450}
+			{item "thompson" filled}
+		}
+	}
+	{Weaponry
+		{place "mgun"
+			{weapon "browning_m19" filled}
+			{type "mgun_hull"}
+			{foresight "foresight3"}
+			{gunner "driver"}
+			{charger "driver"}
+			{basic}
+		}
+		{place "mgun1"
+			{weapon "browning" filled}
+			{type "mgun_front_left"}
+			{foresight "foresight4"}
+			{gunner "gunner1"}
+			{charger "gunner1"}
+			{LinkBone "mgun_rot1"}
+			{LinkAnimation "off"}
+			{basic}
+		}
+		{place "mgun2"
+			{weapon "browning" filled}
+			{type "mgun_front_right"}
+			{foresight "foresight5"}
+			{gunner "gunner2"}
+			{charger "gunner2"}
+			{LinkBone "mgun_rot2"}
+			{LinkAnimation "off"}
+			{basic}
+		}
+		{place "mgun3"
+			{weapon "browning_m19" filled}
+			{type "mgun_middle_left"}
+			{foresight "foresight6"}
+			{gunner "gunner3"}
+			{charger "gunner3"}
+			{LinkBone "mgun_rot3"}
+			{LinkAnimation "off"}
+			{basic}
+		}
+		{place "mgun4"
+			{weapon "browning_m19" filled}
+			{type "mgun_middle_right"}
+			{foresight "foresight7"}
+			{gunner "gunner4"}
+			{charger "gunner4"}
+			{LinkBone "mgun_rot4"}
+			{LinkAnimation "off"}
+			{basic}
+		}
+	}
+
+	{sensor
+		{visor "driver" {bone "driver"}}
+		{visor "gunner1" {bone "visor1"}}
+		{visor "gunner2" {bone "visor2"}}
+		{visor "gunner3" {bone "visor3"}}
+		{visor "gunner4" {bone "visor4"}}
+	}
+	{placer
+		{place "driver" {useVision} {visor "driver"}}
+		{place "gunner1" {useVision} {visor "gunner1"}}
+		{place "gunner2" {useVision} {visor "gunner2"}}
+		{place "gunner3" {useVision} {visor "gunner3"}}
+		{place "gunner4" {useVision} {visor "gunner4"}}
+	}
+
+	{mass 16500}
+	{Chassis
+		("tank_trace_ex" fx("tracks_sm2") step(0.15) len(0.4) boneleft("wheell") boneright("wheelr"))
+		{Locomotion ("locomotion")
+			{maxspeed   32}
+			{maxSpeedAtMaxTurn 5}
+			{StartTime	30}
+			{TurnTime	18}
+			{TurnStart  1.8} 
+    		{BrakeTime  1.5}
+     		{StopTime   2.5} 
+    		{TurnRadius 11} 
+    		{TurnStop   0.8} 
+    		{Gears      0.1 0.2 0.3 1.0}
+    		{RearGears  0.3}
+		}
+		{switch
+			{exitFromWater}
+			{terrain not "water" "deep_water"}
+		}
+		{FuelBag
+			{volume 295 }	
+			{rate	 20 }   
+			{remain 295 }
+			{fuel "fuel"}
+		}
+	{speed
+        	{Normal  12}
+        	{Slow  18}
+    	}
+	}
+	{chassis "water"
+		("chassis_defaults")
+		{ignorePatherBounds}
+		{waterline 1.4}
+		{switch
+			{terrain "water" "deep_water"}
+		}	
+	}
+	{Extension "lvt4_wb.mdl"}
+}

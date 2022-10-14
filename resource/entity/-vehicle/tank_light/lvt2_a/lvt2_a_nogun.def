@@ -1,0 +1,107 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc" scale(1.2))
+	(include "/properties/car_crew.ext")
+	(include "/properties/resupply_generic.inc")
+	("truck_ammo_us_inf")
+	{props "light" "amphibia" "vision_vehicle_high" "muzzle_medium"}
+
+	{collider "tank.light"}
+	{PatherID "amphibia"}	
+	
+	{volume "body"
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "body2"
+		{component "body2"}
+		{tags "body2"}
+	}
+	{volume "body3"
+		{component "body3"}
+		{tags "body3"}
+	}
+
+	("armor_light" turret(38 32 25 6) body(38 25 25 6) body2(38 25 25 6) body3(38 25 25 6))
+	("us_3x_sight")
+
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_HighArmor"} {end "seat_passenger"}}
+			{reverse 	{end	"emit_tank_1"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_HighArmor"} {end "pose_mgun_stan"}}
+			{reverse 	{end	"emit_tank_1"}}
+		}
+		{anm "armor"
+			{forward	{begin	"board_HighArmor"} {end "stand_look_around_gun_1"}}
+			{reverse 	{end	"emit_tank_1"}}
+		}
+	}
+
+	("crew_human_visible_anm" place(driver) door1(emit1) door2(emit2) bone(driver) visor(visor1) anm_left(left) anm_right(left))
+	("crew_human_visible_anm" place(commander) door1(emit2) door2(emit1) bone(commander) visor(visor1) anm_left(left) anm_right(left))
+	("seat_human" place(seat1) bone(seat01) door(emit1)  animation(armor))
+	("seat_human" place(seat2) bone(seat02) door(emit2)  animation(armor))
+	("seat_human" place(seat3) bone(seat03) door(emit6)  animation(armor))
+	("seat_human" place(seat4) bone(seat04) door(emit5)  animation(armor))
+	("seat_human" place(seat5) bone(seat05) door(emit4)  animation(armor))
+	("seat_human" place(seat6) bone(seat06) door(emit3)  animation(armor))
+	("seat_human" place(seat7) bone(seat07) door(emit4)  animation(armor))
+	("seat_human" place(seat8) bone(seat08) door(emit3)  animation(armor))
+
+
+	{extender "inventory"
+		{box
+			{item "ammo springfield_belt" 3000}
+			{item "grenade m61" 6}
+			{item "ammo thompson_m1a1_mag" 450}
+			{item "thompson" filled}
+			{item "smoke grenade" 4}
+		}
+	}
+
+	{mass 14200}
+	{Chassis
+		("tank_trace_ex" fx("tracks_sm2") step(0.15) len(0.4) boneleft("wheels_l") boneright("wheels_r"))
+		{Locomotion ("locomotion")
+			{maxspeed   32}
+			{maxSpeedAtMaxTurn 5}
+			{StartTime	30}
+			{TurnTime	18}
+			{TurnStart  1.8} 
+    		{BrakeTime  1.5}
+     		{StopTime   2.5} 
+    		{TurnRadius 11} 
+    		{TurnStop   0.8} 
+    		{Gears      0.1 0.2 0.3 1.0}
+    		{RearGears  0.3}
+		}
+		{switch
+			{exitFromWater}
+			{terrain not "water" "deep_water"}
+		}
+		{FuelBag
+			{volume 295 }	
+			{rate	 20 }   
+			{remain 295 }
+			{fuel "fuel"}
+		}
+		{speed
+        	{Normal  12}
+        	{Slow  18}
+    	}
+	}
+
+	{Extension "lvt(a)-2.mdl"}
+
+	{chassis "water"
+		("chassis_defaults")
+		{ignorePatherBounds}
+		{waterline 1.4}
+		{switch
+			{terrain "water" "deep_water"}
+		}	
+	}
+}

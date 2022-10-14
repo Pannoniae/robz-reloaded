@@ -74,8 +74,9 @@
 
 	{extender "inventory"
 		{box
-            {item "ammo bullet85 rus aphebc" 19}
-            {item "ammo bullet85 rus fg" 36}
+            {item "ammo bullet85 rus aphe" 30}
+            {item "ammo bullet85 rus fg" 25}
+            {item "ammo bullet85 rus aphebc" 6}
             {item "ammo dt29_mag" 1980}
 		}
 	}

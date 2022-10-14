@@ -59,7 +59,7 @@
 	{extender "inventory"
 		{box
 			{item "bullet76 us ap" 4}
-			{item "bullet76 us apcbc" 5}
+			{item "bullet76 us apcbc" 50}
 			{item "bullet76 us fg" 5}
 			{item "bullet76 us hvap" 4}
 			{item "sandbag_kit2"}

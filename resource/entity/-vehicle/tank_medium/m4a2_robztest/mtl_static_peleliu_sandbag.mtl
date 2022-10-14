@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "static_peleliu_sandbag_sandy_c"}
+	{blend none}
+}

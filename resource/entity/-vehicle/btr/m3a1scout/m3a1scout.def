@@ -6,6 +6,8 @@
 	
 ;	{extender "enumerator"}
 	{extension "crew_m3.ext"}
+	(include "/properties/resupply_generic.inc")
+	("halftrack_ammo_rus_inf")
 	
 	{volume "body1"
 		{tags "body"}

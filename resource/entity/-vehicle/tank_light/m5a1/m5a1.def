@@ -44,7 +44,8 @@
 	
 	{extender "inventory"
 		{box
-			{item "bullet37 us ap" 78}
+			{item "bullet37 us apc" 48}
+			{item "bullet37 us ap" 30}
 			{item "bullet37 us fg" 68}
 			{item "ammo springfield_belt" 3000}
 		}
@@ -53,7 +54,7 @@
 		("restore_ik_time")
 		{place "gun"
 			{RestoreIKAfterAim}
-			{weapon "37mm_m6" filling "bullet37 us ap" 1}
+			{weapon "37mm_m6" filling "bullet37 us apc" 1}
 			{charger "gunner"}
 			("abm_stabilized")
 		}

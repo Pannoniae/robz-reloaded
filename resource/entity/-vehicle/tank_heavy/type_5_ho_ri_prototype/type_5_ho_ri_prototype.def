@@ -1,0 +1,110 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	{collider "tank.heavy"}
+	{props "heavy" "-turret" "vision_vehicle_maximum" "muzzle_maximum"}
+	
+	{extender "enumerator"}
+
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body3"
+		{tags "body"}
+		{component "body"}
+	}
+
+	("armor_spa_heavy" armor(75 55 55 35))
+	("armor_engine"  t(10 80 80 40))
+	("armor_mantlet" t(120))
+
+	("crew_6_human")
+
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_tank_right"} {end "pose_mgun_pz6"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_left"} {end "pose_mgun_pz6"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+		{anm "armor"
+			{forward	{begin	"board_lowArmor"} 	{end "pose_seat_armor_2"}}
+			{reverse 	{end	"emit_tank_2"}}
+		}
+		{anm "armor1"
+			{forward	{begin	"board_lowArmor"} {end "pose_seat_armor_2"}}
+			{reverse 	{end	"emit_body"}}
+		}
+		{anm "armor2"
+			{forward	{begin	"board_lowArmor"} {end "pose_seat_armor_1"}}
+			{reverse 	{end	"emit_body"}}
+		}
+	}
+
+
+
+	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor1))
+	("seat_human" place(seat2) bone(seat02) door(emit4)  animation(armor))
+	("seat_human" place(seat3) bone(seat03) door(emit5)  animation(armor))
+	("seat_human" place(seat4) bone(seat04) door(emit6)  animation(armor1))
+	
+
+	{extender "inventory"
+		{box
+			{item "ammo bullet105 japl aphe" 30}
+			{item "ammo bullet105 japl fg" 15}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "105mm_type5" filling "ammo bullet105 japl aphe" 1}
+			("abm_medium")
+		}
+
+	}
+
+	{mass 71700}
+	{Chassis
+		("tank_trace" fx("tracks_mid") step(0.52) len(0.50))
+		{Locomotion ("locomotion")
+			{maxspeed   30}
+			{maxSpeedAtMaxTurn 2.5}
+			{StartTime   60}
+			{BrakeTime  2.5}		
+			{StopTime   3.5}			
+			{TurnStart  2.5}
+			{TurnTime    30}		
+			{TurnStop     1}
+			{TurnRadius   14}
+			{Gears     0.1 0.2 0.4 1.0}
+			{RearGears 0.1 0.2}
+		}
+		{FuelBag
+			{volume 950 }	
+			{rate	80 }   
+			{remain 950 }
+			{fuel "fuel"}
+		}
+		{speed
+        	{Normal  10}
+        	{Slow  12}
+    	}
+	}
+	{Extension "type_5_ho_ri_prototype.mdl"}
+	{texmod ""}
+	{bone "turret"
+		{limits -15 15}
+		{speed 0.003}
+	}
+
+
+
+
+}
+  
+

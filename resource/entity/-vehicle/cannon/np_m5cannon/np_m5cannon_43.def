@@ -58,8 +58,8 @@
 	("us_5x_sight")
 	{extender "inventory"
 		{box
-			{item "bullet76 us ap" 4}
-			{item "bullet76 us apcbc" 4}
+			{item "bullet76 us ap" 50}
+			{item "bullet76 us apcbc" 8}
 			{item "bullet76 us fg" 5}
 			{item "sandbag_kit2"}
 		}

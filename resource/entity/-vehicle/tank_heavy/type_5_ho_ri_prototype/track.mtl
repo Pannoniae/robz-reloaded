@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/type_5_ho_ri_prototype/type_5_ho_ri_prototype_track_am"}
+	{bump "$/model/type_5_ho_ri_prototype/type_5_ho_ri_prototype_track_nm"}
+	{specular "$/model/type_5_ho_ri_prototype/type_5_ho_ri_prototype_track_gmm"}
+	{color "229 229 229 25"}
+	{blend test}
+}

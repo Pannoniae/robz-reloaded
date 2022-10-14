@@ -116,8 +116,8 @@
 	{extender "inventory"
 		{box
 			{size 8 6}
-			{item "bullet20 eng zenite ap" 80}
-			{item "bullet20 eng zenite fg" 80}
+			{item "bullet20 eng zenite ap" 800}
+			{item "bullet20 eng zenite fg" 200}
 		}
 	}
 	{Weaponry

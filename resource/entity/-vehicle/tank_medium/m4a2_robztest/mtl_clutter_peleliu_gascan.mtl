@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "clutter_peleliu_gascan_c"}
+	{blend none}
+}

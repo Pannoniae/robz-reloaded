@@ -1,7 +1,7 @@
 {game_entity
 	(include "/properties/tank.ext")
 	(include "/properties/selection/vehicle.inc" scale(1.2))
-	{props "medium" "-turret" "opened" "vision_vehicle_medium" "muzzle_large_nodust" "gun_mode_change_art"}
+	{props "medium" "-turret" "opened" "vision_vehicle_medium" "muzzle_large"}
 
 	{extender "enumerator"}	
 	
@@ -56,25 +56,16 @@
 	{extender "inventory"
 			{box
 				{item "ammo bullet105 jap fg" 30}
-				{item "ammo bullet105 jap heat" 4}
 			}
 		}
 		{Weaponry
 		("restore_ik_time")
 			{place "gun"
-				{RestoreIKAfterAim}
-				{weapon "105mm_type91" filling "ammo bullet105 jap fg" 4}
-				{charger "commander"}
-				{StationaryFiring}
-				("abm_howitzer")
-			}
-				{place "gun1_2"
-				{type "gun_change_direct"}
-				{weapon "105mm_type91_2"}
-				{basic}
-				{rotate}
-				{charger "gunner"}
-				("abm_direct_how")
+			{RestoreIKAfterAim}
+			{weapon "105mm_type91" filling "ammo bullet105 jap fg" 4}
+			{charger "commander"}
+			{StationaryFiring}
+			("abm_howitzer")
 			}
 		}
 	

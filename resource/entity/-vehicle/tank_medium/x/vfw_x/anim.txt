@@ -1,0 +1,1638 @@
+-= Animation: start, Node Basis =-
+	Frame 0 {
+		Visibility 1
+		Position	0	0	0
+		Orientation	1 0 0 0
+	}
+	Frame 30 {
+		Visibility 1
+		Position	0	0	0
+		Orientation	1 0 0 0
+	}
+-= Animation: stop, Node Basis =-
+	Frame 40 {
+		Visibility 1
+		Position	0	0	0
+		Orientation	1 0 0 0
+	}
+	Frame 60 {
+		Visibility 1
+		Position	0	0	0
+		Orientation	1 0 0 0
+	}
+-= Animation: fire, Node Basis =-
+	Frame 70 {
+		Visibility 1
+		Position	0	0	0
+		Orientation	1 0 0 0
+	}
+	Frame 100 {
+		Visibility 1
+		Position	0	0	0
+		Orientation	1 0 0 0
+	}
+-= Animation: start, Node body =-
+	Frame 0 {
+		Visibility 1
+		Position	3.30659	0.48977	0.5391
+		Orientation	0 0 0.707107 0.707107
+	}
+	Frame 30 {
+		Visibility 1
+		Position	3.30659	0.48977	0.5391
+		Orientation	0 0 0.707107 0.707107
+	}
+-= Animation: stop, Node body =-
+	Frame 40 {
+		Visibility 1
+		Position	3.30659	0.48977	0.5391
+		Orientation	0 0 0.707107 0.707107
+	}
+	Frame 60 {
+		Visibility 1
+		Position	3.30659	0.48977	0.5391
+		Orientation	0 0 0.707107 0.707107
+	}
+-= Animation: fire, Node body =-
+	Frame 70 {
+		Visibility 1
+		Position	3.30659	0.48977	0.5391
+		Orientation	0 0 0.707107 0.707107
+	}
+	Frame 100 {
+		Visibility 1
+		Position	3.30659	0.48977	0.5391
+		Orientation	0 0 0.707107 0.707107
+	}
+-= Animation: start, Node turret =-
+	Frame 0 {
+		Visibility 1
+		Position	-5.82635e-05	-4.35547	26.0024
+		Orientation	0 0 -0.707107 0.707107
+	}
+	Frame 30 {
+		Visibility 1
+		Position	-5.82635e-05	-4.35547	26.0024
+		Orientation	0 0 -0.707107 0.707107
+	}
+-= Animation: stop, Node turret =-
+	Frame 40 {
+		Visibility 1
+		Position	-5.82635e-05	-4.35547	26.0024
+		Orientation	0 0 -0.707107 0.707107
+	}
+	Frame 60 {
+		Visibility 1
+		Position	-5.82635e-05	-4.35547	26.0024
+		Orientation	0 0 -0.707107 0.707107
+	}
+-= Animation: fire, Node turret =-
+	Frame 70 {
+		Visibility 1
+		Position	-5.82635e-05	-4.35547	26.0024
+		Orientation	0 0 -0.707107 0.707107
+	}
+	Frame 100 {
+		Visibility 1
+		Position	-5.82635e-05	-4.35547	26.0024
+		Orientation	0 0 -0.707107 0.707107
+	}
+-= Animation: start, Node gun_rot =-
+	Frame 0 {
+		Visibility 1
+		Position	-27.6938	0.000109255	12.864
+		Orientation	-0.707107 0 0 0.707107
+	}
+	Frame 30 {
+		Visibility 1
+		Position	-27.6938	0.000109255	12.864
+		Orientation	-0.707107 0 0 0.707107
+	}
+-= Animation: stop, Node gun_rot =-
+	Frame 40 {
+		Visibility 1
+		Position	-27.6938	0.000109255	12.864
+		Orientation	-0.707107 0 0 0.707107
+	}
+	Frame 60 {
+		Visibility 1
+		Position	-27.6938	0.000109255	12.864
+		Orientation	-0.707107 0 0 0.707107
+	}
+-= Animation: fire, Node gun_rot =-
+	Frame 70 {
+		Visibility 1
+		Position	-27.6938	0.000109255	12.864
+		Orientation	-0.707107 0 0 0.707107
+	}
+	Frame 100 {
+		Visibility 1
+		Position	-27.6938	0.000109255	12.864
+		Orientation	-0.707107 0 0 0.707107
+	}
+-= Animation: start, Node gun =-
+	Frame 0 {
+		Visibility 1
+		Position	74.8247	6.01123	0.0101133
+		Orientation	0.5 0.5 0.5 0.5
+	}
+	Frame 30 {
+		Visibility 1
+		Position	74.8247	6.01123	0.0101133
+		Orientation	0.5 0.5 0.5 0.5
+	}
+-= Animation: stop, Node gun =-
+	Frame 40 {
+		Visibility 1
+		Position	74.8247	6.01123	0.0101133
+		Orientation	0.5 0.5 0.5 0.5
+	}
+	Frame 60 {
+		Visibility 1
+		Position	74.8247	6.01123	0.0101133
+		Orientation	0.5 0.5 0.5 0.5
+	}
+-= Animation: fire, Node gun =-
+	Frame 70 {
+		Visibility 1
+		Position	74.8247	6.01123	0.0101133
+		Orientation	0.5 0.5 0.5 0.5
+	}
+	Frame 71 {
+		Position	73.5591	6.01123	0.0101135
+	}
+	Frame 72 {
+		Position	70.5412	6.01123	0.0101138
+	}
+	Frame 73 {
+		Position	66.9391	6.01123	0.0101143
+	}
+	Frame 74 {
+		Position	63.9212	6.01123	0.0101146
+	}
+	Frame 75 {
+		Position	62.6556	6.01123	0.0101148
+	}
+	Frame 76 {
+		Position	62.7124	6.01123	0.0101148
+	}
+	Frame 77 {
+		Position	62.8767	6.01123	0.0101147
+	}
+	Frame 78 {
+		Position	63.1392	6.01123	0.0101147
+	}
+	Frame 79 {
+		Position	63.4905	6.01123	0.0101147
+	}
+	Frame 80 {
+		Position	63.9212	6.01123	0.0101146
+	}
+	Frame 81 {
+		Position	64.4219	6.01123	0.0101146
+	}
+	Frame 82 {
+		Position	64.9835	6.01123	0.0101145
+	}
+	Frame 83 {
+		Position	65.5964	6.01123	0.0101144
+	}
+	Frame 84 {
+		Position	66.2514	6.01123	0.0101143
+	}
+	Frame 85 {
+		Position	66.9391	6.01123	0.0101143
+	}
+	Frame 86 {
+		Position	67.6502	6.01123	0.0101142
+	}
+	Frame 87 {
+		Position	68.3753	6.01123	0.0101141
+	}
+	Frame 88 {
+		Position	69.105	6.01123	0.010114
+	}
+	Frame 89 {
+		Position	69.8301	6.01123	0.0101139
+	}
+	Frame 90 {
+		Position	70.5412	6.01123	0.0101138
+	}
+	Frame 91 {
+		Position	71.2289	6.01123	0.0101137
+	}
+	Frame 92 {
+		Position	71.8839	6.01123	0.0101137
+	}
+	Frame 93 {
+		Position	72.4968	6.01123	0.0101136
+	}
+	Frame 94 {
+		Position	73.0583	6.01123	0.0101135
+	}
+	Frame 95 {
+		Position	73.5591	6.01123	0.0101135
+	}
+	Frame 96 {
+		Position	73.9898	6.01123	0.0101134
+	}
+	Frame 97 {
+		Position	74.3411	6.01123	0.0101134
+	}
+	Frame 98 {
+		Position	74.6035	6.01123	0.0101134
+	}
+	Frame 99 {
+		Position	74.7679	6.01123	0.0101133
+	}
+	Frame 100 {
+		Visibility 1
+		Position	74.8247	6.01123	0.0101133
+		Orientation	0.5 0.5 0.5 0.5
+	}
+-= Animation: start, Node Foresight1 =-
+	Frame 0 {
+		Visibility 1
+		Position	0.0379114	67.1617	-1.9902
+		Orientation	0.5 0.5 0.5 -0.5
+	}
+	Frame 30 {
+		Visibility 1
+		Position	0.0379114	67.1617	-1.9902
+		Orientation	0.5 0.5 0.5 -0.5
+	}
+-= Animation: stop, Node Foresight1 =-
+	Frame 40 {
+		Visibility 1
+		Position	0.0379114	67.1617	-1.9902
+		Orientation	0.5 0.5 0.5 -0.5
+	}
+	Frame 60 {
+		Visibility 1
+		Position	0.0379114	67.1617	-1.9902
+		Orientation	0.5 0.5 0.5 -0.5
+	}
+-= Animation: fire, Node Foresight1 =-
+	Frame 70 {
+		Visibility 1
+		Position	0.0379114	67.1617	-1.9902
+		Orientation	0.5 0.5 0.5 -0.5
+	}
+	Frame 100 {
+		Visibility 1
+		Position	0.0379114	67.1617	-1.9902
+		Orientation	0.5 0.5 0.5 -0.5
+	}
+-= Animation: start, Node fx_ground =-
+	Frame 0 {
+		Visibility 1
+		Position	-0.576751	66.8136	-40.023
+		Orientation	0.5 0.5 0.5 -0.5
+	}
+	Frame 30 {
+		Visibility 1
+		Position	-0.576751	66.8136	-40.023
+		Orientation	0.5 0.5 0.5 -0.5
+	}
+-= Animation: stop, Node fx_ground =-
+	Frame 40 {
+		Visibility 1
+		Position	-0.576751	66.8136	-40.023
+		Orientation	0.5 0.5 0.5 -0.5
+	}
+	Frame 60 {
+		Visibility 1
+		Position	-0.576751	66.8136	-40.023
+		Orientation	0.5 0.5 0.5 -0.5
+	}
+-= Animation: fire, Node fx_ground =-
+	Frame 70 {
+		Visibility 1
+		Position	-0.576751	66.8136	-40.023
+		Orientation	0.5 0.5 0.5 -0.5
+	}
+	Frame 100 {
+		Visibility 1
+		Position	-0.576751	66.8136	-40.023
+		Orientation	0.5 0.5 0.5 -0.5
+	}
+-= Animation: start, Node fx_invers =-
+	Frame 0 {
+		Visibility 1
+		Position	6.2658	3.66933	0.0898066
+		Orientation	0 0.707107 -0.707107 0
+	}
+	Frame 30 {
+		Visibility 1
+		Position	6.2658	3.66933	0.0898066
+		Orientation	0 0.707107 -0.707107 0
+	}
+-= Animation: stop, Node fx_invers =-
+	Frame 40 {
+		Visibility 1
+		Position	6.2658	3.66933	0.0898066
+		Orientation	0 0.707107 -0.707107 0
+	}
+	Frame 60 {
+		Visibility 1
+		Position	6.2658	3.66933	0.0898066
+		Orientation	0 0.707107 -0.707107 0
+	}
+-= Animation: fire, Node fx_invers =-
+	Frame 70 {
+		Visibility 1
+		Position	6.2658	3.66933	0.0898066
+		Orientation	0 0.707107 -0.707107 0
+	}
+	Frame 100 {
+		Visibility 1
+		Position	6.2658	3.66933	0.0898066
+		Orientation	0 0.707107 -0.707107 0
+	}
+-= Animation: start, Node shieldr4 =-
+	Frame 0 {
+		Visibility 1
+		Position	4.35149	0	-26.0023
+		Orientation	0 0 0.707107 0.707107
+	}
+	Frame 30 {
+		Visibility 1
+		Position	4.35149	0	-26.0023
+		Orientation	0 0 0.707107 0.707107
+	}
+-= Animation: stop, Node shieldr4 =-
+	Frame 40 {
+		Visibility 1
+		Position	4.35149	0	-26.0023
+		Orientation	0 0 0.707107 0.707107
+	}
+	Frame 60 {
+		Visibility 1
+		Position	4.35149	0	-26.0023
+		Orientation	0 0 0.707107 0.707107
+	}
+-= Animation: fire, Node shieldr4 =-
+	Frame 70 {
+		Visibility 1
+		Position	4.35149	0	-26.0023
+		Orientation	0 0 0.707107 0.707107
+	}
+	Frame 100 {
+		Visibility 1
+		Position	4.35149	0	-26.0023
+		Orientation	0 0 0.707107 0.707107
+	}
+-= Animation: start, Node Visor2 =-
+	Frame 0 {
+		Visibility 1
+		Position	30.5647	9.85449	20.7287
+		Orientation	-0.707107 0 0 0.707107
+	}
+	Frame 30 {
+		Visibility 1
+		Position	30.5647	9.85449	20.7287
+		Orientation	-0.707107 0 0 0.707107
+	}
+-= Animation: stop, Node Visor2 =-
+	Frame 40 {
+		Visibility 1
+		Position	30.5647	9.85449	20.7287
+		Orientation	-0.707107 0 0 0.707107
+	}
+	Frame 60 {
+		Visibility 1
+		Position	30.5647	9.85449	20.7287
+		Orientation	-0.707107 0 0 0.707107
+	}
+-= Animation: fire, Node Visor2 =-
+	Frame 70 {
+		Visibility 1
+		Position	30.5647	9.85449	20.7287
+		Orientation	-0.707107 0 0 0.707107
+	}
+	Frame 100 {
+		Visibility 1
+		Position	30.5647	9.85449	20.7287
+		Orientation	-0.707107 0 0 0.707107
+	}
+-= Animation: start, Node commander =-
+	Frame 0 {
+		Visibility 1
+		Position	1.13268	-17.1434	-1.25473
+		Orientation	0 0 -0.707107 0.707107
+	}
+	Frame 30 {
+		Visibility 1
+		Position	1.13268	-17.1434	-1.25473
+		Orientation	0 0 -0.707107 0.707107
+	}
+-= Animation: stop, Node commander =-
+	Frame 40 {
+		Visibility 1
+		Position	1.13268	-17.1434	-1.25473
+		Orientation	0 0 -0.707107 0.707107
+	}
+	Frame 60 {
+		Visibility 1
+		Position	1.13268	-17.1434	-1.25473
+		Orientation	0 0 -0.707107 0.707107
+	}
+-= Animation: fire, Node commander =-
+	Frame 70 {
+		Visibility 1
+		Position	1.13268	-17.1434	-1.25473
+		Orientation	0 0 -0.707107 0.707107
+	}
+	Frame 100 {
+		Visibility 1
+		Position	1.13268	-17.1434	-1.25473
+		Orientation	0 0 -0.707107 0.707107
+	}
+-= Animation: start, Node loader =-
+	Frame 0 {
+		Visibility 1
+		Position	-14.8303	-17.1037	-1.03192
+		Orientation	0 0 -0.707107 0.707107
+	}
+	Frame 30 {
+		Visibility 1
+		Position	-14.8303	-17.1037	-1.03192
+		Orientation	0 0 -0.707107 0.707107
+	}
+-= Animation: stop, Node loader =-
+	Frame 40 {
+		Visibility 1
+		Position	-14.8303	-17.1037	-1.03192
+		Orientation	0 0 -0.707107 0.707107
+	}
+	Frame 60 {
+		Visibility 1
+		Position	-14.8303	-17.1037	-1.03192
+		Orientation	0 0 -0.707107 0.707107
+	}
+-= Animation: fire, Node loader =-
+	Frame 70 {
+		Visibility 1
+		Position	-14.8303	-17.1037	-1.03192
+		Orientation	0 0 -0.707107 0.707107
+	}
+	Frame 100 {
+		Visibility 1
+		Position	-14.8303	-17.1037	-1.03192
+		Orientation	0 0 -0.707107 0.707107
+	}
+-= Animation: start, Node gunner =-
+	Frame 0 {
+		Visibility 1
+		Position	15.3535	-15.442	-1.23911
+		Orientation	0 0 -0.0871554 0.996195
+	}
+	Frame 30 {
+		Visibility 1
+		Position	15.3535	-15.442	-1.23911
+		Orientation	0 0 -0.0871554 0.996195
+	}
+-= Animation: stop, Node gunner =-
+	Frame 40 {
+		Visibility 1
+		Position	15.3535	-15.442	-1.23911
+		Orientation	0 0 -0.0871554 0.996195
+	}
+	Frame 60 {
+		Visibility 1
+		Position	15.3535	-15.442	-1.23911
+		Orientation	0 0 -0.0871554 0.996195
+	}
+-= Animation: fire, Node gunner =-
+	Frame 70 {
+		Visibility 1
+		Position	15.3535	-15.442	-1.23911
+		Orientation	0 0 -0.0871554 0.996195
+	}
+	Frame 100 {
+		Visibility 1
+		Position	15.3535	-15.442	-1.23911
+		Orientation	0 0 -0.0871554 0.996195
+	}
+-= Animation: start, Node Visor3 =-
+	Frame 0 {
+		Visibility 1
+		Position	33.9589	-11.9924	20.4879
+		Orientation	0 1 0 0
+	}
+	Frame 30 {
+		Visibility 1
+		Position	33.9589	-11.9924	20.4879
+		Orientation	0 1 0 0
+	}
+-= Animation: stop, Node Visor3 =-
+	Frame 40 {
+		Visibility 1
+		Position	33.9589	-11.9924	20.4879
+		Orientation	0 1 0 0
+	}
+	Frame 60 {
+		Visibility 1
+		Position	33.9589	-11.9924	20.4879
+		Orientation	0 1 0 0
+	}
+-= Animation: fire, Node Visor3 =-
+	Frame 70 {
+		Visibility 1
+		Position	33.9589	-11.9924	20.4879
+		Orientation	0 1 0 0
+	}
+	Frame 100 {
+		Visibility 1
+		Position	33.9589	-11.9924	20.4879
+		Orientation	0 1 0 0
+	}
+-= Animation: start, Node trackr =-
+	Frame 0 {
+		Visibility 1
+		Position	0	0	0
+		Orientation	0 0 0 1
+	}
+	Frame 30 {
+		Visibility 1
+		Position	0	0	0
+		Orientation	0 0 0 1
+	}
+-= Animation: stop, Node trackr =-
+	Frame 40 {
+		Visibility 1
+		Position	0	0	0
+		Orientation	0 0 0 1
+	}
+	Frame 60 {
+		Visibility 1
+		Position	0	0	0
+		Orientation	0 0 0 1
+	}
+-= Animation: fire, Node trackr =-
+	Frame 70 {
+		Visibility 1
+		Position	0	0	0
+		Orientation	0 0 0 1
+	}
+	Frame 100 {
+		Visibility 1
+		Position	0	0	0
+		Orientation	0 0 0 1
+	}
+-= Animation: start, Node wheelr3 =-
+	Frame 0 {
+		Visibility 1
+		Position	25.1915	-31.7412	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 30 {
+		Visibility 1
+		Position	25.1915	-31.7412	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: stop, Node wheelr3 =-
+	Frame 40 {
+		Visibility 1
+		Position	25.1915	-31.7412	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 60 {
+		Visibility 1
+		Position	25.1915	-31.7412	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: fire, Node wheelr3 =-
+	Frame 70 {
+		Visibility 1
+		Position	25.1915	-31.7412	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 100 {
+		Visibility 1
+		Position	25.1915	-31.7412	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: start, Node wheelr7 =-
+	Frame 0 {
+		Visibility 1
+		Position	25.1918	16.2684	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 30 {
+		Visibility 1
+		Position	25.1918	16.2684	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: stop, Node wheelr7 =-
+	Frame 40 {
+		Visibility 1
+		Position	25.1918	16.2684	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 60 {
+		Visibility 1
+		Position	25.1918	16.2684	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: fire, Node wheelr7 =-
+	Frame 70 {
+		Visibility 1
+		Position	25.1918	16.2684	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 100 {
+		Visibility 1
+		Position	25.1918	16.2684	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: start, Node wheelr8 =-
+	Frame 0 {
+		Visibility 1
+		Position	25.2009	28.5094	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 30 {
+		Visibility 1
+		Position	25.2009	28.5094	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: stop, Node wheelr8 =-
+	Frame 40 {
+		Visibility 1
+		Position	25.2009	28.5094	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 60 {
+		Visibility 1
+		Position	25.2009	28.5094	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: fire, Node wheelr8 =-
+	Frame 70 {
+		Visibility 1
+		Position	25.2009	28.5094	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 100 {
+		Visibility 1
+		Position	25.2009	28.5094	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: start, Node wheelr9 =-
+	Frame 0 {
+		Visibility 1
+		Position	25.1917	40.2831	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 30 {
+		Visibility 1
+		Position	25.1917	40.2831	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: stop, Node wheelr9 =-
+	Frame 40 {
+		Visibility 1
+		Position	25.1917	40.2831	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 60 {
+		Visibility 1
+		Position	25.1917	40.2831	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: fire, Node wheelr9 =-
+	Frame 70 {
+		Visibility 1
+		Position	25.1917	40.2831	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 100 {
+		Visibility 1
+		Position	25.1917	40.2831	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: start, Node wheelr1 =-
+	Frame 0 {
+		Visibility 1
+		Position	22.4652	-56.7503	11.0204
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 30 {
+		Visibility 1
+		Position	22.4652	-56.7503	11.0204
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: stop, Node wheelr1 =-
+	Frame 40 {
+		Visibility 1
+		Position	22.4652	-56.7503	11.0204
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 60 {
+		Visibility 1
+		Position	22.4652	-56.7503	11.0204
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: fire, Node wheelr1 =-
+	Frame 70 {
+		Visibility 1
+		Position	22.4652	-56.7503	11.0204
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 100 {
+		Visibility 1
+		Position	22.4652	-56.7503	11.0204
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: start, Node wheelr2 =-
+	Frame 0 {
+		Visibility 1
+		Position	25.2004	-43.5049	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 30 {
+		Visibility 1
+		Position	25.2004	-43.5049	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: stop, Node wheelr2 =-
+	Frame 40 {
+		Visibility 1
+		Position	25.2004	-43.5049	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 60 {
+		Visibility 1
+		Position	25.2004	-43.5049	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: fire, Node wheelr2 =-
+	Frame 70 {
+		Visibility 1
+		Position	25.2004	-43.5049	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 100 {
+		Visibility 1
+		Position	25.2004	-43.5049	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: start, Node wheelr4 =-
+	Frame 0 {
+		Visibility 1
+		Position	25.2005	-19.8581	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 30 {
+		Visibility 1
+		Position	25.2005	-19.8581	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: stop, Node wheelr4 =-
+	Frame 40 {
+		Visibility 1
+		Position	25.2005	-19.8581	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 60 {
+		Visibility 1
+		Position	25.2005	-19.8581	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: fire, Node wheelr4 =-
+	Frame 70 {
+		Visibility 1
+		Position	25.2005	-19.8581	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 100 {
+		Visibility 1
+		Position	25.2005	-19.8581	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: start, Node wheelr5 =-
+	Frame 0 {
+		Visibility 1
+		Position	25.1915	-8.08446	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 30 {
+		Visibility 1
+		Position	25.1915	-8.08446	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: stop, Node wheelr5 =-
+	Frame 40 {
+		Visibility 1
+		Position	25.1915	-8.08446	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 60 {
+		Visibility 1
+		Position	25.1915	-8.08446	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: fire, Node wheelr5 =-
+	Frame 70 {
+		Visibility 1
+		Position	25.1915	-8.08446	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 100 {
+		Visibility 1
+		Position	25.1915	-8.08446	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: start, Node wheelr6 =-
+	Frame 0 {
+		Visibility 1
+		Position	25.201	4.50462	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 30 {
+		Visibility 1
+		Position	25.201	4.50462	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: stop, Node wheelr6 =-
+	Frame 40 {
+		Visibility 1
+		Position	25.201	4.50462	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 60 {
+		Visibility 1
+		Position	25.201	4.50462	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: fire, Node wheelr6 =-
+	Frame 70 {
+		Visibility 1
+		Position	25.201	4.50462	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 100 {
+		Visibility 1
+		Position	25.201	4.50462	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: start, Node wheelr10 =-
+	Frame 0 {
+		Visibility 1
+		Position	25.4417	55.1493	11.9998
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 30 {
+		Visibility 1
+		Position	25.4417	55.1493	11.9998
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: stop, Node wheelr10 =-
+	Frame 40 {
+		Visibility 1
+		Position	25.4417	55.1493	11.9998
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 60 {
+		Visibility 1
+		Position	25.4417	55.1493	11.9998
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: fire, Node wheelr10 =-
+	Frame 70 {
+		Visibility 1
+		Position	25.4417	55.1493	11.9998
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 100 {
+		Visibility 1
+		Position	25.4417	55.1493	11.9998
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: start, Node FXtraceR1 =-
+	Frame 0 {
+		Visibility 1
+		Position	30.6604	-62.846	5.12966
+		Orientation	0.298836 -0.640857 0.298836 0.640857
+	}
+	Frame 30 {
+		Visibility 1
+		Position	30.6604	-62.846	5.12966
+		Orientation	0.298836 -0.640857 0.298836 0.640857
+	}
+-= Animation: stop, Node FXtraceR1 =-
+	Frame 40 {
+		Visibility 1
+		Position	30.6604	-62.846	5.12966
+		Orientation	0.298836 -0.640857 0.298836 0.640857
+	}
+	Frame 60 {
+		Visibility 1
+		Position	30.6604	-62.846	5.12966
+		Orientation	0.298836 -0.640857 0.298836 0.640857
+	}
+-= Animation: fire, Node FXtraceR1 =-
+	Frame 70 {
+		Visibility 1
+		Position	30.6604	-62.846	5.12966
+		Orientation	0.298836 -0.640857 0.298836 0.640857
+	}
+	Frame 100 {
+		Visibility 1
+		Position	30.6604	-62.846	5.12966
+		Orientation	0.298836 -0.640857 0.298836 0.640857
+	}
+-= Animation: start, Node trackl =-
+	Frame 0 {
+		Visibility 1
+		Position	0	0	0
+		Orientation	0 0 0 1
+	}
+	Frame 30 {
+		Visibility 1
+		Position	0	0	0
+		Orientation	0 0 0 1
+	}
+-= Animation: stop, Node trackl =-
+	Frame 40 {
+		Visibility 1
+		Position	0	0	0
+		Orientation	0 0 0 1
+	}
+	Frame 60 {
+		Visibility 1
+		Position	0	0	0
+		Orientation	0 0 0 1
+	}
+-= Animation: fire, Node trackl =-
+	Frame 70 {
+		Visibility 1
+		Position	0	0	0
+		Orientation	0 0 0 1
+	}
+	Frame 100 {
+		Visibility 1
+		Position	0	0	0
+		Orientation	0 0 0 1
+	}
+-= Animation: start, Node wheell7 =-
+	Frame 0 {
+		Visibility 1
+		Position	-25.1915	16.2684	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 30 {
+		Visibility 1
+		Position	-25.1915	16.2684	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: stop, Node wheell7 =-
+	Frame 40 {
+		Visibility 1
+		Position	-25.1915	16.2684	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 60 {
+		Visibility 1
+		Position	-25.1915	16.2684	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: fire, Node wheell7 =-
+	Frame 70 {
+		Visibility 1
+		Position	-25.1915	16.2684	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 100 {
+		Visibility 1
+		Position	-25.1915	16.2684	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: start, Node wheell8 =-
+	Frame 0 {
+		Visibility 1
+		Position	-25.201	28.5094	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 30 {
+		Visibility 1
+		Position	-25.201	28.5094	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: stop, Node wheell8 =-
+	Frame 40 {
+		Visibility 1
+		Position	-25.201	28.5094	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 60 {
+		Visibility 1
+		Position	-25.201	28.5094	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: fire, Node wheell8 =-
+	Frame 70 {
+		Visibility 1
+		Position	-25.201	28.5094	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 100 {
+		Visibility 1
+		Position	-25.201	28.5094	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: start, Node wheell1 =-
+	Frame 0 {
+		Visibility 1
+		Position	-22.4649	-56.7503	11.0204
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 30 {
+		Visibility 1
+		Position	-22.4649	-56.7503	11.0204
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: stop, Node wheell1 =-
+	Frame 40 {
+		Visibility 1
+		Position	-22.4649	-56.7503	11.0204
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 60 {
+		Visibility 1
+		Position	-22.4649	-56.7503	11.0204
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: fire, Node wheell1 =-
+	Frame 70 {
+		Visibility 1
+		Position	-22.4649	-56.7503	11.0204
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 100 {
+		Visibility 1
+		Position	-22.4649	-56.7503	11.0204
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: start, Node wheell2 =-
+	Frame 0 {
+		Visibility 1
+		Position	-25.2013	-43.5049	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 30 {
+		Visibility 1
+		Position	-25.2013	-43.5049	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: stop, Node wheell2 =-
+	Frame 40 {
+		Visibility 1
+		Position	-25.2013	-43.5049	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 60 {
+		Visibility 1
+		Position	-25.2013	-43.5049	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: fire, Node wheell2 =-
+	Frame 70 {
+		Visibility 1
+		Position	-25.2013	-43.5049	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 100 {
+		Visibility 1
+		Position	-25.2013	-43.5049	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: start, Node wheell3 =-
+	Frame 0 {
+		Visibility 1
+		Position	-25.1917	-31.7412	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 30 {
+		Visibility 1
+		Position	-25.1917	-31.7412	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: stop, Node wheell3 =-
+	Frame 40 {
+		Visibility 1
+		Position	-25.1917	-31.7412	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 60 {
+		Visibility 1
+		Position	-25.1917	-31.7412	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: fire, Node wheell3 =-
+	Frame 70 {
+		Visibility 1
+		Position	-25.1917	-31.7412	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 100 {
+		Visibility 1
+		Position	-25.1917	-31.7412	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: start, Node wheell4 =-
+	Frame 0 {
+		Visibility 1
+		Position	-25.201	-19.8581	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 30 {
+		Visibility 1
+		Position	-25.201	-19.8581	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: stop, Node wheell4 =-
+	Frame 40 {
+		Visibility 1
+		Position	-25.201	-19.8581	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 60 {
+		Visibility 1
+		Position	-25.201	-19.8581	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: fire, Node wheell4 =-
+	Frame 70 {
+		Visibility 1
+		Position	-25.201	-19.8581	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 100 {
+		Visibility 1
+		Position	-25.201	-19.8581	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: start, Node wheell5 =-
+	Frame 0 {
+		Visibility 1
+		Position	-25.1915	-8.08446	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 30 {
+		Visibility 1
+		Position	-25.1915	-8.08446	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: stop, Node wheell5 =-
+	Frame 40 {
+		Visibility 1
+		Position	-25.1915	-8.08446	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 60 {
+		Visibility 1
+		Position	-25.1915	-8.08446	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: fire, Node wheell5 =-
+	Frame 70 {
+		Visibility 1
+		Position	-25.1915	-8.08446	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 100 {
+		Visibility 1
+		Position	-25.1915	-8.08446	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: start, Node wheell6 =-
+	Frame 0 {
+		Visibility 1
+		Position	-25.2009	4.50462	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 30 {
+		Visibility 1
+		Position	-25.2009	4.50462	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: stop, Node wheell6 =-
+	Frame 40 {
+		Visibility 1
+		Position	-25.2009	4.50462	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 60 {
+		Visibility 1
+		Position	-25.2009	4.50462	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: fire, Node wheell6 =-
+	Frame 70 {
+		Visibility 1
+		Position	-25.2009	4.50462	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 100 {
+		Visibility 1
+		Position	-25.2009	4.50462	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: start, Node wheell9 =-
+	Frame 0 {
+		Visibility 1
+		Position	-25.1914	40.2831	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 30 {
+		Visibility 1
+		Position	-25.1914	40.2831	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: stop, Node wheell9 =-
+	Frame 40 {
+		Visibility 1
+		Position	-25.1914	40.2831	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 60 {
+		Visibility 1
+		Position	-25.1914	40.2831	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: fire, Node wheell9 =-
+	Frame 70 {
+		Visibility 1
+		Position	-25.1914	40.2831	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 100 {
+		Visibility 1
+		Position	-25.1914	40.2831	7.85256
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: start, Node wheell10 =-
+	Frame 0 {
+		Visibility 1
+		Position	-25.4415	55.1493	11.9998
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 30 {
+		Visibility 1
+		Position	-25.4415	55.1493	11.9998
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: stop, Node wheell10 =-
+	Frame 40 {
+		Visibility 1
+		Position	-25.4415	55.1493	11.9998
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 60 {
+		Visibility 1
+		Position	-25.4415	55.1493	11.9998
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: fire, Node wheell10 =-
+	Frame 70 {
+		Visibility 1
+		Position	-25.4415	55.1493	11.9998
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+	Frame 100 {
+		Visibility 1
+		Position	-25.4415	55.1493	11.9998
+		Orientation	0.5 0.5 -0.5 0.5
+	}
+-= Animation: start, Node FXtraceL1 =-
+	Frame 0 {
+		Visibility 1
+		Position	-30.7822	-62.7366	5.12976
+		Orientation	0.298836 -0.640857 0.298836 0.640856
+	}
+	Frame 30 {
+		Visibility 1
+		Position	-30.7822	-62.7366	5.12976
+		Orientation	0.298836 -0.640857 0.298836 0.640856
+	}
+-= Animation: stop, Node FXtraceL1 =-
+	Frame 40 {
+		Visibility 1
+		Position	-30.7822	-62.7366	5.12976
+		Orientation	0.298836 -0.640857 0.298836 0.640856
+	}
+	Frame 60 {
+		Visibility 1
+		Position	-30.7822	-62.7366	5.12976
+		Orientation	0.298836 -0.640857 0.298836 0.640856
+	}
+-= Animation: fire, Node FXtraceL1 =-
+	Frame 70 {
+		Visibility 1
+		Position	-30.7822	-62.7366	5.12976
+		Orientation	0.298836 -0.640857 0.298836 0.640856
+	}
+	Frame 100 {
+		Visibility 1
+		Position	-30.7822	-62.7366	5.12976
+		Orientation	0.298836 -0.640857 0.298836 0.640856
+	}
+-= Animation: start, Node FXsmoke2 =-
+	Frame 0 {
+		Visibility 1
+		Position	8.80664	-69.4786	28.0907
+		Orientation	-0.470948 0.527454 0.470948 0.527454
+	}
+	Frame 30 {
+		Visibility 1
+		Position	8.80664	-69.4786	28.0907
+		Orientation	-0.470948 0.527454 0.470948 0.527454
+	}
+-= Animation: stop, Node FXsmoke2 =-
+	Frame 40 {
+		Visibility 1
+		Position	8.80664	-69.4786	28.0907
+		Orientation	-0.470948 0.527454 0.470948 0.527454
+	}
+	Frame 60 {
+		Visibility 1
+		Position	8.80664	-69.4786	28.0907
+		Orientation	-0.470948 0.527454 0.470948 0.527454
+	}
+-= Animation: fire, Node FXsmoke2 =-
+	Frame 70 {
+		Visibility 1
+		Position	8.80664	-69.4786	28.0907
+		Orientation	-0.470948 0.527454 0.470948 0.527454
+	}
+	Frame 100 {
+		Visibility 1
+		Position	8.80664	-69.4786	28.0907
+		Orientation	-0.470948 0.527454 0.470948 0.527454
+	}
+-= Animation: start, Node FXsmoke1 =-
+	Frame 0 {
+		Visibility 1
+		Position	-8.53163	-69.4388	28.0252
+		Orientation	-0.470948 0.527455 0.470947 0.527455
+	}
+	Frame 30 {
+		Visibility 1
+		Position	-8.53163	-69.4388	28.0252
+		Orientation	-0.470948 0.527455 0.470947 0.527455
+	}
+-= Animation: stop, Node FXsmoke1 =-
+	Frame 40 {
+		Visibility 1
+		Position	-8.53163	-69.4388	28.0252
+		Orientation	-0.470948 0.527455 0.470947 0.527455
+	}
+	Frame 60 {
+		Visibility 1
+		Position	-8.53163	-69.4388	28.0252
+		Orientation	-0.470948 0.527455 0.470947 0.527455
+	}
+-= Animation: fire, Node FXsmoke1 =-
+	Frame 70 {
+		Visibility 1
+		Position	-8.53163	-69.4388	28.0252
+		Orientation	-0.470948 0.527455 0.470947 0.527455
+	}
+	Frame 100 {
+		Visibility 1
+		Position	-8.53163	-69.4388	28.0252
+		Orientation	-0.470948 0.527455 0.470947 0.527455
+	}
+-= Animation: start, Node Emit1 =-
+	Frame 0 {
+		Visibility 1
+		Position	-61.8654	-32.3378	-1.35911
+		Orientation	0 0 0 1
+	}
+	Frame 30 {
+		Visibility 1
+		Position	-61.8654	-32.3378	-1.35911
+		Orientation	0 0 0 1
+	}
+-= Animation: stop, Node Emit1 =-
+	Frame 40 {
+		Visibility 1
+		Position	-61.8654	-32.3378	-1.35911
+		Orientation	0 0 0 1
+	}
+	Frame 60 {
+		Visibility 1
+		Position	-61.8654	-32.3378	-1.35911
+		Orientation	0 0 0 1
+	}
+-= Animation: fire, Node Emit1 =-
+	Frame 70 {
+		Visibility 1
+		Position	-61.8654	-32.3378	-1.35911
+		Orientation	0 0 0 1
+	}
+	Frame 100 {
+		Visibility 1
+		Position	-61.8654	-32.3378	-1.35911
+		Orientation	0 0 0 1
+	}
+-= Animation: start, Node Emit2 =-
+	Frame 0 {
+		Visibility 1
+		Position	44.0773	66.4358	-1.35909
+		Orientation	0 0 1 0
+	}
+	Frame 30 {
+		Visibility 1
+		Position	44.0773	66.4358	-1.35909
+		Orientation	0 0 1 0
+	}
+-= Animation: stop, Node Emit2 =-
+	Frame 40 {
+		Visibility 1
+		Position	44.0773	66.4358	-1.35909
+		Orientation	0 0 1 0
+	}
+	Frame 60 {
+		Visibility 1
+		Position	44.0773	66.4358	-1.35909
+		Orientation	0 0 1 0
+	}
+-= Animation: fire, Node Emit2 =-
+	Frame 70 {
+		Visibility 1
+		Position	44.0773	66.4358	-1.35909
+		Orientation	0 0 1 0
+	}
+	Frame 100 {
+		Visibility 1
+		Position	44.0773	66.4358	-1.35909
+		Orientation	0 0 1 0
+	}
+-= Animation: start, Node FXfire2 =-
+	Frame 0 {
+		Visibility 1
+		Position	-1.00123	-50.7839	30.3002
+		Orientation	0.477714 -0.521334 0.477715 0.521334
+	}
+	Frame 30 {
+		Visibility 1
+		Position	-1.00123	-50.7839	30.3002
+		Orientation	0.477714 -0.521334 0.477715 0.521334
+	}
+-= Animation: stop, Node FXfire2 =-
+	Frame 40 {
+		Visibility 1
+		Position	-1.00123	-50.7839	30.3002
+		Orientation	0.477714 -0.521334 0.477715 0.521334
+	}
+	Frame 60 {
+		Visibility 1
+		Position	-1.00123	-50.7839	30.3002
+		Orientation	0.477714 -0.521334 0.477715 0.521334
+	}
+-= Animation: fire, Node FXfire2 =-
+	Frame 70 {
+		Visibility 1
+		Position	-1.00123	-50.7839	30.3002
+		Orientation	0.477714 -0.521334 0.477715 0.521334
+	}
+	Frame 100 {
+		Visibility 1
+		Position	-1.00123	-50.7839	30.3002
+		Orientation	0.477714 -0.521334 0.477715 0.521334
+	}
+-= Animation: start, Node FXfire3 =-
+	Frame 0 {
+		Visibility 1
+		Position	-7.99683	-16.1093	24.8218
+		Orientation	0.707107 0 0.707107 0
+	}
+	Frame 30 {
+		Visibility 1
+		Position	-7.99683	-16.1093	24.8218
+		Orientation	0.707107 0 0.707107 0
+	}
+-= Animation: stop, Node FXfire3 =-
+	Frame 40 {
+		Visibility 1
+		Position	-7.99683	-16.1093	24.8218
+		Orientation	0.707107 0 0.707107 0
+	}
+	Frame 60 {
+		Visibility 1
+		Position	-7.99683	-16.1093	24.8218
+		Orientation	0.707107 0 0.707107 0
+	}
+-= Animation: fire, Node FXfire3 =-
+	Frame 70 {
+		Visibility 1
+		Position	-7.99683	-16.1093	24.8218
+		Orientation	0.707107 0 0.707107 0
+	}
+	Frame 100 {
+		Visibility 1
+		Position	-7.99683	-16.1093	24.8218
+		Orientation	0.707107 0 0.707107 0
+	}
+-= Animation: start, Node driver =-
+	Frame 0 {
+		Visibility 1
+		Position	1.75542	33.8891	15.3445
+		Orientation	0.5 0.5 0.5 -0.5
+	}
+	Frame 30 {
+		Visibility 1
+		Position	1.75542	33.8891	15.3445
+		Orientation	0.5 0.5 0.5 -0.5
+	}
+-= Animation: stop, Node driver =-
+	Frame 40 {
+		Visibility 1
+		Position	1.75542	33.8891	15.3445
+		Orientation	0.5 0.5 0.5 -0.5
+	}
+	Frame 60 {
+		Visibility 1
+		Position	1.75542	33.8891	15.3445
+		Orientation	0.5 0.5 0.5 -0.5
+	}
+-= Animation: fire, Node driver =-
+	Frame 70 {
+		Visibility 1
+		Position	1.75542	33.8891	15.3445
+		Orientation	0.5 0.5 0.5 -0.5
+	}
+	Frame 100 {
+		Visibility 1
+		Position	1.75542	33.8891	15.3445
+		Orientation	0.5 0.5 0.5 -0.5
+	}
+-= Animation: start, Node Visor1 =-
+	Frame 0 {
+		Visibility 1
+		Position	-11.2494	44.7778	24.2807
+		Orientation	0.5 0.5 0.5 -0.5
+	}
+	Frame 30 {
+		Visibility 1
+		Position	-11.2494	44.7778	24.2807
+		Orientation	0.5 0.5 0.5 -0.5
+	}
+-= Animation: stop, Node Visor1 =-
+	Frame 40 {
+		Visibility 1
+		Position	-11.2494	44.7778	24.2807
+		Orientation	0.5 0.5 0.5 -0.5
+	}
+	Frame 60 {
+		Visibility 1
+		Position	-11.2494	44.7778	24.2807
+		Orientation	0.5 0.5 0.5 -0.5
+	}
+-= Animation: fire, Node Visor1 =-
+	Frame 70 {
+		Visibility 1
+		Position	-11.2494	44.7778	24.2807
+		Orientation	0.5 0.5 0.5 -0.5
+	}
+	Frame 100 {
+		Visibility 1
+		Position	-11.2494	44.7778	24.2807
+		Orientation	0.5 0.5 0.5 -0.5
+	}
+-= Animation: start, Node FXfire1 =-
+	Frame 0 {
+		Visibility 1
+		Position	8.91447	36.1066	30.3564
+		Orientation	0.707107 0 0.707107 0
+	}
+	Frame 30 {
+		Visibility 1
+		Position	8.91447	36.1066	30.3564
+		Orientation	0.707107 0 0.707107 0
+	}
+-= Animation: stop, Node FXfire1 =-
+	Frame 40 {
+		Visibility 1
+		Position	8.91447	36.1066	30.3564
+		Orientation	0.707107 0 0.707107 0
+	}
+	Frame 60 {
+		Visibility 1
+		Position	8.91447	36.1066	30.3564
+		Orientation	0.707107 0 0.707107 0
+	}
+-= Animation: fire, Node FXfire1 =-
+	Frame 70 {
+		Visibility 1
+		Position	8.91447	36.1066	30.3564
+		Orientation	0.707107 0 0.707107 0
+	}
+	Frame 100 {
+		Visibility 1
+		Position	8.91447	36.1066	30.3564
+		Orientation	0.707107 0 0.707107 0
+	}

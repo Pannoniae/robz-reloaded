@@ -56,7 +56,8 @@
 
 	{extender "inventory"
 		{box
-			{item "ammo bullet75 jap aphe" 45}
+			{item "ammo bullet75 jap aphe" 40}
+			{item "ammo bullet75 jap wp" 5}
 			{item "ammo bullet75 jap fg" 25}
 		}
 	}

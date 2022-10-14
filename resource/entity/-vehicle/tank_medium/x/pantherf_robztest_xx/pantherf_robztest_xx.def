@@ -1,0 +1,15 @@
+{game_entity
+	{Extension "pantherf_robztest_xx.mdl"}
+	{Volume "body"
+	}
+	{Volume "gun"
+	}
+	{Volume "inventory"
+	}
+	{Volume "trackl"
+	}
+	{Volume "trackr"
+	}
+	{Volume "turret"
+	}
+}

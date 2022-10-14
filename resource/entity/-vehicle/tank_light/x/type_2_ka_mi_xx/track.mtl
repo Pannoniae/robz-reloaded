@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/type_2_ka_mi/type_2_ka_mi_track_am"}
+	{bump "$/model/type_2_ka_mi/type_2_ka_mi_track_nm"}
+	{specular "$/model/type_2_ka_mi/type_2_ka_mi_track_gmm"}
+	{color "229 229 229 25"}
+	{blend test}
+}

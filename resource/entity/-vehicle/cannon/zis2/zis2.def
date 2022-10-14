@@ -1,6 +1,6 @@
 {game_entity
 	(include "/properties/cannon.ext")
-	{props "vehicle" "cannon" "wheeled" "round_sandbag2" "vision_cannon_medium" "muzzle_small" "medium_weapons"}
+	{props "vehicle" "cannon" "wheeled" "round_sandbag2" "vision_cannon_high" "muzzle_small" "medium_weapons"}
 	
 	("armor_medium")
 
@@ -40,7 +40,7 @@
 
 	{extender "inventory"
 		{box
-			{item "bullet57 rus aphebc" 5}
+			{item "bullet57 rus aphebc" 50}
 			{item "bullet57 rus fg" 5}
 			{item "bullet57 rus apcr" 5}
 			{item "sandbag_kit2"}

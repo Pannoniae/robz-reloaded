@@ -1,6 +1,6 @@
 {game_entity
 	(include "/properties/cannon.ext")
-	{props "vehicle" "cannon" "wheeled" "round_sandbag2" "vision_cannon_high" "muzzle_medium" "big_weapons" "gun_mode_change"}
+	{props "vehicle" "cannon" "wheeled" "round_sandbag2" "vision_cannon_high" "muzzle_medium" "big_weapons"}
 	
 	("armor_medium")
 	
@@ -43,8 +43,8 @@
 
 	{extender "inventory"
 		{box
-			{item "bullet75 jap aphe" 5}
-			{item "bullet75 jap fg" 5}
+			{item "bullet75 jap aphe" 50}
+			{item "bullet75 jap fg" 8}
 			{item "sandbag_kit2"}
 		}
 	}
@@ -53,15 +53,6 @@
 			{weapon "75mm_type90" filling "bullet75 jap aphe" 1}
 			("abm_field_gun")
 			{Rotate}
-		}
-		{place "gun1_2"
-			{type "gun_change_arty"}
-			{weapon "75mm_type90_2"}
-			{basic}
-			{rotate}
-			{charger "gunner"}
-			{StationaryFiring}
-			("abm_howitzer")
 		}
 	}
 	{mass 1428}
@@ -85,11 +76,10 @@
 		("loco_medium")
 	}
 	{bone "turret"
-        	{limits -25 25}
+        	{limits -20 20}
        		 {speed 0.0007}
     		}
 	{bone "gun_rot"
-		{limits -8 43}
 		{speed 0.0005}
 	}
     	{bone "basis"

@@ -40,8 +40,8 @@
 
 	{extender "inventory"
 		{box
-			{item "bullet76 eng ap" 3}
-			{item "bullet76 eng apc" 2}
+			{item "bullet76 eng ap" 50}
+			{item "bullet76 eng apc" 5}
 			{item "bullet76 eng fg" 5}
 			{item "sandbag_kit2"}
 		}

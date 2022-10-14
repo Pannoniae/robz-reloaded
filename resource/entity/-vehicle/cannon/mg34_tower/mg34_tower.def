@@ -31,7 +31,7 @@
 	}
 	{extender "inventory"
 		{box
-			{item "ammo mg_mauser drum" 500}
+			{item "ammo mg_mauser drum" 2000}
 		}
 	}
 	{Weaponry

@@ -32,7 +32,7 @@
 
 	{extender "inventory"
 		{box
-			   {item "ammo bullet105 us fg" 8}
+			   {item "ammo bullet105 us fg" 40}
 			   {item "ammo bullet105 us wp" 4}
 			   {item "ammo bullet105 us sm" 4}
 			   {item "ammo bullet105 us heat" 4}

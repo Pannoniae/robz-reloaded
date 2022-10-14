@@ -1,0 +1,94 @@
+{entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc" scale(1.2))
+	{collider "tank.light"}
+	{props "light" "turret_rotator" "vision_vehicle_low" "muzzle_minimum"}
+	{targetClass "light_tank"}
+	{patherId "tank.light"}
+
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+	}
+
+	("armor_light" turret(45 40 40 22) body(34 34 34 25))
+	("armor_engine"  t(10 10 10 14))
+
+	("crew_2_human")
+
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_tank_left"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_right"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+	}
+
+	{extender "inventory"
+		{box
+			{item "ammo bullet37 fra apc" 76}
+			{item "ammo mg_mauser belt" 2400}
+			{item "mp40"}
+			{item "ammo mp40_mag" 192}
+			{item "bandage" 10}
+			{item "grenade m24" 2}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "37mm_SA18" filling "ammo bullet37 fra apc" 1}
+			{charger "gunner"}
+			("abm_low")   
+		}
+
+		{place "mgun"
+			{type "mgun_coaxial"}
+			{weapon "7,5mm_shatelro" filled}
+			{foresight "Foresight3"}
+			{charger "gunner"}
+			("abm_mgun")
+			{basic}
+		}
+	}
+
+	{mass 10600}
+	{Chassis
+		("tank_trace" fx("tracks_sm") step(0.4) len(0.44))
+		{Locomotion ("locomotion")
+			{maxspeed   20}
+			{maxSpeedAtMaxTurn 6}
+			{StartTime  28}
+			{TurnTime   15}
+			{TurnStart  1.1}			
+			{TurnRadius 7} 
+    		{TurnStop   0.7}
+			{BrakeTime  1}
+			{StopTime   2}
+     			{Gears   0.1 0.2 0.3 1}
+			{RearGears  0.27}
+		}
+		{FuelBag
+				{volume 395 }	
+				{rate	 6 }   
+				{remain 395 }
+				{fuel "fuel"}
+		}
+		{speed
+        	{Normal  12}
+        	{Slow  18}
+    	}
+	}
+	{Extension "r35.mdl"}
+	{bone "turret"
+		{speed 0.006}
+	}
+}

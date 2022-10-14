@@ -10,7 +10,7 @@
 	}  	
 	{extender "inventory"
 		{box
-				{item "ammo mg_mauser drum" 1000}			
+				{item "ammo mg_mauser drum" 2000}			
 				{item "sandbag_kit2"}
 		}	
 	}

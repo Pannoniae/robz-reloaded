@@ -81,23 +81,22 @@
 
 	{extender "inventory"
 		{box
-			{item "ammo bullet75 japl aphe2" 45}
-			{item "ammo bullet75 japl fg" 27}
-			{item "ammo bullet75 japl aphe3" 6}
+			{item "ammo bullet75 japll aphe" 50}
+			{item "ammo bullet75 japll fg" 27}
 			{item "ammo bullet37 jap aphe" 30}
 			{item "ammo bullet37 jap fg" 30}
 			{item "type99_mg" filled {user "mgun"}}
+			{item "ammo type97_mag" 1650}
 			{item "ammo type99_mag" 600}
-			{item "ammo type97_mag" 1000}
 		}
 	}
 	{Weaponry
 		("restore_ik_time")
 		{place "gun"
-			{weapon "75mm_type5a" filling "ammo bullet75 japl aphe2" 3}
+			{weapon "75mm_type5_autoloading1" filling "ammo bullet75 japll aphe" 1}
 			{RestoreIKAfterAim}
 			{basic}
-			("abm_medium")
+			("abm_high")
 		}
 		{place "gun2"
 			{type "secondary_main"}

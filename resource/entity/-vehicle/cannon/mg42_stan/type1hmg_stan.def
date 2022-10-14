@@ -18,7 +18,7 @@
 	}  	
 	{extender "inventory"
 		{box
-			{item "ammo type92_strip" 1000}
+			{item "ammo type92_strip" 2000}
 			{item "sandbag_kit2"}
 		}
 	}	

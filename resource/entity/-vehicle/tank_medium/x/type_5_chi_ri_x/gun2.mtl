@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/type_5_chi_ri/type_5_chi_ri_gun2_am"}
+	{bump "$/model/type_5_chi_ri/type_5_chi_ri_gun2_nm"}
+	{specular "$/model/type_5_chi_ri/type_5_chi_ri_gun2_gmm"}
+	{color "229 229 229 25"}
+	{blend none}
+}

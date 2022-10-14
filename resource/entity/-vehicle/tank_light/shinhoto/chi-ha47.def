@@ -51,11 +51,12 @@
 
 	{extender "inventory"
 		{box
-			{item "ammo bullet47 jap aphe" 74}
+			{item "ammo bullet47 jap aphe" 40}
+			{item "ammo bullet47 jap aphebc" 20}
 			{item "ammo bullet47 jap fg" 45}
 			{item "type99_mg" filled {user "mgun"}}
-			{item "ammo type99_mag" 600}
-			{item "ammo type97_mag" 1800}
+			{item "ammo type99_mag" 2800}
+			{item "ammo type97_mag" 2800}
 
 		}
 	}
@@ -64,7 +65,7 @@
 		{place "gun"
 			{weapon "47mm_type1" filling "ammo bullet47 jap aphe" 1}
 			{RestoreIKAfterAim}
-			("abm_low")
+			("abm_medium")
 		}
 		{place "mgun"
 			{type "mgun_aa"}
@@ -102,7 +103,7 @@
 			{MaxSpeed	30}
 			{maxSpeedAtMaxTurn 6}
 			{StartTime	 25}
-			{TurnTime	14}
+			{TurnTime	15}
 			{TurnStart  1.5} 
 			{BrakeTime  1.5}
 			{StopTime   2.5} 

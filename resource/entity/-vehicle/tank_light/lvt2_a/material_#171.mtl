@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "lvt2"}
+	{blend none}
+}

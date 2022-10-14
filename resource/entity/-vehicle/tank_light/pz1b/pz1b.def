@@ -33,13 +33,13 @@
 
 	{extender "inventory"
 		{box
-			{item "ammo mg_mauser belt" 2000}
+			{item "ammo mg_mauser belt ap" 2500}
 		}
 	}
 	{Weaponry
 		{place "mgun"
 			{type "mgun_main"}
-			{weapon "mg34_x2" filled}
+			{weapon "mg34_x2" filling "mg_mauser belt ap" 500}
 			{Barrels 2}
 			{charger "gunner"}
 			("abm_mgun")

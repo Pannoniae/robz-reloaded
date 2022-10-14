@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/model/type_98_ta_se/type_98_ta_se_body_x"}
+	{bump "$/model/type_98_ta_se/type_98_ta_se_body_nm"}
+	{blend none}
+}

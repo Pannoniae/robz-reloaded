@@ -68,8 +68,8 @@
 
 	{extender "inventory"
 		{box
-			{item "ammo bullet75 japl aphe" 5}
-			{item "ammo bullet75 japl fg" 5}
+			{item "ammo bullet75 japl aphe" 50}
+			{item "ammo bullet75 japl fg" 6}
 		}
 	}
 	{Weaponry

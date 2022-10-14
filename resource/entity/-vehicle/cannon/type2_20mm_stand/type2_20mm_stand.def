@@ -28,8 +28,8 @@
 
 	{extender "inventory"
 		{box
-			{item "bullet20 jap zenite ap" 90}
-			{item "bullet20 jap zenite fg" 90}
+			{item "bullet20 jap zenite ap" 800}
+			{item "bullet20 jap zenite fg" 200}
 			(mod "mp"
 				{item "sandbag_kit2"}
 			)

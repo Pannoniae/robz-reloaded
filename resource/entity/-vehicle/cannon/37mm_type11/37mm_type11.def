@@ -1,0 +1,69 @@
+{game_entity
+	(include "/properties/cannon.ext")
+
+	{props "vehicle" "cannon" "cannon_small" "wheeled" "vision_cannon_minimum" "muzzle_small"}
+	{collider "cannon_small"}
+	("armor_light")
+	
+	("wheel" args "wheelright")
+	("wheel" args "wheelleft")
+
+	("crew_wheeled_gun")
+	
+	{boarder
+		{anm "gunner"
+			{forward	{end "pose_m42_gunlayer" 10}}
+		}
+		{anm "commander"
+			{forward	{end "pose_m42_charger" 10}}
+		}
+		{anm "driver1"
+			{forward {end "mgun_browning_driver_r" 10}}
+		}
+		{anm "driver2"
+			{forward {end "mortar_driver_l" 10}}
+		}
+	}
+
+	{extender "inventory"
+		{box
+			{item "bullet37 jap aphe" 60}
+			{item "bullet37 jap fg" 80}
+		}
+	}
+	
+	{Weaponry
+		{place "gun"
+			{weapon "37mm_type11infantry" filling "bullet37 jap fg" 1}
+			{Rotate}
+			("abm_field_gun")
+		}
+	}
+	
+	{mass 93}
+
+	{Extension "37mm_type11.mdl"}
+	
+	(include "/properties/selection/cannon.inc"  scale(0.7))
+	
+	{bone "basis"
+	      {limits}
+	}
+	
+	{extender "cannon"
+		{animation
+			{move "mgun_browning_driver_r" "mortar_driver_l"}
+			{aim "cannon_m42_gunlayer" ""}
+			{fire  "Cannon_gunlayer_fire-alert and pose_m42_gunlayer" "cannon_m42_charger_fire"}
+			{reload  "" "cannon_m42_charger"}
+		}
+		{move {obstacle "close"}}
+		{attack {obstacle "open"}}
+	}
+
+	{Chassis "track"
+		("loco_small")
+	}
+	{texmod "dunkelgelb"}
+	
+}

@@ -31,15 +31,15 @@
 	("us_3x_sight")
 	{extender "inventory"
 		{box
-			{item "bullet37 us ap" 6}
-			{item "bullet37 us fg" 5}
-			;{item "bullet37 apcr" 5}
+			{item "bullet37 us apc" 25}
+			{item "bullet37 us ap" 25}
+			{item "bullet37 us fg" 10}
 		}
 	}
 	{Weaponry
 
 		{place "gun"
-			{weapon "37mm_m3" filling "bullet37 us ap" 1}
+			{weapon "37mm_m3" filling "bullet37 us apc" 1}
 
 			{Rotate}
 			("abm_field_gun")

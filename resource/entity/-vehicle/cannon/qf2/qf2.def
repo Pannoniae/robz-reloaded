@@ -31,7 +31,7 @@
 	("eng_1-9x_sight")
 	{extender "inventory"
 		{box
-			{item "ammo bullet40 eng apcbc" 5}
+			{item "ammo bullet40 eng apcbc" 50}
 			;{item "ammo bullet40 fg" 5}
 			;{item "ammo bullet40 apcr" 5}
 		}

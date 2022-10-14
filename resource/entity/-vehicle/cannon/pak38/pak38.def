@@ -52,7 +52,7 @@
 	("ger_3x8_sight")
 	{extender "inventory"
 		{box
-			{item "bullet50 gerl apc" 5}
+			{item "bullet50 gerl apc" 50}
 			{item "bullet50 gerl fg" 5}
 			{item "bullet50 gerl apcr" 5}
 			{item "bullet50 gerl heat" 5}

@@ -97,9 +97,9 @@
 			}
 			{bone "gun_rot1"
 				{parameters "ID=gun;"}
-				;{animation
-				;	{sequence "break" {file "gun_b.anm"} {speed 0.8}}
-				;}
+				{animation
+					{sequence "break" {file "gun_b.anm"} {speed 0.8}}
+				}
 				{Matrix34
 					-0.00482776	0.999988	0.000351906
 					0.00608238	-0.000322539	0.999981

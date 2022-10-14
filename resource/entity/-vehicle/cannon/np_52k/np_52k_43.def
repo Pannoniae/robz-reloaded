@@ -61,8 +61,8 @@
 	{Extension "52k.mdl"}
 	{extender "inventory"
 		{box
-			{item "bullet85 rus aphe" 2}
-			{item "bullet85 rus aphebc" 3}
+			{item "bullet85 rus aphe" 50}
+			{item "bullet85 rus aphebc" 5}
 			{item "bullet85 rus fg" 5}
 			(mod "mp"
 				{item "sandbag_kit2"}

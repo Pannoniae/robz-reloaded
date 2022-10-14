@@ -84,15 +84,17 @@
 
     {extender "inventory"
         {box
-            {item "ammo bullet85 rus aphe" 23}
-            {item "ammo bullet85 rus fg" 24}
+            {item "ammo bullet85 rus aphebc" 20}
+            {item "ammo bullet85 rus aphe" 8}
+            {item "ammo bullet85 rus fg" 16}
+            {item "ammo bullet85 rus apcr" 6}
         }
     }
     {Weaponry
         ("restore_ik_time")
         {place "gun"
             {RestoreIKAfterAim}
-            {weapon "85mm_d5s" filling "ammo bullet85 rus aphe" 1}
+            {weapon "85mm_d5s" filling "ammo bullet85 rus aphebc" 1}
             ("abm_medium")
         }
 ;       {place "mgun"

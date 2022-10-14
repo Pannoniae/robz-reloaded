@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/type_98_ke_ni/type_98_ke_ni_body_am"}
+	{bump "$/model/type_98_ke_ni/type_98_ke_ni_body_nm"}
+	{specular "$/model/type_98_ke_ni/type_98_ke_ni_body_gmm"}
+	{color "229 229 229 25"}
+	{blend none}
+}

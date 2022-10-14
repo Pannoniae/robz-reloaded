@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "m3stuart_turret"}
+	{blend none}
+}

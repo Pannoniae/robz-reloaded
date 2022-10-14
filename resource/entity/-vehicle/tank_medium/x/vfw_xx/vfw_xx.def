@@ -1,0 +1,27 @@
+{game_entity
+	{Extension "vfw_xx.mdl"}
+	{Volume "ammotank"
+	}
+	{Volume "body"
+	}
+	{Volume "gun1"
+	}
+	{Volume "gun"
+	}
+	{Volume "inventory"
+	}
+	{Volume "mantlet"
+	}
+	{Volume "shieldl2"
+	}
+	{Volume "shieldr3"
+	}
+	{Volume "shieldr4"
+	}
+	{Volume "trackl"
+	}
+	{Volume "trackr"
+	}
+	{Volume "turret"
+	}
+}

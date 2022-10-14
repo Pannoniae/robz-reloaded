@@ -1,11 +1,13 @@
 {game_entity
 	(include "/properties/armoredcar.ext")
 	(include "/properties/selection/vehicle.inc"  scale(1.0))
-	{props "vehicle" "armored_car" "tank" "turret" "wheeled_8" "explosion_throw_crew" "vision_vehicle_medium" "switch_mgun"}
+	{props "vehicle" "armored_car" "tank" "turret" "wheeled" "explosion_throw_crew" "vision_vehicle_medium" "switch_mgun"}
 
 	{extender "enumerator"
 		{digit_folder "ger"}
 	}
+	(include "/properties/resupply_generic.inc")
+	("halftrack_ammo_ger_inf")
 	{extension "crew.ext"}
 
 	{extender "shield"

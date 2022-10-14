@@ -1,0 +1,23 @@
+{game_Entity
+	{Extension "type_95_so_ki_xx.mdl"}
+	{Volume "body2"
+	}
+	{Volume "body3"
+	}
+	{Volume "body"
+	}
+	{Volume "crew"
+	}
+	{Volume "engine"
+	}
+	{Volume "inventory"
+	}
+	{Volume "mantlet"
+	}
+	{Volume "trackleft"
+	}
+	{Volume "trackright"
+	}
+	{Volume "turret"
+	}
+}

@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/model/ke_ho/ke_ho_body01_xx"}
+	{bump "$/model/ke_ho/ke_ho_body01_nm"}
+	{blend none}
+}

@@ -1,0 +1,27 @@
+{game_entity
+	{Extension "m4a2_robztest_xx.mdl"}
+	{Volume "body"
+	}
+	{Volume "gun"
+	}
+	{Volume "inventory"
+	}
+	{Volume "shieldl2"
+	}
+	{Volume "shieldr2"
+	}
+	{Volume "shieldr3"
+	}
+	{Volume "shieldr4"
+	}
+	{Volume "shieldr5"
+	}
+	{Volume "shieldr6"
+	}
+	{Volume "trackl"
+	}
+	{Volume "trackr"
+	}
+	{Volume "turret"
+	}
+}

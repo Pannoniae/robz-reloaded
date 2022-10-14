@@ -37,8 +37,9 @@
 	{extender "inventory"
 		{box
 			{size 6 7}
-			{item "bullet37 us ap" 70}
-			{item "bullet37 us fg" 32}
+			{item "bullet37 us ap" 48}
+			{item "bullet37 us apc" 22}
+			{item "bullet37 us fg" 36}
 			{item "ammo springfield_belt" 3000}
 			{item "grenade mk1" 6}
 			{item "ammo thompson_m1a1_mag" 450}

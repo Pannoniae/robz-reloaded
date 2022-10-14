@@ -1,0 +1,15 @@
+{game_entity
+	{Extension "lvt(a)-2_xx.mdl"}
+	{Volume "body"
+	}
+	{Volume "engine"
+	}
+	{Volume "part1"
+	}
+	{Volume "part2"
+	}
+	{Volume "part3"
+	}
+}
+
+

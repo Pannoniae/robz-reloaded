@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "sherman_wheels_new_c"}
+	{blend none}
+}

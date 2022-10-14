@@ -71,8 +71,8 @@
 
 	{extender "inventory"
 		{box
-			{item "bullet40 us zenite ap" 80}
-			{item "bullet40 us zenite fg" 80}
+			{item "bullet40 us zenite ap" 600}
+			{item "bullet40 us zenite fg" 200}
 		}
 	}
 	{Weaponry

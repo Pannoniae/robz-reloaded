@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/model/type_4_chi_to_late/type_4_chi_to_late_tx_am"}
+	{bump "$/model/type_4_chi_to_late/type_4_chi_to_late_tx_nm"}
+	{blend blend}
+}

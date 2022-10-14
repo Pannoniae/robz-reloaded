@@ -37,7 +37,7 @@
 	("ger_3x8_sight")
 	{extender "inventory"
 		{box
-			{item "bullet37 ger zenite aphe" 200}
+			{item "bullet37 ger zenite aphe" 600}
 			{item "bullet37 ger zenite fg" 200}
 		}
 	}

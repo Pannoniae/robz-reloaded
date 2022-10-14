@@ -31,11 +31,11 @@
 		{component "mantlet"}
 	}
 	
-	("armor_spa_heavy" armor(125 55 35 20) armor2(125 55 35 20) armor3(125 55 35 20) armor4(125 55 35 20))
-	("armor_engine"  t(40 55 35 20))
-	("armor_mantlet" t(250))
+	("armor_spa_heavy" armor(75 35 25 20) armor2(75 35 25 20) armor3(75 35 25 20) armor4(75 35 25 20))
+	("armor_engine"  t(40 100 40 25))
+	("armor_mantlet" t(125))
 	
-	("crew_4_human")
+	("crew_6_human")
 
 	("crew_4_human")
 	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor1))
@@ -65,8 +65,8 @@
 
 	{extender "inventory"
 		{box
-			{item "ammo bullet105 japl aphe" 25}
-			{item "ammo bullet105 japl fg" 27}
+			{item "ammo bullet105 japl aphe" 27}
+			{item "ammo bullet105 japl fg" 25}
 			{item "ammo bullet37 jap aphe" 30}
 			{item "ammo bullet37 jap fg" 30}
 			{item "ammo type97_mag" 3500}
@@ -76,7 +76,7 @@
 		("restore_ik_time")
 		{place "gun"
 			{RestoreIKAfterAim}
-			{weapon "105mm_type6" filling "ammo bullet105 japl aphe" 1}
+			{weapon "105mm_type5" filling "ammo bullet105 japl aphe" 1}
 			("abm_medium")
 		}
 		{place "gun2"
@@ -97,20 +97,20 @@
 		}
 	}
 	
-	{mass 71700}
+	{mass 42700}
 	{Chassis
 		("tank_trace" fx("tracks_mid") step(0.52) len(0.15))
 		{Locomotion ("locomotion")
-			{maxspeed   26}
+			{maxspeed   32}
 			{maxSpeedAtMaxTurn 2.5}
-			{StartTime   50}
+			{StartTime   60}
 			{BrakeTime  2.5}		
 			{StopTime   3.5}			
 			{TurnStart  2.5}
-			{TurnTime    30}		
+			{TurnTime    28}		
 			{TurnStop     1}
 			{TurnRadius   14}
-			{Gears     0.1 0.2 0.3 1.0}
+			{Gears     0.1 0.2 0.4 1.0}
 			{RearGears 0.1 0.2}
 		}
 		{FuelBag

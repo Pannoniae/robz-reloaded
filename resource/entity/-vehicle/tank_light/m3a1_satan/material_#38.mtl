@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "t_stuart_hullturret_d"}
+	{blend none}
+}

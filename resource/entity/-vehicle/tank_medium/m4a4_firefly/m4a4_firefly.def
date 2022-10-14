@@ -81,6 +81,8 @@
 			{item "ammo bullet76 eng apcbc" 45}
 			{item "ammo bullet76 eng fg" 32}
 			{item "ammo bullet76 eng apds" 4}
+			{item "browning" filling "ammo hmgun ap" 100 {user "mgun"}}
+			{item "ammo hmgun ap" 600}
 			{item "ammo springfield_belt" 2500}
 		}
 	}
@@ -90,6 +92,14 @@
 			{RestoreIKAfterAim}
 			{weapon "76mm_mk4" filling "ammo bullet76 eng apcbc" 1}
 			("abm_high")
+		}
+		{place "mgun"
+			{type "mgun_aa"}
+			{gunner "gunner2"}
+			{charger "gunner2"}
+			{LinkBone "mgun_rot"}
+			{LinkAnimation "off"}
+			("abm_mgun_heavy")
 		}
 		{place "mgun2"
 			{type "mgun_coaxial"}

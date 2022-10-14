@@ -1,0 +1,21 @@
+{game_entity
+	{Extension "lvt(a)-4_xx.mdl"}
+	{Volume "body"
+	}
+	{Volume "turret"
+	}
+	{Volume "mantled"
+	}
+	{Volume "gun"
+	}
+	{Volume "engine"
+	}
+	{Volume "part1"
+	}
+	{Volume "part2"
+	}
+	{Volume "part3"
+	}
+}
+
+

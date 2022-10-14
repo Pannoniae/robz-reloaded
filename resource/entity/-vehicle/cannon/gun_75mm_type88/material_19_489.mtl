@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/model/gun_75mm_type88/gun_75mm_type88_rifled_barrel_c_c"}
+	{specular "$/model/gun_75mm_type88/gun_75mm_type88_rifled_barrel_c_n_s"}
+	{color "64 64 64 122"}
+	{blend none}
+}

@@ -50,7 +50,7 @@
 	}
 	{extender "inventory"
 		{box
-			{item "ammo lm_ammo" 32}
+			{item "ammo lm_ammo" 50}
 			{item "sandbag_kit2"}
 		}
 	}

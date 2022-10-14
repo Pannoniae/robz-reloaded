@@ -1,0 +1,139 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	{props "medium" "turret_rotator" "vision_vehicle_high" "muzzle_medium" "mod_trench_tank_veh"}
+	{tag "type1s"}
+
+	{extender "enumerator"}
+
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+	}
+	{Volume "turret1"
+		{component "turret"}
+		{tags "turret"}
+	}
+	("armor_medium" turret(75 50 50 20) body(50 25 20 12))
+	("armor_engine"  t(10 25 20 12))
+	("armor_mantlet" t(100))
+
+	("crew_4_human")
+	("gunner_visible")
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_pz4_driver"} {end "seat_gunner_stand"} {base "open_driver"}}
+			{reverse 	{end	"board_pz4_driver" -1} {base "open_driver" -1}}
+		}
+		{anm "left"
+			{forward	{begin	"board_tank_right"} {end "seat_gunner_stand"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_left"} {end "seat_gunner_stand"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+		{anm "armor"
+			{forward	{begin	"board_highArmor"} 	{end "pose_seat_armor_1"}}
+			{reverse 	{end	"emit_tank_2"}}
+		}
+		{anm "armor1"
+			{forward	{begin	"board_lowArmor"} {end "pose_seat_armor_2"}}
+			{reverse 	{end	"emit_body"}}
+		}
+		{anm "armor2"
+			{forward	{begin	"board_lowArmor"} {end "pose_seat_armor_1"}}
+			{reverse 	{end	"emit_body"}}
+		}
+	}
+
+	{sensor
+		{visor "driver"
+			{vision "tank_driver"}
+			{bone "visor1"}
+		}
+		{visor "main"
+			{vision "tank_main-m"}
+			{bone "visor2"}
+		}
+	}
+                          
+	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor1))
+	("seat_human" place(seat2) bone(seat02) door(emit4)  animation(armor))
+	("seat_human" place(seat3) bone(seat03) door(emit6)  animation(armor2))
+	("seat_human" place(seat4) bone(seat04) door(emit6)  animation(armor1))
+
+	{extender "inventory"
+		{box
+			{item "ammo bullet75 japl aphe" 40}
+			{item "ammo bullet75 japl fg" 32}
+			{item "type99_mg" filled {user "mgun"}}
+			{item "ammo type99_mag" 600}
+			{item "ammo type97_mag" 800}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "75mm_type5" filling "ammo bullet75 japl aphe" 1}
+			("abm_high")
+		}
+		{place "mgun"
+			{type "mgun_aa"}
+			{gunner "gunner2"}
+			{charger "gunner2"}
+			{LinkBone "mgun_rot"}
+			{LinkAnimation "off"}
+			("abm_mgun")
+			{basic}
+		}
+		{place "mgun1"
+			{type "mgun_hull"}
+			{weapon "type97_mg" filled}
+			{foresight "foresight4"}
+			{gunner "driver"}
+			{charger "driver"}
+			("abm_mgun")
+		}
+	}
+	
+	{mass 25000}
+	{Chassis
+		("tank_trace" fx("tracks_mid") step(0.52) len(0.3))
+	        {Locomotion ("locomotion")
+			{MaxSpeed	34}
+			{maxSpeedAtMaxTurn 6}
+			{StartTime	 30}
+			{TurnTime	16}
+			{TurnStart  1.5}
+			{BrakeTime  1.5}
+			{StopTime   2.5}
+			{TurnRadius 9} 
+			{TurnStop   0.7} 
+			{Gears      0.1 0.2 0.3 1.0}
+			{RearGears  0.25}
+		}
+		{FuelBag
+			{volume 470 }	
+			{rate	25 }   
+			{remain 470 }
+			{fuel "fuel"}
+		}
+		{speed
+        	{Normal  10}
+        	{Slow  16}
+    	}
+	}
+
+	{Extension "Chi-nu2.mdl"}
+	{bone "turret_mgun"
+		{limits -30 30}
+		{speed 0.03}
+		{terminator}
+	}
+}

@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/model/type_98_ke_ni/type_98_ke_ni_d_am"}
+	{specular "$/model/type_98_ke_ni/type_98_ke_ni_d_gmm"}
+	{color "229 229 229 25"}
+	{blend none}
+}

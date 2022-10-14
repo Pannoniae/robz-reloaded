@@ -1,0 +1,6 @@
+{material envmap
+	{diffuse "$/model/type_2_ka_mi/type_2_ka_mi_d_am"}
+	{mask "$/model/type_2_ka_mi/type_2_ka_mi_d_gmm"}
+	{envmap "$/environment/envmap_gold01"}
+	{blend none}
+}

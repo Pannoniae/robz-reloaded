@@ -1,0 +1,6 @@
+{material envmap
+	{diffuse "$/model/type_4_chi_to_late/type_4_chi_to_late_d_am"}
+	{mask "$/model/type_4_chi_to_late/type_4_chi_to_late_d_gmm"}
+	{envmap "$/environment/envmap_gold01"}
+	{blend none}
+}

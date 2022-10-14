@@ -123,7 +123,7 @@
 	{Weaponry
 		{place "flamer1"
 			{type "mgun_hull"}
-			{weapon "flamer_t_uk" filled}
+			{weapon "flamer_t_uk_uc" filled}
 			{LinkBone "mgun"}
 			{LinkAnimation "off"}
 			{foresight "foresight4"}

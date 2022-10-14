@@ -1,6 +1,6 @@
 {game_entity
 	(include "/properties/cannon.ext")
-	{props "vehicle" "cannon" "wheeled" "vision_cannon_medium_vet" "muzzle_small" "medium_weapons"}
+	{props "vehicle" "cannon" "wheeled" "vision_cannon_medium" "muzzle_small" "medium_weapons"}
 	
 	("armor_medium")
 	
@@ -52,7 +52,7 @@
 	("ger_3x8_sight")
 	{extender "inventory"
 		{box
-			{item "bullet50 gerl apc" 5}
+			{item "bullet50 gerl apc" 50}
 			{item "bullet50 gerl fg" 5}
 			{item "bullet50 gerl apcr" 5}
 			{item "bullet50 gerl heat" 5}
@@ -61,9 +61,10 @@
 	{Weaponry
 
 		{place "gun"
-			{weapon "50mm_pak38_vet" filling "bullet50 gerl apc" 1}
+			{weapon "50mm_pak38" filling "bullet50 gerl apc" 1}
+
 			{Rotate}
-			("abm_field_gun_veteran")
+			("abm_field_gun")
 		}
 	}
 	{mass 1500}
@@ -85,13 +86,13 @@
 
 	{Chassis "track"
 		("car_trace" fx("tracewheel05") step(0.07) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
-		("loco_medium_vet")
+		("loco_medium")
 	}
 	{bone "turret"
 		{limits -32 32}
-		{speed 0.0018}
+		{speed 0.0015}
 	}
 	{bone "gun_rot"
-		{speed 0.0013}
+		{speed 0.001}
 	}
 }

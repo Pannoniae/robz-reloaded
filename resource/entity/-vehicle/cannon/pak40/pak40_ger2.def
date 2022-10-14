@@ -1,6 +1,6 @@
 {entity
 	(include "/properties/cannon.ext")
-	{props "vehicle" "cannon" "wheeled" "round_sandbag2" "vision_cannon_high_vet" "muzzle_medium_sides" "big_weapons"}
+	{props "vehicle" "cannon" "wheeled" "round_sandbag2" "vision_cannon_high" "muzzle_medium_sides" "big_weapons"}
 	
 	("armor_medium")
 	
@@ -31,9 +31,9 @@
 	("ger_5x8_sight")
 	{extender "inventory"
 		{box
-			{item "bullet75 gerp apcbc" 5}
+			{item "bullet75 gerp apcbc" 50}
 			{item "bullet75 gerp fg" 5}
-			{item "bullet75 gerp apcr" 4}
+			{item "bullet75 gerp apcr" 5}
 			{item "bullet75 gerp heatb" 5}
 			{item "sandbag_kit2"}
 		}
@@ -41,10 +41,10 @@
 	{Weaponry
 
 		{place "gun"
-			{weapon "75mm_pak40_vet" filling "bullet75 gerp apcbc" 1}
+			{weapon "75mm_pak40" filling "bullet75 gerp apcbc" 1}
 			{RestoreIKAfterAim}
 			{Rotate}
-			("abm_field_gun_veteran")
+			("abm_field_gun")
 		}
 	}
 	{mass 1500}
@@ -66,14 +66,14 @@
 
 	{Chassis "track"
 		("car_trace" fx("tracewheel05") step(0.07) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
-		("loco_medium_vet")
+		("loco_medium")
 	}
 	{bone "turret"
 		{limits -32 32}
-		{speed 0.001}
+		{speed 0.0007}
 	}
 	{bone "gun_rot"
-		{speed 0.0008}
+		{speed 0.0005}
 	}
 	{bone "basis"
 	    {limits}

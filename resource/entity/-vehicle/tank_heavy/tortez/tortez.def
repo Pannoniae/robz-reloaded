@@ -1,11 +1,8 @@
 {game_entity
 	(include "/properties/tank.ext")
-	(include "/properties/shadow/tank.inc"  scale(1.2))
-	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	(include "/properties/selection/vehicle.inc"  scale(1.3))
 	{collider "tank.heavy"}
-	{props "heavy" "-turret" "vision_vehicle_maximum" "muzzle_large"}
-	{targetSelector "tank_at"}
-
+	{props "heavy" "-turret" "vision_vehicle_maximum" "muzzle_maximum"}
 
 	{volume "body5"
 		{tags "body"}
@@ -44,17 +41,18 @@
 			{reverse 	{end	"emit_tank_2_hold"}}
 		}
 	}
-	("crew_7_human")
+	("crew_4_human")
+	("crew_human_gunner" place(gunner2) visorbone(mgun_rot))
 
 	{extender "inventory"
 		{weapon "mgun"
 			{mask "weapon mgun"}
 		}
 		{box
-			{item "ammo mgun" 3500}
-			{item "eng_bullet93_qf32 apcbc" 44}
-			{item "eng_bullet93_qf32 apds" 6}
-            		{item "eng_bullet93_qf32 fg" 5}
+            		{item "ammo mg_mauser belt red" 3475}
+			{item "bullet94 eng apcbc" 35}
+			{item "bullet94 eng apds" 4}
+			{item "bullet94 eng fg" 34}
 			{item "besa" filled {user "mgun"}}
 		}
 	}
@@ -62,58 +60,63 @@
 		("restore_ik_time")
 		{place "gun"
 			{RestoreIKAfterAim}
-			{weapon "93mm_vickers" filling "eng_bullet93_qf32 apcbc" 1}
+			{weapon "93mm_vickers" filled}
 			{RestoreIKAfterAim}	
-			("abm_low")
+			("abm_medium")
 		}
 		{place "mgun"
 			{type "mgun_aa"}
-			{weapon "besa_x2" filled}
+			{weapon "besa" filled}
 			{Barrels 2}
-			{gunner "commander"}
-			{charger "commander"}
+			{charger "gunner"}
 			{basic}
 		}
 		{place "mgun1"
 			{type "mgun_hull"}
 			{weapon "besa" filled}
 			{foresight "foresight4"}
-			{gunner "gunner3"}
-			{charger "gunner3"}
+			{gunner "driver"}
+			{charger "driver"}
 		}
 	}
-	{Extension "tortez.mdl"}
 
-	{mass 79500}
+	{mass 75000}
 	{Chassis
-		("tank_trace" fx("tracks_big") step(0.47) len(1.2))
+		("tank_trace" fx("tracks_big") step(0.6) len(0.28))
 		{Locomotion ("locomotion")
-			{MaxSpeed	19}
-			{maxSpeedAtMaxTurn 2}
-			{StartTime	70}
-			{TurnTime	40}
-			{TurnStart  2} 
-    			{BrakeTime  7}
-     			{StopTime   5} 
-    			{TurnRadius 11} 
-    			{TurnStop   1}
-			{Gears 0.1 0.2 0.3 0.5 1}
-    			{RearGears 0.1 0.2}
+			{MaxSpeed	14}
+				(mod "mp"
+					{maxspeed   12}
+				)
+			{maxSpeedAtMaxTurn 5}
+			{StartTime	20}
+			{TurnTime	22}
+			{TurnStart  2.8} 
+    		{BrakeTime  1.5}
+     		{StopTime   2.5} 
+    		{TurnRadius 9} 
+    		{TurnStop   1.5}
+			{Gears      0.5 1.0}
+    		{RearGears  0.8} 
 		}
-		{FuelBag
-			{volume 950 }	;liters
-			{rate	300 }   ;liters/km
-			{remain 920 }
-			{fuel "fuel"}
-		}
-		{speed
-        		{Normal  8}
+		(mod "mp"
+			{FuelBag
+				{volume 950 }	;liters
+				{rate	300 }   ;liters/km
+				{remain 920 }
+				{fuel "fuel"}
+			}
+		    {speed
+        		{Normal  8}  ;km/h
     		}
+		)
 	}
+
+	{Extension "tortez.mdl"}
 
 	{bone "gun_rot1"
 		{limits 10}
-		{speed 0.004}
+		{speed 0.008}
 	}
 	{bone "turret_mgun"
 		{speed 0.045}

@@ -1,0 +1,17 @@
+{game_entity
+	{Extension "vk3001d_robztest_xx.mdl"}
+	{Volume "body"
+	}
+	{Volume "gun"
+	}
+	{Volume "inventory"
+	}
+	{Volume "trackl"
+	}
+	{Volume "trackr"
+	}
+	{Volume "turret1"
+	}
+	{Volume "turret"
+	}
+}

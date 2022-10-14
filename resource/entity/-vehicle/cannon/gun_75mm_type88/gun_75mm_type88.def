@@ -1,0 +1,71 @@
+{game_entity
+	(include "/properties/cannon.ext")
+	("shield" args 8)
+	{targetClass "tank" "ap apcr fg"}
+
+	{props "vehicle" "cannon" "wheeled" "vision_cannon_high" "muzzle_large"}
+
+	{simulation {able 0}}
+	{Extension "gun_75mm_type88.mdl"}
+	{Volume "body"
+		{tags "body"}
+		{component "body"}
+		{thickness 50}
+	}
+	{Volume "turret"
+		{tags "turret"}
+		{component "turret"}
+		{thickness 30}
+	}
+	{volume "mantlet"
+		{tags "turret"}
+		{component "turret"}
+		{thickness 25}
+	}
+	{volume "gun"
+		{tags "gun"}
+		{component "gun"}
+		{thickness 15}
+	}
+
+
+	("crew_2_human")
+	{placer	{place "gunner" {visor "main"} {useVision 0}}}	
+
+	{component "shield_front" {tags "shield"}}	
+
+	{boarder
+		{anm "gunner"
+			{forward	{end "pose_flak38_gunlayer" 10}}
+		}
+		{anm "commander"
+			{forward	{end "pose_flak38_charger_right" 10}}
+		}
+	}
+	{extender "cannon"
+		{animation
+			{aim "cannon_flak38_gunlayer" ""}
+			{fire	"" ""}
+		}
+		{move {workers clear} {obstacle "close"}}
+		{attack {workers "gunner" "commander"} {obstacle "open"}}
+	}
+
+	{extender "inventory"
+		{box
+        		{item "ammo bullet75 japl aphe" 50}
+		{item "ammo bullet75 japl fg" 10}
+		}
+	}
+	{Weaponry
+		{place "gun"
+			{weapon "75mm_type5" filling "ammo bullet75 japl aphe" 1}
+			{StationaryFiring}
+			{gunner "gunner"}
+			{charger "commander"}
+		}
+	}
+	{bone "turret"
+		{speed 0.006}
+	}
+}

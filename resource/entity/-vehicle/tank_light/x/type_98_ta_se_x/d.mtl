@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/model/type_98_ta_se/type_98_ta_se_d_am"}
+	{specular "$/model/type_98_ta_se/type_98_ta_se_d_gmm"}
+	{color "229 229 229 25"}
+	{blend none}
+}

@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/model/type_5_na_to/type_5_na_to_turret_x"}
+	{bump "$/model/type_5_na_to/type_5_na_to_turret_nm"}
+	{blend none}
+}

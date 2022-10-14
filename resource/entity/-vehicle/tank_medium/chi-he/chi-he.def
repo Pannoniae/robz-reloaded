@@ -60,8 +60,9 @@
 			{mask "weapon mgun"}
 		}
 		{box
-			{item "ammo bullet47 jap aphe" 70}
-			{item "ammo bullet47 jap fg" 34}
+			{item "ammo bullet47 jap aphe" 40}
+			{item "ammo bullet47 jap aphebc" 25}
+			{item "ammo bullet47 jap fg" 45}
 			{item "ammo type97_mag" 4000}
 		}
 	}

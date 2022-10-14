@@ -1,11 +1,15 @@
 {game_entity
 	{Extension "raketenwerfer_xx.mdl"}
-	{Volume "body2"
-	}
 	{Volume "body"
 	}
 	{Volume "gun"
 	}
+	{Volume "shield"
+	}
 	{Volume "turret"
+	}
+	{Volume "wheell1"
+	}
+	{Volume "wheelr1"
 	}
 }

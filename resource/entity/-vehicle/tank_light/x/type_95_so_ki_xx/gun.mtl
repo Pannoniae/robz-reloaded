@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/model/type_95_so_ki/type_95_so_ki_gun_x"}
+	{bump "$/model/type_95_so_ki/type_95_so_ki_gun_nm"}
+	{blend none}
+}

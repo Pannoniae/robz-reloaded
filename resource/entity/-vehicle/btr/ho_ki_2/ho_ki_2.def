@@ -1,0 +1,131 @@
+{game_entity
+	(include "/properties/armoredcar.ext")
+	(include "/properties/tank_crew.ext")
+	(include "/properties/selection/vehicle.inc"  scale(1.0))
+	{Extension "type1_ho-ki.mdl"}
+	{extension "crew.ext"}
+	{props "vehicle" "armored_car" "tank" "turret" "wheeled" "explosion_throw_crew" "vision_vehicle_medium"}
+	
+	{volume "body"
+		{tags "body"}
+		{component "body"}
+		{thickness 15}
+	}
+	{volume "engine"
+		{thickness 10}
+	}
+	{volume "shield1"
+		{tags "shield1"}
+		{component "shield1"}
+		{thickness 5}
+	}
+	{volume "shield2"
+		{tags "shield2"}
+		{component "shield2"}
+		{thickness 15}
+	}
+
+	("armor_light" args 1.0)
+
+	("wheel" args "wheelright1")
+	("wheel" args "wheelleft1")
+	("tracks")
+
+	{extender "shield"
+		{on}
+	}
+
+
+	{component "shield1" {tags "shield"}}
+	{component "shield2" {tags "shield"}}
+	{component "shield3" {tags "shield"}}
+	
+
+	{extender "inventory"
+		{weapon "mgun"
+			{mask "weapon mgun"}
+		}
+		{Box	
+			{item "mgun" "ammo" 10000}
+		}
+	}
+
+{Weaponry
+	{place "mgun"
+		{type "mgun"}
+		{LinkBone "mgun_rot"}
+		{LinkAnimation "off"}
+		{charger "gunner"}
+		("abm_mgun_heavy")
+		{basic}
+	}
+	{place "mgun3"
+		{type "mgun_aa"}
+		{weapon "type1hmg" filled}
+		{LinkBone "mgun3"}
+		{gunner "gunner3"}
+		{charger "gunner3"}
+		{foresight "foresight6"}
+		{LinkAnimation "off"}
+		("abm_mgun")
+	}
+	{place "mgun4"
+		{type "mgun_main"}
+		{weapon "type1hmg" filled}
+		{LinkBone "mgun4"}
+		{gunner "gunner4"}
+		{charger "gunner4"}
+		{foresight "foresight7"}
+		{LinkAnimation "off"}
+		("abm_mgun")
+	}
+	{place "mgun5"
+		{type "mgun_right"}
+		{weapon "type1hmg" filled}
+		{LinkBone "mgun5"}
+		{gunner "gunner5"}
+		{charger "gunner5"}
+		{foresight "foresight8"}
+		{LinkAnimation "off"}
+		("abm_mgun")
+	}
+	{place "mgun6"
+		{type "mgun_bleft"}
+		{weapon "type1hmg" filled}
+		{LinkBone "mgun6"}
+		{gunner "gunner6"}
+		{charger "gunner6"}
+		{foresight "foresight9"}
+		{LinkAnimation "off"}
+		("abm_mgun")
+	}
+}
+  	
+	{sensor
+		{visor "main"
+			{bone "mgun"}
+		}
+	}
+
+	{Chassis
+		{Locomotion ("locomotion")
+			{MaxSpeed 35}
+	  		{maxSpeedAtMaxTurn 20}
+		}
+		{FuelBag
+			{volume 230 }	
+			{rate	60 }   
+			{remain 230 }
+			{fuel "fuel"}
+		}
+		{speed
+        	{Normal  15}
+        	{Slow  20}
+    	}
+		; left track must be first
+		("tank_trace" fx("tracks_sm") step(0.3) len(0.4) boneleft("wheell4") boneright("wheelr4"))
+		("car_trace" fx("tracewheel01") step(0.09) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+	}
+	{mass 7000}
+
+}

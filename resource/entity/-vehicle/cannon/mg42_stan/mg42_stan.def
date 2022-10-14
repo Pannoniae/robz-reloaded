@@ -18,7 +18,7 @@
 	}  	
 	{extender "inventory"
 		{box
-			{item "ammo mg_mauser belt" 1000}
+			{item "ammo mg_mauser belt" 2000}
 			{item "sandbag_kit2"}
 		}
 	}
