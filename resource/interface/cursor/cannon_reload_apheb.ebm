@@ -1,0 +1,13 @@
+{bitmap
+	{Axis  16 15 }
+	{cursor 1}
+	{Frame  "cannon_reload_apheb/00.tga" 100}
+	{Frame  "cannon_reload_apheb/01.tga" 100}
+	{Frame  "cannon_reload_apheb/02.tga" 100}
+	{Frame  "cannon_reload_apheb/03.tga" 100}
+	{Frame  "cannon_reload_apheb/04.tga" 100}
+	{Frame  "cannon_reload_apheb/05.tga" 100}
+	{Frame  "cannon_reload_apheb/06.tga" 100}
+	{Frame  "cannon_reload_apheb/07.tga" 100}
+	{Frame  "cannon_reload_apheb/08.tga" 50}
+}
