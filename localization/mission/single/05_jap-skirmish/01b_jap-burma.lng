@@ -29,8 +29,8 @@
 	{"mission_defend_hq" "Defend our field HQ  at all costs!"}
 	{"mission_survive" "Maintain a defensive presence, survive and eliminate the majority of enemy units!"}
 	{"mission_convoy" "Repair  and recover a powerful allied tank disabled during an ambush on an allied convoy!"}
-	{"name" "[Japan] Burma"}
-	{"name_big" "Burma"}
+	{"name" "[Japan] <c(20a601)>Burma<c(204 204 204)>"}
+	{"name_big" "<c(20a601)>Burma<c(204 204 204)>"}
 	{"officer_money" "Good job, you survived another enemy attack wave! HQ grants you additional resources. Use them wisely and prepare for the next enemy attack wave!"}
 	{"officer_finish" "Enemy attack waves are over! To ensure victory eliminate the majority of enemy forces that are still on the battlefield!"}
 	{"officer_start" "Shosa, today we have a huge task ahead of us. Your objective is to defend Burma from a British armored counter offensive!"}

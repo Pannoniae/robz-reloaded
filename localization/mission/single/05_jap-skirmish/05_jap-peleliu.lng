@@ -31,8 +31,8 @@
 	{"mission_convoy_02" "Let the second enemy convoy pass!"}
 	{"mission_convoy_02_destroy" "Destroy the second enemy convoy!"}
 	{"mission_officer" "Assassinate the enemy officer in command!"}
-	{"name" "[Japan] Peleliu"}
-	{"name_big" "Peleliu"}
+	{"name" "[Japan] <c(20a601)>Peleliu<c(204 204 204)>"}
+	{"name_big" "<c(20a601)>Peleliu<c(204 204 204)>"}
 	{"officer_capture1" "Good job, we have captured the strategic position. Let's continue!"}
 	{"officer_capture3" "Very nice! But don't slow down, we have to carry on with our mission and annihilate their defending forces!"}
 	{"officer_capture6" "We are almost there, but stay alert, our observers spotted incoming enemy armor. Ready our anti-tank weapons!"}

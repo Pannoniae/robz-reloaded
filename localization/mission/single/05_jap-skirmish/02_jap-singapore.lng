@@ -105,8 +105,8 @@
 	{"start" "Press \"Continue\" to start the battle!"}
 	{"date" "Japan vs Commonwealth"}
 	{"mission_blockade" "Capture the strategic position at the bridge to gain armored support!"}
-	{"name" "[Japan] Singapore"}
-	{"name_big" "Singapore"}
+	{"name" "[Japan] <c(20a601)>Singapore<c(204 204 204)>"}
+	{"name_big" "<c(20a601)>Singapore<c(204 204 204)>"}
 	{"officer_blockade" "The British forces have set up blockades along the roads, which are preventing our armor from advancing. Capture the strategic position spanning the roads, and secure a clear route of advance for our heavy armor!"}
 	{"officer_start" "Welcome to the Malay Peninsula, Shosa. The time for invasion has come, and the British forces at Singapore shall fall before us. This route of advance must be secured if the invasion is to be successful. We leave this task in your capable hands, Shosa."}
 	{"place" "South-East Asia, Gibraltar of the East"}

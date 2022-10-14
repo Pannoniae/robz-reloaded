@@ -105,8 +105,8 @@
 	{"start" "Press \"Continue\" to start the battle!"}
 	{"date" "15th August 1945"}
 	{"mission_blockade" "Secure the strategic position across the Khalkha river to obtain armored support!"}
-	{"name" "[Japan] Hinggan"}
-	{"name_big" "Hinggan"}
+	{"name" "[Japan] <c(20a601)>Hinggan<c(204 204 204)>"}
+	{"name_big" "<c(20a601)>Hinggan<c(204 204 204)>"}
 	{"officer_blockade" "The Soviets are holding the far bank of the river. We must push forward and capture that strategic point, so that our armor may follow!"}
 	{"officer_start" "Welcome to Mongolia, Shosa. While I am sure you've heard of the recent border disputes, the time for talk is at an end. The Soviets must be driven out of our territory once and for all. We are counting on you, Shosa!"}
 	{"place" "Hinggan, Near Khalkin Gol "}

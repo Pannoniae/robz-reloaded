@@ -41,8 +41,8 @@
 	{"mission_option_select2" "Choose your type of soldiers!"}
 	{"mission_option3" "Snipers"}
 	{"mission_option4" "Assault infantry"}
-	{"name" "[Japan] New Guinea"}
-	{"name_big" "New Guinea"}
+	{"name" "[Japan] <c(20a601)>New Guinea<c(204 204 204)>"}
+	{"name_big" "<c(20a601)>New Guinea<c(204 204 204)>"}
 	{"officer_convoy_01" "An enemy convoy with a high ranked officer is arriving soon. Our orders are to assasinate him. Set up an ambush of your choice!"}
 	{"officer_convoy_01_destroy" "Great job! You have successfully eliminated the enemy high ranked officer! The battalion is granting you additional resources!"}
 	{"officer_enemy_officer_comp" "Excellent strike on our enemies morale and command structures! Brigade headquarters grants you additional resources!"}

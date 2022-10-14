@@ -32,8 +32,8 @@
 	{"mission_defend_north" "Defend the Northern strategic position."}
 	{"mission_defend_west" "Defend the Western strategic position."}
 	{"mission_prepare_player" "Prepare to repel the major enemy assault!"}
-	{"name" "[Japan] Okinawa"}
-	{"name_big" "Okinawa"}
+	{"name" "[Japan] <c(20a601)>Okinawa<c(204 204 204)>"}
+	{"name_big" "<c(20a601)>Okinawa<c(204 204 204)>"}
 	{"officer_10min" "We are holding out! Continue and our reinforcements will arrive soon!"}
 	{"officer_20min" "Reports indicate our reinforcements are on the way. Keep it up, we have to defend our position at all costs!"}
 	{"officer_25min" "Our reinforcements are almost here. Don’t give up! We must smash our enemies... for the Emperor!"}

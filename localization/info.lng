@@ -4,13 +4,17 @@
 
 		;ger-----------------
         
+		{"aufklarer(ger)" "A team of four recon troops in an unarmed Kubel VW82 car, armed with 2 MP40 submachineguns and 2 G43 semi-automatic rifles. Use these troops to quickly recce a portion of the battlefield or to hold points until reinforcements arrive."}
+		{"landesschutzen(ger)" "Landesschützen were soldiers from the 30 to 45 age group who were too old or unfit for front line service. These troops were not offensive troops with their role is to provide internal security. This squad comes with 16 soldiers, with only 1 MG. They are primarily suited for defending an entrenched location."}
+		{"ita_frei(ger)" "The Bersaglieri were a veteran Italian force of marksmen. This high-tier squad of 9 Italian volunteers consists of veteran riflemen and an MG34 team, and are great for defending a flank or other position."}
+
         {"home_guards(ger)" "The Volkssturm squad is a 10-man squad with poorly trained troops. This squad is armed with 8 K98 rifles, 2 MP3008 SMGs and 2 Panzerfaust 30 AT weapons. All squadmembers are skill 1. Fit for cheap infantry with AT."}
 
 		{"volksgrens(ger)" "The Volksgrenadier squad is a low tier riflesquad with 1 MG42, 5 rifles and 2 MP40s. The squad has 8 men total. Includes 2 Panzerfausts. Soldiers are skill 2 except SL and SL asst. which are skill 3"}
 		{"volksgrens_sturm(ger)" "The Volksgrenadier sturm squad is a low tier assault squad with 6 STG44s, 1 G43 and 2 MP40s. The squad has 9 men total. Includes 2 Panzerfausts. Soldiers are skill 2 except SL and SL asst. which are skill 3"}
 		{"volksgrens_heavy(ger)" "The Volksgrenadier heavy sturm squad is a low tier infantry squad with 2 MG42s, 4 STG44s, 1 G43 and 2 MP40s. The squad has 9 men total. Includes 2 Panzerfausts. Soldiers are skill 2 except SL and SL asst. which are skill 3"}
 		{"sturmgrens_44(ger)" "The Sturmgrenadier squad is a regular trained assault squad with 8 STG44 assault rifles. Soldiers are skill 4"}
-		{"sturmgrens_44_mech(ger)" "The Sturmgrenadier squad is a regular trained assault squad with 8 STG44 assault rifles which arrive in a SdKfz 251/1 half-track. Includes 3 Panzerfausts. Soldiers are skill 4."}
+		{"sturmgrens_44_mech(ger)" "A mechanized version of the Sturmgrenadier assault squad. 8 sturmgrenadiers deploy from a SdKfz 251/1 halftrack which contains an MG42 and MG34 in addition to extra infantry supplies."}
 
 		{"grenadiers_40(ger)" "The Grenadier squad is a regular trained infantry squad with 1 MG34, 8 k98 rifles and 1 MP40. The squad has 10 men total. Soldiers are skill 4"}
 		{"grenadiers_42(ger)" "The Grenadier squad is a regular trained infantry squad with 1 MG42, 8 k98 rifles and 1 MP40. The squad has 10 men total. Soldiers are skill 4"}
@@ -34,7 +38,7 @@
 		{"stormtroopers_43(ger)" "The Panzergrenadier squad is a higher than regular trained infantry squad with 2 MG42s, 4 k98 rifles, 3 G43s and 1 MP40. The squad has 10 men total. Soldiers are skill 5"}
 		{"stormtroopers_44(ger)" "The Panzergrenadier squad is a higher than regular trained infantry squad with 2 MG42s, 3 k98 rifles, 2 G43s and 2 STG44s. The squad has 9 men total. Includes 2 Panzerfausts. Soldiers are skill 5"}
         
-        {"pzgren_mech(ger)" "The Panzergrenadier squad is a higher than regular trained infantry squad with 2 MG42s, 4 k98 rifles, 2 G43s and 2 STG44s which arrive in a SdKfz 251/1 half-track. The squad has 10 men total. Includes 2 Panzerfausts. Soldiers are skill 5"}
+		{"pzgren_mech(ger)" "A mechanized version of the Panzergrenadier squad. 7 panzergrenadiers deploy from a SdKfz 251/1 halftrack which contains an MG42 and MG34 in addition to extra infantry supplies."}
 
 		{"grenadiers_elite_43(ger)" "The Elite Panzergrenadier 'Grossdeutschland' squad is a battle hardened elite squad with 2 MG42s, 4 k98 rifles, 2 G43s, 1 G43 sniper rifle and 1 MP40. The squad has 10 men total. Soldiers are skill 6"}
 		{"grenadiers_elite(ger)" "The Elite Panzergrenadier 'Grossdeutschland' squad is a battle hardened elite squad with 2 MG42s, 2 k98 rifles, 1 G43, 1 G43 sniper rifle and 3 STG44s. The squad has 9 men total. Includes 3 Panzerfausts. Soldiers are skill 6"}
@@ -129,7 +133,9 @@
 		{"lssah_pzgrens_43(ger_ss)" "The Elite SS Panzergrenadier 'LSSAH' squad is a battle hardened and elite infantry squad with 2 MG42s, 4 k98 rifles, 1 g43 sniper rifle, 2 G43s, 1 Panzerschreck and 1 MP40. The squad has 11 men total. Soldiers are skill 7"}
 		{"lssah_pzgrens_44(ger_ss)" "The Elite SS Panzergrenadier 'LSSAH' squad is a battle hardened and elite infantry squad with 2 MG42s, 3 k98 rifles, 1 g43 sniper rifle, 2 G43s, 1 Panzerschreck and 2 STG44s. The squad has 11 men total. Includes 3 Panzerfausts. Soldiers are skill 7"}
 
-		{"elites_44(ger_ss)" "The SS Fallschirmjager squad is a elite trained squad with 2 MG42s, 3 k98 rifles, 1 STG44, 1 k98 sniper rifle, 2 FG42s and 1 MP40. The squad has 10 men total. Includes 2 Panzerfausts. Soldiers are skill 7"}        
+		{"elites_44(ger_ss)" "The SS Fallschirmjager squad is a elite trained squad with 2 MG42s, 3 k98 rifles, 1 STG44, 1 k98 sniper rifle, 2 FG42s and 1 MP40. The squad has 10 men total. Includes 2 Panzerfausts. Soldiers are skill 7"}
+
+
         ;ger2
         {"heronew1_ger2" "The Panzerfaust Squad is equipped with a disposable preloaded tube capable of firing an anti-tank warhead. In the hands of our veterans, these recoilless weapons are highly effective against all types of armored vehicles and will stop our enemies dead in their tracks!"}
 		{"heronew2_ger2" "The Marder III Ausf. H is a self-propelled anti-tank vehicle equipped with the 75mm PaK 40. Based on the Panzer 38(t) Ausf. H. chassis, these powerful tank destroyers are well armed, but thinly armored. A perfect tool to lure our enemies into an ambush worth our fatherland!"}
@@ -168,6 +174,37 @@
         {"flamers(ger2)" "This team of specialists comes equipped with a flamethrower which strikes terror into the hearts of the enemy. It is one of the deadliest weapons in close range combat, capable of igniting buildings and setting cover ablaze -- invaluable when seeking to ferret out the enemy. However, the fuel canister each troop carries  on his back is highly volatile and could lead to sudden and certain death if hit by enemy fire. Use these specialists wisely, as you only have few available for each battle."}
         {"elites(ger2)" "The Jäger infantry is an elite force of the German army. You will find them equipped with the new G41's, G43 scope and MG34 machine gun for support fire. Their auto rifle capacity and strong machine gun makes them a perfect match to allied elite infantry, especially U.S. We even took care of the little details and added their badge to their hats to identify them."}
         {"bazookers(ger2)" "This team of anti-tank rocket-launcher infantrymen is armed with a Panzerschreck and they are trained to destroy tanks in close combat using armor-piercing rockets. They are capable of destroying even the heaviest armored vehicles -- provided they can find a weakness to exploit. Beware of the armored skirts on some vehicles, as they greatly reduce the effectiveness of these shaped-charge rounds."}   
+        
+        {"aufklarer(ger2)" "A team of four recon troops in an unarmed Kubel VW82 car, armed with 2 PPS submachineguns and 2 SVT semi-automatic rifles. Use these troops to quickly recce a portion of the battlefield or to hold points until reinforcements arrive."}
+		{"osttruppen(ger2)" "You can count on Osttruppen! No, really, you can! A large squad of 17 low-skilled Soviet-born conscripts from the Eastern Front. Coming with one MG-34 and a whole bunch of Karabiner 98k rifles, PPSh submachineguns, and MP40 submachine guns, these troops are best used disposably in assaulting points or defending the rear."}
+		{"home_guards(ger2)" "Hungarian units during Operation Bagration played a big part in the defense against the might of the Red Army, fighting alongside the Germans in their struggles against the Soviet behemoth. This reserve squad is suited for emergency defense or cheap attacks as a result of lacking an MG component."}
+		{"home_guards2(ger2)" "Hungarian units during Operation Bagration played a big part in the defense against the might of the Red Army, fighting alongside the Germans in their struggles against the Soviet behemoth. This rifle squad includes an MG13 team and can be used as a reliable defense."}
+		{"smgs(ger2)" "The main purpose of the German Jaeger Divisions was to fight in adverse terrain where smaller, coordinated units were more facilely combat capable than the brute force offered by the standard infantry divisions. The Jaegers (means hunters in German) relied on a high degree of training, and slightly superior communications. They were among the prioritized to get new weapons such as the StG44 and G43. This sturmjaeger squad is armed with StG44s, and are primed for assaulting positions."}
+		{"riflemans(ger2)" "The main purpose of the German Jaeger Divisions was to fight in adverse terrain where smaller, coordinated units were more facilely combat capable than the brute force offered by the standard infantry divisions. The Jaegers (means hunters in German) relied on a high degree of training, and slightly superior communications. They were among the prioritized to get new weapons such as the StG44 and G43. This jaeger squad includes an MG42 team and are poised for both offense and defense."}
+		{"elites(ger2)" "The main purpose of the German Jaeger Divisions was to fight in adverse terrain where smaller, coordinated units were more facilely combat capable than the brute force offered by the standard infantry divisions. The Jaegers (means hunters in German) relied on a high degree of training, and slightly superior communications. They were among the prioritized to get new weapons such as the StG44 and G43. This elite jaeger squad includes two MG42 teams and excels at locking down positions."}
+		{"stormtroopers(ger2)" "The main purpose of the German Jaeger Divisions was to fight in adverse terrain where smaller, coordinated units were more facilely combat capable than the brute force offered by the standard infantry divisions. The Jaegers (means hunters in German) relied on a high degree of training, and slightly superior communications. They were among the prioritized to get new weapons such as the StG44 and G43. This elite jaeger squad includes an MG42 team, a sniper, and a rifle-grenadier, allowing for wide scale operation adaptability."}
+		{"elites_para(ger2)" "Battle-scarred Fallschirmjaegers who had undergone many battles and survived since the Battle of Crete, they were among the best men the Fatherland can offer. Includes a sniper, two MG42 teams, 2 FG42s, and 3 rifle-grenadiers."}
+		{"storm_mech_ost" "A mechanized squad consisting of four jaegers armed with 2 MAB 38 submachine guns, a scoped StG44, and a G43, alongside a SdKfz 250/1 halftrack armed with one MG42. These troops are dedicated towards rapid deployment and securement of a target, or to quickly break through a weak point in the enemy line."}
+		{"ap_miners(ger2)" "This team of specialists arrives with a full complement of anti-personnel mines which can be placed to provide the perfect defense against advancing infantry. Deploy them along likely routes of enemy advance or use them to secure a vulnerable flank from enemy attack."}
+		{"at_miners(ger2)" "This team of specialists arrives with a full complement of anti-tank mines which can be deployed to thwart advances made by enemy vehicles. Place them along roads or other likely routes of enemy advance. In some cases, a mine might only disable a vehicle, so be prepared to finish off any enemy vehicles which get disabled by your mines."}
+		{"sappers(ger)" "This team of specialists is equipped with mine detectors and is trained in mine disposal. They are the most effective way of clearing enemy minefields. Once mines have been detected, they can be re-deployed for use against their former owners. However, these soldiers are vulnerable whilst searching for mines, so take measures to protect them."}
+		{"sturmpio(ger2)" "A squad of 8 assault sturmpioneers meant to assault heavily fortified positions with flames and satchel charges. Comes with 1 flamethrower, a minesweeper with a PPSh, and six sturmpioneers armed with StG44s."}
+		
+		{"officers(ger2)" "This experienced field officer is capable of supporting your troops by spotting enemy units from afar with his binoculars. Use his skill in locating enemy units through the fog of war, so that your other units can engage or avoid them as necessary. The officer also reduces your current CP by 17 which allows you to field a bigger army, and comes with two jaegers armed with StG44s as his personal bodyguards when surveying the front."}
+		
+		{"hero1_ost" "This veteran field officer is capable of supporting your troops by spotting enemy units from afar with his binoculars. Use his skill in locating enemy units through the fog of war, so that your other units can engage or avoid them as necessary. The officer also reduces your current CP by 22 which allows you to field a bigger army, and comes with four jaegers armed with StG44s as his personal bodyguards when surveying the front."}
+		{"hero2_ost" "An elite squad of tank hunters. Comes with two panzershreck operators and two panzershreck assistants, and works best when in concealment when an enemy tank comes too close."}
+		{"hero3_ost" "The SdKfz/234 3 is an armored vehicle armed with the 75mm K 51 L/24 support gun. Armed with both HE and HEAT rounds, this vehicle works best at both supporting infantry advances and destroying light emplacements and fortifications."}
+		{"hero4_ost" "A very large squad of 22 penal units armed with nothing but grenades, Karabiner 98ks, and MP40s, with some panzerfausts throughout. These troops are almost always meant to die, assaulting high-risk positions under the cover of more elite units."}
+		{"hero5_ost" "A mechanized squad consisting of a halftrack armed with a deadly 2.8cm SPzB 41 squeeze-bore gun and four jaegers that includes an MG42. These shock troops are dedicated to assaulting a position and neutralizing light vehicles along the way."}
+		{"hero6_ost" "The SdKfz 234/4 is an armored car equipped with the 7.5cm PaK 40 anti-tank cannon in addition to an auxiliary MG-34. Use this special vehicle to ambush valuable enemy assets before retreating to a new position."}
+		{"hero7_ost" "The radio operator is a valuable asset, allowing for the use of off-screen mortars to suppress a targeted area using his signal gun. He comes with six deployable flares in addition to an escort of two jaegers armed with MP40s."}
+		{"hero8_ost" "This captured T-34-85 has been requisitioned by German forces for redeployment on the Eastern Front. Crewed by veteran tankmen, it also includes a complement of four jaegers as infantry support."}
+		{"hero_ost_stug" "This StuG III Ausf. G is crewed by elite tankmen; thanks to their veterancy, such a vehicle is perfect for quickly and effectively ambushing enemy vehicles from a longer range than what most normal StuG IIIs normally engage at."}
+		{"hero10_ost" "The SdKfz 8 Flak 37 carries the mighty 8.8cm FlaK 37, well equipped to destroy all but the heaviest of enemy vehicles."}
+		{"hero9_ost" "The Schweres Wurfgerat 41 is a multiple rocket launcher that sends six devastating 28/32 cm high explosive or incendiary rockets at the enemy. It is a great weapon to harm both vehicles and fortifications, but must be kept guarded due to being deployed by infantry."}
+		{"hero11_ost" "The Sturmpanzer IV is a heavy self-propelled gun armed with the 15cm StuH 43 L/12 cannon and staffed with an elite tank crew. With its high explosive shells, the Brummbar will be able to wreak havoc on the most fortified of positions and many heavy vehicles."}
+		
         
         ;hun------------
         {"tankman(hun)" "The effectiveness of a tank depends, first of all, on a crew's cohesion and its ability to act consistently in any situation. The most powerful and dangerous vehicle will become a pile of scrap metal if there's no crew to control it. When training a tank crew, interchangeability of all members is the key, because the tank must remain combat-ready, even if only one crew member survives. \n Although Hungarian tank crews are armed with government-issue weapons, they have no combat training and hence are extremely vulnerable."}
@@ -249,9 +286,96 @@
         
         {"hero_usa_rifles" "A glorified rifle squad. Field testing has shown no significant difference compared to the normal Rifle Squad."}
         
+        {"ammo_dude(usa)" "This boi carries a C H O N K Y amount of ammo for all the other bois other than his own chad M1 rifle. Whoever wrote this description must have been high on acid or something..."}
+		{"elites_82nd(usa)" "The 82nd Airborne Division was headquartered in Fort Bragg, where it became home to U.S. Army special operations units such as the Army Special Forces (Green Berets and SFOD-D (Delta Force) during the Cold War until present. The 82nd first saw their debut during the invasion of Sicily, being among the first American troops to land in Italy as they fought their way until the heart of the Reich."}
+		{"elites_82nd_drop(usa)" "The 82nd Airborne Division was headquartered in Fort Bragg, where it became home to U.S. Army special operations units such as the Army Special Forces (Green Berets) and SFOD-D (Delta Force) during the Cold War until present. The 82nd first saw their debut during the invasion of Sicily, being among the first American troops to land in Italy as they fought their way until the heart of the Reich."}
+		{"elites_101st(usa)" "The 101st Airborne Division saw their first combat in Normandy as a part of Operation Overlord, participating in mass Allied airborne operation behind the German lines and prevented further German forces to reach the beach. Nicknamed 'Screaming Eagles', they were infamous for their heroic defense in the town of Bastogne against relentless German assaults, to which its commanding general replied their offer to surrended initially with 'NUTS!'. Popularized further in many WW2 work of fictions, including HBO TV series Band of Brothers."}
+		{"elites_101st_drop(usa)" "The 101st Airborne Division saw their first combat in Normandy as a part of Operation Overlord, participating in mass Allied airborne operation behind the German lines and prevented further German forces to reach the beach. Nicknamed 'Screaming Eagles', they were infamous for their heroic defense in the town of Bastogne against relentless German assaults, to which its commanding general replied their offer to surrended initially with 'NUTS!'. Popularized further in many WW2 work of fictions, including HBO TV series Band of Brothers."}
+		{"stormtroopers_assault(usa)" "The 75th Ranger Regiment was formed in 1942, inspired by British commando units and training. They fought as premier light infantry units which saw extensive action, their most notable action being set in Pointe du Hoc where they destroyed German artillery guns impairing the Normandy invasion."}
+        
         ;uk---------------
         {"checkered_man(eng)" "A professional nazi hunter, donning incredibly handsome checkered uniform."}
         
+		;usmc-----------------
+		
+		{"recon(usmc)" "A team of 4 Marine recon troops in an unarmed Dodge WC-56 car, armed with 2 Thompson submachineguns and 2 M1 Garand semi-automatic rifles. Use these troops to quickly recce a portion of the battlefield or to hold points until reinforcements arrive."}
+		{"riflemans_army(usmc)" "A squad of 12 soldiers from the US Army, including a BAR team and a grenadier. These reinforcements are well used in defending locations that the Marines have captured, allowing more USMC assets to be dedicated to the offensive."}
+		{"rangers(usmc)" "A squad of 12 Rangers from the US Army, including 2 BAR teams, a grenadier, a sniper, and an AT team. These reinforcements are very well used in defending locations that the Marines have captured, allowing more USMC assets to be dedicated to the offensive."}
+		
+		{"specialinf_ft(usmc)" "A regular Marine fireteam of four consisting of two riflemen and a BAR team. This mobile element can be used to provide recce or tactically surround an enemy position."}
+		{"specialinf_assault_ft(usmc)" "An engineer Marine fireteam of four consisting of three engineers and a flamethrower. This mobile element can be used "}
+		{"specialinf_vet_ft(usmc)" "A veteran Marine fireteam of four consisting of two riflemen and a BAR team."}
+		{"specialinf_elite_ft(usmc)" "An elite Marine fireteam of four consisting of a rifleman, a BAR team, and a rifle grenadier."}
+		{"raiders_ft(usmc)" "A Marine Raiders fireteam of four consisting of a rifleman, a BAR team, and a rifle grenadier."}
+		
+		
+
+		{"specialinf(usmc)" "Unlike their Army brethens, all marines completed their basic in only either Parris Island or San Diego recruit depots. U.S.M.C had been known to have among the hardest training out of any branch in the U.S. military. Nicknamed 'Devil Dogs' gained from their actions in WW1, U.S. Marines are well-trained professional infantrymen. While the U.S. Army outnumbered Marine personnel in the Pacific, the Marine Corps spearheaded most of the operations as well as the island-hopping campaigns, and thus first to fight often in the Pacific theater."}
+		{"specialinf_42(usmc)" "Unlike their Army brethens, all marines completed their basic in only either Parris Island or San Diego recruit depots. U.S.M.C had been known to have among the hardest training out of any branch in the U.S. military. Nicknamed 'Devil Dogs' gained from their actions in WW1, U.S. Marines are well-trained professional infantrymen. While the U.S. Army outnumbered Marine personnel in the Pacific, the Marine Corps spearheaded most of the operations as well as the island-hopping campaigns, and thus first to fight often in the Pacific theater."}
+		{"specialinf_43(usmc)" "Unlike their Army brethens, all marines completed their basic in only either Parris Island or San Diego recruit depots. U.S.M.C had been known to have among the hardest training out of any branch in the U.S. military. Nicknamed 'Devil Dogs' gained from their actions in WW1, U.S. Marines are well-trained professional infantrymen. While the U.S. Army outnumbered Marine personnel in the Pacific, the Marine Corps spearheaded most of the operations as well as the island-hopping campaigns, and thus first to fight often in the Pacific theater."}
+
+		{"specialinf_vet(usmc)" "These marine grunts had been through some sh*t in the field as they honed their skill and experience. Oo-rah!"}
+		{"specialinf_vet_42(usmc)" "These marine grunts had been through some sh*t in the field as they honed their skill and experience. Oo-rah!"}
+		{"specialinf_vet_43(usmc)" "These marine grunts had been through some sh*t in the field as they honed their skill and experience. Oo-rah!"}
+
+		{"specialinf_assault(usmc)" "These U.S. marines are combat engineers tasked with demolitions of obstacles and assaulting enemy positions, and thus equipped with satchel charges and M2 Flamethrowers."}
+		{"specialinf_assault_42(usmc)" "These U.S. marines are combat engineers tasked with demolitions of obstacles and assaulting enemy positions, and thus equipped with satchel charges and M2 Flamethrowers."}
+		{"specialinf_assault_43(usmc)" "These U.S. marines are combat engineers tasked with demolitions of obstacles and assaulting enemy positions, and thus equipped with satchel charges and M2 Flamethrowers."}
+		
+		{"paramarines(usmc)" "Paramarines were meant to be used as vanguards ahead and in support of amphibious operations, to capture critical points like airfields, and conduct reconnaissance behind enemy lines. It officially ceased to exist on 29 February 1944, folded into regular marine infantry units. Ensure these battle-hardened marines kick some ass out there."}
+		{"paramarines_42(usmc)" "Paramarines were meant to be used as vanguards ahead and in support of amphibious operations, to capture critical points like airfields, and conduct reconnaissance behind enemy lines. It officially ceased to exist on 29 February 1944, folded into regular marine infantry units."}
+		{"paramarines_43(usmc)" "Paramarines were meant to be used as vanguards ahead and in support of amphibious operations, to capture critical points like airfields, and conduct reconnaissance behind enemy lines. It officially ceased to exist on 29 February 1944, folded into regular marine infantry units."}
+		
+		{"raiders(usmc)" "Marine Raiders were elite units formed to conduct special amphibious light infantry warfare, to work behind the enemy lines on special operations capacity. With the changing nature of the Pacific theater from time to time and Raiders being misused as conventional infantry, Marine Raiders had been disbanded and folded into regular marine infantry units by 1944, along with Paramarines. Ensure these battle-hardened marines kick some ass out there."}
+		{"raiders_42(usmc)" "Marine Raiders were elite units formed to conduct special amphibious light infantry warfare, to work behind the enemy lines on special operations capacity. With the changing nature of the Pacific theater from time to time and Raiders being misused as conventional infantry, Marine Raiders had been disbanded and folded into regular marine infantry units by 1944, along with Paramarines."}
+		{"raiders_43(usmc)" "Marine Raiders were elite units formed to conduct special amphibious light infantry warfare, to work behind the enemy lines on special operations capacity. With the changing nature of the Pacific theater from time to time and Raiders being misused as conventional infantry, Marine Raiders had been disbanded and folded into regular marine infantry units by 1944, along with Paramarines."}
+		
+		{"lvt_specialinf(usmc)" "Marines mounted on Amtracs, which are amphibious transports armed with machine guns for self-defense and capable of resupplying nearby marines."}
+		{"lvt_specialinf_42(usmc)" "Marines mounted on Amtracs, which are amphibious transports armed with machine guns for self-defense and capable of resupplying nearby marines."}
+		{"lvt_specialinf_43(usmc)" "Marines mounted on Amtracs, which are amphibious transports armed with machine guns for self-defense and capable of resupplying nearby marines."}
+
+		{"lvt_specialinf_vet(usmc)" "Seasoned Marines mounted on Amtracs, which are amphibious transports armed with machine guns for self-defense and capable of resupplying nearby marines."}
+		{"lvt_specialinf_vet_42(usmc)" "Seasoned Marines mounted on Amtracs, which are amphibious transports armed with machine guns for self-defense and capable of resupplying nearby marines."}
+		{"lvt_specialinf_vet_43(usmc)" "Seasoned Marines mounted on Amtracs, which are amphibious transports armed with machine guns for self-defense and capable of resupplying nearby marines."}
+		
+		{"ap_miners(usmc)" "This team of specialists arrives with a full complement of anti-personnel mines which can be placed to provide the perfect defense against advancing infantry. Deploy them along likely routes of enemy advance or use them to secure a vulnerable flank from enemy attack."}
+		{"at_miners(usmc)" "This team of specialists arrives with a full complement of anti-tank mines which can be deployed to thwart advances made by enemy vehicles. Place them along roads or other likely routes of enemy advance. In some cases, a mine might only disable a vehicle, so be prepared to finish off any enemy vehicles which get disabled by your mines."}
+		{"sappers(usmc)" "This team of specialists is equipped with mine detectors and is trained in mine disposal. They are the most effective way of clearing enemy minefields. Once mines have been detected, they can be re-deployed for use against their former owners. However, these soldiers are vulnerable whilst searching for mines, so take measures to protect them."}
+		
+
+		{"hero_sniper_usmc" "A team consisting of a Marine scout sniper and his spotter, deploying with a Dodge WC-56. If positioned correctly, they will be able to provide both reconnaissance and support fire effectively."}
+		{"hero_breachers(usmc)" "This highly lethal Marine squad consists of 3 flamethrowers, an anti-tank soldier with a bazooka, and 8 troops with satchel charges, shotguns, and Thompsons alike. Use these battle-hardened Marines to break even the toughest of lines, burning and blowing shit up all along the way."}
+		{"hero_lvt_usmc" "The LVT-4(A) is an amphibious vehicle used by the USMC to provide support fire during Marine assaults using its 75mm M2 gun. Armed with HE, HEAT, and WP shells, this LVT can easily support an attack on an enemy position and even fend against light vehicles."}
+		{"hero_satan_usmc" "The M3A1 Satan is a truly dangerous little devil, armed with a traversible flamethrower and auxiliary Browning M1919A4 machinegun. Smaller and more nimble than its larger Crocodile counterpart, the Satan is a very effective tool in burning out enemy positions quickly."}
+		{"hero_marine_platoon(usmc)" "This massive force consists of 27 marines, with 6 BAR teams and over a dozen seasoned riflemen included. If you are looking to conduct a large-scale assault, or are locking down a large position, these seasoned troops are the perfect fit."}
+		{"hero_amphibious_usmc" "This large mechanized force consists of 2 LVT-4 Water Buffalo vehicles, armed with 4 machine guns each, carrying 2 squads of regular Marines. Such a force cannot be easily reckoned with, given how much suppression it can give."}
+		{"hero_crocodile_usmc" "The M4A3R2 Crocodile is an M4A3 Sherman equipped with a traversible flamethrower. Sturdier than its Satan counterpart, this unit will provide a hefty amount of flames for any assault."}
+		{"hero_support_usmc" "This unit consists of two 57mm M1 AT guns, two M1 81mm mortars, and a .30 cal M1919A4 M2 tripod machinegun; all being perfect for locking down a recently taken position and giving support fire."}
+		{"hero_m4a3e8_usmc" "A M4A3E8(76)W manned by veteran Marine tank crew, thus conferring a longer range and better accuracy than its normal counterpart."}
+		{"hero_sherman_usmc" "This battlegroup consists of 2 M4A2 Shermans armed with AP, HE, and WP. Not for engaging other vehicles necessarily, but rather to bolster an infantry assault and provide a massive amount of support fire."}
+		{"hero_m7_usmc" "This unit consists of 2 M7 Priests armed with 105mm M2A1 artillery guns. They are perfect for providing suppressive artillery fire or support against light enemy emplacements."}
+		{"hero_pershing_usmc" "The M26 Pershing is a heavy late-war American tank armed with a 90mm M3 gun; under Marine hands, it functions as an effective response to heavy enemy vehicles and to oversee a late-stage assault."}
+		
+
+		;fra-----------------
+		
+		{"ffi(fra)" "French resistance played a major role in disrupting the efforts of German forces as well providing valuable intelligence for the Allies. People from various backgrounds scrounged whatever they could to take the fight against German occupation. This squad of 12 is best suited to defense, particularly in urban areas, due to their submachineguns and pistols."}
+		{"ffi_rifles(fra)" "Maquisards are members of the Maquis, loosely organized resistance units founded by French citizens who fled into the mountains and hills of Britanny and southern France. French resistance played a major role in disrupting the efforts of German forces as well providing valuable intelligence for the Allies. People from various backgrounds scrounged whatever they could to take the fight against German occupation. This squad of 12 comes with an MG team, and is best suited for defense."}
+		{"saboteurs(fra)" "These FFI fighters are better skilled than the others, specialized in close quarter combat and sabotage with their armament of SMGs and explosives. Consists of 10 partisans, 2 with panzerfausts."}
+		{"volunteers(fra)" "A squad of 12 French volunteers are armed with a mixture of surplus British weaponry and French guns, and includes an MG team. They are good for holding a position or providing security to a specific area."}
+		{"riflemans_light(fra)" "2e Blindée (2nd Armored Division) under Philippe de Leclerc arrived in Normandy in late July, equipped with dominantly lend-leased American equipment. French nationalities took the fight against German forces, racing to Paris regardless of losses, to be the ones liberating the capital of their own soil. This squad comes with 10 riflemen."}
+		{"riflemans(fra)" "2e Blindée (2nd Armored Division) under Philippe de Leclerc arrived in Normandy in late July, equipped with dominantly lend-leased American equipment. French nationalities took the fight against German forces, racing to Paris regardless of losses, to be the ones liberating the capital of their own soil. This squad comes with 10 sappers, and includes a bazooka."}
+		{"riflemans_mgun(fra)" "2e Blindée (2nd Armored Division) under Philippe de Leclerc arrived in Normandy in late July, equipped with dominantly lend-leased American equipment. French nationalities took the fight against German forces, racing to Paris regardless of losses, to be the ones liberating the capital of their own soil. This squad of nine includes an MG team."}
+		{"engineers(fra)" "French troops were nowhere given as many Bazookas as American troops. This sapper squad is equipped with entrenching tools, satchel charges, and a bazooka to breach enemy fortifications."}
+		{"specialinf(fra)" "Light cavalry regiments of the French forces. They expanded into a mechanized regiment during the war as light armored unit, relying on mobility and fast aggressive assaults."}
+		{"specialinf_bar(fra)" "Light cavalry regiments of the French forces. They expanded into a mechanized regiment during the war as light armored unit, relying on mobility and fast aggressive assaults."}
+		{"specialinf_mgun(fra)" "Light cavalry regiments of the French forces. They expanded into a mechanized regiment during the war as light armored unit, relying on mobility and fast aggressive assaults."}
+		{"elites(fra)" "These French commandos served under the British command, equipped with British equipment."}
+		{"elites_marine(fra)" "French Fusiliers Marins (Naval Fusiliers) are specialized naval infantry trained for combat in land and costal regions. During the Free French campaign, they fought as elite light infantry units participating in various commando operations along with other Allied troops, other than being used conventionally."}
+		{"sas_fra(fra)" "There were foreign nationalities within the SAS, with French having a squadron. French 3th and 4th SAS were paradropped behind German lines in French soil, carrying out operations supporting Allied advance while joining forces with local resistance."}
+		{"sas_fra_drop(fra)" "There were foreign nationalities within the SAS, with French having a squadron. French 3th and 4th SAS were paradropped behind German lines in French soil, carrying out operations supporting Allied advance while joining forces with local resistance."}
+		{"jedburgh(fra)" "'Jeds' were special operation teams of personnel from British Special Operations Executive, the U.S. Office of Strategic Services, the Free French Bureau Central de Renseignements et d'Action. Jedburgh team was made up of one British or American Officer, a French executive officer and a NCO radio operator of any nationality. These team were to lead the local resistance forces, as a part of Operation Jedburgh. Founder of U.S. Army Special Forces used to be a Jed."}
+		
 		;old stuff vv---------------------
 		{"ap_miners(eng)" "This team of specialists arrives with a full complement of anti-personnel mines which can be placed to provide the perfect defense against advancing infantry. Deploy them along likely routes of enemy advance or use them to secure a vulnerable flank from enemy attack."}
 		{"ap_miners(ger)" "This team of specialists arrives with a full complement of anti-personnel mines which can be placed to provide the perfect defense against advancing infantry. Deploy them along likely routes of enemy advance or use them to secure a vulnerable flank from enemy attack."}
@@ -972,10 +1096,25 @@
 		{"pz5g" "<c(c3baae)>medium tank</c>"}
 		{"pz5g_veteran" "<c(c3baae)>medium tank</c>"}
 		{"raketenwerfer" "<c(c3baae)>AT rocket launcher</c>"}
+		{"pz5g_ace" "<c(c3baae)>medium tank</c>"}
+		{"m10_rus" "<c(c3baae)>medium tank destroyer</c>"}
+		{"m36_vet" "<c(c3baae)>tank destroyer</c>"}
+		{"m36b1_vet" "<c(c3baae)>tank destroyer</c>"}
+		{"m36b1" "<c(c3baae)>heavy tank destroyer</c>"}
+		
+		{"ka-mi" "<c(c3baae)>light amphibious tank</c>"}
+		{"lvt4_a" "<c(c3baae)>light amphibious tank</c>"}
+		{"lvt4" "<c(c3baae)>amtrac</c>"}
+		{"lvt1_a" "<c(c3baae)>light amphibious tank</c>"}
+		{"lvt2_a" "<c(c3baae)>amtrac</c>"}
+		{"lvt2_a_nogun" "<c(c3baae)>amtrac</c>"}
+		{"lvt4_wb" "<c(c3baae)>amtrac</c>"}
+		{"lvt4_wb2" "<c(c3baae)>amtrac</c>"}
 
 		;vanilla -------------------
 		{"203b4" "<c(c3baae)>super heavy self-propelled howitzer</c>"}
 		{"achilles" "<c(c3baae)>heavy tank destroyer</c>"}
+		{"achilles_elite" "<c(c3baae)>heavy tank destroyer</c>"}
 		{"archer" "<c(c3baae)>medium tank destroyer</c>"}
 		{"bedford_6art" "<c(c3baae)>supply truck</c>"}
 		{"bedford_eng" "<c(c3baae)>engineer truck</c>"}
@@ -1075,6 +1214,7 @@
 		{"pak43" "<c(c3baae)>super heavy AT gun</c>"}
 		{"pak43_vet" "<c(c3baae)>super heavy AT gun</c>"}
 		{"pak47" "<c(c3baae)>light AT gun</c>"}
+		{"pak47_1944" "<c(c3baae)>light AT gun</c>"}
 		{"pak57" "<c(c3baae)>medium AT gun</c>"}
 		{"pdr25" "<c(c3baae)>medium field howitzer</c>"}
 		{"pz1" "<c(c3baae)>AA tank</c>"}

@@ -29,8 +29,8 @@
 	{"mission_defend_hq" "Defend our new field HQ!"}
 	{"mission_stay_alive" "Keep your men alive!"}
 	{"mission_destroy_tank" "Eliminate an enemy tank!"}
-	{"name" "[Japan] Mariana Islands"}
-	{"name_big" "Mariana Islands"}
+	{"name" "[Japan] <c(20a601)>Mariana Islands<c(204 204 204)>"}
+	{"name_big" "<c(20a601)>Mariana Islands<c(204 204 204)>"}
 	{"officer_start" "Shosa, thank goodness you’ve arrived... the Americans are charging our position. We must hold it at all costs!"}
 	{"officer_reinf1" "HQ sent us reinforcements including an armored vehicle!"}
 	{"officer_reinf2" "HQ sent us more reinforcements along with armored support!"}

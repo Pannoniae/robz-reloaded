@@ -105,8 +105,8 @@
 	{"start" "Press \"Continue\" to start the battle!"}
 	{"date" "25th March 1945"}
 	{"mission_blockade" "If you capture the strategic position on the road leading across the bridge, you can bring in your armored support!"}
-	{"name" "[Japan] Iwo Jima"}
-	{"name_big" "Iwo Jima"}
+	{"name" "[Japan] <c(20a601)>Iwo Jima<c(204 204 204)>"}
+	{"name_big" "<c(20a601)>Iwo Jima<c(204 204 204)>"}
 	{"officer_blockade" "The Americans have set up blockades in an attempt to hinder us! You must capture the road leading across the bridge so our armor can advance! Let nothing stand in our way!"}
 	{"officer_start" "The Home Islands are under attack, Shosa! The Americans have landed and established a foothold on Iwo Jima. We cannot allow them to remain on Japanese soil -- the Emperor commands it! You must drive the Americans back into the sea, and purge the island of their presence, Shosa! It is up to you!"}
 	{"place" "The Pacific, Operation Detachment"}
