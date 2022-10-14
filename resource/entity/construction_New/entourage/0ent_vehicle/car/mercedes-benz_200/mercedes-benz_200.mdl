@@ -1,0 +1,44 @@
+;Exported by: user
+;Date:        Fri Aug 08 16:29:49 2014
+;File:        C:\Users\user\Desktop\Моддинг\МОДЕЛИ\Готовые\техника\Car\Mercedes-Benz 200\Mercedes-Benz 200.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Position 0.426571	1.72125	16.457}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 0.13793 -1.50797}
+		{Extent 16.9664 38.3736}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 0.197888 -16.2886}
+		{Extent 13.3903 19.8006}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 33.9329 76.7472 21.1528}
+	{Bone "group001"}
+	{Position -0.288641	-0.21328	-5.88064}
+}
+{Volume "body_vol2"
+	{Box 26.7806 39.6011 28.49}
+	{Bone "group001"}
+	{Position -0.228683	14.5673	2.24551}
+}

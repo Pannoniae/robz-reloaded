@@ -1,0 +1,36 @@
+;Exported by: Vnab
+;Date:        Thu Nov 27 10:55:27 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\Red orchestra 2\Окружение\balkony_town_03_steel\balkony_town_03_steel.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Position 0.124321	1.17845	82.3457}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Box 41.2667 26.75 52.5213}
+	{Bone "group001"}
+	{Position 24.913	-2.48333	-6.03333}
+}
+{Volume "body_vol2"
+	{Box 39.3094 27.0762 19.2469}
+	{Bone "group001"}
+	{Position -24.5092	-1.99399	-20.3633}
+}
+{Volume "body_vol3"
+	{Box 31.2366 1.22018 43.4384}
+	{Bone "group001"}
+	{Matrix34
+		0	-0.861336	0.508036
+		0	0.508036	0.861336
+		-1	0	0
+		-26.8971	0.583858	23.0291
+	}
+}

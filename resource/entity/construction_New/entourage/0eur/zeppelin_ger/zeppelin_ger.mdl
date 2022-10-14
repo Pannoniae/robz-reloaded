@@ -1,0 +1,50 @@
+;Exported by: Vnab
+;Date:        Mon Dec 01 10:57:08 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\tropico 4\Zeppelin_ger\Zeppelin_ger.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				0.999851	-0.0122163	0.0122172
+				0.0122172	0.999925	0
+				-0.0122163	0.00014926	0.999925
+				-99.962	0.382193	232.688
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 6.82675 0.832506}
+		{Extent 65.6003 22.6437}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Cylinder 70.4825 499.22}
+	{Bone "group001"}
+	{Matrix34
+		0.0122161	-0.999925	-0.00014922
+		0.012217	0	0.999925
+		-0.999851	-0.012217	0.0122161
+		4.56175	-0.75759	10.6974
+	}
+}
+{Volume "body_vol2"
+	{Box 131.2 45.2875 36.2966}
+	{Bone "group001"}
+	{Matrix34
+		0.999851	0.012217	-0.0122161
+		-0.0122161	0.999925	0.000149255
+		0.012217	0	0.999925
+		105.837	0.0900538	-79.1435
+	}
+}

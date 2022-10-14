@@ -1,0 +1,132 @@
+;Exported by: Vnab
+;Date:        Fri Mar 27 12:23:53 2015
+;File:        C:\Users\Vnab\Desktop\Моддинг\Выбр\Здания\Порт\port_authority_01 LBP013\port_authority_01.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				-1	0	0
+				0	-0.00174506	-0.999998
+				0	-0.999998	0.00174506
+				-9.22348	-42.9944	18.8952
+			}
+			{VolumeView "object_1.ply"}
+			{bone "box003"
+				{Matrix34
+					-1	0	0
+					0	-0.00174506	-0.999998
+					0	-0.999998	0.00174506
+					-91.8562	20.3192	-185.095
+				}
+			}
+			{bone "box004"
+				{Matrix34
+					-1	0	0
+					0	-0.00174506	-0.999998
+					0	-0.999998	0.00174506
+					-141.646	20.3449	-170.617
+				}
+			}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -1.2254 -6.10336}
+		{Extent 329.809 112.997}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 13.2239 150.968}
+		{Extent 76.4051 42.4473}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol5"
+	{Obb2
+		{Center -335.536 -75.1841}
+		{Extent 10.7367 50.4374}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol6"
+	{Obb2
+		{Center 326.272 96.2641}
+		{Extent 27.4651 12.0059}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol7"
+	{Obb2
+		{Center 22.8529 -5.34396}
+		{Extent 249.299 111.584}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 659.619 225.993 77.6853}
+	{Bone "object_1"}
+	{Matrix34
+		-1	0	0
+		0	-0.00174506	-0.999999
+		0	-0.999999	0.00174506
+		-7.99811	-18.2856	-49.0659
+	}
+}
+{Volume "body_vol2"
+	{Box 152.81 84.8946 67.9156}
+	{Bone "object_1"}
+	{Matrix34
+		-1	0	0
+		0	-0.00174506	-0.999999
+		0	-0.999999	0.00174506
+		-22.4474	-13.1268	107.997
+	}
+}
+{Volume "body_vol5"
+	{Box 21.4733 100.875 59.9256}
+	{Bone "object_1"}
+	{Matrix34
+		-1	0	0
+		0	-0.00174506	-0.999999
+		0	-0.999999	0.00174506
+		326.312	-9.52634	-118.162
+	}
+}
+{Volume "body_vol6"
+	{Box 64.62 24.0118 7.41541}
+	{Bone "object_1"}
+	{Matrix34
+		-0.777946	0.628331	-0.00109649
+		0	-0.00174531	-0.999999
+		-0.628332	-0.777945	0.00135787
+		-335.496	-12.3594	53.2914
+	}
+}
+{Volume "body_vol7"
+	{Box 498.598 223.169 88.9849}
+	{Bone "object_1"}
+	{Matrix34
+		-1	0	0
+		0	-0.00174506	-0.999999
+		0	-0.999999	0.00174506
+		-32.0764	-91.629	-48.1785
+	}
+}

@@ -1,0 +1,44 @@
+;Exported by: NT-Tech_DL
+;Date:        Tue Nov 10 13:13:12 2015
+;File:        C:\Users\NT-Tech_DL\Desktop\Mow re\рес нов\укрепления\depot_ammunition_01\depot_ammunition_01.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "mesh_0001"
+			{Position -2.42897	-2.98659	-2.27787}
+			{VolumeView "mesh_0001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 24.3613 1.18798}
+		{Extent 13.5477 31.275}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -22.6767 1.17307}
+		{Extent 13.5477 30.8427}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 27.0954 62.5501 15.8537}
+	{Bone "mesh_0001"}
+	{Position 26.7903	1.79861	10.2047}
+}
+{Volume "body_vol2"
+	{Box 27.0954 61.6853 17.8715}
+	{Bone "mesh_0001"}
+	{Position -20.2477	1.81352	11.2136}
+}

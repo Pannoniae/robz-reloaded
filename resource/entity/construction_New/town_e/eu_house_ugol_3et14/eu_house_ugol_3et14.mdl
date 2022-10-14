@@ -1,0 +1,78 @@
+;Exported by: Vnab
+;Date:        Mon Nov 24 12:30:52 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\Конвертированные\town_e\eu_house_ugol_3et14\eu_house_ugol_3et14.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "3d_object_1"
+			{Matrix34
+				0.745873	-0.666089	0
+				0.666089	0.745873	0
+				0	0	1
+				41.7775	19.796	136.216
+			}
+			{VolumeView "3d_object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -99.5991 48.2458}
+		{Extent 84.4161 83.1336}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 27.5804 -92.2241}
+		{Extent 95.9621 181.451}
+		{Axis 0.743393 0.668854}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center -5.96643 43.4275}
+		{Extent 116.239 90.9402}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Cylinder 84.4161 291.062}
+	{Bone "3d_object_1"}
+	{Matrix34
+		0.745873	0.666089	0
+		-0.666089	0.745873	0
+		0	0	1
+		-60.127	-144.92	-29.8116
+	}
+}
+{Volume "body_vol2"
+	{Box 189.529 361.652 272.689}
+	{Bone "3d_object_1"}
+	{Matrix34
+		0.999996	0.00292098	0
+		-0.00292098	0.999996	0
+		0	0	1
+		-58.8327	44.5656	-38.9976
+	}
+}
+{Volume "body_vol3"
+	{Box 232.479 181.88 278.974}
+	{Bone "3d_object_1"}
+	{Matrix34
+		0.745873	0.666089	0
+		-0.666089	0.745873	0
+		0	0	1
+		6.50159	-78.9584	-35.8555
+	}
+}

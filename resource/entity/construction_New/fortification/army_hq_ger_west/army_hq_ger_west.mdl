@@ -1,0 +1,86 @@
+;Exported by: NT-Tech_DL
+;Date:        Fri Nov 13 14:39:39 2015
+;File:        C:\Users\NT-Tech_DL\Desktop\Mow re\рес нов\укрепления\army_hq_ger_west\army_hq_ger_west.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Position -0.18998	-8.46753	77.2502}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 1.14381 55.0541}
+		{Extent 19.9786 23.1057}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 0.100159 -5.25272}
+		{Extent 23.3402 39.4327}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center 0.292358 -51.6633}
+		{Extent 7.25309 6.92258}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol4"
+	{Obb2
+		{Center 30.2837 19.9156}
+		{Extent 5.03658 10.8102}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol5"
+	{Obb2
+		{Center -50.5561 -42.4975}
+		{Extent 1.78123 1.75052}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 39.9572 46.2113 29.1861}
+	{Bone "group001"}
+	{Position 1.33379	-46.5865	-62.6571}
+}
+{Volume "body_vol2"
+	{Box 46.6805 78.8654 64.8613}
+	{Bone "group001"}
+	{Position 0.290138	13.7202	-44.8195}
+}
+{Volume "body_vol3"
+	{Box 14.5062 13.8452 15.896}
+	{Bone "group001"}
+	{Position 0.482338	60.1309	-69.3022}
+}
+{Volume "body_vol4"
+	{Box 10.0732 21.6204 9.45894}
+	{Bone "group001"}
+	{Position 30.4737	-11.4481	-63.8172}
+}
+{Volume "body_vol5"
+	{Box 3.56246 3.50104 175.117}
+	{Bone "group001"}
+	{Position -50.3661	50.9651	10.3081}
+}

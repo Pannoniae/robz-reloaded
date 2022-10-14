@@ -1,0 +1,78 @@
+;Exported by: Vnab
+;Date:        Fri May 29 12:21:27 2015
+;File:        C:\Users\Vnab\Desktop\Моддинг\Air Conflicts.Secret Wars\Здания\Руины\ber_house3_4,5et_3h\ber_house3_4,5et_3h.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				0.992493	0.122301	0
+				-0.122301	0.992493	0
+				0	0	1
+				-33.6313	36.6476	150.351
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -225.171 11.167}
+		{Extent 220.721 82.4736}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 222.204 -7.22652}
+		{Extent 225.467 66.4536}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center 376.754 -137.153}
+		{Extent 72.5804 60.0828}
+		{Axis 0.191495 0.981494}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 441.441 164.947 175.627}
+	{Bone "group001"}
+	{Matrix34
+		0.992493	-0.122301	0
+		0.122301	0.992493	0
+		0	0	1
+		-195.949	-24.0303	-62.5375
+	}
+}
+{Volume "body_vol2"
+	{Box 450.935 132.907 162.574}
+	{Bone "group001"}
+	{Matrix34
+		0.992493	-0.122301	0
+		0.122301	0.992493	0
+		0	0	1
+		250.317	-60.4891	-69.0642
+	}
+}
+{Volume "body_vol3"
+	{Box 119.153 144.326 201.385}
+	{Bone "group001"}
+	{Matrix34
+		0.997028	0.07704	0
+		-0.07704	0.997028	0
+		0	0	1
+		419.596	49.5605	-49.6588
+	}
+}

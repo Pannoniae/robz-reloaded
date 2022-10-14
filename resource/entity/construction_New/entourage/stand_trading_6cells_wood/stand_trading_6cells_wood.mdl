@@ -1,0 +1,40 @@
+;Exported by: Vnab
+;Date:        Wed Oct 29 14:32:54 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\Company of heroes\Окружение\stand_trading_6cells_wood\stand_trading_6cells_wood.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				1	0	0
+				0	0.999972	0.00742604
+				0	-0.00742604	0.999972
+				-0.876976	0.938005	8.65346
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.799951 -0.884087}
+		{Extent 31.8489 7.1593}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 63.6977 14.3186 15.2553}
+	{Bone "group001"}
+	{Matrix34
+		1	0	0
+		0	0.999972	-0.00742619
+		0	0.00742619	0.999972
+		0.0770264	-0.0615348	-1.02536
+	}
+}

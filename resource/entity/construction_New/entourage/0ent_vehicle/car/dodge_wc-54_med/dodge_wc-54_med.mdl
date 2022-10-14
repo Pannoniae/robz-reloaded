@@ -1,0 +1,59 @@
+;Exported by: Vnab
+;Date:        Thu May 14 14:09:27 2015
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\Конвертированные\entourage\0ent_vehicle\car\dodge_WC-54_med\dodge_WC-54_med.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				1	0	0
+				0	0.999997	-0.00260973
+				0	0.00260973	0.999997
+				-0.523129	1.96955	21.5761
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.0104942 25.1817}
+		{Extent 14.8691 15.3367}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -0.132231 -16.0025}
+		{Extent 16.796 26.0537}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 29.7382 30.6734 25.4364}
+	{Bone "group001"}
+	{Matrix34
+		1	0	0
+		0	0.999997	0.00260978
+		0	-0.00260978	0.999997
+		0.512634	-27.128	-8.92866
+	}
+}
+{Volume "body_vol2"
+	{Box 33.592 52.1073 39.1466}
+	{Bone "group001"}
+	{Matrix34
+		1	0	0
+		0	0.999997	0.00260978
+		0	-0.00260978	0.999997
+		0.390898	14.0382	-1.96612
+	}
+}

@@ -1,0 +1,40 @@
+;Exported by: Vnab
+;Date:        Tue Nov 25 16:36:54 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\Конвертированные\house_eu5_5et\house_eu5_5et.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				0	-1	0
+				0	0	-1
+				1	0	0
+				4.74962	21.852	3.15252
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.586643 -4.95663}
+		{Extent 85.2874 95.5807}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 170.575 191.161 217.63}
+	{Bone "object_1"}
+	{Matrix34
+		0	0	1
+		-1	0	0
+		0	-1	0
+		16.8953	-90.663	-5.33628
+	}
+}

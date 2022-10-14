@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "smle launcher"}
+	{blend none}
+}

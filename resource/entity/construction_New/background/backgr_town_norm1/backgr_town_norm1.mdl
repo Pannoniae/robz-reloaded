@@ -1,0 +1,16 @@
+;Exported by: Vnab
+;Date:        Thu May 21 15:49:08 2015
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\Конвертированные\Background\backgr_town_norm1\backgr_town_norm1.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Position -40.2664	13.644	151.466}
+			{VolumeView "group001.ply"}
+		}
+	}
+}

@@ -1,0 +1,104 @@
+;Exported by: Joe
+;Date:        Fri Mar 29 01:15:37 2013
+;File:        C:\Users\Joe\Desktop\Models\Completed Full Models\NewItems\british_markII_flamethrower\MarkII_completed.max
+{Skeleton
+	{bone "british_markii_flamethrower"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "british_markii_flamethrower.ply"}
+		{bone "fuel_tank"
+			{VolumeView "fuel_tank.ply"}
+		}
+		{bone "gas_tank"
+			{VolumeView "gas_tank.ply"}
+		}
+		{bone "injection"
+			{VolumeView "injection.ply"}
+		}
+		{bone "strap01"
+			{VolumeView "strap01.ply"}
+		}
+		{bone "strap03"
+			{VolumeView "strap03.ply"}
+		}
+		{bone "handle"
+			{Matrix34
+				-0.999057	0.00223793	-0.043365
+				-0.00658185	-0.994937	0.100289
+				-0.042921	0.10048	0.994013
+				10.1094	3.44619	-0.826557
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 9.68405 8.50578 9.5009}
+	{Bone "british_markii_flamethrower"}
+	{Matrix34
+		1	0	0
+		0	0.981292	-0.192525
+		0	0.192525	0.981292
+		6.87731	3.12095	-2.00376
+	}
+}
+{Volume "select"
+	{Box 9.68405 8.50578 9.5009}
+	{Bone "british_markii_flamethrower"}
+	{Matrix34
+		1	0	0
+		0	0.981292	-0.192525
+		0	0.192525	0.981292
+		6.87731	3.12095	-2.00376
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 7.72227	-6.17037	12.0583}
+			{lookat 6.56526	-1.36746	-9.47085}
+			{fov 45}
+			{horizon -105.854}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 6.57397	-2.47566	8.78401}
+			}
+			{"1"
+				{type point}
+				{position 6.6037	-7.7011	7.47601}
+			}
+			{"2"
+				{type directional}
+				{direction -0.0110279	-0.0176211	0.117126}
+				{ambient 0x5f5f5f}
+			}
+		}
+	}
+	{"Stuff_preview"
+		{camera
+			{origin 7.72227	-6.17037	12.0583}
+			{lookat 6.56526	-1.36746	-9.47085}
+			{fov 45}
+			{horizon -105.854}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 6.57397	-2.47566	8.78401}
+			}
+			{"1"
+				{type point}
+				{position 6.6037	-7.7011	7.47601}
+			}
+			{"2"
+				{type directional}
+				{direction -0.0110279	-0.0176211	0.117126}
+				{ambient 0x5f5f5f}
+			}
+		}
+	}
+}

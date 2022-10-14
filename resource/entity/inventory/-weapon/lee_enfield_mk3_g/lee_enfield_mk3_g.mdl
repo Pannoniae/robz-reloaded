@@ -1,96 +1,90 @@
-;Exported by: Mauzer
-;Date:        Sun Sep 11 18:10:11 2011
-;File:        E:\Autodesk\Low poly\freelance\DMS\Weapons\Lee-Enfield\Lee Enfield_grenade.max
+;Exported by: Kalinski
+;Date:        Sat Feb 24 01:15:01 2018
+;File:        C:\Users\Kalinski\Desktop\modshit\weapons\smle.max
 {Skeleton
 	{bone "lee_enfield_mk3_g"
-		{parameters "ID=mgun;"}
+		{parameters "CommonMesh;ID=rifle;"}
 		{Orientation
 			1	0	0
 			0	-1	0
 			0	0	1
 		}
-		{LODView
-			{VolumeView "lee_enfield_mk3_g.ply"}
-			{VolumeView "lee_enfield_mk3_g_lod1.ply"}
-		}
+		{VolumeView "lee_enfield_mk3_g.ply"}
 		{bone "foresight3"
-			{Position 19.3031	1.41637	-0.0151268}
+			{Position 17.6192	1.54232	0}
 		}
 		{bone "handle"
-			{Matrix34
-				1	0	0
-				0	0	-1
-				0	1	0
-				-0.316072	0.248538	0.0145942
-			}
+			{Position 5.1716	1.85402	0}
 		}
 		{bone "fxshell"
 			{Matrix34
-				0	0.573577	0.819152
-				1	0	0
-				0	0.819152	-0.573577
-				2.05743	1.39409	0.0145942
+				0	0	1
+				0	1	0
+				-1	0	0
+				2.14909	1.54222	0.426479
 			}
 		}
 	}
 }
 {Volume "body"
-	{Box 25.7384 4.13013 0.911203}
+	{Box 20.4252 3.69027 1.17169}
 	{Bone "lee_enfield_mk3_g"}
-	{Matrix34
-		0.997564	0.0697566	0
-		-0.0697566	0.997564	0
-		0	0	1
-		6.28702	0.44987	0.00468063
-	}
+	{Position 4.62226	0.276861	-0.00827003}
 }
 {Volume "select"
-	{Box 26.7282 9.83128 2.39379}
+	{Box 22.1747 4.62889 1.17169}
 	{Bone "lee_enfield_mk3_g"}
-	{Position 6.55245	0.765441	0.0284367}
+	{Matrix34
+		1.0774	0	0
+		0	1.0774	0
+		0	0	1.2924
+		4.74088	0.234466	-0.0614164
+	}
 }
 {Extender "preview"
-	{"Stuff"
+	{"stuff_primary"
 		{camera
-			{origin 6.68775	-0.937917	46.6219}
-			{lookat 6.68775	-0.937917	0.0145942}
-			{fov 30.7899}
-			{horizon 16.9996}
+			{origin 5.79936	0.405124	31.5061}
+			{lookat 5.82234	0.167636	1.3304}
+			{fov 45}
+			{horizon 5.5274}
 		}
 		{lights
 			{"0"
-				{type directional}
-				{direction 0	0.325948	-0.379154}
+				{type point}
+				{position -1.51264	-0.52088	1.33739}
 			}
 			{"1"
 				{type point}
-				{position 14.7329	-4.61464	4.33676}
+				{position 11.0782	-1.2487	1.30826}
 			}
 			{"2"
-				{type point}
-				{position -8.00733	-2.97026	2.93529}
+				{type directional}
+				{direction 0.00821002	-0.0186623	-0.499584}
+				{ambient 0xffffff}
 			}
 		}
 	}
-	{"Stuff_primary"
+	{"stuff"
 		{camera
-			{origin 6.69075	-0.948338	49.2131}
-			{lookat 6.69075	-0.94834	0.0145923}
-			{fov 30.7899}
-			{horizon 9.99963}
+			{origin 5.79911	0.403555	31.5275}
+			{lookat 5.82209	0.166067	1.3304}
+			{fov 45}
+			{horizon 5.5274}
 		}
 		{lights
 			{"0"
 				{type point}
-				{position -8.00733	-2.97045	2.95937}
+				{position 11.0782	-1.2487	1.30826}
 			}
 			{"1"
 				{type point}
-				{position 14.7329	-4.61483	4.2783}
+				{position -1.51264	-0.52088	1.33739}
 			}
 			{"2"
 				{type directional}
-				{direction 0	0.325948	-0.379154}
+				{direction 0.00821002	-0.0186623	-0.499584}
+				{ambient 0xffffff}
 			}
 		}
 	}

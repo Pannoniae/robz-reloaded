@@ -1,0 +1,52 @@
+;Exported by: Admin
+;Date:        Thu Sep 13 18:10:18 2018
+;File:        C:\Users\Admin\Documents\3dsmax\scenes\rus_inf_sn42.max
+{Skeleton
+	{bone "smdimport"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "smdimport.ply"}
+	}
+}
+{Volume "armor"
+	{Polyhedron "armor.vol"}
+	{Bone "smdimport"}
+	{Position -0.22374	0.69088	-4.4269}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "smdimport"}
+	{Position -0.22374	0.69088	-4.4269}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "smdimport"}
+	{Position -0.22374	0.69088	-4.4269}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 20.3717	-5.34333	-0.309279}
+			{lookat 0.668587	-0.893116	-0.0595131}
+			{fov 22.6199}
+			{horizon 89.7469}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.30144	0.398233	0.0233202}
+			}
+			{"1"
+				{type directional}
+				{direction -0.164806	-0.469956	0.0444972}
+			}
+			{"2"
+				{type directional}
+				{direction -0.175248	0.408131	-0.229602}
+			}
+		}
+	}
+}

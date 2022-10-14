@@ -1,0 +1,22 @@
+{game_entity
+(include "/properties/building.inc")
+	{obstacleid "unbreakable" "construction" }
+	{props "steel" "shed" "delete_after_blast" "burning"}
+	{Extension "boxes_ammo_14_ger_steel.mdl"}
+	{Volume "body"
+		{Tags  "body"}
+		{Thickness 5}
+		{able {visible 1}}
+	}
+	{Volume "body_vol2"
+		{Tags  "body"}
+		{Thickness 5}
+		{able {visible 1}}
+	}
+	{Volume "body_vol3"
+		{Tags  "body"}
+		{Thickness 5}
+		{able {visible 1}}
+	}
+	{lodclass "decor_small"}
+}

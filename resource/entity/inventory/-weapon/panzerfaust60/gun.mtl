@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "panzerfaust60"}
+	{blend none}
+}

@@ -1,0 +1,13 @@
+;Exported by: Vora_bat
+;Date:        Thu Aug 13 23:49:40 2009
+;File:        (null)
+{Skeleton
+	{bone "box01"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "box01.ply"}
+	}
+}

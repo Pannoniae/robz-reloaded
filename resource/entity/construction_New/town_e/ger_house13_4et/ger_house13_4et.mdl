@@ -1,0 +1,30 @@
+;Exported by: Vnab
+;Date:        Thu Jun 05 14:32:56 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\Здания\Европа\build_eur13_4et_4313\ger_house13_4et.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "3d_object_1"
+			{Position 0.0155563	2.49244	113.675}
+			{VolumeView "3d_object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 0.205208 -6.06274}
+		{Extent 71.8083 55.7734}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 143.617 111.547 220.305}
+	{Bone "3d_object_1"}
+	{Position 0.189651	3.5703	-27.5553}
+}

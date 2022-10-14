@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "env_rs_bunkers_materials_m_brokenconcrete_inst_d"}
+	{blend none}
+}

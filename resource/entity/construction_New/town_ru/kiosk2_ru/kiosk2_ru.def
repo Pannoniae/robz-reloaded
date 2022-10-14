@@ -1,0 +1,11 @@
+{game_entity
+(include "/properties/building.inc")
+	{obstacleid "unbreakable" "construction" }
+	{props "wood" "no_destroyed_stamp"}
+	{Extension "kiosk2_ru.mdl"}
+	{Volume "body"
+		{Tags  "body"}
+		{Thickness 5}
+		{able {visible 1}}
+	}
+}

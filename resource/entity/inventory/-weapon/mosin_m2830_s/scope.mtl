@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "finnish scope"}
+	{blend none}
+}

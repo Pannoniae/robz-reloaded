@@ -1,0 +1,40 @@
+;Exported by: Vnab
+;Date:        Thu Nov 06 13:37:09 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\Codename Panzers Cold War\Здания\zagon_cote_stone_01\zagon_cote_stone_01.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				1	0	0
+				0	0.999998	-0.00192928
+				0	0.00192928	0.999998
+				0.176659	3.49542	21.5507
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 0.630135 -2.53179}
+		{Extent 47.6923 38.4615}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 95.3846 76.9231 40}
+	{Bone "group001"}
+	{Matrix34
+		1	0	0
+		0	0.999998	0.0019292
+		0	-0.0019292	0.999998
+		0.453476	-0.959292	-2.25506
+	}
+}

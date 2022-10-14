@@ -1,0 +1,111 @@
+;Exported by: Mauzer
+;Date:        Sun Mar 06 13:30:12 2011
+;File:        E:\Autodesk\Low poly\freelance\DMS\Weapons\Arisaka\type 2 Paratroopers.max
+{Skeleton
+	{bone "arisaka_paratroopers"
+		{parameters "ID=mgun;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+                {bone "Fujita"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				3.99	0.5	0.2
+			}
+                        {VolumeView "fujita.ply"}
+		}
+		{bone "foresight3"
+			{Position 16.871	1.65385	-0.0469966}
+		}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				-0.288972	0.0485372	-0.0301796
+			}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0.207912	0.978148
+				-1	0	0
+				0	-0.978148	0.207912
+				5.00599	1.14546	0.346216
+			}
+		}
+		{bone "scope"
+			{Matrix34
+				0	0	1
+				0	1	0
+				-1	0	0
+				2.85182	2.65000	-0.470000
+			}
+			{VolumeView "scope.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Box 22.1028 3.09313 1.18138}
+	{Bone "arisaka_paratroopers"}
+	{Matrix34
+		0.99863	0.0523359	0
+		-0.0523359	0.99863	0
+		0	0	1
+		5.779	0.238001	-0.0741652
+	}
+}
+{Volume "select"
+	{Box 26.8339 9.13911 2.39379}
+	{Bone "arisaka_paratroopers"}
+	{Position 5.23877	0.367444	-0.13759}
+}
+{Extender "preview"
+	{"Stuff_primary"
+		{camera
+			{origin 2.47223	-5.55341	26.8118}
+			{lookat 3.19048	-3.35892	13.4387}
+			{fov 45}
+			{horizon -157.989}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 5.20519	-13.64	-38.7774}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0761825	0.382457	-0.312926}
+			}
+			{"2"
+				{type point}
+				{position 5.20519	1.15551	20.2422}
+			}
+		}
+	}
+	{"Stuff"
+		{camera
+			{origin 1.84643	-12.4804	23.5079}
+			{lookat 3.79798	-0.902343	-0.152901}
+			{fov 45}
+			{horizon -155.307}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 5.18119	-12.6874	-48.1114}
+			}
+			{"1"
+				{type point}
+				{position 5.1812	-1.84661	20.1015}
+			}
+			{"2"
+				{type directional}
+				{direction 0.0583871	0.496579	-0.00041018}
+			}
+		}
+	}
+}

@@ -1,0 +1,125 @@
+;Exported by: Vorabat
+;Date:        Mon Apr 26 16:26:30 2010
+;File:        C:\Users\Vorabat\Documents\3dsmax\scenes\rus 1.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+	}
+}
+{Obstacle "box01"
+	{Obb2
+		{Center -38.2183 284.843}
+		{Extent 244.639 4.77606}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "box02"
+	{Obb2
+		{Center -38.2183 -246.076}
+		{Extent 244.639 4.77605}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "box03"
+	{Obb2
+		{Center -277.695 20.5692}
+		{Extent 6.36807 269.581}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "box04"
+	{Obb2
+		{Center 202.373 18.1355}
+		{Extent 6.75433 267.172}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "box05"
+	{Obb2
+		{Center -130.84 -172.488}
+		{Extent 45.7794 33.0212}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "box06"
+	{Obb2
+		{Center 17.754 214.012}
+		{Extent 44.2785 33.7717}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "box07"
+	{Obb2
+		{Center 105.561 31.6442}
+		{Extent 18.0116 18.0116}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "box08"
+	{Obb2
+		{Center 93.7477 -111.339}
+		{Extent 18.0116 18.0116}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "box01"
+	{Box 489.279 9.55209 140.097}
+	{Bone "body"}
+	{Position -38.2183	-284.843	70.0486}
+}
+{Volume "box02"
+	{Box 489.279 9.55209 140.097}
+	{Bone "body"}
+	{Position -38.2183	246.076	70.0486}
+}
+{Volume "box03"
+	{Box 12.7361 539.162 140.097}
+	{Bone "body"}
+	{Position -277.695	-20.5692	70.0486}
+}
+{Volume "box04"
+	{Box 13.5087 534.343 142.592}
+	{Bone "body"}
+	{Position 202.373	-18.1355	71.2958}
+}
+{Volume "box05"
+	{Box 91.5588 66.0424 147.095}
+	{Bone "body"}
+	{Position -130.84	172.488	73.5473}
+}
+{Volume "box06"
+	{Box 88.5569 67.5434 154.599}
+	{Bone "body"}
+	{Position 17.754	-214.012	77.2997}
+}
+{Volume "box07"
+	{Box 36.0231 36.0232 159.102}
+	{Bone "body"}
+	{Position 105.561	-31.6442	79.5511}
+}
+{Volume "box08"
+	{Box 36.0231 36.0232 159.102}
+	{Bone "body"}
+	{Position 93.7477	111.339	79.5511}
+}

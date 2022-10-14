@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "mlesu_92_02_he111"}
+	{blend none}
+}

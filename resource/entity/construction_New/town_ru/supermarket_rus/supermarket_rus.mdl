@@ -1,0 +1,16 @@
+;Exported by: Vorabat
+;Date:        Mon Apr 26 16:26:29 2010
+;File:        C:\Users\Vorabat\Documents\3dsmax\scenes\rus 1.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+		}
+		{bone "land"
+		}
+	}
+}

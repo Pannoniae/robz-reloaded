@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "ak56_d"}
+	{blend none}
+}

@@ -1,0 +1,16 @@
+{game_entity
+(include "/properties/building.inc")
+	{obstacleid "unbreakable" "construction" }
+	{props "concrete" "no_destroyed_stamp"}
+	{Extension "theatre_ru.mdl"}
+	{Volume "body"
+		{Tags  "body"}
+		{Thickness 20}
+		{able {visible 1}}
+	}
+	{Volume "body_vol2"
+		{Tags  "body"}
+		{Thickness 20}
+		{able {visible 1}}
+	}
+}

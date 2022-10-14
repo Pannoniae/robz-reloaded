@@ -1,0 +1,40 @@
+;Exported by: Vnab
+;Date:        Fri Oct 17 15:17:25 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\War on terror\house_afr10\house_afr10.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				0.997266	-0.0738971	0
+				0.00126634	0.0170897	-0.999853
+				0.0738863	0.997119	0.0171365
+				-6.5237	-2.50794	37.1198
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -6.73636 1.71356}
+		{Extent 87.1073 59.4043}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 174.214 118.809 62.8315}
+	{Bone "group001"}
+	{Matrix34
+		0.997266	0.00126636	0.0738863
+		-0.0738971	0.0170899	0.99712
+		0	-0.999853	0.0171367
+		-0.27079	5.71652	0.678626
+	}
+}

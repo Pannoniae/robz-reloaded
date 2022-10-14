@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "vh_rs_medicaltruck_materials_mat_medical_truck_d"}
+	{blend none}
+}

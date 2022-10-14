@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "envas_003_observationpavilion"}
+	{blend none}
+}

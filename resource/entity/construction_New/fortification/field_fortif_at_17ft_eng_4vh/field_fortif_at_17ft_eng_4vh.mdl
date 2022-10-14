@@ -1,0 +1,116 @@
+;Exported by: Vnab
+;Date:        Mon May 18 15:09:03 2015
+;File:        C:\Users\Vnab\Desktop\Моддинг\COH нов\Обновить\field_fortif_at_17ft_eng_4vh\field_fortif_at_17ft_eng_4vh.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				-0.962692	-0.270598	0
+				0.197903	-0.704069	-0.681998
+				0.184548	-0.656555	0.731354
+				-3.24649	-1.0572	-19.5323
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -7.24749 70.1341}
+		{Extent 12.4013 38.8552}
+		{Axis 0.122598 0.992456}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 67.0016 3.99085}
+		{Extent 10.4313 42.7893}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center -5.08432 -71.7275}
+		{Extent 41.8475 11.4403}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol4"
+	{Obb2
+		{Center -75.8356 5.27939}
+		{Extent 11.7085 40.8734}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol5"
+	{Obb2
+		{Center 81.316 -8.35248}
+		{Extent 10.9887 26.945}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 71.016 22.571 39.6368}
+	{Bone "group001"}
+	{Matrix34
+		-1.08153	0.119236	0.111189
+		-0.163035	-0.790982	-0.737602
+		0	-0.745936	0.799918
+		22.5438	38.6657	54.4559
+	}
+}
+{Volume "body_vol2"
+	{Box 19.0743 78.2434 40.8734}
+	{Bone "group001"}
+	{Matrix34
+		-1.05294	0.216456	0.201849
+		-0.295967	-0.770075	-0.718107
+		0	-0.745936	0.799918
+		-66.8335	6.93608	24.5756
+	}
+}
+{Volume "body_vol3"
+	{Box 76.5211 20.9194 39.7056}
+	{Bone "group001"}
+	{Matrix34
+		-1.05294	0.216456	0.201849
+		-0.295967	-0.770075	-0.718107
+		0	-0.745936	0.799918
+		-17.9262	-61.3552	-37.675
+	}
+}
+{Volume "body_vol4"
+	{Box 21.4099 74.7399 39.3163}
+	{Bone "group001"}
+	{Matrix34
+		-1.05294	0.216456	0.201849
+		-0.295967	-0.770075	-0.718107
+		0	-0.745936	0.799918
+		71.0235	-21.4219	0.130751
+	}
+}
+{Volume "body_vol5"
+	{Box 20.0937 49.2708 37.71}
+	{Bone "group001"}
+	{Matrix34
+		-1.05294	0.216456	0.201849
+		-0.295967	-0.770075	-0.718107
+		0	-0.745936	0.799918
+		-83.9539	1.05421	19.1391
+	}
+}

@@ -1,0 +1,42 @@
+;Exported by: Alexey
+;Date:        Fri Aug 15 15:32:39 2008
+;File:        D:\Program Files\Autodesk\3dsMax8\scenes\Enturage_1\playground_jungle_gym01b.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Position -0.00800323	0.00505519	0.0838561}
+			{VolumeView "body.ply"}
+		}
+	}
+}
+{Volume "body1"
+	{Polyhedron "body1.vol"}
+	{Bone "body"}
+	{Position -22.1383	1.6115	1.4511}
+}
+{Volume "body2"
+	{Polyhedron "body2.vol"}
+	{Bone "body"}
+	{Position 25.9019	1.6115	1.4511}
+}
+{Volume "body3"
+	{Polyhedron "body3.vol"}
+	{Bone "body"}
+	{Position 25.9019	1.6115	29.9513}
+}
+{Volume "body4"
+	{Polyhedron "body4.vol"}
+	{Bone "body"}
+	{Position 1.72568	1.6115	43.4993}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "body"}
+	{Position 2.03389	1.6115	1.4511}
+}

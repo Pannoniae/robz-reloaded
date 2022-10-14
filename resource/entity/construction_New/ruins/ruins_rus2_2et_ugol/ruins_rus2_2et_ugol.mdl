@@ -1,0 +1,63 @@
+;Exported by: Vnab
+;Date:        Thu Jul 23 12:49:04 2015
+;File:        C:\Users\Vnab\Desktop\Моддинг\BK3 model\Подгот\Руины\ruins_rus2_2et_ugol\ruins_rus2_2et_ugol.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				-23.7838	-34.0881	88.0838
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -22.3703 79.0557}
+		{Extent 138.432 55.8632}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -98.041 -21.6133}
+		{Extent 63.4932 43.873}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center 90.9491 78.3429}
+		{Extent 24.7978 56.4082}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 276.863 111.726 82.296}
+	{Bone "group001"}
+	{Position -1.41353	44.9676	-47.9639}
+}
+{Volume "body_vol2"
+	{Box 126.986 87.746 117.721}
+	{Bone "group001"}
+	{Position 74.2572	-55.7015	-30.2512}
+}
+{Volume "body_vol3"
+	{Box 49.5956 112.816 33.2454}
+	{Bone "group001"}
+	{Position -114.733	44.2548	10.2903}
+}

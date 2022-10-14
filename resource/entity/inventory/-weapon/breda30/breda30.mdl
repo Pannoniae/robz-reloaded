@@ -1,0 +1,89 @@
+;Exported by: Kalinski
+;Date:        Wed Dec 14 00:13:09 2016
+;File:        C:\Users\Kalinski\Desktop\ita\breda 30.max
+{Skeleton
+	{bone "breda30"
+		{parameters "CommonMesh;ID=rifle;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "breda30.ply"}
+		{bone "fxshell"
+			{Matrix34
+				0	-0.999883	0.0152773
+				0	0.0152773	0.999883
+				-1	0	0
+				5.75262	1.18035	0
+			}
+		}
+		{bone "handle"
+			{Position 5.74874	2.06664	0}
+		}
+		{bone "foresight3"
+			{Position 18.0503	1.67003	0}
+		}
+	}
+}
+{Volume "body"
+	{Box 23.2145 5.8299 1.17169}
+	{Bone "breda30"}
+	{Position 4.98372	0.128824	-0.00826997}
+}
+{Volume "select"
+	{Box 22.0538 6.01154 1.17169}
+	{Bone "breda30"}
+	{Matrix34
+		1.0774	0	0
+		0	1.0774	0
+		0	0	1.2924
+		4.98372	0.0528383	-0.0614164
+	}
+}
+{Extender "preview"
+	{"stuff"
+		{camera
+			{origin 5.57287	0.0931608	31.6715}
+			{lookat 5.59586	-0.144327	1.3304}
+			{fov 45}
+			{horizon 5.52751}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 11.0782	-1.2487	1.30826}
+			}
+			{"1"
+				{type point}
+				{position -1.51264	-0.520872	1.33739}
+			}
+			{"2"
+				{type directional}
+				{direction 0.00821002	-0.0186623	-0.499584}
+			}
+		}
+	}
+	{"stuff_primary"
+		{camera
+			{origin 5.56276	0.0931608	31.6856}
+			{lookat 5.58574	-0.144327	1.3304}
+			{fov 45}
+			{horizon 5.5274}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -1.51264	-0.520872	1.33739}
+			}
+			{"1"
+				{type point}
+				{position 11.0782	-1.2487	1.30826}
+			}
+			{"2"
+				{type directional}
+				{direction 0.00821002	-0.0186623	-0.499584}
+			}
+		}
+	}
+}

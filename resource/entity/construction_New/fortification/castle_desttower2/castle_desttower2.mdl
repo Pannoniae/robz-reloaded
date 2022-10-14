@@ -1,0 +1,59 @@
+;Exported by: user
+;Date:        Tue Aug 19 15:52:19 2014
+;File:        C:\Users\user\Desktop\Моддинг\Модели нов\WOT\здания разн\Castle_DestTower2_blrBR_002\Castle_DestTower2.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				0.707107	0.707107	0
+				0	0	-1
+				-0.707107	0.707107	0
+				-2.75048	3.40866	6.83949
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -2.62552 -4.69892}
+		{Extent 120.771 120.771}
+		{Axis 0.122598 0.992456}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -2.33939 117.926}
+		{Extent 8.18612 26.6795}
+		{Axis 0.105267 0.994444}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "object_1"}
+	{Matrix34
+		0.707107	0	-0.707107
+		0.707107	0	0.707107
+		0	-1	0
+		1.0007	12.8416	0.82399
+	}
+}
+{Volume "body_vol2"
+	{Box 53.2763 23.5043 16.0969}
+	{Bone "object_1"}
+	{Matrix34
+		0.780855	0	-0.624712
+		0	-1	0
+		-0.624712	0	-0.780855
+		-85.5059	-0.346809	-86.0873
+	}
+}

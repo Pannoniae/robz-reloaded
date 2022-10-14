@@ -1,0 +1,40 @@
+;Exported by: Vnab
+;Date:        Fri Nov 21 15:18:43 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\WOT\здания разн\saray_07_wide_stone\saray_07_wide_stone.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				-1	0	0
+				0	0	-1
+				0	-1	0
+				-0.136248	-0.615385	-5.01392
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -1.77394 1.15594}
+		{Extent 117.98 46.7799}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 235.959 93.5598 90.0293}
+	{Bone "object_1"}
+	{Matrix34
+		-1	0	0
+		0	0	-1
+		0	-1	0
+		1.63769	-39.0494	0.540551
+	}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "envsu_92_04_gazm1_2_damage_am"}
+	{blend none}
+}

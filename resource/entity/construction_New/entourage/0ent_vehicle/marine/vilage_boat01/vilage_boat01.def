@@ -1,0 +1,14 @@
+{game_entity
+(include "/properties/construction.inc")
+	{ObstacleId "construction"}
+	{collider "particle.big"}
+	{simulation {able 1}}
+	{props "wood" "dead_vehicle" "big" "part"}
+	{Extension "vilage_boat01.mdl"}
+	{mass 100}
+	{Volume "body"
+		{Tags  "body"}
+		{Thickness 5}
+		{able {visible 1}}
+	}
+}

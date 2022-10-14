@@ -1,0 +1,97 @@
+;Exported by: Vnab
+;Date:        Mon Mar 30 13:57:50 2015
+;File:        C:\Users\Vnab\Desktop\Моддинг\Выбр\Техника\Корабли\seiner_civ_02 LSB020  рыб шхуна\seiner_civ_02.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				-1	0	0
+				0	0	-1
+				0	-1	0
+				1.86381	-7.63844	8.7599
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 0.961124 -17.3392}
+		{Extent 37.9782 92.3794}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 1.30328 -10.7815}
+		{Extent 30.7931 128.305}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center 0.802248 29.1714}
+		{Extent 25.645 33.6288}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol4"
+	{Obb2
+		{Center 1.669 -5.65185}
+		{Extent 1.15475 1.32581}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 69.0512 167.962 31.7262}
+	{Bone "object_1"}
+	{Matrix34
+		-1.1	0	0
+		0	0	-1.1
+		0	-1.1	0
+		0.90268	-9.23569	-24.9776
+	}
+}
+{Volume "body_vol2"
+	{Box 55.9875 233.281 21.7729}
+	{Bone "object_1"}
+	{Matrix34
+		-1.1	0	0
+		0	0	-1.1
+		0	-1.1	0
+		0.56053	-15.4403	-18.4199
+	}
+}
+{Volume "body_vol3"
+	{Box 46.6272 61.1432 40.9088}
+	{Bone "object_1"}
+	{Matrix34
+		-1.1	0	0
+		0	0	-1.1
+		0	-1.1	0
+		1.06157	-39.1179	21.5329
+	}
+}
+{Volume "body_vol4"
+	{Box 2.09953 2.41057 176.672}
+	{Bone "object_1"}
+	{Matrix34
+		-1.1	0	0
+		0	0	-1.1
+		0	-1.1	0
+		0.194808	-113.788	-13.2903
+	}
+}

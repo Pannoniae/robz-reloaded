@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "lsb013_d"}
+	{blend none}
+}

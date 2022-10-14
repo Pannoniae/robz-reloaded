@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "bldf_005_factoryworkshopadmin"}
+	{blend none}
+}

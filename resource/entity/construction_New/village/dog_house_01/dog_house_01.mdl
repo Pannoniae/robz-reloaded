@@ -1,0 +1,40 @@
+;Exported by: Vnab
+;Date:        Wed Apr 29 12:49:35 2015
+;File:        C:\Users\Vnab\Desktop\Моддинг\WoT97\Окружение\Dog_House_01 env_101_07\Dog_House_01.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				-1	0	0
+				0	0	-1
+				0	-1	0
+				-0.340559	-0.187477	0
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.135405 0.3038}
+		{Extent 8.30353 6.85459}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 11.0714 9.13945 9.51097}
+	{Bone "object_1"}
+	{Matrix34
+		-1.5	0	0
+		0	0	-1.5
+		0	-1.5	0
+		-0.205154	-7.13323	0.116322
+	}
+}

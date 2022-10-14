@@ -1,0 +1,107 @@
+;Exported by: Vnab
+;Date:        Mon Nov 24 14:42:44 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\Конвертированные\Vilage\zagon_big_eu bldAM_001_BigCattleShad\zagon_big_eu bldAM_001_BigCattleShad.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				0	1	0
+				0	0	-1
+				-1	0	0
+				0.0702438	1.70984	-0.0522099
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 115.82 0.323868}
+		{Extent 50.9698 154.409}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -116.372 0.301849}
+		{Extent 51.3446 154.034}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol4"
+	{Obb2
+		{Center 0.806956 -143.651}
+		{Extent 1.40543 1.40543}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol5"
+	{Obb2
+		{Center 0.329203 144.744}
+		{Extent 1.52381 1.19254}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 101.94 308.817 98.1919}
+	{Bone "object_1"}
+	{Matrix34
+		0	0	-1
+		1	0	0
+		0	-1	0
+		-2.03372	-31.6887	-115.75
+	}
+}
+{Volume "body_vol2"
+	{Box 102.689 308.068 87.6981}
+	{Bone "object_1"}
+	{Matrix34
+		0	0	-1
+		1	0	0
+		0	-1	0
+		-2.01169	-26.4419	116.442
+	}
+}
+{Volume "body_vol3"
+	{Box 143.165 306.568 73.4565}
+	{Bone "object_1"}
+	{Matrix34
+		0	0	-1
+		1	0	0
+		0	-1	0
+		-2.18942	-98.2258	0.647266
+	}
+}
+{Volume "body_vol4"
+	{Box 2.81084 2.81084 184.446}
+	{Bone "object_1"}
+	{Matrix34
+		0	0	-1
+		1	0	0
+		0	-1	0
+		141.941	-75.059	-0.73673
+	}
+}
+{Volume "body_vol5"
+	{Box 3.04759 2.38507 183.641}
+	{Bone "object_1"}
+	{Matrix34
+		0	0	-1
+		1	0	0
+		0	-1	0
+		-146.453	-74.6567	-0.258965
+	}
+}

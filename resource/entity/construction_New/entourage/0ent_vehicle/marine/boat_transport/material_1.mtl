@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "meshel_084_boats_destructible_01"}
+	{blend none}
+}

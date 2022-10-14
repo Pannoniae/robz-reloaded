@@ -1,0 +1,59 @@
+;Exported by: Vnab
+;Date:        Thu Nov 20 17:11:45 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\WOT\здания восток\saray_wood2_jap\saray_wood2_jap.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				0	-1	0
+				0	0	-1
+				1	0	0
+				-7.20319	-0.988458	0.345315
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -8.8892 -0.0764503}
+		{Extent 32.6996 33.8403}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 38.3543 -9.32517}
+		{Extent 14.2497 21.1057}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 65.3992 67.6806 90.4943}
+	{Bone "object_1"}
+	{Matrix34
+		0	0	1
+		-1	0	0
+		0	-1	0
+		-1.06491	-42.907	-1.68602
+	}
+}
+{Volume "body_vol2"
+	{Box 28.4994 42.2113 75.5502}
+	{Bone "object_1"}
+	{Matrix34
+		0	0	1
+		-1	0	0
+		0	-1	0
+		-10.3136	-35.4349	45.5575
+	}
+}

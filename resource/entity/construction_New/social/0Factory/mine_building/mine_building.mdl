@@ -1,0 +1,63 @@
+;Exported by: Vnab
+;Date:        Tue Oct 21 11:52:02 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\Конвертированные\Vilage\mine_building_AM_014 рудник\mine_building.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "3d_object_1"
+			{Position -32.7745	2.70878	110.984}
+			{VolumeView "3d_object_1.ply"}
+		}
+	}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 86.4891 0.384186}
+		{Extent 79.6145 41.1053}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center 225.588 -34.5203}
+		{Extent 41.538 7.57203}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol4"
+	{Obb2
+		{Center -323.646 -35.8437}
+		{Extent 7.34296 49.8708}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 323.65 95.1912 80.4799}
+	{Bone "3d_object_1"}
+	{Position -121.362	3.81187	-4.35193}
+}
+{Volume "body_vol2"
+	{Box 159.229 82.2106 169.613}
+	{Bone "3d_object_1"}
+	{Position 119.264	-3.09296	-30.1091}
+}
+{Volume "body_vol3"
+	{Box 83.076 15.1441 57.1147}
+	{Bone "3d_object_1"}
+	{Position 258.363	31.8115	-86.3585}
+}
+{Volume "body_vol4"
+	{Box 14.6859 99.7417 74.6533}
+	{Bone "3d_object_1"}
+	{Position -290.872	33.1349	-77.5892}
+}

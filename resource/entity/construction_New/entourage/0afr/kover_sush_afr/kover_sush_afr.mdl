@@ -1,0 +1,59 @@
+;Exported by: Vnab
+;Date:        Mon Jun 09 10:48:30 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Новое\kover_sush_afr\kover_sush_afr.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group01"
+			{Matrix34
+				0.996425	0.0844771	0
+				-0.0844771	0.996425	0
+				0	0	1
+				0.624424	1.01648	21.3121
+			}
+			{VolumeView "group01.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -22.4973 -1.25166}
+		{Extent 1.15768 0.974884}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 21.5487 -0.600639}
+		{Extent 0.947853 1.03402}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 2.31535 1.94977 41.7055}
+	{Bone "group01"}
+	{Matrix34
+		0.996425	-0.0844772	0
+		0.0844772	0.996425	0
+		0	0	1
+		-23.0192	2.1876	-0.459309
+	}
+}
+{Volume "body_vol2"
+	{Box 1.8957 2.06804 42.0502}
+	{Bone "group01"}
+	{Matrix34
+		0.996425	-0.0844772	0
+		0.0844772	0.996425	0
+		0	0	1
+		20.8144	-2.18197	-0.286972
+	}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "42806647"}
+	{blend none}
+}

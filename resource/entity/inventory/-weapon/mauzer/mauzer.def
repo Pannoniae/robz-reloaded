@@ -4,5 +4,5 @@
 	{extender "stuff"
 		{item "mauzer"}
 	}
-	{nogroupmesh 1}
+	{nogroupmesh 1}	
 }

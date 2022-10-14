@@ -1,0 +1,30 @@
+;Exported by: Vnab
+;Date:        Mon Jun 02 11:54:07 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\окружение\envAM_064_BlocksBrick\block_bruschatka_ser64.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group01"
+			{Position 0.0776458	-0.0317421	11.2334}
+			{VolumeView "group01.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.101461 0.315241}
+		{Extent 9.49076 10.7748}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 18.9815 21.5496 22.7384}
+	{Bone "group01"}
+	{Position -0.179108	-0.283499	0.205466}
+}

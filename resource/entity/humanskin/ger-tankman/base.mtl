@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/humanskin/german/tanker/tanker"}
+	{bump "$/humanskin/german/tanker/tanker bp"}
+	{blend none}
+}

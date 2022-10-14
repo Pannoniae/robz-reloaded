@@ -1,0 +1,68 @@
+;Exported by: NT-Tech_DL
+;Date:        Tue Nov 10 13:42:10 2015
+;File:        C:\Users\NT-Tech_DL\Desktop\Mow re\рес нов\укрепления\depot_fuel_01\depot_fuel_01.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "mesh_0005"
+			{Position -5.04256	6.10138	-0.540378}
+			{VolumeView "mesh_0005.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -2.16869 -23.641}
+		{Extent 34.9915 11.1675}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 23.8089 -0.180107}
+		{Extent 12.7112 8.91942}
+		{Axis 0.25946 0.965754}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center -26.6916 -2.28024}
+		{Extent 10.3986 18.2946}
+		{Axis 0.857309 0.514803}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 69.983 22.335 20.846}
+	{Bone "mesh_0005"}
+	{Position 2.87386	17.5397	10.9634}
+}
+{Volume "body_vol2"
+	{Box 17.6819 25.313 20.2876}
+	{Bone "mesh_0005"}
+	{Matrix34
+		0.964123	0.265457	0
+		-0.265457	0.964123	0
+		0	0	1
+		28.8514	-5.92127	10.6842
+	}
+}
+{Volume "body_vol3"
+	{Box 20.7944 36.5877 17.1093}
+	{Bone "mesh_0005"}
+	{Matrix34
+		0.85727	-0.514867	0
+		0.514867	0.85727	0
+		0	0	1
+		-21.6491	-3.82114	9.09505
+	}
+}

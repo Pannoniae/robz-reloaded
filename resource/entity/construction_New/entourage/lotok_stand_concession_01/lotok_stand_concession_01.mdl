@@ -1,0 +1,50 @@
+;Exported by: Vnab
+;Date:        Wed Oct 22 13:44:29 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\War on terror\lotok_stand_concession_01\lotok_stand_concession_01.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				0.999713	-0.0239482	0
+				0.00236161	0.0985937	-0.995125
+				0.0238316	0.99484	0.0986217
+				-2.03545	2.58858	20.1012
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -3.13952 1.90298}
+		{Extent 33.6152 16.7177}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 67.2304 33.4354 17.257}
+	{Bone "group001"}
+	{Matrix34
+		0.999713	0.00236161	0.0238316
+		-0.0239481	0.0985939	0.994839
+		0	-0.995125	0.0986221
+		-0.996194	10.965	-5.62552
+	}
+}
+{Volume "body_vol2"
+	{Box 36.3534 6.60971 9.91457}
+	{Bone "group001"}
+	{Matrix34
+		0.999713	0.00236165	0.0238316
+		-0.014998	0.83756	0.54614
+		-0.0186703	-0.546341	0.837355
+		-14.9075	-3.43389	7.08601
+	}
+}

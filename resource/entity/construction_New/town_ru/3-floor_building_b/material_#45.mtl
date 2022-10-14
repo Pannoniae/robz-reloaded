@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "door_j01"}
+	{blend none}
+}

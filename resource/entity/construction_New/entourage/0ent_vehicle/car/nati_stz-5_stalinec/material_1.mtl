@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "envsu_005_ttractor"}
+	{blend none}
+}

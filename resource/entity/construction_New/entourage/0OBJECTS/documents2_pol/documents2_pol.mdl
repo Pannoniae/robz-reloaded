@@ -1,0 +1,31 @@
+;Exported by: user
+;Date:        Thu Aug 07 23:36:57 2014
+;File:        C:\Users\user\Desktop\Моддинг\МОДЕЛИ\Готовые\Конвертированные\entourage\0Objects\documents2_pol\documents2_pol.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				1	0	0
+				0	0.958568	-0.284864
+				0	0.284864	0.958568
+				1.47829	0.813609	0.161353
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Box 14.6011 5.05698 0.0534188}
+	{Bone "group001"}
+	{Matrix34
+		1	0	0
+		0	0.958149	0.28627
+		0	-0.28627	0.958149
+		-1.24428	-1.02994	-0.317215
+	}
+}

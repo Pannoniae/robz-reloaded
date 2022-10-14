@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "enveu_002_monument"}
+	{blend none}
+}

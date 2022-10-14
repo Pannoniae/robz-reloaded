@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/humanskin/ger_fjgear_d"}
+	{bump "$/humanskin/ger_rawrecruit_tunic_b"}
+	{specular "$/humanskin/ger_rawrecruit_tunic_s"}
+	{color "229 229 229 25"}
+	{blend none}
+}

@@ -1,0 +1,54 @@
+;Exported by: Vnab
+;Date:        Tue Jun 17 13:14:16 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\Конвертированные\Восток\gate_monastiry_bldAS_009\gate_monastiry.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "3d_object_1"
+			{Position -0.233754	0.180275	66.0437}
+			{VolumeView "3d_object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 52.7912 0.291367}
+		{Extent 31.4954 33.4336}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -53.3293 0.291367}
+		{Extent 31.4954 33.4336}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 62.9909 66.8672 97.3056}
+	{Bone "3d_object_1"}
+	{Position 53.025	-0.471641	-20.0928}
+}
+{Volume "body_vol2"
+	{Box 62.9909 66.8672 97.3056}
+	{Bone "3d_object_1"}
+	{Position -53.0955	-0.471641	-20.0928}
+}
+{Volume "body_vol3"
+	{Box 58.3476 44.6187 64.3539}
+	{Bone "3d_object_1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-0.0572281	-2.12174	31.2414
+	}
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/humanskin/ita_officerbody_01_diff"}
+	{bump "$/humanskin/ita_officerbody_01_bump"}
+	{specular "$/humanskin/ita_officerbody_01_spc"}
+	{color "229 229 229 25"}
+	{blend none}
+}

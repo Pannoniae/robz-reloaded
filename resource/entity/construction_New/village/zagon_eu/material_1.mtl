@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "bld002_middlewoodshed"}
+	{blend test}
+}

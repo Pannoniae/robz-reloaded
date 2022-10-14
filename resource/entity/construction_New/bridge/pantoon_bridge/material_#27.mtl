@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "dark wood 3"}
+	{blend none}
+}

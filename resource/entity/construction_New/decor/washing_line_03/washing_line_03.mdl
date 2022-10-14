@@ -1,0 +1,78 @@
+;Exported by: user
+;Date:        Sun Aug 10 15:26:47 2014
+;File:        C:\Users\user\Desktop\Моддинг\Модели нов\WOT\окружение\env603_WashingLine\env603_WashingLine_3.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				-1.41608	7.91473	0
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -48.097 -17.5588}
+		{Extent 0.931538 0.43363}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 2.45712 1.8466}
+		{Extent 1.59172 0.49804}
+		{Axis 0.0182396 0.999834}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center 42.5056 -18.3869}
+		{Extent 0.499873 1.28636}
+		{Axis 0.423139 0.906065}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 0.888477 0.704657 36.5195}
+	{Bone "object_1"}
+	{Matrix34
+		0.999644	-0.0266954	0.000118732
+		0	0.00445125	0.99999
+		-0.0266957	-0.999634	0.00444967
+		-46.6809	-18.2531	9.64402
+	}
+}
+{Volume "body_vol2"
+	{Box 0.949753 1.22549 36.2744}
+	{Bone "object_1"}
+	{Matrix34
+		0.999999	-0.00164223	0
+		8.79111e-005	0.0535316	0.998566
+		-0.00163987	-0.998565	0.0535316
+		3.87321	-18.1112	-9.76134
+	}
+}
+{Volume "body_vol3"
+	{Box 0.909878 0.671577 35.3553}
+	{Bone "object_1"}
+	{Matrix34
+		0.999292	0.0376117	-0.000654232
+		0	0.0173901	0.999849
+		0.0376174	-0.999141	0.0173778
+		43.9217	-17.6625	10.4722
+	}
+}

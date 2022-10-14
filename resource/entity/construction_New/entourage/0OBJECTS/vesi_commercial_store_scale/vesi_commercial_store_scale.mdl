@@ -1,0 +1,41 @@
+;Exported by: Vnab
+;Date:        Mon Nov 10 14:13:50 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\Red orchestra 2\Объекты\vesi_food_store_scale\vesi_commercial_store_scale.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				0.83207	0.554671	0
+				-0.554671	0.83207	0
+				0	0	1
+				0.668908	0.124663	9.14126
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Box 15.4318 5.86703 3.10608}
+	{Bone "group001"}
+	{Matrix34
+		0.83207	-0.554671	0
+		0.554671	0.83207	0
+		0	0	1
+		-0.48518	0.433683	-7.58822
+	}
+}
+{Volume "body_vol2"
+	{Box 2.07025 15.2371 2.07025}
+	{Bone "group001"}
+	{Matrix34
+		0.83207	-0.554671	0
+		0	0	1
+		-0.554671	-0.83207	0
+		-0.185848	0.843195	1.49378
+	}
+}

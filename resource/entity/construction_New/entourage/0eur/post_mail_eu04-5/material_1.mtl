@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "envbr_004_city_env"}
+	{blend none}
+}

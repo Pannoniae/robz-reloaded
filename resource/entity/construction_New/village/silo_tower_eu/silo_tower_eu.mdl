@@ -1,0 +1,59 @@
+;Exported by: Vnab
+;Date:        Tue Nov 18 15:42:33 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\WOT\Повтор\blr701_farmtower\silo_tower_eu.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				0	-1	0
+				0	0	-1
+				1	0	0
+				-0.0575256	0.253989	30.5037
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.421089 -0.157885}
+		{Extent 33.4884 32.9796}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 0.209602 0.328028}
+		{Extent 42.0158 41.3775}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Cylinder 33.4883 289.536}
+	{Bone "object_1"}
+	{Matrix34
+		0	0	1
+		-1	0	0
+		0	-1	0
+		0.0961005	-114.264	-0.363585
+	}
+}
+{Volume "body_vol2"
+	{Cylinder 42.0158 48.1234}
+	{Bone "object_1"}
+	{Matrix34
+		0	0	1
+		-1	0	0
+		0	-1	0
+		0.582016	6.44207	0.267131
+	}
+}

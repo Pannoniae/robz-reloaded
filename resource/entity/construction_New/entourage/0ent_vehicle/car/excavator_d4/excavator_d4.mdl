@@ -1,0 +1,97 @@
+;Exported by: Vnab
+;Date:        Wed Mar 25 14:21:43 2015
+;File:        C:\Users\Vnab\Desktop\Моддинг\Выбр\Техника\Авто\excavator_d4 LVA082\excavator_d4.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				-1	0	0
+				0	0	-1
+				0	-1	0
+				0.951594	6.12548	0.322344
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 1.0989 3.75034}
+		{Extent 19.6916 39.9753}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 0.935548 -3.28035}
+		{Extent 10.406 35.1934}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center -4.22651 -3.64102}
+		{Extent 40.1886 0.882854}
+		{Axis 0.105267 0.994444}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol4"
+	{Obb2
+		{Center 0.789169 -39.2045}
+		{Extent 18.4258 1.6912}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 30.2947 16.514 61.5005}
+	{Bone "object_1"}
+	{Matrix34
+		-1.3	0	0
+		0	-1.3	0
+		0	0	1.3
+		-0.147307	-10.4027	9.87581
+	}
+}
+{Volume "body_vol2"
+	{Box 16.0093 54.1438 17.4483}
+	{Bone "object_1"}
+	{Matrix34
+		-1.3	0	0
+		0	0	-1.3
+		0	-1.3	0
+		0.0160471	-23.664	2.84513
+	}
+}
+{Volume "body_vol3"
+	{Box 61.8272 1.6059 1.28472}
+	{Bone "object_1"}
+	{Matrix34
+		-0.13531	0	1.29294
+		0	-1.3	0
+		1.29294	0	0.13531
+		5.17811	-57.1158	2.48446
+	}
+}
+{Volume "body_vol4"
+	{Box 28.3474 1.12745 2.7381}
+	{Bone "object_1"}
+	{Matrix34
+		-1.3	0	0
+		0	-0.819911	1.00883
+		0	1.00883	0.819911
+		0.16242	-51.9571	-33.079
+	}
+}

@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/humanskin/rom_inf_base_diff"}
+	{bump "$/humanskin/rom_inf_base_bump"}
+	{blend none}
+}

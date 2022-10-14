@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "sidecap ss tank"}
+	{blend none}
+}

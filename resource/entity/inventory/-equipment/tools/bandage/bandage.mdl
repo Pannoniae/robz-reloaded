@@ -1,0 +1,54 @@
+;Exported by: Артем
+;Date:        Thu Feb 26 14:17:14 2015
+;File:        D:\Autodesk\Low poly\freelance\DMS 2.0\Weapons\Grenades & stuff\Bandage\bandage+.max
+{Skeleton
+	{bone "bandage"
+		{parameters "ID=mgun;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "bandage.ply"}
+			{VolumeView "bandage_lod1.ply"}
+		}
+		{bone "handle"
+			{Position -0.0593725	1.27842	0.435696}
+		}
+	}
+}
+{Volume "body"
+	{Box 4.36273 2.86445 1.5157}
+	{Bone "bandage"}
+	{Position 0.0263899	0.207022	0.738394}
+}
+{Volume "select"
+	{Box 9.2181 6.16445 2.88458}
+	{Bone "bandage"}
+	{Position -0.04296	0.472886	0.573618}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -0.0280499	-7.05062	14.8453}
+			{lookat -0.0332565	-0.08846	0.194779}
+			{fov 15.1893}
+			{horizon -179}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.431748	0.0711323	-0.241938}
+			}
+			{"1"
+				{type directional}
+				{direction 0.225872	-0.439524	0.0761629}
+			}
+			{"2"
+				{type directional}
+				{direction 0.0963939	0.225326	-0.435817}
+			}
+		}
+	}
+}

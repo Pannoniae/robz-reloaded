@@ -1,0 +1,78 @@
+;Exported by: Vnab
+;Date:        Wed Nov 26 14:53:01 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\WOT\здания европа\house_eur3_3,5et_ugol\house_eur3_3,5et_ugol.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				-0.44501	0.895526	0
+				0	0	-1
+				-0.895526	-0.44501	0
+				-31.233	26.4551	26.5613
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -121.88 -19.8951}
+		{Extent 86.2228 85.7979}
+		{Axis 0.951106 0.308866}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 90.0441 -29.5937}
+		{Extent 84.7372 84.7361}
+		{Axis 0.454487 0.890753}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center -8.13622 -1.92863}
+		{Extent 54.2234 73.0095}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 171.636 170.782 244.219}
+	{Bone "object_1"}
+	{Matrix34
+		-0.703233	0	-0.71096
+		0.71096	0	-0.703233
+		0	-1	0
+		34.4642	-95.5481	84.0962
+	}
+}
+{Volume "body_vol2"
+	{Box 168.221 168.221 216.04}
+	{Bone "object_1"}
+	{Matrix34
+		0.00314292	0	-0.999995
+		0.999995	0	0.00314292
+		0	-1	0
+		-51.1588	-81.4586	-110.003
+	}
+}
+{Volume "body_vol3"
+	{Box 108.447 146.019 213.478}
+	{Bone "object_1"}
+	{Matrix34
+		-0.44501	0	-0.895526
+		0.895526	0	-0.44501
+		0	-1	0
+		-32.2424	-80.1778	-9.76926
+	}
+}

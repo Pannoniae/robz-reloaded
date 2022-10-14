@@ -1,0 +1,59 @@
+;Exported by: Vnab
+;Date:        Thu Dec 11 10:56:06 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\Конвертированные\Ruins\ruins_ugol4\ruin_rus_ugol4.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group01"
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				-6.27169	6.31724	49.5204
+			}
+			{VolumeView "group01.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 24.2747 -15.7095}
+		{Extent 60.23 93.2886}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -25.6378 33.0019}
+		{Extent 91.2623 60.2011}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 109.509 169.616 65.8701}
+	{Bone "group01"}
+	{Matrix34
+		1.1	0	0
+		0	1.1	0
+		0	0	1.1
+		-30.5464	-9.39228	-15.1566
+	}
+}
+{Volume "body_vol2"
+	{Box 165.931 109.456 62.8793}
+	{Bone "group01"}
+	{Matrix34
+		1.1	0	0
+		0	1.1	0
+		0	0	1.1
+		19.3661	39.3191	-16.8016
+	}
+}

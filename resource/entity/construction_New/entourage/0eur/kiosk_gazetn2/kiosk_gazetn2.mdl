@@ -1,0 +1,59 @@
+;Exported by: Vnab
+;Date:        Fri May 30 10:56:49 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\окружение\kiosk_gazetn2\kiosk_gazetn2.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group01"
+			{Matrix34
+				0.999946	0.0104127	0
+				-0.0104127	0.999946	0
+				0	0	1
+				0.241287	-2.26027	32.4785
+			}
+			{VolumeView "group01.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.439759 0.311304}
+		{Extent 13.718 15.4945}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -0.834518 14.7202}
+		{Extent 24.3767 1.08561}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 27.4361 30.989 50.5298}
+	{Bone "group01"}
+	{Matrix34
+		0.999946	-0.0104125	0
+		0.0104125	0.999946	0
+		0	0	1
+		-0.660715	1.95595	-7.21362
+	}
+}
+{Volume "body_vol2"
+	{Box 48.7533 2.1712 42.9876}
+	{Bone "group01"}
+	{Matrix34
+		0.999946	-0.0104125	0
+		0.0104125	0.999946	0
+		0	0	1
+		-1.20549	-12.448	-10.9847
+	}
+}

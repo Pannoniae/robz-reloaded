@@ -1,13 +1,13 @@
 {fx
 	{fire}
-	{#+ particleview
+	{particleview
 		{generator
 			{totalparticles 1}
 			{emissionarea
 				{radius 0}
 				{alpha0 10 10}
 				{alpha1 -1}
-				{speed 0.15}
+				{speed 0.3}
 			}
 			{particleinit
 				{speed 0}
@@ -21,7 +21,6 @@
 			{gravity
 				{value 0}
 			}
-			{nodependonwind}
 		}
 		{visualizer
 			{stage 
@@ -44,7 +43,7 @@
 							{max 0.6}
 						}
 						{linear
-							{min 0.7}
+							{min 0.5}
 							{max 0}
 						}
 					}

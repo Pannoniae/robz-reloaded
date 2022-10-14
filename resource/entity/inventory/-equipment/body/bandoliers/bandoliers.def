@@ -1,11 +1,17 @@
 {game_entity
-	(include "/properties/stuff_small.ext")
+	(include "/properties/bag.ext")
 	{extender "stuff"
 		{item "bandoliers"}
 	}
 	{Extension "armor_folgore_mg.mdl"}
-	{Volume "body"
 	}
-	{Volume "select"
+        {extender "inventory"
+                {box
+                        {Size 1 4}
+                }
+        }
+	{Volume "body"
+	        {able {visible} {select} {contact_ground} {touch} {contact} {blast}}
+		{Thickness 10}
 	}
 }

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/humanskin/hun_m40helmet_diff"}
+	{bump "$/humanskin/ger_m40helmet_bump"}
+	{specular "$/humanskin/ger_m40helmet_spc"}
+	{color "229 229 229 25"}
+	{blend none}
+}

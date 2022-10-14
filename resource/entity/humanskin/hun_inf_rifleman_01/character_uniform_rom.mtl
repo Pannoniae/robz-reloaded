@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/humanskin/rom_inf_base_diff"}
+	{bump "$/humanskin/rom_inf_base_bump"}
+	{specular "$/humanskin/ger_m40_base_spc"}
+	{color "229 229 229 25"}
+	{blend none}
+}

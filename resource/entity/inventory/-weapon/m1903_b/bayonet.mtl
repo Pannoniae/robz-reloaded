@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "garand bayonet"}
+	{blend none}
+}

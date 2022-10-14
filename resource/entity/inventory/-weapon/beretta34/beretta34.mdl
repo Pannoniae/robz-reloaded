@@ -1,0 +1,89 @@
+;Exported by: Kalinski
+;Date:        Wed Dec 14 00:40:01 2016
+;File:        C:\Users\Kalinski\Desktop\ita\beretta 34.max
+{Skeleton
+	{bone "beretta34"
+		{parameters "CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "beretta34.ply"}
+		{bone "fxshell"
+			{Matrix34
+				0	0	1
+				0	1	0
+				-1	0	0
+				1.47249	1.43239	0.426479
+			}
+		}
+		{bone "handle"
+			{Position 1.7236	1.40462	0}
+		}
+		{bone "foresight3"
+			{Position 3.01365	1.20391	0}
+		}
+	}
+}
+{Volume "body"
+	{Box 3.43357 2.12208 1.17169}
+	{Bone "beretta34"}
+	{Position 1.23938	0.339065	-0.0082702}
+}
+{Volume "select"
+	{Box 4.75921 2.94566 1.17169}
+	{Bone "beretta34"}
+	{Matrix34
+		1.0774	0	0
+		0	1.0774	0
+		0	0	1.2924
+		1.53508	0.182378	-0.0614167
+	}
+}
+{Extender "preview"
+	{"stuff"
+		{camera
+			{origin 1.535	-0.0182674	10.3656}
+			{lookat 1.53407	-0.255755	1.3304}
+			{fov 45}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 2.4313	-0.998642	1.30826}
+			}
+			{"1"
+				{type point}
+				{position -0.0832233	0.404694	1.33739}
+			}
+			{"2"
+				{type directional}
+				{direction 0.00821002	-0.0186623	-0.499584}
+				{ambient 0xffffff}
+			}
+		}
+	}
+	{"stuff_primary"
+		{camera
+			{origin 1.54227	-0.00747335	10.3279}
+			{lookat 1.54515	-0.244961	1.3304}
+			{fov 45}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -0.0905538	0.40552	1.33739}
+			}
+			{"1"
+				{type point}
+				{position 2.44351	-1.00565	1.30826}
+			}
+			{"2"
+				{type directional}
+				{direction 0.00821002	-0.0186623	-0.499584}
+				{ambient 0xffffff}
+			}
+		}
+	}
+}

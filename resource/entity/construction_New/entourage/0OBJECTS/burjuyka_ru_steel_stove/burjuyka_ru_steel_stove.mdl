@@ -1,0 +1,30 @@
+;Exported by: Vnab
+;Date:        Mon Nov 10 12:04:03 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\Red orchestra 2\Объекты\burjuyka_ru_steel_stove\burjuyka_ru_steel_stove.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Position -0.103971	0.103955	17.4674}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 0.0238819 -0.119411}
+		{Extent 6.20887 6.11454}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Cylinder 6.20887 22.0673}
+	{Bone "group001"}
+	{Position 0.127853	0.0154562	-2.01646}
+}

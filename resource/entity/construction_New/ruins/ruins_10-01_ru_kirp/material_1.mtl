@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "bldsu_83_11_ruins_wall1"}
+	{blend none}
+}

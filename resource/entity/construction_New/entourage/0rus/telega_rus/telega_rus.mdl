@@ -1,0 +1,40 @@
+;Exported by: Vnab
+;Date:        Mon Aug 05 12:18:57 2013
+;File:        D:\INSTALL\Моддинг\Сцены\Death to sp\5 Расплата\telega_rus\telega_rus.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "drawcall_0266"
+			{Matrix34
+				0.997521	0.0616892	0.033849
+				-0.0609696	0.997899	-0.0218959
+				-0.0351286	0.0197779	0.999187
+				1.42574	-76.3754	10.1115
+			}
+			{VolumeView "drawcall_0266.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -3.64057 -16.6982}
+		{Extent 21.0386 30.7231}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 42.0773 61.4462 18.3671}
+	{Bone "drawcall_0266"}
+	{Matrix34
+		0.997521	-0.0609696	-0.0351286
+		0.0616892	0.997899	0.0197778
+		0.033849	-0.0218959	0.999187
+		0.736981	93.1552	3.4682
+	}
+}

@@ -1,0 +1,30 @@
+;Exported by: Vnab
+;Date:        Thu May 08 12:33:53 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\Здания\Восток\house_kor10_1_1et_KR_010\house_kor10_1_1et.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "3d_object_1"
+			{Position 12.2033	0.64904	36.56}
+			{VolumeView "3d_object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 8.22565 -0.173134}
+		{Extent 101.179 47.9902}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 202.359 95.9804 93.5809}
+	{Bone "3d_object_1"}
+	{Position -3.97768	-0.475906	-12.2076}
+}

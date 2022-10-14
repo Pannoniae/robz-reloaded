@@ -1,0 +1,109 @@
+;Exported by: Wibi
+;Date:        Sat May 23 15:30:31 2015
+;File:        C:\Program Files (x86)\3dmax plugin for GEM 2.0\samples\B.A.R.max
+{Skeleton
+	{bone "usa_bar_upgd2"
+		{parameters "Type = game_entity;Model = entity/weapon/BAR;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "usa_bar_upgd2.ply"}
+		{bone "sights"
+			{Matrix34
+				0	0	-1
+				1	0	0
+				0	-1	0
+				4.07568	1.19352	0.542532
+			}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0	1
+				0	1	0
+				-1	0	0
+				2.44865	1.67252	0.674171
+			}
+		}
+		{bone "foresight3"
+			{parameters "Voxels=0;"}
+			{Position 16.8696	1.6032	0.112381}
+		}
+		{bone "handle"
+			{parameters "Voxels=0;"}
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				4.54744	2.11697	0.141069
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 27.7845 9.72703 4.3449}
+	{Bone "usa_bar_upgd2"}
+	{Matrix34
+		0.872481	0	0
+		0	0.580135	0
+		0	0	0.808853
+		4.49096	0.590226	-0.0601271
+	}
+}
+{Volume "select"
+	{Box 28.1887 10.2504 1.26089}
+	{Bone "usa_bar_upgd2"}
+	{Matrix34
+		0.909095	0	0
+		0	0.808853	0
+		0	0	4.12764
+		4.30071	0.460519	0.290995
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 8.80223	-15.3702	25.9586}
+			{lookat 6.20755	-0.324915	-0.123015}
+			{fov 45}
+			{horizon -170.307}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 5.76904	4.25268	25.9709}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0101697	0.498574	-0.0363347}
+			}
+			{"2"
+				{type point}
+				{position 5.76904	29.8796	3.44789}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 7.39298	-5.74809	30.9363}
+			{lookat 6.69137	-2.88633	13.497}
+			{fov 45}
+			{horizon 177.956}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 5.79304	28.7239	7.59465}
+			}
+			{"1"
+				{type point}
+				{position 5.79304	1.97641	25.95}
+			}
+			{"2"
+				{type directional}
+				{direction -0.00503225	0.494215	-0.0756686}
+			}
+		}
+	}
+}

@@ -1,0 +1,59 @@
+;Exported by: Vnab
+;Date:        Tue Nov 25 10:39:49 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\Конвертированные\town_jap\house_jap02_2et bldAS_002_VHouseStoneWood02\house_jap02_2et.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				0.797818	3.23635	-6.74681
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.0303421 -0.421131}
+		{Extent 59.5835 95.2682}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -0.0303001 32.7551}
+		{Extent 49.1073 61.8752}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 34.0477 54.4389 25.8164}
+	{Bone "object_1"}
+	{Matrix34
+		3.5	0	0
+		0	0	3.5
+		0	-3.5	0
+		-0.82816	-27.8111	-2.81522
+	}
+}
+{Volume "body_vol2"
+	{Box 28.0613 35.3573 12.7211}
+	{Bone "object_1"}
+	{Matrix34
+		3.5	0	0
+		0	0	3.5
+		0	-3.5	0
+		-0.828116	-95.4497	-35.9915
+	}
+}

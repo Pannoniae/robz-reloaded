@@ -1,0 +1,97 @@
+;Exported by: Vnab
+;Date:        Thu Dec 11 16:35:22 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\Конвертированные\town_e\ger_house4et_4301\ger_house4et_301.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "3d_object_1"
+			{Matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				0.781185	2.65042	119.038
+			}
+			{VolumeView "3d_object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 1.01316 -20.5526}
+		{Extent 65.8798 46.7786}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -60.585 46.2625}
+		{Extent 5.4575 5.26259}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center 1.22766 45.8611}
+		{Extent 5.26259 4.87277}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol4"
+	{Obb2
+		{Center 63.5445 46.5769}
+		{Extent 4.54815 5.37508}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 85.8053 120.842 251.695}
+	{Bone "3d_object_1"}
+	{Matrix34
+		1.09034	0	0
+		0	1.09034	0
+		0	0	1.09034
+		17.9022	-0.231979	-28.4597
+	}
+}
+{Volume "body_vol2"
+	{Box 9.65309 10.0106 250.784}
+	{Bone "3d_object_1"}
+	{Matrix34
+		1.09034	0	0
+		0	1.09034	0
+		0	0	1.09034
+		-48.9129	61.3662	-28.9567
+	}
+}
+{Volume "body_vol3"
+	{Box 8.93805 9.65309 234.604}
+	{Bone "3d_object_1"}
+	{Matrix34
+		1.09034	0	0
+		0	1.09034	0
+		0	0	1.09034
+		-48.5115	-0.446472	-37.7774
+	}
+}
+{Volume "body_vol4"
+	{Box 9.85944 8.3426 250.784}
+	{Bone "3d_object_1"}
+	{Matrix34
+		1.09034	0	0
+		0	1.09034	0
+		0	0	1.09034
+		-49.2273	-62.7634	-28.9567
+	}
+}

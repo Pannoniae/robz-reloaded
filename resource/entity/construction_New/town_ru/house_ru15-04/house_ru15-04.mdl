@@ -1,0 +1,111 @@
+;Exported by: Vnab
+;Date:        Fri Dec 05 11:22:58 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\Конвертированные\town_ru\house_ru15-04\house_ru15-04.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group01"
+			{Position -1.49411	319.917	188.616}
+			{VolumeView "group01.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 6.69 -109.351}
+		{Extent 580.942 207.622}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -470.439 -321.064}
+		{Extent 99.8182 425.226}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center 368.033 -356.9}
+		{Extent 159.709 455.171}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol4"
+	{Obb2
+		{Center 2.81738 43.7845}
+		{Extent 131.989 110.814}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol5"
+	{Obb2
+		{Center 500.106 -144.674}
+		{Extent 83.2869 255.507}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 1452.36 519.055 309.436}
+	{Bone "group01"}
+	{Matrix34
+		0.8	0	0
+		0	0.8	0
+		0	0	0.8
+		8.18412	-210.566	-69.654
+	}
+}
+{Volume "body_vol2"
+	{Box 249.546 1063.06 309.436}
+	{Bone "group01"}
+	{Matrix34
+		0.8	0	0
+		0	0.8	0
+		0	0	0.8
+		-468.944	1.14685	-69.654
+	}
+}
+{Volume "body_vol3"
+	{Box 399.273 1137.93 324.409}
+	{Bone "group01"}
+	{Matrix34
+		0.8	0	0
+		0	0.8	0
+		0	0	0.8
+		369.527	36.9828	-63.6649
+	}
+}
+{Volume "body_vol4"
+	{Box 329.972 277.035 451.726}
+	{Bone "group01"}
+	{Matrix34
+		0.8	0	0
+		0	0.8	0
+		0	0	0.8
+		4.3115	-363.701	-12.7383
+	}
+}
+{Volume "body_vol5"
+	{Box 208.217 638.768 310.561}
+	{Bone "group01"}
+	{Matrix34
+		0.8	0	0
+		0	0.8	0
+		0	0	0.8
+		501.6	-175.243	-69.204
+	}
+}

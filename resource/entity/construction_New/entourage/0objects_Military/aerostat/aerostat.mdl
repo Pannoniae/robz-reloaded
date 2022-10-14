@@ -1,0 +1,26 @@
+;Exported by: Vnab
+;Date:        Wed Jul 23 16:27:44 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\ita\meshNR_001_Aerostat\Aerostat.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Position 26.1935	1.87705	91.4733}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Cylinder 40.1683 110.307}
+	{Bone "object_1"}
+	{Matrix34
+		0	-1	0
+		0	0	1
+		-1	0	0
+		-36.3083	0.0275235	42.4989
+	}
+}

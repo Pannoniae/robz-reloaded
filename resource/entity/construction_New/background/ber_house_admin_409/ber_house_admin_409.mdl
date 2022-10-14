@@ -1,0 +1,48 @@
+;Exported by: Vnab
+;Date:        Fri Jun 06 12:54:56 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\Здания\Европа\ber_house_admin_409\ber_house_admin_409.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "3d_object_1"
+			{Position 2.90823	-8.66224	129.963}
+			{VolumeView "3d_object_1.ply"}
+			{bone "box01"
+				{Position 0.664128	28.6311	-151.836}
+				{visibility 0}
+			}
+		}
+	}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 2.27271 142.89}
+		{Extent 161.717 12.7193}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center 3.36295 144.344}
+		{Extent 181.704 54.1479}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body_vol2"
+	{Box 323.434 25.4386 121.379}
+	{Bone "3d_object_1"}
+	{Position -0.635521	-134.228	-91.1463}
+}
+{Volume "body_vol3"
+	{Polyhedron "body_vol3.vol"}
+	{Bone "3d_object_1"}
+	{Position 0.454727	-135.682	-133.731}
+}

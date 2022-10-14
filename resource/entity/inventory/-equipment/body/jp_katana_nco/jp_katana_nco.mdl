@@ -1,0 +1,14 @@
+;Exported by: Rafii
+;Date:        Thu Sep 15 18:17:23 2016
+;File:        C:\Users\Rafii\Desktop\officer4.max
+{Skeleton
+	{bone "snlf_gear_hero_commander"
+		{parameters "Type = game_entity;Model = entity/body/snlf_officer;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "snlf_gear_hero_commander.ply"}
+	}
+}

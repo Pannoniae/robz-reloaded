@@ -1,0 +1,59 @@
+;Exported by: Vnab
+;Date:        Wed Dec 10 11:44:08 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\Конвертированные\fortification\zenit_tower_ger\zenit_tower_ger.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group01"
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				-1.04676	44.1652	211.318
+			}
+			{VolumeView "group01.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -2.51231 -41.637}
+		{Extent 207.136 202.157}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -0.520569 -45.6463}
+		{Extent 189.211 184.232}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 295.909 288.796 200.592}
+	{Bone "group01"}
+	{Matrix34
+		1.4	0	0
+		0	1.4	0
+		0	0	1.4
+		1.46555	2.52814	-72.942
+	}
+}
+{Volume "body_vol2"
+	{Box 270.302 263.188 68.2867}
+	{Bone "group01"}
+	{Matrix34
+		1.4	0	0
+		0	1.4	0
+		0	0	1.4
+		-0.526199	-1.48117	117.656
+	}
+}

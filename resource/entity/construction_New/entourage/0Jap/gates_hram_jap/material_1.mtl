@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "envja_005_torii"}
+	{blend none}
+}

@@ -1,0 +1,154 @@
+;Exported by: Vnab
+;Date:        Mon Nov 10 11:40:38 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\Achtung Panzer\fw-190_Wurger_ger\fw-190_Wurger_ger.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				0.999996	0	0.00267982
+				0.000660331	0.969166	-0.246408
+				-0.00259719	0.246409	0.969163
+				-0.0693684	25.6554	19.5483
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -1.62735 -6.96612}
+		{Extent 51.3075 12.1477}
+		{Axis 0.0356776 0.999363}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 0.830089 -88.0347}
+		{Extent 30.4932 7.20724}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center 0.0906692 -16.1107}
+		{Extent 5.64237 16.3553}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol4"
+	{Obb2
+		{Center 0.676959 -95.9785}
+		{Extent 0.65941 12.5097}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol5"
+	{Obb2
+		{Center 0.582705 -74.9328}
+		{Extent 1.44094 19.8018}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol6"
+	{Obb2
+		{Center -0.110474 2.75436}
+		{Extent 91.8339 12.4077}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol7"
+	{Obb2
+		{Center -0.768303 32.1824}
+		{Extent 33.066 3.33152}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "group001"}
+	{Matrix34
+		1	0	0
+		0	0.029729	0.999558
+		0	-0.999558	0.0297292
+		0.220793	-70.7775	8.00268
+	}
+}
+{Volume "body_vol2"
+	{Box 16.4777 3.93929 0.576481}
+	{Bone "group001"}
+	{Matrix34
+		3.7	0	0
+		0	3.68005	-0.383669
+		0	0.383667	3.68006
+		0.880041	62.2417	8.34704
+	}
+}
+{Volume "body_vol3"
+	{Box 3.02653 7.30209 7.15797}
+	{Bone "group001"}
+	{Matrix34
+		3.7	0	0
+		0	3.7	0
+		0	0	3.7
+		0.192159	-12.2039	9.26445
+	}
+}
+{Volume "body_vol4"
+	{Box 0.339694 5.70687 4.99617}
+	{Bone "group001"}
+	{Matrix34
+		3.7	0	0
+		0	3.7	0
+		0	0	3.7
+		0.731716	69.4985	12.0429
+	}
+}
+{Volume "body_vol5"
+	{Box 10.3697 2.8707 0.761615}
+	{Bone "group001"}
+	{Matrix34
+		0	-3.67195	0.454755
+		0	0.454753	3.67195
+		-3.7	0	0
+		0.631088	49.6878	4.55207
+	}
+}
+{Volume "body_vol6"
+	{Box 49.6323 6.80443 0.800521}
+	{Bone "group001"}
+	{Matrix34
+		3.7	0	0
+		0	3.68991	-0.273118
+		0	0.273116	3.68991
+		-0.00492236	-30.8613	6.08724
+	}
+}
+{Volume "body_vol7"
+	{Box 1.80082 3.60164 17.8735}
+	{Bone "group001"}
+	{Matrix34
+		0	-3.58591	-0.911713
+		0.00991503	-0.911709	3.5859
+		-3.69999	-0.00244258	0.00960946
+		-0.733753	-52.8534	-26.8424
+	}
+}

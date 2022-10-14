@@ -1,0 +1,78 @@
+;Exported by: Vnab
+;Date:        Wed Oct 29 13:16:49 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\Company of heroes\Техника\car_eu9_brown_coupe\car_eu9_brown_coupe.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				-0.0262165	-0.999656	0.00109794
+				0.297274	-0.00884523	-0.954751
+				0.954432	-0.0247038	0.297404
+				-0.714029	-0.354586	13.7151
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.0929389 -9.94695}
+		{Extent 12.8632 18.3612}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -0.146716 18.6313}
+		{Extent 9.53575 10.1226}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center 0.2934 22.5285}
+		{Extent 15.5506 7.04179}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 25.7263 36.7223 29.2533}
+	{Bone "group001"}
+	{Matrix34
+		-0.0262165	0.297274	0.954432
+		-0.999656	-0.00884461	-0.0247039
+		0.00109713	-0.954751	0.297404
+		-10.3133	-0.776817	0.609408
+	}
+}
+{Volume "body_vol2"
+	{Box 19.0715 20.2451 18.9248}
+	{Bone "group001"}
+	{Matrix34
+		-0.0262165	0.297274	0.954432
+		-0.999656	-0.00884461	-0.0247039
+		0.00109713	-0.954751	0.297404
+		18.2509	4.39058	-0.271801
+	}
+}
+{Volume "body_vol3"
+	{Box 31.1012 14.0836 13.2033}
+	{Bone "group001"}
+	{Matrix34
+		-0.0262165	0.297274	0.954432
+		-0.999656	-0.00884461	-0.0247039
+		0.00109713	-0.954751	0.297404
+		22.1321	7.28708	-0.606229
+	}
+}

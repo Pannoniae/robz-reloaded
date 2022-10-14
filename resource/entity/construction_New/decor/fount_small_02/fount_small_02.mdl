@@ -1,0 +1,30 @@
+;Exported by: Vnab
+;Date:        Tue Apr 22 11:47:20 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\Окружение\bld4502_fountainsmall\fount_small.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Position -2.0864	2.95074	39.8721}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body_vol_"
+	{Obb2
+		{Center -1.59891 -0.0213303}
+		{Extent 47.9173 47.9173}
+		{Axis 0.122598 0.992456}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body_vol_"
+	{Polyhedron "body_vol_.vol"}
+	{Bone "object_1"}
+	{Position 0.487488	-2.92941	-39.8721}
+}

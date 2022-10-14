@@ -1,0 +1,40 @@
+;Exported by: Vnab
+;Date:        Thu Mar 26 13:13:56 2015
+;File:        C:\Users\Vnab\Desktop\Моддинг\Выбр\Здания\Порт\buoy_limiting_01\buoy_limiting_01.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				-0.416554	0.525589	0.254393
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.273644 -0.491714}
+		{Extent 10.1394 10.1394}
+		{Axis 0.122598 0.992456}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		0.142911	13.6629	-0.0338739
+	}
+}

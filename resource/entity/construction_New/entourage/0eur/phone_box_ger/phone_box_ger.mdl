@@ -1,0 +1,40 @@
+;Exported by: user
+;Date:        Fri Aug 08 00:47:32 2014
+;File:        C:\Users\user\Desktop\Моддинг\Модели нов\Codename Panzers Cold War\Окружение\phone_box_ger\phone_box_ger.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				0.999949	-0.0100983	0
+				0.00175355	0.17364	-0.984808
+				0.00994487	0.984757	0.173648
+				-0.00200462	-1.15407	21.8902
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 0.0615358 -0.525548}
+		{Extent 9.11681 6.33904}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 18.2336 12.6781 45.0142}
+	{Bone "group001"}
+	{Matrix34
+		0.999949	0.00175359	0.00994522
+		-0.0100986	0.173639	0.984757
+		0	-0.984808	0.173648
+		0.046576	-0.31576	1.76177
+	}
+}

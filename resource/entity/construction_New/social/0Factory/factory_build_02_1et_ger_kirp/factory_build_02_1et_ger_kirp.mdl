@@ -1,0 +1,59 @@
+;Exported by: Vnab
+;Date:        Tue Nov 18 16:48:37 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\Cities in Motion\Здания\factory_build_02_1et_ger_kirp\factory_build_02_1et_ger_kirp.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				0.99975	0.0223574	0
+				-0.0223574	0.99975	0
+				0	0	1
+				0.601501	-5.39301	60.4437
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.562744 1.85514}
+		{Extent 79.3318 126.593}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -0.892761 124.433}
+		{Extent 38.3415 5.02092}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 158.663 253.186 92.2724}
+	{Bone "group001"}
+	{Matrix34
+		0.99975	-0.0223575	0
+		0.0223575	0.99975	0
+		0	0	1
+		-1.08486	3.56302	-17.1133
+	}
+}
+{Volume "body_vol2"
+	{Box 76.6831 14.302 10.0418}
+	{Bone "group001"}
+	{Matrix34
+		0.99975	-0.0223575	0
+		0	0	1
+		-0.0223575	-0.99975	0
+		-4.15532	-118.977	40.8019
+	}
+}

@@ -1,0 +1,63 @@
+;Exported by: Vnab
+;Date:        Tue Jun 17 12:13:02 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\Конвертированные\entourage\watertower_b_rw\watertower_b_rw.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group01"
+			{Matrix34
+				0.999848	0.0174481	0.000386715
+				-0.0174524	0.999602	0.0221648
+				0	-0.0221682	0.999754
+				4.28714	4.13968	65.2596
+			}
+			{VolumeView "group01.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -3.4973 1.41179}
+		{Extent 13.0956 32.7129}
+		{Axis 0.0182398 0.999834}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -4.64018 3.27613}
+		{Extent 34.1859 12.4696}
+		{Axis 0.0182398 0.999834}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center -3.63706 0.0900091}
+		{Extent 39.4112 39.272}
+		{Axis 0.0182398 0.999834}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 65.3853 25.0003 51.6737}
+	{Bone "group01"}
+	{Position -7.89597	-6.32221	-40.869}
+}
+{Volume "body_vol2"
+	{Box 24.8656 67.2147 52.0623}
+	{Bone "group01"}
+	{Position -9.07114	-8.16247	-40.6747}
+}
+{Volume "body_vol3"
+	{Cylinder 39.2583 67.9917}
+	{Bone "group01"}
+	{Position -7.99024	-3.71403	17.0388}
+}

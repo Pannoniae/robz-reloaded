@@ -1,0 +1,44 @@
+;Exported by: Vnab
+;Date:        Thu May 29 11:50:50 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\Здания\Восток\bldKR_003_монастырь2\monastiry_main2.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "3d_object_1"
+			{Position 34.9974	-22.0491	48.8139}
+			{VolumeView "3d_object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -90.6596 22.9008}
+		{Extent 58.0001 106.333}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 90.2466 -24.5116}
+		{Extent 121.984 58.9207}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 116 212.667 117.841}
+	{Bone "3d_object_1"}
+	{Position -125.657	-0.851707	-23.0153}
+}
+{Volume "body_vol2"
+	{Box 243.968 117.841 121.524}
+	{Bone "3d_object_1"}
+	{Position 55.2492	46.5607	-21.174}
+}

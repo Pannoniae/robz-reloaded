@@ -1,0 +1,8 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{Extension "sten_mkv_b.mdl"}
+	{extender "stuff"
+		{item "sten_mkv_b"}
+	}
+	{nogroupmesh 1}
+}

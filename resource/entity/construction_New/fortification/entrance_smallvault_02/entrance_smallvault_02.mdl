@@ -1,0 +1,78 @@
+;Exported by: user
+;Date:        Tue Aug 19 17:02:07 2014
+;File:        C:\Users\user\Desktop\Моддинг\Модели нов\WOT\здания разн\entrance_smallVault_02_envSU_002\entrance_smallVault_02.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				-1	0	0
+				0	0	-1
+				0	-1	0
+				-0.654624	11.3374	1.56125
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.55969 -6.07119}
+		{Extent 35.0427 19.8006}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -22.0779 11.6064}
+		{Extent 4.00011 39.3001}
+		{Axis 0.743393 0.668854}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center 22.2781 12.6989}
+		{Extent 37.4957 4.08126}
+		{Axis 0.669446 0.742861}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 70.0855 39.6011 38.7464}
+	{Bone "object_1"}
+	{Matrix34
+		-1	0	0
+		0	0	-1
+		0	-1	0
+		-0.0949325	-15.9673	5.26623
+	}
+}
+{Volume "body_vol2"
+	{Polyhedron "body_vol2.vol"}
+	{Bone "object_1"}
+	{Matrix34
+		-0.740449	0	0.672113
+		-0.672113	0	-0.740449
+		0	-1	0
+		21.4233	3.40347	22.9438
+	}
+}
+{Volume "body_vol3"
+	{Polyhedron "body_vol3.vol"}
+	{Bone "object_1"}
+	{Matrix34
+		-0.747377	0	-0.664401
+		0.664401	0	-0.747377
+		0	-1	0
+		-22.9327	3.40347	24.0364
+	}
+}

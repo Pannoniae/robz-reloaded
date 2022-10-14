@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "envnw_003_yacht"}
+	{blend none}
+}

@@ -1,0 +1,27 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{obstacleid "unbreakable" "construction" }
+	{props "wood" "shed" "delete_after_blast" "burning"}
+	{Extension "canopy_bamboo_08.mdl"}
+	{Volume "body"
+		{Tags  "body"}
+		{Thickness 10}
+		{able {visible 1}{obstacle 0}}
+	}
+	{Volume "body_vol2"
+		{Tags  "body"}
+		{Thickness 10}
+		{able {visible 1}}
+	}
+	{Volume "body_vol3"
+		{Tags  "body"}
+		{Thickness 10}
+		{able {visible 1}}
+	}
+	{Volume "body_vol4"
+		{Tags  "body"}
+		{Thickness 10}
+		{able {visible 1}}
+	}
+	{lodclass "decor_medium"}
+}

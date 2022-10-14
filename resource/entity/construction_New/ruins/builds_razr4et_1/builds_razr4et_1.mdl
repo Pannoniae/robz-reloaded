@@ -1,0 +1,40 @@
+;Exported by: Vnab
+;Date:        Thu Dec 11 10:22:05 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\Конвертированные\Ruins\builds_razr4et_1\builds_razr4et_1.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group01"
+			{Matrix34
+				0.999187	-0.0403185	0.000551701
+				0.040322	0.999035	-0.0174437
+				0.000152137	0.0174518	0.999848
+				-8.48465	-2.7617	116.86
+			}
+			{VolumeView "group01.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -8.23609 -4.61232}
+		{Extent 109.707 60.6189}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 219.414 121.238 155.615}
+	{Bone "group01"}
+	{Matrix34
+		0.999187	0.040322	0.000152111
+		-0.0403185	0.999034	0.0174518
+		0.000551727	-0.0174437	0.999848
+		-0.0737173	8.16028	-44.7723
+	}
+}

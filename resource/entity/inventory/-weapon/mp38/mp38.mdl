@@ -1,6 +1,6 @@
 ;Exported by: Kalinski
-;Date:        Sat Oct 08 22:11:13 2016
-;File:        C:\Users\Kalinski\Desktop\g41\mp38.max
+;Date:        Wed Feb 21 00:28:27 2018
+;File:        C:\Users\Kalinski\Desktop\new weapons pack\mp38.max
 {Skeleton
 	{bone "mp38"
 		{parameters "CommonMesh;"}
@@ -11,48 +11,48 @@
 		}
 		{VolumeView "mp38.ply"}
 		{bone "foresight3"
-			{Position 11.9821	1.56036	0}
+			{Position 11.4615	1.46542	0}
 		}
 		{bone "handle"
-			{Position 4.00996	1.64714	0}
+			{Position 4.17508	1.79258	0}
 		}
 		{bone "fxshell"
 			{Matrix34
 				0	0	1
 				0	1	0
 				-1	0	0
-				6.10139	1.70775	0.426479
+				5.89505	1.69708	0.13786
 			}
 		}
 	}
 }
 {Volume "body"
-	{Box 13.2333 5.8299 1.17169}
+	{Box 12.5782 3.19411 1.17169}
 	{Bone "mp38"}
-	{Position 5.48539	-0.716697	-0.00827003}
+	{Position 4.51953	0.543664	-0.00827003}
 }
 {Volume "select"
-	{Box 12.6302 6.01154 1.17169}
+	{Box 13.7285 5.79674 1.17169}
 	{Bone "mp38"}
 	{Matrix34
 		1.0774	0	0
 		0	1.0774	0
 		0	0	1.2924
-		5.52527	-0.752998	-0.0614164
+		4.2341	-0.584831	-0.0614164
 	}
 }
 {Extender "preview"
 	{"stuff_primary"
 		{camera
-			{origin 5.11055	0.610914	24.1736}
-			{lookat 5.13354	0.373426	1.3304}
+			{origin 2.91808	0.497257	22.2594}
+			{lookat 2.94106	0.259769	1.3304}
 			{fov 45}
 			{horizon 5.5274}
 		}
 		{lights
 			{"0"
 				{type point}
-				{position 0.58565	-0.792709	1.33739}
+				{position -2.33204	-0.477748	1.33739}
 			}
 			{"1"
 				{type point}
@@ -67,8 +67,8 @@
 	}
 	{"stuff"
 		{camera
-			{origin 5.12319	0.586055	24.2961}
-			{lookat 5.14618	0.348567	1.3304}
+			{origin 2.88725	0.498128	22.275}
+			{lookat 2.91023	0.26064	1.3304}
 			{fov 45}
 			{horizon 5.52751}
 		}
@@ -79,7 +79,7 @@
 			}
 			{"1"
 				{type point}
-				{position 0.574208	-0.799985	1.33739}
+				{position -2.34358	-0.485007	1.33739}
 			}
 			{"2"
 				{type directional}

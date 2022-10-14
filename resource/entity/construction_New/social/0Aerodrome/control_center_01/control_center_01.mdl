@@ -1,0 +1,78 @@
+;Exported by: Vnab
+;Date:        Thu Mar 26 13:54:19 2015
+;File:        C:\Users\Vnab\Desktop\Моддинг\Выбр\Здания\Аэродром\control_center LBM002\control_center.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				-0.999999	-0.00174537	0
+				0	0	-1
+				0.00174537	-0.999999	0
+				-2.64022	0.232684	14.2713
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -2.71761 -10.4823}
+		{Extent 195.277 67.1628}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -1.94115 -10.8705}
+		{Extent 100.55 67.551}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center -1.91758 60.998}
+		{Extent 16.1964 8.85314}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 390.553 134.326 57.4571}
+	{Bone "object_1"}
+	{Matrix34
+		-0.999999	0	0.00174522
+		-0.00174522	0	-0.999999
+		0	-1	0
+		0.0594857	-14.4573	-10.2497
+	}
+}
+{Volume "body_vol2"
+	{Box 201.1 135.102 100.938}
+	{Bone "object_1"}
+	{Matrix34
+		-0.999999	0	0.00174522
+		-0.00174522	0	-0.999999
+		0	-1	0
+		-0.717637	-36.1978	-10.6366
+	}
+}
+{Volume "body_vol3"
+	{Box 32.3929 17.7063 12.0787}
+	{Bone "object_1"}
+	{Matrix34
+		-0.999999	0	0.00174522
+		-0.00174522	0	-0.999999
+		0	-1	0
+		-0.615774	8.23193	61.2319
+	}
+}

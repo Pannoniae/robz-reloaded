@@ -1,0 +1,21 @@
+{game_entity
+	(include "/properties/construction_medium.ext")
+	{Extension "box_ger_grenade_m24.mdl"}
+	{mass 15}
+	{props "wood" "fence" "construction" "inventory_box" "spread_items"}
+	{ObstacleID "stuff"}
+	{collider "construction"}
+	{extender "inventory"
+		{box
+			{weight 5000}
+			{size 8 6}
+			{item "m24x5" "grenade" 15}
+		}
+	}
+	{Volume "body"
+		{Tags  "body"}
+		{Thickness 5}
+		{able {visible 1}{obstacle 0} {touch}}
+	}
+	{lodclass "decor_small"}
+}

@@ -1,0 +1,40 @@
+;Exported by: Vnab
+;Date:        Thu Nov 20 11:28:10 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\Red orchestra 2\Здания\house_ru10_2et_town_kirp\house_ru10_2et_town_kirp.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				0.996306	0.0858775	0
+				-0.0858775	0.996306	0
+				0	0	1
+				-2.14053	1.28336	88.3851
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -1.96609 -1.00813}
+		{Extent 199.606 74.6002}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 399.212 149.2 155.249}
+	{Bone "group001"}
+	{Matrix34
+		0.996306	-0.0858774	0
+		0.0858774	0.996306	0
+		0	0	1
+		0.150146	-0.289196	-10.7606
+	}
+}

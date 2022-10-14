@@ -1,0 +1,40 @@
+;Exported by: Vnab
+;Date:        Fri Aug 01 14:44:01 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\Модели нов\WOT\здания разн\envEU_002_monument\envEU_002_monument.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				0	-1	0
+				0	0	-1
+				1	0	0
+				-0.891843	-0.286537	-3.82193
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -1.38465 0.549583}
+		{Extent 37.5071 37.5071}
+		{Axis 0.122598 0.992456}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "object_1"}
+	{Matrix34
+		0	0	1
+		-1	0	0
+		0	-1	0
+		0.263046	2.93728	-0.49281
+	}
+}

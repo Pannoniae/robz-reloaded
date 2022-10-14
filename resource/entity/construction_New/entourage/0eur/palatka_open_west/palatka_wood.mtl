@@ -1,0 +1,5 @@
+{material multiply
+	{diffuse "palatka_wood"}
+	{diffuse1 "palatka_wood_lm"}
+	{blend test}
+}

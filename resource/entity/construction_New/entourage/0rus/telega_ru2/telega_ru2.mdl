@@ -1,0 +1,40 @@
+;Exported by: Vnab
+;Date:        Mon Apr 21 15:12:58 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\Окружение\telega_ru2\telega_ru2.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "drawcall_0010"
+			{Matrix34
+				1	0	0
+				0	0.0261771	-0.999657
+				0	0.999657	0.0261771
+				-4.16737	-0.558729	79.5852
+			}
+			{VolumeView "drawcall_0010.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 0.369534 -1.04849}
+		{Extent 43.0511 15.4275}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 86.1021 30.855 12.9257}
+	{Bone "drawcall_0010"}
+	{Matrix34
+		1	0	0
+		0	0.026177	0.999657
+		0	-0.999657	0.026177
+		4.5369	68.6856	-0.190838
+	}
+}

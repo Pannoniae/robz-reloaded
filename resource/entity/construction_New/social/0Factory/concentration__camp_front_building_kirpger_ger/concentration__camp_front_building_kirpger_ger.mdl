@@ -1,0 +1,98 @@
+;Exported by: Vnab
+;Date:        Thu Oct 02 13:38:58 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\Конвертированные\Social\0Factory\concentration _camp_front_building_kirpger_ger\concentration _camp_front_building_kirpger_ger.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				0.999997	0	-0.00261503
+				0	0.999999	0.00161143
+				0.00261503	-0.00161143	0.999995
+				11.0752	0.948976	81.9872
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -231.847 0.577581}
+		{Extent 210.608 45.6741}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 117.91 -0.217089}
+		{Extent 69.3776 46.0524}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center 359.235 0.380884}
+		{Extent 104.964 46.0524}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 421.217 91.3482 86.2733}
+	{Bone "group001"}
+	{Matrix34
+		0.999997	0	0.00261497
+		0	0.999999	-0.00161123
+		-0.00261498	0.00161122	0.999995
+		-242.787	-1.61055	-52.125
+	}
+}
+{Volume "body_vol2"
+	{Box 138.755 92.1047 90.9086}
+	{Bone "group001"}
+	{Matrix34
+		0.999997	0	0.00261497
+		0	0.999999	-0.00161123
+		-0.00261498	0.00161122	0.999995
+		106.963	-0.810674	-48.894
+	}
+}
+{Volume "body_vol3"
+	{Box 209.927 92.1047 84.9277}
+	{Bone "group001"}
+	{Matrix34
+		0.999997	0	0.00261497
+		0	0.999999	-0.00161123
+		-0.00261498	0.00161122	0.999995
+		348.295	-1.41245	-51.2524
+	}
+}
+{Volume "body_vol4"
+	{Box 102.501 95.4877 92.7903}
+	{Bone "group001"}
+	{Matrix34
+		0.999997	0	0.00261497
+		-0.00261498	0.0016113	0.999995
+		0	-0.999999	0.0016113
+		1.37915	-0.12196	26.9212
+	}
+}
+{Volume "body_vol5"
+	{Box 67.1385 28.6102 92.3155}
+	{Bone "group001"}
+	{Matrix34
+		0.999997	0	0.00261497
+		-0.00261498	0.0016113	0.999995
+		0	-0.999999	0.0016113
+		209.353	-0.426769	-14.9074
+	}
+}

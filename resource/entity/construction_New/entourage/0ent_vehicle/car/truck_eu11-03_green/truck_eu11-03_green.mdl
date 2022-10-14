@@ -1,0 +1,82 @@
+;Exported by: Vnab
+;Date:        Mon Jun 02 13:39:50 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\окружение\envAM_011_Truck\Truck_eu11-03_green.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "3d_object_1"
+			{Position 0.530119	3.23531	15.3543}
+			{VolumeView "3d_object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 0.406034 -5.08358}
+		{Extent 15.0019 48.3679}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 0.552842 7.71117}
+		{Extent 11.99 9.23486}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center 0.538234 -36.6307}
+		{Extent 14.4219 7.04422}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol4"
+	{Obb2
+		{Center 0.537391 32.7675}
+		{Extent 14.6116 6.9263}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 30.0038 96.7358 17.4057}
+	{Bone "3d_object_1"}
+	{Position -0.124084	1.84828	0.372958}
+}
+{Volume "body_vol2"
+	{Box 23.98 18.4697 10.679}
+	{Bone "3d_object_1"}
+	{Position 0.0227232	-10.9465	13.9575}
+}
+{Volume "body_vol3"
+	{Cylinder 7.04422 28.8438}
+	{Bone "3d_object_1"}
+	{Matrix34
+		0	-1	0
+		0	0	1
+		-1	0	0
+		0.00811481	33.3954	-8.27082
+	}
+}
+{Volume "body_vol4"
+	{Cylinder 6.9263 29.2233}
+	{Bone "3d_object_1"}
+	{Matrix34
+		0	-1	0
+		0	0	1
+		-1	0	0
+		0.00727177	-36.0028	-8.39349
+	}
+}

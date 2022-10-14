@@ -1,0 +1,23 @@
+;Exported by: Kasutaja
+;Date:        Tue Dec 31 15:01:49 2013
+;File:        C:\Users\mark\WW1\models\trenches\shelter1.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+	}
+}
+{Volume "body"
+	{Box 79.8318 35.7716 2.1812}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	1	0
+		0	0	1
+		-0.880314	1.54938	6.51411
+	}
+}

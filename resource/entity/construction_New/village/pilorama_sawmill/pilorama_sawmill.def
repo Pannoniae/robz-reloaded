@@ -1,0 +1,11 @@
+{game_entity
+(include "/properties/building.inc")
+	{obstacleid "unbreakable" "construction" }
+	{props "wood" "shed" "delete_after_blast" "burning"}
+	{Extension "pilorama_sawmill.mdl"}
+	{Volume "body"
+		{Tags  "body"}
+		{Thickness 20}
+		{able {visible 1}}
+	}
+}

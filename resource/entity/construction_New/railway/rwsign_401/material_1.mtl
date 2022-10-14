@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "rw401_rwsign"}
+	{blend none}
+}

@@ -1,0 +1,97 @@
+;Exported by: Vnab
+;Date:        Thu Mar 26 16:54:39 2015
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\Конвертированные\entourage\0ent_vehicle\marine\cargo_ship_1_medium LSB047\cargo_ship_1_medium.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				-1	0	0
+				0	0	-1
+				0	-1	0
+				0.324352	0.0110954	15.6995
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -2.96337 -10.1598}
+		{Extent 60.1123 327.654}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center -1.633 342.017}
+		{Extent 20.5313 36.5415}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol4"
+	{Obb2
+		{Center 0.436598 89.6135}
+		{Extent 1.6404 1.32289}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol5"
+	{Obb2
+		{Center -0.0902214 -217.899}
+		{Extent 38.6144 56.5746}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 82.7993 451.315 32.6533}
+	{Bone "object_1"}
+	{Matrix34
+		-1.452	0	0
+		0	0	-1.452
+		0	-1.452	0
+		3.28772	-8.04641	-10.1487
+	}
+}
+{Volume "body_vol3"
+	{Box 28.28 41.1081 50.4376}
+	{Bone "object_1"}
+	{Matrix34
+		-1.452	0	0
+		0	-0.289279	-1.42289
+		0	-1.42289	0.289279
+		1.9574	-26.071	342.028
+	}
+}
+{Volume "body_vol4"
+	{Box 2.25949 1.82217 167.931}
+	{Bone "object_1"}
+	{Matrix34
+		-1.452	0	0
+		0	0	-1.452
+		0	-1.452	0
+		-0.112232	-146.245	89.6246
+	}
+}
+{Volume "body_vol5"
+	{Box 53.1879 77.9265 51.951}
+	{Bone "object_1"}
+	{Matrix34
+		-1.452	0	0
+		0	0	-1.452
+		0	-1.452	0
+		0.414541	-70.207	-217.888
+	}
+}

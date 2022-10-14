@@ -1,0 +1,30 @@
+;Exported by: Vnab
+;Date:        Tue Apr 22 13:35:36 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\Окружение\Indicator_j11\Indicator_j11.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "3d_object_1"
+			{Position -0.0246519	0.0948813	19.3077}
+			{VolumeView "3d_object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.020014 -0.100069}
+		{Extent 0.820567 0.770532}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 1.64113 1.54106 38.4265}
+	{Bone "3d_object_1"}
+	{Position 0.00463784	0.00518769	-0.0944271}
+}

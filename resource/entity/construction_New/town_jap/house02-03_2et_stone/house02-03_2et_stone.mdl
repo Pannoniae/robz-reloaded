@@ -1,0 +1,58 @@
+;Exported by: Vnab
+;Date:        Wed Jun 18 14:43:34 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\Конвертированные\town_jap\house02-03_2et_stoneAS_002\house02-03_2et_stone.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "3d_object_1"
+			{Position -0.397675	-0.115798	36.9198}
+			{VolumeView "3d_object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.610893 0.43195}
+		{Extent 72.2641 46.2097}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -1.37981 1.16933}
+		{Extent 73.2473 28.0208}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center 0.255302 -49.976}
+		{Extent 10.5078 4.85448}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 144.528 92.4194 60.9575}
+	{Bone "3d_object_1"}
+	{Position -0.213219	-0.316151	-18.8984}
+}
+{Volume "body_vol2"
+	{Box 146.495 56.0416 33.4283}
+	{Bone "3d_object_1"}
+	{Position -0.982132	-1.05353	18.1469}
+}
+{Volume "body_vol3"
+	{Box 21.0156 9.70895 17.9018}
+	{Bone "3d_object_1"}
+	{Position 0.652977	50.0918	-40.0308}
+}

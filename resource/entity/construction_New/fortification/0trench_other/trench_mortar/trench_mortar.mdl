@@ -1,0 +1,127 @@
+;Exported by: Kasutaja
+;Date:        Tue Dec 31 13:07:11 2013
+;File:        C:\Users\mark\WW1\models\trenches\trench_mortar.max
+{Skeleton
+	{bone "trench"
+		{parameters "Land;Ground;CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "trench.ply" {Ground} {DecalTarget}}
+		{bone "allign"
+			{Matrix34
+				-1	0	0
+				0	0	1
+				0	1	0
+				4.93144	4.54358	0.0236815
+			}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 31.6086 -25.3258}
+		{Extent 7.49141 13.5645}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Rotate}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center -42.6557 0.483444}
+		{Extent 7.49138 39.3775}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Rotate}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center -6.53294 -44.8153}
+		{Extent 32.3199 7.49136}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Rotate}
+}
+{Obstacle "body3"
+	{Obb2
+		{Center -4.24391 45.961}
+		{Extent 33.8979 7.49136}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Rotate}
+}
+{Obstacle "body4"
+	{Obb2
+		{Center 31.8655 25.9759}
+		{Extent 7.49136 14.3465}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Rotate}
+}
+{Area "cut"
+	{Polygon2
+		{Radius 0}
+		{Vertex 34.9536 -46.2424}
+		{Vertex 34.9536 46.2033}
+		{Vertex -42.5658 46.2033}
+		{Vertex -42.5658 -46.1007}
+	}
+	{Rotate}
+}
+{Volume "body1"
+	{Polyhedron "body1.vol"}
+	{Bone "trench"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	1	0
+		-42.6949	-0.805786	-14.9091
+	}
+}
+{Volume "body2"
+	{Polyhedron "body2.vol"}
+	{Bone "trench"}
+	{Matrix34
+		0	-1	0
+		0	0	1
+		1	0	0
+		-6.24736	44.8546	-14.9091
+	}
+}
+{Volume "body3"
+	{Polyhedron "body3.vol"}
+	{Bone "trench"}
+	{Matrix34
+		0	1	0
+		0	0	1
+		1	0	0
+		-4.37291	-46.0002	-14.9091
+	}
+}
+{Volume "body4"
+	{Polyhedron "body4.vol"}
+	{Bone "trench"}
+	{Matrix34
+		-1	0	0
+		0	0	1
+		0	1	0
+		31.9047	-25.9612	-14.9091
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "trench"}
+	{Matrix34
+		-1	0	0
+		0	0	1
+		0	1	0
+		26.1708	52.5745	-13.7227
+	}
+}

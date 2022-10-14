@@ -1,0 +1,88 @@
+;Exported by: alfor
+;Date:        Fri Nov 15 16:49:44 2019
+;File:        C:\Users\alfor\Documents\bazooka_wp.max
+{Skeleton
+	{bone "bazooka_wp"
+		{parameters "CommonMesh;ID=ammo;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "bazooka_wp.ply"}
+		{bone "body"
+			{Matrix34
+				0	0	-1
+				1	0	0
+				0	-1	0
+				-5.18246	8.84423	10.2731
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 58.8106 8.53841 2.97468}
+	{Bone "bazooka_wp"}
+	{Matrix34
+		0.24224	0	0
+		0	0.240083	0
+		0	0	0.474213
+		-0.416192	0.0833101	0.0430684
+	}
+}
+{Volume "select"
+	{Box 70.5727 24.7067 11.036}
+	{Bone "bazooka_wp"}
+	{Matrix34
+		0.24224	0	0
+		0	0.240083	0
+		0	0	0.474213
+		-0.553896	-0.420137	0.469188
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 0.916205	-5.84073	33.069}
+			{lookat 0.179352	-2.8352	14.7535}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 9.55202	-3.07126	6.01365}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0792752	0.197722	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -10.6297	-2.3995	4.27474}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 0.92909	-5.96592	33.8014}
+			{lookat 0.162763	-2.84018	14.7534}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 9.55202	-3.07126	6.01365}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0792752	0.197722	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -10.6297	-2.3995	4.27474}
+			}
+		}
+	}
+}

@@ -1,0 +1,57 @@
+;Exported by: Alexey
+;Date:        Fri Aug 15 15:09:36 2008
+;File:        D:\Program Files\Autodesk\3dsMax8\scenes\Enturage_1\playground_carousel01.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Position -0.00800323	0.00505519	0.0838561}
+			{VolumeView "body.ply"}
+		}
+	}
+}
+{Volume "body1"
+	{Cylinder 37.3934 2.84107}
+	{Bone "body"}
+	{Position 0.294034	0.0680504	5.04086}
+}
+{Volume "body2"
+	{Polyhedron "body2.vol"}
+	{Bone "body"}
+	{Position 30.125	-18.5326	7.80855}
+}
+{Volume "body3"
+	{Polyhedron "body3.vol"}
+	{Bone "body"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		0.050495	-20.6012	16.1645
+	}
+}
+{Volume "body4"
+	{Polyhedron "body4.vol"}
+	{Bone "body"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		0.050495	20.4763	16.1645
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "body"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		-20.6648	-0.0382481	16.1645
+	}
+}

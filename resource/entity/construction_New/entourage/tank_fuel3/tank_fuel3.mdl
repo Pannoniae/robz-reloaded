@@ -1,0 +1,30 @@
+;Exported by: Vnab
+;Date:        Wed May 20 15:57:43 2015
+;File:        C:\Users\Vnab\Desktop\Моддинг\COH нов\Здания\tank_fuel3\tank_fuel3.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Position -0.308777	0.111148	26.8114}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.112907 -0.338699}
+		{Extent 45.9498 20.2089}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 91.8996 40.4178 41.5468}
+	{Bone "group001"}
+	{Position 0.195869	0.227551	-6.03797}
+}

@@ -1,0 +1,68 @@
+;Exported by: Basement
+;Date:        Thu Dec  5 19:56:20 2019
+;File:        C:\Users\Basement\Documents\3dsMax\saves\fast_plate_carrier1.max
+{Skeleton
+	{bone "fast_plate_carrier1"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "fast_plate_carrier1.ply"}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "fast_plate_carrier1"}
+	{Position -0.699019	1.24989	-4.86102}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "fast_plate_carrier1"}
+	{Position -0.699019	1.24989	-4.86102}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 24.0139	-1.55043	1.06555}
+			{lookat 5.40664	-1.61345	0.243206}
+			{fov 45}
+			{horizon -0.19881}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 17.7755	-4.45484	3.11168}
+			}
+			{"1"
+				{type point}
+				{position 11.6958	2.25588	3.81576}
+			}
+			{"2"
+				{type directional}
+				{direction -0.498203	0.0423563	0}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 23.9151	-3.45233	0.949322}
+			{lookat 5.36081	-2.04746	0.12701}
+			{fov 45}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 17.5477	-4.7215	3.11168}
+			}
+			{"1"
+				{type point}
+				{position 12.0163	2.44787	3.81577}
+			}
+			{"2"
+				{type directional}
+				{direction -0.493309	0.0815214	0}
+			}
+		}
+	}
+}

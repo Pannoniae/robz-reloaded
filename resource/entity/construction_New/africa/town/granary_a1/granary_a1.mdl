@@ -1,0 +1,30 @@
+;Exported by: Vnab
+;Date:        Fri Apr 18 14:26:02 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\Здания\араб africa\Granary_a1_blrAF_002_\granary.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "3d_object_1"
+			{Position -1.51909	-5.49387	27.2473}
+			{VolumeView "3d_object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 0.0871773 -0.838305}
+		{Extent 21.9138 21.5809}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Cylinder 21.9138 46.9248}
+	{Bone "3d_object_1"}
+	{Position 1.60627	6.33218	-3.78496}
+}

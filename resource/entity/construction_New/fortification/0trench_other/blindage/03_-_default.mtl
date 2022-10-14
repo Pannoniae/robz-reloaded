@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "/texture\land\dirt/clay_1a_color"}
+	{bump "/texture\land\dirt/clay_1a_color_nm"}
+	{blend none}
+}

@@ -1,0 +1,35 @@
+;Exported by: Vnab
+;Date:        Tue Oct 28 15:16:51 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\Company of heroes\Окружение\road_block_wood_eu\road_block_wood_eu.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Position 0.64788	0.0353743	7.81171}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 0.661481 -0.104718}
+		{Extent 15.9781 0.648685}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 31.9563 3.20928 1.29737}
+	{Bone "group001"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		0.0136013	0.0693433	5.77928
+	}
+}

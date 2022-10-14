@@ -1,0 +1,38 @@
+;Exported by: Vnab
+;Date:        Wed Oct 01 13:36:11 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\Red orchestra\Mine_water_Galvanoudarnaya_KB01\Mine_water_Galvanoudarnaya_KB01.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				1	0	0
+				0	0.165047	-0.986286
+				0	0.986286	0.165047
+				-0.409856	4.25935	-29.8387
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Circle2 {Radius 13.3152}
+		{Center -0.728795 -0.546444}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Sphere 13.3152}
+	{Bone "group001"}
+	{Matrix34
+		1	0	0
+		0	0.165048	0.986286
+		0	-0.986286	0.165048
+		-0.318939	-26.2969	0.63606
+	}
+}

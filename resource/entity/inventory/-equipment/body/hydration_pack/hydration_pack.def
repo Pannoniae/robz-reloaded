@@ -1,0 +1,9 @@
+{Actor
+        (include "/properties/stuff_small.ext")
+	{extender "stuff"
+		{item "hydration_pack"}
+	}
+	
+	{Extension "hydration_pack.mdl"}
+	
+}

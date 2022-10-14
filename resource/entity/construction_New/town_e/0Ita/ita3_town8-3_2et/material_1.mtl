@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "bldaa_08_house"}
+	{blend none}
+}

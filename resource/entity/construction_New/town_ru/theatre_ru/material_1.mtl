@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "bldsc_001_ahouse"}
+	{blend none}
+}

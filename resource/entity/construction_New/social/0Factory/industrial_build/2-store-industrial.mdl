@@ -1,0 +1,42 @@
+;Exported by: Vorabat
+;Date:        Sun Nov 29 11:24:25 2009
+;File:        C:\Users\Vorabat\Documents\3dsmax\scenes\Chaesbuildings.max
+{Skeleton
+	{bone "object02"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "object02.ply"}
+	}
+}
+{Obstacle "box43"
+	{Obb2
+		{Center 180.966 2.87656}
+		{Extent 493.642 176.188}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "box43"
+	{Box 987.284 352.375 215.869}
+	{Bone "object02"}
+	{Matrix34
+		1	0	0
+		0	1	0
+		0	0	1
+		180.966	-2.87661	107.48
+	}
+}
+{Volume "box44"
+	{Box 315.867 273.011 346.026}
+	{Bone "object02"}
+	{Matrix34
+		1	0	0
+		0	1	0
+		0	0	1
+		-150.776	36.003	172.558
+	}
+}

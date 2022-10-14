@@ -1,0 +1,72 @@
+;Exported by: Vnab
+;Date:        Fri Jul 25 12:53:13 2014
+;File:        C:\Users\Vnab\Desktop\mow re\ÃÓ‰‰ËÌ„\ÃŒƒ≈À»\ruins\bldEL_042_Abandoned_House\bldEL_042_Abandoned_House_03.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Position -7.94484	6.79667	29.7062}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -64.5605 -7.19673}
+		{Extent 55.6553 48.385}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 88.1134 -7.14796}
+		{Extent 24.1089 48.5723}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center 4.95379 38.3631}
+		{Extent 13.9138 3.38444}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol4"
+	{Obb2
+		{Center 38.1395 -53.4217}
+		{Extent 25.5271 2.65907}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 111.311 96.77 56.1567}
+	{Bone "object_1"}
+	{Position -56.6157	0.400056	-7.46357}
+}
+{Volume "body_vol2"
+	{Box 48.2178 97.1447 57.4359}
+	{Bone "object_1"}
+	{Position 96.0582	0.351285	-6.82397}
+}
+{Volume "body_vol3"
+	{Box 27.8276 6.76889 58.8541}
+	{Bone "object_1"}
+	{Position 12.8986	-45.1598	-6.11488}
+}
+{Volume "body_vol4"
+	{Box 51.0541 5.31814 28.7179}
+	{Bone "object_1"}
+	{Position 46.0843	46.625	-21.1829}
+}

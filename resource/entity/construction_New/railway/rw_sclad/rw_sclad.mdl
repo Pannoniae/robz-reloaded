@@ -1,0 +1,40 @@
+;Exported by: Vnab
+;Date:        Thu May 29 12:07:17 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\Здания\railway\rw_sclad\rw_sclad.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group01"
+			{Matrix34
+				0.0114437	-0.999934	0
+				0.999934	0.0114437	0
+				0	0	1
+				-0.193588	2.98641	27.9007
+			}
+			{VolumeView "group01.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 0.85865 -4.92916}
+		{Extent 86.7338 54.1013}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 173.468 108.203 53.4361}
+	{Bone "group01"}
+	{Matrix34
+		0.0114438	0.999934	0
+		-0.999934	0.0114438	0
+		0	0	1
+		-1.93058	1.0744	-1.18261
+	}
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "officer cap"}
+	{bump "officer cap bp"}
+	{specular "officer cap sp"}
+	{color "229 229 229 152"}
+	{blend test}
+}

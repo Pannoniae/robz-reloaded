@@ -1,0 +1,54 @@
+;Exported by: Артем
+;Date:        Tue Sep 29 13:50:50 2015
+;File:        D:\Autodesk\Low poly\freelance\DMS 2.0\Weapons\Grenades & stuff\Ammo\Benelli\shotgun+.max
+{Skeleton
+	{bone "ammo"
+		{parameters "ID=mgun;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "ammo.ply"}
+			{VolumeView "ammo_lod1.ply"}
+		}
+		{bone "handle"
+			{Position -0.0508283	-0.0266564	0.244702}
+		}
+	}
+}
+{Volume "body"
+	{Box 1.16537 1.00692 0.675667}
+	{Bone "ammo"}
+	{Position 0.0669731	0.0384233	0.323437}
+}
+{Volume "select"
+	{Box 5.06684 5.70816 2.59872}
+	{Bone "ammo"}
+	{Position -0.0457814	0.467348	0.239694}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 0.15261	4.11655	4.62817}
+			{lookat 0.134355	-0.383518	0.305094}
+			{fov 17.0615}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.178617	-0.264951	0.384573}
+				{diffuse 0x9e9e9e}
+			}
+			{"1"
+				{type directional}
+				{direction -0.08986	-0.484347	-0.085633}
+			}
+			{"2"
+				{type directional}
+				{direction 0.249261	0.247157	-0.356066}
+			}
+		}
+	}
+}

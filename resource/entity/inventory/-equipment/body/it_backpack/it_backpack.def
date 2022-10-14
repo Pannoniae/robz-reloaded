@@ -1,0 +1,19 @@
+{actor
+	(include "/properties/bag.ext")
+	{Extension "it_backpack.mdl"}
+	{extender "stuff"
+		{item "it_backpack"}
+	}
+        {extender "inventory"
+                {box
+                        {Size 4 6}
+		        {item "bandage" 2}
+		        {item "knife_union"}
+		        {item "sandbag_kit" 1}
+                }
+        }
+	{Volume "body"
+	        {able {visible} {select} {contact_ground} {touch} {contact} {blast}}
+		{Thickness 10}
+	}
+}

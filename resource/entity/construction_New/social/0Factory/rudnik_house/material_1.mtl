@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "bldam_027_minehouse"}
+	{blend none}
+}

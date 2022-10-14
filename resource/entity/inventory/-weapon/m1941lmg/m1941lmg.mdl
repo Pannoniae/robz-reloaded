@@ -1,0 +1,91 @@
+;Exported by: Kalinski
+;Date:        Tue Feb 27 19:08:09 2018
+;File:        C:\Users\Kalinski\Desktop\new weapons pack\johnson lmg2.max
+{Skeleton
+	{bone "m1941lmg"
+		{parameters "CommonMesh;ID=rifle;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "m1941lmg.ply"}
+		{bone "foresight3"
+			{Position 15.2647	1.56794	0}
+		}
+		{bone "handle"
+			{Position 4.61874	1.81535	0}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	-0.756534	0.653954
+				0	0.653954	0.756534
+				-1	0	0
+				3.14948	1.54222	0.239247
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 20.4252 3.69027 1.17169}
+	{Bone "m1941lmg"}
+	{Position 4.62226	0.276861	-0.00827003}
+}
+{Volume "select"
+	{Box 22.1747 4.62889 1.17169}
+	{Bone "m1941lmg"}
+	{Matrix34
+		1.0774	0	0
+		0	1.0774	0
+		0	0	1.2924
+		4.74088	0.234466	-0.0614164
+	}
+}
+{Extender "preview"
+	{"stuff_primary"
+		{camera
+			{origin 4.3489	-0.295304	27.8852}
+			{lookat 4.37189	-0.532792	1.3304}
+			{fov 45}
+			{horizon 5.5274}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -1.51264	-0.52088	1.33739}
+			}
+			{"1"
+				{type point}
+				{position 11.0782	-1.2487	1.30826}
+			}
+			{"2"
+				{type directional}
+				{direction 0.00821002	-0.0186623	-0.499584}
+				{ambient 0xffffff}
+			}
+		}
+	}
+	{"stuff"
+		{camera
+			{origin 4.33072	-0.295716	27.929}
+			{lookat 4.35371	-0.533204	1.3304}
+			{fov 45}
+			{horizon 5.5274}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 11.0782	-1.2487	1.30826}
+			}
+			{"1"
+				{type point}
+				{position -1.51264	-0.52088	1.33739}
+			}
+			{"2"
+				{type directional}
+				{direction 0.00821002	-0.0186623	-0.499584}
+				{ambient 0xffffff}
+			}
+		}
+	}
+}

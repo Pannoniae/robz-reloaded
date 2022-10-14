@@ -1,0 +1,78 @@
+;Exported by: Vnab
+;Date:        Tue May 26 10:44:15 2015
+;File:        C:\Users\Vnab\Desktop\Моддинг\COH нов\wellington_mk1c_tail_eng\wellington_mk1c_tail_eng.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				0.998733	-0.0454287	0.0216567
+				0.0442157	0.586536	-0.808715
+				0.0240364	0.808648	0.587802
+				-9.4113	7.94002	15.918
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 1.58428 -17.5926}
+		{Extent 11.9672 46.237}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -12.7042 3.16897}
+		{Extent 55.0365 7.5005}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center -69.9319 10.9369}
+		{Extent 6.07626 15.383}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 23.9344 92.4739 34.8137}
+	{Bone "group001"}
+	{Matrix34
+		0.998733	0.0442157	0.0240365
+		-0.0454287	0.586536	0.808648
+		0.0216567	-0.808715	0.587802
+		10.5754	4.94381	8.94492
+	}
+}
+{Volume "body_vol2"
+	{Box 111.546 15.001 2.69249}
+	{Bone "group001"}
+	{Matrix34
+		0.985087	-0.10817	0.1338
+		-0.0454286	0.586536	0.808648
+		-0.16595	-0.802667	0.572875
+		-2.42785	-19.963	0.605626
+	}
+}
+{Volume "body_vol3"
+	{Box 30.7661 43.9515 4.65369}
+	{Bone "group001"}
+	{Matrix34
+		0.0454286	-0.586536	-0.808648
+		0.193312	-0.789021	0.58316
+		-0.980085	-0.182814	0.0775405
+		-59.2475	-26.4013	-7.5226
+	}
+}

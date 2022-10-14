@@ -1,0 +1,11 @@
+{game_entity
+(include "/properties/building.inc")
+	{obstacleid "unbreakable" "construction" }
+	{props "concrete" "no_destroyed_stamp"}
+	{Extension "fount_small_02.mdl"}
+	{Volume "body_vol_"
+		{Tags  "body"}
+		{Thickness 10}
+		{able {visible 1}}
+	}
+}

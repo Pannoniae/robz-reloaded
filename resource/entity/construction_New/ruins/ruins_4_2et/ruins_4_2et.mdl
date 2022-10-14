@@ -1,0 +1,40 @@
+;Exported by: Vnab
+;Date:        Thu Dec 11 11:22:42 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\Конвертированные\Ruins\ruins_4_2et\ruins_4_2et.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group01"
+			{Matrix34
+				0.993497	-0.113853	-0.000799957
+				0.113807	0.993255	-0.0222078
+				0.00332299	0.0219724	0.999753
+				-2.19707	3.26701	45.177
+			}
+			{VolumeView "group01.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -2.61754 -4.5809}
+		{Extent 55.6269 64.1345}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 111.254 128.269 66.7522}
+	{Bone "group01"}
+	{Matrix34
+		0.993497	0.113807	0.00332307
+		-0.113853	0.993254	0.0219723
+		-0.000800039	-0.0222078	0.999753
+		-0.55656	1.55581	-13.4163
+	}
+}

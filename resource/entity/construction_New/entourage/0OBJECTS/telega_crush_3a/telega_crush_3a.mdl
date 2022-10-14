@@ -1,0 +1,58 @@
+;Exported by: Alexey
+;Date:        Tue Jan 13 23:47:20 2009
+;File:        D:\Program Files\Autodesk\3dsMax8\scenes\stalker\telega_crush_3a.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "drawcall_0013"
+			{Matrix34
+				0.559493	-0.827527	0.0465535
+				0.780039	0.506735	-0.367094
+				0.28019	0.2417	0.929018
+				-7.99946	1.42589	15.5287
+			}
+			{VolumeView "drawcall_0013.ply"}
+		}
+		{bone "body"
+			{Matrix34
+				0.559493	-0.827527	0.0465535
+				0.780039	0.506735	-0.367094
+				0.28019	0.2417	0.929018
+				5.58648	3.54346	21.7681
+			}
+			{VolumeView "body.ply"}
+		}
+		{bone "drawcall_0015"
+			{Matrix34
+				0.559493	-0.827527	0.0465535
+				0.780039	0.506735	-0.367094
+				0.28019	0.2417	0.929018
+				1.48045	2.83353	16.4712
+			}
+			{VolumeView "drawcall_0015.ply"}
+		}
+		{bone "drawcall_0016"
+			{Matrix34
+				0.559493	-0.827527	0.0465535
+				0.780039	0.506735	-0.367094
+				0.28019	0.2417	0.929018
+				-4.47748	8.22713	23.1309
+			}
+			{VolumeView "drawcall_0016.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "body"}
+	{Matrix34
+		0.559493	0.780039	0.28019
+		-0.827527	0.506735	0.2417
+		0.0465534	-0.367095	0.929018
+		3.71576	-3.8633	-15.6313
+	}
+}

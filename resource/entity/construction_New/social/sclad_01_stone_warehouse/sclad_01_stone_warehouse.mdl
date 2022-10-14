@@ -1,0 +1,30 @@
+;Exported by: Vnab
+;Date:        Wed Oct 08 15:22:52 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\Panzer Elite Action - Танковая гвардия\Здания\sclad_01_stone_warehouse\sclad_01_stone_warehouse.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Position 0.808853	-1.7991	34.3128}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 0.634537 -1.90421}
+		{Extent 72.3664 118.706}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 144.733 237.413 114.898}
+	{Bone "group001"}
+	{Position -0.174316	3.70331	0.466583}
+}

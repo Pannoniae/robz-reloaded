@@ -1,0 +1,111 @@
+;Exported by: Vnab
+;Date:        Wed Dec 10 12:18:14 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\Конвертированные\model_trash\PE2 Crashed mleSU_83_01\pe2_crush_corp.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group01"
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				36.324	5.61808	19.9357
+			}
+			{VolumeView "group01.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 0.464007 -7.43818}
+		{Extent 9.93159 64.8546}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -28.0228 -12.1895}
+		{Extent 23.4742 25.7416}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center 65.3312 -9.09101}
+		{Extent 57.9522 7.86549}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol4"
+	{Obb2
+		{Center 37.3651 9.41717}
+		{Extent 7.07342 26.6289}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol5"
+	{Obb2
+		{Center -38.1762 3.61316}
+		{Extent 5.73028 32.1907}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Cylinder 9.93158 128.9}
+	{Bone "group01"}
+	{Matrix34
+		1	0	0
+		0	-0.0493895	0.99878
+		0	-0.99878	-0.0493895
+		35.86	-1.82011	-8.48288
+	}
+}
+{Volume "body_vol2"
+	{Box 46.7162 51.4832 5.24366}
+	{Bone "group01"}
+	{Matrix34
+		0.986781	0	0.162057
+		0	1	0
+		-0.162057	0	0.986781
+		64.3468	-6.57146	-8.9565
+	}
+}
+{Volume "body_vol3"
+	{Box 119.651 15.731 4.76696}
+	{Bone "group01"}
+	{Matrix34
+		0.957152	0	-0.289584
+		0	1	0
+		0.289584	0	0.957152
+		-29.0071	-3.47293	0.475861
+	}
+}
+{Volume "body_vol4"
+	{Box 10.4493 53.2578 15.1684}
+	{Bone "group01"}
+	{Matrix34
+		0.963086	0	-0.269195
+		0	1	0
+		0.269195	0	0.963086
+		-1.04105	15.0352	-11.5491
+	}
+}
+{Volume "body_vol5"
+	{Box 11.4605 64.3813 15.8425}
+	{Bone "group01"}
+	{Position 74.5002	9.23123	-11.3395}
+}

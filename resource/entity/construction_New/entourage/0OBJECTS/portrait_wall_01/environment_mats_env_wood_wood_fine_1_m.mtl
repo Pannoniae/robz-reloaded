@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "environment_mats_env_wood_wood_fine_1_m_d"}
+	{blend none}
+}

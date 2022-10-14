@@ -1,0 +1,40 @@
+;Exported by: Vnab
+;Date:        Thu Apr 17 13:12:56 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\Здания\railway\transformator_rw_rw011\transformator_rw.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "3d_object_1"
+			{Matrix34
+				0	-1	0
+				1	0	0
+				0	0	1
+				1.50813	8.48809	11.6851
+			}
+			{VolumeView "3d_object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 0.179232 0.19718}
+		{Extent 11.2651 5.61335}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 22.5303 11.2267 23.3761}
+	{Bone "3d_object_1"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		8.68527	-1.3289	0.00301743
+	}
+}

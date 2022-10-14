@@ -1,0 +1,8 @@
+{Actor
+	(include "/properties/stuff_small.ext")
+	{Extension "pps43.mdl"}
+	{extender "stuff"
+		{item "pps43"}
+	}
+	{nogroupmesh 1}	
+}

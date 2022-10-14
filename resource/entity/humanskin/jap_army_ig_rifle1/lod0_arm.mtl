@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "medium_lod0_arm_clean"}
+	{color "229 229 229 9"}
+	{blend none}
+}

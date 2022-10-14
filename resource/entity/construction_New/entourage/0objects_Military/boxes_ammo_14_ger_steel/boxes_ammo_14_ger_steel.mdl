@@ -1,0 +1,68 @@
+;Exported by: Vnab
+;Date:        Wed Dec 10 15:26:00 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\Конвертированные\entourage\0objects_Military\boxes_ammo_14_ger_steel\boxes_ammo_14_ger_steel.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				-6.18789	-1.35558	14.2787
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -23.1599 -2.36961}
+		{Extent 21.5661 5.96298}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 10.2114 -2.15377}
+		{Extent 11.6278 5.8636}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center 28.8809 -2.61554}
+		{Extent 4.91169 2.70556}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 11.926 43.1322 12.3235}
+	{Bone "group001"}
+	{Position 3.72519	16.972	-8.11697}
+}
+{Volume "body_vol2"
+	{Box 11.7272 23.2556 27.4297}
+	{Bone "group001"}
+	{Position 3.50935	-16.3993	-0.563863}
+}
+{Volume "body_vol3"
+	{Box 5.41113 5.83278 28.3909}
+	{Bone "group001"}
+	{Matrix34
+		1	0	0
+		0	0.989772	-0.142661
+		0	0.142661	0.989772
+		3.97113	-35.0688	-0.22848
+	}
+}

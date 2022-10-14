@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "naval cap"}
+	{blend none}
+}

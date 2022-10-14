@@ -1,0 +1,111 @@
+;Exported by: Vnab
+;Date:        Mon Dec 01 11:44:43 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\Silent hunter 4\Общее\Сейнер Seiner_civ\Seiner_civ.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Position -0.635597	-2.18944	82.1068}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.101334 -8.7928}
+		{Extent 47.3142 162.971}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 0.0699482 -4.79356}
+		{Extent 31.1328 209.566}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center -1.04503 66.3931}
+		{Extent 39.0322 69.7004}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol4"
+	{Obb2
+		{Center -1.37643 38.5616}
+		{Extent 27.4357 42.7142}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol5"
+	{Obb2
+		{Center -0.556404 -193.101}
+		{Extent 36.2442 16.9604}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 33.7959 116.408 25.5816}
+	{Bone "group001"}
+	{Matrix34
+		2.8	0	0
+		0	2.8	0
+		0	0	2.8
+		0.534262	10.9822	-87.1573
+	}
+}
+{Volume "body_vol2"
+	{Box 22.2377 149.69 15.2677}
+	{Bone "group001"}
+	{Matrix34
+		2.8	0	0
+		0	2.8	0
+		0	0	2.8
+		0.705546	6.98301	-72.6084
+	}
+}
+{Volume "body_vol3"
+	{Box 27.8802 49.786 14.6039}
+	{Bone "group001"}
+	{Matrix34
+		2.8	0	0
+		0	2.8	0
+		0	0	2.8
+		-0.409434	-64.2036	-42.7091
+	}
+}
+{Volume "body_vol4"
+	{Box 19.5969 30.5102 14.6683}
+	{Bone "group001"}
+	{Matrix34
+		2.8	0	0
+		0	2.8	0
+		0	0	2.8
+		-0.740837	-36.3722	-1.02683
+	}
+}
+{Volume "body_vol5"
+	{Box 25.8887 12.1146 10.787}
+	{Bone "group001"}
+	{Matrix34
+		2.8	0	0
+		0	2.8	0
+		0	0	2.8
+		0.0791941	195.291	-48.0976
+	}
+}

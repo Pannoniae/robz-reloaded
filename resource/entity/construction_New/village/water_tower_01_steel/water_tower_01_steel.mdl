@@ -1,0 +1,59 @@
+;Exported by: Vnab
+;Date:        Fri Oct 24 15:16:40 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\Company of heroes\Здания\water_tower_01_steel\water_tower_01_steel.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				1	0	0
+				0	0.320334	-0.947305
+				0	0.947305	0.320334
+				-1.02118	6.95075	103.285
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.951927 -0.337219}
+		{Extent 33.236 32.7311}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -0.972256 -0.267214}
+		{Extent 51.4596 50.6778}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Cylinder 33.236 244.383}
+	{Bone "group001"}
+	{Matrix34
+		1	0	0
+		0	0.320334	0.947305
+		0	-0.947305	0.320334
+		0.0692501	-5.66437	-5.06599
+	}
+}
+{Volume "body_vol2"
+	{Cylinder 51.4596 53.8493}
+	{Bone "group001"}
+	{Matrix34
+		1	0	0
+		0	0.320334	0.947305
+		0	-0.947305	0.320334
+		0.0489197	-90.9307	23.6932
+	}
+}

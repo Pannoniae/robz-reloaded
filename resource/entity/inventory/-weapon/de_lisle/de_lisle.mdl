@@ -1,0 +1,91 @@
+;Exported by: Kalinski
+;Date:        Sat Feb 24 05:54:35 2018
+;File:        C:\Users\Kalinski\Desktop\new weapons pack\delisle.max
+{Skeleton
+	{bone "de_lisle"
+		{parameters "CommonMesh;ID=rifle;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "de_lisle.ply"}
+		{bone "foresight3"
+			{Position 11.1105	1.40758	0}
+		}
+		{bone "handle"
+			{Position 3.80699	1.5552	0}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0	1
+				0	1	0
+				-1	0	0
+				1.57885	1.41183	0.0495333
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 16.4709 3.69027 1.17169}
+	{Bone "de_lisle"}
+	{Position 2.3518	0.276861	-0.00827003}
+}
+{Volume "select"
+	{Box 17.9615 4.62889 1.17169}
+	{Bone "de_lisle"}
+	{Matrix34
+		1.0774	0	0
+		0	1.0774	0
+		0	0	1.2924
+		2.32613	0.234466	-0.0614164
+	}
+}
+{Extender "preview"
+	{"stuff_primary"
+		{camera
+			{origin 2.29375	0.405124	22.2636}
+			{lookat 2.31674	0.167636	1.3304}
+			{fov 45}
+			{horizon 5.5274}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -1.51264	-0.52088	1.33739}
+			}
+			{"1"
+				{type point}
+				{position 11.0782	-1.2487	1.30826}
+			}
+			{"2"
+				{type directional}
+				{direction 0.00821002	-0.0186623	-0.499584}
+				{ambient 0xffffff}
+			}
+		}
+	}
+	{"stuff"
+		{camera
+			{origin 2.29139	0.403555	22.3052}
+			{lookat 2.31437	0.166067	1.3304}
+			{fov 45}
+			{horizon 5.5274}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 11.0782	-1.2487	1.30826}
+			}
+			{"1"
+				{type point}
+				{position -1.51264	-0.52088	1.33739}
+			}
+			{"2"
+				{type directional}
+				{direction 0.00821002	-0.0186623	-0.499584}
+				{ambient 0xffffff}
+			}
+		}
+	}
+}

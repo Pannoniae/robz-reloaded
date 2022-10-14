@@ -1,0 +1,166 @@
+;Exported by: Vnab
+;Date:        Wed Oct 08 14:52:07 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\Panzer Elite Action - Танковая гвардия\Здания\stal_factory_entrance_ru_stone\stal_factory_entrance_ru_stone.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Position -3.74194	8.83368	100.38}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -341.581 14.1121}
+		{Extent 176.478 61.2614}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol10"
+	{Obb2
+		{Center 45.0956 85.1678}
+		{Extent 13.7699 12.9266}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol11"
+	{Obb2
+		{Center 135.863 85.7291}
+		{Extent 13.4889 12.9266}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 336.887 16.6381}
+		{Extent 174.863 63.5866}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol4"
+	{Obb2
+		{Center 135.004 -31.0252}
+		{Extent 14.3318 13.4888}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol5"
+	{Obb2
+		{Center 45.6408 -31.3062}
+		{Extent 14.3319 13.2076}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol6"
+	{Obb2
+		{Center -53.2544 -31.2568}
+		{Extent 13.7699 13.4886}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol7"
+	{Obb2
+		{Center -143.674 -31.4581}
+		{Extent 13.5123 13.9094}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol8"
+	{Obb2
+		{Center -143.466 84.8886}
+		{Extent 14.0509 13.7696}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol9"
+	{Obb2
+		{Center -52.6983 85.7308}
+		{Extent 13.2079 13.4886}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 352.956 122.523 110.158}
+	{Bone "group001"}
+	{Position -337.839	-22.9458	-45.3008}
+}
+{Volume "body_vol10"
+	{Box 27.5398 25.8532 128.705}
+	{Bone "group001"}
+	{Position 48.8375	-94.0015	-36.0273}
+}
+{Volume "body_vol11"
+	{Box 26.9778 25.8532 130.391}
+	{Bone "group001"}
+	{Position 139.605	-94.5628	-35.1842}
+}
+{Volume "body_vol2"
+	{Box 349.726 127.173 108.097}
+	{Bone "group001"}
+	{Position 340.629	-25.4718	-46.3313}
+}
+{Volume "body_vol3"
+	{Box 323.549 49.2876 240.873}
+	{Bone "group001"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		0.683899	-0.677315	43.8967
+	}
+}
+{Volume "body_vol4"
+	{Box 28.6636 26.9775 127.581}
+	{Bone "group001"}
+	{Position 138.746	22.1916	-36.5893}
+}
+{Volume "body_vol5"
+	{Box 28.6639 26.4152 129.267}
+	{Bone "group001"}
+	{Position 49.3827	22.4725	-35.7463}
+}
+{Volume "body_vol6"
+	{Box 27.5398 26.9773 129.267}
+	{Bone "group001"}
+	{Position -49.5125	22.4231	-35.7463}
+}
+{Volume "body_vol7"
+	{Box 27.0246 27.8189 128.143}
+	{Bone "group001"}
+	{Position -139.932	22.6244	-36.3083}
+}
+{Volume "body_vol8"
+	{Box 28.1018 27.5393 131.515}
+	{Bone "group001"}
+	{Position -139.724	-93.7222	-34.6222}
+}
+{Volume "body_vol9"
+	{Box 26.4157 26.9773 130.953}
+	{Bone "group001"}
+	{Position -48.9563	-94.5645	-34.9032}
+}

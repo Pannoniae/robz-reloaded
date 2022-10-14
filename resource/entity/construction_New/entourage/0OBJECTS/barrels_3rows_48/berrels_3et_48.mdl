@@ -1,0 +1,40 @@
+;Exported by: Vnab
+;Date:        Tue Sep 30 16:27:41 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\Company of heroes\Окружение\berrels_3et_48\berrels_3et_48.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				0.999193	0.0401747	0
+				-0.0401747	0.999193	0
+				0	0	1
+				-1.27678	1.30069	36.388
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -1.56557 -0.813843}
+		{Extent 30.8175 29.4645}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 61.635 58.929 70.9554}
+	{Bone "group001"}
+	{Matrix34
+		0.999193	-0.0401746	0
+		0.0401746	0.999193	0
+		0	0	1
+		-0.308117	-0.474855	-0.910316
+	}
+}

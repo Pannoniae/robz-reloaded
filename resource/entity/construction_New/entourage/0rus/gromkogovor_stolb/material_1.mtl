@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "env202_ruscart"}
+	{blend none}
+}

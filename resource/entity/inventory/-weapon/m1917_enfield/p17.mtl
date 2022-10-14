@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "p17"}
+	{blend none}
+}

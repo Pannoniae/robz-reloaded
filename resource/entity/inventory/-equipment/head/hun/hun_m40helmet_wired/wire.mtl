@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/humanskin/se4_germanhelmet_wired_cr"}
+	{bump "$/humanskin/se4_germanhelmet_wired_n"}
+	{specular "$/humanskin/se4_germanhelmet_wired_s"}
+	{color "229 229 229 25"}
+	{blend none}
+}

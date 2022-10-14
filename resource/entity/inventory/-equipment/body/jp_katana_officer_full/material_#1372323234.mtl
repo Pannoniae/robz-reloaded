@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "snlf_raw_commander_1"}
+	{color "230 230 230 25"}
+	{blend test}
+}

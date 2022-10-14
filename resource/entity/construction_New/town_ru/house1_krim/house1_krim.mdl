@@ -1,0 +1,30 @@
+;Exported by: Vnab
+;Date:        Thu Apr 24 16:31:06 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\Здания\Россия\house1_krim_bldSC_002\house_krim1.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "3d_object_1"
+			{Position -2.16777	-10.8623	29.0599}
+			{VolumeView "3d_object_1.ply"}
+		}
+	}
+}
+{Obstacle "body_vol_"
+	{Obb2
+		{Center 0.0679626 10.4554}
+		{Extent 59.5721 122.988}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body_vol_"
+	{Box 119.144 245.975 128.112}
+	{Bone "3d_object_1"}
+	{Position 2.23573	0.406824	-20.5475}
+}

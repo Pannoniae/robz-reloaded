@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "bldkr_007_monastery_gate"}
+	{blend none}
+}

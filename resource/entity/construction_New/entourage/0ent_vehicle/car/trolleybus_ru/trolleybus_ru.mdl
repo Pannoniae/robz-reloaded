@@ -1,0 +1,78 @@
+;Exported by: Vnab
+;Date:        Wed Dec 10 13:20:49 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\Конвертированные\entourage\0ent_vehicle\car\trolleyb\trolleyb.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group01"
+			{Matrix34
+				0.00872656	0.999962	0
+				-0.999962	0.00872656	0
+				0	0	1
+				-6.46014	-3.92546	52.8865
+			}
+			{VolumeView "group01.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -3.9418 2.27405}
+		{Extent 23.3118 86.7503}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -5.82513 71.3886}
+		{Extent 25.4863 8.6224}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center -5.63773 -27.3698}
+		{Extent 25.6737 9.00297}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 46.6235 173.501 48.1521}
+	{Bone "group01"}
+	{Matrix34
+		0.0087268	-0.999962	0
+		0.999962	0.0087268	0
+		0	0	1
+		1.67333	-2.50383	-23.0424
+	}
+}
+{Volume "body_vol2"
+	{Cylinder 8.6224 50.9726}
+	{Bone "group01"}
+	{Matrix34
+		-0.999962	-0.0087264	0
+		0	0	1
+		-0.0087264	0.999962	0
+		-67.455	-1.22371	-44.2491
+	}
+}
+{Volume "body_vol3"
+	{Cylinder 9.00296 51.3474}
+	{Bone "group01"}
+	{Matrix34
+		-0.999962	-0.0087264	0
+		0	0	1
+		-0.0087264	0.999962	0
+		31.3013	-0.549273	-43.8461
+	}
+}

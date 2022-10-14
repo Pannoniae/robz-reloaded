@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "lmy003_a"}
+	{blend none}
+}

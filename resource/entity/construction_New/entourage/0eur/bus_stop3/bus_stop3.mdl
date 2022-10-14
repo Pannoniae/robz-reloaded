@@ -1,0 +1,107 @@
+;Exported by: Vnab
+;Date:        Wed Mar 25 14:03:06 2015
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\Конвертированные\entourage\0eur\bus_stop3\bus_stop3.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				-0.331312	0.0457653	11.422
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.333475 -14.9208}
+		{Extent 24.7786 0.563152}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center -24.2338 7.60327}
+		{Extent 0.432692 0.368592}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol4"
+	{Obb2
+		{Center 23.6849 7.61953}
+		{Extent 0.408653 0.352566}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol5"
+	{Obb2
+		{Center -0.321461 -8.24581}
+		{Extent 15.4167 2.46795}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 4.12976 2.10008 0.0938583}
+	{Bone "object_1"}
+	{Matrix34
+		12	0	0
+		0	-12	0
+		0	0	-12
+		-0.00216293	-14.6939	14.875
+	}
+}
+{Volume "body_vol2"
+	{Box 4.28292 2.7839 0.0629841}
+	{Bone "object_1"}
+	{Matrix34
+		12	0	0
+		0	1.99029	11.8338
+		0	-11.8338	1.99029
+		0.173467	-28.4266	-0.10154
+	}
+}
+{Volume "body_vol3"
+	{Box 0.0721153 0.0614316 3.53553}
+	{Bone "object_1"}
+	{Matrix34
+		12	0	0
+		0	0	12
+		0	-12	0
+		-23.9025	-9.79115	-7.64904
+	}
+}
+{Volume "body_vol4"
+	{Box 0.0681088 0.0587606 3.53553}
+	{Bone "object_1"}
+	{Matrix34
+		12	0	0
+		0	0	12
+		0	-12	0
+		24.0162	-9.79115	-7.6653
+	}
+}
+{Volume "body_vol5"
+	{Box 2.56944 0.411325 0.133547}
+	{Bone "object_1"}
+	{Matrix34
+		12	0	0
+		0	0	12
+		0	-12	0
+		0.00985122	-5.21724	8.20004
+	}
+}

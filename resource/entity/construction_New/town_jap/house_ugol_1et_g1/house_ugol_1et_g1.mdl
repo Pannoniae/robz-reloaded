@@ -1,0 +1,59 @@
+;Exported by: Vnab
+;Date:        Mon Dec 08 11:07:50 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\bldAS_014_XinjiangHouse\house_ugol_1et_g1.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				-4.91417	1.21282	0.137328
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.327415 -0.327431}
+		{Extent 71.7081 80.8763}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -77.5638 -38.1601}
+		{Extent 9.14547 19.4486}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 143.416 161.753 81.2037}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		4.58675	-26.6603	-0.885395
+	}
+}
+{Volume "body_vol2"
+	{Box 18.2909 38.8972 27.5522}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-72.6496	0.165454	36.9473
+	}
+}

@@ -1,0 +1,192 @@
+;Exported by: Vnab
+;Date:        Wed Nov 12 13:28:01 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\Blazing Angels\Техника\G4M1_bomb_jap\G4M1_bomb_jap.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				1	0	0
+				0	0.99992	0.0126295
+				0	-0.0126295	0.99992
+				0.365306	60.9978	40.384
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 1.31074 -59.1221}
+		{Extent 17.4614 158.518}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 2.42665 -15.6753}
+		{Extent 211.045 12.2851}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center 0.817406 -197.15}
+		{Extent 67.8194 10.0539}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol4"
+	{Obb2
+		{Center 1.21507 -184.932}
+		{Extent 1.21951 34.131}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol5"
+	{Obb2
+		{Center -0.6092 3.0885}
+		{Extent 56.4087 7.80294}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol6"
+	{Obb2
+		{Center -52.7352 18.8248}
+		{Extent 13.3997 38.4671}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol7"
+	{Obb2
+		{Center 52.9923 18.4431}
+		{Extent 13.1861 38.9151}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol8"
+	{Obb2
+		{Center 1.1643 17.0758}
+		{Extent 5.89426 31.3553}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol9"
+	{Obb2
+		{Center 0.941633 -156.489}
+		{Extent 1.57519 3.70932}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Cylinder 17.4614 315.164}
+	{Bone "group001"}
+	{Matrix34
+		1	0	0
+		0	0.121869	0.992546
+		0	-0.992546	0.121869
+		0.945432	-1.86316	0.999849
+	}
+}
+{Volume "body_vol2"
+	{Box 422.09 23.9092 7.35668}
+	{Bone "group001"}
+	{Matrix34
+		1	0	0
+		0	0.992546	-0.121869
+		0	0.121869	0.992546
+		2.06135	-45.2102	9.17428
+	}
+}
+{Volume "body_vol3"
+	{Box 135.639 19.7711 3.67834}
+	{Bone "group001"}
+	{Matrix34
+		1	0	0
+		0	0.977547	-0.210717
+		0	0.210717	0.977547
+		0.452096	136.036	-10.0882
+	}
+}
+{Volume "body_vol4"
+	{Box 30.0811 67.0726 2.439}
+	{Bone "group001"}
+	{Matrix34
+		0	-0.709712	0.704493
+		0	0.704493	0.709712
+		-1	0	0
+		0.849767	124.021	6.05594
+	}
+}
+{Volume "body_vol5"
+	{Box 112.817 15.6059 20.8078}
+	{Bone "group001"}
+	{Matrix34
+		1	0	0
+		0	0.99992	-0.0126296
+		0	0.0126296	0.99992
+		-0.974507	-64.4595	-29.1484
+	}
+}
+{Volume "body_vol6"
+	{Cylinder 13.3997 74.4954}
+	{Bone "group001"}
+	{Matrix34
+		1	0	0
+		0	0.121869	0.992546
+		0	-0.992546	0.121869
+		-53.1005	-79.7504	6.21864
+	}
+}
+{Volume "body_vol7"
+	{Cylinder 13.1861 75.443}
+	{Bone "group001"}
+	{Matrix34
+		1	0	0
+		0	0.121869	0.992546
+		0	-0.992546	0.121869
+		52.627	-79.3796	5.3508
+	}
+}
+{Volume "body_vol8"
+	{Box 62.1946 8.13001 11.7885}
+	{Bone "group001"}
+	{Matrix34
+		0	-0.992546	0.12187
+		0	0.12187	0.992546
+		-1	0	0
+		0.798997	-77.6795	31.6911
+	}
+}
+{Volume "body_vol9"
+	{Box 7.41864 12.9064 3.15038}
+	{Bone "group001"}
+	{Matrix34
+		0	-0.99992	0.0126296
+		0	0.0126296	0.99992
+		-1	0	0
+		0.576327	95.0564	-35.0633
+	}
+}

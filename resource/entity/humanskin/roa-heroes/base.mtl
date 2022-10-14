@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/humanskin/roa/roa_heroes"}
+	{blend none}
+}

@@ -1,0 +1,59 @@
+;Exported by: Vnab
+;Date:        Tue Mar 31 13:32:18 2015
+;File:        C:\Users\Vnab\Desktop\Моддинг\Выбр\Здания\house_eu1_2et LBC033\house_eu1_2et.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				0	1	0
+				0	0	-1
+				-1	0	0
+				10.7666	-5.2293	17.0353
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 12.2261 -2.6051}
+		{Extent 176.186 74.1419}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -137.815 -5.88882}
+		{Extent 20.89 109.227}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 352.373 148.284 157.85}
+	{Bone "object_1"}
+	{Matrix34
+		0	0	-1
+		1	0	0
+		0	-1	0
+		7.8344	-61.8899	-1.45957
+	}
+}
+{Volume "body_vol2"
+	{Box 41.7798 218.454 19.9306}
+	{Bone "object_1"}
+	{Matrix34
+		0	0	-1
+		1	0	0
+		0	-1	0
+		11.1182	7.06997	148.581
+	}
+}

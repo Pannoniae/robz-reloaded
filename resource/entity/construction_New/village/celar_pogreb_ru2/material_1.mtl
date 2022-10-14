@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "blr005_cellar"}
+	{blend none}
+}

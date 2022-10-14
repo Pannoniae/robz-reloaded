@@ -1,0 +1,30 @@
+;Exported by: Vnab
+;Date:        Wed May 07 11:04:45 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\Здания\Европа\saray_6_6111_shed\saray_6.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "3d_object_1"
+			{Position 12.5943	-5.20556	31.3534}
+			{VolumeView "3d_object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 1.80154 -1.36312}
+		{Extent 64.2633 72.9009}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 128.527 145.802 74.6284}
+	{Bone "3d_object_1"}
+	{Position -10.7928	6.56868	-6.16238}
+}

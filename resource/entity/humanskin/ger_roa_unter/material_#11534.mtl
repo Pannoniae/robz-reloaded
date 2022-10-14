@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "forma-ger"}
+	{blend none}
+}

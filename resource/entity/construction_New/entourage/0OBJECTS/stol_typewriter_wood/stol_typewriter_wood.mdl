@@ -1,0 +1,49 @@
+;Exported by: Vnab
+;Date:        Wed Oct 01 15:39:28 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\Red orchestra\stol_typewriter_wood\stol_typewriter_wood.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Position -0.213779	0.247736	11.1638}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.0974369 -0.171895}
+		{Extent 19.1607 9.2995}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 5.8834 -1.0109}
+		{Extent 6.12482 4.31837}
+		{Axis 0.987701 0.156356}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 38.3214 18.599 2.62134}
+	{Bone "group001"}
+	{Position 0.116343	-0.075841	4.88773}
+}
+{Volume "body_vol2"
+	{Box 12.2329 8.61296 4.49372}
+	{Bone "group001"}
+	{Matrix34
+		0.988003	-0.154434	0
+		0.154434	0.988003	0
+		0	0	1
+		6.09718	0.763165	8.63345
+	}
+}

@@ -1,0 +1,8 @@
+{game_entity
+	(include "/properties/stuff.ext")
+	{Extension "bazooka_wp.mdl"}
+	{extender "stuff"
+		{item "ammo bazooka_m9 wp m9bazooka"}
+	}
+}
+

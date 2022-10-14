@@ -1,0 +1,30 @@
+;Exported by: Vnab
+;Date:        Tue Jun 17 14:00:36 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\Конвертированные\town_jap\hram3_bld009_wood\hram3_bldJA_009_Vaul.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "3d_object_1"
+			{Position 1.08579	22.4838	74.7504}
+			{VolumeView "3d_object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.766041 -8.49867}
+		{Extent 48.9507 63.2665}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 97.9014 126.533 135.841}
+	{Bone "3d_object_1"}
+	{Position -1.85184	-13.9851	-30.2237}
+}

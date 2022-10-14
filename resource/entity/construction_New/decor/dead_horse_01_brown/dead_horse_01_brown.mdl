@@ -1,0 +1,49 @@
+;Exported by: Vnab
+;Date:        Wed Oct 08 12:52:14 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\Panzer Elite Action - Дюны в огне\Окружение\dead_horse_01_brown\dead_horse_01_brown.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Position 1.3838	-3.48461	4.85784}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.629163 0.32928}
+		{Extent 14.4313 6.75685}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 15.5193 -10.2643}
+		{Extent 2.63604 8.52371}
+		{Axis 0.50046 0.86576}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 28.8626 13.5137 9.50963}
+	{Bone "group001"}
+	{Position -2.01296	3.15533	-0.103019}
+}
+{Volume "body_vol2"
+	{Box 17.0172 5.17191 3.67039}
+	{Bone "group001"}
+	{Matrix34
+		0.862796	0.505552	0
+		-0.505552	0.862796	0
+		0	0	1
+		14.1355	13.7489	-3.02264
+	}
+}

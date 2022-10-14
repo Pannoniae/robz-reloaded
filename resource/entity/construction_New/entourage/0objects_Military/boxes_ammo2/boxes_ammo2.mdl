@@ -1,0 +1,40 @@
+;Exported by: Vnab
+;Date:        Tue Jun 03 12:38:30 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\Objects Предметы\boxes_ammo2\boxes_ammo2.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group01"
+			{Matrix34
+				0.997843	-0.0656457	0
+				-0.00400756	-0.0609167	-0.998135
+				0.0655232	0.995982	-0.0610484
+				-0.0303345	-0.656605	19.4511
+			}
+			{VolumeView "group01.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.556422 0.333849}
+		{Extent 24.1486 23.4809}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 48.2972 46.9618 32.0497}
+	{Bone "group01"}
+	{Matrix34
+		0.997843	-0.00400776	0.0655234
+		-0.0656458	-0.0609167	0.995982
+		0	-0.998135	-0.0610484
+		-0.54614	3.40228	0.496154
+	}
+}

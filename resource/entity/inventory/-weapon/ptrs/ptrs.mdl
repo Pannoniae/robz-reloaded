@@ -1,0 +1,91 @@
+;Exported by: Kalinski
+;Date:        Fri Mar 09 05:53:59 2018
+;File:        C:\Users\Kalinski\Desktop\new weapons pack\ptrs.max
+{Skeleton
+	{bone "ptrs"
+		{parameters "CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "ptrs.ply"}
+		{bone "foresight3"
+			{Position 35.355	1.52856	0}
+		}
+		{bone "handle"
+			{Position 11.7042	2.39657	0}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0	1
+				0	1	0
+				-1	0	0
+				5.64132	2.08288	0
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 37.7275 4.43073 1.17169}
+	{Bone "ptrs"}
+	{Position 14.0195	0.788529	-0.00827003}
+}
+{Volume "select"
+	{Box 41.4983 9.22979 1.17169}
+	{Bone "ptrs"}
+	{Matrix34
+		1.0774	0	0
+		0	1.0774	0
+		0	0	1.2924
+		13.9143	-0.201859	-0.0614164
+	}
+}
+{Extender "preview"
+	{"stuff_primary"
+		{camera
+			{origin 14.2246	0.17904	54.314}
+			{lookat 14.2476	-0.0584481	1.3304}
+			{fov 45}
+			{horizon 5.5273}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -1.17062	-1.4063	1.33739}
+			}
+			{"1"
+				{type point}
+				{position 11.4202	-2.13413	1.30826}
+			}
+			{"2"
+				{type directional}
+				{direction 0.00821002	-0.0186623	-0.499584}
+				{ambient 0xffffff}
+			}
+		}
+	}
+	{"stuff"
+		{camera
+			{origin 14.2249	0.179215	54.3119}
+			{lookat 14.2479	-0.058273	1.3304}
+			{fov 45}
+			{horizon 5.52751}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 11.4202	-2.13413	1.30826}
+			}
+			{"1"
+				{type point}
+				{position -1.17062	-1.4063	1.33739}
+			}
+			{"2"
+				{type directional}
+				{direction 0.00821002	-0.0186623	-0.499584}
+				{ambient 0xffffff}
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+;Exported by: Vnab
+;Date:        Tue Jul 21 16:24:02 2015
+;File:        C:\Users\Vnab\Desktop\Моддинг\BK3 model\Подгот\Здания\spa_town_01_2et_red\spa_town_01_2et_red.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Position -1.29046	30.1939	42.0655}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 0.1548 -5.45045}
+		{Extent 68.8315 34.4157}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -44.934 -66.1908}
+		{Extent 23.7035 26.6665}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 137.663 68.8315 84.7858}
+	{Bone "group001"}
+	{Position 1.44526	-24.7434	-12.2584}
+}
+{Volume "body_vol2"
+	{Box 47.4071 53.333 83.4824}
+	{Bone "group001"}
+	{Position -43.6435	35.9969	-12.9101}
+}

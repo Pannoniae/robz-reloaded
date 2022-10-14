@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "props_static_mats_props_detail_three_store_food_scale_d"}
+	{blend none}
+}

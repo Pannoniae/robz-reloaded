@@ -1,0 +1,7 @@
+{game_entity
+	{Extension "snlf_officer.mdl"}
+	{Volume "body"
+	        {able {visible} {select} {contact_ground} {touch} {contact} {blast}}
+		{Thickness 10}
+	}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "blr603_firetower"}
+	{blend none}
+}

@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "/texture\land\grass/gramma_11"}
+	{bump "/texture\land\grass/gramma_11_nm"}
+	{blend none}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "toolbox"}
+	{blend none}
+}

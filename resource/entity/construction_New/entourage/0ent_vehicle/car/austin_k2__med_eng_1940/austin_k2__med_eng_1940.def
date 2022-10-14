@@ -1,0 +1,19 @@
+{game_entity
+(include "/properties/construction.inc")
+	{ObstacleId "construction"}
+	{collider "particle.big"}
+	{simulation {able 1}}
+	{props "steel" "dead_vehicle" "big" "part"}
+	{Extension "austin_k2__med_eng_1940.mdl"}
+	{mass 3200}
+	{Volume "body"
+		{Tags  "body"}
+		{Thickness 5}
+		{able {visible 1}}
+	}
+	{Volume "body_vol2"
+		{Tags  "body"}
+		{Thickness 5}
+		{able {visible 1}}
+	}
+}

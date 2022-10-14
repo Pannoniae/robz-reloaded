@@ -1,0 +1,21 @@
+;Exported by: user
+;Date:        Fri Aug 01 23:14:51 2014
+;File:        C:\Users\user\Desktop\Моддинг\МОДЕЛИ\Готовые\окружение\box_mgun_ger\box_mgun_ger.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Position 0.00197411	0.0518899	2.86076}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Box 17.4145 6.55271 5.698}
+	{Bone "group001"}
+	{Position 0.00201225	-0.0162773	-0.0117559}
+}

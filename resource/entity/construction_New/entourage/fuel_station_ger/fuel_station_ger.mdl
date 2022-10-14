@@ -1,0 +1,49 @@
+;Exported by: Vnab
+;Date:        Wed May 07 16:22:21 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\Окружение\Fuel_station_ger\Fuel_station_ger.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group01"
+			{Position -29.0345	-0.0422287	20.4181}
+			{VolumeView "group01.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -45.8227 1.10654}
+		{Extent 54.916 23.6677}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 28.4244 13.8275}
+		{Extent 5.54033 9.3682}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Cylinder 23.6677 109.832}
+	{Bone "group01"}
+	{Matrix34
+		0	-1	0
+		0	0	1
+		-1	0	0
+		-16.7882	-1.06431	0.156528
+	}
+}
+{Volume "body_vol2"
+	{Box 11.0807 18.7364 26.5936}
+	{Bone "group01"}
+	{Position 57.4589	-13.7853	-10.5834}
+}

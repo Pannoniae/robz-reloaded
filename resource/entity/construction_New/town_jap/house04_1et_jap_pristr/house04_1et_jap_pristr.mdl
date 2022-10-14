@@ -1,0 +1,78 @@
+;Exported by: Vnab
+;Date:        Mon Dec 08 13:09:04 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\bldAS_014_XinjiangHouse\house04_1et_jap_pristr.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				0	-1	0
+				0	0	-1
+				1	0	0
+				-1.84363	-5.31404	-2.77887
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 45.5868 13.2939}
+		{Extent 42.5215 87.9421}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -44.0948 -6.80723}
+		{Extent 46.7736 75.5722}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center -63.277 84.7287}
+		{Extent 23.5071 15.5803}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 175.884 85.0429 88.522}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		7.97985	-24.7074	47.4304
+	}
+}
+{Volume "body_vol2"
+	{Box 151.144 93.5472 87.7488}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-12.1213	-24.3208	-42.2511
+	}
+}
+{Volume "body_vol3"
+	{Box 31.1606 47.0142 3.28006}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		79.4147	-10.0316	-61.4334
+	}
+}

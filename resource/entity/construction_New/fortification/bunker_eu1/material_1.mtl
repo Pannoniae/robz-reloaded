@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "mil001_gerpillbox"}
+	{blend none}
+}

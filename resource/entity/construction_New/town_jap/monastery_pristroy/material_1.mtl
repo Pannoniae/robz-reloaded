@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "bldkr_001_monastery_mainhouse"}
+	{blend none}
+}

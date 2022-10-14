@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "enwnw004_boatcrane"}
+	{blend none}
+}

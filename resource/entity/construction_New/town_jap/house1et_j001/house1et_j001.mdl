@@ -1,0 +1,30 @@
+;Exported by: Vnab
+;Date:        Thu Apr 24 15:35:18 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\Здания\Восток\House1et_j001\House1et_j001.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "3d_object_1"
+			{Position -0.117569	1.59131	77.4998}
+			{VolumeView "3d_object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.722778 -3.08473}
+		{Extent 112.069 62.0134}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 224.138 124.027 82.3137}
+	{Bone "3d_object_1"}
+	{Position -0.605209	1.49343	-36.3429}
+}

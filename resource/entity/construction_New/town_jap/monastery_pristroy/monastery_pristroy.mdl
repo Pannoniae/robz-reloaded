@@ -1,0 +1,49 @@
+;Exported by: Vnab
+;Date:        Thu May 29 11:14:54 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\Здания\Восток\monastery_pristroy_KR_002\monastery_pristroy.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "3d_object_1"
+			{Position -0.886703	-1.68314	60.7679}
+			{VolumeView "3d_object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 0.597275 -0.166763}
+		{Extent 84.9639 61.5794}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -0.589272 -0.354462}
+		{Extent 120.202 97.5676}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 169.928 123.159 106.01}
+	{Bone "3d_object_1"}
+	{Position 1.48398	1.8499	-2.20642}
+}
+{Volume "body_vol2"
+	{Box 240.403 32.962 195.135}
+	{Bone "3d_object_1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		0.297432	2.0376	-72.2164
+	}
+}

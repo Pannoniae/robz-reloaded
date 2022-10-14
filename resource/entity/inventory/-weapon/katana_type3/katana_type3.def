@@ -1,0 +1,8 @@
+{game_entity
+	(include "/properties/stuff_small.ext")
+	{Extension "katana.mdl"}
+	{extender "stuff"
+		{item "katana_type3"}
+	}
+	{nogroupmesh 1}
+}

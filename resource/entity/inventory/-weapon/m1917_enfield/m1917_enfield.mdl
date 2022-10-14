@@ -1,0 +1,91 @@
+;Exported by: Kalinski
+;Date:        Wed Aug 23 03:22:52 2017
+;File:        C:\Users\Kalinski\Desktop\fra\p17 exp.max
+{Skeleton
+	{bone "m1917_enfield"
+		{parameters "CommonMesh;ID=rifle;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "m1917_enfield.ply"}
+		{bone "foresight3"
+			{Position 15.6881	1.32325	0}
+		}
+		{bone "handle"
+			{Position 5.35673	1.63228	0}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0	1
+				0	1	0
+				-1	0	0
+				2.25324	1.51193	0.174039
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 20.5282 2.83207 1.17169}
+	{Bone "m1917_enfield"}
+	{Position 4.96201	0.622176	-0.00827003}
+}
+{Volume "select"
+	{Box 22.1747 4.62889 1.17169}
+	{Bone "m1917_enfield"}
+	{Matrix34
+		1.0774	0	0
+		0	1.0774	0
+		0	0	1.2924
+		4.74088	0.234466	-0.0614164
+	}
+}
+{Extender "preview"
+	{"stuff_primary"
+		{camera
+			{origin 4.80252	0.405124	25.9581}
+			{lookat 4.8255	0.167636	1.3304}
+			{fov 45}
+			{horizon 5.5274}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -1.51264	-0.52088	1.33739}
+			}
+			{"1"
+				{type point}
+				{position 11.0782	-1.2487	1.30826}
+			}
+			{"2"
+				{type directional}
+				{direction 0.00821002	-0.0186623	-0.499584}
+				{ambient 0xffffff}
+			}
+		}
+	}
+	{"stuff"
+		{camera
+			{origin 4.77917	0.432568	25.9607}
+			{lookat 4.80215	0.19508	1.3304}
+			{fov 45}
+			{horizon 5.5274}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 11.0782	-1.2487	1.30826}
+			}
+			{"1"
+				{type point}
+				{position -1.51264	-0.52088	1.33739}
+			}
+			{"2"
+				{type directional}
+				{direction 0.00821002	-0.0186623	-0.499584}
+				{ambient 0xffffff}
+			}
+		}
+	}
+}

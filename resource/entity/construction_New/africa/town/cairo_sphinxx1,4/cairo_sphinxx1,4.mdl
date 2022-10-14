@@ -1,0 +1,86 @@
+;Exported by: Vnab
+;Date:        Fri Sep 19 14:38:00 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\Air Conflicts.Secret Wars\Здания\Африка\Cairo_SphinxX1,4\Cairo_SphinxX1,4.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Position -0.228958	64.5112	105.601}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -1.37953 -155.039}
+		{Extent 62.2222 237.949}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -2.03588 -272.362}
+		{Extent 88.7876 94.4456}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center -58.1932 130.568}
+		{Extent 24.9058 133.64}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol4"
+	{Obb2
+		{Center 59.7723 133.929}
+		{Extent 26.3576 134.362}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol5"
+	{Obb2
+		{Center 1.01369 25.9612}
+		{Extent 47.1795 35.8974}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 124.444 475.897 103.932}
+	{Bone "group001"}
+	{Position -1.15057	90.528	-53.6353}
+}
+{Volume "body_vol2"
+	{Box 177.575 188.891 37.7124}
+	{Bone "group001"}
+	{Position -1.80692	207.851	-89.2242}
+}
+{Volume "body_vol3"
+	{Box 49.8116 267.279 34.3279}
+	{Bone "group001"}
+	{Position -57.9643	-195.079	-90.9164}
+}
+{Volume "body_vol4"
+	{Box 52.7152 268.724 34.188}
+	{Bone "group001"}
+	{Position 60.0013	-198.44	-90.9863}
+}
+{Volume "body_vol5"
+	{Box 94.359 71.7949 91.6239}
+	{Bone "group001"}
+	{Position 1.24265	-90.4724	54.9372}
+}

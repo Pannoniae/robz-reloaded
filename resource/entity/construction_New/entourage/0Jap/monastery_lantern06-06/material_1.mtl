@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "envja_006_stonelantern"}
+	{blend none}
+}

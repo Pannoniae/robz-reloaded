@@ -1,0 +1,31 @@
+;Exported by: user
+;Date:        Thu Aug 07 23:29:04 2014
+;File:        C:\Users\user\Desktop\Моддинг\Модели нов\Death to spies\box_ru_grenade\box_ru_grenade.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				0.999999	-0.00132465	0
+				0.00132465	0.999999	0
+				0	0	1
+				-0.00618172	0.172638	1.87321
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Box 22.466 7.40836 3.79452}
+	{Bone "group001"}
+	{Matrix34
+		0.999999	0.00132487	0
+		-0.00132487	0.999999	0
+		0	0	1
+		0.0967178	-0.142397	0.0240564
+	}
+}

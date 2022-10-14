@@ -1,0 +1,31 @@
+;Exported by: Vnab
+;Date:        Tue Jun 17 14:07:51 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\Конвертированные\entourage\0Objects\box_shell1 снаряды\box_shell1.max
+{Skeleton
+	{bone "dummy01"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group01"
+			{Matrix34
+				1	0	0
+				0	0.999842	0.0177656
+				0	-0.0177656	0.999842
+				-0.698636	1.04459	4.0533
+			}
+			{VolumeView "group01.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Box 48.7854 12.925 8.10979}
+	{Bone "group01"}
+	{Matrix34
+		1	0	0
+		0	0.999842	-0.0177655
+		0	0.0177655	0.999842
+		0.110317	-0.0236972	0.00201654
+	}
+}

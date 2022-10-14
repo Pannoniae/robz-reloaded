@@ -1,0 +1,88 @@
+;Exported by: alfor
+;Date:        Sat Mar 16 16:38:55 2019
+;File:        C:\Users\alfor\Documents\shell_170_ap.max
+{Skeleton
+	{bone "shell_ger_ap_170"
+		{parameters "CommonMesh;ID=ammo;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "shell_ger_ap_170.ply"}
+		{bone "body"
+			{Matrix34
+				0	0	-1
+				1	0	0
+				0	-1	0
+				-5.41488	8.0295	10.5219
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 58.8106 8.53841 2.97468}
+	{Bone "shell_ger_ap_170"}
+	{Matrix34
+		0.529686	0	0
+		0	0.648878	0
+		0	0	1.71154
+		-0.175171	-0.302794	-0.0157266
+	}
+}
+{Volume "select"
+	{Box 70.5727 24.7067 11.036}
+	{Bone "shell_ger_ap_170"}
+	{Matrix34
+		0.529686	0	0
+		0	0.648878	0
+		0	0	1.71154
+		-0.47628	-1.66348	1.52224
+	}
+}
+{Extender "preview"
+	{"Stuff_primary"
+		{camera
+			{origin 0.696667	-5.1512	34.0502}
+			{lookat -0.0696597	-2.02546	15.0022}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 9.3196	-2.25654	6.26243}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0792752	0.197722	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -10.8621	-1.58478	4.52352}
+			}
+		}
+	}
+	{"Stuff"
+		{camera
+			{origin 0.683783	-5.02601	33.3178}
+			{lookat -0.0530701	-2.02048	15.0023}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 9.3196	-2.25654	6.26243}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0792752	0.197722	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -10.8621	-1.58478	4.52352}
+			}
+		}
+	}
+}

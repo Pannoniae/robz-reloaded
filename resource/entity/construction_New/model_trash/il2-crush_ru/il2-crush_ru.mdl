@@ -1,0 +1,69 @@
+;Exported by: Vnab
+;Date:        Tue Dec 02 13:57:43 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\WOT\Техника\il2-crush_ru\il2-crush_ru.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				-1.86811	30.8471	0.0471674
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -1.74469 5.11104}
+		{Extent 7.7113 52.9155}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center 32.0279 -106.581}
+		{Extent 4.49708 51.3396}
+		{Axis 0.933647 0.358195}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 339.411 34.8114 4.83492}
+	{Bone "object_1"}
+	{Matrix34
+		0.777778	0	0
+		0	0	0.777778
+		0	-0.777778	0
+		-7.7031	-1.88025	-27.5891
+	}
+}
+{Volume "body_vol2"
+	{Box 19.8291 136.068 28.7179}
+	{Bone "object_1"}
+	{Matrix34
+		0.777778	0	0
+		0	0	0.777778
+		0	-0.777778	0
+		0.123418	-15.0467	-35.9582
+	}
+}
+{Volume "body_vol3"
+	{Box 10.9402 131.966 23.2479}
+	{Bone "object_1"}
+	{Matrix34
+		0.724845	0	-0.282026
+		0.282026	0	0.724845
+		0	-0.777778	0
+		33.896	-9.04083	75.7341
+	}
+}

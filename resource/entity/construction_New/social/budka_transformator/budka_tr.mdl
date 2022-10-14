@@ -1,0 +1,40 @@
+;Exported by: Vnab
+;Date:        Tue Aug 06 14:40:47 2013
+;File:        D:\INSTALL\Моддинг\Сцены\Death to sp\2 похищ\budka_rus\budka_rus.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group01"
+			{Matrix34
+				0.999534	-0.0305105	0
+				0.030449	0.997521	-0.0634406
+				0.0019356	0.0634111	0.997986
+				-2.98007	-1.22533	26.7461
+			}
+			{VolumeView "group01.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -3.38372 -0.439108}
+		{Extent 26.6104 43.9339}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 53.2207 87.8677 48.5773}
+	{Bone "group01"}
+	{Matrix34
+		0.999534	0.0304489	0.00193548
+		-0.0305103	0.997521	0.0634111
+		0	-0.0634407	0.997986
+		-0.454248	1.80393	-2.34773
+	}
+}

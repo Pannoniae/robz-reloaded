@@ -1,0 +1,88 @@
+;Exported by: Vnab
+;Date:        Fri Nov 21 10:50:08 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\WOT\здания восток\envJA_008_BambooCanopy\envJA_008_BambooCanopy.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				-0.767888	0.0283748	0
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -32.0316 43.5036}
+		{Extent 0.56181 0.543692}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center -31.1727 -43.667}
+		{Extent 0.563854 0.563858}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol4"
+	{Obb2
+		{Center 25.942 0.275408}
+		{Extent 0.71763 44.0831}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 59.4432 87.86 1.44983}
+	{Bone "object_1"}
+	{Matrix34
+		0.968861	0.247605	0
+		0	0	1
+		0.247605	-0.968861	0
+		-0.991526	-41.1844	0.0472506
+	}
+}
+{Volume "body_vol2"
+	{Box 1.12362 1.08738 48.4245}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-31.2637	-24.2122	-43.532
+	}
+}
+{Volume "body_vol3"
+	{Box 1.12771 1.12771 49.2944}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-30.4048	-24.6472	43.6386
+	}
+}
+{Volume "body_vol4"
+	{Box 1.43526 88.1661 18.4534}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		26.7099	-24.6763	-0.303786
+	}
+}

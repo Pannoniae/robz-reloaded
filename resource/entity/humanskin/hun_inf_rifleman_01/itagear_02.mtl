@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/humanskin/ita_gear_01_diff"}
+	{bump "$/humanskin/ita_gear_01_bump"}
+	{blend none}
+}

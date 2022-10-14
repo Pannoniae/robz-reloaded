@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/humanskin/ger_mp40pouches_diff"}
+	{bump "$/humanskin/ger_mp40pouches_bump"}
+	{specular "$/humanskin/ger_mp40pouches_spc"}
+	{color "229 229 229 25"}
+	{blend none}
+}

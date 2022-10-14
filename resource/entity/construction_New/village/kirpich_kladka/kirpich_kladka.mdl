@@ -1,0 +1,40 @@
+;Exported by: Vnab
+;Date:        Wed Nov 12 11:50:09 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\разное\kirpich_kladka\kirpich_kladka.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				0.422685	0.906273	0.00243807
+				-0.905946	0.422602	-0.0258712
+				-0.0244767	0.00872661	0.999662
+				1.02472	0.583832	14.5066
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 0.821352 -0.251339}
+		{Extent 27.3687 21.8041}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 54.7375 43.6083 29.7536}
+	{Bone "group001"}
+	{Matrix34
+		0.422685	-0.905946	-0.0244767
+		0.906274	0.422602	0.00872661
+		0.00243806	-0.0258712	0.999662
+		-0.389335	0.0654145	-0.836015
+	}
+}

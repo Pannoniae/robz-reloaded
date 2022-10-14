@@ -1,0 +1,78 @@
+;Exported by: Vnab
+;Date:        Thu Jul 23 13:39:59 2015
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\Конвертированные\Ruins\ruins_7_3et_green\ruins_7_3et_green.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				-0.999965	0.00832509	0
+				-0.00832509	-0.999965	-0.000565052
+				0	-0.000565032	1
+				-9.85171	-3.1208	99.6733
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 107.348 -2.86769}
+		{Extent 47.8223 46.7901}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -9.77491 -2.90286}
+		{Extent 70.1851 38.7052}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center -127.668 -2.7939}
+		{Extent 47.9943 46.4461}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 95.6442 93.58 113.879}
+	{Bone "group001"}
+	{Matrix34
+		0.999965	0.00832807	0
+		-0.00832807	0.999965	0.000565027
+		0	-0.000565047	1
+		-117.146	-6.93984	-42.7379
+	}
+}
+{Volume "body_vol2"
+	{Box 140.37 77.4099 146.563}
+	{Bone "group001"}
+	{Matrix34
+		0.999965	0.00832807	0
+		-0.00832807	0.999965	0.000565027
+		0	-0.000565047	1
+		-0.0266417	-6.00917	-26.3953
+	}
+}
+{Volume "body_vol3"
+	{Box 95.9883 92.8919 162.389}
+	{Bone "group001"}
+	{Matrix34
+		0.999965	0.00832807	0
+		-0.00832807	0.999965	0.000565027
+		0	-0.000565047	1
+		117.862	-4.92321	-18.4817
+	}
+}

@@ -1,0 +1,6 @@
+{material envmap
+ {diffuse "tank helmet"}
+ {mask "tank helmet sp"}
+ {envmap "$/environment/envmap_town_day02"}
+ {blend blend}
+}

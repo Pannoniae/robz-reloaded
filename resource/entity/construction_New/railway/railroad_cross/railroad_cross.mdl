@@ -1,0 +1,30 @@
+;Exported by: Vnab
+;Date:        Thu Apr 17 13:32:41 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\Здания\railway\railroad_cross\railroad_cross.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group01"
+			{Position -0.54863	0.264468	47.6189}
+			{VolumeView "group01.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.400955 -0.280528}
+		{Extent 1.89593 2.10658}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 3.79185 4.21317 90.5665}
+	{Bone "group01"}
+	{Position 0.147675	0.0160594	-2.3357}
+}

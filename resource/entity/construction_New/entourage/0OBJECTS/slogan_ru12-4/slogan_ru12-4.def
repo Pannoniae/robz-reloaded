@@ -1,0 +1,12 @@
+{game_entity
+(include "/properties/building.inc")
+	{obstacleid "unbreakable" "construction" }
+	{props "wood" "shed" "delete_after_blast" "burning"}
+	{Extension "slogan_ru12-4.mdl"}
+	{Volume "body"
+		{Tags  "body"}
+		{Thickness 3}
+		{able {visible 1}{obstacle 0}}
+	}
+	{lodclass "decor_small"}
+}

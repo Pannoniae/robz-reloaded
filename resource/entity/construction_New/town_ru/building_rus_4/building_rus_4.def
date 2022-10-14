@@ -1,0 +1,54 @@
+{game_entity
+	(include "/properties/building.inc")
+	{obstacleid "unbreakable" "construction" }
+	{props "concrete" "no_destroyed_stamp"}
+	{Extension "building_rus_4.mdl"}
+	{Volume "box10"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 1}}
+	}
+	{Volume "box11"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 1}}
+	}
+	{Volume "box12"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 1}}
+	}
+	{Volume "box13"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 1}}
+	}
+	{Volume "box14"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 1}}
+	}
+	{Volume "box15"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 1}}
+	}
+	{Volume "box16"
+		{Thickness 10}
+		{able {visible 0}{obstacle 0}}
+	}
+	{Volume "box17"
+		{Thickness 10}
+		{able {visible 0}{obstacle 0}}
+	}
+	{Volume "box18"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 1}}
+	}
+	{Volume "box19"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 1}}
+	}
+}

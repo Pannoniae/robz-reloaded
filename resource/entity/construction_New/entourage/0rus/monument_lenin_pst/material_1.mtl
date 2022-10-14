@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "env602_monumentlenin"}
+	{blend none}
+}

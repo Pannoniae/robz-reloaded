@@ -1,0 +1,26 @@
+;Exported by: Vnab
+;Date:        Tue Jun 17 14:51:12 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\Конвертированные\entourage\0Objects\flag_wall_4m\flag_wall_4m.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Position -0.0600776	4.54816	58.6354}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Box 14.9638 69.6274 0.610767}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-0.370924	-2.39234	-0.157089
+	}
+}

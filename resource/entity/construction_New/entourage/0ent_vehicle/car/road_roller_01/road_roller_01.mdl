@@ -1,0 +1,82 @@
+;Exported by: Vnab
+;Date:        Fri Nov 14 14:55:25 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\Red orchestra 2\Техника\road_roller_01\road_roller_01.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Position 0.295811	4.25261	35.8017}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 0.164007 31.4666}
+		{Extent 23.4489 13.8329}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 0.295748 -34.9101}
+		{Extent 23.5807 19.3938}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center 0.673649 -9.64708}
+		{Extent 11.7065 44.5264}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol4"
+	{Obb2
+		{Center 0.420673 -35.9969}
+		{Extent 18.9185 20.5908}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Cylinder 13.8329 46.8979}
+	{Bone "group001"}
+	{Matrix34
+		0	-1	0
+		0	0	1
+		-1	0	0
+		-0.131804	-35.7192	-21.9874
+	}
+}
+{Volume "body_vol2"
+	{Cylinder 19.3938 47.1614}
+	{Bone "group001"}
+	{Matrix34
+		0	-1	0
+		0	0	1
+		-1	0	0
+		-6.48499e-005	30.6575	-16.3107
+	}
+}
+{Volume "body_vol3"
+	{Box 23.4129 89.0528 30.7458}
+	{Bone "group001"}
+	{Position 0.377838	5.39447	-7.20524}
+}
+{Volume "body_vol4"
+	{Box 37.837 41.1817 3.13566}
+	{Bone "group001"}
+	{Position 0.124863	31.7443	32.1945}
+}

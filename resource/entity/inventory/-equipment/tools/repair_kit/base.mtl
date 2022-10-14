@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/inventory/stuff/repairkit"}
+	{bump "$/inventory/stuff/repairkit_bp"}
+	{specular "$/inventory/stuff/repairkit_sp"}
+	{color "255 255 255 25"}
+	{blend test}
+}

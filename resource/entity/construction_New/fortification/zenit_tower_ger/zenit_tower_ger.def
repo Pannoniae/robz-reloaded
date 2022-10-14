@@ -1,0 +1,16 @@
+{game_entity
+(include "/properties/building.inc")
+	{obstacleid "unbreakable" "construction" }
+	{props "concrete" "no_destroyed_stamp"}
+	{Extension "zenit_tower_ger.mdl"}
+	{Volume "body"
+		{Tags  "body"}
+		{Thickness 40}
+		{able {visible 1}}
+	}
+	{Volume "body_vol2"
+		{Tags  "body"}
+		{Thickness 40}
+		{able {visible 1}}
+	}
+}

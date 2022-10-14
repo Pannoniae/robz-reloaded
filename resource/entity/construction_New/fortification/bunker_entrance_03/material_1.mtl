@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "envsu_003_autovault"}
+	{blend none}
+}

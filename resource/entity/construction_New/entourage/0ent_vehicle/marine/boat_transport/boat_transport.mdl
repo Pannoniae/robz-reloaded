@@ -1,0 +1,63 @@
+;Exported by: Vnab
+;Date:        Wed Jul 23 14:59:15 2014
+;File:        C:\Users\Vnab\Desktop\mow re\ÃÓ‰‰ËÌ„\ÃŒƒ≈À»\meshEL_084_boats_destructible_01\boat_transport_meshEL_084_boats_destructible_01.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Position 99.2103	7.07021	40.363}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 1.19979 -16.4589}
+		{Extent 61.4232 189.52}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 2.11476 -149.689}
+		{Extent 55.2669 47.2532}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center 0.919106 186.562}
+		{Extent 36.6445 9.65043}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 122.846 379.04 37.7124}
+	{Bone "object_1"}
+	{Position -98.0105	9.38869	-27.792}
+}
+{Volume "body_vol2"
+	{Box 110.534 94.5065 59.6883}
+	{Bone "object_1"}
+	{Position -97.0956	142.619	-13.14}
+}
+{Volume "body_vol3"
+	{Box 73.289 49.6555 4.35143}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	0.305245	-0.952274
+		0	0.952274	0.305245
+		-98.2912	-193.632	8.39036
+	}
+}

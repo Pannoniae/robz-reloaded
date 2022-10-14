@@ -1,0 +1,44 @@
+;Exported by: Vnab
+;Date:        Mon Nov 24 12:19:09 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\Конвертированные\Social\0Factory\factory_admin_5et_F_005\factory_admin_5et.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "3d_object_1"
+			{Position -14.13	8.37926	172.062}
+			{VolumeView "3d_object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -1.93103 -22.3666}
+		{Extent 473.271 178.959}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -1.12332 177.272}
+		{Extent 139.883 21.3446}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 946.542 357.918 321.264}
+	{Bone "3d_object_1"}
+	{Position 12.199	13.9873	-17.7265}
+}
+{Volume "body_vol2"
+	{Polyhedron "body_vol2.vol"}
+	{Bone "3d_object_1"}
+	{Position 13.0067	-185.652	-178.356}
+}

@@ -1,0 +1,19 @@
+{game_entity
+	{Extension "flag_linen_6m.mdl"}
+	{Volume "body"
+		{Tags  "body"}
+		{Thickness 10}
+		{able {visible 1}}
+	}
+	{Volume "body_vol2"
+		{Tags  "body"}
+		{Thickness 10}
+		{able {visible 1}}
+	}
+	{Volume "body_vol3"
+		{Tags  "body"}
+		{Thickness 10}
+		{able {visible 1}}
+	}
+	{lodclass "decor_small"}
+}

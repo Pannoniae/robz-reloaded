@@ -1,0 +1,173 @@
+;Exported by: Vnab
+;Date:        Fri Mar 27 14:31:26 2015
+;File:        C:\Users\Vnab\Desktop\Моддинг\Выбр\Здания\town_admin_01 LBV053\town_admin_01.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				-0.134981	-162.497	17.5825
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 4.12631 -46.3057}
+		{Extent 228.025 92.7037}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -153.968 105.577}
+		{Extent 69.5901 59.0273}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center 161.982 106.508}
+		{Extent 71.1435 59.9593}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol4"
+	{Obb2
+		{Center 4.43929 61.118}
+		{Extent 87.6511 13.62}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol5"
+	{Obb2
+		{Center -71.4401 141.94}
+		{Extent 12.9609 20.43}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol6"
+	{Obb2
+		{Center 78.0705 141.491}
+		{Extent 12.9609 20.5398}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol7"
+	{Obb2
+		{Center -195.083 -152.129}
+		{Extent 20.43 13.62}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol8"
+	{Obb2
+		{Center 181.64 -157.716}
+		{Extent 28.737 19.5722}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 456.049 185.407 114.232}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		4.26129	-39.5332	208.802
+	}
+}
+{Volume "body_vol2"
+	{Box 139.18 118.055 100.036}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-153.833	-32.4353	56.92
+	}
+}
+{Volume "body_vol3"
+	{Box 142.287 119.919 101.278}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		162.117	-33.0566	55.9881
+	}
+}
+{Volume "body_vol4"
+	{Box 175.302 27.2399 22.8464}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		4.57427	6.15918	101.379
+	}
+}
+{Volume "body_vol5"
+	{Box 25.9219 40.8599 18.8922}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-71.3051	8.13638	20.5563
+	}
+}
+{Volume "body_vol6"
+	{Box 25.9219 41.0796 18.8922}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		78.2055	8.13648	21.0054
+	}
+}
+{Volume "body_vol7"
+	{Box 40.8599 27.24 19.5513}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-194.948	7.80634	314.626
+	}
+}
+{Volume "body_vol8"
+	{Box 57.474 39.1444 19.8829}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		181.775	7.64052	320.212
+	}
+}

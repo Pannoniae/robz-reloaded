@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "t_3p_barlmg_diff"}
+	{blend none}
+}

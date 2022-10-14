@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "flame_thrower_jap"}
+	{specular "flame_thrower_jap_sp"}
+	{color "229 229 229 152"}
+	{blend test}
+}

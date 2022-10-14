@@ -1114,7 +1114,7 @@
 			}
 		}
 	}
-	{##+ particleview "dust ground2"
+	{#+ particleview "dust ground2"
 		{## delay 0.15}
 		{generator
 			{totalparticles 50}
@@ -1768,7 +1768,7 @@
 			}
 		}
 	}
-	{#+ particleview explosion
+	{particleview explosion
 		{## delay 0.1}
 		{generator
 			{emissionarea

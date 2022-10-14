@@ -1,0 +1,35 @@
+;Exported by: Vnab
+;Date:        Thu Jun 19 13:11:50 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\окружение\envBR_004_City_env\post_mail_eu04-5.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "3d_object_1"
+			{Position 8.46095	-3.22528	15.8482}
+			{VolumeView "3d_object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.129168 -0.176217}
+		{Extent 3.19684 2.68817}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 6.39368 31.6228 5.37634}
+	{Bone "3d_object_1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-8.59012	3.4015	-0.191235
+	}
+}

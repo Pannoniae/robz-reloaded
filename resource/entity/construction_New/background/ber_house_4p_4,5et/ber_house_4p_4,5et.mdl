@@ -1,0 +1,30 @@
+;Exported by: Vnab
+;Date:        Thu May 28 16:58:52 2015
+;File:        C:\Users\Vnab\Desktop\Моддинг\Air Conflicts.Secret Wars\Здания\ber_house_4p_4,5et\ber_house_4p_4,5et.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Position -2.18561	0.507141	102.105}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -1.73853 0.659851}
+		{Extent 318.704 56.0865}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 637.407 112.173 167.6}
+	{Bone "group001"}
+	{Position 0.447083	-1.16699	-20.7839}
+}

@@ -1,0 +1,89 @@
+;Exported by: Kalinski
+;Date:        Fri Mar 09 20:09:15 2018
+;File:        C:\Users\Kalinski\Desktop\modshit\weapons\1911.max
+{Skeleton
+	{bone "colt"
+		{parameters "CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "colt.ply"}
+		{bone "foresight3"
+			{Position 3.66585	1.25169	0}
+		}
+		{bone "handle"
+			{Position 1.7236	1.40462	0}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0	1
+				0	1	0
+				-1	0	0
+				1.47249	1.4324	0.426479
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 3.43357 2.12208 1.17169}
+	{Bone "colt"}
+	{Position 1.23938	0.339072	-0.00827003}
+}
+{Volume "select"
+	{Box 4.75921 2.94566 1.17169}
+	{Bone "colt"}
+	{Matrix34
+		1.0774	0	0
+		0	1.0774	0
+		0	0	1.2924
+		1.53508	0.182385	-0.0614164
+	}
+}
+{Extender "preview"
+	{"stuff_primary"
+		{camera
+			{origin 1.54227	-0.00747577	10.3279}
+			{lookat 1.54515	-0.244964	1.3304}
+			{fov 45}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -2.33204	-0.477748	1.33739}
+			}
+			{"1"
+				{type point}
+				{position 8.63624	-1.21635	1.30826}
+			}
+			{"2"
+				{type directional}
+				{direction 0.00821002	-0.0186623	-0.499584}
+				{ambient 0xffffff}
+			}
+		}
+	}
+	{"stuff"
+		{camera
+			{origin 1.535	-0.0182698	10.3656}
+			{lookat 1.53407	-0.255758	1.3304}
+			{fov 45}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 8.64014	-1.21454	1.30826}
+			}
+			{"1"
+				{type point}
+				{position -2.34358	-0.485007	1.33739}
+			}
+			{"2"
+				{type directional}
+				{direction 0.00821002	-0.0186623	-0.499584}
+				{ambient 0xffffff}
+			}
+		}
+	}
+}

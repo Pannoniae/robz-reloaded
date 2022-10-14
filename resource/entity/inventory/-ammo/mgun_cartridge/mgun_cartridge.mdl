@@ -1,0 +1,50 @@
+;Exported by: Артем
+;Date:        Sun Sep 27 14:29:42 2015
+;File:        D:\Autodesk\Low poly\freelance\DMS 2.0\Weapons\Grenades & stuff\Ammo\Mgun\Mgun+.max
+{Skeleton
+	{bone "ammo"
+		{parameters "ID=mgun;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "ammo.ply"}
+		{bone "handle"
+			{Position -0.0508283	-0.0266564	0.244702}
+		}
+	}
+}
+{Volume "body"
+	{Box 5.72956 1.58202 3.47043}
+	{Bone "ammo"}
+	{Position 0.444082	0.0311191	1.72082}
+}
+{Volume "select"
+	{Box 8.70437 5.06666 5.15482}
+	{Bone "ammo"}
+	{Position -0.0293877	0.0914583	1.51774}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 9.2465	21.412	7.90189}
+			{lookat 0.641965	-0.60361	1.37508}
+			{fov 17.0615}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.00108627	-0.0966315	-0.490573}
+			}
+			{"1"
+				{type directional}
+				{direction 0.0197469	-0.368007	0.337906}
+			}
+			{"2"
+				{type directional}
+				{direction -0.430683	0.201678	-0.154399}
+			}
+		}
+	}
+}

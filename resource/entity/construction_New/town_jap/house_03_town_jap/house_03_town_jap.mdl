@@ -1,0 +1,92 @@
+;Exported by: Vnab
+;Date:        Mon Dec 01 13:21:19 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\WOT\здания восток\bldAS_013_HouseBigStoneBase\house_03_town_jap.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Position -1.00134	-0.812634	93.1227}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -1.82466 3.66646}
+		{Extent 105.43 75.5107}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol4"
+	{Obb2
+		{Center -93.3359 106.485}
+		{Extent 1.06855 6.60769}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol5"
+	{Obb2
+		{Center -34.7863 110.554}
+		{Extent 2.41138 0.949814}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol6"
+	{Obb2
+		{Center 17.9978 103.067}
+		{Extent 1.09139 1.25929}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 210.86 151.021 312.491}
+	{Bone "group001"}
+	{Position -0.823318	-2.85382	-9.41873}
+}
+{Volume "body_vol2"
+	{Box 136.774 42.267 49.3906}
+	{Bone "group001"}
+	{Position -37.2181	-99.0913	15.7635}
+}
+{Volume "body_vol3"
+	{Box 206.586 33.2437 124.25}
+	{Bone "group001"}
+	{Position -1.92233	89.2105	53.1115}
+}
+{Volume "body_vol4"
+	{Box 2.13709 2.84947 94.6989}
+	{Bone "group001"}
+	{Matrix34
+		1	0	0
+		0	0.993971	0.109643
+		0	-0.109643	0.993971
+		-92.3345	-105.672	-52.7024
+	}
+}
+{Volume "body_vol5"
+	{Box 2.37455 1.89963 93.5572}
+	{Bone "group001"}
+	{Matrix34
+		0.999657	0	0.0261768
+		0	1	0
+		-0.0261768	0	0.999657
+		-33.785	-109.741	-53.0038
+	}
+}
+{Volume "body_vol6"
+	{Box 2.18279 2.51859 93.5572}
+	{Bone "group001"}
+	{Position 18.9991	-102.254	-52.9878}
+}

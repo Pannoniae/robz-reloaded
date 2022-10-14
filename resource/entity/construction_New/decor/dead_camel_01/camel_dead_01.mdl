@@ -1,0 +1,59 @@
+;Exported by: Vnab
+;Date:        Wed Oct 08 10:12:01 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\Panzer Elite Action - Дюны в огне\Окружение\camel_dead_01\camel_dead_01.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				-0.795902	-0.605366	-0.00849642
+				0.310642	-0.396289	-0.863977
+				0.519656	-0.69028	0.50346
+				1.13501	-7.88	4.69263
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.131919 0.628143}
+		{Extent 19.4635 7.23513}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 24.4277 -11.8528}
+		{Extent 10.1994 2.68447}
+		{Axis 0.157142 0.987576}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 38.927 14.4703 14.6741}
+	{Bone "group001"}
+	{Matrix34
+		-0.795901	0.310642	0.519656
+		-0.605366	-0.396289	-0.69028
+		-0.00849633	-0.863977	0.50346
+		-3.40415	-5.55209	-4.33283
+	}
+}
+{Volume "body_vol2"
+	{Box 5.29897 20.3806 5.91039}
+	{Bone "group001"}
+	{Matrix34
+		-0.88276	0.242996	0.402103
+		-0.469747	-0.441018	-0.764749
+		-0.00849659	-0.863977	0.50346
+		-30.4695	0.916883	-2.39168
+	}
+}

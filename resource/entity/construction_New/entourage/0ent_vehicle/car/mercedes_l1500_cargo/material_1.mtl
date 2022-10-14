@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "env419_oldgtruck_01_crash1"}
+	{blend none}
+}

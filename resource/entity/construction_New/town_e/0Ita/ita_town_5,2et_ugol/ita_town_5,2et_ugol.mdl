@@ -1,0 +1,91 @@
+;Exported by: Vnab
+;Date:        Wed Jul 22 16:11:29 2015
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\Конвертированные\town_e\0Ita\ita_town_5,2et_ugol\ita_town_5,2et_ugol.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Position -52.0599	17.6467	55.5532}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -73.4552 32.3797}
+		{Extent 91.0105 34.6517}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -28.6453 -53.0797}
+		{Extent 24.7841 51.258}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center 41.6829 -95.8757}
+		{Extent 3.13658 3.88338}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol4"
+	{Obb2
+		{Center 42.1882 -46.2314}
+		{Extent 4.22456 4.36538}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol5"
+	{Obb2
+		{Center 30.861 21.0185}
+		{Extent 13.7412 24.8935}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 182.021 69.3034 80.0574}
+	{Bone "group001"}
+	{Position -21.3953	-50.0264	-36.899}
+}
+{Volume "body_vol2"
+	{Box 49.5682 102.516 141.945}
+	{Bone "group001"}
+	{Position 23.4146	35.433	-5.95508}
+}
+{Volume "body_vol3"
+	{Box 6.27316 7.76675 136.217}
+	{Bone "group001"}
+	{Position 93.7429	78.229	-8.81918}
+}
+{Volume "body_vol4"
+	{Box 8.44913 8.73075 135.42}
+	{Bone "group001"}
+	{Position 94.2481	28.5847	-9.21748}
+}
+{Volume "body_vol5"
+	{Box 27.4824 49.7869 93.9977}
+	{Bone "group001"}
+	{Position 82.9209	-38.6652	-29.9288}
+}
+{Volume "body_vol6"
+	{Box 51.8213 99.6996 59.7071}
+	{Bone "group001"}
+	{Position 72.3379	33.3297	21.8756}
+}

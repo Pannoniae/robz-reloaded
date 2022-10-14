@@ -1,0 +1,8 @@
+{game_entity
+	{Extension "supermarket_rus.mdl"}
+	{placer}
+	{extender "structure"
+		{place "body" "body_supermarket_rus"}
+		{place "land" "land_supermarket_rus"}
+	}
+}

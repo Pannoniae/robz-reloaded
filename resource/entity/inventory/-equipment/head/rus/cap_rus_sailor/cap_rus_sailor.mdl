@@ -1,0 +1,52 @@
+;Exported by: Mandingo
+;Date:        Tue Jan  8 16:47:00 2019
+;File:        C:\Users\Mandingo\Desktop\modshit\rus marine redux\naval cap exp.max
+{Skeleton
+	{bone "cap_rus_sailor"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "cap_rus_sailor.ply"}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "cap_rus_sailor"}
+	{Position 0.703094	0.124126	3.3988}
+}
+{Volume "select"
+	{Box 5.59662 5.08766 5.14459}
+	{Bone "cap_rus_sailor"}
+	{Matrix34
+		1.0387	0	0
+		0	1.0387	0
+		0	0	1.0387
+		0.919993	0.260123	3.58528
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 5.59688	-4.79959	4.49637}
+			{lookat 0.324634	0.181735	3.66771}
+			{fov 45}
+			{horizon -0.239848}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.354828	0.33419	-0.11142}
+			}
+			{"1"
+				{type point}
+				{position 0.667323	-2.88195	3.85514}
+			}
+			{"2"
+				{type point}
+				{position 3.42228	-0.339721	4.18312}
+			}
+		}
+	}
+}

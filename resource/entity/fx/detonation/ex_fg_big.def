@@ -949,7 +949,7 @@
 			}
 		}
 	}
-	{##+ particleview "dust ground2"
+	{#+ particleview "dust ground2"
 		{## delay 0.15}
 		{generator
 			{totalparticles 75}
@@ -1720,18 +1720,6 @@
 					{highlight 0xffc6aa82}
 				}
 			}
-		}
-	}
-	{#+ particleview killzone
-		{entitygenerator
-			{emissionarea}
-			{particleinit
-				{speed 0}
-				{lifetime 1}
-			}
-			{entity "killzone_big"}
-			{totalparticles 1}
-			{particlesinblock 1}
 		}
 	}
 }

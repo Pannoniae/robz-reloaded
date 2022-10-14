@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "mtl_colored_alum"}
+	{blend none}
+}

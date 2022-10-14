@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/entity/1911colt_slide_ex"}
+	{specular "$/entity/1911colt_slide_sp"}
+	{bump "$/entity/1911colt_slide_bp"}
+	{color "229 229 229 50"}
+	{blend none}
+}

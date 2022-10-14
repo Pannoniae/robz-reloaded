@@ -1,0 +1,164 @@
+;Exported by: user
+;Date:        Sun Aug 17 21:54:44 2014
+;File:        C:\Users\user\Desktop\Моддинг\Модели нов\WOT\lesopilka_Sawmill_03\lesopilka_Sawmill_03.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				1	0	0
+				0	-0.0174525	-0.999848
+				0	0.999848	-0.0174525
+				-1.9556	-1.31537	-1.59176
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 6.63559 -51.8041}
+		{Extent 6.84878 28.8646}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 5.23188 -71.9327}
+		{Extent 10.2137 7.08815}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol4"
+	{Obb2
+		{Center -43.5657 54.9924}
+		{Extent 0.839485 55.9362}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol5"
+	{Obb2
+		{Center -43.7283 -105.751}
+		{Extent 0.898338 1.35486}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol6"
+	{Obb2
+		{Center 40.5684 -105.743}
+		{Extent 0.958344 1.5741}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol7"
+	{Obb2
+		{Center 40.5162 0.681657}
+		{Extent 0.945419 1.02824}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol8"
+	{Obb2
+		{Center 40.5259 107.993}
+		{Extent 0.878799 1.79347}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 13.6976 57.7291 16.2679}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	-0.0174525	0.999848
+		0	-0.999848	-0.0174525
+		8.59119	-10.4524	52.9451
+	}
+}
+{Volume "body_vol2"
+	{Box 20.4273 14.1763 36.5231}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	-0.0174525	0.999848
+		0	-0.999848	-0.0174525
+		7.18748	-19.9889	72.9103
+	}
+}
+{Volume "body_vol3"
+	{Box 117.597 237.215 3.18979}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	-0.0174525	0.999848
+		0	-0.999848	-0.0174525
+		-1.16575	-53.2694	-4.20109
+	}
+}
+{Volume "body_vol4"
+	{Box 1.67897 111.872 51.4259}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	-0.0174525	0.999848
+		0	-0.999848	-0.0174525
+		-41.6101	-26.1649	-54.1419
+	}
+}
+{Volume "body_vol5"
+	{Box 1.79668 2.70971 60.606}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	-0.0174525	0.999848
+		0	-0.999848	-0.0174525
+		-41.7727	-30.3978	106.552
+	}
+}
+{Volume "body_vol6"
+	{Box 1.91669 3.1482 59.9969}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	-0.0174525	0.999848
+		0	-0.999848	-0.0174525
+		42.524	-30.6379	106.54
+	}
+}
+{Volume "body_vol7"
+	{Box 1.89084 2.05647 61.3502}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	-0.0174525	0.999848
+		0	-0.999848	-0.0174525
+		42.4718	-29.313	0.12215
+	}
+}
+{Volume "body_vol8"
+	{Box 1.7576 3.58694 60.8991}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	-0.0174525	0.999848
+		0	-0.999848	-0.0174525
+		42.4815	-28.2373	-107.187
+	}
+}

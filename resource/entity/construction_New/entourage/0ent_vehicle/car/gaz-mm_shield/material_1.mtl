@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "mlesu_83_10_gazmm_damage_am"}
+	{blend none}
+}

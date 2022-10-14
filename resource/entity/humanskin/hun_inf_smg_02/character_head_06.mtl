@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/humanskin/mp_tab_diff"}
+	{bump "$/humanskin/mp_younger_bump"}
+	{blend none}
+}

@@ -1,0 +1,45 @@
+;Exported by: Vnab
+;Date:        Thu Jun 19 13:04:53 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\окружение\envBR_004_City_env\ukazatel_eu04-8.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "3d_object_1"
+			{Position -7.65769	-1.73144	19.5646}
+			{VolumeView "3d_object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.298429 -0.248967}
+		{Extent 1.28721 0.792126}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 1.58425 38.022 2.57441}
+	{Bone "3d_object_1"}
+	{Matrix34
+		0	-1	0
+		0	0	1
+		-1	0	0
+		7.35926	1.98041	-0.578924
+	}
+}
+{Volume "body_vol2"
+	{Box 0.926956 9.05889 5.60387}
+	{Bone "3d_object_1"}
+	{Matrix34
+		1	0	0
+		0	0.999255	0.0386027
+		0	-0.0386027	0.999255
+		7.60884	-3.81121	14.8957
+	}
+}

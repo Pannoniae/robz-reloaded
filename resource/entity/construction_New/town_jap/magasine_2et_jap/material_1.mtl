@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "bldas_005_vhouseshop"}
+	{blend none}
+}

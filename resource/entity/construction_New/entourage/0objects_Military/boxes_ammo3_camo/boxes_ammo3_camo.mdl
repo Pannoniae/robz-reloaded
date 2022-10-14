@@ -1,0 +1,78 @@
+;Exported by: Vnab
+;Date:        Wed Mar 25 13:13:07 2015
+;File:        C:\Users\Vnab\Desktop\Моддинг\Выбр\Объекты\boxes_ammo3_camo\boxes_ammo3_camo.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				-1	0	0
+				0	0	-1
+				0	-1	0
+				-1.08838	0.614908	-0.0429809
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 4.30245 -12.326}
+		{Extent 24.7681 12.5585}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 0.758538 11.4229}
+		{Extent 28.0384 11.6758}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center -11.8608 11.512}
+		{Extent 10.698 11.7445}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 49.5363 25.117 34.4196}
+	{Bone "object_1"}
+	{Matrix34
+		-1	0	0
+		0	0	-1
+		0	-1	0
+		-5.39083	-17.2528	-11.7111
+	}
+}
+{Volume "body_vol2"
+	{Box 56.0768 23.3516 18.9115}
+	{Bone "object_1"}
+	{Matrix34
+		-1	0	0
+		0	0	-1
+		0	-1	0
+		-1.84691	-9.49875	12.0378
+	}
+}
+{Volume "body_vol3"
+	{Box 21.396 23.489 26.0472}
+	{Bone "object_1"}
+	{Matrix34
+		-1	0	0
+		0	0	-1
+		0	-1	0
+		10.7724	-13.0666	12.1269
+	}
+}

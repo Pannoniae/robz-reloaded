@@ -1,0 +1,82 @@
+;Exported by: Vnab
+;Date:        Wed Dec 10 12:50:04 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\Конвертированные\entourage\0ent_vehicle\car\Sovbus env608_Sovbus\Sovbus.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				-0.0174525	-0.999848	0
+				0.999848	-0.0174525	0
+				0	0	1
+				-0.0120953	-0.393791	25.3855
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.413642 -16.8789}
+		{Extent 20.0904 59.6076}
+		{Axis 0.999848 0.0174436}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -1.10455 60.1246}
+		{Extent 19.5381 17.4409}
+		{Axis 0.999848 0.0174436}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center 0.0424137 -33.7675}
+		{Extent 19.6484 7.17514}
+		{Axis 0.999848 0.0174436}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol4"
+	{Obb2
+		{Center -1.07133 63.4781}
+		{Extent 7.87443 21.137}
+		{Axis 0.157142 0.987576}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 119.215 40.1798 44.5952}
+	{Bone "object_1"}
+	{Position -17.2631	-0.702937	3.35266}
+}
+{Volume "body_vol2"
+	{Box 34.8814 39.076 24.2845}
+	{Bone "object_1"}
+	{Position 59.7408	-0.0498364	-6.80268}
+}
+{Volume "body_vol3"
+	{Box 14.3499 39.2967 7.06458}
+	{Bone "object_1"}
+	{Position -34.157	-0.541698	-21.2578}
+}
+{Volume "body_vol4"
+	{Box 15.4538 42.1667 7.06458}
+	{Bone "object_1"}
+	{Matrix34
+		0.983437	0.181249	0
+		-0.181249	0.983437	0
+		0	0	1
+		63.0932	0.0419043	-21.2578
+	}
+}

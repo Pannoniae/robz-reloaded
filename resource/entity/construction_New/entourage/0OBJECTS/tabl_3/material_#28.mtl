@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "sign_info_03r"}
+	{blend none}
+}

@@ -1,0 +1,59 @@
+;Exported by: Vnab
+;Date:        Tue Oct 28 14:59:47 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\Company of heroes\Окружение\med_First_aid_post_eng\med_First_aid_post_eng.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				0.723743	0.690046	0.00564713
+				-0.399682	0.425843	-0.811734
+				-0.562539	0.58523	0.584
+				4.83102	-2.99061	37.5372
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -4.92236 -4.16767}
+		{Extent 38.1053 31.4319}
+		{Axis 0.998631 0.0523094}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -4.4546 -3.51851}
+		{Extent 28.2789 19.3218}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 76.0037 62.6126 15.2007}
+	{Bone "group001"}
+	{Matrix34
+		0.689059	-0.42007	-0.590541
+		0.724683	0.405745	0.55696
+		0.00564699	-0.811734	0.584
+		-2.32347	36.2793	-11.4275
+	}
+}
+{Volume "body_vol2"
+	{Box 56.5578 38.6436 38.6436}
+	{Bone "group001"}
+	{Matrix34
+		0.723743	-0.399682	-0.562539
+		0.690046	0.425843	0.58523
+		0.00564706	-0.811734	0.584
+		-2.33167	21.2692	-1.60494
+	}
+}

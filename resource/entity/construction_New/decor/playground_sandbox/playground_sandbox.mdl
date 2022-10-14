@@ -1,0 +1,31 @@
+;Exported by: user
+;Date:        Fri Aug 08 02:35:26 2014
+;File:        C:\Users\user\Desktop\Моддинг\Модели нов\Codename Panzers Cold War\Окружение\pesochnica_sandbox\playground_sandbox.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				1	0	0
+				0	0.17377	-0.984786
+				0	0.984786	0.17377
+				0.545055	0.86282	3.75045
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Box 47.9822 54.2957 6.31345}
+	{Bone "group001"}
+	{Matrix34
+		1	0	0
+		0	0.17377	0.984786
+		0	-0.984786	0.17377
+		-0.797592	0.412816	-1.07721
+	}
+}

@@ -1,0 +1,40 @@
+;Exported by: Vnab
+;Date:        Thu Nov 20 11:05:03 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\Red orchestra 2\Здания\house_ru09_1et_town\house_ru09_1et_town.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				-0.880763	0.473557	0
+				-0.473557	-0.880763	0
+				0	0	1
+				-0.403458	1.57069	45.6028
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.341545 -1.36619}
+		{Extent 117.151 79.9222}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 234.302 159.844 121.591}
+	{Bone "group001"}
+	{Matrix34
+		-0.880763	-0.473557	0
+		0.473557	-0.880763	0
+		0	0	1
+		-0.151375	0.150787	-3.53519
+	}
+}

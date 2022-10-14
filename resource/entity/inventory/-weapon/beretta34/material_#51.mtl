@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "beretta34"}
+	{blend none}
+}

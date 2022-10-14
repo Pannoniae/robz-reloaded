@@ -1,0 +1,58 @@
+;Exported by: Vnab
+;Date:        Mon May 25 16:16:54 2015
+;File:        C:\Users\Vnab\Desktop\Моддинг\COH нов\grave_stone_plate05_cross\grave_stone_plate05_cross.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Position 0.142326	2.19839	25.3872}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.0211563 0.927467}
+		{Extent 7.89612 26.1466}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 0.106377 11.0721}
+		{Extent 7.63767 15.3807}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center 0.106377 -12.7365}
+		{Extent 4.5826 4.74062}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 15.7922 52.2932 15.1963}
+	{Bone "group001"}
+	{Position -0.163483	-3.12585	-29.8646}
+}
+{Volume "body_vol2"
+	{Box 15.2753 30.7614 14.3272}
+	{Bone "group001"}
+	{Position -0.0359497	-13.2704	-14.9101}
+}
+{Volume "body_vol3"
+	{Polyhedron "body_vol3.vol"}
+	{Bone "group001"}
+	{Position -0.0359497	10.5381	-22.0712}
+}

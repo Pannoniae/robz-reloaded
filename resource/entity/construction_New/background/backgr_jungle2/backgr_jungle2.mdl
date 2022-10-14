@@ -1,0 +1,21 @@
+;Exported by: Vnab
+;Date:        Wed May 20 15:30:50 2015
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\Конвертированные\Background\backgr_jungle2\backgr_jungle2.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				0.838703	0.543259	-0.0380433
+				-0.541445	0.824326	-0.1653
+				-0.0584412	0.159236	0.985509
+				19.0513	-94.9089	68.676
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}

@@ -1,0 +1,11 @@
+{game_entity 
+(include "/properties/construction.inc")
+	{ObstacleId "construction"}
+	{collider "particle.big"}
+	{simulation {able 1}}
+	{props "wood" "dead_vehicle" "big" "part"}
+	{Extension "telega_crush_3a.mdl"}
+	{Volume "body"
+	}
+	{lodclass "decor_small"}
+}

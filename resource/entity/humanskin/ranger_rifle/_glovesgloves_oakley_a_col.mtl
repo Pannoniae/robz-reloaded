@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/humanskin/ranger/gloves_oakley_a_col"}
+	{blend none}
+}

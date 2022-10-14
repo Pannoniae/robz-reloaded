@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "env_101_01_well_am"}
+	{blend none}
+}

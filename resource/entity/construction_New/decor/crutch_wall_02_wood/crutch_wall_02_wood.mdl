@@ -1,0 +1,78 @@
+;Exported by: Vnab
+;Date:        Thu Nov 13 15:55:07 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\Codename Panzers Cold War\Окружение\crutch_wall_02_wood\crutch_wall_02_wood.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Position -3.27633	-8.78995	56.4158}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -1.6986 -18.0983}
+		{Extent 2.12255 1.81933}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center -1.22194 -16.7739}
+		{Extent 26.105 0.555426}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol4"
+	{Obb2
+		{Center -0.286711 23.548}
+		{Extent 4.15293 12.7608}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 4.24509 117.65 3.63865}
+	{Bone "group001"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		1.57774	26.8882	2.36743
+	}
+}
+{Volume "body_vol2"
+	{Box 9.66499 114.772 3.02031}
+	{Bone "group001"}
+	{Matrix34
+		0	-0.906308	0.422618
+		0	0.422618	0.906308
+		-1	0	0
+		3.43793	3.29333	-1.5509
+	}
+}
+{Volume "body_vol3"
+	{Box 52.21 1.11085 15.1076}
+	{Bone "group001"}
+	{Position 2.0544	25.5638	-48.862}
+}
+{Volume "body_vol4"
+	{Box 25.5216 9.36296 8.30585}
+	{Bone "group001"}
+	{Matrix34
+		0	-1	0
+		0	0	1
+		-1	0	0
+		2.98962	-14.7581	-51.8298
+	}
+}

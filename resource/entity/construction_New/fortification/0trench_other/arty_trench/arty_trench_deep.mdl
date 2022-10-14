@@ -1,0 +1,33 @@
+;Exported by: mark
+;Date:        Sat Jan 22 20:43:05 2011
+;File:        C:\Users\mark\Documents\3dsmax\scenes\artokop.max
+{Skeleton
+	{bone "body"
+		{parameters "Land;Ground;CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply" {Ground} {DecalTarget}}
+		{bone "allign"
+			{Matrix34
+				1	0	0
+				0	0	1
+				0	-1	0
+				3.28323	4.96531	-7.24862
+			}
+		}
+	}
+}
+{Area "cut"
+	{Polygon2
+		{Radius 0}
+		{Vertex 98.7905 74.55}
+		{Vertex -41.404 75.7594}
+		{Vertex -95.2165 46.7309}
+		{Vertex -97.0716 -69.3818}
+		{Vertex 97.0248 -70.9936}
+	}
+	{Rotate}
+}

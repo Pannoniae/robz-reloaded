@@ -1,0 +1,44 @@
+;Exported by: Vnab
+;Date:        Mon Jun 02 13:53:18 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\Здания\Руины_ruins\ruins_ru1_030_2\ruins_ru1_030_2.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "3d_object_1"
+			{Position 58.9453	7.42981	104.628}
+			{VolumeView "3d_object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 4.35901 0.871765}
+		{Extent 307.747 129.899}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 231.797 -25.4612}
+		{Extent 76.4408 154.731}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 615.493 259.797 151.694}
+	{Bone "3d_object_1"}
+	{Position -54.5863	-8.30157	-28.7816}
+}
+{Volume "body_vol2"
+	{Box 152.882 309.462 175.074}
+	{Bone "3d_object_1"}
+	{Position 172.851	18.0314	-17.0914}
+}

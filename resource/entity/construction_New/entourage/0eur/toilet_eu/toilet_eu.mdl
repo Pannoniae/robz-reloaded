@@ -1,0 +1,59 @@
+;Exported by: user
+;Date:        Fri Aug 08 01:37:34 2014
+;File:        C:\Users\user\Desktop\Моддинг\Модели нов\Codename Panzers Cold War\Окружение\toilet_eu\toilet_eu.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				-0.998427	0.0560675	0
+				-0.0096337	-0.171553	-0.985128
+				-0.0552336	-0.983578	0.171823
+				-1.99914	1.20607	43.5158
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.912403 -0.456135}
+		{Extent 43.3412 42.6828}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -0.570244 -15.7388}
+		{Extent 52.2347 10.8347}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Cylinder 43.3412 63.4115}
+	{Bone "group001"}
+	{Matrix34
+		-0.998427	-0.0096336	-0.0552336
+		0.0560674	-0.171553	-0.983578
+		0	-0.985128	0.171823
+		-1.12707	11.7526	-1.35165
+	}
+}
+{Volume "body_vol2"
+	{Box 104.469 21.6694 49.2694}
+	{Bone "group001"}
+	{Matrix34
+		-0.998427	-0.0096336	-0.0552336
+		0.0560674	-0.171553	-0.983578
+		0	-0.985128	0.171823
+		-0.611838	16.0934	-17.6172
+	}
+}

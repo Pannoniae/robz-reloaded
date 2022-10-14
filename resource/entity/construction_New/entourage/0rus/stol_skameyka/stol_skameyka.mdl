@@ -1,0 +1,68 @@
+;Exported by: user
+;Date:        Sun Aug 10 16:28:02 2014
+;File:        C:\Users\user\Desktop\Моддинг\Модели нов\WOT\окружение\stol_skameyka_env611_TableBench\stol_skameyka.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Position -0.551808	-0.766419	12.7525}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.331856 -0.776316}
+		{Extent 14.9921 8.61032}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 0.0449064 15.5961}
+		{Extent 2.06403 23.2842}
+		{Axis 0.0705154 0.997511}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center -0.599748 -15.1124}
+		{Extent 24.0699 2.18038}
+		{Axis 0.999391 0.0348818}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 29.9842 17.2206 1.01298}
+	{Bone "object_1"}
+	{Position 0.219952	1.54274	1.82696}
+}
+{Volume "body_vol2"
+	{Box 46.5585 4.01119 0.859541}
+	{Bone "object_1"}
+	{Matrix34
+		0.997685	0.0680112	0
+		-0.0680112	0.997685	0
+		0	0	1
+		0.596715	-14.8297	-4.27964
+	}
+}
+{Volume "body_vol3"
+	{Box 48.1343 4.29771 0.859541}
+	{Bone "object_1"}
+	{Matrix34
+		0.999436	-0.0335728	0
+		0.0335728	0.999436	0
+		0	0	1
+		-0.04794	15.8789	-4.27964
+	}
+}

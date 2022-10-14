@@ -1,0 +1,44 @@
+;Exported by: Vnab
+;Date:        Thu May 29 11:11:03 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\Здания\Восток\hram_asia  bldBM_A_045\hram_asia.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Position -0.261442	0.183677	-2.32198}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 0.107811 -6.94899}
+		{Extent 75.6874 41.4725}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 0.416901 43.2732}
+		{Extent 32.4413 11.3636}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 151.375 82.9451 79.1789}
+	{Bone "object_1"}
+	{Position 0.369256	6.76532	44.9705}
+}
+{Volume "body_vol2"
+	{Box 64.8827 22.7273 64.1496}
+	{Bone "object_1"}
+	{Position 0.678341	-43.4569	37.4558}
+}

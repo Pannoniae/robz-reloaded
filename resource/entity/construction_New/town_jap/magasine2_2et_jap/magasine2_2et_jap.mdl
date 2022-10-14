@@ -1,0 +1,78 @@
+;Exported by: Vnab
+;Date:        Tue Nov 25 11:14:00 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\Конвертированные\town_jap\magasine2_2et_jap_AS_002\magasine2_2et_jap.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				34.4467	0.290331	-5.63828
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -67.7526 2.6835}
+		{Extent 66.2073 48.4517}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 99.8856 0.936749}
+		{Extent 104.728 54.7715}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center 92.6629 5.14993}
+		{Extent 111.349 24.6773}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 37.8327 27.6867 22.8716}
+	{Bone "object_1"}
+	{Matrix34
+		3.5	0	0
+		0	0	3.5
+		0	-3.5	0
+		-102.199	-34.2688	-2.97384
+	}
+}
+{Volume "body_vol2"
+	{Box 59.8445 31.298 21.3239}
+	{Bone "object_1"}
+	{Matrix34
+		3.5	0	0
+		0	0	3.5
+		0	-3.5	0
+		65.4389	-31.5604	-1.22709
+	}
+}
+{Volume "body_vol3"
+	{Box 63.6278 14.1013 10.1461}
+	{Bone "object_1"}
+	{Matrix34
+		3.5	0	0
+		0	0	3.5
+		0	-3.5	0
+		58.2162	-88.964	-5.44027
+	}
+}

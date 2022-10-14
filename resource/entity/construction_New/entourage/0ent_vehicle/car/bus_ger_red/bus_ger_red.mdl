@@ -1,0 +1,59 @@
+;Exported by: user
+;Date:        Sat Aug 09 02:41:21 2014
+;File:        C:\Users\user\Desktop\Моддинг\МОДЕЛИ\Готовые\Конвертированные\entourage\0ent_vehicle\car\Bus_ger_red_envEU_011\Bus_ger_red_envEU_011.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				-0.844505	0.180814	-0.539459
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.0817413 -22.5028}
+		{Extent 21.1528 53.3855}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -0.287902 44.8868}
+		{Extent 15.512 14.0011}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 42.3055 106.771 46.3346}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		0.762763	-23.7068	22.322
+	}
+}
+{Volume "body_vol2"
+	{Box 31.0241 28.0022 26.592}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		0.556603	-13.8355	-45.0676
+	}
+}

@@ -1,0 +1,40 @@
+;Exported by: Vnab
+;Date:        Thu Dec 11 12:27:03 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\Конвертированные\Ruins\saray_burned_bld003\saray_burned.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				-0.879463	1.05939	30.3342
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 2.92385 0.422981}
+		{Extent 43.0308 39.8881}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 86.0615 79.7761 51.7336}
+	{Bone "object_1"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		-3.80332	1.48237	-4.46741
+	}
+}

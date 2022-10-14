@@ -1,0 +1,97 @@
+;Exported by: Vnab
+;Date:        Thu Mar 26 16:46:02 2015
+;File:        C:\Users\Vnab\Desktop\Моддинг\Выбр\Техника\Корабли\cargo_ship_2_small\cargo_ship_2_small.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				-1.64406	-29.2013	18.1222
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -2.25096 22.3874}
+		{Extent 44.1963 158.564}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -1.72789 144.625}
+		{Extent 16.4767 34.5042}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center -0.873903 -105.543}
+		{Extent 2.46723 2.46724}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol4"
+	{Obb2
+		{Center -0.603176 -153.681}
+		{Extent 17.2706 16.8981}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 106.204 381.032 53.1022}
+	{Bone "object_1"}
+	{Matrix34
+		0.832288	0	0
+		0	0	0.832288
+		0	-0.832288	0
+		-0.606901	-5.78822	6.81391
+	}
+}
+{Volume "body_vol2"
+	{Box 39.5938 82.914 132.29}
+	{Bone "object_1"}
+	{Matrix34
+		0.832288	0	0
+		0	0	0.832288
+		0	-0.832288	0
+		-0.083835	-38.7408	-115.424
+	}
+}
+{Volume "body_vol3"
+	{Box 5.92878 5.92877 281.946}
+	{Bone "object_1"}
+	{Matrix34
+		0.832288	0	0
+		0	0	0.832288
+		0	-0.832288	0
+		0.770152	-101.021	134.745
+	}
+}
+{Volume "body_vol4"
+	{Box 41.5015 26.6795 71.8041}
+	{Bone "object_1"}
+	{Matrix34
+		0.832288	0	0
+		0	0.167776	0.815202
+		0	-0.815202	0.167776
+		1.04088	-12.9592	182.882
+	}
+}

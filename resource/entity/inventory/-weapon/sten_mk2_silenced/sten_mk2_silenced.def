@@ -1,0 +1,8 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{extension "sten_mk2_silenced.mdl"}
+	{extender "stuff"
+		{item "sten_mk2_silenced"}
+	}
+	{nogroupmesh 1}
+}

@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "m1 covered"}
+	{bump "m1 covered bp"}
+	{color "229 229 229 152"}
+	{blend test}
+}

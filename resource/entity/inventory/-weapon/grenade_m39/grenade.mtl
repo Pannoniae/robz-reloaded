@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "grenade m39"}
+	{blend none}
+}

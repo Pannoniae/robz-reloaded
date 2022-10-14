@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/humanskin/german/stug crew/holster ger"}
+	{blend none}
+}

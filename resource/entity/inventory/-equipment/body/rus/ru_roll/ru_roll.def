@@ -1,7 +1,19 @@
 {actor
-	(include "/properties/stuff_small.ext")
+	(include "/properties/bag.ext")
 	{Extension "ru_roll.mdl"}
 	{extender "stuff"
 		{item "ru_roll"}
+	}
+        {extender "inventory"
+                {box
+                        {Size 4 3}
+		        {item "bandage" 2}
+		        {item "knife_rus"}
+		        {item "sandbag_kit" 1}
+                }
+        }
+	{Volume "body"
+	        {able {visible} {select} {contact_ground} {touch} {contact} {blast}}
+		{Thickness 10}
 	}
 }

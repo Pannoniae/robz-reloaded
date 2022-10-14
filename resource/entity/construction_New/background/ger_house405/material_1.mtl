@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "bld41_lods"}
+	{blend none}
+}

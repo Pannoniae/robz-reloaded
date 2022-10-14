@@ -1,0 +1,29 @@
+;Exported by: Mark
+;Date:        Tue Mar 19 18:38:07 2013
+;File:        C:\Users\Mark\Documents\3dsMax\scenes\taburetka.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+		{bone "emit"
+			{Matrix34
+				-0.999615	-0.0277375	0
+				0.0277375	-0.999615	0
+				0	0	1
+				9.31877	-0.496549	-0.0479626
+			}
+		}
+		{bone "seat"
+			{Position 3.98495	-0.0796959	1.24053}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "body"}
+	{Position 0.0315766	0.0602016	-0.0479625}
+}

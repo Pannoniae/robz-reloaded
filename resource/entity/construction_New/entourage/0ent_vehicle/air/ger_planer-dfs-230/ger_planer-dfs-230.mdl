@@ -1,0 +1,154 @@
+;Exported by: Vnab
+;Date:        Wed Oct 01 16:19:29 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\Red orchestra\ger_planer-DFS-230 — копия\ger_planer-DFS-230.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				0.986997	-0.0121393	0.160278
+				0.00826379	0.999658	0.0248243
+				-0.160524	-0.023177	0.98676
+				2.0014	68.7779	47.8343
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 4.57279 19.7583}
+		{Extent 13.0468 57.297}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 3.43347 -56.8033}
+		{Extent 151.702 7.57691}
+		{Axis 0.0182396 0.999834}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center -2.82394 -19.3494}
+		{Extent 294.934 17.794}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol4"
+	{Obb2
+		{Center 1.22483 -192.861}
+		{Extent 49.5509 9.54723}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol5"
+	{Obb2
+		{Center -0.168123 -204.81}
+		{Extent 5.56012 14.1932}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol6"
+	{Obb2
+		{Center 6.07803 -195.304}
+		{Extent 3.24418 4.97721}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol7"
+	{Obb2
+		{Center 9.21355 20.1967}
+		{Extent 1.95559 49.564}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 18.9706 113.502 45.6581}
+	{Bone "group001"}
+	{Matrix34
+		0.999962	0.00872654	0
+		-0.00872654	0.999962	0
+		0	0	1
+		0.106127	-89.0278	-19.9493
+	}
+}
+{Volume "body_vol2"
+	{Box 9.003 302.244 25.0798}
+	{Bone "group001"}
+	{Matrix34
+		0.999962	0.00872654	0
+		-0.00870785	0.997821	0.0654032
+		0.000570744	-0.0654007	0.997859
+		-1.02715	-12.3593	-15.873
+	}
+}
+{Volume "body_vol3"
+	{Box 596.771 33.4397 5.14459}
+	{Bone "group001"}
+	{Matrix34
+		0.999962	0.00872649	0
+		-0.00872649	0.999962	0
+		0	0	1
+		-4.15596	-49.4505	1.96093
+	}
+}
+{Volume "body_vol4"
+	{Box 99.5838 18.6435 5.00193}
+	{Bone "group001"}
+	{Matrix34
+		0.999962	0.00872654	0
+		-0.00872654	0.999962	0
+		0	0	1
+		-1.54691	124.146	1.71748
+	}
+}
+{Volume "body_vol5"
+	{Box 2.73305 27.1698 52.4103}
+	{Bone "group001"}
+	{Matrix34
+		0.999962	0.00872654	0
+		-0.00872654	0.999962	0
+		0	0	1
+		-1.76787	136.281	9.66107
+	}
+}
+{Volume "body_vol6"
+	{Box 5.22928 9.43545 7.84393}
+	{Bone "group001"}
+	{Matrix34
+		0.999962	0.00872654	0
+		-0.0087183	0.999019	0.0434187
+		0.000378892	-0.0434171	0.999057
+		-1.36093	125.92	-27.2811
+	}
+}
+{Volume "body_vol7"
+	{Box 2.95568 99.129 1.1368}
+	{Bone "group001"}
+	{Matrix34
+		0.999962	0.00872654	0
+		-0.00871419	0.998547	-0.0531771
+		-0.000464052	0.053175	0.998585
+		0.611638	-90.0596	-45.8042
+	}
+}

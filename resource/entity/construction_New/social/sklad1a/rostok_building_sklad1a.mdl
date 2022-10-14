@@ -1,0 +1,31 @@
+;Exported by: пакунеу
+;Date:        Wed Mar 25 23:39:44 2009
+;File:        C:\Program Files\Autodesk\3dsMax8\scenes\Rostok_building_3a.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body_3s"
+			{Matrix34
+				0.999641	-0.0267841	-0.000526872
+				-0.000461754	0.00243732	-0.999997
+				0.0267853	0.999638	0.00242408
+				28.1089	-0.016543	84.2619
+			}
+			{VolumeView "body_3s.ply"}
+		}
+	}
+}
+{Volume "box01"
+	{Box 105.809 56.3494 29.282}
+	{Bone "body_3s"}
+	{Matrix34
+		5.54526	-0.0025622	0.148586
+		-0.148579	0.0135209	5.54524
+		-0.00292347	-5.54723	0.0134474
+		0.538708	3.04617	0.706312
+	}
+}

@@ -1,0 +1,30 @@
+;Exported by: Vnab
+;Date:        Mon Apr 21 15:04:52 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\Окружение\Semaphore2_rw501\semafor2.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Position 1.13324	4.33456	32.3704}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 1.3414 0.2282}
+		{Extent 0.632015 0.83426}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 1.26403 1.66852 71.9992}
+	{Bone "object_1"}
+	{Position 0.208164	-4.56276	-0.779938}
+}

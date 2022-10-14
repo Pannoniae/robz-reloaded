@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "blr020_caucasustower"}
+	{blend none}
+}

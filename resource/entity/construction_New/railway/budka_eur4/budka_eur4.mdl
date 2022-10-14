@@ -1,0 +1,30 @@
+;Exported by: Vnab
+;Date:        Fri May 30 12:25:05 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\окружение\budka_eur4\budka_eur4.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group01"
+			{Position -1.0386	0.20319	30.6244}
+			{VolumeView "group01.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -1.52337 -0.0350142}
+		{Extent 30.7731 26.6599}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 61.5462 53.3197 58.804}
+	{Bone "group01"}
+	{Position -0.484772	-0.168177	-1.22235}
+}

@@ -10,7 +10,7 @@
 			}
 			{particleinit
 				{speed 10.5 5.5}
-				{lifetime 62.5 2.5}
+				{lifetime 27.5 2.5}
 			}
 			{timetolive 0.1}
 			{particlesinblock 28}
@@ -21,7 +21,6 @@
 				{value 0}
 			}
 			{damping 0.9}
-			{nodependonwind}
 		}
 		{visualizer
 			{stage 
@@ -39,7 +38,7 @@
 					}
 					{visibility 1
 						{linear
-							{min 0.9 0.1}
+							{min 0.85 0.05}
 							{max 0}
 						}
 					}
@@ -63,7 +62,7 @@
 			}
 			{particleinit
 				{speed 9.5 8.5}
-				{lifetime 62.5 2.5}
+				{lifetime 27.5 2.5}
 			}
 			{timetolive 0.1}
 			{particlesinblock 24}
@@ -74,7 +73,6 @@
 				{value 0}
 			}
 			{damping 0.9}
-			{nodependonwind}
 		}
 		{visualizer
 			{stage 
@@ -92,7 +90,7 @@
 					}
 					{visibility 1
 						{linear
-							{min 0.675 0.125}
+							{min 0.625 0.075}
 							{max 0}
 						}
 					}
@@ -117,7 +115,7 @@
 					}
 					{visibility 1
 						{linear
-							{min 0.675 0.125}
+							{min 0.625 0.075}
 							{max 0}
 						}
 					}
@@ -327,17 +325,6 @@
 					}
 				}
 			}
-		}
-	}
-	{#+ particleview "smoke zone"
-		{entitygenerator
-			{totalparticles 1}
-			{particlesinblock 1}
-			{particleinit
-				{speed 0}
-				{lifetime 0}
-			}
-			{entity "smoke_zone_wp"}
 		}
 	}
 }

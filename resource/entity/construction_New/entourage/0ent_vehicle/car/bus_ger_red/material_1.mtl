@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "enveu_011_bus"}
+	{blend none}
+}

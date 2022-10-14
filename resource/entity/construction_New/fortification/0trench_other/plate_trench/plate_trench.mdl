@@ -1,0 +1,18 @@
+;Exported by: Kasutaja
+;Date:        Mon Dec 30 19:50:03 2013
+;File:        C:\Users\mark\WW1\models\trenches\trench_plate.max
+{Skeleton
+	{bone "plate"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "plate.ply"}
+	}
+}
+{Volume "plate"
+	{Polyhedron "plate.vol"}
+	{Bone "plate"}
+	{Position 0.0746613	-0.1539	-0.651346}
+}

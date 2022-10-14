@@ -1,0 +1,13 @@
+{game_entity
+	(include "/properties/post.inc")
+	{Extension "stand_novost_ru_408.mdl"}
+	{props "construction" "steel"}
+	("armor_post")
+	("armor_use_volume_thickness")
+	{Volume "body"
+		{Tags  "body"}
+		{Thickness 5}
+		{able {visible 1}}
+	}
+	{lodclass "decor_small"}
+}

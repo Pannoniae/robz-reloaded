@@ -1,0 +1,92 @@
+;Exported by: Kalinski
+;Date:        Thu Mar 01 04:04:53 2018
+;File:        C:\Users\Kalinski\Desktop\new weapons pack\piat.max
+{Skeleton
+	{bone "piat"
+		{parameters "CommonMesh;ID=rifle;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "piat.ply"}
+		{bone "foresight3"
+			{Position 13.1804	0	1.09236}
+		}
+		{bone "handle"
+			{Position 4.89375	0	0.359536}
+		}
+		{bone "piatrocket"
+			{Matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				0	0	0
+			}
+			{VolumeView "piatrocket.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Box 18.6204 1.2916 4.65362}
+	{Bone "piat"}
+	{Position 3.41065	0	0.755001}
+}
+{Volume "select"
+	{Box 23.6495 6.52673 6.63896}
+	{Bone "piat"}
+	{Matrix34
+		1.0774	0	0
+		0	1.0774	0
+		0	0	1.2924
+		3.53711	0	-0.403235
+	}
+}
+{Extender "preview"
+	{"stuff_primary"
+		{camera
+			{origin 4.34124	28.829	-0.194494}
+			{lookat 4.34124	0	-0.194494}
+			{fov 45}
+			{horizon 8.78617}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -3.84062	1.55828	0.0206528}
+			}
+			{"1"
+				{type point}
+				{position 11.8732	2.9692	1.20224}
+			}
+			{"2"
+				{type directional}
+				{direction 0	-0.5	0}
+				{ambient 0xffffff}
+			}
+		}
+	}
+	{"stuff"
+		{camera
+			{origin 4.34952	28.8829	-0.203125}
+			{lookat 4.34952	0	-0.203125}
+			{fov 45}
+			{horizon 8.77382}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 11.8693	2.97015	1.1984}
+			}
+			{"1"
+				{type point}
+				{position -3.83584	1.57989	0.0228424}
+			}
+			{"2"
+				{type directional}
+				{direction 0	-0.5	0}
+				{ambient 0xffffff}
+			}
+		}
+	}
+}

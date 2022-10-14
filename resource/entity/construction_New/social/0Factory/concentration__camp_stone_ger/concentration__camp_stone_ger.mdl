@@ -1,0 +1,96 @@
+;Exported by: Vnab
+;Date:        Fri Apr 17 13:41:56 2015
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\Конвертированные\Social\0Factory\concentration__camp_stone_ger\concentration__camp_stone_ger.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Position 1.63171	7.00705	84.703}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -211.879 -5.55474}
+		{Extent 140.979 55.3734}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 216.467 -9.03275}
+		{Extent 140.025 56.6463}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center -54.0805 -7.4419}
+		{Extent 21.6402 57.601}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol4"
+	{Obb2
+		{Center 54.111 -7.76017}
+		{Extent 22.2766 56.6463}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol6"
+	{Obb2
+		{Center -10.4312 -7.64732}
+		{Extent 1.27295 61.1017}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 281.959 110.747 99.2902}
+	{Bone "group001"}
+	{Position -213.511	-1.45231	-43.2675}
+}
+{Volume "body_vol2"
+	{Box 280.049 113.293 100.563}
+	{Bone "group001"}
+	{Position 214.835	2.02571	-42.631}
+}
+{Volume "body_vol3"
+	{Box 43.2803 115.202 141.298}
+	{Bone "group001"}
+	{Position -55.7122	0.43486	-22.2638}
+}
+{Volume "body_vol4"
+	{Box 44.5533 113.293 144.018}
+	{Bone "group001"}
+	{Position 52.4792	0.753128	-20.9036}
+}
+{Volume "body_vol5"
+	{Box 63.2899 83.068 113.747}
+	{Bone "group001"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-1.85608	1.42665	1.04304
+	}
+}
+{Volume "body_vol6"
+	{Box 2.5459 122.203 52.191}
+	{Bone "group001"}
+	{Position -12.0629	0.640274	-66.8171}
+}

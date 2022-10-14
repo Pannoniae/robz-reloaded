@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/inventory/weapon/molotov"}
+	{specular "$/inventory/weapon/molotov_sp"}
+	{color "255 255 255 25"}
+	{blend none}
+	{emitsheat}
+}

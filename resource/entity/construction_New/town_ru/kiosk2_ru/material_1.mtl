@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "bldsu_002_townshed"}
+	{blend none}
+}

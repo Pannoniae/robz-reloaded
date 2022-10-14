@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/humanskin/t_mp_face_david_c"}
+	{bump "$/humanskin/t_mp_face_prav_b"}
+	{blend none}
+}

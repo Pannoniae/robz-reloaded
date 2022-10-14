@@ -1,0 +1,31 @@
+;Exported by: Vnab
+;Date:        Wed Dec 03 11:01:18 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\Wowp\box_mgun_open P19_Box_1_prem_open\box_mgun_open.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				-0.217563	-3.79197	0
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Box 24.2312 10.8267 3.72347}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		0.0259289	-1.86173	3.4593
+	}
+}

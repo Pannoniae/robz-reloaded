@@ -1,0 +1,58 @@
+{fx
+	{#+ particleview
+		{generator
+			{totalparticles 25}
+			{emissionarea
+				{radius 5000 5000}
+				{alpha0 0}
+				{alpha1 110 3}
+				{speed 0.2}
+			}
+			{particleinit
+				{speed 0 0.2}
+				{lifetime 500 1}
+			}
+			{axisz}
+		}
+		{offset 0 0 1500}
+		{mover
+			{damping 0.993}
+		
+		}
+		{visualizer
+			{stage 
+				{sprite "$/smoke/smoke_g04d_cloud"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{preturn 0 20}
+					{turn 1
+						{linear
+							{min 0}
+							{max 0 360}
+						}
+					}
+					{scale 1
+						{linear
+							{min 2 0.6}
+							{max 4 0.9}
+						}
+					}
+					{visibility 1
+						{linear
+							{min 0}
+							{max 0.7}
+						}
+					}
+				}
+
+			}
+		}
+		{notifyowner}
+	}
+
+}
+
+
+

@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "brit"}
+	{specular "brit_specular"}
+	{color "229 229 229 152"}
+	{blend none}
+}

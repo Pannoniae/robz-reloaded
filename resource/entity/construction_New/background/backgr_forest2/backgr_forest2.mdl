@@ -1,0 +1,21 @@
+;Exported by: Vnab
+;Date:        Thu May 14 13:57:55 2015
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\Конвертированные\Background\backgr_forest1,2 env616\backgr_forest2.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				1	0	0
+				0	-0.00174539	-0.999998
+				0	0.999998	-0.00174539
+				-456.572	4.56953	0
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}

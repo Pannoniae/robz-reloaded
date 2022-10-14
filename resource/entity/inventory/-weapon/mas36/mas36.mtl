@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "mas36"}
+	{blend none}
+}

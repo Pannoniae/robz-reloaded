@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "lva081_d"}
+	{blend none}
+}

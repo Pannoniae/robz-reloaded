@@ -1,0 +1,11 @@
+{game_entity
+(include "/properties/building.inc")
+	{obstacleid "unbreakable" "construction" }
+	{props "concrete" "shed" "delete_after_blast" "burning"}
+	{Extension "fountain_wall_stone_01.mdl"}
+	{Volume "body"
+		{Tags  "body"}
+		{Thickness 20}
+		{able {visible 1}}
+	}
+}

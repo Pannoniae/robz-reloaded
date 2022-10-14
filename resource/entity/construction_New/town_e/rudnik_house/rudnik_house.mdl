@@ -1,0 +1,40 @@
+;Exported by: Vnab
+;Date:        Wed May 07 13:06:05 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\Здания\Европа\rudnik_house_027_MineHouse\rudnik_house.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				-2.72129	5.07645	64.8741
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.344856 -0.358551}
+		{Extent 71.5126 108.795}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 143.025 217.59 88.2051}
+	{Bone "object_1"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		-4.7179	-2.37643	-20.7716
+	}
+}

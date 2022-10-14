@@ -1,0 +1,78 @@
+;Exported by: Vnab
+;Date:        Mon Jun 09 10:32:14 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Новое\kolodec_arab\kolodec_arab.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group01"
+			{Matrix34
+				0.999962	0	0.00872648
+				0.000498018	0.99837	-0.0570676
+				-0.00871226	0.0570698	0.998332
+				-1.49596	0.465688	19.6932
+			}
+			{VolumeView "group01.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -1.03718 -0.39262}
+		{Extent 15.3781 15.1444}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -22.6997 -0.22842}
+		{Extent 2.38544 2.3492}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center 19.8727 -0.587869}
+		{Extent 2.29929 2.26436}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Cylinder 15.3781 21.8308}
+	{Bone "group01"}
+	{Matrix34
+		0.999962	0.000498022	-0.00871232
+		0	0.99837	0.0570698
+		0.00872653	-0.0570677	0.998332
+		0.366952	0.527684	-10.5116
+	}
+}
+{Volume "body_vol2"
+	{Cylinder 2.38544 45.0851}
+	{Bone "group01"}
+	{Matrix34
+		0.999962	0.000498022	-0.00871232
+		0	0.99837	0.0570698
+		0.00872653	-0.0570677	0.998332
+		-21.1933	-0.310567	1.2755
+	}
+}
+{Volume "body_vol3"
+	{Cylinder 2.29929 44.8167}
+	{Bone "group01"}
+	{Matrix34
+		0.999962	0.000498022	-0.00871232
+		0	0.99837	0.0570698
+		0.00872653	-0.0570677	0.998332
+		21.3763	0.0771543	0.79118
+	}
+}

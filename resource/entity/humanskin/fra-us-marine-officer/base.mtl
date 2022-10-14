@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "fusilier marin officer"}
+	{blend none}
+}

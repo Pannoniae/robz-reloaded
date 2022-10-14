@@ -1,0 +1,50 @@
+;Exported by: Vnab
+;Date:        Wed Oct 15 14:32:20 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\Company of heroes\Окружение\monument_angel_01\monument_angel_01.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				0.982103	-0.188335	0.00184918
+				0.0441716	0.220774	-0.974324
+				0.183091	0.956969	0.225142
+				-1.34035	-4.21018	28.3847
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.112442 -0.967154}
+		{Extent 11.7128 11.7128}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "group001"}
+	{Matrix34
+		0.982103	0.0441715	0.183091
+		-0.188334	0.220774	0.956969
+		0.00184922	-0.974324	0.225142
+		0.178375	28.8507	-1.21065
+	}
+}
+{Volume "body_vol2"
+	{Box 18.1805 3.09454 0.386818}
+	{Bone "group001"}
+	{Matrix34
+		0.982103	0.0441715	0.183091
+		0.00184926	-0.974324	0.225141
+		0.188334	-0.220774	-0.956969
+		0.481983	-25.3263	13.2741
+	}
+}

@@ -1,0 +1,30 @@
+;Exported by: user
+;Date:        Sat Aug 02 00:05:38 2014
+;File:        C:\Users\user\Desktop\Моддинг\МОДЕЛИ\Готовые\Конвертированные\Decor\water_pomp_afr\water_pomp_afr.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Position 0.27833	-2.68132	10.144}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 0.479848 -2.38419e-007}
+		{Extent 3.64683 2.39923}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 7.29366 4.79846 14.0115}
+	{Bone "group001"}
+	{Position 0.201518	2.68132	-3.13824}
+}

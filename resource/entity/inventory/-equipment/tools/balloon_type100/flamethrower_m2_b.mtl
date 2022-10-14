@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "balloon_type100"}
+	{specular "balloon_type100_sp"}
+	{color "229 229 229 152"}
+	{blend test}
+}

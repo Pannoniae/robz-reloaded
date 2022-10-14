@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "nagant silencer"}
+	{blend none}
+}

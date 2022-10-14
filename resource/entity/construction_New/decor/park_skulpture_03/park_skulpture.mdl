@@ -1,0 +1,40 @@
+;Exported by: Vnab
+;Date:        Tue Apr 22 14:40:04 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\Окружение\env427_ParkSculpture\park_skulpture.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "3d_object_1"
+			{Matrix34
+				-0.999979	-0.00645863	0
+				0.00645863	-0.999979	0
+				0	0	1
+				0.413351	6.36255	48.0683
+			}
+			{VolumeView "3d_object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.129591 -1.60588}
+		{Extent 12.263 24.088}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 24.526 48.1761 79.7095}
+	{Bone "3d_object_1"}
+	{Matrix34
+		-0.999979	0.00645863	0
+		-0.00645863	-0.999979	0
+		0	0	1
+		0.573653	4.75306	-8.21356
+	}
+}

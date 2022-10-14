@@ -1,0 +1,77 @@
+;Exported by: Vnab
+;Date:        Tue May 06 11:19:29 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\Здания\fortification\bunker_eu_02\bunker_eu_02.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "3d_object_1"
+			{Position 29.6209	-35.3372	32.8961}
+			{VolumeView "3d_object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -13.1149 10.3929}
+		{Extent 48.7898 85.5192}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol_"
+	{Obb2
+		{Center 110.755 13.3125}
+		{Extent 35.2749 8.33418}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 64.8529 -8.07391}
+		{Extent 28.2974 67.061}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center -61.6743 105.536}
+		{Extent 11.3452 42.5325}
+		{Axis 0.920584 0.390544}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 97.5796 171.038 63.5912}
+	{Bone "3d_object_1"}
+	{Position -42.7359	24.9442	-1.10045}
+}
+{Volume "body_vol_"
+	{Box 70.5498 16.6684 50.3927}
+	{Bone "3d_object_1"}
+	{Position 81.1337	22.0246	-7.69971}
+}
+{Volume "body_vol2"
+	{Box 56.5949 134.122 60.4712}
+	{Bone "3d_object_1"}
+	{Position 35.2319	43.4111	-2.66045}
+}
+{Volume "body_vol3"
+	{Box 22.2256 84.9445 55.1181}
+	{Bone "3d_object_1"}
+	{Matrix34
+		0.922709	-0.385498	0
+		0.385498	0.922709	0
+		0	0	1
+		-91.2952	-70.199	-5.33703
+	}
+}

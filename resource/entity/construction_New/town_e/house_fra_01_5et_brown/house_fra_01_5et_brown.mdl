@@ -1,0 +1,59 @@
+;Exported by: Vnab
+;Date:        Fri Oct 24 13:11:58 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\Rush for b 2\Здания\house_fra_01_5et_brown\house_fra_01_5et_brown.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				0.999995	0	0.00328111
+				0	1	0
+				-0.00328111	0	0.999995
+				-4.02725	5.05956	139.742
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -28.3656 -5.09401}
+		{Extent 59.8291 65.641}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 40.3612 -7.46984}
+		{Extent 8.46112 48.3492}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 119.658 131.282 235.944}
+	{Bone "group001"}
+	{Matrix34
+		0.999995	0	-0.00328098
+		0	1	0
+		0.00328098	0	0.999995
+		-24.4097	0.0344543	-21.6902
+	}
+}
+{Volume "body_vol2"
+	{Box 16.9222 96.6983 223.373}
+	{Bone "group001"}
+	{Matrix34
+		0.999995	0	-0.00328098
+		0	1	0
+		0.00328098	0	0.999995
+		44.2962	2.41028	-28.2011
+	}
+}

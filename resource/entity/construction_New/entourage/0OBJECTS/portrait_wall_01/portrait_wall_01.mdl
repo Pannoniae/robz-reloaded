@@ -1,0 +1,31 @@
+;Exported by: Vnab
+;Date:        Mon Nov 10 12:24:52 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\Red orchestra 2\Объекты\portrait_wall_01\portrait_wall_01.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				0	-1	0
+				1	0	0
+				0	0	1
+				-0.0972881	0.0350056	53.329
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Box 19.1986 26.2655 1.17783}
+	{Bone "group001"}
+	{Matrix34
+		0	1	0
+		0	0	1
+		1	0	0
+		-0.0124705	0.040267	0.0371552
+	}
+}

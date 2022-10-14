@@ -1,0 +1,30 @@
+;Exported by: Vnab
+;Date:        Fri Oct 03 11:27:43 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\Rush for b 2\Окружение\cafe_billboard_floor01\cafe_billboard_floor01.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Position 0.0665384	0.104797	8.03413}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.0427351 -0.0427246}
+		{Extent 4.1453 5.68376}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "group001"}
+	{Position -0.109274	-0.0620728	-8.03163}
+}

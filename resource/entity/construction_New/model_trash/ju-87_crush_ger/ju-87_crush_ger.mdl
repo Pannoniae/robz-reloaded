@@ -1,0 +1,92 @@
+;Exported by: user
+;Date:        Sun Aug 10 17:50:39 2014
+;File:        C:\Users\user\Desktop\Моддинг\Модели нов\WOT\окружение\mle031_Aeroplane\ger_ju-86_crush.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Position 8.42033	17.2622	21.897}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -2.5682 9.6403}
+		{Extent 8.23045 53.1084}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -41.3339 16.9302}
+		{Extent 16.557 5.27593}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center 48.1987 1.85537}
+		{Extent 27.2282 13.3959}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol4"
+	{Obb2
+		{Center 97.2449 8.04184}
+		{Extent 21.4272 5.9682}
+		{Axis 0.999391 0.0348818}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 16.4609 106.363 15.6168}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	0.955148	0.29613
+		0	-0.29613	0.955148
+		-10.9885	-26.9025	1.25379
+	}
+}
+{Volume "body_vol2"
+	{Box 34.6101 10.5519 2.32141}
+	{Bone "object_1"}
+	{Matrix34
+		0.93256	0	0.361016
+		0	1	0
+		-0.361016	0	0.93256
+		-49.7543	-34.1924	-14.5756
+	}
+}
+{Volume "body_vol3"
+	{Box 54.0198 26.5622 3.28297}
+	{Bone "object_1"}
+	{Matrix34
+		0.997535	-0.00417633	0.070055
+		-0.0129253	0.970218	0.241887
+		-0.0689789	-0.242196	0.967772
+		39.7783	-19.1176	-15.1175
+	}
+}
+{Volume "body_vol4"
+	{Box 42.9771 11.6396 1.49226}
+	{Bone "object_1"}
+	{Matrix34
+		0.97592	-0.0284897	0.216261
+		-0.0157469	0.979646	0.200117
+		-0.21756	-0.198704	0.955607
+		88.8246	-25.3041	-9.24355
+	}
+}

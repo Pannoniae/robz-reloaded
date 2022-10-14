@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/inventory/stuff/bandage"}
+	{bump "$/inventory/stuff/bandage_bp"}
+	{specular "$/inventory/stuff/bandage_sp"}
+	{color "255 255 255 25"}
+	{blend test}
+}

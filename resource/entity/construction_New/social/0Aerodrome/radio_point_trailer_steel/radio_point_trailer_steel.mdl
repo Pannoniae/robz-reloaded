@@ -1,0 +1,40 @@
+;Exported by: Vnab
+;Date:        Thu Dec 11 14:53:27 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\Конвертированные\Social\0Aerodrome\radio_point_trailer_steel\radio_point_trailer_steel.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				-0.681998	-0.731354	0
+				0.479811	-0.447431	-0.75471
+				0.55196	-0.51471	0.656059
+				2.82193	-0.995269	59.2616
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.274935 -1.47709}
+		{Extent 34.3714 52.843}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 68.7427 105.686 68.7427}
+	{Bone "group001"}
+	{Matrix34
+		-0.681999	0.479811	0.551959
+		-0.731354	-0.447431	-0.51471
+		0	-0.75471	0.656059
+		0.303884	16.1928	-19.3114
+	}
+}

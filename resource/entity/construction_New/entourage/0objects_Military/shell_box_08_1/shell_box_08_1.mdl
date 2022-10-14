@@ -1,0 +1,31 @@
+;Exported by: Vnab
+;Date:        Wed Dec 10 15:30:02 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\Конвертированные\entourage\0objects_Military\mleSU_83_08_88mmAA\shell_box_08_1.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				0.224951	-0.97437	0
+				0.97437	0.224951	0
+				0	0	1
+				-2.15897	-1.68948	4.63856
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Box 7.68531 16.0911 2.64182}
+	{Bone "object_1"}
+	{Matrix34
+		0.974879	-0.222737	0
+		0.222737	0.974879	0
+		0	0	1
+		2.2982	1.08475	-3.31039
+	}
+}

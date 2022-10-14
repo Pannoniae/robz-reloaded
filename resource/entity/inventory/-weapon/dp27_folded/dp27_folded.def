@@ -1,0 +1,8 @@
+{Actor
+	(include "/properties/stuff_small.ext")
+	{Extension "dp27_folded.mdl"}
+	{extender "stuff"
+		{item "dp_folded"}
+	}
+	{nogroupmesh 1}	
+}

@@ -1,0 +1,81 @@
+;Exported by: Kalinski
+;Date:        Tue Jul 25 08:11:05 2017
+;File:        C:\Users\Kalinski\Desktop\fra\revolver.max
+{Skeleton
+	{bone "revolver_mle_1892"
+		{parameters "CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "revolver_mle_1892.ply"}
+		{bone "foresight3"
+			{Position 3.80066	1.47314	0}
+		}
+		{bone "handle"
+			{Position 1.7236	1.40462	0}
+		}
+	}
+}
+{Volume "body"
+	{Box 3.43357 2.12208 1.17169}
+	{Bone "revolver_mle_1892"}
+	{Position 1.42604	0.607782	-0.00827003}
+}
+{Volume "select"
+	{Box 4.75921 2.94566 1.17169}
+	{Bone "revolver_mle_1892"}
+	{Matrix34
+		1.0774	0	0
+		0	1.0774	0
+		0	0	1.2924
+		1.53508	0.182385	-0.0614164
+	}
+}
+{Extender "preview"
+	{"stuff_primary"
+		{camera
+			{origin 1.54227	-0.0674444	10.3279}
+			{lookat 1.54515	-0.304932	1.3304}
+			{fov 45}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -2.33204	-0.477748	1.33739}
+			}
+			{"1"
+				{type point}
+				{position 8.63624	-1.21635	1.30826}
+			}
+			{"2"
+				{type directional}
+				{direction 0.00821002	-0.0186623	-0.499584}
+				{ambient 0xffffff}
+			}
+		}
+	}
+	{"stuff"
+		{camera
+			{origin 1.535	-0.0705517	10.3656}
+			{lookat 1.53407	-0.30804	1.3304}
+			{fov 45}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 8.64014	-1.21454	1.30826}
+			}
+			{"1"
+				{type point}
+				{position -2.34358	-0.485007	1.33739}
+			}
+			{"2"
+				{type directional}
+				{direction 0.00821002	-0.0186623	-0.499584}
+				{ambient 0xffffff}
+			}
+		}
+	}
+}

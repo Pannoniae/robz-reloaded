@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "props_static_mats_props_village_village_house_1_m_d"}
+	{blend none}
+}

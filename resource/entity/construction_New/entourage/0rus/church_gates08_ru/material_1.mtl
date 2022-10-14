@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "gaf007_churchfence"}
+	{blend none}
+}

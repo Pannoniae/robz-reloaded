@@ -1,0 +1,78 @@
+;Exported by: Vnab
+;Date:        Mon Nov 17 11:29:29 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\Panzer Elite Action - Дюны в огне\Здания\sclad_warehouse_afr-01\sclad_warehouse_afr-01.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				0.917202	0.398422	-0.000456333
+				-0.226077	0.519506	-0.824016
+				-0.32807	0.755893	0.566566
+				1.25332	0.830338	22.6791
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 75.461 -34.3749}
+		{Extent 41.0236 41.0236}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -33.8684 12.8795}
+		{Extent 69.1678 87.2945}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center 75.6749 -36.0149}
+		{Extent 19.7639 20.8041}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 82.0472 82.0472 84.9093}
+	{Bone "group001"}
+	{Matrix34
+		0.917202	-0.226078	-0.32807
+		0.398422	0.519506	0.755893
+		-0.000456385	-0.824016	0.566566
+		81.4257	-4.13191	4.29868
+	}
+}
+{Volume "body_vol2"
+	{Box 138.335 174.589 99.2199}
+	{Bone "group001"}
+	{Matrix34
+		0.917202	-0.226078	-0.32807
+		0.398422	0.519506	0.755893
+		-0.000456385	-0.824016	0.566566
+		-37.682	-9.86013	8.50103
+	}
+}
+{Volume "body_vol3"
+	{Box 39.5278 29.6458 41.6082}
+	{Bone "group001"}
+	{Matrix34
+		0.917202	-0.226077	-0.32807
+		-0.000456447	-0.824016	0.566566
+		-0.398422	-0.519506	-0.755893
+		82.2497	-49.467	37.1916
+	}
+}

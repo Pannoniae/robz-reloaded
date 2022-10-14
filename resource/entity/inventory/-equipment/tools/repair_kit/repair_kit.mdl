@@ -1,0 +1,86 @@
+;Exported by: Артем
+;Date:        Thu Feb 26 14:26:23 2015
+;File:        D:\Autodesk\Low poly\freelance\DMS 2.0\Weapons\Grenades & stuff\repair kit\repair kit+.max
+{Skeleton
+	{bone "repairkit"
+		{parameters "ID=mgun;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "repairkit.ply"}
+			{VolumeView "repairkit_lod1.ply"}
+		}
+		{bone "handle"
+			{Position -0.170288	-0.0131477	2.56988}
+		}
+	}
+}
+{Volume "body"
+	{Box 11.2332 7.33042 4.82932}
+	{Bone "repairkit"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		-0.083545	0.0263905	2.26122
+	}
+}
+{Volume "select"
+	{Box 16.8028 11.1034 7.29798}
+	{Bone "repairkit"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		-0.472888	-0.0429599	2.59754
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -64.3006	1.21918	38.4802}
+			{lookat 0.90872	-0.0268355	1.4559}
+			{fov 10.2855}
+			{horizon 0.400563}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.439524	-0.225872	0.0761627}
+			}
+			{"1"
+				{type directional}
+				{direction 0.195357	0.401513	-0.224995}
+			}
+			{"2"
+				{type directional}
+				{direction 0.245113	0.00152538	-0.435795}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin -88.2171	1.67626	52.0593}
+			{lookat 0.90872	-0.0268355	1.4559}
+			{fov 10.2855}
+			{horizon 0.401051}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.439524	-0.225872	0.0761627}
+			}
+			{"1"
+				{type directional}
+				{direction 0.195357	0.401513	-0.224995}
+			}
+			{"2"
+				{type directional}
+				{direction 0.245113	0.00152538	-0.435795}
+			}
+		}
+	}
+}

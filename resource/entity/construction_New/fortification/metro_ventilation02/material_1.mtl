@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "envsu_002_smallvault"}
+	{blend none}
+}

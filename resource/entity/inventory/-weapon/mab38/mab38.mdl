@@ -1,0 +1,89 @@
+;Exported by: Kalinski
+;Date:        Tue Dec 13 23:30:01 2016
+;File:        C:\Users\Kalinski\Desktop\ita\mab 38.max
+{Skeleton
+	{bone "mab38"
+		{parameters "CommonMesh;ID=rifle;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "mab38.ply"}
+		{bone "fxshell"
+			{Matrix34
+				0	0.495962	-0.868344
+				0	-0.868344	-0.495962
+				-1	0	0
+				4.28685	1.24087	-0.167742
+			}
+		}
+		{bone "handle"
+			{Position 4.21578	1.21475	0}
+		}
+		{bone "foresight3"
+			{Position 11.3678	1.14052	0}
+		}
+	}
+}
+{Volume "body"
+	{Box 14.8619 3.26999 1.17169}
+	{Bone "mab38"}
+	{Position 2.775	-0.18706	-0.00826967}
+}
+{Volume "select"
+	{Box 15.7789 5.35027 1.17169}
+	{Bone "mab38"}
+	{Matrix34
+		1.0774	0	0
+		0	1.0774	0
+		0	0	1.2924
+		2.72803	-0.796617	-0.0614161
+	}
+}
+{Extender "preview"
+	{"stuff"
+		{camera
+			{origin 2.85956	1.30626	21.8336}
+			{lookat 2.88254	1.06877	1.3304}
+			{fov 45}
+			{horizon 5.52694}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 11.0782	-1.2487	1.30826}
+			}
+			{"1"
+				{type point}
+				{position -1.51264	-0.520871	1.33739}
+			}
+			{"2"
+				{type directional}
+				{direction 0.00821002	-0.0186623	-0.499584}
+			}
+		}
+	}
+	{"stuff_primary"
+		{camera
+			{origin 2.84588	1.29414	21.7972}
+			{lookat 2.86886	1.05665	1.3304}
+			{fov 45}
+			{horizon 5.52694}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -1.51264	-0.520864	1.33739}
+			}
+			{"1"
+				{type point}
+				{position 11.0782	-1.24869	1.30826}
+			}
+			{"2"
+				{type directional}
+				{direction 0.00821001	-0.0186623	-0.499584}
+			}
+		}
+	}
+}

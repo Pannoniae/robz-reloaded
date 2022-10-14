@@ -1,0 +1,78 @@
+;Exported by: Vnab
+;Date:        Tue Dec 02 13:43:38 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\WOT\Техника\mleSU_92_02_HE111\HE111_crush_hvost 92_02_HE111_part01.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				-1	0	0
+				0	0	-1
+				0	-1	0
+				1.15942	-16.5208	0.669568
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -1.70797 -1.97152}
+		{Extent 63.033 15.431}
+		{Axis 0.0705154 0.997511}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 4.65717 -40.9151}
+		{Extent 22.7834 67.9693}
+		{Axis 0.0182396 0.999834}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center 10.6206 -38.6837}
+		{Extent 14.4075 7.0687}
+		{Axis 0.122598 0.992456}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "object_1"}
+	{Matrix34
+		0.999929	0	-0.0119148
+		0.000727656	-0.998133	0.0610673
+		-0.0118925	-0.0610717	-0.998063
+		-1.46628	-14.9534	42.8117
+	}
+}
+{Volume "body_vol2"
+	{Box 107.942 34.9984 1.84202}
+	{Bone "object_1"}
+	{Matrix34
+		1.24628	-0.315473	0.0180288
+		0	0.0733565	1.28362
+		-0.315988	-1.24425	0.0711064
+		-3.49775	-20.0891	-57.436
+	}
+}
+{Volume "body_vol3"
+	{Box 22.331 38.0056 1.50305}
+	{Bone "object_1"}
+	{Matrix34
+		0.167216	0	-1.27479
+		-0.314343	-1.24601	-0.0412327
+		-1.23543	0.317035	-0.162053
+		-9.46114	-51.1949	-55.2045
+	}
+}

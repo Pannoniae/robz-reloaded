@@ -1,0 +1,21 @@
+;Exported by: Vnab
+;Date:        Wed May 13 14:18:34 2015
+;File:        C:\Users\Vnab\Desktop\ФЛЕШ 16 врем\Ресурсы нов\Фоны\Город\env622_BackGround_trees\backgr_town2.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				-423.455	0.984692	-2.09143
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}

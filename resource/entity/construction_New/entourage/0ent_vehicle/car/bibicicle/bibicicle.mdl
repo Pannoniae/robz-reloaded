@@ -1,0 +1,40 @@
+;Exported by: Vnab
+;Date:        Wed Dec 10 12:41:53 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\Конвертированные\entourage\0ent_vehicle\car\bibicicle\bibicicle.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				0	1	0
+				-0.962085	0	-0.27275
+				-0.27275	0	0.962085
+				-1.72574	0.0218682	10.9424
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.947408 -1.15363}
+		{Extent 1.95958 17.8288}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 35.6575 8.66256 1.61164}
+	{Bone "group001"}
+	{Matrix34
+		1	0	0
+		0	0.000750124	1
+		0	-1	0.000750124
+		1.13176	-0.119017	-2.43383
+	}
+}

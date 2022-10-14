@@ -1,0 +1,54 @@
+;Exported by: Vnab
+;Date:        Wed Dec 03 14:36:19 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\Здания\Россия\house_ru12_2et_pristr\house_ru12_2et_pristr.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Position -29.3235	31.9346	84.6914}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -37.7889 -3.06212}
+		{Extent 112.239 74.8261}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -0.898163 -115.208}
+		{Extent 74.7287 37.3643}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 224.478 149.652 137.31}
+	{Bone "group001"}
+	{Position -8.46542	-28.8725	-18.9883}
+}
+{Volume "body_vol2"
+	{Box 149.457 74.7287 135.821}
+	{Bone "group001"}
+	{Position 28.4253	83.2736	-19.7329}
+}
+{Volume "body_vol3"
+	{Box 38.1514 83.4299 30.1857}
+	{Bone "group001"}
+	{Matrix34
+		-0.705804	-0.708407	0
+		0	0	1
+		-0.708407	0.705804	0
+		95.9103	-95.9747	4.62937
+	}
+}

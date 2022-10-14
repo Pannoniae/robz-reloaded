@@ -1,0 +1,37 @@
+;Exported by: Basement
+;Date:        Mon Dec  9 22:52:29 2019
+;File:        C:\Users\Basement\Documents\3dsMax\saves\tac_ear_muffes.max
+{Skeleton
+	{bone "tac_ear_muffs"
+		{parameters "IK=head;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "tac_ear_muffs.ply"}
+		{bone "handle"
+			{Position 0.276674	0	3.80438}
+		}
+	}
+}
+{Volume "body"
+	{Box 5.31614 4.65162 2.47262}
+	{Bone "tac_ear_muffs"}
+	{Matrix34
+		1	0	0
+		0	1.05395	0
+		0	0	1.34037
+		0.0638777	-0.0147869	3.56594
+	}
+}
+{Volume "select"
+	{Box 5.31614 4.65162 2.47262}
+	{Bone "tac_ear_muffs"}
+	{Matrix34
+		1	0	0
+		0	1.05395	0
+		0	0	1.34037
+		0.0638777	-0.0147869	3.56594
+	}
+}

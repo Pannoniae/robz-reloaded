@@ -1,7 +1,19 @@
 {actor
-	(include "/properties/stuff_small.ext")
+	(include "/properties/bag.ext")
 	{Extension "ammo_us2.mdl"}
 	{extender "stuff"
 		{item "ammo_us2"}
+	}
+        {extender "inventory"
+                {box
+                        {Size 4 6}
+		        {item "bandage" 2}
+		        {item "knife_union"}
+		        {item "sandbag_kit" 1}
+                }
+        }
+	{Volume "body"
+	        {able {visible} {select} {contact_ground} {touch} {contact} {blast}}
+		{Thickness 10}
 	}
 }

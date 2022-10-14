@@ -1,0 +1,30 @@
+;Exported by: Vnab
+;Date:        Thu May 29 14:23:07 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\Здания\Европа\House_eu8\House_eu8_1p_2et.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group01"
+			{Position -1.19661	1.57256	68.1667}
+			{VolumeView "group01.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.274925 -1.0997}
+		{Extent 60.7588 61.5836}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 121.518 123.167 119.318}
+	{Bone "group01"}
+	{Position 0.921684	-0.472855	-8.50761}
+}

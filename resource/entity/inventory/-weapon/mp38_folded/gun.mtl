@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "mp38"}
+	{blend none}
+}

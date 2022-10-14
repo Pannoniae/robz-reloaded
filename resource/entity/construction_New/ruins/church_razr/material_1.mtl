@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "blr205_church"}
+	{blend none}
+}

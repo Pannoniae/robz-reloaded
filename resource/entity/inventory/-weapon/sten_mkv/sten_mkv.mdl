@@ -1,0 +1,91 @@
+;Exported by: Kalinski
+;Date:        Sun Feb 25 00:18:00 2018
+;File:        C:\Users\Kalinski\Desktop\new weapons pack\sten mkv.max
+{Skeleton
+	{bone "sten_mkv"
+		{parameters "CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "sten_mkv.ply"}
+		{bone "foresight3"
+			{Position 10.4997	1.56175	0}
+		}
+		{bone "handle"
+			{Position 3.89515	1.90606	0}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	-0.759474	0.650538
+				0	0.650538	0.759474
+				-1	0	0
+				5.78227	1.5104	0.13786
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 12.5782 3.19411 1.17169}
+	{Bone "sten_mkv"}
+	{Position 3.47739	0.394239	-0.00827003}
+}
+{Volume "select"
+	{Box 14.6895 4.34756 1.17169}
+	{Bone "sten_mkv"}
+	{Matrix34
+		1.0774	0	0
+		0	1.0774	0
+		0	0	1.2924
+		2.87507	0.214026	-0.0614164
+	}
+}
+{Extender "preview"
+	{"stuff_primary"
+		{camera
+			{origin 2.76168	-0.1012	20.002}
+			{lookat 2.78466	-0.338688	1.3304}
+			{fov 45}
+			{horizon 5.5274}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -2.33204	-0.477748	1.33739}
+			}
+			{"1"
+				{type point}
+				{position 8.63624	-1.21635	1.30826}
+			}
+			{"2"
+				{type directional}
+				{direction 0.00821002	-0.0186623	-0.499584}
+				{ambient 0xffffff}
+			}
+		}
+	}
+	{"stuff"
+		{camera
+			{origin 2.76137	-0.0976571	20.0233}
+			{lookat 2.78436	-0.335145	1.3304}
+			{fov 45}
+			{horizon 5.52751}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 8.64014	-1.21454	1.30826}
+			}
+			{"1"
+				{type point}
+				{position -2.34358	-0.485007	1.33739}
+			}
+			{"2"
+				{type directional}
+				{direction 0.00821002	-0.0186623	-0.499584}
+				{ambient 0xffffff}
+			}
+		}
+	}
+}

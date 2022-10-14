@@ -1,7 +1,19 @@
 {actor
-	(include "/properties/stuff_small.ext")
+	(include "/properties/bag.ext")
 	{Extension "sovet-ammo1.mdl"}
 	{extender "stuff"
 		{item "sovet_ammo1"}
+	}
+        {extender "inventory"
+                {box
+                        {Size 4 6}
+		        {item "bandage" 2}
+		        {item "knife_rus"}
+		        {item "sandbag_kit" 1}
+                }
+        }
+	{Volume "body"
+	        {able {visible} {select} {contact_ground} {touch} {contact} {blast}}
+		{Thickness 10}
 	}
 }

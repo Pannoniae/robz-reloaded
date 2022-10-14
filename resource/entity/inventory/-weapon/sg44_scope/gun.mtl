@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "stg44"}
+	{blend none}
+}

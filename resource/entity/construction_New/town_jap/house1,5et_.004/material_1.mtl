@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "bldja_004_vhousemixroof"}
+	{blend none}
+}

@@ -1,0 +1,21 @@
+{game_entity
+(include "/properties/building.inc")
+	{obstacleid "unbreakable" "construction" }
+	{props "concrete" "no_destroyed_stamp"}
+	{Extension "ita_town_7,2et_arc.mdl"}
+	{Volume "body"
+		{Tags  "body"}
+		{Thickness 20}
+		{able {visible 1}}
+	}
+	{Volume "body_vol2"
+		{Tags  "body"}
+		{Thickness 20}
+		{able {visible 1}}
+	}
+	{Volume "body_vol3"
+		{Tags  "body"}
+		{Thickness 10}
+		{able {visible 1}{obstacle 0}}
+	}
+}

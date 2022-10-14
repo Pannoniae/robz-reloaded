@@ -1,0 +1,78 @@
+;Exported by: Vnab
+;Date:        Fri Nov 28 13:44:48 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\WOT\Техника\Ford_Pickup_1937 env420_OldGLightVan\Ford_Pickup_1937.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				0.717	4.01112	0.00822078
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 0.517543 -7.17373}
+		{Extent 15.9118 39.4293}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 0.776888 3.43413}
+		{Extent 12.3091 8.20609}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center 0.778391 23.4368}
+		{Extent 12.0297 11.6759}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 31.8236 78.8585 11.4085}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-0.199456	-5.70423	3.16261
+	}
+}
+{Volume "body_vol2"
+	{Box 24.6183 16.4122 24.8184}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		0.0598884	-19.1779	-7.44526
+	}
+}
+{Volume "body_vol3"
+	{Box 24.0595 23.3519 15.7094}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		0.0613913	-14.6234	-27.448
+	}
+}

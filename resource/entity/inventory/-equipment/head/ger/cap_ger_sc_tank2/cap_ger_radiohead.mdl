@@ -1,0 +1,52 @@
+;Exported by: Mandingo
+;Date:        Fri Aug 23 18:52:53 2019
+;File:        C:\Users\Mandingo\Documents\3dsMax\scenes\sidecap radiohead exp.max
+{Skeleton
+	{bone "cap_ger_radiohead"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "cap_ger_radiohead.ply"}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "cap_ger_radiohead"}
+	{Position 0.703094	0.124126	3.3988}
+}
+{Volume "select"
+	{Box 5.59662 5.08766 5.14459}
+	{Bone "cap_ger_radiohead"}
+	{Matrix34
+		1.0387	0	0
+		0	1.0387	0
+		0	0	1.0387
+		0.919993	0.260123	2.91722
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 5.19338	-1.41413	4.73701}
+			{lookat 0.747362	-0.124373	3.71071}
+			{fov 45}
+			{horizon -0.239031}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.354828	0.33419	-0.11142}
+			}
+			{"1"
+				{type point}
+				{position 1.3762	-2.3209	3.85514}
+			}
+			{"2"
+				{type point}
+				{position 2.83572	-1.25747	3.08307}
+			}
+		}
+	}
+}

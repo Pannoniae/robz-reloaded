@@ -1,0 +1,30 @@
+;Exported by: Vnab
+;Date:        Tue Apr 29 15:38:05 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\Здания\Россия\palatka_rus1\palatka_rus1.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group01"
+			{Position 0.694121	20.2833	59.2826}
+			{VolumeView "group01.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 1.28328 -10.2523}
+		{Extent 66.6177 78.305}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 133.235 156.61 44.4118}
+	{Bone "group01"}
+	{Position 0.589161	-10.031	-37.0595}
+}

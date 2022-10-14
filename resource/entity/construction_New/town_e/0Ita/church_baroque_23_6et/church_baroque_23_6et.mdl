@@ -1,0 +1,77 @@
+;Exported by: Vnab
+;Date:        Mon Nov 24 12:22:35 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\Конвертированные\town_e\0Ita\church_baroque_23_6et\church_baroque_23_6et.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "3d_object_1"
+			{Position -43.8858	3.17779	321.453}
+			{VolumeView "3d_object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -79.7733 -2.35355}
+		{Extent 288.992 117.345}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 165.489 -1.48154}
+		{Extent 43.068 157.916}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center -154.774 -3.24637}
+		{Extent 77.6789 177.426}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol4"
+	{Obb2
+		{Center 232.094 -11.0445}
+		{Extent 56.5642 42.9763}
+		{Axis 0.71961 0.694378}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 577.985 234.689 234.802}
+	{Bone "3d_object_1"}
+	{Position -35.8874	-0.824249	-210.196}
+}
+{Volume "body_vol2"
+	{Box 86.136 315.832 319.577}
+	{Bone "3d_object_1"}
+	{Position 209.375	-1.69626	-167.809}
+}
+{Volume "body_vol3"
+	{Box 155.358 354.851 248.926}
+	{Bone "3d_object_1"}
+	{Position -110.888	0.068573	-203.134}
+}
+{Volume "body_vol4"
+	{Polyhedron "body_vol4.vol"}
+	{Bone "3d_object_1"}
+	{Matrix34
+		0.699303	0.714826	0
+		-0.714826	0.699303	0
+		0	0	1
+		275.98	7.86673	-327.595
+	}
+}

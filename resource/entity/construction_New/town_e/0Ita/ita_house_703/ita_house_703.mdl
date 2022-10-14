@@ -1,0 +1,59 @@
+;Exported by: Vnab
+;Date:        Mon Nov 24 16:04:14 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\Конвертированные\town_e\0Ita\house_ita703 bld703\ita_house_703.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				-1.58385	1.30976	1.16176
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -1.66482 -1.02159}
+		{Extent 121.766 90.3732}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -31.8033 94.0955}
+		{Extent 4.96093 4.96094}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 243.532 180.746 155.061}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-0.0809669	-69.4724	-0.288184
+	}
+}
+{Volume "body_vol2"
+	{Box 9.92186 9.92186 150.678}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-30.2194	-67.2805	-95.4053
+	}
+}

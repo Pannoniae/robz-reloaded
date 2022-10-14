@@ -1,0 +1,17 @@
+{game_entity
+(include "/properties/building.inc")
+	{obstacleid "unbreakable" "construction" }
+	{props "steel" "no_destroyed_stamp"}
+	{Extension "windturbine_12.mdl"}
+	{Volume "body"
+		{Tags  "body"}
+		{Thickness 5}
+		{able {visible 1}}
+	}
+	{Volume "body_vol2"
+		{Tags  "body"}
+		{Thickness 5}
+		{able {visible 1}{obstacle 0}}
+	}
+	{lodclass "decor_small"}
+}

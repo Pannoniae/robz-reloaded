@@ -1,0 +1,59 @@
+;Exported by: Vnab
+;Date:        Fri Sep 19 15:04:15 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\Air Conflicts.Secret Wars\Здания\Африка\cairo_piramide_small\cairo_piramide_small.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				0.230391	0.973098	0
+				-0.94489	0.223713	-0.239028
+				-0.232598	0.05507	0.971013
+				-16.3951	-12.189	76.3571
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 2.10001 3.8679}
+		{Extent 180.826 174.057}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -5.33591 -5.74921}
+		{Extent 142.147 137.312}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 361.652 348.114 77.3587}
+	{Bone "group001"}
+	{Matrix34
+		0.230391	-0.944891	-0.232598
+		0.973098	0.223713	0.0550701
+		0	-0.239028	0.971013
+		12.3583	-3.98202	-51.0982
+	}
+}
+{Volume "body_vol2"
+	{Polyhedron "body_vol2.vol"}
+	{Bone "group001"}
+	{Matrix34
+		0.230391	-0.94489	-0.232598
+		0.973098	0.223713	0.0550701
+		0	-0.239028	0.971013
+		20.0036	-3.14622	-14.9518
+	}
+}

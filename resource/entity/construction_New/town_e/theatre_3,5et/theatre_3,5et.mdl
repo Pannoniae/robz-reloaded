@@ -1,0 +1,128 @@
+;Exported by: Vnab
+;Date:        Thu Nov 27 11:24:11 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\Конвертированные\town_e\theatre_3,5et\theatre_3,5et.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Position -3.02599	117.481	211.784}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -2.77444 -166.207}
+		{Extent 285.085 112.106}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -1.32796 -166.301}
+		{Extent 251.605 405.815}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center -3.51009 -589.454}
+		{Extent 210.911 16.4999}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol4"
+	{Obb2
+		{Center -4.89398 -616.312}
+		{Extent 73.8075 10.1454}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol5"
+	{Obb2
+		{Center -1.19551 284.544}
+		{Extent 160.694 48.0648}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol6"
+	{Obb2
+		{Center -1.81082 -169.343}
+		{Extent 305.375 42.6105}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol7"
+	{Obb2
+		{Center -127.453 360.088}
+		{Extent 17.2173 31.5649}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol8"
+	{Obb2
+		{Center 125.352 356.51}
+		{Extent 16.9935 35.0015}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 570.169 224.213 253.634}
+	{Bone "group001"}
+	{Position 0.251558	48.7252	-88.0633}
+}
+{Volume "body_vol2"
+	{Box 503.21 811.629 235.372}
+	{Bone "group001"}
+	{Position 1.69804	48.8192	-97.1942}
+}
+{Volume "body_vol3"
+	{Box 421.823 32.9998 236.737}
+	{Bone "group001"}
+	{Position -0.4841	471.973	-93.4156}
+}
+{Volume "body_vol4"
+	{Box 147.615 20.2907 225.976}
+	{Bone "group001"}
+	{Position -1.86799	498.83	-101.892}
+}
+{Volume "body_vol5"
+	{Box 321.389 96.1297 249.65}
+	{Bone "group001"}
+	{Position 1.83048	-402.026	-90.0553}
+}
+{Volume "body_vol6"
+	{Box 610.751 85.2211 58.8431}
+	{Bone "group001"}
+	{Position 1.21516	51.8617	-185.459}
+}
+{Volume "body_vol7"
+	{Polyhedron "body_vol7.vol"}
+	{Bone "group001"}
+	{Position -124.427	-477.57	-214.878}
+}
+{Volume "body_vol8"
+	{Polyhedron "body_vol8.vol"}
+	{Bone "group001"}
+	{Position 128.378	-473.992	-214.878}
+}

@@ -1,0 +1,40 @@
+;Exported by: Vnab
+;Date:        Tue Aug 06 14:20:10 2013
+;File:        D:\INSTALL\Моддинг\Сцены\Death to sp\5 Расплата\kolodec_zakr\kolodec_zakr.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group01"
+			{Matrix34
+				0.9989	0	-0.0468942
+				-0.00613158	0.991415	-0.130609
+				0.0464916	0.130753	0.990324
+				0.620988	0.349669	9.221
+			}
+			{VolumeView "group01.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 0.252365 0.909662}
+		{Extent 13.8492 13.8492}
+		{Axis 0.122598 0.992456}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "group01"}
+	{Matrix34
+		0.9989	-0.00613165	0.0464915
+		0	0.991415	0.130754
+		-0.0468942	-0.13061	0.990324
+		0.0641939	-0.0419092	-9.31359
+	}
+}

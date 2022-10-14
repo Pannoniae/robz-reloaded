@@ -1,0 +1,44 @@
+;Exported by: Vnab
+;Date:        Mon Nov 10 12:07:08 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\Red orchestra 2\Объекты\grob_coffin_wood01\grob_coffin_wood01.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Position 3.26439	0.465071	4.00366}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 3.44441 -0.44574}
+		{Extent 21.0152 5.07469}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -0.19743 -0.386038}
+		{Extent 9.61207 6.80606}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 42.0304 10.1494 8.00011}
+	{Bone "group001"}
+	{Position 0.180023	-0.019331	-0.0036068}
+}
+{Volume "body_vol2"
+	{Box 19.2241 13.6121 8.00011}
+	{Bone "group001"}
+	{Position -3.46182	-0.0790329	-0.0036068}
+}

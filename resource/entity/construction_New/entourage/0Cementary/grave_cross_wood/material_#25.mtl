@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "clay_new3b"}
+	{blend none}
+}

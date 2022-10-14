@@ -1,0 +1,26 @@
+;Exported by: Vnab
+;Date:        Tue Jun 17 14:24:34 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\Конвертированные\entourage\0Objects\Flag_wall_1\Flag_wall_1.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group01"
+			{Position 0.634217	0.371718	50.9135}
+			{VolumeView "group01.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Box 24.6486 50.9779 0.560198}
+	{Bone "group01"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		0.087307	-0.0916216	-0.165482
+	}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "bldel_042_abandoned_house"}
+	{blend none}
+}

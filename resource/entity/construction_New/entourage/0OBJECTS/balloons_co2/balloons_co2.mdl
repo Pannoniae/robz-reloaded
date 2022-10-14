@@ -1,0 +1,59 @@
+;Exported by: Vnab
+;Date:        Thu Dec 04 15:34:29 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\Wowp\PBalloons_co2 18_Balloons_prem\Balloons_co2.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				-1	0	0
+				0	0	-1
+				0	-1	0
+				0.288135	-1.13525	0
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 0.204431 -1.63953}
+		{Extent 3.64817 5.76507}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -0.0179169 -0.0418966}
+		{Extent 5.70055 2.99991}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 7.29634 14.9727 2.28011}
+	{Bone "object_1"}
+	{Matrix34
+		-1	0	0
+		0	0.755622	-0.655008
+		0	-0.655008	-0.755622
+		0.083703	-9.53516	-2.77478
+	}
+}
+{Volume "body_vol2"
+	{Cylinder 2.99991 11.4011}
+	{Bone "object_1"}
+	{Matrix34
+		0	0	1
+		0	-1	0
+		1	0	0
+		0.306051	-3.01191	-1.17715
+	}
+}

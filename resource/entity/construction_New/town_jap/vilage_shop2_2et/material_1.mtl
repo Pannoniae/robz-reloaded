@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "bldkr_012_village_shop"}
+	{blend none}
+}

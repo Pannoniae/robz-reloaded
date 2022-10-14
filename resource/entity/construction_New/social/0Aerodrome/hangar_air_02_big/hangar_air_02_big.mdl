@@ -1,0 +1,40 @@
+;Exported by: Vnab
+;Date:        Wed Nov 26 11:32:40 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\WOT\здания европа\hangar_air_02_big blrAF_004_Hangar\hangar_air_02_big.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				0	1	0
+				0	0	-1
+				-1	0	0
+				-2.11743	-4.78381	-1.43062
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -1.57556 -0.716766}
+		{Extent 325.032 409.96}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "object_1"}
+	{Matrix34
+		0	0	-1
+		0	-1	0
+		-1	0	0
+		-403.616	8.15535	-0.700909
+	}
+}

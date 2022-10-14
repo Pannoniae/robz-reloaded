@@ -1,0 +1,78 @@
+;Exported by: Vnab
+;Date:        Mon Oct 13 15:29:29 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\Company of heroes\Объекты\boxes_mgun6_ger_steel\boxes_mgun6_ger_steel.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				0.705299	0.708855	-0.00889517
+				-0.130923	0.117914	-0.984355
+				-0.696716	0.695429	0.17597
+				-0.942715	-0.747393	14.1051
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 12.0619 -0.618362}
+		{Extent 11.7454 6.09019}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -13.2123 -0.400808}
+		{Extent 11.6149 6.13369}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center 6.30618 -0.00928187}
+		{Extent 11.1183 6.00318}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 23.4907 12.1804 12.7894}
+	{Bone "group001"}
+	{Matrix34
+		0.705298	-0.130923	-0.696717
+		0.708854	0.117914	0.695429
+		-0.00889533	-0.984355	0.17597
+		10.2063	5.76547	-9.41701
+	}
+}
+{Volume "body_vol2"
+	{Box 23.2297 12.2674 15.9215}
+	{Bone "group001"}
+	{Matrix34
+		0.705298	-0.130923	-0.696717
+		0.708854	0.117914	0.695429
+		-0.00889533	-0.984355	0.17597
+		-7.78773	7.50725	8.31625
+	}
+}
+{Volume "body_vol3"
+	{Box 21.7507 12.0064 4.78514}
+	{Bone "group001"}
+	{Matrix34
+		0.697585	0.0287349	-0.715925
+		0.708854	0.117914	0.695429
+		0.1044	-0.992608	0.0618865
+		5.61787	-4.30524	-3.90828
+	}
+}

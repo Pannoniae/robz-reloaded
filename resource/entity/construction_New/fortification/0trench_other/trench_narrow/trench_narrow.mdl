@@ -1,0 +1,32 @@
+;Exported by: Kasutaja
+;Date:        Sun Dec 29 18:42:48 2013
+;File:        C:\Users\mark\WW1\models\trenches\trench_narrow.max
+{Skeleton
+	{bone "trench"
+		{parameters "Land;Ground;CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "trench.ply" {Ground} {DecalTarget}}
+		{bone "allign"
+			{Matrix34
+				-1	0	0
+				0	0	1
+				0	1	0
+				-0.161276	0.647385	0.0096674
+			}
+		}
+	}
+}
+{Area "cut"
+	{Polygon2
+		{Radius 0}
+		{Vertex 23.6457 -42.3414}
+		{Vertex 23.6457 35.9153}
+		{Vertex -25.7808 35.9153}
+		{Vertex -25.7808 -42.1996}
+	}
+	{Rotate}
+}

@@ -1,0 +1,30 @@
+;Exported by: Vnab
+;Date:        Tue Jun 17 13:29:20 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\Конвертированные\entourage\env051_EurNewsstand\newsstand.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Position 1.90251	0.217311	22.9517}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 0.395325 -2.04873}
+		{Extent 16.3759 16.1271}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Cylinder 16.3759 40.0445}
+	{Bone "object_1"}
+	{Position -1.50719	1.83142	-2.24926}
+}

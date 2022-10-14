@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "props_static_mats_props_monuments_stalin_base_m_d"}
+	{blend none}
+}

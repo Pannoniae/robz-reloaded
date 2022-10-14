@@ -1,0 +1,26 @@
+;Exported by: Vnab
+;Date:        Wed May 20 14:26:47 2015
+;File:        C:\Users\Vnab\Desktop\Моддинг\MOH pa\Разное\katana_wall_01\katana_wall_01.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Position 0.278858	0.254947	23.7283}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Box 0.956959 27.1537 0.478479}
+	{Bone "group001"}
+	{Matrix34
+		0.476653	0	-0.512642
+		0.512642	0	0.476653
+		0	-0.7	0
+		-0.182235	-0.168194	-1.95041
+	}
+}

@@ -1,0 +1,89 @@
+;Exported by: Kalinski
+;Date:        Wed Dec 14 00:03:11 2016
+;File:        C:\Users\Kalinski\Desktop\ita\m91 38 carcano.max
+{Skeleton
+	{bone "m9138_carcano"
+		{parameters "CommonMesh;ID=rifle;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "m9138_carcano.ply"}
+		{bone "fxshell"
+			{Matrix34
+				0	0	1
+				0	1	0
+				-1	0	0
+				2.13754	1.59146	0.426479
+			}
+		}
+		{bone "handle"
+			{Position 5.43505	1.83175	0}
+		}
+		{bone "foresight3"
+			{Position 13.76	1.54152	0}
+		}
+	}
+}
+{Volume "body"
+	{Box 16.88 2.92138 1.17169}
+	{Bone "m9138_carcano"}
+	{Position 3.9706	0.592356	-0.00826997}
+}
+{Volume "select"
+	{Box 19.0066 4.20808 1.17169}
+	{Bone "m9138_carcano"}
+	{Matrix34
+		1.0774	0	0
+		0	1.0774	0
+		0	0	1.2924
+		3.72384	0.753232	-0.0614164
+	}
+}
+{Extender "preview"
+	{"stuff"
+		{camera
+			{origin 3.58018	0.0931608	25.1404}
+			{lookat 3.60316	-0.144327	1.3304}
+			{fov 45}
+			{horizon 5.5274}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 11.0782	-1.2487	1.30826}
+			}
+			{"1"
+				{type point}
+				{position -1.51264	-0.520872	1.33739}
+			}
+			{"2"
+				{type directional}
+				{direction 0.00821002	-0.0186623	-0.499584}
+			}
+		}
+	}
+	{"stuff_primary"
+		{camera
+			{origin 3.57969	0.0931608	25.1199}
+			{lookat 3.60267	-0.144327	1.3304}
+			{fov 45}
+			{horizon 5.5274}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -1.51264	-0.520872	1.33739}
+			}
+			{"1"
+				{type point}
+				{position 11.0782	-1.2487	1.30826}
+			}
+			{"2"
+				{type directional}
+				{direction 0.00821002	-0.0186623	-0.499584}
+			}
+		}
+	}
+}

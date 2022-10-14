@@ -1,0 +1,30 @@
+;Exported by: Vnab
+;Date:        Thu Jun 19 13:31:08 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\окружение\Road_Sign_eu405 env405\Road_Sign_eu405-2.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "3d_object_1"
+			{Position 0.177443	-0.16204	24.79}
+			{VolumeView "3d_object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 0.125655 -0.0714521}
+		{Extent 0.804424 0.911681}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 1.60885 1.82336 50.6623}
+	{Bone "3d_object_1"}
+	{Position -0.0517877	0.233492	-0.340298}
+}

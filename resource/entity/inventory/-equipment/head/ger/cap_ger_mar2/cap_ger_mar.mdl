@@ -1,0 +1,52 @@
+;Exported by: Kalinski
+;Date:        Mon Nov 28 19:10:38 2016
+;File:        C:\Users\Kalinski\Desktop\ger marine\cap mar fin.max
+{Skeleton
+	{bone "cap_ger_mar"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "cap_ger_mar.ply"}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "cap_ger_mar"}
+	{Position 0	6.15179	0}
+}
+{Volume "select"
+	{Box 5.59662 5.08766 5.14459}
+	{Bone "cap_ger_mar"}
+	{Matrix34
+		1.0387	0	0
+		0	1.0387	0
+		0	0	1.0387
+		0.919993	0.260123	3.58528
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 6.07328	-5.13847	3.99015}
+			{lookat 0.784576	-0.157136	3.89797}
+			{fov 45}
+			{horizon -0.238211}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.354828	0.33419	-0.11142}
+			}
+			{"1"
+				{type point}
+				{position 1.3762	-2.3209	3.85514}
+			}
+			{"2"
+				{type point}
+				{position 2.51532	-1.08809	3.08308}
+			}
+		}
+	}
+}

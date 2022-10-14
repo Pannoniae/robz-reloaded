@@ -1,0 +1,72 @@
+;Exported by: Vnab
+;Date:        Thu Oct 23 13:50:17 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\Конвертированные\town_e\0Ita\ita1_house\ita1_house.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group01"
+			{Position 7.92041	0.9561	99.3975}
+			{VolumeView "group01.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -46.6353 -1.75127}
+		{Extent 53.9463 70.0497}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 61.9005 -20.6142}
+		{Extent 54.9197 38.0385}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center 26.0411 40.7292}
+		{Extent 19.3241 22.9473}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol4"
+	{Obb2
+		{Center 80.9289 39.8263}
+		{Extent 35.0249 21.7396}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 107.893 140.099 148.151}
+	{Bone "group01"}
+	{Position -54.5557	0.795166	-25.3219}
+}
+{Volume "body_vol2"
+	{Box 109.839 76.0771 130.948}
+	{Bone "group01"}
+	{Position 53.9801	19.6581	-33.9233}
+}
+{Volume "body_vol3"
+	{Box 38.6481 45.8946 99.0358}
+	{Bone "group01"}
+	{Position 18.1207	-41.6853	-49.8796}
+}
+{Volume "body_vol4"
+	{Box 70.0497 43.4791 18.9215}
+	{Bone "group01"}
+	{Position 73.0085	-40.7824	-89.9368}
+}

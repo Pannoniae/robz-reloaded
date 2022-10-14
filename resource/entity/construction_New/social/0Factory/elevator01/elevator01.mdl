@@ -1,0 +1,105 @@
+;Exported by: Vnab
+;Date:        Wed Jun 18 15:35:26 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\Конвертированные\town_ru\elevator01_blr601\elevator01.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "3d_object_1"
+			{Position 71.674	2.35215	127.095}
+			{VolumeView "3d_object_1.ply"}
+			{bone "body_vol6"
+				{Position -132.544	-0.231033	-151.474}
+				{visibility 0}
+			}
+		}
+	}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center -133.993 -1.25858}
+		{Extent 6.19166 29.9596}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol4"
+	{Obb2
+		{Center 346.948 -1.30973}
+		{Extent 17.9364 28.3875}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol5"
+	{Obb2
+		{Center -207.59 -2.43724}
+		{Extent 8.05017 31.4945}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol7"
+	{Obb2
+		{Center 21.4681 -2.26227}
+		{Extent 24.433 28.3875}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol8"
+	{Obb2
+		{Center 203.861 -2.12776}
+		{Extent 4.23694 30.2235}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 256.476 130.498 164.958}
+	{Bone "3d_object_1"}
+	{Position -154.717	-0.189137	62.2722}
+}
+{Volume "body_vol2"
+	{Box 450.442 57.6147 59.3606}
+	{Bone "3d_object_1"}
+	{Matrix34
+		0.880522	0	-0.474005
+		0.474005	0	0.880522
+		0	-1	0
+		84.1991	0.21195	17.8342
+	}
+}
+{Volume "body_vol3"
+	{Box 12.3833 59.9193 74.2999}
+	{Bone "3d_object_1"}
+	{Position -205.667	-1.09357	-113.929}
+}
+{Volume "body_vol4"
+	{Box 35.8727 56.7749 85.8685}
+	{Bone "3d_object_1"}
+	{Position 275.274	-1.04241	-107.908}
+}
+{Volume "body_vol5"
+	{Box 16.1003 62.9891 54.2328}
+	{Bone "3d_object_1"}
+	{Position -279.264	0.0850925	-124.357}
+}
+{Volume "body_vol7"
+	{Box 48.866 56.7749 53.3854}
+	{Bone "3d_object_1"}
+	{Position -50.2059	-0.0898762	-124.781}
+}
+{Volume "body_vol8"
+	{Box 8.47388 60.4469 53.9503}
+	{Bone "3d_object_1"}
+	{Position 132.187	-0.224384	-124.499}
+}

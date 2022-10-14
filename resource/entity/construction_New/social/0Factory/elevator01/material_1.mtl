@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "bldr601_elevator"}
+	{blend none}
+}

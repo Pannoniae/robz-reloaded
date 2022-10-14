@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "mkb42"}
+	{blend none}
+}

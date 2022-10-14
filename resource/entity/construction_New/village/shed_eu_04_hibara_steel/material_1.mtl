@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "bldam_003_metaldepot"}
+	{blend none}
+}

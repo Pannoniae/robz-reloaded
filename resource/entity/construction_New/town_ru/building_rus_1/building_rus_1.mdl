@@ -1,0 +1,33 @@
+;Exported by: Vorabat
+;Date:        Mon Apr 26 14:49:21 2010
+;File:        C:\Users\Vorabat\Documents\3dsmax\scenes\rus.max
+{Skeleton
+	{bone "building_rus_1"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "building_rus_1.ply"}
+	}
+}
+{Volume "box02"
+	{Polyhedron "box02.vol"}
+	{Bone "building_rus_1"}
+	{Position -274.054	-136.383	0}
+}
+{Volume "box03"
+	{Polyhedron "box03.vol"}
+	{Bone "building_rus_1"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		133.404	270.228	0
+	}
+}
+{Volume "box04"
+	{Polyhedron "box04.vol"}
+	{Bone "building_rus_1"}
+	{Position -260.1	251.836	0}
+}

@@ -1,0 +1,40 @@
+;Exported by: Vnab
+;Date:        Tue May 26 11:32:07 2015
+;File:        C:\Users\Vnab\Desktop\Моддинг\Рес нов\Supply_airdrop_01\Supply_airdrop_01.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				0.961287	-0.275238	-0.0130896
+				0.275337	0.961327	0.00639697
+				0.0108227	-0.00975337	0.999894
+				2.47949	10.6808	14.1888
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -1.8282 -0.508724}
+		{Extent 14.9226 8.7614}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 29.8453 17.5228 24.645}
+	{Bone "group001"}
+	{Matrix34
+		0.961287	0.275337	0.0108226
+		-0.275238	0.961327	-0.00975346
+		-0.0130895	0.00639708	0.999894
+		-1.31199	-10.9791	-2.17736
+	}
+}

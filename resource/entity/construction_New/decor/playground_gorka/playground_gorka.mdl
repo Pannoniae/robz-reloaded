@@ -1,0 +1,54 @@
+;Exported by: user
+;Date:        Sun Aug 10 16:46:29 2014
+;File:        C:\Users\user\Desktop\Моддинг\Модели нов\WOT\окружение\playground_gorka_env606_Slide\playground_gorka.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Position 3.38604	0.241676	12.5544}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 0.0403509 28.6837}
+		{Extent 7.49604 3.79017}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 0.257018 -5.75369}
+		{Extent 7.45357 27.8415}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 14.9921 37.2776 3.24153}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	0.116989	0.993133
+		0	-0.993133	0.116989
+		-3.34569	-28.9254	0.00679323
+	}
+}
+{Volume "body_vol2"
+	{Box 14.9071 62.9698 2.82722}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	0.861483	-0.507787
+		0	0.507787	0.861483
+		-3.12903	5.51201	3.35272
+	}
+}

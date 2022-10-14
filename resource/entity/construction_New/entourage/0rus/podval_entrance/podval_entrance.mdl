@@ -1,0 +1,40 @@
+;Exported by: Vnab
+;Date:        Mon Apr 28 15:45:19 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\Здания\Россия\podval_entrance\podval_entrance.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group01"
+			{Matrix34
+				0.999776	0.0211825	0
+				-0.0211825	0.999776	0
+				0	0	1
+				0.285483	-9.18731	7.55626
+			}
+			{VolumeView "group01.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 0.297492 8.75632}
+		{Extent 16.4103 13.6242}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 25.641 32.8205 10.2564}
+	{Bone "group01"}
+	{Matrix34
+		-0.0181256	-0.855495	-0.517494
+		0.999776	-0.0211865	0
+		-0.0109695	-0.517377	0.855687
+		0.0211369	0.430637	-4.08475
+	}
+}

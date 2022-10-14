@@ -1,0 +1,96 @@
+;Exported by: DUBONTIME
+;Date:        Tue Feb 25 21:50:03 2014
+;File:        C:\Users\DUBONTIME\Documents\3dsmax\scenes\weapons\katana.max
+{Skeleton
+	{bone "body"
+		{parameters "CommonMesh;ID=pistol;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+		{bone "handle"
+			{Matrix34
+				0	1	0
+				0	0	-1
+				-1	0	0
+				-0.536665	-0.00533868	-0.0151297
+			}
+		}
+		{bone "foresight3"
+			{Matrix34
+				1	0	0
+				0	-1	0
+				0	0	-1
+				0.272375	9.53193	0.0190306
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 7.96024 13.7187 5.75847}
+	{Bone "body"}
+	{Matrix34
+		0.000709445	2.71815	0
+		-0.362133	0.00021246	-1.28925e-005
+		0.000905203	0	0.416089
+		-0.378599	8.10402	0.039888
+	}
+}
+{Volume "select"
+	{Box 7.96024 13.7187 5.75847}
+	{Bone "body"}
+	{Matrix34
+		0.000832922	3.19153	0
+		-0.425198	0.000249533	-1.51263e-005
+		0.00106283	0	0.48855
+		-0.378147	8.10402	0.0269958
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 1.78819	-6.21249	27.4786}
+			{lookat -1.515	-9.39939	-32.4957}
+			{fov 45}
+			{horizon -34.0886}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -9.20852	-4.59992	-3.72619}
+			}
+			{"1"
+				{type point}
+				{position 12.9068	-5.99941	-4.99298}
+			}
+			{"2"
+				{type directional}
+				{direction -0.036661	-0.125191	-0.482683}
+			}
+		}
+	}
+	{"Stuff_Primary"
+		{camera
+			{origin 0.834392	-6.35057	29.2349}
+			{lookat -2.46879	-9.5375	-30.7395}
+			{fov 45}
+			{horizon -44.0575}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -10.1623	-4.73802	-1.96996}
+			}
+			{"1"
+				{type point}
+				{position 11.953	-6.13751	-3.23675}
+			}
+			{"2"
+				{type directional}
+				{direction -0.0366609	-0.125191	-0.482683}
+			}
+		}
+	}
+}

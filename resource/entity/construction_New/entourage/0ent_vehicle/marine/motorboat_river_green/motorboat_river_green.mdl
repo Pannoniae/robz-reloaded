@@ -1,0 +1,97 @@
+;Exported by: Vnab
+;Date:        Thu Sep 11 14:14:36 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\Rush for b 2\Техника\motorboat_river_green\motorboat_river_green.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				0.731223	0.682136	-0.0017
+				-0.518173	0.553837	-0.651737
+				-0.443632	0.477446	0.758443
+				0.021819	11.2594	10.7972
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.15124 -17.0589}
+		{Extent 24.4469 56.1056}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -0.710886 51.4752}
+		{Extent 13.2311 12.2904}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center -0.360971 0.765654}
+		{Extent 7.45753 10.3891}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol4"
+	{Obb2
+		{Center -4.56677 1.74594}
+		{Extent 0.947532 1.28376}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 48.8938 112.211 15.7265}
+	{Bone "group001"}
+	{Matrix34
+		0.731223	-0.518173	-0.443632
+		0.682136	0.553837	0.477446
+		-0.0017001	-0.651737	0.758443
+		3.83412	5.0742	0.782955
+	}
+}
+{Volume "body_vol2"
+	{Box 26.4622 24.5807 16.6805}
+	{Bone "group001"}
+	{Matrix34
+		0.731223	-0.518173	-0.443632
+		0.682136	0.553837	0.477446
+		-0.0017001	-0.651737	0.758443
+		-43.3272	-33.5445	-30.5822
+	}
+}
+{Volume "body_vol3"
+	{Box 14.9151 20.7781 7.49412}
+	{Bone "group001"}
+	{Matrix34
+		0.731223	-0.518173	-0.443632
+		0.682136	0.553837	0.477446
+		-0.0017001	-0.651737	0.758443
+		-8.49424	-10.9117	-0.392767
+	}
+}
+{Volume "body_vol4"
+	{Box 1.89506 2.56751 45.1282}
+	{Bone "group001"}
+	{Matrix34
+		0.731223	-0.518173	-0.443632
+		0.682136	0.553837	0.477446
+		-0.0017001	-0.651737	0.758443
+		-12.2703	-21.539	15.2767
+	}
+}

@@ -1,0 +1,40 @@
+;Exported by: user
+;Date:        Fri Aug 08 01:01:33 2014
+;File:        C:\Users\user\Desktop\Моддинг\Модели нов\Codename Panzers Cold War\Окружение\cement_palette\cement_palette.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				0.991156	0.132683	0.00214195
+				-0.0209486	0.172387	-0.984807
+				-0.131036	0.976052	0.173642
+				-1.28802	0.690052	8.6815
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.799291 -0.859761}
+		{Extent 13.3191 12.6781}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 26.6382 25.3561 17.5266}
+	{Bone "group001"}
+	{Matrix34
+		0.991156	-0.0209487	-0.131036
+		0.132683	0.172387	0.976052
+		0.00214191	-0.984807	0.173642
+		0.507099	-0.0615549	0.115811
+	}
+}

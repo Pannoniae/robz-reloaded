@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "bldam_001_bigcattleshad"}
+	{blend none}
+}

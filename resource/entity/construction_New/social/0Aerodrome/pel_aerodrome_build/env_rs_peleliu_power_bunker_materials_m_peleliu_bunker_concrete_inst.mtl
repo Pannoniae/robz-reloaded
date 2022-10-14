@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "env_rs_peleliu_power_bunker_materials_m_peleliu_bunker_concrete_inst_d"}
+	{blend none}
+}

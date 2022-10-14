@@ -1,0 +1,126 @@
+;Exported by: Vnab
+;Date:        Tue Nov 25 12:58:03 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\WOT\здания разн\elevator02 bldAM_004_Elevator\elevator02.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				0.220585	-64.3839	-0.278936
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -2.69092 261.001}
+		{Extent 82.7349 11.5893}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 0.330353 175.038}
+		{Extent 81.4936 11.6094}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center 0.330399 133.428}
+		{Extent 104.257 32.0967}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol4"
+	{Obb2
+		{Center 0.659103 -48.8892}
+		{Extent 94.6461 149.373}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol5"
+	{Obb2
+		{Center -1.13571 -44.4944}
+		{Extent 44.585 149.157}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 165.47 23.1786 32.8364}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-2.91151	-4.55791	-196.617
+	}
+}
+{Volume "body_vol2"
+	{Box 162.987 23.2188 32.7796}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		0.109768	-4.5295	-110.654
+	}
+}
+{Volume "body_vol3"
+	{Box 208.514 64.1933 315.048}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		0.10981	-145.664	-69.044
+	}
+}
+{Volume "body_vol4"
+	{Box 189.292 298.747 236.937}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		0.438522	-106.608	113.273
+	}
+}
+{Volume "body_vol5"
+	{Box 298.314 58.3658 89.17}
+	{Bone "object_1"}
+	{Matrix34
+		0	0	-1
+		0	-1	0
+		-1	0	0
+		-1.35629	-258.926	108.878
+	}
+}
+{Volume "body_vol6"
+	{Box 16.2127 150.778 19.4553}
+	{Bone "object_1"}
+	{Matrix34
+		0	0	-1
+		0	-1	0
+		-1	0	0
+		-9.72764	-165.703	-122.489
+	}
+}

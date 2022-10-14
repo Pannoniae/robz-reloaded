@@ -1,0 +1,91 @@
+;Exported by: Kalinski
+;Date:        Wed Feb 28 05:05:37 2018
+;File:        C:\Users\Kalinski\Desktop\new weapons pack\thompson.max
+{Skeleton
+	{bone "thompson_m1928"
+		{parameters "CommonMesh;ID=rifle;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "thompson_m1928.ply"}
+		{bone "foresight3"
+			{Position 8.03536	1.59952	0}
+		}
+		{bone "handle"
+			{Position 3.11295	1.68585	0}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0	1
+				0	1	0
+				-1	0	0
+				2.4246	1.59672	0.0495333
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 13.5113 3.69027 1.17169}
+	{Bone "thompson_m1928"}
+	{Position 1.04988	0.295429	-0.00827003}
+}
+{Volume "select"
+	{Box 14.3891 5.36951 1.17169}
+	{Bone "thompson_m1928"}
+	{Matrix34
+		1.0774	0	0
+		0	1.0774	0
+		0	0	1.2924
+		1.26019	0.0121436	-0.0614164
+	}
+}
+{Extender "preview"
+	{"stuff_primary"
+		{camera
+			{origin 1.08133	-0.147563	19.9506}
+			{lookat 1.10431	-0.385051	1.3304}
+			{fov 45}
+			{horizon 5.5274}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -3.61002	-0.252064	1.33739}
+			}
+			{"1"
+				{type point}
+				{position 7.32537	-1.80139	1.30826}
+			}
+			{"2"
+				{type directional}
+				{direction 0.00821002	-0.0186623	-0.499584}
+				{ambient 0xffffff}
+			}
+		}
+	}
+	{"stuff"
+		{camera
+			{origin 1.07857	-0.149132	19.8638}
+			{lookat 1.10155	-0.38662	1.3304}
+			{fov 45}
+			{horizon 5.5274}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 7.3254	-1.80139	1.30826}
+			}
+			{"1"
+				{type point}
+				{position -3.61011	-0.252141	1.33739}
+			}
+			{"2"
+				{type directional}
+				{direction 0.00821002	-0.0186623	-0.499584}
+				{ambient 0xffffff}
+			}
+		}
+	}
+}

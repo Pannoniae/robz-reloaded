@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "black_hernya"}
+	{specular "usa_soldier_new_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

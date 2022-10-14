@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "bld4502_fountainsmall"}
+	{blend none}
+}

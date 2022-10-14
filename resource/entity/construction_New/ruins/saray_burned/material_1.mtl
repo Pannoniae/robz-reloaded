@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "bld003_littlewoodshed_crash1"}
+	{blend none}
+}

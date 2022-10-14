@@ -1,0 +1,52 @@
+;Exported by: Kalinski
+;Date:        Tue Jan 30 18:38:47 2018
+;File:        C:\Users\Kalinski\Desktop\rus reduxo\pilotka radiohead exp.max
+{Skeleton
+	{bone "cap_rus_radiohead"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "cap_rus_radiohead.ply"}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "cap_rus_radiohead"}
+	{Position 0.703094	0.124126	3.3988}
+}
+{Volume "select"
+	{Box 5.59662 5.08766 5.14459}
+	{Bone "cap_rus_radiohead"}
+	{Matrix34
+		1.0387	0	0
+		0	1.0387	0
+		0	0	1.0387
+		0.919993	0.260123	3.58528
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 7.27917	-0.0574483	3.33256}
+			{lookat 0.959339	-0.0578352	3.27024}
+			{fov 45}
+			{horizon -0.239031}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.481333	-0.0306645	-0.131825}
+			}
+			{"1"
+				{type point}
+				{position 2.68786	1.1939	3.85514}
+			}
+			{"2"
+				{type point}
+				{position 2.83572	-1.24182	3.71286}
+			}
+		}
+	}
+}

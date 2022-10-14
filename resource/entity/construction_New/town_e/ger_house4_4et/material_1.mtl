@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "bld4301_304_tohouse"}
+	{blend none}
+}

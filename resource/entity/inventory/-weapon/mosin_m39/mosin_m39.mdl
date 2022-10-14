@@ -1,0 +1,89 @@
+;Exported by: Kalinski
+;Date:        Thu Mar 22 03:23:50 2018
+;File:        C:\Users\Kalinski\Desktop\new weapons pack\mosin m28.max
+{Skeleton
+	{bone "mosin_m39"
+		{parameters "CommonMesh;ID=rifle;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "mosin_m39.ply"}
+		{bone "foresight3"
+			{Position 17.7076	1.58894	0}
+		}
+		{bone "handle"
+			{Position 5.82755	1.85263	0}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0	1
+				0	1	0
+				-1	0	0
+				2.14071	1.66933	0.301403
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 24.0038 2.492 1.17169}
+	{Bone "mosin_m39"}
+	{Position 5.5008	0.945721	-0.00827003}
+}
+{Volume "select"
+	{Box 24.6385 4.62889 1.17169}
+	{Bone "mosin_m39"}
+	{Matrix34
+		1.0774	0	0
+		0	1.0774	0
+		0	0	1.2924
+		5.22462	0.234466	-0.0614164
+	}
+}
+{Extender "preview"
+	{"stuff_primary"
+		{camera
+			{origin 5.22464	0.0931531	31.2344}
+			{lookat 5.24763	-0.144335	1.3304}
+			{fov 45}
+			{horizon 5.5274}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -1.51264	-0.52088	1.33739}
+			}
+			{"1"
+				{type point}
+				{position 11.0782	-1.2487	1.30826}
+			}
+			{"2"
+				{type directional}
+				{direction 0.00821002	-0.0186623	-0.499584}
+			}
+		}
+	}
+	{"stuff"
+		{camera
+			{origin 5.23216	0.0931531	31.2287}
+			{lookat 5.25515	-0.144335	1.3304}
+			{fov 45}
+			{horizon 5.5274}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 11.0782	-1.2487	1.30826}
+			}
+			{"1"
+				{type point}
+				{position -1.51264	-0.52088	1.33739}
+			}
+			{"2"
+				{type directional}
+				{direction 0.00821002	-0.0186623	-0.499584}
+			}
+		}
+	}
+}

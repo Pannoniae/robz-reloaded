@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "lee enfield bayonet"}
+	{blend none}
+}

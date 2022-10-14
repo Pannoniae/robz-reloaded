@@ -1,0 +1,89 @@
+;Exported by: Артем
+;Date:        Wed Jul 22 10:07:41 2015
+;File:        D:\Autodesk\Low poly\freelance\DMS 2.0\Weapons\molotov\molotov+.max
+{Skeleton
+	{bone "molotov"
+		{parameters "ID=mgun;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "molotov.ply"}
+			{VolumeView "molotov_lod1.ply"}
+		}
+		{bone "handle"
+			{Position -1.18583	-0.18684	0.775104}
+		}
+		{bone "wick"
+			{Matrix34
+				0	-0.62932	-0.777146
+				-1	0	0
+				0	0.777146	-0.62932
+				-0.0316567	1.96333	-0.25367
+			}
+		}
+	}
+}
+{Volume "body"
+	{Cylinder 0.839767 5.5772}
+	{Bone "molotov"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-0.00218962	0.410709	0.929583
+	}
+}
+{Volume "select"
+	{Box 5.9282 8.96182 2.59872}
+	{Bone "molotov"}
+	{Position -0.0414544	0.307165	0.770096}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -7.00157	-0.452972	13.7878}
+			{lookat 0.351637	-0.452974	0.0188699}
+			{fov 23.9132}
+			{horizon -165.726}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 19.1226	1.21235	2.3002}
+			}
+			{"1"
+				{type directional}
+				{direction 0.336382	-0.242502	0.279357}
+			}
+			{"2"
+				{type point}
+				{position -15.3481	1.26836	8.74204}
+			}
+		}
+	}
+	{"Stuff_secondary"
+		{camera
+			{origin -7.55923	-0.458264	14.8349}
+			{lookat 0.352825	-0.458266	0.0195041}
+			{fov 23.9132}
+			{horizon -165.726}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 19.1226	1.21235	2.3002}
+			}
+			{"1"
+				{type directional}
+				{direction 0.336382	-0.242502	0.279357}
+			}
+			{"2"
+				{type point}
+				{position -15.3481	1.26836	8.74204}
+			}
+		}
+	}
+}

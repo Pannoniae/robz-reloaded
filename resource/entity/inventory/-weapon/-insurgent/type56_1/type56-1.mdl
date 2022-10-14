@@ -1,0 +1,104 @@
+;Exported by: Basement
+;Date:        Thu Sep  6 21:09:38 2018
+;File:        C:\Users\Basement\Documents\3dsMax\saves\type56-1.max
+{Skeleton
+	{bone "type56-1"
+		{parameters "CommonMesh;ID=smg;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "type56-1.ply"}
+		{bone "foresight3"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				13.8364	1.61453	-0.0115091
+			}
+		}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				6.1306	1.95257	-0.0115092
+			}
+		}
+		{bone "fxshell"
+			{Matrix34
+				-3.58806e-05	0.00411191	0.999992
+				-0.00869685	0.999954	-0.00411207
+				-0.999962	-0.00869692	0
+				4.09075	1.65257	0.57375
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 21.0452 2.24541 6.25192}
+	{Bone "type56-1"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		3.87776	0.0506971	0.310705
+	}
+}
+{Volume "select"
+	{Box 21.0452 2.24541 6.25192}
+	{Bone "type56-1"}
+	{Matrix34
+		1.1625	0	0
+		0	0	-1.60544
+		0	1.26231	0
+		3.87776	0.0495517	0.310706
+	}
+}
+{Extender "preview"
+	{"Stuff_primary"
+		{camera
+			{origin 5.9953	-1.1733	24.3716}
+			{lookat 4.59043	-0.350977	5.81738}
+			{fov 45}
+			{horizon 120.246}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 8.21004	-3.38582	17.9305}
+			}
+			{"1"
+				{type point}
+				{position 1.04067	-4.0899	12.399}
+			}
+			{"2"
+				{type directional}
+				{direction -0.0815215	0	-0.493309}
+			}
+		}
+	}
+	{"Stuff"
+		{camera
+			{origin 6.05005	-0.833225	24.3826}
+			{lookat 4.64517	-0.0108848	5.8283}
+			{fov 45}
+			{horizon 120.048}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 8.21004	-3.38582	17.9305}
+			}
+			{"1"
+				{type point}
+				{position 1.04067	-4.0899	12.399}
+			}
+			{"2"
+				{type directional}
+				{direction -0.0815215	0	-0.493309}
+			}
+		}
+	}
+}

@@ -1,0 +1,24 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{Extension "stool.mdl"}
+	{props "construction" "small" "parts" "wood" "disable_area" "no_destroyed_stamp"}
+
+	{placer
+		{place "seat" {attach} {pose "pose_sit_chair"} {linkbone "seat"}}
+	}
+	{boarder
+		{door "emit"}
+		{link "emit" "seat" {forward putoff}}
+	}
+
+	{mass 50}
+
+	{Volume "body"
+		{Tags  "body" "attach" "seat"}
+		{Thickness 3}
+		{able {visible 1} {touch 1}}
+	}
+
+	{lodclass "decor_small"}
+}
+

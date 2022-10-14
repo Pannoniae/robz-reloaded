@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/construction/metal_texture_by_another_default"}
+	{color "229 229 229 25"}
+	{blend none}
+}

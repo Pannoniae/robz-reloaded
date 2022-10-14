@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "type1hmg"}
+	{blend none}
+}

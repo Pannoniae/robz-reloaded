@@ -1,0 +1,59 @@
+;Exported by: Vnab
+;Date:        Wed Nov 12 16:07:16 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\Конвертированные\Railway\transformer_vault_stone\transformer_vault_stone.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				0.998582	-0.0532228	-0.000550037
+				0.00878476	0.174997	-0.98453
+				0.0524956	0.983129	0.175217
+				-2.25162	-8.71498	65.4761
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -1.69718 -2.61983}
+		{Extent 24.3194 25.3617}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -1.05494 30.6032}
+		{Extent 9.86782 7.71839}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 50.7233 146.611 48.6388}
+	{Bone "group001"}
+	{Matrix34
+		0.0532226	-0.174997	-0.98313
+		-0.000549761	-0.98453	0.175217
+		-0.998583	-0.0087851	-0.0524955
+		-0.0506039	0.204553	11.4902
+	}
+}
+{Volume "body_vol2"
+	{Box 19.7356 15.4368 17.3908}
+	{Bone "group001"}
+	{Matrix34
+		0.998582	0.00878475	0.0524956
+		-0.0532228	0.174997	0.98313
+		-0.000550036	-0.98453	0.175217
+		2.39418	57.4914	-32.3677
+	}
+}

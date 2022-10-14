@@ -1,0 +1,74 @@
+{fx
+	{##+ lightview
+		{type point}
+		{#+ animator
+			{highlight 0xa0a0a0}
+		}
+		{attenuation0 0.15}
+		{attenuation1 0.6}
+		{falloff 1.5}
+		{theta 80}
+		{phi 180}
+		{radius 500}
+		{priority 10}
+		{effectonground}
+	}
+	{#+ particleview flies
+		{#+ generator
+			{totalparticles 1}
+			{emissionarea
+				{radius 3 7}
+				{alpha0 0}
+				{alpha1 360}
+			}
+			{particleinit
+				{speed 7}
+				{lifetime 0.3 0.2}
+			}
+			{axisz}
+			{particlesinblock 1}
+		}
+		{#+ mover
+			{gravity
+				{value 0}
+			}
+			{damping 0.01}
+			{collisions
+				{terrain}
+				{restitution 0.4}
+			}
+			{nodependonwind}
+		}
+		{notifyowner}
+		{visualizer
+			{stage 
+				{sprite "$/particle/oskolkim"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{scale 0.1 0.05}
+					{light 0.6 0.2}
+				}
+			}
+		}
+	}
+	{spriteview sphere
+		{sprite "$/flash/halo03"
+			{light 2
+				{peak
+					{min 0.2}
+					{max 0.2}
+				}
+			}
+			{#+ timer
+				{mode play loop }
+				{duration 15}
+			}
+			{scalex 45}
+			{scaley 45}
+			{highlight 0xff93dffe}
+		}
+		{orientation billboard}
+	}
+}

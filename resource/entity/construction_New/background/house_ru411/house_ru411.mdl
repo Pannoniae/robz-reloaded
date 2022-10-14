@@ -1,0 +1,44 @@
+;Exported by: Vnab
+;Date:        Thu May 29 10:35:18 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\Здания\house_ru411 bld411\house_ru411.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "3d_object_1"
+			{Position -4.0025	-6.01205	164.541}
+			{VolumeView "3d_object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -3.98181 -1.10324}
+		{Extent 159.651 113.638}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -83.8615 124.869}
+		{Extent 35.7298 13.9434}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 319.303 227.277 295.783}
+	{Bone "3d_object_1"}
+	{Position 0.0206909	7.1153	-30.9589}
+}
+{Volume "body_vol2"
+	{Box 71.4597 27.8867 73.8998}
+	{Bone "3d_object_1"}
+	{Position -79.859	-118.857	-141.901}
+}

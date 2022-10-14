@@ -1,0 +1,59 @@
+;Exported by: user
+;Date:        Fri Aug 08 12:22:59 2014
+;File:        C:\Users\user\Desktop\Моддинг\Модели нов\Codename Panzers Cold War\Окружение\dodge_crush\dodge_crush.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				0.999507	-0.00696518	-0.0306113
+				0.00687835	0.999972	-0.0029407
+				0.0306309	0.0027287	0.999527
+				-0.974823	-4.48333	15.9687
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.712176 9.11665}
+		{Extent 15.812 31.9088}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -0.438665 -8.10676}
+		{Extent 12.2272 24.2205}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 31.6239 63.8177 19.3732}
+	{Bone "group001"}
+	{Matrix34
+		0.999507	0.00687836	0.030631
+		-0.00696518	0.999972	0.0027287
+		-0.0306114	-0.0029407	0.999527
+		0.466262	-4.61492	-5.60357
+	}
+}
+{Volume "body_vol2"
+	{Box 23.3618 48.433 23.0769}
+	{Bone "group001"}
+	{Matrix34
+		0.999815	0.00702114	-0.0179011
+		-0.00696733	0.999971	0.0030669
+		0.0179221	-0.00294161	0.999835
+		0.376312	12.5865	2.39811
+	}
+}

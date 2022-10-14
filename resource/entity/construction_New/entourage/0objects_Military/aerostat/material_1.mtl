@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "meshnr_001_aerostat"}
+	{blend none}
+}

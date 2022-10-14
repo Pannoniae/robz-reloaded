@@ -1,0 +1,12 @@
+{game_entity
+	(include "/properties/post.inc")
+	{Extension "windcone_11.mdl"}
+	{props "construction" "steel"}
+	("armor_post")
+	("armor_use_volume_thickness")
+	{Volume "body"
+		{Tags  "body"}
+		{Thickness 5}
+		{able {visible 1}}
+	}
+}

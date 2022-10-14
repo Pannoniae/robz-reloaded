@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "hassan_squad_c_body_clr"}
+	{blend none}
+}

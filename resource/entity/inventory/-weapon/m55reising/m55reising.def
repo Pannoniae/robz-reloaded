@@ -1,0 +1,12 @@
+{Actor
+	(include "/properties/stuff_small.ext")
+	{Extension "m55cf.mdl"}
+	{Volume "body"
+	}
+	{Volume "select"
+	}
+	{extender "stuff"
+		{item "m55reising"}
+	}
+	{nogroupmesh 1}
+}

@@ -1,0 +1,11 @@
+{game_entity
+	(include "/properties/trench.inc")
+	{Extension "arty_trench.mdl"}
+	{props "wood"}
+	("boneLand"  args "body")
+	("boneAlign" args "allign")
+	("volume" args "body")
+	("volume" args "body1")
+	("volume" args "body2")
+	("volume" args "body3")
+}

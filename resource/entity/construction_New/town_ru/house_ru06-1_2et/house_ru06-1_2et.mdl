@@ -1,0 +1,30 @@
+;Exported by: Vnab
+;Date:        Wed Jul 23 15:11:18 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\rus\WW_Town_Houses_1\WW_Town_Houses_1_01.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Position -0.955703	0.28608	58.178}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.777344 -0.232368}
+		{Extent 188.806 111.089}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 377.612 222.179 154.519}
+	{Bone "object_1"}
+	{Position 0.17836	-0.0537109	11.7889}
+}

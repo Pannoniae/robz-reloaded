@@ -1,0 +1,21 @@
+;Exported by: Vnab
+;Date:        Wed May 13 16:01:28 2015
+;File:        C:\Users\Vnab\Desktop\ФЛЕШ 16 врем\Ресурсы нов\Фоны\Растительность\env619_Background_trees\backgr_forest6.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				-376.367	-0.258087	0
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/humanskin/german/panzer lehr/german equipment"}
+	{blend none}
+}

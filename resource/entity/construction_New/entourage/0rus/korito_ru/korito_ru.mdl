@@ -1,0 +1,40 @@
+;Exported by: Vnab
+;Date:        Thu Jun 05 12:45:14 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Новое\korito_ru\korito_ru.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group01"
+			{Matrix34
+				0.998998	-0.0151008	-0.0421302
+				0.0151142	0.999886	0
+				0.0421254	-0.000636765	0.999112
+				0.058136	0.0396135	3.66016
+			}
+			{VolumeView "group01.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 0.340915 -0.0378792}
+		{Extent 13.9775 4.88643}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 27.9549 9.77285 7.1213}
+	{Bone "group01"}
+	{Matrix34
+		0.998998	0.0151144	0.0421256
+		-0.015101	0.999886	-0.000636965
+		-0.0421305	0	0.999112
+		0.286715	0.00253995	-0.0875103
+	}
+}

@@ -1,0 +1,40 @@
+;Exported by: Vnab
+;Date:        Mon Oct 13 14:13:12 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\Company of heroes\Объекты\boxes_ammo4_ger_steel\boxes_ammo4_ger_steel.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				0.999233	-0.0348938	-0.0177619
+				0.0196597	0.839436	-0.543102
+				0.0338609	0.542336	0.839479
+				0.254286	-0.487569	10.5903
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.0761647 0.342521}
+		{Extent 11.4178 6.27979}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 22.8356 12.5596 21.161}
+	{Bone "group001"}
+	{Matrix34
+		0.999233	0.0196599	0.0338609
+		-0.034894	0.839436	0.542336
+		-0.0177618	-0.543102	0.839479
+		-0.335085	0.120575	0.0592604
+	}
+}

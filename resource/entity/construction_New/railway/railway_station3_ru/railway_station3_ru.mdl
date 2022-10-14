@@ -1,0 +1,97 @@
+;Exported by: user
+;Date:        Mon Aug 18 16:38:32 2014
+;File:        C:\Users\user\Desktop\Моддинг\Модели нов\WOT\Railway_station3_ru_bld6202\Railway_station3_ru.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				0	1	0
+				0	0	-1
+				-1	0	0
+				-0.549316	-0.291199	-2.8306
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -3.23506 1.36913}
+		{Extent 341.88 92.8775}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -284.187 -98.7035}
+		{Extent 59.6866 8.97436}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center -1.60756 -102.553}
+		{Extent 70.9121 15.512}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol4"
+	{Obb2
+		{Center -0.402935 98.7129}
+		{Extent 104.958 6.2451}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 683.761 185.755 136.752}
+	{Bone "object_1"}
+	{Matrix34
+		0	0	-1
+		1	0	0
+		0	-1	0
+		-1.07793	-56.9841	2.68573
+	}
+}
+{Volume "body_vol2"
+	{Box 119.373 17.9487 112.82}
+	{Bone "object_1"}
+	{Matrix34
+		0	0	-1
+		1	0	0
+		0	-1	0
+		98.9947	-45.0183	283.638
+	}
+}
+{Volume "body_vol3"
+	{Box 141.824 31.024 132.154}
+	{Bone "object_1"}
+	{Matrix34
+		0	0	-1
+		1	0	0
+		0	-1	0
+		102.845	-54.6852	1.05823
+	}
+}
+{Volume "body_vol4"
+	{Box 209.916 12.4902 107.98}
+	{Bone "object_1"}
+	{Matrix34
+		0	0	-1
+		1	0	0
+		0	-1	0
+		-98.4217	-42.5979	-0.14639
+	}
+}

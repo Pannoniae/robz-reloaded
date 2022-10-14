@@ -1,0 +1,30 @@
+;Exported by: Vnab
+;Date:        Mon Nov 10 12:11:04 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\Red orchestra 2\Объекты\radio_receiver_mira\radio_receiver_mira.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Position 0.0311775	0.521514	15.0598}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 0.128191 -0.358937}
+		{Extent 8.71703 6.43522}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 17.4341 12.8704 22.5617}
+	{Bone "group001"}
+	{Position 0.0970135	-0.162577	-3.7789}
+}

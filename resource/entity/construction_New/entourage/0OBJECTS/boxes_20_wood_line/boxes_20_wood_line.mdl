@@ -1,0 +1,40 @@
+;Exported by: Vnab
+;Date:        Tue Sep 30 15:54:42 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\Company of heroes\Объекты\boxes_20_wood_line\boxes_20_wood_line.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				0.998767	-0.0496346	0
+				0.00861893	0.173434	-0.984808
+				0.0488804	0.983594	0.173648
+				-0.065011	0.255146	11.7011
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.751249 -0.025368}
+		{Extent 22.568 6.97401}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 45.1361 13.948 23.2785}
+	{Bone "group001"}
+	{Matrix34
+		0.998768	0.00861905	0.0488806
+		-0.0496349	0.173434	0.983594
+		0	-0.984808	0.173648
+		-0.673988	0.0151358	-0.270291
+	}
+}

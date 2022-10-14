@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "thompson"}
+	{blend none}
+}

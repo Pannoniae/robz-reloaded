@@ -1,0 +1,135 @@
+;Exported by: Vnab
+;Date:        Mon Dec 01 15:07:02 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\WOT\здания разн\museum_01-02_ru bldSC_001_ahouse\museum_02_ru.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				-14.7723	6.83356	-2.03888
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -19.5995 -180.567}
+		{Extent 67.7768 66.8086}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 103.402 6.47206}
+		{Extent 110.913 106.121}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center -45.1296 8.53225}
+		{Extent 44.5391 121.03}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol4"
+	{Obb2
+		{Center -147.223 0.127548}
+		{Extent 59.5468 125.871}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol5"
+	{Obb2
+		{Center 94.1581 122.824}
+		{Extent 24.6901 9.92447}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol6"
+	{Obb2
+		{Center 94.8174 -3.42716}
+		{Extent 98.5895 79.4193}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 135.554 133.617 346.63}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-4.82722	-167.439	173.733
+	}
+}
+{Volume "body_vol2"
+	{Box 221.826 212.241 112.283}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		118.174	-50.2647	-13.3056
+	}
+}
+{Volume "body_vol3"
+	{Box 89.0781 242.06 218.822}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-30.3573	-103.535	-15.3658
+	}
+}
+{Volume "body_vol4"
+	{Box 119.094 251.743 178.156}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-132.451	-83.2016	-6.96112
+	}
+}
+{Volume "body_vol5"
+	{Box 49.3803 19.8489 114.736}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		108.93	-51.4917	-129.657
+	}
+}
+{Volume "body_vol6"
+	{Box 197.179 158.839 67.0956}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		109.59	-140.484	-3.40643
+	}
+}

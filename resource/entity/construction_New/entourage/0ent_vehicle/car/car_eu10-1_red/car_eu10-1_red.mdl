@@ -1,0 +1,44 @@
+;Exported by: Vnab
+;Date:        Fri May 16 14:53:03 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\WOT 7.5\Окружение\envAM_010_Cars\car_eu10-1_red.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "3d_object_1"
+			{Position -0.02742	-4.75204	11.9339}
+			{VolumeView "3d_object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 3.8147e-006 4.46795}
+		{Extent 15.0167 41.2959}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -0.208557 -4.29178}
+		{Extent 11.0539 16.6852}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 30.0334 82.5918 19.188}
+	{Bone "3d_object_1"}
+	{Position 0.0274239	0.284092	-2.45489}
+}
+{Volume "body_vol2"
+	{Box 22.1079 33.3704 10.4283}
+	{Bone "3d_object_1"}
+	{Position -0.181137	9.04382	9.69783}
+}

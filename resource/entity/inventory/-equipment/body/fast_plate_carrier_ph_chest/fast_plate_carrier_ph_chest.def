@@ -1,0 +1,9 @@
+{Actor
+        (include "/properties/stuff_small.ext")
+	{extender "stuff"
+		{item "fast_plate_carrier_ph_chest"}
+	}
+	
+	{Extension "fast_plate_carrier1.mdl"}
+	
+}

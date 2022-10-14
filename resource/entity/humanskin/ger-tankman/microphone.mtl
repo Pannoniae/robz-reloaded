@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/humanskin/german/tanker/microphone"}
+	{color "229 229 229 152"}
+	{blend test}
+}

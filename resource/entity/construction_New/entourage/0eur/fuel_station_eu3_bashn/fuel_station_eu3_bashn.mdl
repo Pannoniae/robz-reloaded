@@ -1,0 +1,78 @@
+;Exported by: Vnab
+;Date:        Fri May 30 12:44:25 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\окружение\Fuel_station_eu3\Fuel_station_eu3_bashn.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group01"
+			{Matrix34
+				1	0	0
+				0	0.999873	0.0159361
+				0	-0.0159361	0.999873
+				10.468	19.3559	58.3555
+			}
+			{VolumeView "group01.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 0.430249 2.12331}
+		{Extent 24.9678 24.9678}
+		{Axis 0.122598 0.992456}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 1.16629 -65.044}
+		{Extent 6.80374 6.70038}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "roof"
+	{Obb2
+		{Center 0.855129 -41.2572}
+		{Extent 6.62682 21.2699}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "group01"}
+	{Matrix34
+		1	0	0
+		0	0.999873	-0.0159362
+		0	0.0159362	0.999873
+		-10.0378	-22.4064	-58.0058
+	}
+}
+{Volume "body_vol2"
+	{Cylinder 6.80374 39.5471}
+	{Bone "group01"}
+	{Matrix34
+		1	0	0
+		0	0.999873	-0.0159362
+		0	0.0159362	0.999873
+		-9.30171	44.953	-46.4896
+	}
+}
+{Volume "roof"
+	{Box 13.2536 42.5399 11.5435}
+	{Bone "group01"}
+	{Matrix34
+		1	0	0
+		0	0.999873	-0.0159362
+		0	0.0159362	0.999873
+		-9.61288	21.4295	-29.7832
+	}
+}

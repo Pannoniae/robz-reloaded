@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "crete_walls8a"}
+	{blend none}
+}

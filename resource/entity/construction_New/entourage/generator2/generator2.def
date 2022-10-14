@@ -1,0 +1,12 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{obstacleid "unbreakable" "construction" }
+	{props "steel" "shed" "delete_after_blast" "burning"}
+	{Extension "generator2.mdl"}
+	{Volume "body_vol_"
+		{Tags  "body"}
+		{Thickness 5}
+		{able {visible 1}}
+	}
+	{lodclass "decor_small"}
+}

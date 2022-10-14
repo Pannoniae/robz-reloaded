@@ -1,0 +1,35 @@
+;Exported by: Vnab
+;Date:        Thu Oct 23 13:00:17 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\Конвертированные\fortification\palatka_eng_af_008\palatka_eng_af_008.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Position -3.13004	0.834564	45.8311}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 1.29038 -1.30886}
+		{Extent 82.6771 42.789}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 165.354 85.578 45.4482}
+	{Bone "group001"}
+	{Position 4.42042	0.4743	-24.8458}
+}
+{Volume "body_vol2"
+	{Polyhedron "body_vol2.vol"}
+	{Bone "group001"}
+	{Position 1.07899	0.533009	-12.3064}
+}

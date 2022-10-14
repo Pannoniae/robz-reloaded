@@ -1,0 +1,30 @@
+;Exported by: Vnab
+;Date:        Tue Apr 22 13:53:19 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\Окружение_техника\Корабли\bldPC_001_Village_Boat_01\vilage_boat01.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "3d_object_1"
+			{Position 8.75976	-3.56923	5.32301}
+			{VolumeView "3d_object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -13.5695 -0.783802}
+		{Extent 5.38849 38.3511}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 10.777 76.7023 6.15385}
+	{Bone "3d_object_1"}
+	{Position -22.3293	4.35303	-2.24609}
+}

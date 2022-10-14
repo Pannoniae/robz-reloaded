@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "bldnr_030_destrbuildings_01"}
+	{blend none}
+}

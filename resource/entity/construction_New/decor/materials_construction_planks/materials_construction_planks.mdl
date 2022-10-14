@@ -1,0 +1,40 @@
+;Exported by: user
+;Date:        Fri Aug 08 02:22:09 2014
+;File:        C:\Users\user\Desktop\Моддинг\Модели нов\Codename Panzers Cold War\Окружение\materials_construction_planks\materials_construction_planks.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				0.999387	-0.0350022	0
+				0.00607807	0.173542	-0.984808
+				0.0344705	0.984204	0.173648
+				0.53616	-0.967386	4.03744
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 0.139053 -0.0826721}
+		{Extent 8.68824 31.6865}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 17.3765 63.3731 7.49574}
+	{Bone "group001"}
+	{Matrix34
+		0.999387	0.00607808	0.0344704
+		-0.0350022	0.173542	0.984204
+		0	-0.984808	0.173648
+		-0.433618	0.335175	0.99239
+	}
+}

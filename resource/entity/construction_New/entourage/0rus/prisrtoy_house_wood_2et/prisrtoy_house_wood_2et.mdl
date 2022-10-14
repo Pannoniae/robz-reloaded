@@ -1,0 +1,136 @@
+;Exported by: Vnab
+;Date:        Fri Nov 21 13:49:19 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\Red orchestra 2\Окружение\prisrtoy_house_wood_2et\prisrtoy_house_wood_2et.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				0	-1	0
+				1	0	0
+				0	0	1
+				0.977417	0.384125	76.468
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -115.109 20.0357}
+		{Extent 1.84911 1.47929}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center 126.49 -1.66151}
+		{Extent 53.5027 23.5775}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol5"
+	{Obb2
+		{Center -175.676 19.6239}
+		{Extent 2.21892 1.47929}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol6"
+	{Obb2
+		{Center -51.0385 19.9852}
+		{Extent 1.47929 1.10948}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol7"
+	{Obb2
+		{Center 11.9235 20.0034}
+		{Extent 1.84911 1.84912}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 3.69821 139.053 2.95857}
+	{Bone "group001"}
+	{Matrix34
+		0	1	0
+		0	0	1
+		1	0	0
+		20.4198	-116.086	-13.0585
+	}
+}
+{Volume "body_vol2"
+	{Box 249.997 23.5353 46.0245}
+	{Bone "group001"}
+	{Matrix34
+		0	1	0
+		0	0	1
+		1	0	0
+		0.309023	-53.0992	8.53784
+	}
+}
+{Volume "body_vol3"
+	{Box 107.005 47.1549 102.29}
+	{Bone "group001"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		-1.27741	125.513	-31.4013
+	}
+}
+{Volume "body_vol4"
+	{Box 54.0189 4.43991 358.153}
+	{Bone "group001"}
+	{Matrix34
+		-0.890543	0	0.4549
+		0.4549	0	0.890543
+		0	1	0
+		-1.23271	0.172989	67.7682
+	}
+}
+{Volume "body_vol5"
+	{Box 4.43785 164.94 2.95856}
+	{Bone "group001"}
+	{Matrix34
+		0	1	0
+		0	0	1
+		1	0	0
+		20.0081	-176.653	-0.0591506
+	}
+}
+{Volume "body_vol6"
+	{Box 2.95856 136.094 2.21893}
+	{Bone "group001"}
+	{Matrix34
+		0	1	0
+		0	0	1
+		1	0	0
+		20.3693	-52.0159	-13.8776
+	}
+}
+{Volume "body_vol7"
+	{Box 3.69821 136.834 3.69821}
+	{Bone "group001"}
+	{Matrix34
+		0	1	0
+		0	0	1
+		1	0	0
+		20.3876	10.9461	-13.5077
+	}
+}

@@ -1,0 +1,97 @@
+;Exported by: Vnab
+;Date:        Mon Jul 20 16:45:15 2015
+;File:        C:\Users\Vnab\Desktop\Моддинг\BK3 model\Подгот\Здания\shed_eu_05norm\shed_eu_05norm.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				1	0	0
+				0	0.999995	-0.00302791
+				0	0.00302791	0.999995
+				-9.30913	3.47895	44.1692
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -1.97292 -2.18013}
+		{Extent 64.0992 52.5613}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -1.06834 -13.0335}
+		{Extent 64.3128 30.9813}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center -72.1198 -30.6337}
+		{Extent 6.3455 27.5343}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol4"
+	{Obb2
+		{Center -72.1809 32.2112}
+		{Extent 11.2686 1.96683}
+		{Axis 0.157142 0.987576}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 128.198 105.123 41.4508}
+	{Bone "group001"}
+	{Matrix34
+		1	0	0
+		0	0.999995	0.0030279
+		0	-0.0030279	0.999995
+		7.33621	-1.22791	-23.4197
+	}
+}
+{Volume "body_vol2"
+	{Box 128.626 61.9625 28.631}
+	{Bone "group001"}
+	{Matrix34
+		1	0	0
+		0	0.999995	0.0030279
+		0	-0.0030279	0.999995
+		8.24079	9.52024	11.3421
+	}
+}
+{Volume "body_vol3"
+	{Box 12.691 56.203 7.85633}
+	{Bone "group001"}
+	{Matrix34
+		1	0	0
+		0	0.928721	-0.370781
+		0	0.370781	0.928721
+		-62.8106	27.2521	-32.1014
+	}
+}
+{Volume "body_vol4"
+	{Box 3.77708 22.5114 2.87058}
+	{Bone "group001"}
+	{Matrix34
+		0.988646	0.150265	0.000454903
+		-0.150265	0.988641	0.00299352
+		0	-0.00302788	0.999995
+		-62.8718	-35.6383	-17.1745
+	}
+}

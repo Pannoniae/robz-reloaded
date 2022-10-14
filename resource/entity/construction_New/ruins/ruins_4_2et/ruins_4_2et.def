@@ -1,0 +1,8 @@
+{game_entity
+	{Extension "ruins_4_2et.mdl"}
+	{Volume "body"
+		{Tags  "body"}
+		{Thickness 20}
+		{able {visible 1}}
+	}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "bldbr_002_vhouse"}
+	{blend none}
+}

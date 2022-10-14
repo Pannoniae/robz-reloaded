@@ -1,0 +1,58 @@
+;Exported by: NT-Tech_DL
+;Date:        Fri Nov 06 14:37:38 2015
+;File:        C:\Users\NT-Tech_DL\Desktop\Mow re\рес нов\укрепления\field_hq_truck_eng\field_hq_truck_eng.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Position -9.71941	11.7411	65.2353}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -7.87195 -8.8778}
+		{Extent 58.4458 24.1938}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -2.40649 -43.1797}
+		{Extent 50.0187 10.6018}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center 4.88074 -8.64054}
+		{Extent 45.9407 24.0276}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 116.892 48.3877 32.8928}
+	{Bone "group001"}
+	{Position 1.84741	-2.86325	-48.5764}
+}
+{Volume "body_vol2"
+	{Box 100.037 21.2036 20.9318}
+	{Bone "group001"}
+	{Position 7.31287	31.4386	-55.5011}
+}
+{Volume "body_vol3"
+	{Box 91.8815 48.0551 34.2153}
+	{Bone "group001"}
+	{Position 14.6001	-3.10051	-16.293}
+}

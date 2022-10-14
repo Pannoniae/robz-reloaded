@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "us straps"}
+	{blend none}
+}

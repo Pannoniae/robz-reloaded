@@ -1,0 +1,78 @@
+;Exported by: Vnab
+;Date:        Mon Nov 24 16:38:33 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\Конвертированные\Vilage\shed_eu_02_2et_wood bld705_shed\shed_eu_02_2et_wood.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				0	-1	0
+				0	0	-1
+				1	0	0
+				-0.208135	0.893116	-0.911096
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 1.0505 -87.1833}
+		{Extent 32.1965 21.8553}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 0.381586 -8.36549}
+		{Extent 47.5617 59.9049}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center 27.912 58.4812}
+		{Extent 12.6706 8.17117}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 64.3931 43.7105 58.4228}
+	{Bone "object_1"}
+	{Matrix34
+		0	0	1
+		-1	0	0
+		0	-1	0
+		-86.2902	-18.5888	1.25863
+	}
+}
+{Volume "body_vol2"
+	{Box 95.1234 119.81 106.185}
+	{Bone "object_1"}
+	{Matrix34
+		0	0	1
+		-1	0	0
+		0	-1	0
+		-7.47237	-42.4697	0.589716
+	}
+}
+{Volume "body_vol3"
+	{Box 40.2019 16.3423 2.13222}
+	{Bone "object_1"}
+	{Matrix34
+		0	0.809279	0.587424
+		-1	0	0
+		0	-0.587424	0.809279
+		59.3743	-18.832	28.1201
+	}
+}

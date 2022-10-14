@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "envam_053_oldsailboat_boat"}
+	{blend none}
+}

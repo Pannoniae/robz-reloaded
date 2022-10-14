@@ -1,0 +1,44 @@
+;Exported by: Vnab
+;Date:        Wed May 14 15:07:38 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\Здания\Европа\bld404_chouse\House_eu404.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "3d_object_1"
+			{Position 19.2324	18.5691	156.174}
+			{VolumeView "3d_object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 17.2396 -3.60158}
+		{Extent 128.593 109.708}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 34.1512 -89.3912}
+		{Extent 120.816 52.2171}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 257.186 219.417 266.425}
+	{Bone "3d_object_1"}
+	{Position -1.99278	-14.9675	-26.0217}
+}
+{Volume "body_vol2"
+	{Box 241.632 104.434 294.873}
+	{Bone "3d_object_1"}
+	{Position 14.9188	70.822	-11.7978}
+}

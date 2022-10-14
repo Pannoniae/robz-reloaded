@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/humanskin/ranger/upperbody_a_col"}
+	{blend none}
+}

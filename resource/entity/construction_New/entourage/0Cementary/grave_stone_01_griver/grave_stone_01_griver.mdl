@@ -1,0 +1,40 @@
+;Exported by: Vnab
+;Date:        Thu Oct 16 12:13:43 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\Company of heroes\cementary\grave_stone_eu_griver\grave_stone_01_griver.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				0.999903	-0.00628896	0.0123946
+				0.00628944	0.99998	0
+				-0.0123943	7.7955e-005	0.999923
+				0.845791	-0.0268727	11.281
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 1.17618 0.176819}
+		{Extent 8.30994 2.29849}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 16.6199 4.59699 42.8379}
+	{Bone "group001"}
+	{Matrix34
+		0.999903	0.00628944	-0.0123943
+		-0.00628896	0.99998	7.7955e-005
+		0.0123946	0	0.999923
+		0.375311	-0.147865	3.54686
+	}
+}

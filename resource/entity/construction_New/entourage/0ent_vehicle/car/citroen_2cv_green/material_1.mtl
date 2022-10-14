@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "enveu_010_cars_01"}
+	{blend none}
+}

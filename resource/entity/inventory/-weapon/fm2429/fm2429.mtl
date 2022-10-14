@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "fm2429"}
+	{blend none}
+}

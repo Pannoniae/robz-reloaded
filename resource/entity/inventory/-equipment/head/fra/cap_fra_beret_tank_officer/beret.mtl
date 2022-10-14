@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "beret tank"}
+	{blend none}
+}

@@ -1,0 +1,203 @@
+;Exported by: Vnab
+;Date:        Fri Nov 07 14:24:43 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\Rush for b 2\Здания\kran_stroit_harbor_rw_01\kran_stroit_harbor_rw_01.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Position 65.7275	13.8887	156.216}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body_vol10"
+	{Obb2
+		{Center 246.921 -92.7458}
+		{Extent 6.15385 41.9544}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol11"
+	{Obb2
+		{Center 245.553 68.9097}
+		{Extent 4.78634 39.5523}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -278.535 75.4283}
+		{Extent 6.83762 34.188}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center -279.219 67.3337}
+		{Extent 6.15384 52.516}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol4"
+	{Obb2
+		{Center -279.219 -90.2898}
+		{Extent 6.15387 44.4202}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol5"
+	{Obb2
+		{Center -279.812 -102.228}
+		{Extent 5.56017 32.6357}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol7"
+	{Obb2
+		{Center 247.173 -102.165}
+		{Extent 6.40628 32.6357}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol8"
+	{Obb2
+		{Center 247.959 75.6106}
+		{Extent 5.64104 33.1624}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 787.125 67.6888 58.019}
+	{Bone "group001"}
+	{Position -14.1702	-1.8284	125.819}
+}
+{Volume "body_vol10"
+	{Box 8.20512 265.299 12.3077}
+	{Bone "group001"}
+	{Matrix34
+		0	-0.958035	-0.28665
+		0	-0.28665	0.958035
+		-1	0	0
+		181.193	78.8571	22.5934
+	}
+}
+{Volume "body_vol11"
+	{Box 15.0427 252.991 9.57265}
+	{Bone "group001"}
+	{Matrix34
+		0	-0.966892	0.255186
+		0	0.255186	0.966892
+		-1	0	0
+		179.826	-82.7984	24.6039
+	}
+}
+{Volume "body_vol12"
+	{Box 37.9487 54.0171 48.547}
+	{Bone "group001"}
+	{Matrix34
+		0	-1	0
+		0	0	1
+		-1	0	0
+		-333.058	-19.0797	69.149
+	}
+}
+{Volume "body_vol2"
+	{Box 68.3761 51.9658 13.6752}
+	{Bone "group001"}
+	{Matrix34
+		0	-1	0
+		0	0	1
+		-1	0	0
+		-344.262	-89.317	-130.794
+	}
+}
+{Volume "body_vol3"
+	{Box 8.20513 274.872 12.3077}
+	{Bone "group001"}
+	{Matrix34
+		0	-0.935171	0.354197
+		0	0.354197	0.935171
+		-1	0	0
+		-344.946	-81.2225	16.8058
+	}
+}
+{Volume "body_vol4"
+	{Box 6.83761 255.726 12.3077}
+	{Bone "group001"}
+	{Matrix34
+		0	-0.946709	-0.322091
+		0	-0.322091	0.946709
+		-1	0	0
+		-344.946	76.4011	16.1763
+	}
+}
+{Volume "body_vol5"
+	{Box 65.2714 44.4812 11.1203}
+	{Bone "group001"}
+	{Matrix34
+		0	-1	0
+		0	0	1
+		-1	0	0
+		-345.54	88.3389	-134.594
+	}
+}
+{Volume "body_vol6"
+	{Box 127.863 12.3077 10.2564}
+	{Bone "group001"}
+	{Matrix34
+		0	-1	0
+		0	0	1
+		-1	0	0
+		-344.19	-4.8403	-117.94
+	}
+}
+{Volume "body_vol7"
+	{Box 65.2714 44.4812 12.8125}
+	{Bone "group001"}
+	{Matrix34
+		0	-1	0
+		0	0	1
+		-1	0	0
+		181.446	88.2762	-134.458
+	}
+}
+{Volume "body_vol8"
+	{Box 66.3248 45.1282 11.2821}
+	{Bone "group001"}
+	{Matrix34
+		0	-1	0
+		0	0	1
+		-1	0	0
+		182.231	-89.4993	-134.458
+	}
+}
+{Volume "body_vol9"
+	{Box 129.576 12.0873 13.5378}
+	{Bone "group001"}
+	{Matrix34
+		0	-1	0
+		0	0	1
+		-1	0	0
+		181.808	-3.06079	-118.144
+	}
+}

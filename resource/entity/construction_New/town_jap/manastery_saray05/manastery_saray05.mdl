@@ -1,0 +1,92 @@
+;Exported by: Vnab
+;Date:        Thu Apr 24 15:26:15 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\Здания\Восток\manastery_saray05\manastery_saray05.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "3d_object_1"
+			{Position -1.64024	2.61774	52.8902}
+			{VolumeView "3d_object_1.ply"}
+		}
+	}
+}
+{Obstacle "body_vol_"
+	{Obb2
+		{Center -2.65257 -1.79155}
+		{Extent 57.5427 124.78}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -2.74252 -2.87376}
+		{Extent 40.0236 104.913}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center -1.2828 -23.6938}
+		{Extent 75.6301 20.8466}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol4"
+	{Obb2
+		{Center -40.6001 -1.81769}
+		{Extent 10.5057 143.265}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body_vol_"
+	{Box 114.65 249.361 31.453}
+	{Bone "3d_object_1"}
+	{Matrix34
+		0.999999	0.00174533	0
+		-0.00174533	0.999999	0
+		0	0	1
+		-1.01233	-0.826195	-51.0635
+	}
+}
+{Volume "body_vol2"
+	{Box 79.6814 209.688 77.8422}
+	{Bone "3d_object_1"}
+	{Matrix34
+		0.999999	0.00174533	0
+		-0.00174533	0.999999	0
+		0	0	1
+		-1.10228	0.25602	-13.9691
+	}
+}
+{Volume "body_vol3"
+	{Polyhedron "body_vol3.vol"}
+	{Bone "3d_object_1"}
+	{Matrix34
+		0.999999	0.00174533	0
+		-0.00174533	0.999999	0
+		0	0	1
+		0.357441	21.0761	-52.8877
+	}
+}
+{Volume "body_vol4"
+	{Polyhedron "body_vol4.vol"}
+	{Bone "3d_object_1"}
+	{Matrix34
+		0.00174029	-0.999999	0
+		0.999999	0.00174029	0
+		0	0	1
+		-38.9599	-0.800064	-52.8877
+	}
+}

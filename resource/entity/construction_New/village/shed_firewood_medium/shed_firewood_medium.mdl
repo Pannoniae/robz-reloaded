@@ -1,0 +1,59 @@
+;Exported by: Vnab
+;Date:        Mon Nov 10 10:47:29 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\Конвертированные\Vilage\shed_firewood_medium\shed_firewood_medium.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				0.997462	0.071199	0.000356189
+				-0.0372017	0.525431	-0.850023
+				-0.0607079	0.847852	0.526745
+				0.166059	-0.860078	8.04152
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 0.206753 -0.516874}
+		{Extent 23.5696 15.6097}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 0.310129 0.620249}
+		{Extent 26.154 17.1603}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "group001"}
+	{Matrix34
+		0.997462	-0.0372017	-0.0607079
+		0.071199	0.525431	0.847852
+		0.000356166	-0.850023	0.526745
+		0.135799	7.47496	-3.01973
+	}
+}
+{Volume "body_vol2"
+	{Polyhedron "body_vol2.vol"}
+	{Bone "group001"}
+	{Matrix34
+		0.997462	-0.0372017	-0.0607079
+		0.071199	0.525431	0.847852
+		0.000356166	-0.850023	0.526745
+		0.165147	-10.301	6.6527
+	}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "pzb3"}
+	{blend none}
+}

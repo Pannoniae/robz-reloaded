@@ -1,96 +1,90 @@
-;Exported by: Mauzer
-;Date:        Thu May 19 16:50:26 2011
-;File:        E:\Autodesk\Low poly\freelance\DMS\Weapons\M1903\M1903 scope+.max
+;Exported by: Kalinski
+;Date:        Tue Feb 27 22:12:03 2018
+;File:        C:\Users\Kalinski\Desktop\new weapons pack\springfield.max
 {Skeleton
-	{bone "m1903"
-		{parameters "ID=mgun;"}
+	{bone "m1903a4"
+		{parameters "CommonMesh;ID=rifle;"}
 		{Orientation
 			1	0	0
 			0	-1	0
 			0	0	1
 		}
-		{LODView
-			{VolumeView "m1903.ply"}
-			{VolumeView "m1903_lod1.ply"}
-		}
+		{VolumeView "m1903a4.ply"}
 		{bone "foresight3"
-			{Position 15.2546	1.53283	-0.00296723}
+			{Position 15.3939	1.52138	0}
 		}
 		{bone "handle"
-			{Matrix34
-				1	0	0
-				0	0	-1
-				0	1	0
-				-0.883711	0.381272	-0.0081665
-			}
+			{Position 5.1716	1.85402	0}
 		}
 		{bone "fxshell"
 			{Matrix34
-				0	-0.995396	0.0958456
+				0	0	1
+				0	1	0
 				-1	0	0
-				0	-0.0958456	-0.995396
-				2.85291	0.671018	-0.0635516
+				2.23423	1.53105	0.0495333
 			}
 		}
 	}
 }
 {Volume "body"
-	{Box 21.2862 3.73074 1.18138}
-	{Bone "m1903"}
-	{Matrix34
-		0.999657	0.0261769	0
-		-0.0261769	0.999657	0
-		0	0	1
-		4.36335	0.614514	0.0657143
-	}
+	{Box 20.4252 3.69027 1.17169}
+	{Bone "m1903a4"}
+	{Position 4.62226	0.276861	-0.00827003}
 }
 {Volume "select"
-	{Box 24.4189 9.11718 2.39379}
-	{Bone "m1903"}
-	{Position 4.88372	0.755967	-0.115577}
+	{Box 22.1747 4.62889 1.17169}
+	{Bone "m1903a4"}
+	{Matrix34
+		1.0774	0	0
+		0	1.0774	0
+		0	0	1.2924
+		4.74088	0.234466	-0.0614164
+	}
 }
 {Extender "preview"
-	{"Stuff_primary"
+	{"stuff_primary"
 		{camera
-			{origin 2.64052	-5.15541	27.1416}
-			{lookat 3.37672	-2.90606	13.4342}
+			{origin 4.3489	0.405124	27.8852}
+			{lookat 4.37189	0.167636	1.3304}
 			{fov 45}
-			{horizon -157.989}
+			{horizon 5.5274}
 		}
 		{lights
 			{"0"
 				{type point}
-				{position 5.46156	-13.1827	-38.7774}
+				{position -1.51264	-0.52088	1.33739}
 			}
 			{"1"
-				{type directional}
-				{direction -0.0761825	0.382457	-0.312926}
+				{type point}
+				{position 11.0782	-1.2487	1.30826}
 			}
 			{"2"
-				{type point}
-				{position 5.46156	1.61278	20.2422}
+				{type directional}
+				{direction 0.00821002	-0.0186623	-0.499584}
+				{ambient 0xffffff}
 			}
 		}
 	}
-	{"Stuff"
+	{"stuff"
 		{camera
-			{origin 1.93903	-11.8775	23.2707}
-			{lookat 3.87106	-0.415264	-0.153432}
+			{origin 4.33072	0.403555	27.929}
+			{lookat 4.35371	0.166067	1.3304}
 			{fov 45}
-			{horizon -152.307}
+			{horizon 5.5274}
 		}
 		{lights
 			{"0"
 				{type point}
-				{position 5.43756	-12.2301	-48.1114}
+				{position 11.0782	-1.2487	1.30826}
 			}
 			{"1"
 				{type point}
-				{position 5.43756	-1.38934	20.1015}
+				{position -1.51264	-0.52088	1.33739}
 			}
 			{"2"
 				{type directional}
-				{direction 0.0583871	0.496579	-0.00041018}
+				{direction 0.00821002	-0.0186623	-0.499584}
+				{ambient 0xffffff}
 			}
 		}
 	}

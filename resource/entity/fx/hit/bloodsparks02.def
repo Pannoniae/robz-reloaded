@@ -8,8 +8,8 @@
 				{alpha1 90}
 			}
 			{particleinit
-				{speed 0.5 0.5}
-				{lifetime 0.8 0.2}
+				{speed 5 2}
+				{lifetime 0.2 0.15}
 			}
 			{axisz}
 			{timetolive 0.1}
@@ -17,10 +17,9 @@
 		}
 		{mover
 			{gravity
-				{value 0.1}
+				{value 0.2}
 			}
-			{damping 0.5}
-			{nodependonwind}
+			{damping 0.05}
 		}
 		{visualizer
 			{stage 

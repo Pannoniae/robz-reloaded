@@ -1,0 +1,30 @@
+;Exported by: Vnab
+;Date:        Tue Oct 21 09:42:27 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\Конвертированные\entourage\0OBJECTS\stol_documents\stol_documents.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Position -0.0588316	0.161667	9.67022}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.119757 -0.256147}
+		{Extent 17.9816 7.22336}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 35.9631 14.4467 19.0574}
+	{Bone "group001"}
+	{Position -0.0609251	0.09448	-0.141534}
+}

@@ -1,0 +1,44 @@
+;Exported by: Vnab
+;Date:        Thu Jul 23 13:30:57 2015
+;File:        C:\Users\Vnab\Desktop\Моддинг\BK3 model\Подгот\Руины\ruins_8_3et_green\ruins_8_3et_green.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Position 8.76956	54.8433	126.027}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -57.1341 -59.4325}
+		{Extent 58.3322 107.859}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 48.4188 -13.1445}
+		{Extent 103.896 58.7576}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 116.664 215.719 190.405}
+	{Bone "group001"}
+	{Position -65.9036	4.58918	-30.8248}
+}
+{Volume "body_vol2"
+	{Box 207.792 117.515 205.457}
+	{Bone "group001"}
+	{Position 39.6492	-41.6988	-23.2988}
+}

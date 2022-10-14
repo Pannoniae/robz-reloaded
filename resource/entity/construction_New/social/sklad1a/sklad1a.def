@@ -1,0 +1,10 @@
+{game_entity
+	(include "/properties/building.inc")
+	{props "concrete" "construction" "no_destroyed_stamp"}
+	("armor_heavy" args 1.0)  
+	{obstacleid "unbreakable"}
+
+	{Extension "rostok_building_sklad1a.mdl"}
+	{Volume "box01"
+	}
+}

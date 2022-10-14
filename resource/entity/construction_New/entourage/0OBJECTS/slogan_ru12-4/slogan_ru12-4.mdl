@@ -1,0 +1,31 @@
+;Exported by: Vnab
+;Date:        Fri May 30 13:56:08 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\Objects Предметы\envSU_012_SovietSlogans\Slogan_ru12-4.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "3d_object_1"
+			{Matrix34
+				0	-1	0
+				1	0	0
+				0	0	1
+				-0.131731	0.198234	48.9825
+			}
+			{VolumeView "3d_object_1.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Box 45.9791 0.948023 17.9176}
+	{Bone "3d_object_1"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		0.103433	-0.0104727	-0.0610762
+	}
+}

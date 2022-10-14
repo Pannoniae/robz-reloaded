@@ -1,0 +1,21 @@
+;Exported by: NT-Tech_DL
+;Date:        Mon Nov 16 11:27:35 2015
+;File:        C:\Users\NT-Tech_DL\Desktop\Mow re\Моддинг\МОДЕЛИ Готовые\Background\backgr_town_norm3\backgr_town_norm3.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				1	0	0
+				0	0.95882	-0.284015
+				0	0.284015	0.95882
+				-4.27665	6.9991	92.8106
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}

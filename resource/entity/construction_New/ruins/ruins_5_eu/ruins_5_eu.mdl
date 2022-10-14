@@ -1,0 +1,58 @@
+;Exported by: Vnab
+;Date:        Fri May 29 11:26:37 2015
+;File:        C:\Users\Vnab\Desktop\Моддинг\Air Conflicts.Secret Wars\Здания\Руины\ruins_5_eu\ruins_5_eu.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Position -7.71067	7.64603	111.874}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -24.0317 -6.45898}
+		{Extent 272.148 63.6646}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -230.68 -29.3715}
+		{Extent 126.148 41.0601}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center 280 20.7774}
+		{Extent 63.3215 36.1131}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 544.297 127.329 82.5541}
+	{Bone "group001"}
+	{Position -16.321	-1.18706	-72.5062}
+}
+{Volume "body_vol2"
+	{Box 252.297 82.1201 161.272}
+	{Bone "group001"}
+	{Position -222.97	21.7255	-33.1472}
+}
+{Volume "body_vol3"
+	{Box 126.643 72.2261 126.643}
+	{Bone "group001"}
+	{Position 287.711	-28.4234	-50.4617}
+}

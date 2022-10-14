@@ -1,0 +1,97 @@
+;Exported by: Vnab
+;Date:        Fri Nov 28 14:27:03 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\WOT\Техника\Citroen-23_1939_1,5t envAM_011_Truck\Citroen-23_1939_1,5t.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				1.54605	7.58362	-0.261796
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 1.7674 -11.2819}
+		{Extent 16.0966 43.6443}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 1.76377 -40.169}
+		{Extent 16.2709 27.6529}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center 1.37504 -0.0818791}
+		{Extent 11.382 9.31948}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol4"
+	{Obb2
+		{Center 1.75698 22.6662}
+		{Extent 7.33336 13.2917}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 9.19803 24.9396 5.062}
+	{Bone "object_1"}
+	{Matrix34
+		3.5	0	0
+		0	0	3.5
+		0	-3.5	0
+		0.221351	-9.15649	3.69823
+	}
+}
+{Volume "body_vol2"
+	{Box 9.29765 15.8016 6.06748}
+	{Bone "object_1"}
+	{Matrix34
+		3.5	0	0
+		0	0	3.5
+		0	-3.5	0
+		0.217715	-28.0065	32.5853
+	}
+}
+{Volume "body_vol3"
+	{Box 6.50399 5.32541 7.72621}
+	{Bone "object_1"}
+	{Matrix34
+		3.5	0	0
+		0	0	3.5
+		0	-3.5	0
+		-0.171014	-24.3079	-7.50174
+	}
+}
+{Volume "body_vol4"
+	{Box 4.19049 7.59526 4.7143}
+	{Bone "object_1"}
+	{Matrix34
+		3.5	0	0
+		0	0	3.5
+		0	-3.5	0
+		0.210928	-19.0371	-30.2498
+	}
+}

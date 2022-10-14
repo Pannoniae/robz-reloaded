@@ -1,0 +1,8 @@
+{game_entity
+	{Extension "bus_stop_r.mdl"}
+	{placer}
+	{extender "structure"
+		{place "body" "body_bus_stop_r"}
+		{place "land" "land_bus_stop_r"}
+	}
+}

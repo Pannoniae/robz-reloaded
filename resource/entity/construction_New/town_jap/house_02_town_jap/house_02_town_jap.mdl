@@ -1,0 +1,49 @@
+;Exported by: Vnab
+;Date:        Mon Dec 01 12:53:52 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\WOT\здания восток\bldAS_013_HouseBigStoneBase\house_02_town_jap.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Position -1.29132	0.259508	122.838}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -1.72154 -0.0924873}
+		{Extent 86.1048 57.6779}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 66.9476 71.0677}
+		{Extent 17.3034 15.2434}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 172.21 115.356 294.813}
+	{Bone "group001"}
+	{Position -0.430218	-0.167023	-19.4065}
+}
+{Volume "body_vol2"
+	{Box 34.6067 30.4869 61.7977}
+	{Bone "group001"}
+	{Position 68.2389	-71.3272	-135.914}
+}
+{Volume "body_vol3"
+	{Box 168.09 182.921 174.682}
+	{Bone "group001"}
+	{Position 2.11529	-0.697517	21.5125}
+}

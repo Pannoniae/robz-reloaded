@@ -1,0 +1,83 @@
+;Exported by: Kalinski
+;Date:        Thu Mar 08 05:41:16 2018
+;File:        C:\Users\Kalinski\Desktop\new weapons pack\grenade m24.max
+{Skeleton
+	{bone "grenade_m24"
+		{parameters "CommonMesh;ID=rifle;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "grenade_m24.ply"}
+		{bone "handle"
+			{Position -0.248385	-2.11253	0}
+		}
+	}
+}
+{Volume "body"
+	{Cylinder 0.713263 7.23074}
+	{Bone "grenade_m24"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		0	0.22563	0
+	}
+}
+{Volume "select"
+	{Box 2.27069 8.03575 1.87658}
+	{Bone "grenade_m24"}
+	{Matrix34
+		1.0774	0	0
+		0	1.0774	0
+		0	0	1.2924
+		0	0.253849	-0.0385591
+	}
+}
+{Extender "preview"
+	{"stuff_secondary"
+		{camera
+			{origin -0.091773	-0.244827	19}
+			{lookat -0.091773	-0.244827	0.0360394}
+			{fov 23}
+			{horizon -76.1111}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 0.413091	2.5803	3.03604}
+			}
+			{"1"
+				{type point}
+				{position 0.323162	-3.02323	3.03604}
+			}
+			{"2"
+				{type directional}
+				{direction -0.0261338	-0.00898283	-0.499236}
+			}
+		}
+	}
+	{"stuff"
+		{camera
+			{origin -0.0914917	-0.244791	19}
+			{lookat -0.0914917	-0.244791	0}
+			{fov 23}
+			{horizon -75.3945}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 0.323117	-3.02376	3}
+			}
+			{"1"
+				{type point}
+				{position 0.41312	2.58026	3}
+			}
+			{"2"
+				{type directional}
+				{direction -0.0258759	-0.00907251	-0.499248}
+			}
+		}
+	}
+}

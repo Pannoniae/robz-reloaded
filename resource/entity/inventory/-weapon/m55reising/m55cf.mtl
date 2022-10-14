@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "m55cf"}
+	{specular "m55cf_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

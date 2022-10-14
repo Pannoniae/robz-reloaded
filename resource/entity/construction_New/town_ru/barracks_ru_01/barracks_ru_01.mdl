@@ -1,0 +1,135 @@
+;Exported by: Vnab
+;Date:        Wed Jul 22 10:48:52 2015
+;File:        C:\Users\Vnab\Desktop\Моддинг\BK3 model\Здания\barracks_ru_01\barracks_ru_01.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				0.994522	0.104528	0
+				-0.104528	0.994522	0
+				0	0	1
+				14.865	-12.461	83.0245
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 8.79051 0.343498}
+		{Extent 139.658 71.1463}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -137.391 0.512243}
+		{Extent 8.06984 24.0448}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center -161.387 -0.316488}
+		{Extent 15.8377 19.3313}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol4"
+	{Obb2
+		{Center 7.78306 89.5719}
+		{Extent 19.2149 17.9339}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol5"
+	{Obb2
+		{Center 156.523 0.200817}
+		{Extent 9.0834 23.5237}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol6"
+	{Obb2
+		{Center 179.827 0.492954}
+		{Extent 14.3281 19.0217}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 279.315 142.293 122.975}
+	{Bone "group001"}
+	{Matrix34
+		0.994522	-0.104528	0
+		0.104528	0.994522	0
+		0	0	1
+		-4.77457	12.6861	-8.73609
+	}
+}
+{Volume "body_vol2"
+	{Box 16.1397 48.0896 76.087}
+	{Bone "group001"}
+	{Matrix34
+		0.994522	-0.104528	0
+		0.104528	0.994522	0
+		0	0	1
+		-150.173	27.7984	-46.5061
+	}
+}
+{Volume "body_vol3"
+	{Box 31.6754 38.6626 24.9211}
+	{Bone "group001"}
+	{Matrix34
+		0.994522	-0.104528	0
+		0.104528	0.994522	0
+		0	0	1
+		-173.951	31.1308	-72.0891
+	}
+}
+{Volume "body_vol4"
+	{Box 38.4297 35.8678 25.154}
+	{Bone "group001"}
+	{Matrix34
+		0.994522	-0.104528	0
+		0.104528	0.994522	0
+		0	0	1
+		-15.1034	-75.9482	-71.9726
+	}
+}
+{Volume "body_vol5"
+	{Box 18.1668 47.0473 75.7576}
+	{Bone "group001"}
+	{Matrix34
+		0.994522	-0.104528	0
+		0.104528	0.994522	0
+		0	0	1
+		142.163	-2.61427	-46.6708
+	}
+}
+{Volume "body_vol6"
+	{Box 28.6561 38.0435 24.7036}
+	{Bone "group001"}
+	{Matrix34
+		0.994522	-0.104528	0
+		0.104528	0.994522	0
+		0	0	1
+		165.31	-5.34078	-72.1979
+	}
+}

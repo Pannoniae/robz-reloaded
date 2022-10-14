@@ -1,0 +1,14 @@
+;Exported by: Mark
+;Date:        Tue Jan 08 20:13:50 2013
+;File:        C:\Users\Mark\Documents\3dsMax\scenes\mogila.max
+{Skeleton
+	{bone "box001"
+		{parameters "Land;Ground;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "box001.ply" {Ground}}
+	}
+}

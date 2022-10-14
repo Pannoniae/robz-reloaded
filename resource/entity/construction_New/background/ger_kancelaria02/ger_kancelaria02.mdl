@@ -1,0 +1,63 @@
+;Exported by: Vnab
+;Date:        Wed Jun 18 15:38:02 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\Здания\Европа\ger_kancelaria02\ger_kancelaria02  house_eu408.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "3d_object_1"
+			{Position -0.199402	-11.0114	141.339}
+			{VolumeView "3d_object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 47.5517 -28.2389}
+		{Extent 364.164 119.501}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center -391.02 -26.4889}
+		{Extent 13.7869 115.632}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol4"
+	{Obb2
+		{Center 44.8224 89.142}
+		{Extent 160.55 83.6105}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 728.327 239.002 309.445}
+	{Bone "3d_object_1"}
+	{Position 47.7511	39.2504	-6.22829}
+}
+{Volume "body_vol2"
+	{Box 93.3947 244.605 209.916}
+	{Bone "3d_object_1"}
+	{Position -362.357	37.0556	42.2777}
+}
+{Volume "body_vol3"
+	{Box 27.5737 231.263 98.7316}
+	{Bone "3d_object_1"}
+	{Position -390.821	37.5004	-111.585}
+}
+{Volume "body_vol4"
+	{Polyhedron "body_vol4.vol"}
+	{Bone "3d_object_1"}
+	{Position 45.0218	-78.1306	-141.469}
+}

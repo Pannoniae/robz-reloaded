@@ -1,0 +1,8 @@
+{Actor
+	(include "/properties/stuff_small.ext")
+	{Extension "bar_grip.mdl"}
+	{extender "stuff"
+		{item "bar_rifle_grip"}
+	}
+	{nogroupmesh 1}
+}

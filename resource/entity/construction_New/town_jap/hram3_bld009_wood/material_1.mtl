@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "bldja_009_vault"}
+	{blend none}
+}

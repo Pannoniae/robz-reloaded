@@ -1,0 +1,40 @@
+;Exported by: Vnab
+;Date:        Wed Aug 07 11:03:52 2013
+;File:        D:\INSTALL\Моддинг\Сцены\MOH PA\Henderson1\boxes_15\boxes_15.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "drawcall_0032"
+			{Matrix34
+				0.99894	-0.0460257	0
+				0.0451406	0.979731	-0.195168
+				0.00898272	0.194961	0.98077
+				-3.5961	-123.693	33.7083
+			}
+			{VolumeView "drawcall_0032.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 0.0366898 -1.14159}
+		{Extent 23.1347 60.882}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 46.2694 121.764 39.7902}
+	{Bone "drawcall_0032"}
+	{Matrix34
+		0.99894	0.0451407	0.00898254
+		-0.0460257	0.979731	0.194961
+		0	-0.195167	0.98077
+		-2.11664	125.11	11.0945
+	}
+}

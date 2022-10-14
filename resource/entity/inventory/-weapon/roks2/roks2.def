@@ -1,0 +1,8 @@
+{game_entity
+	(include "/properties/stuff_small.ext")
+	{Extension "roks2.mdl"}
+	{extender "stuff"
+		{item "flame_thrower_rus"}
+	}
+	{nogroupmesh 1}
+}

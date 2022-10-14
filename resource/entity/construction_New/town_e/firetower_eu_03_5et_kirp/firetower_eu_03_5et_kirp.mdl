@@ -1,0 +1,97 @@
+;Exported by: Vnab
+;Date:        Tue Nov 18 16:17:14 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\WOT\FireTower_eu_03_5et_kirp\FireTower_eu_03_5et_kirp.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				0	1	0
+				0	0	-1
+				-1	0	0
+				0.465181	-0.630771	4.15533
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 14.8367 58.5953}
+		{Extent 16.6028 13.1396}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 0.480867 -2.79247}
+		{Extent 47.0581 47.0581}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center 0.644186 -2.12585}
+		{Extent 40.1318 40.9467}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol4"
+	{Obb2
+		{Center 0.967201 -2.26562}
+		{Extent 30.1498 29.3349}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 10.0623 7.96339 8.02513}
+	{Bone "object_1"}
+	{Matrix34
+		0	0	-3.3
+		3.3	0	0
+		0	-3.3	0
+		-57.9646	-4.246	-14.3715
+	}
+}
+{Volume "body_vol2"
+	{Box 28.5201 28.5201 8.27205}
+	{Bone "object_1"}
+	{Matrix34
+		0	0	-3.3
+		3.3	0	0
+		0	-3.3	0
+		3.42324	-4.65342	-0.0156884
+	}
+}
+{Volume "body_vol3"
+	{Box 24.3223 24.8162 58.6669}
+	{Bone "object_1"}
+	{Matrix34
+		0	0	-3.3
+		3.3	0	0
+		0	-3.3	0
+		2.75662	-114.711	-0.179024
+	}
+}
+{Volume "body_vol4"
+	{Box 18.2726 17.7787 32.5944}
+	{Bone "object_1"}
+	{Matrix34
+		0	0	-3.3
+		3.3	0	0
+		0	-3.3	0
+		2.89639	-260.586	-0.502062
+	}
+}

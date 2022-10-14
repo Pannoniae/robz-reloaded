@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "type99"}
+	{blend none}
+}

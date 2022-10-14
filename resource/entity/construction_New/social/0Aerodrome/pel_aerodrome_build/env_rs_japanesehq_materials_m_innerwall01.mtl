@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "env_rs_japanesehq_materials_m_innerwall01_d"}
+	{blend none}
+}

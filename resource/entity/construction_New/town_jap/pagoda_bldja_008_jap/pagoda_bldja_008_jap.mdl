@@ -1,0 +1,30 @@
+;Exported by: Vnab
+;Date:        Tue May 06 16:30:02 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\Здания\Восток\Pagoda_bldJA_008_jap\Pagoda_bldJA_008_jap.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "3d_object_1"
+			{Position -0.401344	-0.0109346	215.671}
+			{VolumeView "3d_object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 1.5682 1.21144}
+		{Extent 59.5653 60.0099}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "3d_object_1"}
+	{Position 1.96955	-1.20051	-215.669}
+}

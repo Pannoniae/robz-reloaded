@@ -1,0 +1,26 @@
+;Exported by: Vnab
+;Date:        Mon Nov 10 15:53:26 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\WoWp\Здания\Pontoon_Bridge_boat_steel\Pontoon_Bridge_boat_steel.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Position -0.141605	0.242096	9.94455}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Box 16.0701 87.0974 9.6086}
+	{Bone "group001"}
+	{Position -0.180817	-7.00551	-6.36699}
+}
+{Volume "body_vol2"
+	{Box 21.5722 145.464 12.9116}
+	{Bone "group001"}
+	{Position -0.0568123	2.30688	4.33124}
+}

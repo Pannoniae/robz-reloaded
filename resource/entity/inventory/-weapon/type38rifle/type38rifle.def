@@ -1,9 +1,8 @@
-{Actor
+{actor
 	(include "/properties/stuff_small.ext")
-	{Extension "arisaka_type_38.mdl"}
+	{Extension "type38rifle.mdl"}
 	{extender "stuff"
 		{item "type38rifle"}
 	}
 	{nogroupmesh 1}
-	{lodclass "human"}
 }

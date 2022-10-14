@@ -1,0 +1,44 @@
+;Exported by: user
+;Date:        Fri Aug 01 22:38:00 2014
+;File:        C:\Users\user\Desktop\ÃÓ‰‰ËÌ„\ÃŒƒ≈À»\ita\bldAA_08_House\bldAA_08_House_3.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Position -1.04758	-3.84602	50.2667}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -1.05268 -10.5778}
+		{Extent 47.2432 48.681}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -0.788837 48.9154}
+		{Extent 47.4945 10.6028}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 94.4863 97.362 140.015}
+	{Bone "object_1"}
+	{Position -0.00510207	14.4239	19.7406}
+}
+{Volume "body_vol2"
+	{Box 94.9891 21.2055 15.3958}
+	{Bone "object_1"}
+	{Position 0.25874	-45.0694	-42.5688}
+}

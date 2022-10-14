@@ -1,0 +1,11 @@
+{game_entity
+	(include "/properties/stuff_small.ext")
+	{Extension "british_markii_flamethrower.mdl"}
+	{Volume "body"
+		{Thickness 10}
+	}
+	{props "capacity" "balloon"}
+	{extender "stuff"
+		{item "balloon_markii"}
+	}
+}

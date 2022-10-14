@@ -1,0 +1,30 @@
+;Exported by: Vnab
+;Date:        Mon Sep 29 15:48:17 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ\Готовые\Конвертированные\entourage\Cementary\crypt4_stone_eu\crypt4_stone_eu.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Position -0.412043	0.921357	18.1662}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.338142 -2.14172}
+		{Extent 10.0322 23.5588}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 20.0644 47.1176 68.9856}
+	{Bone "group001"}
+	{Position 0.0739002	1.22036	5.15479}
+}

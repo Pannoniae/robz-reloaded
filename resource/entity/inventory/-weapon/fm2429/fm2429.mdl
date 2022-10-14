@@ -1,0 +1,91 @@
+;Exported by: Kalinski
+;Date:        Sun Jul 16 04:27:40 2017
+;File:        C:\Users\Kalinski\Desktop\fra\fm2429 exp.max
+{Skeleton
+	{bone "fm2429"
+		{parameters "CommonMesh;ID=rifle;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "fm2429.ply"}
+		{bone "foresight3"
+			{Position 16.5337	1.54477	0}
+		}
+		{bone "handle"
+			{Position 5.1716	1.85402	0}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0	1
+				0	1	0
+				-1	0	0
+				3.19567	1.75622	0.290493
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 21.8266 6.48544 1.17169}
+	{Bone "fm2429"}
+	{Position 5.14762	0.391448	-0.00827003}
+}
+{Volume "select"
+	{Box 22.1747 10.5539 1.17169}
+	{Bone "fm2429"}
+	{Matrix34
+		1.0774	0	0
+		0	1.0774	0
+		0	0	1.2924
+		4.74088	0.665401	-0.0614164
+	}
+}
+{Extender "preview"
+	{"stuff_primary"
+		{camera
+			{origin 4.96402	-0.766822	34.4929}
+			{lookat 4.98701	-1.00431	1.3304}
+			{fov 45}
+			{horizon 5.5274}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -1.51264	-0.52088	1.33739}
+			}
+			{"1"
+				{type point}
+				{position 11.0782	-1.2487	1.30826}
+			}
+			{"2"
+				{type directional}
+				{direction 0.00821002	-0.0186623	-0.499584}
+				{ambient 0xffffff}
+			}
+		}
+	}
+	{"stuff"
+		{camera
+			{origin 4.94801	-0.769639	34.3555}
+			{lookat 4.97099	-1.00713	1.3304}
+			{fov 45}
+			{horizon 5.5274}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 11.0782	-1.2487	1.30826}
+			}
+			{"1"
+				{type point}
+				{position -1.51264	-0.52088	1.33739}
+			}
+			{"2"
+				{type directional}
+				{direction 0.00821002	-0.0186623	-0.499584}
+				{ambient 0xffffff}
+			}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+;Exported by: Vnab
+;Date:        Thu Nov 27 10:24:45 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\Red orchestra 2\Окружение\balkony_town_02\balkony_town_02.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Position -1.39107	1.70701	103.38}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Box 82.6245 31.8039 56.3945}
+	{Bone "group001"}
+	{Position 0.916748	-0.395508	-5.26481}
+}

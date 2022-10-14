@@ -1,0 +1,69 @@
+;Exported by: Vnab
+;Date:        Thu Dec 11 10:08:58 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\Конвертированные\entourage\0rus\church_gates08_ru gaf008\church_gates08_ru gaf008.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				0	-1	0
+				0	0	-1
+				1	0	0
+				26.4311	-1.60522	7.64242
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -24.2839 1.65637}
+		{Extent 3.75 11.875}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 26.5015 1.72481}
+		{Extent 3.75 11.5625}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 23.75 7.5 52.9167}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		0.0511551	-18.5027	-50.715
+	}
+}
+{Volume "body_vol2"
+	{Box 23.125 7.5 50.4167}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		0.119586	-17.2527	0.0703771
+	}
+}
+{Volume "body_vol3"
+	{Polyhedron "body_vol3.vol"}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-0.634864	-44.1703	-24.9642
+	}
+}

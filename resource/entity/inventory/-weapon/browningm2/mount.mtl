@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "browningm2 mount"}
+	{blend none}
+}

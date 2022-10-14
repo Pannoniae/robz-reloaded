@@ -1,0 +1,58 @@
+;Exported by: Vnab
+;Date:        Thu May 14 13:41:29 2015
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\Конвертированные\Background\build_eu1\build_eu1.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Position -1.22447	9.18913	103.818}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -156.943 -9.1144}
+		{Extent 97.3661 123.019}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 0.474915 26.2089}
+		{Extent 60.0521 38.7715}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center 156.846 27.6994}
+		{Extent 96.8822 83.6897}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 194.732 246.039 306.674}
+	{Bone "group001"}
+	{Position -155.719	-0.0747375	17.231}
+}
+{Volume "body_vol2"
+	{Box 120.104 77.543 158.001}
+	{Bone "group001"}
+	{Position 1.69937	-35.3981	-57.1054}
+}
+{Volume "body_vol3"
+	{Box 193.764 167.379 213.553}
+	{Bone "group001"}
+	{Position 158.07	-36.8886	-29.3294}
+}

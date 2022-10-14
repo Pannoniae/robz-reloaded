@@ -1,0 +1,40 @@
+;Exported by: Vnab
+;Date:        Wed Jun 24 16:40:34 2015
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\Конвертированные\town_ru\toilet2_bldSU_002\toilet2.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "3d_object_1"
+			{Matrix34
+				0	-1	0
+				1	0	0
+				0	0	1
+				-0.626419	0.533113	22.3546
+			}
+			{VolumeView "3d_object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 0.443855 -5.8803}
+		{Extent 69.6929 36.64}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 139.386 73.2801 62.3252}
+	{Bone "3d_object_1"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		-5.34718	1.07027	-3.86357
+	}
+}

@@ -1,0 +1,116 @@
+;Exported by: NT-Tech_DL
+;Date:        Thu Sep 10 14:56:21 2015
+;File:        C:\Users\NT-Tech_DL\Desktop\Mow re\Моддинг\Модели нов\WoWS\norm_house_2et3p\norm_house_2et3p.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				-0.0980155	10.9625	10.4111
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 0.36232 -12.0682}
+		{Extent 135.399 89.5636}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 175.324 21.1077}
+		{Extent 39.7768 58.2163}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center -175.273 20.0839}
+		{Extent 40.8305 57.4261}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol4"
+	{Obb2
+		{Center -231.596 -1.99439}
+		{Extent 15.6736 23.4446}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol5"
+	{Obb2
+		{Center 0 -10.5369}
+		{Extent 24.2349 103.262}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 270.798 179.127 171.751}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		0.46033	-75.4646	1.1056
+	}
+}
+{Volume "body_vol2"
+	{Box 79.5535 116.433 107.476}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		175.422	-43.3272	-32.0702
+	}
+}
+{Volume "body_vol3"
+	{Box 81.6609 114.852 129.642}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-175.175	-54.4102	-31.0465
+	}
+}
+{Volume "body_vol4"
+	{Box 31.3473 46.8892 70.3338}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-231.498	-24.7557	-8.96815
+	}
+}
+{Volume "body_vol5"
+	{Box 48.4697 206.523 16.859}
+	{Bone "object_1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		0.0980155	1.98152	-0.425649
+	}
+}

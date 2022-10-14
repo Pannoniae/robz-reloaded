@@ -1,0 +1,111 @@
+;Exported by: Vnab
+;Date:        Mon Dec 08 14:22:07 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\Конвертированные\entourage\0ent_vehicle\marine\sampan_jap_wood\sampan_jap_wood.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Position 6.57429	5.62689	163.119}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -7.74228 8.27729}
+		{Extent 32.6181 117}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -6.5549 -115.891}
+		{Extent 16.5463 25.3384}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center -7.29253 -56.0516}
+		{Extent 25.1727 40.4181}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol4"
+	{Obb2
+		{Center -11.8417 -128.708}
+		{Extent 0.974998 1.15227}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol5"
+	{Obb2
+		{Center -16.9379 130.429}
+		{Extent 1.33094 26.159}
+		{Axis 0.970326 0.241802}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 20.3863 73.1248 4.87498}
+	{Bone "group001"}
+	{Matrix34
+		3.2	0	0
+		0	3.2	0
+		0	0	3.2
+		-14.3166	-13.9042	-155.183
+	}
+}
+{Volume "body_vol2"
+	{Box 10.3414 17.1965 3.60382}
+	{Bone "group001"}
+	{Matrix34
+		3.2	0	0
+		0	2.53866	1.94813
+		0	-1.94813	2.53866
+		-13.1292	110.264	-139.442
+	}
+}
+{Volume "body_vol3"
+	{Box 15.7329 25.2613 10.6363}
+	{Bone "group001"}
+	{Matrix34
+		3.2	0	0
+		0	3.2	0
+		0	0	3.2
+		-13.8668	50.4247	-131.096
+	}
+}
+{Volume "body_vol4"
+	{Box 0.609373 0.720169 52.3338}
+	{Bone "group001"}
+	{Matrix34
+		3.2	0	0
+		0	3.2	0
+		0	0	3.2
+		-18.416	123.081	-64.3805
+	}
+}
+{Volume "body_vol5"
+	{Box 0.609373 0.664772 60.4816}
+	{Bone "group001"}
+	{Matrix34
+		3.19311	0	0.209853
+		-0.0523916	3.09867	0.797188
+		-0.203208	-0.798908	3.092
+		-23.5122	-136.056	-54.6102
+	}
+}

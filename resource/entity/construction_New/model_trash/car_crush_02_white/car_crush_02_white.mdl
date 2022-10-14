@@ -1,0 +1,59 @@
+;Exported by: Vnab
+;Date:        Mon May 18 15:53:02 2015
+;File:        C:\Users\Vnab\Desktop\Моддинг\COH нов\Транспорт\car_crush_02_white\car_crush_02_white.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				-0.477159	0.878683	-0.0153374
+				-0.145047	-0.095955	-0.984761
+				-0.866764	-0.467663	0.173236
+				1.72798	2.83512	12.9623
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 0.126324 -1.19623}
+		{Extent 17.7291 30.6635}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 1.46438 -10.674}
+		{Extent 13.715 15.3875}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 1.01309 1.7522 0.567076}
+	{Bone "group001"}
+	{Matrix34
+		-16.7006	-5.07664	-30.3368
+		30.7539	-3.35842	-16.3682
+		-0.536811	-34.4666	6.06326
+		-0.630392	3.30649	1.64157
+	}
+}
+{Volume "body_vol2"
+	{Box 0.783711 0.879286 0.254865}
+	{Bone "group001"}
+	{Matrix34
+		-16.7006	-5.07664	-30.3368
+		30.7539	-3.35842	-16.3682
+		-0.536811	-34.4666	6.06326
+		6.85683	-10.7862	-1.66561
+	}
+}

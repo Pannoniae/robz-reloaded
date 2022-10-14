@@ -6,11 +6,11 @@
 			{emissionarea
 				{radius 1 1}
 				{alpha0 0}
-				{alpha1 100}
+				{alpha1 90}
 			}
 			{particleinit
-				{speed 4 2}
-				{lifetime 72.5 2.5}
+				{speed 5 3}
+				{lifetime 27.5 2.5}
 			}
 			{timetolive 0.1}
 			{particlesinblock 22}
@@ -21,7 +21,6 @@
 				{value 0}
 			}
 			{damping 0.96}
-			{nodependonwind}
 		}
 		{visualizer
 			{stage 
@@ -59,12 +58,12 @@
 			{emissionarea
 				{radius 25 25}
 				{alpha0 0}
-				{alpha1 100}
+				{alpha1 90}
 				{distributionlaw sphere}
 			}
 			{particleinit
-				{speed 1.75 0.75}
-				{lifetime 72.5 2.5}
+				{speed 1.5 1.5}
+				{lifetime 27.5 2.5}
 			}
 			{timetolive 0.1}
 			{particlesinblock 20}
@@ -75,7 +74,6 @@
 				{value 0}
 			}
 			{damping 0.99}
-			{nodependonwind}
 		}
 		{visualizer
 			{stage 
@@ -240,11 +238,11 @@
 			{emissionarea
 				{radius 10 10}
 				{alpha0 0}
-				{alpha1 100}
+				{alpha1 90}
 			}
 			{particleinit
-				{speed 8 4}
-				{lifetime 72.5 2.5}
+				{speed 9 8}
+				{lifetime 27.5 2.5}
 			}
 			{timetolive 0.1}
 			{particlesinblock 20}
@@ -255,7 +253,6 @@
 				{value 0}
 			}
 			{damping 0.9}
-			{nodependonwind}
 		}
 		{visualizer
 			{stage 
@@ -318,11 +315,11 @@
 			{emissionarea
 				{radius 1 1}
 				{alpha0 0}
-				{alpha1 100}
+				{alpha1 90}
 			}
 			{particleinit
-				{speed 1.75 0.75}
-				{lifetime 72.5 2.5}
+				{speed 2 1}
+				{lifetime 27.5 2.5}
 			}
 			{timetolive 0.1}
 			{particlesinblock 20}
@@ -333,7 +330,6 @@
 				{value 0}
 			}
 			{damping 0.985}
-			{nodependonwind}
 		}
 		{visualizer
 			{stage 
@@ -515,7 +511,7 @@
 			}
 			{damping 0.99}
 			{collisions
-				{## objects}
+				{objects}
 				{terrain}
 				{restitution 0.2}
 			}
@@ -554,17 +550,6 @@
 				}
 				{flags ground }
 			}
-		}
-	}
-	{#+ particleview "smoke zone"
-		{entitygenerator
-			{totalparticles 1}
-			{particlesinblock 1}
-			{particleinit
-				{speed 0}
-				{lifetime 0}
-			}
-			{entity "smoke_zone_wp_medium"}
 		}
 	}
 }

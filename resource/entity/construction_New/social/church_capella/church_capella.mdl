@@ -1,0 +1,58 @@
+;Exported by: Vnab
+;Date:        Tue Oct 21 11:19:29 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\Конвертированные\Social\church_capella blr009_chapel2\church_capella.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Position -2.29046	0.00330435	103.098}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 6.89774 -0.246202}
+		{Extent 63.7577 45.9791}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -71.3067 0.547174}
+		{Extent 14.5943 30.2002}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center 42.0178 0.554171}
+		{Extent 12.4655 11.648}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 127.515 91.9582 97.2714}
+	{Bone "object_1"}
+	{Position 9.18819	0.2429	-73.1672}
+}
+{Volume "body_vol2"
+	{Box 29.1887 60.4003 86.6451}
+	{Bone "object_1"}
+	{Position -69.0162	-0.550478	-78.4804}
+}
+{Volume "body_vol3"
+	{Box 24.9309 23.2961 72.8272}
+	{Bone "object_1"}
+	{Position 44.3083	-0.557475	11.7182}
+}

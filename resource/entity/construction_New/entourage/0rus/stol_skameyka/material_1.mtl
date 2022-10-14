@@ -1,0 +1,4 @@
+{material bump
+	{diffuse "env603_washingline"}
+	{blend none}
+}

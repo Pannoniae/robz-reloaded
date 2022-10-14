@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "p25_container_boxcamouflage"}
+	{blend none}
+}

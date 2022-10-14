@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "bazooka_rocket_c"}
+	{blend none}
+}

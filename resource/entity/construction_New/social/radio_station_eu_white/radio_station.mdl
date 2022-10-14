@@ -1,0 +1,54 @@
+;Exported by: Vnab
+;Date:        Thu Dec 11 15:52:57 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\Конвертированные\Social\Radio station\radio_station1.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group01"
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				4.2203	-9.16936	136.055
+			}
+			{VolumeView "group01.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -6.89956 9.08868}
+		{Extent 112.165 49.5114}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 116.361 41.9551}
+		{Extent 14.0721 13.8583}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 224.329 99.0227 67.8489}
+	{Bone "group01"}
+	{Position 11.1199	-0.0806687	-104.701}
+}
+{Volume "body_vol2"
+	{Cylinder 14.0721 53.1789}
+	{Bone "group01"}
+	{Position -112.141	32.7858	-112.036}
+}
+{Volume "body_vol3"
+	{Polyhedron "body_vol3.vol"}
+	{Bone "group01"}
+	{Position 40.2714	-0.949809	-70.5133}
+}

@@ -1,0 +1,6 @@
+{material envmap
+ {diffuse "panzerschreck glass"}
+ {mask "panzerschreck glass"}
+ {envmap "$/environment/envmap_town_day02"}
+ {blend blend}
+}

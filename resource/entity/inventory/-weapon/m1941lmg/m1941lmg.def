@@ -1,0 +1,8 @@
+{Actor
+	(include "/properties/stuff_small.ext")
+	{Extension "m1941lmg.mdl"}
+	{extender "stuff"
+		{item "m1941lmg"}
+	}
+	{nogroupmesh 1}	
+}

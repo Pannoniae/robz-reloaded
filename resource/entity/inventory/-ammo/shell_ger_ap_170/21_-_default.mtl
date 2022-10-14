@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "round_shellout"}
+	{blend none}
+}

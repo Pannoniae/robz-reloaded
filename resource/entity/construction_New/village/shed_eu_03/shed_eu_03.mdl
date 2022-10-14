@@ -1,0 +1,40 @@
+;Exported by: Vnab
+;Date:        Tue Nov 25 14:58:01 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\Модели нов\WOT\здания разн\shed_eu_03 bld708_shed\shed_eu_03.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Matrix34
+				0	-1	0
+				0	0	-1
+				1	0	0
+				-0.655318	-0.478953	-1.63347
+			}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.812143 1.97102}
+		{Extent 55.6746 132.715}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 31.814 75.8374 24.1715}
+	{Bone "object_1"}
+	{Matrix34
+		0	0	3.5
+		-3.5	0	0
+		0	-3.5	0
+		1.49207	-37.7058	-0.156831
+	}
+}

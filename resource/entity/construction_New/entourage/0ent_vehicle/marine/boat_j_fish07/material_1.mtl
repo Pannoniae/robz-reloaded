@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "envja_007_japaneseboot"}
+	{blend none}
+}

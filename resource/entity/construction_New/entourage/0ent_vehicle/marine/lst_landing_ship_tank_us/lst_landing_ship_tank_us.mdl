@@ -1,0 +1,58 @@
+;Exported by: Vnab
+;Date:        Fri Dec 05 14:06:40 2014
+;File:        C:\Users\Vnab\Desktop\Моддинг\МОДЕЛИ Готовые\техника\Marine\lst_Landing Ship_Tank_us\lst_Landing Ship_Tank_us.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Position -7.26888	-71.5925	168.248}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 0.16008 53.8926}
+		{Extent 124.434 709.707}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -1.04851 -392.423}
+		{Extent 45.0079 85.015}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol3"
+	{Obb2
+		{Center -2.97656 60.7952}
+		{Extent 52.748 805.968}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 248.868 1419.41 76.0134}
+	{Bone "group001"}
+	{Position 7.42896	17.7	-131.174}
+}
+{Volume "body_vol2"
+	{Box 90.0159 170.03 100.018}
+	{Bone "group001"}
+	{Position 6.22037	464.016	-59.6923}
+}
+{Volume "body_vol3"
+	{Box 105.496 1611.94 80.0141}
+	{Bone "group001"}
+	{Position 4.29231	10.7974	-129.174}
+}

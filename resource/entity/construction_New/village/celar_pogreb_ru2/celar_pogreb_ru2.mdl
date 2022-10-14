@@ -1,0 +1,44 @@
+;Exported by: Vnab
+;Date:        Wed May 07 12:16:21 2014
+;File:        C:\Users\Vnab\Desktop\mow re\Моддинг\МОДЕЛИ\Готовые\Здания\Россия\celar_pogreb_ru2_blr005\celar_pogreb_ru2.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "object_1"
+			{Position 5.5975	4.30158	19.7001}
+			{VolumeView "object_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 2.46035 1.78761}
+		{Extent 49.5078 61.7425}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center 4.16255 -2.10995}
+		{Extent 13.681 58.3456}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 99.0157 123.485 36.4196}
+	{Bone "object_1"}
+	{Position -3.13716	-6.0892	-16.2024}
+}
+{Volume "body_vol2"
+	{Box 27.3621 116.691 29.5909}
+	{Bone "object_1"}
+	{Position -1.43495	-2.19164	16.508}
+}

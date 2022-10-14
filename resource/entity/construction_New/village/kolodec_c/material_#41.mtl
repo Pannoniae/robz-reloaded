@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "ston_bricks6"}
+	{blend none}
+}

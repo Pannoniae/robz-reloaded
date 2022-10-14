@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "mle031_airplane1"}
+	{blend none}
+}
