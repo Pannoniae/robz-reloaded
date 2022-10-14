@@ -1,0 +1,6 @@
+{bitmap
+	{Axis 64 64}
+	{Filtering 1}
+	{Blend Alpha}
+	{Frame "ally.dds"}
+}

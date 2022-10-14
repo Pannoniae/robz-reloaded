@@ -1,0 +1,56 @@
+This sub-mod is a gargantuan, gross, bloated, monolithic, kleptomaniacal agglomeration of other mod assets. I know.
+
+All accredations can be found below, whether from the original Emergence mod by Alice/Asada556 or otherwise.
+
+**ORIGINAL EMERGENCE CREDIT FILE CONTENTS**
+
+List of credits to all the asset owners and stuff:
+
+Co-authors for their additional assets and assistance. Ho-RI did many of the Japanese stuff, DYllan and Heinrich did useful additions such as the M9 Bazooka other than Post War/Prototype for fun and giggles
+
+- RobZ for his great mod ofc
+- Ty for the transparent HUD
+- Asureka for extra vehicle skins
+- mandingo for humanskins and aesthetics
+- XxWarrior250xX for animation and miscelanneous helps
+- Rex for peeking from corner animations
+- ComradIvan for Hungarian skins
+- GSM mod for additional content
+- MILES for providing the baseline for my patches
+- [IJA] Colonel Autumn and The Rising Sun mod for Japanese and additional pacific theater assets
+- Call to Arms for some animations and icons
+- VanRaygo for textures
+- A Mild Disturbed hans/Paper Panzers for support
+- Terminator for additional vehicle skins for RobZ Realism
+- Authors of the added additional maps
+- ASV/UMW40K team for some coding assets
+- Editor menu transparent skin by kill_time/lenin_cat
+- Colonel Rooster for blood FX
+- Wulfgang for new sounds
+- Other games for additional sounds
+- Iraqveteran8888's YouTube channel for PPS-43 firing sound (need redone)
+- BaDTargetRus for ROA skins
+- Wigga for assets
+- Military Amino members for firearms technical details and info
+- Any other that I either may have forgotten or unable to contact, apologies, but if I know who made the assets I'll be sure to list them
+
+*************************************************************************************************************************************************************************************************************************************
+
+Assets borrowed from the Interwar mod (highly recommend you play it), compiled by Colonel Rooster.
+
+-Rick for the 1883, some bitfa guns, flora, some other assets, and skyboxes
+-Microsoftman and BoE team for equipment and fx from gwr, and for vehicles
+-viper, Herr, Stranger, cule, Nam and sundiata
+-Viper, Nam and Rick
+-Axel.m54140
+-Holborn
+-Justano
+-Grumpy's CTA ported verdun
+-Chakal's big north africa map which is featured as Rifrepublic
+-Anamath's grass mod
+-U929's war thunder models from Gaijin
+-old boy for allowing me use of some of his maps :D
+-Signore Bloodmoon for allowing use to redo his Sarrish map to Mexico
+-Autumn and the R.S team
+-Ruemc and Billnye
+

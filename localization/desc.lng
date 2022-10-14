@@ -2085,8 +2085,8 @@
 		}
 	}
 	{"squad"
-		(include "desc_doctrine_usa.inc")
-		(include "desc_doctrine_ger.inc")
+		;(include "desc_doctrine_usa.inc")
+		;(include "desc_doctrine_ger.inc")
 		{"paramarines(usa)" "Paramarine squad"}
 		{"paramarines_drop(usa)" " Paradropped Paramarine squad"}
 		{"elites_101st(usa)" "101st Airborne squad"}

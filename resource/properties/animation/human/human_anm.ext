@@ -23,10 +23,10 @@
 	{blend "pose_lie_mgun" 			{pose "lie_from_squat_mgun" end}}
 	{blend "pose_lie_bazooka"		{pose "lie_reload_bazooka" end}}
 
-	{blend "pose_snipe_pistol" 		{pose "snipe_take_pistol" end}}
-	{blend "pose_snipe_gun" 		{pose "cover_from_snipe_gun" begin}}
+	;{blend "pose_snipe_pistol" 		{pose "snipe_take_pistol" end}}
+	;{blend "pose_snipe_gun" 		{pose "cover_from_snipe_gun" begin}}
 
-	{blend "pose_stand_pistol_up" 	{pose "stand_take_pistol_up_end" end}}
+	;{blend "pose_stand_pistol_up" 	{pose "stand_take_pistol_up_end" end}}
 	{blend "pose_stand_empty_1" 	{pose "stand_idle_empty_1" begin}}
 	{blend "pose_stand_strap_1" 	{pose "stand_idle_strap_1" begin}}
 	{blend "pose_stand_bazooka" 	{pose "stand_take_bazooka" end}}
@@ -35,7 +35,20 @@
 	{blend "pose_stand_corpse" 		{pose "stand_drop_corpse" begin}}
 	{blend "pose_stand_flag" 		{pose "stand_flag" end}}
 	{blend "pose_stand_down" 		{pose "stand_down" begin}}
-	{blend "pose_stand_gun_down" 	{pose "stand_take_gun_down" end}}
+	;{blend "pose_stand_gun_down" 	{pose "stand_take_gun_down" end}}
+
+; ==========================================================================================================================================
+; WARRIOR250 Cover Anim Pose - Modified poses for cover animations.
+;  Put a semicolon ";" next to the "{sequence" when the chosen animation is active above and vice-versa.
+; Pose animation (Guns)
+	{blend "pose_snipe_pistol" 		{pose "stand_fire_pistol_up" end}}
+	{blend "pose_snipe_gun" 		{pose "stand_reload_piat" end}}
+
+	{blend "pose_stand_pistol_up" 	{pose "stand_fire_pistol_up" end}}
+	{blend "pose_stand_gun_down" 	{pose "stand_fire_pistol_down" end}}
+	
+; Footnotes: Up = Upper Body/Torso, Down = Below the Pelvis and Legs.	
+; ==========================================================================================================================================
 
 	{blend "pose_squat_empty" 		{pose "squat_from_stand_empty" end}}
 	{blend "pose_squat_bazooka" 	{pose "squat_take_bazooka" end}}
@@ -180,9 +193,77 @@
 	{sequence "stand_giveup_1" {speed 1}}
 	{sequence "stand_giveup_2" {speed 1}}
 
-    {sequence "lie_sleep_idle_1" {smooth 0.1}}                                        
-    {sequence "lie_sleep_idle_2" {smooth 0.1}}                                        
-    {sequence "idle_passive_squat_ground_gun_strap_sleep" {smooth 0.1}}   
+    	{sequence "lie_sleep_idle_1" {smooth 0.1}}                                        
+    	{sequence "lie_sleep_idle_2" {smooth 0.1}}                                        
+    	{sequence "idle_passive_squat_ground_gun_strap_sleep" {smooth 0.1}}
+	
+	{sequence "idle\idle_passive_squat_ground_gun_strap_simple1"}
+    	{sequence "idle\idle_passive_squat_ground_gun_strap_scratch"}
+	{sequence "idle\idle_passive_squat_ground_gun_strap_simple2"}
+	{sequence "idle\idle_passive_squat_ground_gun_strap_simple3"}
+	{sequence "idle\idle_passive_squat_ground_gun_strap_sleep"}
+	{sequence "idle\idle_passive_squat_ground_gun_strap_smoke"}
+	{sequence "idle\idle_passive_squat_gun_aside_drop"}
+	{sequence "idle\idle_passive_squat_gun_aside_fals_alarm"}
+	{sequence "idle\idle_passive_squat_gun_aside_ground_test"}
+	{sequence "idle\idle_passive_squat_gun_aside_gun_test1"}
+	{sequence "idle\idle_passive_squat_gun_aside_gun_test2"}
+	{sequence "idle\idle_passive_squat_gun_aside_look_around"}
+	{sequence "idle\idle_passive_squat_wall_gun_aside_simple1"}
+	{sequence "idle\idle_passive_squat_wall_gun_aside_simple2"}
+	{sequence "idle\idle_passive_squat_wall_gun_aside_sleep"}
+	{sequence "idle\idle_passive_stand_gun_strap_gun_test"}
+	{sequence "idle\idle_passive_stand_gun_strap_lace"}
+	{sequence "idle\idle_passive_stand_gun_strap_self_clean"}
+	{sequence "idle\idle_passive_stand_gun_strap_simple_long"}
+	{sequence "idle\idle_passive_stand_gun_strap_simple3"}
+	{sequence "idle\idle_squat_from_stand_ground_gun_strap"}
+	{sequence "idle\idle_squat_from_stand_gun_aside"}
+	{sequence "idle\idle_squat_from_stand_wall_gun_aside"}
+	{sequence "idle\idle_stand_from_squat_ground_gun_strap"}
+	{sequence "idle\idle_stand_gun_aside_test"}
+	{sequence "idle\idle_stand_listen_gun_aside_1"}
+	{sequence "idle\idle_stand_listen_gun_aside_2"}
+	{sequence "idle\idle_stand_listen_gun_aside_3"}
+	{sequence "idle\idle_stand_listen_gun_aside_4"}
+	{sequence "idle\idle_stand_listen_gun_strap_1"}
+	{sequence "idle\idle_stand_listen_gun_strap_2"}
+	{sequence "idle\idle_stand_listen_gun_strap_3"}
+	{sequence "idle\idle_stand_listen_gun_strap_4"}
+	{sequence "idle\idle_stand_listen_gun_strap_5"}
+	{sequence "idle\idle_stand_listen_gun_strap_6"}
+	{sequence "idle\idle_stand_talk_gun_aside_1"}
+	{sequence "idle\idle_stand_talk_gun_aside_2"}
+	{sequence "idle\idle_passive_squat_ground_gun_strap_ground_test"}
+	{sequence "idle\idle_passive_stand_gun_strap_warming"}
+	{sequence "idle\idle_passive_stand_gun_strap_watch_test"}
+	{sequence "idle\idle_passive_stand_wall_gun_aside_1"}
+	{sequence "idle\idle_passive_stand_wall_gun_aside_2"}
+	{sequence "idle\idle_stand_talk_gun_aside_3"}
+	{sequence "idle\idle_stand_talk_gun_aside_4"}
+	{sequence "idle\idle_stand_talk_gun_aside_5"}
+	{sequence "idle\idle_stand_talk_gun_aside_6"}
+	{sequence "idle\idle_stand_talk_gun_strap_1"}
+	{sequence "idle\idle_stand_talk_gun_strap_2"}
+	{sequence "idle\idle_stand_talk_gun_strap_3"}
+	{sequence "idle\idle_stand_talk_gun_strap_4"}
+	{sequence "idle\idle_walk_listen_left_gun_strap_1"}
+	{sequence "idle\idle_walk_listen_left_gun_strap_2"}
+	{sequence "idle\idle_walk_listen_left_gun_strap_3"}
+	{sequence "idle\idle_walk_listen_left_gun_strap_4"}
+	{sequence "idle\idle_walk_listen_right_gun_strap_1"}
+	{sequence "idle\idle_walk_listen_right_gun_strap_2"}
+	{sequence "idle\idle_walk_listen_right_gun_strap_3"}
+	{sequence "idle\idle_walk_listen_right_gun_strap_4"}
+	{sequence "idle\idle_walk_talk_left_gun_strap_1"}
+	{sequence "idle\idle_walk_talk_left_gun_strap_2"}
+	{sequence "idle\idle_walk_talk_left_gun_strap_3"}
+	{sequence "idle\idle_walk_talk_left_gun_strap_4"}
+	{sequence "idle\idle_walk_talk_right_gun_strap_1"}
+	{sequence "idle\idle_walk_talk_right_gun_strap_2"}
+	{sequence "idle\idle_walk_talk_right_gun_strap_3"}
+	{sequence "idle\idle_walk_talk_right_gun_strap_4"}                                     
+   
 
 	; STAND OPERATIONS
 	{sequence "stand_from_lie_back"  {speed 0.6}  {smooth 0.2}}
@@ -190,7 +271,7 @@
 	{sequence "stand_down"}
 	{sequence "stand_put_small" {speed 1.2}}
 	{sequence "stand_take_small" {speed 1.2}}
-	{sequence "stand_take_gun_down"}
+	;{sequence "stand_take_gun_down"}
 	{sequence "stand_take_gun_up"}
 	{sequence "stand_take_mgun_up"}
 	{sequence "stand_take_mgun_down"}
@@ -227,37 +308,80 @@
 	{sequence "corpse_lift"}
 
 	; stand fire
-	{sequence "stand_fire_pistol" 	{speed 5.0}}
+	;{sequence "stand_fire_pistol" 	{speed 5.0}}
 	{sequence "stand_fire_bazooka"}
 
 	; stand fire new
-	{sequence "stand_assault-fire_gun_up"		{speed 4}}
-	{sequence "stand_assault-fire_gun_down"		{speed 4}}
-	{sequence "stand_assault-fire_gun_up_1"		{speed 4}}
-	{sequence "stand_assault-fire_gun_down_1"	{speed 4}}
-	{sequence "stand_assault-fire_rifle_up"		{speed 2}}
-	{sequence "stand_assault-fire_rifle_down"	{speed 2}}
+	;{sequence "stand_assault-fire_gun_up"		{speed 4}}
+	;{sequence "stand_assault-fire_gun_down"		{speed 4}}
+	;{sequence "stand_assault-fire_gun_up_1"		{speed 4}}
+	;{sequence "stand_assault-fire_gun_down_1"	{speed 4}}
+	;{sequence "stand_assault-fire_rifle_up"		{speed 2}}
+	;{sequence "stand_assault-fire_rifle_down"	{speed 2}}
 
-	{sequence "stand_fire_gun_down_1" 	{speed 4}}
-	{sequence "stand_fire_gun_down"  	{speed 4}}
-	{sequence "stand_fire_gun_up"  		{speed 4}}
-	{sequence "stand_fire_gun_up_1" 	{speed 4}}
-	{sequence "stand_fire_gun_up_old"	{speed 4}}
-	{sequence "stand_fire_mgun_up_old"	{speed 4}}
-	{sequence "stand_fire_rifle_up"		{speed 2}}
-	{sequence "stand_fire_rifle_down"	{speed 2}}
+	;{sequence "stand_fire_gun_down_1" 	{speed 4}}
+	;{sequence "stand_fire_gun_down"  	{speed 4}}
+	;{sequence "stand_fire_gun_up" 		{speed 4}}
+	;{sequence "stand_fire_gun_up_1" 	{speed 4}}
+	;{sequence "stand_fire_gun_up_old"	{speed 4}}
+	;{sequence "stand_fire_mgun_up_old"	{speed 4}}
+	;{sequence "stand_fire_rifle_up"		{speed 2}}
+	;{sequence "stand_fire_rifle_down"	{speed 2}}
 
-	{sequence "stand_fire_mgun_down"  	{speed 4}}
-	{sequence "stand_fire_mgun_down_1"  {speed 4}}
-	{sequence "stand_fire_mgun_up"		{speed 4}}
-	{sequence "stand_fire_mgun_up_1" 	{speed 4}}
+	;{sequence "stand_fire_mgun_down"  	{speed 4}}
+	;{sequence "stand_fire_mgun_down_1"  {speed 4}}
+	;{sequence "stand_fire_mgun_up"		{speed 4}}
+	;{sequence "stand_fire_mgun_up_1" 	{speed 4}}
 
-	{sequence "stand_fire_pistol_down"	{speed 2}}
-	{sequence "stand_fire_pistol_up"	{speed 2}}
-	{sequence "stand_fire_pistol_down_1"}
-	{sequence "stand_fire_pistol_down_2"}
-	{sequence "stand_fire_pistol_up_1"}
-	{sequence "stand_fire_pistol_up_2"}
+	;{sequence "stand_fire_pistol_down"	{speed 2}}
+	;{sequence "stand_fire_pistol_up"	{speed 2}}
+	;{sequence "stand_fire_pistol_down_1"}
+	;{sequence "stand_fire_pistol_down_2"}
+	;{sequence "stand_fire_pistol_up_1"}
+	;{sequence "stand_fire_pistol_up_2"}
+	
+; ==========================================================================================================================================
+; WARRIOR250 Fire Anm Fix - This is so you can play the Animation in the Editor, in-game use by Human unaffected; built on stand.inc framework.
+;  Put a semicolon ";" next to the "{sequence" when the chosen animation is active above and vice-versa.
+; Direct Control (Moving)
+	{sequence "stand_fire_pistol-simulate" 	{speed 5.0} {file "stand_fire_pistol.anm"}}
+	{sequence "stand_fire_gun_up_old-simulate"	{speed 4} {file "stand_fire_gun_up_old.anm"}}
+	{sequence "stand_fire_mgun_up_old-simulate"	{speed 4} {file "stand_fire_mgun_up_old.anm"}}
+	
+; Standard Fire Animations
+	{sequence "stand_fire_gun_up-simulate"  	{speed 4} {file "stand_fire_gun_up.anm"}}
+	{sequence "stand_fire_gun_up_1-simulate" 	{speed 4} {file "stand_fire_gun_up_1.anm"}}
+
+; Smoother Fire Animations 
+	{sequence "stand_assault-fire_gun_up"		{speed 1.7} {smooth 1}}
+	{sequence "stand_assault-fire_gun_down"		{speed 1.5} {smooth 1}}
+	{sequence "stand_assault-fire_gun_up_1"		{speed 1.6} {smooth 1}}
+	{sequence "stand_assault-fire_gun_down_1"	{speed 1.5} {smooth 1}}
+	{sequence "stand_assault-fire_rifle_up"		{speed 1.4} {smooth 1}}
+	{sequence "stand_assault-fire_rifle_down"	{speed 1.4} {smooth 1}}
+	
+	{sequence "stand_fire_gun_down_1" 	{speed 1.6} {smooth 1}}
+	{sequence "stand_fire_gun_down"  	{speed 1.7} {smooth 1}}
+	{sequence "stand_fire_rifle_up"		{speed 1.3} {smooth 1}}
+	{sequence "stand_fire_rifle_down"	{speed 1.4} {smooth 1}}
+	
+	{sequence "stand_fire_mgun_down"  	{speed 1.4} {smooth 1}}
+	{sequence "stand_fire_mgun_down_1"  {speed 1.4} {smooth 1}}
+	{sequence "stand_fire_mgun_up" 	{speed 1.4} {smooth 1}}
+	{sequence "stand_fire_mgun_up_1" 	{speed 1.4} {smooth 1}}
+
+	{sequence "stand_fire_pistol_down"	{speed 1.4} {smooth 1}}
+	{sequence "stand_fire_pistol_up"	{speed 1.4} {smooth 1}}
+	{sequence "stand_fire_pistol_down_1" {smooth 1}}
+	{sequence "stand_fire_pistol_down_2" {smooth 1}}
+	{sequence "stand_fire_pistol_up_1" {smooth 1}}
+	{sequence "stand_fire_pistol_up_2" {smooth 1}}
+
+; Miscellanous
+	{sequence "stand_take_gun_down" {file "stand_take_mgun_down.anm"}}
+	
+; Footnotes: Up = Upper Body/Torso, Down = Below the Pelvis and Legs.	
+; ==========================================================================================================================================
 
 	; step aside
 	{blend "pose_step_aside_left"  		{pose "stand_step_aside_left" end}}
@@ -301,21 +425,7 @@
 	{sequence "walk_giveup_1" 			{speed 1} {resume}}
 	{sequence "walk_giveup_2" 			{speed 1} {resume}}
 
-	; run slow
-	{sequence "run_slow_down"		{resume}}
-	{sequence "run_slow_down_1"		{resume}}
-	{sequence "run_slow_empty_up"	{resume}}
-	{sequence "run_slow_gun_up"		{resume}}
-	{sequence "run_slow_strap_up"	{resume}}
 
-	; run normal
-	{sequence "run_down"				{speed 0.55} {resume}}
-	{sequence "run_empty_up"			{speed 0.55} {resume}}
-	{sequence "run_strap_up"			{speed 0.55} {resume}}
-	{sequence "run_gun_up"				{speed 0.55} {resume}}
-	{sequence "run_flag_up" 			{speed 0.55} {resume}}
-	{sequence "run_flag_down"			{speed 0.55} {resume}}
-	
 	{sequence "walk_normal_pistol_down"	{speed 1.00} {resume}}
 	{sequence "walk_normal_pistol_up"	{speed 1.00} {resume}}
 	{sequence "walk_normal_mgun_down"	{speed 1.00} {resume}}
@@ -324,6 +434,22 @@
 	{sequence "walk_normal_gun_up"		{speed 1.00} {resume}}
 	{sequence "walk_normal_gun_down_2"	{speed 1.00} {resume}}
 	{sequence "walk_normal_gun_up_2"	{speed 1.00} {resume}}
+
+
+	; run slow
+	{sequence "run_slow_down"		{resume}}
+	{sequence "run_slow_down_1"		{resume}}
+	{sequence "run_slow_empty_up"	{resume}}
+	{sequence "run_slow_gun_up"		{resume}}
+	{sequence "run_slow_strap_up"	{resume}}
+
+	; run normal
+	{sequence "run_down" 		{speed 0.55} {resume}}
+	{sequence "run_empty_up" 	{speed 0.55} {resume}}
+	{sequence "run_strap_up" 	{speed 0.55} {resume}}
+	{sequence "run_gun_up" 		{speed 0.55} {resume}}
+	{sequence "run_flag_up" 		{speed 0.55} {resume}}
+	{sequence "run_flag_down" 		{speed 0.55} {resume}}
 
 ; 	run backward - for manual control
 ;	{sequence "run_back_down"}
@@ -380,45 +506,45 @@
 
 	; DYING
 	{smooth 0.5}
-	{sequence "stand_die_back_1"	{movement}}
-	{sequence "stand_die_back_2"	{movement}}
-	{sequence "stand_die_back_3"	{movement}}
-	{sequence "stand_die_back_4"	{movement}}
+	{sequence "stand_die_back_1"	{movement} {smooth 0.1} {dynamicSpeed {0 20 0.9} {21 75 0.3}}}
+	{sequence "stand_die_back_2"	{movement} {speed 1} {smooth 0.11}}
+	{sequence "stand_die_back_3"   {movement} {speed 0.3}}
+	{sequence "stand_die_back_4"   {movement}}
 	{sequence "stand_die_back_5"	{movement}}
-    {sequence "stand_die_front_1"   {movement}}
+   	{sequence "stand_die_front_1"  {movement}}
 	{sequence "stand_die_front_2"   {movement}}
-	{sequence "stand_die_front_3"   {movement}}
+	{sequence "stand_die_front_3"   {movement} {smooth 0.4} {dynamicSpeed {0 30 0.8} {31 70 0.25}{71 90 0.45}}}
 	{sequence "stand_die_front_4"   {movement}}
 
-	{sequence "stand_die_back_4_blast" {movement} {speed 1.3} {file "stand_die_back_4.anm"}}
-	{sequence "stand_die_back_5_blast" {movement} {speed 1.3} {file "stand_die_back_5.anm"}}
-    {sequence "stand_die_front_1_blast" {movement} {speed 1.3} {file "stand_die_front_1.anm"}}
-    {sequence "stand_die_front_2_blast" {movement} {speed 1.3} {file "stand_die_front_2.anm"}}
-    {sequence "Stand_die-force_back_1"     {movement} {speed 1.3}}
-    {sequence "Stand_die-force_back_2_far" {movement} {speed 1.3}}
-    {sequence "Stand_die-force_back_3_far" {movement} {speed 1.3}}
-    {sequence "Stand_die-force_front_1"     {movement} {speed 1.3}}
-    {sequence "Stand_die-force_front_2"     {movement} {speed 1.3}}
-    {sequence "Stand_die-force_front_3_far" {movement} {speed 1.3}}
-    {sequence "Stand_die-force_front_4_far" {movement} {speed 1.3}}
+	{sequence "stand_die_back_4_blast" {movement} {speed 1.6} {file "stand_die_back_4.anm"}}
+	{sequence "stand_die_back_5_blast" {movement} {speed 1.6} {file "stand_die_back_5.anm"}}
+    {sequence "stand_die_front_1_blast" {movement} {speed 1.6} {file "stand_die_front_1.anm"}}
+    {sequence "stand_die_front_2_blast" {movement} {speed 1.6} {file "stand_die_front_2.anm"}}
+    {sequence "Stand_die-force_back_1"     {movement} {speed 0.9}}
+    {sequence "Stand_die-force_back_2_far" {movement} {speed 0.9}}
+    {sequence "Stand_die-force_back_3_far" {movement} {speed 0.9}}
+    {sequence "Stand_die-force_front_1"     {movement} {speed 0.8}}
+    {sequence "Stand_die-force_front_2"     {movement} {speed 0.8}}
+    {sequence "Stand_die-force_front_3_far" {movement} {speed 0.7}}
+    {sequence "Stand_die-force_front_4_far" {movement} {speed 0.7}}
 
 	{sequence "stand_die_drowin" }
-	{sequence "stand_die_trench_1"		{speed 0.9}}
-	{sequence "stand_die_trench_2"		{speed 0.9}}
-	{sequence "stand_die_trench_3"		{speed 1.2}}
+	{sequence "stand_die_trench_1"		{speed 0.4}}
+	{sequence "stand_die_trench_2"		{speed 0.4}}
+	{sequence "stand_die_trench_3"		{speed 1.5}}
 
-	{sequence "stand_scenic-die_front_1"{movement} {speed 1.3}}
-	{sequence "stand_scenic-die_front_2"{movement} {speed 1.3} {dynamicSpeed {0 42 2} {42 60 1.15}}}
-	{sequence "stand_scenic-die_back_1"	{movement} {speed 1.3}}
-	{sequence "stand_scenic-die_back_2"	{movement} {speed 1.3} {dynamicSpeed {0 50 1.7}}}
-	{sequence "stand_die_spot"	 {smooth 0} {dynamicSpeed {40 50 0.6}}}
-	{sequence "stand_die_spot_1" {smooth 0} {dynamicSpeed {40 50 0.7}}}
+	{sequence "stand_scenic-die_front_1"{movement} {speed 0.9}}
+	{sequence "stand_scenic-die_front_2"{movement} {speed 0.7} {dynamicSpeed {0 42 2} {42 60 1.15}}}
+	{sequence "stand_scenic-die_back_1"	{movement} {speed 0.9}}
+	{sequence "stand_scenic-die_back_2"	{movement} {speed 0.6} {dynamicSpeed {0 50 1.7}}}
+	{sequence "stand_die_spot"	 {movement} {smooth 0.1} {dynamicSpeed {0 30 0.9} {31 90 0.2}}}
+	{sequence "stand_die_spot_1" {movement} {smooth 0.1} {dynamicSpeed {0 30 0.9} {31 90 0.2}}}
 
 	{sequence "squat_die" {speed 0.6} {movement}}
-	{sequence "squat_die_front"		{speed 1.0} {movement}}
-	{sequence "squat_die_back_1"	{speed 1.0} {movement}}
-	{sequence "squat_die_back_2"	{speed 1.0} {movement}}
-	{sequence "squat_die_force-back"{speed 1.0} {movement}}
+	{sequence "squat_die_front"		{speed 0.8} {movement}}
+	{sequence "squat_die_back_1"	{speed 1.0} {smooth 0.4} {dynamicSpeed {0 30 0.8} {31 70 0.25}{71 90 0.45}}}
+	{sequence "squat_die_back_2"	{speed 0.9} {movement}}
+	{sequence "squat_die_force-back"{speed 0.8} {movement}}
 
 	{sequence "lie_die_drowin"}
 	{sequence "lie_die"}
@@ -478,12 +604,24 @@
 	{sequence "squat_fire_bazooka" {speed 2.1}}
 
 	; squat fire new
-	{sequence "squat_assault-fire_gun"}
-	{sequence "squat_assault-fire_rifle"}
-	{sequence "squat_fire_gun"}
-	{sequence "squat_fire_rifle"}
-	{sequence "squat_fire_pistol"}
-	{sequence "squat_fire_pistol_1"}
+	;{sequence "squat_assault-fire_gun"}
+	;{sequence "squat_assault-fire_rifle"}
+	;{sequence "squat_fire_gun"}
+	;{sequence "squat_fire_rifle"}
+	;{sequence "squat_fire_pistol"}
+	;{sequence "squat_fire_pistol_1"}
+	
+; ==========================================================================================================================================
+; WARRIOR250 Smoother Squat Fire - Makes Squat firing smooth.
+; Squat Fire Animations
+	{sequence "squat_assault-fire_gun" {smooth 1}}
+	{sequence "squat_assault-fire_rifle" {smooth 1}}
+	{sequence "squat_fire_gun" {smooth 1}}
+	{sequence "squat_fire_rifle" {smooth 1}}
+	{sequence "squat_fire_pistol" {smooth 1}}
+	{sequence "squat_fire_pistol_1" {smooth 1}}
+
+; ==========================================================================================================================================
 
 	; LIE
 	{sequence "crawl" {resume} {speed 0.85}}    
@@ -494,7 +632,7 @@
 	{sequence "lie_from_squat_gun" {speed 0.8}}
 	{sequence "lie_reload_gun" {speed 0.4} {dynamicSpeed {0 10 0.6} {10 15 0.3}}}
 	{sequence "lie_take_gun" {speed 0.25}}
-	{sequence "lie_fire_gun" {speed 2.1}}
+	;{sequence "lie_fire_gun" {speed 2.1}}
 	{sequence "lie_holdback_gun"}
 	{sequence "lie_from_squat_mgun" {speed 0.8}}
 	{sequence "lie_reload_mgun" {speed 0.4} {dynamicSpeed {0 10 0.6} {10 15 0.3} {25 27 0.2}}}
@@ -502,10 +640,10 @@
 	{sequence "lie_reload_piat" {speed 1}}
 	{sequence "lie_fire_bazooka" {speed 1}}
 	{sequence "lie_take_mgun" {speed 0.25}}
-	{sequence "lie_fire_mgun" {speed 2.1}}
+	;{sequence "lie_fire_mgun" {speed 2.1}}
 	{sequence "lie_from_squat_pistol" {speed 0.8}}
 	{sequence "lie_take_pistol" {speed 0.6}}
-	{sequence "lie_fire_pistol"}
+	;{sequence "lie_fire_pistol"}
 	{sequence "lie_reload_pistol" {speed 0.4} {dynamicSpeed {0 10 0.6} {10 15 0.3}}}
 	{sequence "lie_holdback_pistol"}
 	{sequence "lie_take_small" {speed 0.6}}
@@ -523,13 +661,22 @@
 	{sequence "lie_rotate_l45_gun" {movement}}
 	{sequence "lie_rotate_r45_gun" {movement}}
 	{sequence "lie_grenade_alert"{smooth 0.1} {speed 1.0} {movement}}
+	
+; ==========================================================================================================================================
+; WARRIOR250 Smoother Lie Fire - Makes firing animation while lying smooth.
+; Lie Fire Animations
+	{sequence "lie_fire_gun" {speed 1.4} {smooth 1}}
+	{sequence "lie_fire_mgun" {speed 1.4} {smooth 1}}
+	{sequence "lie_fire_pistol" {smooth 1}}
+
+; ==========================================================================================================================================
 
 	; RLOOK / LLOOK
-	{sequence "rlook_gun"		{movement} {speed 1.2}}
-	{sequence "llook_gun" 		{movement} {speed 1.2}}
-	{sequence "rlook_pistol"	{movement} {speed 1.2}}
-	{sequence "llook_pistol" 	{movement} {speed 1.2}}
-	{sequence "rlook_item" 		{movement} {speed 1.2}}
+	{sequence "rlook_gun"		{movement} {speed 1.8}}
+	{sequence "llook_gun" 		{movement} {speed 1.8}}
+	{sequence "rlook_pistol"	{movement} {speed 1.8}}
+	{sequence "llook_pistol" 	{movement} {speed 1.8}}
+	{sequence "rlook_item" 		{movement} {speed 1.8}}
 	{sequence "rlook_throw_item_begin" {pinback 2}}
 	{sequence "rlook_throw_item_end" {pinback 2}}
 	{sequence "llook_item" 		{movement}}
@@ -549,12 +696,20 @@
 
 	; SNIPE/COVER
 	{sequence "snipe_take_pistol"}
-	{sequence "cover_from_stand_empty" {movement} {speed 1.25} {smooth 0.8}}
-	{sequence "cover_from_snipe_gun" {movement} {speed 1.25} {smooth 0.8}}
+	;{sequence "cover_from_stand_empty" {movement} {speed 1.25} {smooth 0.8}}
+	;{sequence "cover_from_snipe_gun" {movement} {speed 1.25} {smooth 0.8}}
 	{sequence "cover_from_snipe_gun_for_wind" {file "cover_from_snipe_gun.anm"}}
 	{sequence "cover_grenade_alert_left" {speed 1.25} {smooth 0.2}}
 	{sequence "cover_grenade_alert_left_gun" {speed 1.25} {smooth 0.2}}
 	{sequence "cover_grenade_alert_right_gun" {speed 1.25} {smooth 0.2}}
+	
+; ==========================================================================================================================================
+; WARRIOR250 Cover Mod Edit - This leaves the original value only disabled, edited values are here. Renders the anm files obsolete.
+; Cover Mod (Chest-high)
+	{sequence "cover_from_stand_empty" {movement} {speed 1.5} {smooth 0.8} {file "squat_from_stand_empty.anm"}}
+	{sequence "cover_from_snipe_gun" {movement} {speed 1.5} {smooth 0.8} {file "squat_holdback_gun.anm"}}
+	
+; ==========================================================================================================================================
 
 	; SWIM
 	{sequence "swim_from_stand_gun" {movement} {speed 0.7} {smooth 0.3}}
@@ -656,6 +811,7 @@
 	{sequence "board_MiddleArmor"}	
 	{sequence "board_hetzer"}
 	{sequence "board_isu-152"}
+	{sequence "board_horse" {speed 0.5} {dynamicSpeed {0.12 1 10}}}
 
 	{sequence "emit_tank_1"}
 	{sequence "emit_tank_1_hold"}
@@ -686,6 +842,7 @@
 	{sequence "seat_crew_cannon1"}
 	{sequence "seat_driver_car"}
 	{sequence "seat_driver_moto"}
+	{sequence "seat_horse_driver"}
 	{sequence "seat_gunner_moto"}
 	{sequence "seat_gunner_stand"}
 	{sequence "seat_passenger"}
@@ -705,6 +862,21 @@
 	{sequence "seat_wc55_com"}
 	{sequence "seat_sd251_mgunner"}
 	{sequence "seat_willysat_basooker"}
+	{sequence "seat_horse"}
+	;-----------------------------------
+	{sequence "go-cart-seat"}
+	{sequence "go-cart-seat1"}
+	{sequence "go-cart-seat2"}
+	{sequence "jp_down"}
+	{sequence "jp_stand"}
+	{sequence "jp_stand1"}
+	{sequence "kangqiang"}
+	{sequence "mgun92gunner"}
+	{sequence "post_bammo"}
+	{sequence "wood_ship_an"}
+	{sequence "wood_ship_board"}
+	{sequence "wood_ship_down"}
+	;-------------------------------------
 	{blend 	  "seat_torpedo" {pose "lie_holdback_gun" end}}		
 
 	{sequence "Cannon_pak40_charger"  {speed 0.9}  {smooth 0.1}}
@@ -795,5 +967,415 @@
 	{sequence "board_Dodge_sg"				{speed 1}}
 	{sequence "dodge_sg_reload_bazooka"		{speed 1}}
 	{sequence "dodge_sg_reload_mgun"		{speed 1}}
+	
+	{sequence "garpun_spusk"		{speed 0.4}}
+	{sequence "garpun_podem"		{speed 0.4}}
+	{sequence "garpun_teleport"	{movement} {speed 10.5}}
+        
+           ; custom
+	{sequence "testlol" {speed 1.6} {movement}}
+	{sequence "pose-idlegun1"		{speed 0.3}}
+	{sequence "bolt_rifle"		{smooth 0.1} {speed 0.4} {resume}}
+	{sequence "pose-idlegun2"		{speed 0.3}}
+	{sequence "pose-idlegun3"		{speed 0.3}}
+	{sequence "pose_campfire_sit1"		{speed 0.2}}
+	{sequence "pose_campfire_sit2"		{speed 0.2}}
+	{sequence "pose_stand_armed1"		{speed 0.29}}
+	{sequence "pose_stand_armed2"		{speed 0.29}}
+	{sequence "pose_stand_armed3"		{speed 0.49}}
+	{sequence "pose_holdup_surrender"		{speed 0.45}}
+	{sequence "pose_holdup_surrender2"		{speed 0.45}}
+	{sequence "pose_holdup_surrender_down"		{speed 0.5}}
+	{sequence "pose_holdup_surrender_down_death"		{speed 0.5}}
+	{sequence "pose_campfire_guitar"		{speed 0.25}}
+	{sequence "pose_campfire_guitar_pre"		{speed 0.25}}
+	{sequence "pose_monolith_pray"		{speed 0.25}}
+	{sequence "pose-hostage-ground"		{speed 0.2}}
+	{sequence "pose-humanshield-hostage"		{speed 0.3}}
+	{sequence "pose-humanshield-shooter"		{speed 0.3}}
+	{sequence "hostage1"		{speed 0.2}}
+	{sequence "hostage2"		{speed 0.2}}
+	{sequence "wounded1"		{speed 0.2}}
+	{sequence "crouch-idle-look"		{speed 0.2}}
+	
 
+	; zona
+	{sequence "zona_sit_idle2"		{speed 0.29}}
+	{sequence "zona_sit_idle2_1"		{speed 0.39}}
+	{sequence "zona_sit_idle2_2"		{speed 0.4}}
+	{sequence "zona_sit_idle2_3"		{speed 0.25}}
+	{sequence "zona_sit_idle2_4"		{speed 0.35}}
+	{sequence "zona_sit_idle2_5"		{speed 0.29}}
+	
+	{sequence "zona_bandit_idle_0"		{speed 0.95}}
+	{sequence "zona_bandit_idle_1"		{speed 0.9}}
+	{sequence "zona_bandit_idle_2"		{speed 0.9}}
+	{sequence "zona_bandit_idle_3"		{speed 0.95}}
+	{sequence "zona_bandit_idle_4"		{speed 0.92}}
+	
+	{sequence "zona_hostage1"		{speed 0.13}}
+	{sequence "zona_hostage2"		{speed 0.33}}
+	{sequence "zona_hostage3"		{speed 0.37}}
+	
+	{sequence "zona_idle_rifle1"		{speed 0.7}}
+	{sequence "zona_idle_rifle2"		{speed 0.7}}
+	{sequence "zona_idle_rifle3"		{speed 0.7}}
+	
+	{sequence "zona_idle_1hand_1"		{speed 0.65}}
+	
+	{sequence "zona_cr_idle0_1"		{speed 0.75}}
+	
+	{sequence "zona_ohrana_1"		{speed 0.75}}
+	
+	{sequence "zona_trans_0_idle"		{speed 0.41}}
+	{sequence "zona_trans_1_idle"		{speed 0.48}}
+	
+	{sequence "zona_dowatch_p1"		{speed 0.32}}
+	{sequence "zona_dowatch_p2"		{speed 0.47}}
+	{sequence "zona_dowatch_h1"		{speed 0.47}}
+	
+	{sequence "zona_cr_idle_1_0"		{speed 0.9}}
+	{sequence "zona_cr_idle_1_1"		{speed 0.9}}
+	{sequence "zona_cr_idle_1_2"		{speed 0.9}}
+	{sequence "zona_cr_idle_2_0"		{speed 0.9}}
+	{sequence "zona_cr_idle_2_1"		{speed 0.9}}
+	{sequence "zona_cr_idle_2_2"		{speed 0.9}}
+	
+	{sequence "zona_chasovoy_0"		{speed 0.9}}
+	{sequence "zona_chasovoy_1"		{speed 0.9}}
+	{sequence "zona_chasovoy_2"		{speed 0.9}}
+	{sequence "zona_chasovoy_3"		{speed 0.9}}
+	{sequence "zona_chasovoy_4"		{speed 0.9}}
+	
+	{sequence "uhodi_1_0"		{speed 1} {smooth 0.3}}	
+	{sequence "uhodi_1_1"		{speed 1} {smooth 0.3}}	
+	{sequence "uhodi_2_0"		{speed 1} {smooth 0.3}}	
+	{sequence "uhodi_2_1"		{speed 1} {smooth 0.3}}	
+	{sequence "uhodi_3_0"		{speed 1} {smooth 0.3}}	
+	{sequence "uhodi_3_1"		{speed 1} {smooth 0.3}}	
+	{sequence "uhodi_4_0"		{speed 1} {smooth 0.3}}	
+	 
+	{sequence "zona_net_0_0"		{speed 1} {smooth 0.3}}	
+	{sequence "zona_net_1_0"		{speed 1} {smooth 0.3}}	
+	{sequence "zona_net_2_0"		{speed 1} {smooth 0.3}}	
+	{sequence "zona_net_3_0"		{speed 1} {smooth 0.3}}	
+	{sequence "zona_net_8_0"		{speed 1} {smooth 0.3}}	
+	
+	{sequence "zona_komandir_0"		{speed 1} {smooth 0.05}}	
+	{sequence "zona_komandir_1"		{speed 1} {smooth 0.05}}	
+	{sequence "zona_komandir_2"		{speed 1} {smooth 0.05}}	
+	{sequence "zona_bar_0_idle_0"		{speed 1} {smooth 0.05}}	
+	{sequence "zona_bar_0_idle_1"		{speed 1} {smooth 0.05}}	
+	{sequence "zona_bar_0_idle_2"		{speed 1} {smooth 0.05}}	
+	{sequence "zona_bar_0_idle_3"		{speed 1} {smooth 0.05}}	
+	{sequence "zona_bar_1_idle_0"		{speed 1} {smooth 0.05}}	
+	{sequence "zona_bar_1_idle_1"		{speed 1} {smooth 0.05}}	
+	{sequence "zona_bar_1_idle_2"		{speed 1} {smooth 0.05}}	
+	{sequence "zona_bar_1_idle_3"		{speed 1} {smooth 0.05}}	
+	
+	{sequence "zona_stay_wall_idle_1"		{speed 1} {smooth 0.05}}	
+	{sequence "zona_stay_wall_idle_1rnd1"		{speed 1} {smooth 0.05}}	
+	{sequence "zona_stay_wall_idle_1rnd2"		{speed 1} {smooth 0.05}}	
+	{sequence "zona_stay_wall_idle_1rnd3"		{speed 1} {smooth 0.05}}	
+	{sequence "zona_stay_wall_idle_1rnd4"		{speed 1} {smooth 0.05}}	
+	{sequence "zona_stay_wall_visual"		{speed 1} {smooth 0.05}}	
+	
+	{sequence "zona_chest_1_idle_0"		{speed 1} {smooth 0.05}}	
+	{sequence "zona_chest_0_idle_1"		{speed 1} {smooth 0.05}}	
+	
+	{sequence "zona_poisk_0_idle_0"		{speed 1} {smooth 0.05}}	
+	{sequence "zona_poisk_0_idle_1"		{speed 1} {smooth 0.05}}	
+	{sequence "zona_poisk_0_idle_2"		{speed 1} {smooth 0.05}}	
+
+	{sequence "zona_poisk_2_idle_0"		{speed 1} {smooth 0.05}}	
+	{sequence "zona_poisk_2_idle_1"		{speed 1} {smooth 0.05}}	
+	{sequence "zona_poisk_2_idle_2"		{speed 1} {smooth 0.05}}	
+	
+	{sequence "zona_wounded_3_out"		{speed 1} {smooth 0.05}}	
+	
+	{sequence "zona_psy_idle_0"		{speed 0.7} {smooth 0.03}}	
+	{sequence "zona_psy_idle_1"		{speed 0.7} {smooth 0.03}}	
+	{sequence "zona_psy_idle_2"		{speed 0.7} {smooth 0.03}}	
+	{sequence "zona_psy_idle_3"		{speed 0.7} {smooth 0.03}}	
+	
+	{sequence "zona_idle_0_to_trans_0"		{speed 1} {smooth 0.03}}	
+	{sequence "zona_trans_1_idle_0"		{speed 1} {smooth 0.1}}	
+	{sequence "zona_trans_0_idle_0"		{speed 1} {smooth 0.03}}	
+	
+	{sequence "zona_sit_0_idle_0"		{speed 1} {smooth 0.03}}	
+	{sequence "zona_sit_0_idle_1"		{speed 1} {smooth 0.03}}	
+	{sequence "zona_sit_0_idle_2"		{speed 1} {smooth 0.03}}	
+	{sequence "zona_sit_0_idle_3"		{speed 1} {smooth 0.03}}	
+	
+	{sequence "zona_sit_1_item_4"		{speed 1} {smooth 0.03}}	
+	{sequence "zona_sit_1_idle_3"		{speed 1} {smooth 0.03}}	
+	{sequence "zona_sit_1_idle_2"		{speed 1} {smooth 0.03}}	
+	{sequence "zona_sit_1_idle_1"		{speed 1} {smooth 0.03}}	
+	{sequence "zona_sit_1_idle_0"		{speed 1} {smooth 0.03}}	
+	
+	{sequence "zona_sleep_idle_0"		{speed 1} {smooth 0.03}}	
+	{sequence "zona_sleep_idle_1"		{speed 1} {smooth 0.03}}	
+	{sequence "zona_sleep_idle_2"		{speed 1} {smooth 0.03}}	
+	{sequence "zona_sleep_idle_3"		{speed 1} {smooth 0.03}}	
+	
+
+	{sequence "zona_lead_1_idle_0"		{speed 1} {smooth 0.03}}	
+	{sequence "zona_lead_1_idle_1"		{speed 1} {smooth 0.03}}	
+	{sequence "zona_lead_1_idle_2"		{speed 1} {smooth 0.03}}	
+	{sequence "zona_lead_1_idle_3"		{speed 1} {smooth 0.03}}	
+	{sequence "zona_lead_1_idle_4"		{speed 1} {smooth 0.03}}	
+	{sequence "zona_lead_1_idle_5"		{speed 1} {smooth 0.03}}	
+	{sequence "zona_lead_1_idle_6"		{speed 1} {smooth 0.03}}	
+	{sequence "zona_lead_1_idle_7"		{speed 1} {smooth 0.03}}	
+	{sequence "zona_lead_1_idle_8"		{speed 1} {smooth 0.03}}	
+	{sequence "zona_lead_1_idle_9"		{speed 1} {smooth 0.03}}	
+	{sequence "zona_lead_1_idle_to_bar_0"		{speed 1} {smooth 0.03}}	
+	{sequence "zona_lead_1_idle_to_bar_1"		{speed 1} {smooth 0.03}}	
+	{sequence "zona_lead_1_idle_to_look_map_0"		{speed 1} {smooth 0.03}}	
+	{sequence "zona_lead_1_in"		{speed 1} {smooth 0.13}}	
+	{sequence "zona_lead_1_out"		{speed 1} {smooth 0.13}}	
+	
+	
+	
+	{sequence "zona_alert_command_0"		{speed 1} {smooth 0.03}}	
+	{sequence "zona_alert_idle_0"		{speed 1} {smooth 0.03}}	
+	{sequence "zona_alert_idle_1"		{speed 1} {smooth 0.03}}	
+	{sequence "zona_alert_idle_2"		{speed 1} {smooth 0.03}}	
+	{sequence "zona_alert_idle_3"		{speed 1} {smooth 0.03}}	
+	
+	
+	{sequence "zona_dinamit_0"		{speed 1} {smooth 0.05}}	
+	{sequence "zona_dinamit_1"		{speed 1} {smooth 0.1}}	
+	
+	
+	{sequence "zona_hand_up_0"		{speed 1} {smooth 0.03}}	
+	
+	
+	{sequence "zona_critical_hit_head_0"				{speed 1.0} {smooth 0.05}}	
+	{sequence "zona_critical_hit_hend_left_0"				{speed 1.0} {smooth 0.05}}	
+	{sequence "zona_critical_hit_hend_right_0"				{speed 1.0} {smooth 0.05}}	
+	{sequence "zona_critical_hit_legs_left_0"				{speed 1.0} {smooth 0.05}}	
+	{sequence "zona_critical_hit_legs_right_0"				{speed 1.0} {smooth 0.05}}	
+	{sequence "zona_critical_hit_torso_0"				{speed 1.0} {smooth 0.05}}	
+	{sequence "zona_critical_hit_torso_1"				{speed 1.0} {smooth 0.05}}	
+	
+	
+	{sequence "zona_loophole_8_idle"				{speed 1.0} {smooth 0.05}}	
+	{sequence "zona_loophole_8_in_front_0"				{speed 1.0} {smooth 0.09}}	
+	{sequence "zona_loophole_8_jump_0"				{speed 1.0} {smooth 0.09} {movement}}
+	{sequence "zona_loophole_8_jump_1"				{speed 1.0} {smooth 0.09}}	
+	
+	
+	;movementtest
+	{sequence "zone_movement_test" {movement} {smooth 0.2}}
+	
+	
+	
+	; story
+	{sequence "story-anim_stumble1"		{speed 1} {smooth 0.3}}	
+
+
+	; hand
+	{sequence "hand_wave"		{speed 0.35}}	
+	
+	
+	; impacts
+	{sequence "impact_high1" {movement} {speed 1.2} {smooth 0.3}}
+	
+	; bolt
+	{sequence "bolt_gun" {movement} {speed 0.8} {smooth 0.1}}
+	
+	;New Death
+	{sequence "death_new_1"				{speed 1} {smooth 0.16}}	
+	{sequence "death_new_2"				{speed 1.1} {smooth 0.03}}	
+	{sequence "death_new_3"				{speed 1.3} {smooth 0.01}}	
+	{sequence "death_new_4"				{speed 1} {smooth 0.09}}	
+	{sequence "death_new_5"				{speed 1} {smooth 0.09}}	
+	{sequence "death_new_6"				{speed 1.5} {smooth 0.05}}	
+	{sequence "death_new_7"				{speed 0.8} {smooth 0.12}}	
+	{sequence "death_new_8"				{speed 0.76} {smooth 0.05}}	
+	{sequence "death_new_9"				{speed 0.52} {smooth 0.15}}	
+	{sequence "death_new_10"			{speed 0.72} {smooth 0.15}}	
+	{sequence "death_new_11"			{speed 0.72} {smooth 0.09}}	
+	{sequence "death_new_12"			{speed 0.76} {smooth 0.11}}	
+	{sequence "death_new_13"			{speed 0.8} {smooth 0.11}}	
+	{sequence "death_new_14"			{speed 0.75} {smooth 0.11}}	
+	{sequence "death_new_15"			{speed 1} {smooth 0.11}}	
+	{sequence "death_new_16"			{speed 1} {smooth 0.11}}	
+	{sequence "death_new_17"			{speed 0.7} {smooth 0.096}}	
+	{sequence "death_new_18"			{speed 0.75} {smooth 0.096}}
+
+	; NEW ANIM TEST STALKER BY GHOSTERON	
+	{sequence "001_hand_back_1"}
+	{sequence "001_hand_back_2"}
+	{sequence "001_seat_1"}
+	{sequence "001_seat_2"}
+	{sequence "001_seat_3"}
+	{sequence "001_seat_4"}
+	{sequence "001_dead_1"}
+	{sequence "001_dead_2"}
+	{sequence "001_dead_3"}
+	{sequence "001_dead_4"}
+	{sequence "001_seatmonolit_1"}
+	{sequence "001_seatmonolit_2"}
+	{sequence "001_saluted_1"}
+	{sequence "001_sleep_1"}
+	{sequence "001_sleep_2"}
+	{sequence "001_idle_stand_1"}
+	{sequence "001_idle_stand_2"}
+	{sequence "001_idle_stand_3"}
+	{sequence "001_rest_1"}
+	{sequence "001_rest_2"}
+	
+; -------------------
+
+	{sequence "000_die_gas1"		{smooth 0.5} {speed 1}}
+	{sequence "000_die_gas10"		{smooth 0.5} {speed 1}}
+	{sequence "000_die_gas2"		{smooth 0.5} {speed 0.7}}
+	{sequence "000_die_puke"		{speed 0.2}}
+
+	{sequence "000_die_agonia-1"		{smooth 0.5} {speed 0.2}}
+	{sequence "000_die_agonia-2"		{smooth 0.5} {speed 0.2}}
+	{sequence "000_die_agonia-3"		{smooth 0.5} {speed 0.2}}
+	{sequence "000_die_agonia-4"		{smooth 0.5} {speed 0.2}}
+	{sequence "000_die_shoker-0"		{smooth 0.2} {speed 1}}
+	{sequence "000_die_shoker-1"		{smooth 0.2} {speed 1}}
+
+
+
+	{sequence "000_die_agonia-5-l-leg"		{smooth 0.5} {speed 0.2}}
+	{sequence "000_die_agonia-blind"		{smooth 0.1} {speed 0.08}}
+	{sequence "000_die_agonia-leg-l-1"		{smooth 0.1} {speed 0.08}}
+	{sequence "000_die_agonia-leg-r-1"		{smooth 0.1} {speed 0.08}}
+	{sequence "000_die_agonia-eggs-1"		{smooth 0.1} {dynamicSpeed {0 20 0.9} {21 75 0.3}}}
+	{sequence "000_die_agonia-eggs-2"		{smooth 0.1} {dynamicSpeed {0 30 0.9} {31 90 0.2}}}
+	{sequence "000_die_agonia-lastshot1"		{smooth 0.4} {dynamicSpeed {0 30 0.8} {31 70 0.25}{71 90 0.45}}}
+	{sequence "000_die_bullet-storm"		{smooth 0.1} {speed 1}}
+	{sequence "000_die_bullet-dance"		{smooth 0.1} {speed 1}}
+
+
+
+	{sequence "000_dance_boys1"		{speed 1}}
+	{sequence "000_dance_boys2"		{speed 1}}
+	{sequence "000_dance_boys3"		{speed 0.7}}
+	{sequence "000_dance_boys4"		{speed 0.7}}
+	{sequence "000_dance_boys5"		{smooth 1} {movement} {speed 0.7}}
+	{sequence "000_dance_gang1"		{speed 1}}
+	{sequence "000_dance_gang2"		{speed 1}}
+	{sequence "000_dance_gang3"		{speed 1}}
+	{sequence "000_dance_gang4"		{speed 1}}
+	{sequence "000_dance_lin0"		{speed 1}}
+	{sequence "000_dance_lin1"		{speed 1}}
+	{sequence "000_dance_lin2"		{smooth 0.2} {movement} {speed 1.5}}
+	{sequence "000_fuck1"			{speed 1}}
+	{sequence "001_come_on1"		{speed 1}}
+	{sequence "000_die_ritual1"		{smooth 0.4} {movement} {speed 1.5}}
+	{sequence "000_die_cristall"		{smooth 0.2} {speed 1.5}}
+
+	{sequence "getover_middle_1"		{smooth 0.2} {movement} {speed 1}}
+	{sequence "001_k-jump1"		{smooth 0.5} {movement} {speed 1}}
+	{sequence "001_k-jump2"		{smooth 0.5} {movement} {speed 1}}
+	{sequence "001_r_fall1"		{speed 0.4}}
+	{sequence "001_r_up1"		{speed 0.4}}
+	{sequence "001_r_move-1"		{movement} {speed 50.5}}
+	{sequence "001_r_move-2"		{movement} {speed 10.5}}
+
+	{sequence "001_super-jump1"		{movement} {speed 0.4}}
+	{sequence "001_super-fall1"		{movement} {speed 0.4}}
+	{sequence "005_emo_fear_fall1"		{movement} {speed 0.4}}
+	{sequence "005_emo_this_way1"		{movement} {speed 0.4}}
+	{sequence "005_emo_this_way2"		{movement} {speed 0.4}}
+	{sequence "005_emo_stay_get-you1-1"	{movement} {dynamicSpeed {0 10 1} {10 325 0.5}}}
+	{sequence "005_emo_stay_get-you1-2"	{movement} {dynamicSpeed {0 10 1} {10 325 0.5}}}
+	{sequence "005_emo_stay_cool_r"		{smooth 1} {speed 0.4}}
+	{sequence "005_emo_stay_cool_l"		{smooth 1} {speed 0.4}}
+	{sequence "005_emo_stay_cool_z"		{smooth 1} {speed 0.4}}
+	{sequence "006_emo_stay_shoker-1"		{smooth 1} {speed 0.4}}
+	{sequence "005_emo_stay_pistol-1"	{smooth 0.3} {speed 0.7}}
+	{sequence "005_emo_nooo1"		{smooth 1} {speed 0.4}}
+	{sequence "005_emo_nooo2"		{smooth 1} {speed 0.4}}
+	{sequence "005_emo_nooo3"		{smooth 0.5} {speed 0.4}}
+
+	{sequence "006_emo_walk_ri_arm-1"		{movement} {speed 0.2}}
+
+
+
+	{sequence "005_emo_ri-dance-1"		{smooth 0.1} {speed 0.4}}
+	{sequence "006_dialog_im-not-1"		{smooth 0.1} {movement} {speed 0.2}}
+	{sequence "101_mod-4_jump-1"		{smooth 0.1} {movement} {speed 0.8}}
+	{sequence "101_str_l_m"		{smooth 0.1} {movement} {speed 0.5}}
+	{sequence "101_str_r_m"		{smooth 0.1} {movement} {speed 0.5}}
+
+
+	{sequence "101_hipo"		{smooth 0.1} {speed 0.1}}
+	{sequence "102_drink"		{speed 0.5}}
+	{sequence "102_eat_food"		{speed 0.3}}
+	{sequence "102_drunkenness"		{smooth 0.2} {speed 0.2}}
+
+	{sequence "009_cros_sit_b_01"		{smooth 0.1} {speed 0.2}}
+	{sequence "009_cros_sit_b_02"		{smooth 0.1} {speed 0.2}}
+	{sequence "009_cros_sit_b_03"		{smooth 0.1} {speed 0.2}}
+	{sequence "009_cros_sit_b_04"		{smooth 0.1} {speed 0.2}}
+
+	{sequence "009_cros_stifler0"		{smooth 0.1} {speed 0.4}}
+	{sequence "009_cros_stifler1"		{smooth 0.1} {speed 0.4}}
+	{sequence "009_cros_stifler2"		{smooth 0.1} {speed 0.4}}
+	{sequence "009_cros_stifler2dance"		{smooth 0.1} {speed 0.4}}
+	{sequence "009_cros_stifler4run"		{smooth 0.1} {speed 0.4}}
+
+
+	{sequence "009_cros_paling2"		{smooth 0.1} {speed 0.2}}
+
+
+	{sequence "009_grind-sit"		{smooth 0.5} {speed 0.4}}
+	{sequence "009_grind-sit-roll"		{movement} {speed 0.6}}
+	{sequence "009_cross-1"		{smooth 0.5} {speed 0.4}}
+	{sequence "009_cross-2-1"		{smooth 0.5} {speed 0.4}}
+	{sequence "009_cross-2-2"		{smooth 0.5} {speed 0.4}}
+	{sequence "009_cross-3-1"		{smooth 0.5} {speed 0.4}}
+	{sequence "009_cross-3-2"		{smooth 0.5} {speed 0.4}}
+	{sequence "009_cross-4-1"		{smooth 0.5} {speed 0.4}}
+	{sequence "009_cross-4-2"		{smooth 0.5} {speed 0.4}}
+	{sequence "009_sit-1"		{smooth 0.5} {speed 0.4}}
+	{sequence "009_sit-2"		{smooth 0.5} {speed 0.4}}
+	{sequence "009_lie-table-1"		{smooth 0.5} {speed 0.4}}
+	{sequence "009_lie-table-2"		{smooth 0.5} {speed 0.4}}
+	{sequence "009_slave-cage-1"		{smooth 0.5} {speed 0.4}}
+	{sequence "009_slave-cage-2"		{smooth 0.5} {speed 0.4}}
+	{sequence "009_suicide"		{smooth 1.1} {speed 0.4}}
+	{sequence "009_signal_1"		{smooth 0.1} {speed 0.4}}
+	{sequence "009_signal_2"		{smooth 0.1} {speed 0.4}}
+
+
+
+	{sequence "010_bm_arm-l_hit_1"		{smooth 0.1} {speed 1}}
+	{sequence "010_bm_arm-l_show-forw"		{smooth 0.3} {speed 0.4}}
+	{sequence "010_bm_arm-l_show-left"		{smooth 0.3} {speed 0.4}}
+	{sequence "010_bm_arm-r_show-forw"		{smooth 0.3} {speed 0.4}}
+	{sequence "010_bm_arm-r_show-right"		{smooth 0.3} {speed 0.4}}
+
+	{sequence "010_bm_arm-l_trem-0"		{smooth 0.1} {speed 0.4}}
+	{sequence "010_bm_arm-l_trem-1"		{smooth 0.1} {speed 0.4}}
+	{sequence "010_bm_head-no-1"		{smooth 0.5} {speed 0.4}}
+	{sequence "010_bm_head-no-2"		{smooth 0.5} {speed 0.4}}
+	{sequence "010_bm_head-yes-1"		{smooth 0.5} {speed 0.4}}
+	{sequence "010_bm_head-yes-2"		{smooth 0.5} {speed 0.4}}
+	{sequence "010_bm_head-trem"		{smooth 0.1} {speed 0.4}}
+	{sequence "010_bm_stay-still-1"		{smooth 1.0} {speed 0.01}}
+	{sequence "010_bm_stay-still-2"		{smooth 0.5} {speed 0.4}}
+	{sequence "010_bm_stay-still-3"		{smooth 0.5} {speed 0.4}}
+	
+	{sequence "anim_die_01"		{speed 1}}
+	{sequence "anim_die_02"		{speed 1}}
+	{sequence "army_battle_idle_01"		{speed 1}}
+	{sequence "army_battle_idle_02"		{speed 1}}
+	{sequence "army_battle_idle_03"		{speed 1}}
+	{sequence "army_battle_idle_hurt_01"		{speed 1}}
+	{sequence "army_battle_idle_hurt_02"		{speed 1}}
+	{sequence "army_battle_idle_hurt_03"		{speed 1}}
+	{sequence "army_battle_idle_hurt_04"		{speed 1}}
+	{sequence "army_battle_idle_hurt_05"		{speed 1}}
+	{sequence "army_battle_idle_hurt_06"		{speed 1}}
+	{sequence "army_battle_walk_water_01"		{speed 1}}
+     
 }

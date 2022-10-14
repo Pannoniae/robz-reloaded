@@ -135,7 +135,7 @@ actor
 }
 
 {Weaponry
-    {ManualAccuracy 1}
+    {ManualAccuracy 1.5}
     {place "gun"
         {charger "gunner"}
     }

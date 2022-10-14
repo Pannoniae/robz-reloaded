@@ -31,7 +31,7 @@ human
 
 {extender "inventory"
 	{box
-		{Size 6 10}
+		{Size 7 12}
 		{Weight 100}
 	}
 	{hand_left}
@@ -70,23 +70,30 @@ human
 	;  speed S (km/h) animation A (km/h) rotation (degree/s)
 	;  animation speed = movement speed / A * animation scale
 	{Crawl
-		{Slow		3   5  50 }
-		{Normal		4   5  100 }
-		{Fast		5   5  100 }
+		{Slow		4   5  180 }
+		{Normal		5   5  180 }
+		{Fast		7   5  180 }
 	}
 	{Swim
-		{Slow		2   5  100 }
-		{Normal		3   5  150 }
-		{Fast		5   5  150 }
+		{Slow		2   5  180 }
+		{Normal		3   5  180 }
+		{Fast		5   5  180 }
 	}
 	{Run
-		{Sneak		5.5	2  	100 }   ; x 0.85
-		{Spot 		6.5  	2  	100 }   ; x 0.5
-		{Walk 		7   	2 	100 }   ; x 0.5
-		{Slow		7  	7	200 }   ; x 1
-		{Normal	        11.5    7  	200 }   ; x 0.55
-		{Fast	        18.5    7  	200 }   ; x 0.33
-		{Bow   	        14.5    7  	200 }   ; x 0.55
+		{Sneak		5	2  	360 }   ; x 0.85
+		{Spot 		6  	2  	360 }   ; x 0.5
+		{Walk 		8   	2 	360 }   ; x 0.5
+		{Slow		8  	7	360 }   ; x 1
+		{Normal	        15      7  	360 }   ; x 0.55
+		{Fast	        25      7  	360 }   ; x 0.33
+		{Bow   	        18.5    7  	360 }   ; x 0.55
+		;{Sneak		5.5	2  	100 }   ; x 0.85
+		;{Spot 		6.5  	2  	100 }   ; x 0.5
+		;{Walk 		7   	2 	100 }   ; x 0.5
+		;{Slow		7  	7	200 }   ; x 1
+		;{Normal	        11.5    7  	200 }   ; x 0.55
+		;{Fast	        18.5    7  	200 }   ; x 0.33
+		;{Bow   	        14.5    7  	200 }   ; x 0.55
 
 		;{Sneak		5	2  	100 }   ; x 0.85
 		;{Spot 		6  	2  	100 }   ; x 0.5
@@ -151,6 +158,11 @@ human
 ;(include "shadow/human.inc")
 
 {brain "human"
+	{properties
+        		{advance_ratio 2}
+        		{retreat_ratio 1}
+       		{no_retreat 1}
+   	}
 	{const "bomb/detect_explosives" 10}		;detect explosives inside 7 meter radius
 	{const "bomb/detect_grenades" 	7}		;detect grenades inside 5 meter radius
 	{const "bomb/danger_zone_run" 	5}		;run away if danger is inside 0 - 2 meter radius
@@ -182,7 +194,7 @@ human
 			disorder_time(0.50) order_time(1.00)
 		)
 	}
-	{ManualAccuracy 1.5}
+	{ManualAccuracy 2.00}
 }
 
 {extender "talk"

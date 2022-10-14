@@ -1,0 +1,29 @@
+;SDL
+(include "tank_unarmed.ext")
+{lodclass "vehicle_big"}
+
+{Weaponry
+    {ManualAccuracy 1.5}
+    {place "gun"
+        {Rotate}
+    }
+    {place "mgun"
+    }
+
+}
+{extender "inventory"
+	{box
+		{Size 8 12}
+	}
+    {weapon "mgun"
+        {mask "weapon mgun"}
+    }
+}
+
+(define "restore_ik_time"
+	{RestoreIKTime 4}
+)
+
+{props "with_gun"}
+{targetClass "tank" "ap fg bullet"}
+{targetSelector "tank"}
