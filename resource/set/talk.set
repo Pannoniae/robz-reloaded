@@ -21,6 +21,14 @@
 	}
 )
 
+(define "phrase_voice_ger2"
+	{phrase
+		{language "%1"}
+		{voice %2}
+		{sound "%0/talk/ger2/%3/v%2"}
+		{text_dbg "(%1) ger2/%3/v%2"}
+	}
+)
 (define "phrases"
 	("phrase_voice" args %0 rus 1 %1)
 	("phrase_voice" args %0 rus 2 %1)
@@ -29,14 +37,26 @@
 	("phrase_voice" args %0 ger 1 %1)
 	("phrase_voice" args %0 ger 2 %1)
 	
-	("phrase_voice" args %0 ger2 1 %1)
-	("phrase_voice" args %0 ger2 2 %1)
+	("phrase_voice_ger2" args %0 ger2 1 %1)
+	("phrase_voice_ger2" args %0 ger2 2 %1)
+
+	("phrase_voice" args %0 hun 1 %1)
+	("phrase_voice" args %0 hun 2 %1)
+
+	("phrase_voice" args %0 ita 1 %1)
+	("phrase_voice" args %0 ita 2 %1)
 
 	("phrase_voice" args %0 eng 1 %1)
 	("phrase_voice" args %0 eng 2 %1)
 
 	("phrase_voice" args %0 usa 1 %1)
 	("phrase_voice" args %0 usa 2 %1)
+
+	("phrase_voice" args %0 usmc 1 %1)
+	("phrase_voice" args %0 usmc 2 %1)
+
+	("phrase_voice" args %0 fra 1 %1)
+	("phrase_voice" args %0 fra 2 %1)
 	
 	("phrase_voice" args %0 jap 1 %1)
 	("phrase_voice" args %0 jap 2 %1)
@@ -160,10 +180,15 @@
 	("tank_phrases" args enemy_is_destroyed)
 }
 
-;{talk "tank_idle"
-;	("tank_phrases" args idle)
-;	{freq 0.2}
-;}
+{talk "tank_idle"
+	("tank_phrases" args amazement)
+	{freq 0.2}
+}
+
+{talk "tank_aimed_shot"
+	("tank_phrases" args shot_from_a_sniper_rifle)
+	{freq 0.5}
+}
 
 ;// cannons
 
@@ -181,6 +206,14 @@
 
 {talk "cannon_attack"  
 	("cannon_phrases" args executing_an_order)
+}
+
+{talk "cannon_selection"  
+	("cannon_phrases" args selection_of_units)
+}
+
+{talk "cannon_kill_enemy"
+	("cannon_phrases" args enemy_is_destroyed)
 }
 
 ;////////////////////////////////////////////////

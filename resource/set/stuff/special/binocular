@@ -5,16 +5,16 @@
 	{entity "binocular"}
 	{inventory
 		{size 2 1}
-		{weight 10}
+		{weight 100}
 		{fsm "belt"}
 	}
 	{states
 		{aim  "aim"}
 		{can_aim  "can-aim"}
 	}
-	{mass 1.5}
+	{mass 1.0}
 	{foresight "Foresight3"}
-	{range 250 250}
+	{range 300 300}
 	{gravity 0}
 	{speed 300}
     {AimingTolerance 3}

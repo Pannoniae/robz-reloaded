@@ -1,0 +1,10 @@
+{from "pattern aphebc"
+	{tag "size_minimum" "shell_minimum" "pierce" "capped"}
+	{inventory
+		{weight 50}
+		{size 3 1}
+	}
+	("jap" args 0.35)
+	{mass 5.4}
+	{entity "shell_ap_47"}
+}

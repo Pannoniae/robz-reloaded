@@ -1,0 +1,8 @@
+{from "pattern rpg_weapon"
+	{filling "ammo bazooka" 1}
+	{entity "bazooka"}
+	{mass 5.8}
+    {projectileDamage 76}
+	{fireSound "reactive/bazooka_launch/"}
+	("speed" s(80))
+}

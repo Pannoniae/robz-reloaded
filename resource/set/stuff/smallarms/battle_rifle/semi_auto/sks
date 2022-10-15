@@ -1,0 +1,22 @@
+{from "pattern semi_auto"
+	{tag "autorifle"}
+	{filling "ammo 7-62_ak" 10}
+	{entity "sks_45"}
+	{mass 3.85}
+	{fireSound "rifle/sks_shot/"}
+	{reloadSound "rifle_bolt_five"}
+	
+	("sks")
+	
+	{Automatic}
+	{ProjectileDamage 6}
+	{ProjectileDamageClip 5}
+	{projectileDamageTable {50 8} {250 0}}
+	{calibre 7.62}
+	{rechargeTime 5.0}
+	{healthDamage 30}
+	{recoveryTime 0.25}
+	("accuracy_carbine")
+	("rapid_zeroing")
+	("speed" s(735))
+}

@@ -1,0 +1,4 @@
+{from "em3"
+	{entity "lee_enfield_no4"}
+	{mass 4.11}
+}

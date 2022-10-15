@@ -1,0 +1,15 @@
+{from "pattern smg"
+	{filling "ammo 45-smg" 30}
+	{entity "thompson_m1928a1_30"}
+	{mass 4.9}
+	{fireSound	"smg/thompson_burst/"}
+	{reloadSound "mp44"}
+
+	{rechargeTime 4.5}
+	("recoveryTime" r(700))
+	("burst_short")
+ 	("speed" s(285))
+	
+	("45_acp")
+	("spread_45acp")
+}

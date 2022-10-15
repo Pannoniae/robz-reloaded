@@ -1,0 +1,4 @@
+{from "type2rifle_bayonet"
+	{recoveryTime 1.7}
+	{rechargeTime 4.75}
+}

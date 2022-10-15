@@ -1,0 +1,11 @@
+{bullet
+  {tag "bullet stackable pierce 7-62_springfield belt_reload_5 belt_reload_10"}
+  {inventory
+    {weight 2.5}
+    {block 40}
+    {size 1 2}
+    {fsm "belt"}
+  }
+  {mass 0.025}
+  {entity "m1941lmg_mag"}
+}

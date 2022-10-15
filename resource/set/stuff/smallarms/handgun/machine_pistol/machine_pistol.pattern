@@ -1,0 +1,25 @@
+{from "pattern handgun"
+	{inventory
+		{size 3 1}
+	}
+	{mass 2}
+	{entity "pistol"}
+	
+	{range 70 70}
+	
+	{spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 94 88 80 72 62 52 50 40}
+	}
+	
+	{Automatic}
+	("recoveryTime" r(1000))
+	{rechargeTime 3.0}
+ 	("speed" s(250))
+	{burst
+		{short 3 0.5}
+		{long 5 0.5}
+	}	
+
+	("accuracy_modern_pistol")
+}

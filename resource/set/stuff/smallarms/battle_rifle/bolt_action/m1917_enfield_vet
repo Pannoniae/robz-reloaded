@@ -1,0 +1,4 @@
+{from "m1917_enfield"
+	{recoveryTime 1.4}
+	{rechargeTime 4.75}
+}

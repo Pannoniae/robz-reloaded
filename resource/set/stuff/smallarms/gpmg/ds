@@ -1,0 +1,17 @@
+{from "pattern gpmg"
+	{filling "ammo mg54r" 250}
+	{entity "ds39"}
+	{fireSound	"mgun/ds_burst/"}
+	{rechargeTime 12}
+	
+	{mass 14.3}
+	("recoveryTime" r(800))
+	("burst_long")
+	("speed" s(800))
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 97.5 95 92.5 90 85 80 70 50 30 10}
+	}
+	
+	("7-62mm_gpmg")
+}

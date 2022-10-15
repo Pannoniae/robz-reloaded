@@ -1,0 +1,8 @@
+{from "flame_thrower"
+	{entity "roks2"}
+
+	{aimRange 45}
+	{maxRange 45}
+	{recoveryTime 0.8}
+    	{RelaxationTime 0.5}
+}

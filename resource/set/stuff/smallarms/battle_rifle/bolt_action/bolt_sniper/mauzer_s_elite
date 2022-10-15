@@ -1,0 +1,11 @@
+{from "mauzer_s"
+	{special
+		{mode aim}
+		{PrepareTime 2.0}	
+		{PrepareCursor "aimed_shot"}
+		{accuracy 2.5}
+		{damage 2.25}
+		{throw_off}
+	}
+	{recoveryTime 1.7}
+}

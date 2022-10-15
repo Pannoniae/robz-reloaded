@@ -1,23 +1,51 @@
 (define "firing"
+
+;;==========================================
+;	Suppressed Firearms
+;;==========================================
 	{welrod 0.25}
 	{nagan_pb 0.25}
 	{delisle 0.25}
 	{hdm 0.25}
+	{sten_mk2_silenced 0.25}
 	{sten_v_silencer 0.25}
+;;==========================================
+;	Flash Hider/Low Muzzle Flash
+;;==========================================
+	{dp 0.75}
+	{type38rifle 0.75}
+	{type38rifle_bayonet 0.75}
+	{type38rifle_bayonet_vet 0.75}
+	{type38rifle_vet 0.75}
+	{type97sniper 0.75}
+	{type97sniper_vet 0.75}
+;;==========================================
+;	Melee Weapons
+;;==========================================
+	{katana_type3 0}
 	{knife_ger 0}
 	{knife_rus 0}
 	{knife_union 0}
 	{knife_japan 0}
 	{axe 0}	
 	{crow_bar 0}
+;;==========================================
+;	Grenades
+;;==========================================
+	{breda35 0.1}
+	{breda42at 0.1}
+	{hohlladung 0.1}
 	{smoke 0.1}
 	{smoke_paradrop_ammo 0.1}
 	{smoke_paradrop_ammo_heavy 0.1}
+	{smoke_rus 0.1}
 	{f1 0.1}
 	{m24 0.1}
 	{m39 0.1}
 	{m61 0.1}
 	{mk1 0.1}
+	{n77_smoke 0.1}
+	{oto42flam 0.1}
 	{satchel 0.1}
 	{type97 0.1}
 	{type99 0.1}
@@ -26,6 +54,7 @@
 	{n73at 0.1}
 	{pwm1 0.1}
 	{rg42x3 0.1}
+	{rgd33 0.1}
 	{rpg40 0.1}
 	{rpg43 0.1}
 	{type3at 0.1}

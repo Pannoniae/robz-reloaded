@@ -1,0 +1,16 @@
+{from "pattern automatic_rifle"
+	{filling "ammo mauser" 20}
+	{entity "browning_wz_28"}
+	{fireSound	"mgun/bar_burst/"}
+	{reloadSound "bar"}
+
+	("spread_fg42")
+	("burst_medium")
+	
+	{mass 9.0}
+	{rechargeTime 5}
+	("recoveryTime" r(600))
+	("speed" s(853))
+	
+	("7-92mm_automatic_rifle")
+}

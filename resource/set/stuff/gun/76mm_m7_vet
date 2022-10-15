@@ -1,0 +1,12 @@
+{from "76mm_m5"		; "m10_wolverine"
+	{filling "bullet76 us3inch"}
+	("accuracy_maximum")
+	{range 210 210}
+	{rechargeTime 5.5}
+	{parameters "fg"
+		{range 210 210}
+	}
+	{parameters "hvap" ;using the M93 HVAP ammunition
+        	("damage_215" a(239) b(208) c(175) d(147) e(124) range(210))
+	}
+}

@@ -1,0 +1,16 @@
+{from "pattern automatic_rifle"
+	{filling "ammo mauser" 25}
+	{entity "mg13"}
+	{fireSound "mgun/mg13_burst/"}
+	{reloadSound "fg42"}
+
+	("spread_bar")
+	("burst_medium")
+	
+	{mass 13.3}
+	{rechargeTime 4.5}
+	("recoveryTime" r(600))
+	("speed" s(890))
+	
+	("7-92mm_automatic_rifle")
+}

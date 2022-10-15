@@ -1,0 +1,17 @@
+{from "pattern gun"     
+	{filling "bullet70 japr"}
+	{fireSound "gun/75mm_type41"}
+	{reloadSound "gun_r03"}
+	{rechargeTime 7}
+	("range_light_howitzer")
+
+	("caliber_medium")
+	("speed" s(298))
+	{projectileDamage 48}
+	("damage" a(48) b(40) c(34) d(20) e(16))
+	{parameters "heat"
+		("damage_heat" a(90) range(180))
+	}
+
+      
+}

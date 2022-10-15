@@ -1,0 +1,10 @@
+{from "pattern sniper_rifle"
+	{filling "ammo mosin_rifle" 5}
+	{entity "mosin_s"}
+	{fireSound "rifle/mosin_shot/"}
+	{reloadSound "mosin_s"}
+	{recoveryTime 2.7}
+	("speed" s(865))
+	
+	("7-62mm_bolt_sniper")
+}

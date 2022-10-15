@@ -1,3 +1,4 @@
 {from "pattern overcoat"
+	{tag "itemin1hand keepEntity"}
 	{entity "armor_folgore_mg"}
 }

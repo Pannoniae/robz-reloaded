@@ -1,0 +1,37 @@
+{from "pattern bullet"
+	{tag "smg assaultrifle weapon bullet to_hand"}
+	{filling "ammo pistol" 30}
+	{inventory
+		{size 4 2 }
+		{link_bone "gun_back"}
+		{weight 100}
+	}
+	{mass 4}
+	{reloadSound "mp44"}
+	{Automatic}
+	{traceFreq 0}
+
+	{spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 94 87 77 68 63 55}
+	}
+
+	("recoveryTime" r(600))
+	{rechargeTime 4}
+	{speed 190}
+	;{gravity 10}
+	
+	{healthDamage 30}
+	{ProjectileDamage 6}
+	{ProjectileDamageClip 5}
+	{projectileDamageTable {50 7} {250 0}}
+	{calibre 7.62}
+
+	{range 100 100}
+	{burst
+		{short 2 0.5}
+		{long 5 0.5}
+	}
+	
+	("accuracy_assault_rifle_7-62_ps")	
+}

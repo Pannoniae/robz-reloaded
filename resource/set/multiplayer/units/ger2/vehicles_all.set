@@ -32,14 +32,15 @@
 {"sgrw_34_vet"          ("vs" c(10) t(44 45 mortar) 	s(ger2) n(2) g(c6) sc(21) b(v2) cw(2) cp(5)) {level 1} {cost 420} {fore -2.0}}		;30sec
 {"sgrw_42_vet"          ("vs" c(60) t(44 45 mortar) 	s(ger2) n(2) g(c7) sc(38.5) b(v2) cw(2) cp(10)) {level 1} {cost 770} {fore -9.0}}	;600sec
 
+{"raketenwerfer_ger2"				("vs_ss" c(10) v1(raketenwerfer) t(all 44 45) s(ger2) n(2) g(c8) b(v2)) {level 1} {cost 250} {fore -14.0}}		;600sec
 
-("how" side(ger2) name(how_pak1)	c(0) c1(kfz15) c2(pak36_ger2)	t(all 44 45 cannon)			g(c8) b(v2) level(1) cost(150) f(0.0))		;0sec
-("how" side(ger2) name(how_pak2)	c(10) c1(kfz15) c2(pak38_ger2)	t(all 44 45 cannon mediumcan) g(c9) b(v2) level(1) cost(230) f(-14.0))	;300sec
-("how" side(ger2) name(how_pak3)	c(20) c1(kfz15) c2(pak40_ger2)	t(all 44 45 cannon heavycan)	g(c10) b(v2) level(1) cost(470) f(-19.0));400sec
+("how" side(ger2) name(how_pak1)	c(0) c1(np_sdkfz8) c2(pak36_ger2)	t(all 44 45 cannon)			g(c8) b(v2) level(1) cost(120) f(0.0))		;0sec
+("how" side(ger2) name(how_pak2)	c(10) c1(np_sdkfz8) c2(pak38_ger2)	t(all 44 45 cannon mediumcan) g(c9) b(v2) level(1) cost(180) f(-14.0))	;300sec
+("how" side(ger2) name(how_pak3)	c(20) c1(np_sdkfz8) c2(pak40_ger2)	t(all 44 45 cannon heavycan)	g(c10) b(v2) level(1) cost(300) f(-19.0));400sec
 {"pak43_vet"		("vs" c(60) t(all 43 44 45)	s(ger2) n(2) g(c111) sc(47.50) b(v2) cw(0) cp(20)) {level 1} {cost 950} {fore -19.0}}	;1200sec
 
 
-{"flak36a_vet"	    ("vs" c(60) t(artillery heavy 44 45)    s(ger2) n(2) g(c11) sc(40) b(v2) cw(2) cp(15)) {level 1} {cost 800} {fore -14.0}}		;900sec
+{"flak36a_vet"	    ("vs" c(60) t(artillery heavy 44 45)    s(ger2) n(2) g(c11) sc(40) b(v2) cw(2) cp(15)) {level 1} {cost 700} {fore -14.0}}		;900sec
 ("how" side(ger2) name(how_b)	c(60) c1(sdkfz7) c2(lefh18_ger2)	t(all 44 45 artillery)				g(c12) b(v2) level(1) cost(500) f(-14.0));900sec
 ("how" side(ger2) name(how_a)	c(60) c1(sdkfz7) c2(sfh18_ger2)	t(all 44 45 artillery heavyart)		g(c13) b(v2) level(1) cost(750) f(-19.0));1200sec
 
@@ -92,6 +93,8 @@
 
 ;°°°Button 5°°°
 
+{"su76_ger2"	("v_ss_helmetbois" c(10) v1(su76_ger2) t(all 44 45 medium)	s(ger2) n(4) g(f1) b(v5)) {level 1} {cost 400} {fore -59.0}}		;600sec
+{"marder_3m_ss"	("v_ss_helmetbois" c(10) v1(marder_3m) t(all 44 45 medium)	s(ger2) n(4) g(f0) b(v5)) {level 1} {cost 550} {fore -59.0}}		;600sec
 {"hetzer_ger2"			("v" c(10) t(all 44 45 medium)	s(ger2) n1(3) n2(1) g(f1) sc(37.50) b(v5) cw(0) cp(15)) {level 1} {cost 750} {fore -69.0}}	;700sec ;vetted
 {"stug3g_ger2"			("v_ss_com" c(10) v1(stug3g_vet) t(medium all 43 44 45)	s(ger2) n1(3) n2(1) g(f2) b(v5)) {level 1} {cost 700} {fore -75.0}}	;760sec
 {"stug4g_ger2"			("v_ss_com" c(10) v1(stug4g_vet) t(medium all 44 45)	s(ger2) n1(3) n2(1) g(f3) b(v5)) {level 1} {cost 700} {fore -75.0}}	;760sec

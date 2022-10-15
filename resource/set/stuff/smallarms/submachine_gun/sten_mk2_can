@@ -1,0 +1,4 @@
+{from "sten"
+	{entity "sten_mk2"}
+	("accuracy_smg")
+}

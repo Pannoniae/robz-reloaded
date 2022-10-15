@@ -1,0 +1,11 @@
+{bullet
+  {tag "bullet small stackable pierce 7-62_ak"}
+  {inventory
+    {weight 5}
+    {block 20}
+    {size 1 1}
+    {fsm "belt"}
+  }
+  {mass 0.025}
+  {entity "c96_mag"}
+}

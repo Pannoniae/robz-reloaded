@@ -1,5 +1,5 @@
 {from "pattern overcoat"
-	{tag "itemin1hand"}
+	{tag "itemin1hand keepEntity"}
 	{entity "ammo_ger2"}
 	{inventory
 		{size 2 2}

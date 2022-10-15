@@ -1,0 +1,4 @@
+{from "mosin_m2830"
+	{desc "Mosin-Nagant M28/30 w/bayonet"}
+	{entity "mosin_m2830_b"}
+}

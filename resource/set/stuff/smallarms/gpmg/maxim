@@ -1,0 +1,18 @@
+{from "pattern gpmg"
+	{filling "ammo mg54r" 250}
+	{entity "maxim_quad_inv"}
+	{fireSound	"mgun/maxim_burst/"}
+	{rechargeTime 12}
+	{mass 52.8}
+
+	("recoveryTime" r(600))
+	("burst_long")
+	("speed" s(740))
+	{range 130 130}
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 97.5 95 92.5 90 85 80 70 50 30 10}
+	}
+	
+	("7-62mm_gpmg")
+}

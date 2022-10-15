@@ -1,3 +1,4 @@
 {from "pattern overcoat"
+	{tag "itemin1hand keepEntity"}
 	{entity "ammo_us"}
 }

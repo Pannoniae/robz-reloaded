@@ -21,6 +21,6 @@
 		{blast_squat 1.15}			; on the knees
 		
 		;{mounted_mgun 3}
-		{death_delay_min 280}		; min bleeding out time in seconds
-		{death_delay_max 300}		; max bleeding out time in seconds
+		{death_delay_min 360}		; min bleeding out time in seconds
+		{death_delay_max 390}		; max bleeding out time in seconds
 	}

@@ -1,7 +1,8 @@
 {from "pattern overcoat"
 	{entity "sovet-mesh"}
+	{tag "itemin1hand keepEntity"}
 	{inventory
-		{size 2 3}
+		{size 2 2}
 		{weight 10}
 		{link_bone "IK_UpDown"}
 		{fsm "stuff"}

@@ -1,0 +1,4 @@
+{from "balloon"
+	{entity "balloon_g"}
+	{filling "liquid" 24}
+}

@@ -5,7 +5,7 @@
             	{accuracy 0.80}
         }
         {squat
-            	{accuracy 1.10}
+            	{accuracy 1.20}
         }
 	{crawl
 		{accuracy 1.20}
@@ -22,7 +22,7 @@
             	{accuracy 0.925}
         }
         {squat
-            	{accuracy 1.225}
+            	{accuracy 1.325}
         }
 	{crawl
 		{accuracy 1.325}
@@ -39,7 +39,7 @@
             	{accuracy 0.9875}
         }
         {squat
-            	{accuracy 1.2875}
+            	{accuracy 1.3875}
         }
 	{crawl
 		{accuracy 1.3875}
@@ -56,7 +56,7 @@
             	{accuracy 1.05}
         }
         {squat
-            	{accuracy 1.35}
+            	{accuracy 1.45}
         }
 	{crawl
 		{accuracy 1.45}
@@ -73,7 +73,7 @@
             	{accuracy 1.1875}
         }
         {squat
-            	{accuracy 1.4875}
+            	{accuracy 1.5875}
         }
 	{crawl
 		{accuracy 1.5875}
@@ -90,7 +90,7 @@
             	{accuracy 1.27}
         }
         {squat
-            	{accuracy 1.57}
+            	{accuracy 1.67}
         }
 	{crawl
 		{accuracy 1.67}
@@ -107,7 +107,7 @@
             	{accuracy 1.35}
         }
         {squat
-            	{accuracy 1.65}
+            	{accuracy 1.75}
         }
 	{crawl
 		{accuracy 1.75}
@@ -124,7 +124,7 @@
             	{accuracy 1.44}
         }
         {squat
-            	{accuracy 1.74}
+            	{accuracy 1.84}
         }
 	{crawl
 		{accuracy 1.84}
@@ -141,7 +141,7 @@
             	{accuracy 1.52}
         }
         {squat
-            	{accuracy 1.82}
+            	{accuracy 1.92}
         }
 	{crawl
 		{accuracy 1.92}
@@ -155,19 +155,19 @@
     }
     {level "lvl_10"
         {stand
-            	{accuracy 1.60}
+            	{accuracy 2.90}
         }
         {squat
-            	{accuracy 1.90}
+            	{accuracy 3.10}
         }
 	{crawl
-		{accuracy 2.00}
+		{accuracy 3.10}
 	}
         {cover
-            	{accuracy 2.20}
+            	{accuracy 3.20}
         }
 	{vehicle
-		{accuracy 2.70}
+		{accuracy 3.70}
 	}
     }
 }

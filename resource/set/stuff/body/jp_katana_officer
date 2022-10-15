@@ -1,0 +1,7 @@
+{from "pattern overcoat"
+	{inventory
+		{size 1 1}
+		{weight 100}
+	}
+	{entity "jp_katana_officer"}
+}

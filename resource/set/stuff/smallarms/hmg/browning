@@ -1,0 +1,14 @@
+{from "pattern hmg"
+	{filling "ammo hmgun" 100}
+	{entity "browningm2"}
+	{fireSound	"mgun/browning_burst/"}
+
+	{mass 38}
+
+	("recoveryTime" r(550))
+	{rechargeTime 12}
+	
+	("speed" s(890))
+	
+	("12-7mm_nato_hmg")
+}

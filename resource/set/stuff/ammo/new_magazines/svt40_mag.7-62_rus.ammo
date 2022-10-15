@@ -1,0 +1,11 @@
+{bullet
+  {tag "bullet stackable pierce 7-62_54r sa_mag_reload"}
+  {inventory
+    {weight 5}
+    {block 20}
+    {size 1 1}
+    {fsm "belt"}
+  }
+  {mass 0.025}
+  {entity "svt40_mag"}
+}

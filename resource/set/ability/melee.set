@@ -59,11 +59,29 @@
 	}
 	{level "lvl_8"
 		{agility 1.2}
-		{strength 5.5}
+		{strength 6.0}
 		{strokes "butt fist leg slope_size slop_down knife"}
 		{chance
 			{counter_attack 0.8}
 			{knockdown_blow 0.3}
+		}
+	}
+	{level "lvl_9"
+		{agility 1.6}
+		{strength 6.5}
+		{strokes "butt fist leg slope_size slop_down knife"}
+		{chance
+			{counter_attack 0.9}
+			{knockdown_blow 0.5}
+		}
+	}
+	{level "lvl_10"
+		{agility 1.9}
+		{strength 7.5}
+		{strokes "butt fist leg slope_size slop_down knife"}
+		{chance
+			{counter_attack 1.0}
+			{knockdown_blow 0.8}
 		}
 	}
 }

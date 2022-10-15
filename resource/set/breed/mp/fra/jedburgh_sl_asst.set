@@ -1,0 +1,88 @@
+{breed
+	{skin "eng-scout-cpl"}
+	{portrait fr_elite2}
+	{nationality fra}
+	{icon "stormtrooper4"}
+	{icon_priority 4}
+	{armors
+		{head helmet_eng_para_camo}
+	}
+	{perks
+		{"health" "500%"
+		}
+		{"health_regeneration" "200%"
+		}
+		{"stamina" "500%"
+		}
+		{"stamina_regeneration" "200%"
+		}
+		{"vision" "mp_officer"
+		}
+		{"speed" 1.0
+		}
+		{"field_glass"}
+		{"aimedshot"}
+		{"telescope"
+		}
+		{"tank" 1
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 1
+		}
+		{"pistol" lvl_7
+		}
+		{"smg" lvl_7
+		}
+		{"mgun" lvl_7
+		}
+		{"rifle" lvl_7
+		}
+		{"rocketlauncher" lvl_7
+		}
+		{"melee" lvl_8
+		}
+		{"avoidance" lvl_1
+		}
+		{"stealth"}
+		{"tankgun" lvl_5
+		}
+		{"aimedshot"}
+		{"telescope"
+		}
+	}
+	{veterancy
+		{"lvl_1" -1
+		}
+		{"lvl_2" 0
+		}
+		{"lvl_3" 7
+		}
+		{"lvl_4" 15
+		}
+		{"lvl_5" 24
+		}
+		{"lvl_6" 34
+		}
+		{"lvl_7" 45
+		}
+		{"lvl_8" 57
+		}
+		{"lvl_9" 70
+		}
+		{"lvl_10" 84
+		}
+	}
+	{inventory
+		{item "m1_carbine" filling "ammo m1carbine_mag" 15}
+		{item "ammo m1carbine_mag" 150}
+		{item "colt" filled}
+		{item "ammo colt_mag" 28}
+		{item "bandage" 5}
+		{item "grenade m61" 2}
+		{item "grenade n73at" 1}
+		{item "smoke grenade" 2}
+		{item "grenade satchel" 1}
+		{in_hands 0}
+	}
+}

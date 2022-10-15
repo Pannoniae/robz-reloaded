@@ -1,0 +1,3 @@
+{from "grenade smoke"
+	{entity "smoke_rdg"}
+}

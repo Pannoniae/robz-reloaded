@@ -1,0 +1,298 @@
+(include "\set\small.firearms.accuracy")
+
+(define "speed"   
+	{speed (* 1.0 %s)}
+)
+
+(define "recoveryTime"   
+	{recoveryTime (/ 60 %r)}
+)
+
+;;==========================================
+;	Zeroing
+;;==========================================
+
+(define "mg_zeroing"
+	{ZeroingAccuracy 1 1 1 1 0.95 0.95 0.95 0.95 0.95 0.90 0.90 0.90 0.90 0.90 0.80 0.80 0.80 0.80 0.80 0.70}
+)
+
+;;==========================================
+;	Bursts/Discipline
+;;==========================================
+
+(define "burst_short"
+	{burst
+		{short 3 0.1}
+		{long 5 1}
+	}	
+)
+
+(define "burst_medium"
+	{burst
+		{short 4 0.1}
+		{long 7 1}
+	}	
+)
+
+(define "burst_long"
+	{burst
+		{short 5 0.1}
+		{long 10 1}
+	}	
+)
+
+;;==========================================
+;	Recoil/Spreading
+;;==========================================
+
+(define "spread_optic"
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 97.5 95 92.5 90 85 80 70 60 50}
+	}
+)
+
+;;==========================================
+;	WW2 Weapons
+;;==========================================
+
+(define "6-5mm_gpmg"
+	("accuracy_gpmg")
+	{projectileDamageTable {50 8} {250 0}}
+	{parameters "6-5_arisaka_ap"
+		{projectileDamageTable {50 15} {250 0}}
+	}
+	{parameters "6-5_arisaka_sniper"
+		("accuracy_gpmg_match")
+	}
+	{parameters "6-5_carcano_ap"
+		{projectileDamageTable {50 15} {250 0}}
+	}
+	{parameters "6-5_carcano_sniper"
+		("accuracy_gpmg_match")
+	}
+	{calibre 6.5}
+)
+(define "6-5mm_gpmg_mount"
+	("accuracy_gpmg_mount")
+	{projectileDamageTable {50 8} {250 0}}
+	{parameters "6-5_arisaka_ap"
+		{projectileDamageTable {50 15} {250 0}}
+	}
+	{parameters "6-5_arisaka_sniper"
+		("accuracy_gpmg_mount_match")
+	}
+	{parameters "6-5_carcano_ap"
+		{projectileDamageTable {50 15} {250 0}}
+	}
+	{parameters "6-5_carcano_sniper"
+		("accuracy_gpmg_mount_match")
+	}
+	{calibre 6.5}
+)
+(define "6-5mm_gpmg_hull"
+	("accuracy_gpmg_hull")
+	{projectileDamageTable {50 8} {250 0}}
+	{parameters "6-5_arisaka_ap"
+		{projectileDamageTable {50 15} {250 0}}
+	}
+	{parameters "6-5_arisaka_sniper"
+		("accuracy_gpmg_hull_match")
+	}
+	{parameters "6-5_carcano_ap"
+		{projectileDamageTable {50 15} {250 0}}
+	}
+	{parameters "6-5_carcano_sniper"
+		("accuracy_gpmg_hull_match")
+	}
+	{calibre 6.5}
+)
+(define "6-5mm_gpmg_optic"
+	("accuracy_gpmg_optic")
+	{projectileDamageTable {50 8} {250 0}}
+	{parameters "6-5_arisaka_ap"
+		{projectileDamageTable {50 15} {250 0}}
+	}
+	{parameters "6-5_arisaka_sniper"
+		("accuracy_gpmg_optic_match")
+	}
+	{parameters "6-5_carcano_ap"
+		{projectileDamageTable {50 15} {250 0}}
+	}
+	{parameters "6-5_carcano_sniper"
+		("accuracy_gpmg_optic_match")
+	}
+	{calibre 6.5}
+)
+(define "7-62mm_gpmg"
+	("accuracy_gpmg")
+	{parameters "7-62_springfield_ap"
+		{projectileDamageTable {50 17} {250 0}}
+	}
+	{parameters "7-62_springfield_sniper"
+		("accuracy_gpmg_match")
+	}
+	{parameters "7-62_54r_ap"
+		{projectileDamageTable {50 17} {250 0}}
+	}
+	{parameters "7-62_54r_sniper"
+		("accuracy_gpmg_match")
+	}
+	{calibre 7.62}
+)
+(define "7-62mm_gpmg_mount"
+	("accuracy_gpmg_mount")
+	{parameters "7-62_springfield_ap"
+		{projectileDamageTable {50 17} {250 0}}
+	}
+	{parameters "7-62_springfield_sniper"
+		("accuracy_gpmg_mount_match")
+	}
+	{parameters "7-62_54r_ap"
+		{projectileDamageTable {50 17} {250 0}}
+	}
+	{parameters "7-62_54r_sniper"
+		("accuracy_gpmg_mount_match")
+	}
+	{calibre 7.62}
+)
+(define "7-62mm_gpmg_hull"
+	("accuracy_gpmg_hull")
+	{parameters "7-62_springfield_ap"
+		{projectileDamageTable {50 17} {250 0}}
+	}
+	{parameters "7-62_springfield_sniper"
+		("accuracy_gpmg_hull_match")
+	}
+	{parameters "7-62_54r_ap"
+		{projectileDamageTable {50 17} {250 0}}
+	}
+	{parameters "7-62_54r_sniper"
+		("accuracy_gpmg_hull_match")
+	}
+	{calibre 7.62}
+)
+(define "7-62mm_gpmg_optic"
+	("accuracy_gpmg_optic")
+	{parameters "7-62_springfield_ap"
+		{projectileDamageTable {50 17} {250 0}}
+	}
+	{parameters "7-62_springfield_sniper"
+		("accuracy_gpmg_optic_match")
+	}
+	{parameters "7-62_54r_ap"
+		{projectileDamageTable {50 17} {250 0}}
+	}
+	{parameters "7-62_54r_sniper"
+		("accuracy_gpmg_optic_match")
+	}
+	{calibre 7.62}
+)
+(define "7-7mm_gpmg"
+	("accuracy_gpmg")
+	{projectileDamageTable {50 9} {250 0}}
+	{parameters "7-7_british_ap"
+		{projectileDamageTable {50 16} {250 0}}
+	}
+	{parameters "7-7_british_sniper"
+		("accuracy_gpmg_match")
+	}
+	{parameters "7-7_arisaka_ap"
+		{projectileDamageTable {50 16} {250 0}}
+	}
+	{parameters "7-7_arisaka_sniper"
+		("accuracy_gpmg_match")
+	}
+	{calibre 7.7}
+)
+(define "7-7mm_gpmg_mount"
+	("accuracy_gpmg_mount")
+	{projectileDamageTable {50 9} {250 0}}
+	{parameters "7-7_british_ap"
+		{projectileDamageTable {50 16} {250 0}}
+	}
+	{parameters "7-7_british_sniper"
+		("accuracy_gpmg_mount_match")
+	}
+	{parameters "7-7_arisaka_ap"
+		{projectileDamageTable {50 16} {250 0}}
+	}
+	{parameters "7-7_arisaka_sniper"
+		("accuracy_gpmg_mount_match")
+	}
+	{calibre 7.7}
+)
+(define "7-7mm_gpmg_hull"
+	("accuracy_gpmg_hull")
+	{projectileDamageTable {50 9} {250 0}}
+	{parameters "7-7_british_ap"
+		{projectileDamageTable {50 16} {250 0}}
+	}
+	{parameters "7-7_british_sniper"
+		("accuracy_gpmg_hull_match")
+	}
+	{parameters "7-7_arisaka_ap"
+		{projectileDamageTable {50 16} {250 0}}
+	}
+	{parameters "7-7_arisaka_sniper"
+		("accuracy_gpmg_hull_match")
+	}
+	{calibre 7.7}
+)
+(define "7-7mm_gpmg_optic"
+	("accuracy_gpmg_optic")
+	{projectileDamageTable {50 9} {250 0}}
+	{parameters "7-7_british_ap"
+		{projectileDamageTable {50 16} {250 0}}
+	}
+	{parameters "7-7_british_sniper"
+		("accuracy_gpmg_optic_match")
+	}
+	{parameters "7-7_arisaka_ap"
+		{projectileDamageTable {50 16} {250 0}}
+	}
+	{parameters "7-7_arisaka_sniper"
+		("accuracy_gpmg_optic_match")
+	}
+	{calibre 7.7}
+)
+(define "7-92mm_gpmg"
+	("accuracy_gpmg")
+	{parameters "7-92_mauser_ap"
+		{projectileDamageTable {50 17} {250 0}}
+	}
+	{parameters "7-92_mauser_sniper"
+		("accuracy_gpmg_match")
+	}
+	{calibre 7.92}
+)
+(define "7-92mm_gpmg_mount"
+	("accuracy_gpmg_mount")
+	{parameters "7-92_mauser_ap"
+		{projectileDamageTable {50 17} {250 0}}
+	}
+	{parameters "7-92_mauser_sniper"
+		("accuracy_gpmg_mount_match")
+	}
+	{calibre 7.92}
+)
+(define "7-92mm_gpmg_hull"
+	("accuracy_gpmg_hull")
+	{parameters "7-92_mauser_ap"
+		{projectileDamageTable {50 17} {250 0}}
+	}
+	{parameters "7-92_mauser_sniper"
+		("accuracy_gpmg_hull_match")
+	}
+	{calibre 7.92}
+)
+(define "7-92mm_gpmg_optic"
+	("accuracy_gpmg_optic")
+	{parameters "7-92_mauser_ap"
+		{projectileDamageTable {50 17} {250 0}}
+	}
+	{parameters "7-92_mauser_sniper"
+		("accuracy_gpmg_optic_match")
+	}
+	{calibre 7.92}
+)

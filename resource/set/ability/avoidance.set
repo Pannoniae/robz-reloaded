@@ -2,6 +2,13 @@
 	{level "lvl_1"
 		{fire 0.1}
 	}
+	{level "lvl_2"
+		{fire 0.9}
+		{drop_weapon 0.8}
+		{knockdown_melee 1.0}
+		{explosive 1.0}
+		{aimed_shot 0.8}
+	}
 }
 
 ;{drop_weapon 0.97}

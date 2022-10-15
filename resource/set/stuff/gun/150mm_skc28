@@ -1,0 +1,29 @@
+{from "pattern gun"    ; "150mm_skc28"
+	{filling "bullet150 gers" 2}
+	{fireSound "gun/howitzer/150mm_sfh18"}
+	{reloadSound "tankgun_r04"}
+	{RecoveryTime 2}
+	{rechargeTime 15.0}
+	("range_maximum")	
+
+	{ZeroingAccuracy 0.6 0.2}
+	{range 600 600}
+	("speed_all" ap(870) apcr(870) fg(650) heat(650))
+	("caliber_maximum")
+	{projectileDamage 269}
+	("damage_215" a(269) b(260) c(247) d(232) e(228) range(600))
+	{parameters "heat"
+       		("damage_heat" a(334) range(600))
+	}
+	
+	("accuracy_max")
+	{RicochetEnergyDamping 	; penetration energy damping after ricochet (angle - damping)	
+		{0 	1}	
+		{15	0.9}
+		{30	0.8}
+		{45 	0.7}
+		{60 	0.5}
+		{75	0.3}
+		{90	0.1}
+	}
+}

@@ -6,7 +6,7 @@
 		{mode detonate}
 	}
 	{throw
-		{range 1.5}
+		{range 4.5}
 		{startAngle 50}
 	}		
 	{entity "ladung_3kg"}

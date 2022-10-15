@@ -1,0 +1,11 @@
+{from "dt"
+	{rechargeTime 5.5}
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 96.5 93 89.5 86 82.5 79 70 60 40 20}
+	}
+	{range 130 130}
+	("accuracy_gpmg_mount")
+	
+	("7-62mm_gpmg_mount")
+}

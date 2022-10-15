@@ -1,0 +1,13 @@
+{from "pattern bolt_action"
+	{desc "Mosin-Nagant M28/30"}
+	{filling "ammo 7-62_rus" 5}
+	{entity "mosin_m2830"}
+	{fireSound "rifle/mosin_shot/"}
+	{reloadSound "mosin"}
+	
+	("speed" s(865))
+	("accuracy_boost")
+	("belt_reload_5")
+	
+	("7-62mm_bolt")
+}

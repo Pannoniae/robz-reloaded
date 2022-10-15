@@ -1,0 +1,11 @@
+{from "em2"
+	{special
+		{mode aim}
+		{PrepareTime 2.0}	
+		{PrepareCursor "aimed_shot"}
+		{accuracy 2.5}
+		{damage 2.05}
+		{throw_off}
+	}
+	{recoveryTime 1.5}
+}

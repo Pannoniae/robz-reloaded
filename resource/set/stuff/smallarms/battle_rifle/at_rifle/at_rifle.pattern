@@ -1,0 +1,54 @@
+{from "pattern bullet"
+	{tag "weapon mgun at_rifle bullet to_hand nokeep"}
+	{filling "ammo ptr" 1}
+	{inventory
+		{size 6 2}
+		{link_bone "gun_back"}
+		{weight 100}
+	}
+	{entity "ptrd"}
+	
+	{traceFreq 5}
+	{mass 18}
+	{cursor "zenite_on"}
+	{cursorReloading "zenite_reload"}
+	{fireSound	"rifle/ptr/ptrs"}
+	{reloadSound "rifle_at"}
+	{special
+		{throw_off}
+	}
+	
+	{burst
+		{short 1}
+		{Long 1}
+	}
+
+	{range 110 110}
+	{speed 1000}
+	
+	{spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 75 50 25 20 10}
+	}
+
+	{spreading 1
+		{SpreadPower	1}
+		{SpreadRadius 0.5}
+	}
+	
+	{rechargeTime 6.0}   
+	{recoveryTime 1.25}
+	{calibre 14}
+	{curve "gun_light"}
+	{healthDamage 275}
+	{aimingTolerance 0.1}
+	                     
+   	{RelaxationTime 1}
+	{ProjectileDamage 8}
+	{ProjectileDamageClip 5}
+	{projectileDamageTable {0 30} {50 25} {100 20} {150 10} {200 5}}
+	{projectileDamageThreshold 1}
+	
+	("accuracy_at_rifle")
+	("accuracy_boost")
+}

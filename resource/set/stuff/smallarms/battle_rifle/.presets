@@ -1,0 +1,947 @@
+(include "\set\small.firearms.accuracy")
+
+(define "speed"
+	{speed (* 1.0 %s)}  
+)
+(define "recoveryTime"   
+	{recoveryTime (/ 60 %r)}
+)
+
+;;==========================================
+;	Misc
+;;==========================================
+
+(define "sa_mag_reload"
+	{parameters "sa_mag_reload"
+		{rechargeTime 4.5}
+	}
+)
+
+(define "battle_rifle_reload"
+	{parameters "speed_reload_pmag"
+		{rechargeTime 3.5}
+	}
+	{parameters "speed_reload_epm"
+		{rechargeTime 3.75}
+	}
+)
+
+(define "belt_reload_5"
+	{parameters "belt_reload_5"
+		{rechargeTime 7.0}
+	}
+)
+
+(define "belt_reload_10"
+	{parameters "belt_reload_10"
+		{rechargeTime 9.0}
+	}
+)
+
+;;==========================================
+;	Zeroing
+;;==========================================
+
+(define "accuracy_boost"
+	{ZeroingAccuracy 0.9 0.8}
+)
+
+(define "sniper_zeroing"
+	{ZeroingAccuracy 0.8 0.7 0.65 0.6}
+)
+
+(define "rapid_zeroing"
+	{ZeroingAccuracy 0.92 0.88 0.84 0.8}
+)
+
+(define "sa_zeroing"
+	{ZeroingAccuracy 0.96 0.92 0.88 0.84 0.8}
+)
+
+;;==========================================
+;	Bursts/Discipline
+;;==========================================
+
+(define "burst_short"
+	{burst
+		{short 2 0.5}
+		{long 3 0.5}
+	}
+)
+
+(define "burst_rapid"
+	{burst
+		{short 1.5 0.35}
+		{Long 1.5 0.35}
+	}
+)
+
+(define "burst_fal"
+	{burst
+		{short 1 0.25}
+		{Long 1 0.25}
+	}
+)
+
+(define "burst_single"
+	{burst
+		{short 1 0.1}
+		{Long 1 0.1}
+	}
+)
+
+(define "carbine"	;m1/2 carbine only
+	{spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 95 90 85 80 70 60}
+	}
+	{burst
+		{short 1.25 0.5}
+		{Long 3 0.5}
+	}
+)
+
+(define "sks"		;sks only
+	{spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 93 85 78 65 55 50}
+	}
+	{burst
+		{short 1.25 0.5}
+		{Long 3 0.5}
+	}
+)
+
+;;==========================================
+;	Recoil/Spreading
+;;==========================================
+
+(define "spread_light"
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 95 90 85 80 70 60 50}
+	}
+)
+
+(define "spread_medium"
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 93 85 78 70 60 50}
+	}
+)
+
+(define "spread_heavy"
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 90 80 70 60 50}
+	}
+)
+
+;;==========================================
+;	7.62x51mm
+;;==========================================
+
+(define "7-62mm_nato_semi"
+	("accuracy_semi_rifle")
+	{parameters "7-62_m80"
+		("accuracy_semi_rifle")
+	}
+	{parameters "7-62_m80a1"
+		{projectileDamageTable {50 9} {250 0}}
+		("accuracy_semi_rifle")
+	}
+	{parameters "7-62_m118lr"
+		("accuracy_semi_rifle_match")
+	}
+	{parameters "7-62_m948"
+		{projectileDamageTable {50 17} {250 0}}
+		("accuracy_semi_rifle_ap")
+	}
+	{parameters "7-62_m993"
+		{projectileDamageTable {50 20} {250 0}}
+		("accuracy_semi_rifle_ap")
+	}
+	{parameters "7-62_mk316"
+		("accuracy_semi_rifle_match")
+	}
+	{calibre 7.62}
+)
+
+(define "7-62mm_nato_semi_cqb"
+	("accuracy_semi_rifle_cqb")
+	{parameters "7-62_m80"
+		("accuracy_semi_rifle_cqb")
+	}
+	{parameters "7-62_m80a1"
+		{projectileDamageTable {50 9} {250 0}}
+		("accuracy_semi_rifle_cqb")
+	}
+	{parameters "7-62_m118lr"
+		("accuracy_semi_rifle_cqb_match")
+	}
+	{parameters "7-62_m948"
+		{projectileDamageTable {50 17} {250 0}}
+		("accuracy_semi_rifle_cqb_ap")
+	}
+	{parameters "7-62_m993"
+		{projectileDamageTable {50 20} {250 0}}
+		("accuracy_semi_rifle_cqb_ap")
+	}
+	{parameters "7-62_mk316"
+		("accuracy_semi_rifle_cqb_match")
+	}
+	{calibre 7.62}
+)
+
+(define "7-62mm_nato_semi_rco"
+	("accuracy_semi_rifle_rco")
+	{parameters "7-62_m80"
+		("accuracy_semi_rifle_rco")
+	}
+	{parameters "7-62_m80a1"
+		{projectileDamageTable {50 9} {250 0}}
+		("accuracy_semi_rifle_rco")
+	}
+	{parameters "7-62_m118lr"
+		("accuracy_semi_rifle_rco_match")
+	}
+	{parameters "7-62_m948"
+		{projectileDamageTable {50 17} {250 0}}
+		("accuracy_semi_rifle_rco_ap")
+	}
+	{parameters "7-62_m993"
+		{projectileDamageTable {50 20} {250 0}}
+		("accuracy_semi_rifle_rco_ap")
+	}
+	{parameters "7-62_mk316"
+		("accuracy_semi_rifle_rco_match")
+	}
+	{calibre 7.62}
+)
+
+(define "7-62mm_nato_semi_variable"
+	("accuracy_semi_rifle_variable")
+	{parameters "7-62_m80"
+		("accuracy_semi_rifle_variable")
+	}
+	{parameters "7-62_m80a1"
+		{projectileDamageTable {50 9} {250 0}}
+		("accuracy_semi_rifle_variable")
+	}
+	{parameters "7-62_m118lr"
+		("accuracy_semi_rifle_variable_match")
+	}
+	{parameters "7-62_m948"
+		{projectileDamageTable {50 17} {250 0}}
+		("accuracy_semi_rifle_variable_ap")
+	}
+	{parameters "7-62_m993"
+		{projectileDamageTable {50 20} {250 0}}
+		("accuracy_semi_rifle_variable_ap")
+	}
+	{parameters "7-62_mk316"
+		("accuracy_semi_rifle_variable_match")
+	}
+	{calibre 7.62}
+)
+
+(define "7-62mm_nato_semi_sniper"
+	("accuracy_marksman_rifle")
+	{parameters "7-62_m80"
+		("accuracy_marksman_rifle")
+	}
+	{parameters "7-62_m80a1"
+		{projectileDamageTable {50 9} {250 0}}
+		("accuracy_marksman_rifle")
+	}
+	{parameters "7-62_m118lr"
+		{range 135 135}
+		("accuracy_marksman_rifle_match")
+	}
+	{parameters "7-62_m948"
+		{projectileDamageTable {50 17} {250 0}}
+		("accuracy_marksman_rifle_ap")
+	}
+	{parameters "7-62_m993"
+		{projectileDamageTable {50 20} {250 0}}
+		("accuracy_marksman_rifle_ap")
+	}
+	{parameters "7-62_mk316"
+		{range 135 135}
+		("accuracy_marksman_rifle_match")
+	}
+	{calibre 7.62}
+)
+
+;-----
+;	advanced rifles
+;-----
+
+(define "7-62mm_nato_advanced"
+	("accuracy_advanced_rifle")
+	{parameters "7-62_m80"
+		("accuracy_advanced_rifle")
+	}
+	{parameters "7-62_m80a1"
+		{projectileDamageTable {50 9} {250 0}}
+		("accuracy_advanced_rifle")
+	}
+	{parameters "7-62_m118lr"
+		("accuracy_advanced_rifle_match")
+	}
+	{parameters "7-62_m948"
+		{projectileDamageTable {50 17} {250 0}}
+		("accuracy_advanced_rifle_ap")
+	}
+	{parameters "7-62_m993"
+		{projectileDamageTable {50 20} {250 0}}
+		("accuracy_advanced_rifle_ap")
+	}
+	{parameters "7-62_mk316"
+		("accuracy_advanced_rifle_match")
+	}
+	{calibre 7.62}
+)
+
+(define "7-62mm_nato_advanced_cqb"
+	("accuracy_advanced_rifle_cqb")
+	{parameters "7-62_m80"
+		("accuracy_advanced_rifle_cqb")
+	}
+	{parameters "7-62_m80a1"
+		{projectileDamageTable {50 9} {250 0}}
+		("accuracy_advanced_rifle_cqb")
+	}
+	{parameters "7-62_m118lr"
+		("accuracy_advanced_rifle_cqb_match")
+	}
+	{parameters "7-62_m948"
+		{projectileDamageTable {50 17} {250 0}}
+		("accuracy_advanced_rifle_cqb_ap")
+	}
+	{parameters "7-62_m993"
+		{projectileDamageTable {50 20} {250 0}}
+		("accuracy_advanced_rifle_cqb_ap")
+	}
+	{parameters "7-62_mk316"
+		("accuracy_advanced_rifle_cqb_match")
+	}
+	{calibre 7.62}
+)
+
+(define "7-62mm_nato_advanced_rco"
+	("accuracy_advanced_rifle_rco")
+	{parameters "7-62_m80"
+		("accuracy_advanced_rifle_rco")
+	}
+	{parameters "7-62_m80a1"
+		{projectileDamageTable {50 9} {250 0}}
+		("accuracy_advanced_rifle_rco")
+	}
+	{parameters "7-62_m118lr"
+		("accuracy_advanced_rifle_rco_match")
+	}
+	{parameters "7-62_m948"
+		{projectileDamageTable {50 17} {250 0}}
+		("accuracy_advanced_rifle_rco_ap")
+	}
+	{parameters "7-62_m993"
+		{projectileDamageTable {50 20} {250 0}}
+		("accuracy_advanced_rifle_rco_ap")
+	}
+	{parameters "7-62_mk316"
+		("accuracy_advanced_rifle_rco_match")
+	}
+	{calibre 7.62}
+)
+
+(define "7-62mm_nato_advanced_variable"
+	("accuracy_advanced_rifle_variable")
+	{parameters "7-62_m80"
+		("accuracy_advanced_rifle_variable")
+	}
+	{parameters "7-62_m80a1"
+		{projectileDamageTable {50 9} {250 0}}
+		("accuracy_advanced_rifle_variable")
+	}
+	{parameters "7-62_m118lr"
+		("accuracy_advanced_rifle_variable_match")
+	}
+	{parameters "7-62_m948"
+		{projectileDamageTable {50 17} {250 0}}
+		("accuracy_advanced_rifle_variable_ap")
+	}
+	{parameters "7-62_m993"
+		{projectileDamageTable {50 20} {250 0}}
+		("accuracy_advanced_rifle_variable_ap")
+	}
+	{parameters "7-62_mk316"
+		("accuracy_advanced_rifle_variable_match")
+	}
+	{calibre 7.62}
+)
+
+(define "7-62mm_nato_advanced_sniper"
+	("accuracy_sniper_rifle")
+	{parameters "7-62_m80"
+		("accuracy_sniper_rifle")
+	}
+	{parameters "7-62_m80a1"
+		{projectileDamageTable {50 9} {250 0}}
+		("accuracy_sniper_rifle")
+	}
+	{parameters "7-62_m118lr"
+		{range 135 135}
+		("accuracy_sniper_rifle_match")
+	}
+	{parameters "7-62_m948"
+		{projectileDamageTable {50 17} {250 0}}
+		("accuracy_sniper_rifle_ap")
+	}
+	{parameters "7-62_m993"
+		{projectileDamageTable {50 20} {250 0}}
+		("accuracy_sniper_rifle_ap")
+	}
+	{parameters "7-62_mk316"
+		{range 140 140}
+		("accuracy_sniper_rifle_match")
+	}
+	{calibre 7.62}
+)
+
+;;==========================================
+;	7.62x54mmR
+;;==========================================
+
+(define "7-62mm_54r_semi"
+	("accuracy_semi_rifle")
+	{parameters "rifle_fg"
+		("accuracy_semi_rifle_ap")
+	}
+	{parameters "7-62_lps"
+		("accuracy_semi_rifle")
+	}
+	{parameters "7-62_7n1"
+		("accuracy_semi_rifle_match")
+	}
+	{parameters "7-62_7n14"
+		{projectileDamageTable {50 17} {250 0}}
+		("accuracy_semi_rifle_ap")
+	}
+	{parameters "7-62_7n37"
+		{projectileDamageTable {50 17} {250 0}}
+		("accuracy_semi_rifle_match")
+	}
+	{calibre 7.62}
+)
+
+(define "7-62mm_54r_semi_cqb"
+	("accuracy_semi_rifle_cqb")
+	{parameters "rifle_fg"
+		("accuracy_semi_rifle_cqb_ap")
+	}
+	{parameters "7-62_lps"
+		("accuracy_semi_rifle_cqb")
+	}
+	{parameters "7-62_7n1"
+		("accuracy_semi_rifle_cqb_match")
+	}
+	{parameters "7-62_7n14"
+		{projectileDamageTable {50 17} {250 0}}
+		("accuracy_semi_rifle_cqb_ap")
+	}
+	{parameters "7-62_7n37"
+		{projectileDamageTable {50 17} {250 0}}
+		("accuracy_semi_rifle_cqb_match")
+	}
+	{calibre 7.62}
+)
+
+(define "7-62mm_54r_semi_rco"
+	("accuracy_semi_rifle_rco")
+	{parameters "rifle_fg"
+		("accuracy_semi_rifle_rco_ap")
+	}
+	{parameters "7-62_lps"
+		("accuracy_semi_rifle_rco")
+	}
+	{parameters "7-62_7n1"
+		("accuracy_semi_rifle_rco_match")
+	}
+	{parameters "7-62_7n14"
+		{projectileDamageTable {50 17} {250 0}}
+		("accuracy_semi_rifle_rco_ap")
+	}
+	{parameters "7-62_7n37"
+		{projectileDamageTable {50 17} {250 0}}
+		("accuracy_semi_rifle_rco_match")
+	}
+	{calibre 7.62}
+)
+
+(define "7-62mm_54r_semi_variable"
+	("accuracy_semi_rifle_variable")
+	{parameters "rifle_fg"
+		("accuracy_semi_rifle_variable_ap")
+	}
+	{parameters "7-62_lps"
+		("accuracy_semi_rifle_variable")
+	}
+	{parameters "7-62_7n1"
+		("accuracy_semi_rifle_variable_match")
+	}
+	{parameters "7-62_7n14"
+		{projectileDamageTable {50 17} {250 0}}
+		("accuracy_semi_rifle_variable_ap")
+	}
+	{parameters "7-62_7n37"
+		{projectileDamageTable {50 17} {250 0}}
+		("accuracy_semi_rifle_variable_match")
+	}
+	{calibre 7.62}
+)
+
+(define "7-62mm_54r_semi_sniper"
+	("accuracy_marksman_rifle")
+	{parameters "rifle_fg"
+		("accuracy_marksman_rifle_ap")
+	}
+	{parameters "7-62_lps"
+		("accuracy_marksman_rifle")
+	}
+	{parameters "7-62_7n1"
+		{range 135 135}
+		("accuracy_marksman_rifle_match")
+	}
+	{parameters "7-62_7n14"
+		{projectileDamageTable {50 17} {250 0}}
+		("accuracy_marksman_rifle_ap")
+	}
+	{parameters "7-62_7n37"
+		{range 135 135}
+		{projectileDamageTable {50 17} {250 0}}
+		("accuracy_marksman_rifle_match")
+	}
+	{calibre 7.62}
+)
+
+;-----
+;	advanced rifles
+;-----
+
+(define "7-62mm_54r_advanced"
+	("accuracy_advanced_rifle")
+	{parameters "rifle_fg"
+		("accuracy_advanced_rifle_ap")
+	}
+	{parameters "7-62_lps"
+		("accuracy_advanced_rifle")
+	}
+	{parameters "7-62_7n1"
+		("accuracy_advanced_rifle_match")
+	}
+	{parameters "7-62_7n14"
+		{projectileDamageTable {50 17} {250 0}}
+		("accuracy_advanced_rifle_ap")
+	}
+	{parameters "7-62_7n37"
+		{projectileDamageTable {50 17} {250 0}}
+		("accuracy_advanced_rifle_match")
+	}
+	{calibre 7.62}
+)
+
+(define "7-62mm_54r_advanced_cqb"
+	("accuracy_advanced_rifle_cqb")
+	{parameters "rifle_fg"
+		("accuracy_advanced_rifle_cqb_ap")
+	}
+	{parameters "7-62_lps"
+		("accuracy_advanced_rifle_cqb")
+	}
+	{parameters "7-62_7n1"
+		("accuracy_advanced_rifle_cqb_match")
+	}
+	{parameters "7-62_7n14"
+		{projectileDamageTable {50 17} {250 0}}
+		("accuracy_advanced_rifle_cqb_ap")
+	}
+	{parameters "7-62_7n37"
+		{projectileDamageTable {50 17} {250 0}}
+		("accuracy_advanced_rifle_cqb_match")
+	}
+	{calibre 7.62}
+)
+
+(define "7-62mm_54r_advanced_rco"
+	("accuracy_advanced_rifle_rco")
+	{parameters "rifle_fg"
+		("accuracy_advanced_rifle_rco_ap")
+	}
+	{parameters "7-62_lps"
+		("accuracy_advanced_rifle_rco")
+	}
+	{parameters "7-62_7n1"
+		("accuracy_advanced_rifle_rco_match")
+	}
+	{parameters "7-62_7n14"
+		{projectileDamageTable {50 17} {250 0}}
+		("accuracy_advanced_rifle_rco_ap")
+	}
+	{parameters "7-62_7n37"
+		{projectileDamageTable {50 17} {250 0}}
+		("accuracy_advanced_rifle_rco_match")
+	}
+	{calibre 7.62}
+)
+
+(define "7-62mm_54r_advanced_variable"
+	("accuracy_advanced_rifle_variable")
+	{parameters "rifle_fg"
+		("accuracy_advanced_rifle_variable_ap")
+	}
+	{parameters "7-62_lps"
+		("accuracy_advanced_rifle_variable")
+	}
+	{parameters "7-62_7n1"
+		("accuracy_advanced_rifle_variable_match")
+	}
+	{parameters "7-62_7n14"
+		{projectileDamageTable {50 17} {250 0}}
+		("accuracy_advanced_rifle_variable_ap")
+	}
+	{parameters "7-62_7n37"
+		{projectileDamageTable {50 17} {250 0}}
+		("accuracy_advanced_rifle_variable_match")
+	}
+	{calibre 7.62}
+)
+
+(define "7-62mm_54r_advanced_sniper"
+	("accuracy_sniper_rifle")
+	{parameters "rifle_fg"
+		("accuracy_sniper_rifle_ap")
+	}
+	{parameters "7-62_lps"
+		("accuracy_sniper_rifle")
+	}
+	{parameters "7-62_7n1"
+		{range 140 140}
+		("accuracy_sniper_rifle_match")
+	}
+	{parameters "7-62_7n14"
+		{projectileDamageTable {50 17} {250 0}}
+		("accuracy_sniper_rifle_ap")
+	}
+	{parameters "7-62_7n37"
+		{range 140 140}
+		{projectileDamageTable {50 17} {250 0}}
+		("accuracy_sniper_rifle_match")
+	}
+	{calibre 7.62}
+)
+
+;;==========================================
+;	WW2 Weapons
+;;==========================================
+
+(define "6-5mm_bolt"
+	{projectileDamageTable {50 8} {250 0}}
+	{spreading 1
+		{BurstAccuracy 100 93 85 78 70 60 50}
+	}
+	{parameters "rifle_fg"
+		("accuracy_advanced_rifle_ap")
+	}
+	{parameters "6-5_arisaka_ap"
+		{projectileDamageTable {50 15} {250 0}}
+		("accuracy_advanced_rifle_ap")
+	}
+	{parameters "6-5_arisaka_sniper"
+		("accuracy_advanced_rifle_match")
+	}
+	{parameters "6-5_carcano_ap"
+		{projectileDamageTable {50 15} {250 0}}
+		("accuracy_advanced_rifle_ap")
+	}
+	{parameters "6-5_carcano_sniper"
+		("accuracy_advanced_rifle_match")
+	}
+	{calibre 6.5}
+)
+(define "6-5mm_bolt_sniper"
+	{projectileDamageTable {50 8} {250 0}}
+	{spreading 1
+		{BurstAccuracy 100 93 85 78 70 60 50}
+	}
+	{parameters "rifle_fg"
+		("accuracy_sniper_rifle_ap")
+	}
+	{parameters "6-5_arisaka_ap"
+		{projectileDamageTable {50 15} {250 0}}
+		("accuracy_sniper_rifle_ap")
+	}
+	{parameters "6-5_arisaka_sniper"
+		{range 140 140}
+		("accuracy_sniper_rifle_match")
+	}
+	{parameters "6-5_carcano_ap"
+		{projectileDamageTable {50 15} {250 0}}
+		("accuracy_sniper_rifle_ap")
+	}
+	{parameters "6-5_carcano_sniper"
+		{range 140 140}
+		("accuracy_sniper_rifle_match")
+	}
+	{calibre 6.5}
+)
+(define "6-5mm_semi"
+	{projectileDamageTable {50 8} {250 0}}
+	{spreading 1
+		{BurstAccuracy 100 93 85 78 70 60 50}
+	}
+	{parameters "rifle_fg"
+		("accuracy_semi_rifle_ap")
+	}
+	{parameters "6-5_arisaka_ap"
+		{projectileDamageTable {50 15} {250 0}}
+		("accuracy_semi_rifle_ap")
+	}
+	{parameters "6-5_arisaka_sniper"
+		("accuracy_semi_rifle_match")
+	}
+	{parameters "6-5_carcano_ap"
+		{projectileDamageTable {50 15} {250 0}}
+		("accuracy_semi_rifle_ap")
+	}
+	{parameters "6-5_carcano_sniper"
+		("accuracy_semi_rifle_match")
+	}
+	{calibre 6.5}
+)
+(define "7-62mm_bolt"
+	{parameters "rifle_fg"
+		("accuracy_advanced_rifle_ap")
+	}
+	{parameters "7-62_springfield_ap"
+		{projectileDamageTable {50 17} {250 0}}
+		("accuracy_advanced_rifle_ap")
+	}
+	{parameters "7-62_springfield_sniper"
+		("accuracy_advanced_rifle_match")
+	}
+	{parameters "7-62_54r_ap"
+		{projectileDamageTable {50 17} {250 0}}
+		("accuracy_advanced_rifle_ap")
+	}
+	{parameters "7-62_54r_sniper"
+		("accuracy_advanced_rifle_match")
+	}
+	{calibre 7.62}
+)
+(define "7-62mm_bolt_sniper"
+	{parameters "rifle_fg"
+		("accuracy_sniper_rifle_ap")
+	}
+	{parameters "7-62_springfield_ap"
+		{projectileDamageTable {50 17} {250 0}}
+		("accuracy_sniper_rifle_ap")
+	}
+	{parameters "7-62_springfield_sniper"
+		{range 140 140}
+		("accuracy_sniper_rifle_match")
+	}
+	{parameters "7-62_54r_ap"
+		{projectileDamageTable {50 17} {250 0}}
+		("accuracy_sniper_rifle_ap")
+	}
+	{parameters "7-62_54r_sniper"
+		{range 140 140}
+		("accuracy_sniper_rifle_match")
+	}
+	{calibre 7.62}
+)
+(define "7-62mm_semi"
+	{parameters "rifle_fg"
+		("accuracy_semi_rifle_ap")
+	}
+	{parameters "7-62_springfield_ap"
+		{projectileDamageTable {50 17} {250 0}}
+		("accuracy_semi_rifle_ap")
+	}
+	{parameters "7-62_springfield_sniper"
+		("accuracy_semi_rifle_match")
+	}
+	{parameters "7-62_54r_ap"
+		{projectileDamageTable {50 17} {250 0}}
+		("accuracy_semi_rifle_ap")
+	}
+	{parameters "7-62_54r_sniper"
+		("accuracy_semi_rifle_match")
+	}
+	{calibre 7.62}
+)
+(define "7-62mm_semi_sniper"
+	{parameters "rifle_fg"
+		("accuracy_marksman_rifle_ap")
+	}
+	{parameters "7-62_springfield_ap"
+		{projectileDamageTable {50 17} {250 0}}
+		("accuracy_marksman_rifle_ap")
+	}
+	{parameters "7-62_springfield_sniper"
+		{range 135 135}
+		("accuracy_marksman_rifle_match")
+	}
+	{parameters "7-62_54r_ap"
+		{projectileDamageTable {50 17} {250 0}}
+		("accuracy_marksman_rifle_ap")
+	}
+	{parameters "7-62_54r_sniper"
+		{range 135 135}
+		("accuracy_marksman_rifle_match")
+	}
+	{calibre 7.62}
+)
+(define "7-7mm_bolt"
+	{projectileDamageTable {50 9} {250 0}}
+	{parameters "rifle_fg"
+		("accuracy_advanced_rifle_ap")
+	}
+	{parameters "7-7_british_ap"
+		{projectileDamageTable {50 16} {250 0}}
+		("accuracy_advanced_rifle_ap")
+	}
+	{parameters "7-7_british_sniper"
+		("accuracy_advanced_rifle_match")
+	}
+	{parameters "7-7_arisaka_ap"
+		{projectileDamageTable {50 16} {250 0}}
+		("accuracy_advanced_rifle_ap")
+	}
+	{parameters "7-7_arisaka_sniper"
+		("accuracy_advanced_rifle_match")
+	}
+	{calibre 7.7}
+)
+(define "7-7mm_bolt_sniper"
+	{projectileDamageTable {50 9} {250 0}}
+	{parameters "rifle_fg"
+		("accuracy_sniper_rifle_ap")
+	}
+	{parameters "7-7_british_ap"
+		{projectileDamageTable {50 16} {250 0}}
+		("accuracy_sniper_rifle_ap")
+	}
+	{parameters "7-7_british_sniper"
+		{range 140 140}
+		("accuracy_sniper_rifle_match")
+	}
+	{parameters "7-7_arisaka_ap"
+		{projectileDamageTable {50 16} {250 0}}
+		("accuracy_sniper_rifle_ap")
+	}
+	{parameters "7-7_arisaka_sniper"
+		{range 140 140}
+		("accuracy_sniper_rifle_match")
+	}
+	{calibre 7.7}
+)
+(define "7-7mm_semi"
+	{projectileDamageTable {50 9} {250 0}}
+	{parameters "rifle_fg"
+		("accuracy_semi_rifle_ap")
+	}
+	{parameters "7-7_british_ap"
+		{projectileDamageTable {50 16} {250 0}}
+		("accuracy_semi_rifle_ap")
+	}
+	{parameters "7-7_british_sniper"
+		("accuracy_semi_rifle_match")
+	}
+	{parameters "7-7_arisaka_ap"
+		{projectileDamageTable {50 16} {250 0}}
+		("accuracy_semi_rifle_ap")
+	}
+	{parameters "7-7_arisaka_sniper"
+		("accuracy_semi_rifle_match")
+	}
+	{calibre 7.7}
+)
+(define "7-7mm_semi_sniper"
+	{projectileDamageTable {50 9} {250 0}}
+	{parameters "rifle_fg"
+		("accuracy_marksman_rifle_ap")
+	}
+	{parameters "7-7_british_ap"
+		{projectileDamageTable {50 16} {250 0}}
+		("accuracy_marksman_rifle_ap")
+	}
+	{parameters "7-7_british_sniper"
+		{range 135 135}
+		("accuracy_marksman_rifle_match")
+	}
+	{parameters "7-7_arisaka_ap"
+		{projectileDamageTable {50 16} {250 0}}
+		("accuracy_marksman_rifle_ap")
+	}
+	{parameters "7-7_arisaka_sniper"
+		{range 135 135}
+		("accuracy_marksman_rifle_match")
+	}
+	{calibre 7.7}
+)
+(define "7-92mm_bolt"
+	{parameters "rifle_fg"
+		("accuracy_advanced_rifle_ap")
+	}
+	{parameters "7-92_mauser_ap"
+		{projectileDamageTable {50 17} {250 0}}
+		("accuracy_advanced_rifle_ap")
+	}
+	{parameters "7-92_mauser_sniper"
+		("accuracy_advanced_rifle_match")
+	}
+	{calibre 7.92}
+)
+(define "7-92mm_bolt_sniper"
+	{parameters "rifle_fg"
+		("accuracy_sniper_rifle_ap")
+	}
+	{parameters "7-92_mauser_ap"
+		{projectileDamageTable {50 17} {250 0}}
+		("accuracy_sniper_rifle_ap")
+	}
+	{parameters "7-92_mauser_sniper"
+		{range 140 140}
+		("accuracy_sniper_rifle_match")
+	}
+	{calibre 7.92}
+)
+(define "7-92mm_semi"
+	{parameters "rifle_fg"
+		("accuracy_advanced_rifle_ap")
+	}
+	{parameters "7-92_mauser_ap"
+		{projectileDamageTable {50 17} {250 0}}
+		("accuracy_advanced_rifle_ap")
+	}
+	{parameters "7-92_mauser_sniper"
+		("accuracy_advanced_rifle_match")
+	}
+	{calibre 7.92}
+)
+(define "7-92mm_semi_sniper"
+	{parameters "rifle_fg"
+		("accuracy_marksman_rifle_ap")
+	}
+	{parameters "7-92_mauser_ap"
+		{projectileDamageTable {50 17} {250 0}}
+		("accuracy_marksman_rifle_ap")
+	}
+	{parameters "7-92_mauser_sniper"
+		{range 135 135}
+		("accuracy_marksman_rifle_match")
+	}
+	{calibre 7.92}
+)

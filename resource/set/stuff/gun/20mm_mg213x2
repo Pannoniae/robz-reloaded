@@ -1,0 +1,27 @@
+{from "pattern gun"		; "flak-38"
+	{filling "bullet20 ger zenite" 1200}
+	{fireSound "gun/zenite/20mm"}
+	{reloadSound "flak38"}
+	{rechargeTime 10}
+	("range_zenite")
+	
+	("speed" s(1050))
+	("caliber_zenite")
+	("recoveryTime" r(2600))
+	{projectileDamage 57}
+	("damage_170" a(57) b(43) c(38) d(32) e(28) range(170))
+	{parameters "apcr"
+		("damage_170" a(64) b(33) c(23) d(15) e(11) range(170))
+		{cursor "cannon_on_apcr"}
+		{cursorReloading "cannon_reload_apcr"}
+	}
+	
+	{Automatic}
+	{burst
+		{short 2.5 1}
+		{long 7 2}
+	}	
+	{RelaxationTime 0}
+	
+	("accuracy_zenite_medium")
+}

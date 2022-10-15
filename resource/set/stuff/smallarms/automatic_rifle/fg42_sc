@@ -1,0 +1,4 @@
+{from "fg42_rifle"
+	{entity "fg42_sc"}
+	("7-92mm_automatic_rifle_rco")
+}

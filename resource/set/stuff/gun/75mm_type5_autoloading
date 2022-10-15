@@ -1,0 +1,20 @@
+{from "pattern gun"		; "chi-ri"
+	{filling "bullet75 japll"}
+	{fireSound "gun/75mm_type5"}
+	{reloadSound "gun_r03"}
+	{rechargeTime 4}
+	
+	("speed" s(882))
+	("range_long")
+	{range 230 230}
+	{projectileDamage 188}
+	("damage_215" a(188) b(170) c(145) d(125) e(100) range(230))
+	{parameters "aphe"
+    	("damage_215" a(188) b(170) c(145) d(125) e(100) range(230))
+	}
+	{parameters "fg"
+		{range 220 220}
+	}
+
+	("accuracy_maximum")
+}

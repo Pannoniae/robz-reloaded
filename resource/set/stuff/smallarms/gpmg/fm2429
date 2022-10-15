@@ -1,0 +1,19 @@
+{from "pattern gpmg"
+	{tag "mgun_light"}
+	{filling "ammo fm2429_mag" 25}
+	{entity "fm2429"}
+	{fireSound "mgun/fm2429_burst/"}
+	{reloadSound "bren"}
+
+	{mass 8.9}
+	{rechargeTime 5}
+	("recoveryTime" r(450))
+	("burst_medium")
+	("speed" s(830))
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 97 94 91 88 85 80 70 60 40 20}
+	}
+	
+	("7-62mm_gpmg")
+}

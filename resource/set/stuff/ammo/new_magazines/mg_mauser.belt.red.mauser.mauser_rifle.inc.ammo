@@ -1,0 +1,26 @@
+{bullet
+	{tag "bullet stackable pierce 7-92_mauser inc belt_reload_5 belt_reload_10"}
+	{inventory
+		{weight 0.5}
+		{block 200}
+		{size 2 2}
+		{fsm "belt"}
+	}
+	{mass 0.027}
+	{entity "mgun_cartridge"}
+	;{view "bullet"
+	;	{tail "tracer_green" "basis"}
+	;}
+	{trace
+		{view "/texture/fx/trace_mg_red"
+			{ScaleY 0.22}
+			{Light 10}
+		}
+		{length 8}
+	}
+	{damage fire
+		{radius 0.25}
+		{heating 1.0}
+		{time 0.15}
+	}
+}

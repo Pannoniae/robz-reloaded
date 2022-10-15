@@ -99,7 +99,7 @@
 			{accuracy 1.30}
 		}
 		{vehicle
-			{accuracy 1.60}
+			{accuracy 1.65}
 		}
 	}
 	{level "lvl_7"
@@ -116,7 +116,7 @@
 			{accuracy 1.45}
 		}
 		{vehicle
-			{accuracy 1.65}
+			{accuracy 1.75}
 		}
 	}
 	{level "lvl_8"
@@ -133,7 +133,7 @@
 			{accuracy 1.60}
 		}
 		{vehicle
-			{accuracy 1.70}
+			{accuracy 1.80}
 		}
 	}
 	{level "lvl_9"
@@ -150,24 +150,24 @@
 			{accuracy 1.75}
 		}
 		{vehicle
-			{accuracy 1.75}
+			{accuracy 1.85}
 		}
 	}
 	{level "lvl_10"
 		{stand
-			{accuracy 0.75}
+			{accuracy 1.00}
 		}
 		{squat
-			{accuracy 0.85}
+			{accuracy 1.25}
 		}
 		{crawl
 			{accuracy 1.90}
 		}
 		{cover
-			{accuracy 1.90}
+			{accuracy 2.00}
 		}
 		{vehicle
-			{accuracy 1.90}
+			{accuracy 2.00}
 		}
 	}
 }

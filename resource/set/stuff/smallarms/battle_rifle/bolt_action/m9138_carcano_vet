@@ -1,0 +1,4 @@
+{from "m9138_carcano"
+	{recoveryTime 1.7}
+	{rechargeTime 3.75}
+}

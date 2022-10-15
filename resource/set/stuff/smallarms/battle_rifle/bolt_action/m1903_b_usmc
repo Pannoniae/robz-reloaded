@@ -1,0 +1,7 @@
+{from "m1903"
+	{entity "m1903_b"}
+	{recoveryTime 2.0}
+	{rechargeTime 4.75}
+}
+
+

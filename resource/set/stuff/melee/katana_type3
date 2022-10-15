@@ -1,0 +1,21 @@
+{from "pattern throwable"
+	{tag "melee hand sharp_edge"}
+	{inventory
+		{size 3 2}
+	}	
+	{mass 1.0}
+	{entity "katana_type3"}
+	{throw
+		{range 15}
+		{constantSpeed 20}
+		{spreading 0.5
+			{radiusFunction
+				0.0		0
+				0.7		0.2
+				1.0		1.0
+				1.5		5.0
+				3.0		10.0
+			}
+		}
+	}
+}

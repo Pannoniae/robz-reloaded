@@ -1,6 +1,6 @@
 {item
 	{tag "smallitemin1hand body"}
-	{mass 2}
+	{mass 1}
 	{inventory
 		{fsm "belt"}
 	}

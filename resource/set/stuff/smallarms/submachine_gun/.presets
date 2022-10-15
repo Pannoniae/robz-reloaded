@@ -1,0 +1,117 @@
+(include "\set\small.firearms.accuracy")
+
+(define "speed"   
+	{speed (* 1.0 %s)}  
+)
+
+(define "recoveryTime"   
+	{recoveryTime (/ 60 %r)}
+)
+
+;;==========================================
+;	Bursts/Discipline
+;;==========================================
+
+(define "burst_minimal"
+	{burst
+		{short 4 0.5}
+		{long 8 0.5}
+	}
+)
+
+(define "burst_short"
+	{burst
+		{short 5 0.5}
+		{long 8 0.5}
+	}
+)
+
+(define "burst_medium"
+	{burst
+		{short 7 0.5}
+		{long 12 0.5}
+	}
+)
+
+(define "burst_long"
+	{burst
+		{short 9 0.5}
+		{long 25 0.5}
+	}	
+)
+
+;;==========================================
+;	Recoil/Spreading
+;;==========================================
+
+(define "spread_advanced"
+	{spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 99 98 97 96 95 94 93 92 91 90 89 88 87 86 85 84 83 82 81 80 78 76 75}
+	}
+)
+
+(define "spread_hk_advanced"
+	{spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 98.5 97 95.5 94 92.5 91 89.5 88 86.5 85 83.5 82 80.5 79 77.5 76 75}
+	}
+)
+
+(define "spread_hk"
+	{spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 98 96 94 92 90 88 86 84 82 80 78 76 75}
+	}
+)
+
+(define "spread_9mm"	;works for 7.62x25 tokarev too
+	{spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 97.5 95.0 92.5 90.0 87.5 85.0 82.5 80.0 75.0 72.5 70}
+	}
+)
+
+(define "spread_45acp"
+	{spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 97 94 91 88 85 82 79 76 73 70 65}
+	}
+)
+
+;;==========================================
+;	Cartridges
+;;==========================================
+
+(define "9mm_parabellum"
+	{healthDamage 25}
+	{ProjectileDamage 3}
+	{ProjectileDamageClip 3}
+	{projectileDamageTable {50 3} {250 0}}
+	{parameters "9_pistol_+p"
+		{healthDamage 27.5}
+		{ProjectileDamage 3.5}
+		{ProjectileDamageClip 3.5}
+		{projectileDamageTable {50 4} {250 0}}
+	}
+	{parameters "9_pistol_+p+"
+		{healthDamage 30}
+		{ProjectileDamage 3.5}
+		{ProjectileDamageClip 3.5}
+		{projectileDamageTable {50 4.5} {250 0}}
+	}
+)
+
+(define "7-62mm_tokarev"
+	{healthDamage 27.5}
+	{ProjectileDamage 3.5}
+	{ProjectileDamageClip 3.5}
+	{projectileDamageTable {50 4} {250 0}}
+)
+
+(define "45_acp"
+	{healthDamage 30}
+	{ProjectileDamage 3}
+	{ProjectileDamageClip 3}
+	{projectileDamageTable {50 3} {250 0}}
+)

@@ -1,0 +1,13 @@
+{from "pattern sniper_rifle"
+	{filling "ammo 303-rifle" 10}
+	{entity "lee_enfield_mk3_s"}
+	{fireSound "rifle/enfield_s"}
+	{reloadSound "mosin"}
+
+	{recoveryTime 2.0}
+	{rechargeTime 8.5}
+	("sa_mag_reload")
+	("speed" s(744))
+	
+	("7-7mm_bolt_sniper")
+}

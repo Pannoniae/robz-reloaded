@@ -1,0 +1,4 @@
+{from "helmet pattern"
+	{desc "Helmet M40 Camo Foliage"}
+	{entity "helmet_ger_m40_camo_foliage"}
+}

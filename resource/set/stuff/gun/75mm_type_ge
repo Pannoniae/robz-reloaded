@@ -1,0 +1,13 @@
+{from "pattern gun"		; "na-to"
+	{filling "bullet75 japge"}
+	{fireSound "gun/50to76_cal/75mm_pak40"}
+	{reloadSound "gun_r03"}
+	{rechargeTime 9}
+	
+	("speed" s(1260))
+	("range_long")
+	{range 220 220}
+	{projectileDamage 140}
+	("damage_215" a(215) b(200) c(180) d(155) e(128) range(220))
+	("accuracy_maximum")
+}

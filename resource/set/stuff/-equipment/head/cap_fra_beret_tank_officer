@@ -1,0 +1,4 @@
+{from "fieldcap_rus"
+	{desc "French Tank Commander Beret"}
+	{entity "cap_fra_beret_tank_officer"}
+}

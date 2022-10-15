@@ -2,7 +2,7 @@
 	{inventory {size 2 1}}	
 	{entity "grenade_n73at"}
 	{damage cumulative
-		{damage 51}
-		{distance 0.5}
+		{damage 20}
+		{distance 0.3}
 	}
 }

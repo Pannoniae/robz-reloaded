@@ -18,14 +18,14 @@
 		{area 15 15}
 	}
 	{throw
-		{range 12}
+		{range 16}
 		{startAngle 40}
 		;{spreading 1.0}				
 		{constantSpeed 10.5}
 	}
 	{damage cumulative
-		{damage 40}
-		{distance 0.5}
+		{damage 20}
+		{distance 1}
 	}
 	{possibleDamageRadius 5}
 	{inventory {size 2 1}}	

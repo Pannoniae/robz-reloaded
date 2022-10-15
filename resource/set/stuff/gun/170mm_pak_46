@@ -1,0 +1,25 @@
+{from "pattern gun"    ; "e100_150_robztest"
+	{filling "bullet170 ger"}
+	{fireSound "gun/howitzer/150mm_sfh18"}
+	{reloadSound "tankgun_r04"}
+	{rechargeTime 28.0}
+	("range_maximum")	
+
+	{ZeroingAccuracy 0.6 0.2}
+	{range 250 250}
+	("speed_all" ap(770) apcr(770) fg(650) heat(650))
+	("caliber_maximum")
+	{projectileDamage 299}
+	("damage_215" a(299) b(290) c(287) d(272) e(268) range(250))
+	
+	("accuracy_max")
+	{RicochetEnergyDamping 	; penetration energy damping after ricochet (angle - damping)	
+		{0 	1}	
+		{15	1}
+		{30	1}
+		{45 	0.9}
+		{60 	0.8}
+		{75	0.6}
+		{90	0.5}
+	}
+}

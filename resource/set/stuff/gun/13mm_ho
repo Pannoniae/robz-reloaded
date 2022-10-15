@@ -1,0 +1,36 @@
+{from "pattern gun"	; Mkb
+	{filling "ammo hmgun" 60}
+	{fireSound	"mgun/dshk_burst/"}
+	{reloadSound "fg42"}
+	{entity "maxim_inv"}
+	{cursor "zenite_on"}
+	{cursorReloading "zenite_reload"}
+	{mass 255}
+	{Automatic}
+	
+	("caliber_zenite")
+	{Spreading	
+		{BurstAccuracy 100 95 90 85 80 75 70}
+	}
+	
+	{burst
+		{short 4.5 1}
+		{long 11 2.5}
+	}	
+
+	{rechargeTime 10}
+	{recoveryTime 0.13}
+	("speed" s(744))
+	
+	{healthDamage 100}
+	{projectileDamage 25}
+	("damage" a(23) b(16) c(9) d(6) e(2))
+	{projectileDamageThreshold 1.1}
+	{calibre 13}
+	("accuracy_zenite_high")
+
+	{aimingTolerance 1}
+	("range_zenite")
+	{range 120 120}
+	
+}

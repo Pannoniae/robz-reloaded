@@ -1,0 +1,12 @@
+{from "pattern handgun"
+	{filling "ammo beretta_mag" 8}
+	{entity "beretta34"}
+	{mass 0.6}
+	("speed" s(229))
+	{fireSound	"pistol/beretta"}
+	{reloadSound "tt"}
+	
+	("spread_1h_advanced")
+	
+	("9mm_parabellum")
+}

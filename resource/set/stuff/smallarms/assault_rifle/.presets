@@ -1,0 +1,712 @@
+(include "\set\small.firearms.accuracy")
+
+(define "speed"   
+	{speed (* 1.0 %s)}  
+)
+
+(define "recoveryTime"   
+	{recoveryTime (/ 60 %r)}
+)
+
+;;==========================================
+;	Misc
+;;==========================================
+
+(define "assault_rifle_reload"
+	{parameters "speed_reload_pmag"
+		{rechargeTime 3.25}
+	}
+	{parameters "speed_reload_epm"
+		{rechargeTime 3.5}
+	}
+)
+
+;;==========================================
+;	Zeroing
+;;==========================================
+
+(define "automatic_zeroing"
+	{ZeroingAccuracy 1 1 0.95 0.95 0.95 0.90 0.90 0.90 0.80 0.80 0.80 0.75}
+)
+
+;;==========================================
+;	Bursts/Discipline
+;;==========================================
+
+(define "burst_short"
+	{burst
+		{short 2 0.5}
+		{long 5 0.5}
+	}
+)
+
+(define "burst_medium"
+	{burst
+		{short 3 0.5}
+		{long 5 0.5}
+	}
+)
+
+(define "burst_long"
+	{burst
+		{short 4 0.5}
+		{long 5 0.5}
+	}
+)
+
+;;==========================================
+;	Recoil/Spreading
+;;==========================================
+
+(define "spread_5-56_advanced"
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 97 94 89 84 77 70 61 52 50 40}
+	}
+)
+
+(define "spread_5-56"
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 96 92 86 80 72 64 54 50 40}
+	}
+)
+
+(define "spread_7-62_advanced"
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 95 90 83 76 67 58 50 40}
+	}
+)
+
+(define "spread_7-62"
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 94 88 80 72 62 52 50 40}
+	}
+)
+
+;;==========================================
+;	5.56x45mm
+;;==========================================
+
+(define "5-56mm_assault_rifle"
+	{healthDamage 30}
+	{ProjectileDamage 5}
+	{ProjectileDamageClip 5}
+	{projectileDamageTable {50 6} {150 0}}
+	{projectileDamageThreshold 1}
+	("accuracy_assault_rifle_5-56_m855")
+	{parameters "5-56_m193"
+		{projectileDamageTable {50 5} {250 0}}
+		("accuracy_assault_rifle_5-56_m193")
+	}
+	{parameters "5-56_m855"
+		{projectileDamageTable {50 6} {250 0}}
+		("accuracy_assault_rifle_5-56_m855")
+	}
+	{parameters "5-56_m855a1"
+		{projectileDamageTable {50 7} {250 0}}
+		("accuracy_assault_rifle_5-56_m855a1")
+	}
+	{parameters "5-56_m995"
+		{projectileDamageTable {50 15} {250 0}}
+		("accuracy_assault_rifle_5-56_m995")
+	}
+	{parameters "5-56_mk262"
+		{projectileDamageTable {50 6} {250 0}}
+		("accuracy_assault_rifle_5-56_mk262")
+	}
+	{parameters "5-56_mk318"
+		{projectileDamageTable {50 6.5} {250 0}}
+		("accuracy_assault_rifle_5-56_mk318")
+	}
+	{calibre 5.56}
+)
+
+(define "5-56mm_assault_rifle_cqb"
+	{healthDamage 30}
+	{ProjectileDamage 5}
+	{ProjectileDamageClip 5}
+	{projectileDamageTable {50 6} {150 0}}
+	{projectileDamageThreshold 1}
+	("accuracy_assault_rifle_5-56_cqb_m855")
+	{parameters "5-56_m193"
+		{projectileDamageTable {50 5} {250 0}}
+		("accuracy_assault_rifle_5-56_cqb_m193")
+	}
+	{parameters "5-56_m855"
+		{projectileDamageTable {50 6} {250 0}}
+		("accuracy_assault_rifle_5-56_cqb_m855")
+	}
+	{parameters "5-56_m855a1"
+		{projectileDamageTable {50 7} {250 0}}
+		("accuracy_assault_rifle_5-56_cqb_m855a1")
+	}
+	{parameters "5-56_m995"
+		{projectileDamageTable {50 15} {250 0}}
+		("accuracy_assault_rifle_5-56_cqb_m995")
+	}
+	{parameters "5-56_mk262"
+		{projectileDamageTable {50 6} {250 0}}
+		("accuracy_assault_rifle_5-56_cqb_mk262")
+	}
+	{parameters "5-56_mk318"
+		{projectileDamageTable {50 6.5} {250 0}}
+		("accuracy_assault_rifle_5-56_cqb_mk318")
+	}
+	{calibre 5.56}
+)
+
+(define "5-56mm_assault_rifle_rco"
+	{healthDamage 30}
+	{ProjectileDamage 5}
+	{ProjectileDamageClip 5}
+	{projectileDamageTable {50 6} {150 0}}
+	{projectileDamageThreshold 1}
+	("accuracy_assault_rifle_5-56_rco_m855")
+	{parameters "5-56_m193"
+		{projectileDamageTable {50 5} {250 0}}
+		("accuracy_assault_rifle_5-56_rco_m193")
+	}
+	{parameters "5-56_m855"
+		{projectileDamageTable {50 6} {250 0}}
+		("accuracy_assault_rifle_5-56_rco_m855")
+	}
+	{parameters "5-56_m855a1"
+		{projectileDamageTable {50 7} {250 0}}
+		("accuracy_assault_rifle_5-56_rco_m855a1")
+	}
+	{parameters "5-56_m995"
+		{projectileDamageTable {50 15} {250 0}}
+		("accuracy_assault_rifle_5-56_rco_m995")
+	}
+	{parameters "5-56_mk262"
+		{projectileDamageTable {50 6} {250 0}}
+		("accuracy_assault_rifle_5-56_rco_mk262")
+	}
+	{parameters "5-56_mk318"
+		{projectileDamageTable {50 6.5} {250 0}}
+		("accuracy_assault_rifle_5-56_rco_mk318")
+	}
+	{calibre 5.56}
+)
+
+(define "5-56mm_assault_rifle_variable"
+	{healthDamage 30}
+	{ProjectileDamage 5}
+	{ProjectileDamageClip 5}
+	{projectileDamageTable {50 6} {150 0}}
+	{projectileDamageThreshold 1}
+	("accuracy_assault_rifle_5-56_variable_m855")
+	{parameters "5-56_m193"
+		{projectileDamageTable {50 5} {250 0}}
+		("accuracy_assault_rifle_5-56_variable_m193")
+	}
+	{parameters "5-56_m855"
+		{projectileDamageTable {50 6} {250 0}}
+		("accuracy_assault_rifle_5-56_variable_m855")
+	}
+	{parameters "5-56_m855a1"
+		{projectileDamageTable {50 7} {250 0}}
+		("accuracy_assault_rifle_5-56_variable_m855a1")
+	}
+	{parameters "5-56_m995"
+		{projectileDamageTable {50 15} {250 0}}
+		("accuracy_assault_rifle_5-56_variable_m995")
+	}
+	{parameters "5-56_mk262"
+		{projectileDamageTable {50 6} {250 0}}
+		("accuracy_assault_rifle_5-56_variable_mk262")
+	}
+	{parameters "5-56_mk318"
+		{projectileDamageTable {50 6.5} {250 0}}
+		("accuracy_assault_rifle_5-56_variable_mk318")
+	}
+	{calibre 5.56}
+)
+
+;-----
+;	advanced rifles
+;-----
+
+(define "5-56mm_assault_rifle_advanced"
+	{healthDamage 30}
+	{ProjectileDamage 5}
+	{ProjectileDamageClip 5}
+	{projectileDamageTable {50 6} {150 0}}
+	{projectileDamageThreshold 1}
+	("accuracy_assault_rifle_5-56_advanced_m855")
+	{parameters "5-56_m193"
+		{projectileDamageTable {50 5} {250 0}}
+		("accuracy_assault_rifle_5-56_advanced_m193")
+	}
+	{parameters "5-56_m855"
+		{projectileDamageTable {50 6} {250 0}}
+		("accuracy_assault_rifle_5-56_advanced_m855")
+	}
+	{parameters "5-56_m855a1"
+		{projectileDamageTable {50 7} {250 0}}
+		("accuracy_assault_rifle_5-56_advanced_m855a1")
+	}
+	{parameters "5-56_m995"
+		{projectileDamageTable {50 15} {250 0}}
+		("accuracy_assault_rifle_5-56_advanced_m995")
+	}
+	{parameters "5-56_mk262"
+		{projectileDamageTable {50 6} {250 0}}
+		("accuracy_assault_rifle_5-56_advanced_mk262")
+	}
+	{parameters "5-56_mk318"
+		{projectileDamageTable {50 6.5} {250 0}}
+		("accuracy_assault_rifle_5-56_advanced_mk318")
+	}
+	{calibre 5.56}
+)
+
+(define "5-56mm_assault_rifle_advanced_cqb"
+	{healthDamage 30}
+	{ProjectileDamage 5}
+	{ProjectileDamageClip 5}
+	{projectileDamageTable {50 6} {150 0}}
+	{projectileDamageThreshold 1}
+	("accuracy_assault_rifle_5-56_advanced_cqb_m855")
+	{parameters "5-56_m193"
+		{projectileDamageTable {50 5} {250 0}}
+		("accuracy_assault_rifle_5-56_advanced_cqb_m193")
+	}
+	{parameters "5-56_m855"
+		{projectileDamageTable {50 6} {250 0}}
+		("accuracy_assault_rifle_5-56_advanced_cqb_m855")
+	}
+	{parameters "5-56_m855a1"
+		{projectileDamageTable {50 7} {250 0}}
+		("accuracy_assault_rifle_5-56_advanced_cqb_m855a1")
+	}
+	{parameters "5-56_m995"
+		{projectileDamageTable {50 15} {250 0}}
+		("accuracy_assault_rifle_5-56_advanced_cqb_m995")
+	}
+	{parameters "5-56_mk262"
+		{projectileDamageTable {50 6} {250 0}}
+		("accuracy_assault_rifle_5-56_advanced_cqb_mk262")
+	}
+	{parameters "5-56_mk318"
+		{projectileDamageTable {50 6.5} {250 0}}
+		("accuracy_assault_rifle_5-56_advanced_cqb_mk318")
+	}
+	{calibre 5.56}
+)
+
+(define "5-56mm_assault_rifle_advanced_rco"
+	{healthDamage 30}
+	{ProjectileDamage 5}
+	{ProjectileDamageClip 5}
+	{projectileDamageTable {50 6} {150 0}}
+	{projectileDamageThreshold 1}
+	("accuracy_assault_rifle_5-56_advanced_rco_m855")
+	{parameters "5-56_m193"
+		{projectileDamageTable {50 5} {250 0}}
+		("accuracy_assault_rifle_5-56_advanced_rco_m193")
+	}
+	{parameters "5-56_m855"
+		{projectileDamageTable {50 6} {250 0}}
+		("accuracy_assault_rifle_5-56_advanced_rco_m855")
+	}
+	{parameters "5-56_m855a1"
+		{projectileDamageTable {50 7} {250 0}}
+		("accuracy_assault_rifle_5-56_advanced_rco_m855a1")
+	}
+	{parameters "5-56_m995"
+		{projectileDamageTable {50 15} {250 0}}
+		("accuracy_assault_rifle_5-56_advanced_rco_m995")
+	}
+	{parameters "5-56_mk262"
+		{projectileDamageTable {50 6} {250 0}}
+		("accuracy_assault_rifle_5-56_advanced_rco_mk262")
+	}
+	{parameters "5-56_mk318"
+		{projectileDamageTable {50 6.5} {250 0}}
+		("accuracy_assault_rifle_5-56_advanced_rco_mk318")
+	}
+	{calibre 5.56}
+)
+
+(define "5-56mm_assault_rifle_advanced_variable"
+	{healthDamage 30}
+	{ProjectileDamage 5}
+	{ProjectileDamageClip 5}
+	{projectileDamageTable {50 6} {150 0}}
+	{projectileDamageThreshold 1}
+	("accuracy_assault_rifle_5-56_advanced_variable_m855")
+	{parameters "5-56_m193"
+		{projectileDamageTable {50 5} {250 0}}
+		("accuracy_assault_rifle_5-56_advanced_variable_m193")
+	}
+	{parameters "5-56_m855"
+		{projectileDamageTable {50 6} {250 0}}
+		("accuracy_assault_rifle_5-56_advanced_variable_m855")
+	}
+	{parameters "5-56_m855a1"
+		{projectileDamageTable {50 7} {250 0}}
+		("accuracy_assault_rifle_5-56_advanced_variable_m855a1")
+	}
+	{parameters "5-56_m995"
+		{projectileDamageTable {50 15} {250 0}}
+		("accuracy_assault_rifle_5-56_advanced_variable_m995")
+	}
+	{parameters "5-56_mk262"
+		{projectileDamageTable {50 6} {250 0}}
+		("accuracy_assault_rifle_5-56_advanced_variable_mk262")
+	}
+	{parameters "5-56_mk318"
+		{projectileDamageTable {50 6.5} {250 0}}
+		("accuracy_assault_rifle_5-56_advanced_variable_mk318")
+	}
+	{calibre 5.56}
+)
+
+;;==========================================
+;	5.45x39mm
+;;==========================================
+
+(define "5-45mm_assault_rifle"
+	{healthDamage 30}
+	{ProjectileDamage 5}
+	{ProjectileDamageClip 5}
+	{projectileDamageTable {50 5} {150 0}}
+	{projectileDamageThreshold 1}
+	("accuracy_assault_rifle_5-56_m193")
+	{parameters "5-45_7n6"
+		{projectileDamageTable {50 5} {250 0}}
+		("accuracy_assault_rifle_5-56_m193")
+	}
+	{parameters "5-45_7n10"
+		{projectileDamageTable {50 6} {250 0}}
+		("accuracy_assault_rifle_5-56_m855")
+	}
+	{parameters "5-45_7n22"
+		{projectileDamageTable {50 15} {250 0}}
+		("accuracy_assault_rifle_5-56_m995")
+	}
+	{calibre 5.45}
+)
+
+(define "5-45mm_assault_rifle_cqb"
+	{healthDamage 30}
+	{ProjectileDamage 5}
+	{ProjectileDamageClip 5}
+	{projectileDamageTable {50 5} {150 0}}
+	{projectileDamageThreshold 1}
+	("accuracy_assault_rifle_5-56_cqb_m193")
+	{parameters "5-45_7n6"
+		{projectileDamageTable {50 5} {250 0}}
+		("accuracy_assault_rifle_5-56_cqb_m193")
+	}
+	{parameters "5-45_7n10"
+		{projectileDamageTable {50 6} {250 0}}
+		("accuracy_assault_rifle_5-56_cqb_m855")
+	}
+	{parameters "5-45_7n22"
+		{projectileDamageTable {50 15} {250 0}}
+		("accuracy_assault_rifle_5-56_cqb_m995")
+	}
+	{calibre 5.45}
+)
+
+(define "5-45mm_assault_rifle_rco"
+	{healthDamage 30}
+	{ProjectileDamage 5}
+	{ProjectileDamageClip 5}
+	{projectileDamageTable {50 5} {150 0}}
+	{projectileDamageThreshold 1}
+	("accuracy_assault_rifle_5-56_rco_m193")
+	{parameters "5-45_7n6"
+		{projectileDamageTable {50 5} {250 0}}
+		("accuracy_assault_rifle_5-56_rco_m193")
+	}
+	{parameters "5-45_7n10"
+		{projectileDamageTable {50 6} {250 0}}
+		("accuracy_assault_rifle_5-56_rco_m855")
+	}
+	{parameters "5-45_7n22"
+		{projectileDamageTable {50 15} {250 0}}
+		("accuracy_assault_rifle_5-56_rco_m995")
+	}
+	{calibre 5.45}
+)
+
+(define "5-45mm_assault_rifle_variable"
+	{healthDamage 30}
+	{ProjectileDamage 5}
+	{ProjectileDamageClip 5}
+	{projectileDamageTable {50 5} {150 0}}
+	{projectileDamageThreshold 1}
+	("accuracy_assault_rifle_5-56_variable_m193")
+	{parameters "5-45_7n6"
+		{projectileDamageTable {50 5} {250 0}}
+		("accuracy_assault_rifle_5-56_variable_m193")
+	}
+	{parameters "5-45_7n10"
+		{projectileDamageTable {50 6} {250 0}}
+		("accuracy_assault_rifle_5-56_variable_m855")
+	}
+	{parameters "5-45_7n22"
+		{projectileDamageTable {50 15} {250 0}}
+		("accuracy_assault_rifle_5-56_variable_m995")
+	}
+	{calibre 5.45}
+)
+
+;-----
+;	advanced rifles
+;-----
+
+(define "5-45mm_assault_rifle_advanced"
+	{healthDamage 30}
+	{ProjectileDamage 5}
+	{ProjectileDamageClip 5}
+	{projectileDamageTable {50 5} {150 0}}
+	{projectileDamageThreshold 1}
+	("accuracy_assault_rifle_5-56_advanced_m193")
+	{parameters "5-45_7n6"
+		{projectileDamageTable {50 5} {250 0}}
+		("accuracy_assault_rifle_5-56_advanced_m193")
+	}
+	{parameters "5-45_7n10"
+		{projectileDamageTable {50 6} {250 0}}
+		("accuracy_assault_rifle_5-56_advanced_m855")
+	}
+	{parameters "5-45_7n22"
+		{projectileDamageTable {50 15} {250 0}}
+		("accuracy_assault_rifle_5-56_advanced_m995")
+	}
+	{calibre 5.45}
+)
+
+(define "5-45mm_assault_rifle_advanced_cqb"
+	{healthDamage 30}
+	{ProjectileDamage 5}
+	{ProjectileDamageClip 5}
+	{projectileDamageTable {50 5} {150 0}}
+	{projectileDamageThreshold 1}
+	("accuracy_assault_rifle_5-56_advanced_cqb_m193")
+	{parameters "5-45_7n6"
+		{projectileDamageTable {50 5} {250 0}}
+		("accuracy_assault_rifle_5-56_advanced_cqb_m193")
+	}
+	{parameters "5-45_7n10"
+		{projectileDamageTable {50 6} {250 0}}
+		("accuracy_assault_rifle_5-56_advanced_cqb_m855")
+	}
+	{parameters "5-45_7n22"
+		{projectileDamageTable {50 15} {250 0}}
+		("accuracy_assault_rifle_5-56_advanced_cqb_m995")
+	}
+	{calibre 5.45}
+)
+
+(define "5-45mm_assault_rifle_advanced_rco"
+	{healthDamage 30}
+	{ProjectileDamage 5}
+	{ProjectileDamageClip 5}
+	{projectileDamageTable {50 5} {150 0}}
+	{projectileDamageThreshold 1}
+	("accuracy_assault_rifle_5-56_advanced_rco_m193")
+	{parameters "5-45_7n6"
+		{projectileDamageTable {50 5} {250 0}}
+		("accuracy_assault_rifle_5-56_advanced_rco_m193")
+	}
+	{parameters "5-45_7n10"
+		{projectileDamageTable {50 6} {250 0}}
+		("accuracy_assault_rifle_5-56_advanced_rco_m855")
+	}
+	{parameters "5-45_7n22"
+		{projectileDamageTable {50 15} {250 0}}
+		("accuracy_assault_rifle_5-56_advanced_rco_m995")
+	}
+	{calibre 5.45}
+)
+
+(define "5-45mm_assault_rifle_advanced_variable"
+	{healthDamage 30}
+	{ProjectileDamage 5}
+	{ProjectileDamageClip 5}
+	{projectileDamageTable {50 5} {150 0}}
+	{projectileDamageThreshold 1}
+	("accuracy_assault_rifle_5-56_advanced_variable_m193")
+	{parameters "5-45_7n6"
+		{projectileDamageTable {50 5} {250 0}}
+		("accuracy_assault_rifle_5-56_advanced_variable_m193")
+	}
+	{parameters "5-45_7n10"
+		{projectileDamageTable {50 6} {250 0}}
+		("accuracy_assault_rifle_5-56_advanced_variable_m855")
+	}
+	{parameters "5-45_7n22"
+		{projectileDamageTable {50 15} {250 0}}
+		("accuracy_assault_rifle_5-56_advanced_variable_m995")
+	}
+	{calibre 5.45}
+)
+
+;;==========================================
+;	7.62x39mm
+;;==========================================
+
+(define "7-62mm_assault_rifle"
+	{healthDamage 30}
+	{projectileDamageTable {50 8} {250 0}}
+	("accuracy_assault_rifle_7-62_ps")
+	{parameters "7-62_ak_7n23"
+		{projectileDamageTable {50 15} {250 0}}
+		("accuracy_assault_rifle_7-62_7n23")
+	}
+	{parameters "7-62_ak_am2458"
+		{projectileDamageTable {50 8} {250 0}}
+		("accuracy_assault_rifle_7-62_am2458")
+	}
+	{calibre 7.62}
+)
+
+(define "7-62mm_assault_rifle_cqb"
+	{healthDamage 30}
+	{projectileDamageTable {50 8} {250 0}}
+	("accuracy_assault_rifle_7-62_cqb_ps")
+	{parameters "7-62_ak_7n23"
+		{projectileDamageTable {50 15} {250 0}}
+		("accuracy_assault_rifle_7-62_cqb_7n23")
+	}
+	{parameters "7-62_ak_am2458"
+		{projectileDamageTable {50 8} {250 0}}
+		("accuracy_assault_rifle_7-62_cqb_am2458")
+	}
+	{calibre 7.62}
+)
+
+(define "7-62mm_assault_rifle_rco"
+	{healthDamage 30}
+	{projectileDamageTable {50 8} {250 0}}
+	("accuracy_assault_rifle_7-62_rco_ps")
+	{parameters "7-62_ak_7n23"
+		{projectileDamageTable {50 15} {250 0}}
+		("accuracy_assault_rifle_7-62_rco_7n23")
+	}
+	{parameters "7-62_ak_am2458"
+		{projectileDamageTable {50 8} {250 0}}
+		("accuracy_assault_rifle_7-62_rco_am2458")
+	}
+	{calibre 7.62}
+)
+
+(define "7-62mm_assault_rifle_variable"
+	{healthDamage 30}
+	{projectileDamageTable {50 8} {250 0}}
+	("accuracy_assault_rifle_7-62_variable_ps")
+	{parameters "7-62_ak_7n23"
+		{projectileDamageTable {50 15} {250 0}}
+		("accuracy_assault_rifle_7-62_variable_7n23")
+	}
+	{parameters "7-62_ak_am2458"
+		{projectileDamageTable {50 8} {250 0}}
+		("accuracy_assault_rifle_7-62_variable_am2458")
+	}
+	{calibre 7.62}
+)
+
+;-----
+;	advanced rifles
+;-----
+
+(define "7-62mm_assault_rifle_advanced"
+	{healthDamage 30}
+	{projectileDamageTable {50 8} {250 0}}
+	("accuracy_assault_rifle_7-62_advanced_ps")
+	{parameters "7-62_ak_7n23"
+		{projectileDamageTable {50 15} {250 0}}
+		("accuracy_assault_rifle_7-62_advanced_7n23")
+	}
+	{parameters "7-62_ak_am2458"
+		{projectileDamageTable {50 8} {250 0}}
+		("accuracy_assault_rifle_7-62_advanced_am2458")
+	}
+	{calibre 7.62}
+)
+
+(define "7-62mm_assault_rifle_advanced_cqb"
+	{healthDamage 30}
+	{projectileDamageTable {50 8} {250 0}}
+	("accuracy_assault_rifle_7-62_advanced_cqb_ps")
+	{parameters "7-62_ak_7n23"
+		{projectileDamageTable {50 15} {250 0}}
+		("accuracy_assault_rifle_7-62_advanced_cqb_7n23")
+	}
+	{parameters "7-62_ak_am2458"
+		{projectileDamageTable {50 8} {250 0}}
+		("accuracy_assault_rifle_7-62_advanced_cqb_am2458")
+	}
+	{calibre 7.62}
+)
+
+(define "7-62mm_assault_rifle_advanced_rco"
+	{healthDamage 30}
+	{projectileDamageTable {50 8} {250 0}}
+	("accuracy_assault_rifle_7-62_advanced_rco_ps")
+	{parameters "7-62_ak_7n23"
+		{projectileDamageTable {50 15} {250 0}}
+		("accuracy_assault_rifle_7-62_advanced_rco_7n23")
+	}
+	{parameters "7-62_ak_am2458"
+		{projectileDamageTable {50 8} {250 0}}
+		("accuracy_assault_rifle_7-62_advanced_rco_am2458")
+	}
+	{calibre 7.62}
+)
+
+(define "7-62mm_assault_rifle_advanced_variable"
+	{healthDamage 30}
+	{projectileDamageTable {50 8} {250 0}}
+	("accuracy_assault_rifle_7-62_advanced_variable_ps")
+	{parameters "7-62_ak_7n23"
+		{projectileDamageTable {50 15} {250 0}}
+		("accuracy_assault_rifle_7-62_advanced_variable_7n23")
+	}
+	{parameters "7-62_ak_am2458"
+		{projectileDamageTable {50 8} {250 0}}
+		("accuracy_assault_rifle_7-62_advanced_variable_am2458")
+	}
+	{calibre 7.62}
+)
+
+;;==========================================
+;	WW2 Weapons
+;;==========================================
+
+(define "sturmgewehr"
+	{ProjectileDamage 6}
+	{ProjectileDamageClip 5}
+	{projectileDamageTable {50 7} {250 0}}
+	("accuracy_assault_rifle_7-62_ps")
+	{calibre 7.92}
+)
+
+(define "m2_carbine"
+	{ProjectileDamage 4}
+	{ProjectileDamageClip 4}
+	{projectileDamageTable {50 5} {250 0}}
+	{projectileDamageThreshold 1}
+	("accuracy_assault_rifle_7-62_ps")
+	{calibre 7.62}
+)
+
+;----------- cta references
+
+;(define "burst_assault"
+	;{burst
+		;{min 1}			; min burst shots in automatic mode
+		;{noaiming}			; no aiming during burst
+		;{short 1 0}			; short burst shots on long distance, rand (+-)shots
+		;{long 5 2}			; long burst shots on short distance, rand (+-)shots
+		;{rangeKoef 0.3}		; rangeKoef * aimRange = max long burst distance
+	;}
+;)

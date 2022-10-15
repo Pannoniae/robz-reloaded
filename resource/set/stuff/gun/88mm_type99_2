@@ -1,0 +1,22 @@
+{from "pattern gun"		; "chi-ri"
+	{filling "bullet88 jap"}
+	{fireSound "gun/85to100_cal/OQF_25pdr"}
+	{reloadSound "tankgun_r02"}
+	{rechargeTime 11}
+	("range_long")
+
+	{range 230 230}
+	("speed" s(900))
+	("caliber_large")
+	{projectileDamage 170}
+	("damage_215" a(195) b(172) c(153) d(131) e(106) range(230))
+	{parameters "aphebc"
+		("damage" a(195) b(172) c(153) d(131) e(110) range(230))
+	}
+	{parameters "aphe"
+		("damage" a(170) b(145) c(124) d(106) e(92) range(230))
+	}
+
+	("accuracy_maximum")
+}
+

@@ -1,0 +1,15 @@
+{from "pattern bolt_action"
+	{filling "ammo 30-06_rifle" 6}
+	{entity "m1917_enfield"}
+	{mass 4.167}
+	{fireSound "rifle/m1903a4_shot/"}
+	{reloadSound "rifle_bolt_five"}
+	
+	{recoveryTime 1.8}
+	("speed" s(853))
+	;("accuracy_boost")
+	("belt_reload_5")
+	("sa_zeroing")
+	
+	("7-62mm_bolt")
+}

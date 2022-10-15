@@ -1,0 +1,4 @@
+{from "ppsh"
+	{filling "ammo 762-smg" 35}
+	{entity "ppsh41"}
+}

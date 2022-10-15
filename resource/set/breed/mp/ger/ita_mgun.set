@@ -1,0 +1,73 @@
+{breed
+	{skin "ita-re-inf-mgun"}
+	{portrait ita_soldier2}
+	{icon mg}
+	{icon_priority 2}
+	{nationality ita}
+	{armors
+		{head helmet_ita_m33}
+	}
+	{perks
+		{"health" "150%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "100%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" mp_soldier
+		}
+		{"speed" 0.9
+		}
+		{"tank" 0.75
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 0.8
+		}
+		{"pistol" lvl_3
+		}
+		{"smg" lvl_3
+		}
+		{"mgun" lvl_3
+		}
+		{"rifle" lvl_3
+		}
+		{"rocketlauncher" lvl_2
+		}
+		{"melee" lvl_3
+		}
+	}
+	{veterancy
+		{"lvl_1" 2
+		}
+		{"lvl_2" 5
+		}
+		{"lvl_3" 9
+		}
+		{"lvl_4" 14
+		}
+		{"lvl_5" 20
+		}
+		{"lvl_6" 28
+		}
+		{"lvl_7" 38
+		}
+		{"lvl_8" 50
+		}
+		{"lvl_9" 64
+		}
+		{"lvl_10" 80
+		}
+	}
+	{inventory
+		{item "breda30" filling "breda30_strip carcano_rifle ammo" 20}
+		{item "ammo breda30_strip" 200}
+		{item "beretta34" filled}
+		{item "ammo beretta_mag" 16}
+		{item "bandage" 3}
+		{item "sandbag_kit"}
+		{in_hands 0}
+	}
+}

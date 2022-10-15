@@ -1,0 +1,21 @@
+{from "pattern gpmg"
+	{tag "mgun_light"}
+	{filling "ammo mauser" 20}
+	{entity "fg42_mg"}                   
+	{fireSound "mgun/fg42_shot"}
+	{reloadSound "fg42"}
+	{inventory
+		{size 4 2 }
+	}
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 96 92 88 84 80 75 70 50 20}
+	}
+	{mass 4.2}
+	{rechargeTime 5}
+	("recoveryTime" r(750))
+	("burst_short")
+	("speed" s(740))
+	
+	("7-92mm_gpmg")
+}

@@ -1,0 +1,26 @@
+{bullet
+  {tag "bullet stackable pierce 7-7_arisaka inc belt_reload_5 belt_reload_10"}
+  {inventory
+    {weight 1.6666665}
+    {block 60}
+    {size 2 1}
+    {fsm "belt"}
+  }
+  {mass 0.026}
+  {entity "type92_strip"}
+	;{view "bullet"
+	;	{tail "tracer_blue" "basis"}
+	;}
+	{trace
+		{view "/texture/fx/trace_mg_blue"
+			{ScaleY 0.22}
+			{Light 10}
+		}
+		{length 8}
+	}
+	{damage fire
+		{radius 0.25}
+		{heating 1.0}
+		{time 0.15}
+	}
+}

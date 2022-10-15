@@ -1,0 +1,13 @@
+{from "pattern handgun"
+	{filling "ammo webley_clip" 6}
+	{entity "mki_revolver"}
+	{fireSound	"pistol/tt"}
+	{reloadSound "webley"}
+	("revolver")
+	{mass 0.765}
+	("speed" s(189))
+	
+	("spread_1h")
+	
+	("45_acp")
+}

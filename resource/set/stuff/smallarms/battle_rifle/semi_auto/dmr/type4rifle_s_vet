@@ -1,0 +1,10 @@
+{from "type4rifle_s"
+	{special
+		{mode aim}
+		{PrepareTime 2.0}	
+		{PrepareCursor "aimed_shot"}
+		{accuracy 3.0}
+		{damage 1.50}
+		{throw_off}
+	}
+}

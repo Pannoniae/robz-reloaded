@@ -1,0 +1,3 @@
+{from "mauzer"
+	{entity "mauzer_b"}
+}

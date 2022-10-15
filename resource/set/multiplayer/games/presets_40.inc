@@ -26,13 +26,13 @@
 				} 
 				{buttons "squad1 squad2 v1 v2 v22 v3 v4 v5"}
 			}
-			;{hero
-			;	{resource 
-			;		{start 		20}
-			;	} 
-			;	{buttons "hero"}
-			;	{tag "special"}
-			;}
+			{hero
+				{resource 
+					{start 		20}
+				} 
+				{buttons "hero"}
+				{tag "special"}
+			}
 		} 
 	}
 	{bots
@@ -67,13 +67,13 @@
 				} 
 				{buttons "squad1 squad2 v1 v2 v22 v3 v4 v5"}
 			}
-			;{hero
-			;	{resource 
-			;		{start 		20}
-			;	} 
-			;	{buttons "hero"}
-			;	{tag "special"}
-			;}
+			{hero
+				{resource 
+					{start 		20}
+				} 
+				{buttons "hero"}
+				{tag "special"}
+			}
 		} 
 	}
 	{bots

@@ -1,0 +1,11 @@
+{item
+	{tag "itemin1hand keepEntity"}
+	{entity "us_haversack_shovel"}
+	{desc "Haversack Shovel"}
+	{inventory
+		{size 2 2}
+		{weight 100}
+	{fsm "belt"}
+	}
+	{mass 2}
+}

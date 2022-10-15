@@ -1,0 +1,4 @@
+{from "fieldcap_rus"
+	{desc "Russian Tanker Helmet"}
+	{entity "helmet_rus_tank_goggles2"}
+}

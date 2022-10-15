@@ -2,9 +2,9 @@
 	{tag "smallitemin1hand"}
 	{entity "trench_spade"}
 	{inventory
-		{size 4 2}
+		{size 3 2}
 		{weight 100}
 		{fsm "stuff"}
 	}
-	{mass 5}
+	{mass 2.5}
 }

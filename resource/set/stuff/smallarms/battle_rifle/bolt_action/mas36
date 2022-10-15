@@ -1,0 +1,13 @@
+{from "pattern bolt_action"
+	{filling "ammo fra_rifle" 5}
+	{entity "mas36"}
+	{mass 3.72}
+	{fireSound "rifle/lebel_shot"}
+	{reloadSound "rifle_bolt_five"}
+	
+	{recoveryTime 1.8}
+	("speed" s(850))
+	;("accuracy_boost")
+	("belt_reload_5")
+	("sa_zeroing")
+}

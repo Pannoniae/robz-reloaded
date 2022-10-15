@@ -1,0 +1,15 @@
+{from "pattern smg"
+	{filling "ammo 45-smg" 20}
+	{entity "m55reising"}
+	{mass 2.8}
+	{fireSound	"smg/m50reising_burst/"}
+	{reloadSound "mp40"}
+
+	("recoveryTime" r(500))
+	("burst_short")
+ 	("speed" s(280))
+	("accuracy_smg_high")
+	
+	("45_acp")
+	("spread_45acp")
+}

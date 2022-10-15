@@ -1,0 +1,20 @@
+{from "pattern automatic_rifle"
+	{inventory
+		{size 4 2}
+	}
+	
+	{filling "ammo 30-06_ar" 20}
+	{entity "m1941lmg"}
+	{fireSound "mgun/johnson_m1941_burst/"}
+	{reloadSound "fg42"}
+
+	("spread_fg42")
+	("burst_medium")
+	
+	{mass 5.9}
+	{rechargeTime 5}
+	("recoveryTime" r(900))
+	("speed" s(854))
+	
+	("7-62mm_automatic_rifle")
+}

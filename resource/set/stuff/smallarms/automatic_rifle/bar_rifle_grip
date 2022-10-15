@@ -1,0 +1,7 @@
+{from "bar_rifle"
+	{entity "bar_smgstyle_grip"}
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 92 84 76 65 60 56 50}
+	}
+}

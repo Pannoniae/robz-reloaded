@@ -1,5 +1,6 @@
 {from "pattern overcoat"
 	{entity "soviet_pack"}
+	{tag "itemin1hand keepEntity"}
 	{inventory
 		{size 2 2}
 		{weight 1}

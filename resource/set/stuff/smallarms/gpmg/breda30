@@ -1,0 +1,18 @@
+{from "pattern gpmg"
+	{tag "mgun_light"}
+	{entity "breda30"}
+	{filling "ammo carcano_rifle" 20}
+	{rechargeTime 5}
+	{fireSound "mgun/breda_37_burst/"}
+	{reloadSound "bren"}
+	("recoveryTime" r(500))
+	("burst_short")
+	("speed" s(620))
+	{mass 10}
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 97 94 91 88 85 80 70 60 40 20}
+	}
+	
+	("6-5mm_gpmg")
+}

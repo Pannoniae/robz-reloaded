@@ -1,0 +1,15 @@
+{from "pattern smg"
+	{filling "ammo 762-smg" 35}
+	{entity "pps43"}
+	{mass 3.04}
+	{fireSound	"smg/pps43_burst/"}
+	{reloadSound "mp44"}
+	
+	("recoveryTime" r(700))
+	("burst_short")
+ 	("speed" s(500))
+	("accuracy_smg_high")
+	
+	("7-62mm_tokarev")
+	("spread_9mm")
+}

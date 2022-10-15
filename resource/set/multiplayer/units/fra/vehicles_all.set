@@ -1,0 +1,114 @@
+;----- Free French -----
+
+
+;°°°Button 1°°°
+
+{"r12_34_fra"		("vs_ffi" c(0) v1(r12_34) t(all 42 43 44 45) s(fra) n(2) g(b1) b(v1)) {level 1} {cost 80} {fore 0.0}}			;0sec
+{"r12_fra"		("vs_ffi" c(0) v1(r12) t(all 42 43 44 45) s(fra) n(2) g(b1) b(v1)) {level 1} {cost 95} {fore 0.0}}			;0sec
+{"kubel_mgun_34_fra"	("vs_ffi" c(30) v1(kubel_mgun_34) t(all 39 40 41 42 43 44 45) s(fra) n(3) g(b2) b(v1)) {level 1} {cost 120} {fore 0.0}}	;30sec
+{"kubel_mgun_fra"	("vs_ffi" c(30) v1(kubel_mgun) t(all 42 43 44 45) s(fra) n(3) g(b2) b(v1)) {level 1} {cost 135} {fore 0.0}}			;30sec
+{"np_willysmb_fra"	("vs_spahi" c(30) v1(np_willysmb) t(all 42 43 44 45) s(fra) n1(2) n2(1) g(b1) b(v1)) {level 1} {cost 150} {fore 0.0}}			;30sec
+{"np_willysmb_50_fra"	("vs_spahi" c(30) v1(np_willysmb_50) t(all 42 43 44 45) s(fra) n1(2) n2(1) g(b2) b(v1)) {level 1} {cost 150} {fore 0.0}}			;30sec
+{"np_willys50_fra"	("vs_spahi" c(30) v1(np_willys50) t(all 42 43 44 45) s(fra) n1(1) n2(1) g(b2) b(v1)) {level 1} {cost 150} {fore -3.0}}			;180sec
+{"np_willysat_fra"	("vs_spahi" c(30) v1(np_willysat) t(all 42 43 44 45) s(fra) n1(2) n2(1) g(b2) b(v1)) {level 1} {cost 150} {fore -5.0}}			;300sec
+{"m2halftrack_fra"	("vs_ss" c(10) v1(m2halftrack) t(all 39 40 41 42 43 44 45) s(fra) n(4) g(b3) b(v1)) {level 1} {cost 200} {fore -23.0}}	;240sec
+{"m3_fra"	("vs_ss" c(10) v1(m3_usa) t(all 42 43 44 45) s(fra) n(3) g(b3) b(v1)) {level 1} {cost 230} {fore -23.0}}			;240sec
+{"np_sdkfz250_1_fra"	("vs_ffi" c(10) v1(np_sdkfz250_1) t(all 39 40 41 42 43 44 45) s(fra) n(4) g(b3) b(v1)) {level 1} {cost 110} {fore -17.0}}	;180sec
+{"np_sdkfz251_1_fra"	("vs_ffi" c(10) v1(np_sdkfz251_1) t(all 39 40 41 42 43 44 45) s(fra) n(4) g(b3) b(v1)) {level 1} {cost 120} {fore -17.0}}	;180sec
+
+{"gmc_fra"		("vs_ss" c(0) v1(gmc) t(all 39 40 41 42 43 44 45) s(fra) n(2) g(b7) b(v1)) {level 1} {cost 50} {fore 0.0}}		;0sec
+{"gmc_art_fra"	("vs_ss" c(0) v1(gmc_art) t(all 39 40 41 42 43 44 45) s(fra) n(2) g(b8) b(v1)) {level 1} {cost 150} {fore 0.0}}		;0sec
+{"gmc_eng_fra"	("vs_ss" c(0) v1(gmc_eng) t(all 39 40 41 42 43 44 45) s(fra) n(2) g(b9) b(v1)) {level 1} {cost 250} {fore 0.0}}		;0sec
+{"blitz3_6_fra"		("vs_ffi" c(0) v1(blitz3_6) t(all 39 40 41 42 43 44 45) s(fra) n(2) g(b7) b(v1)) {level 1} {cost 50} {fore 0.0}}		;0sec
+{"blitz3_6art_fra"	("vs_ffi" c(0) v1(blitz3_6art) t(all 39 40 41 42 43 44 45) s(fra) n(2) g(b8) b(v1)) {level 1} {cost 150} {fore 0.0}}		;0sec
+{"blitz3_6eng_fra"	("vs_ffi" c(0) v1(blitz3_6eng) t(all 39 40 41 42 43 44 45) s(fra) n(2) g(b9) b(v1)) {level 1} {cost 250} {fore 0.0}}		;0sec
+
+{"ammo_box_us_inf_fra"	("vs_ss" c(0) v1(ammo_box_us_inf) t(all 39 40 41 42 43 44 45) s(fra) n(2) g(b10) b(v1)) {level 1} {cost 25} {fore 0.0}}	;0sec
+{"ammo_box_us_art_fra"	("vs_ss" c(0) v1(ammo_box_us_art) t(all 39 40 41 42 43 44 45) s(fra) n(2) g(b11) b(v1)) {level 1} {cost 75} {fore 0.0}}	;0sec
+{"ammo_box_us_special_fra" ("vs_ss" c(300) v1(ammo_box_us_special) t(all 39 40 41 42 43 44 45) s(fra) n(2) g(b12) b(v1)) {level 1} {cost 100} {fore 0.0}}	;0sec
+{"ammo_box_ger_inf_fra"	("vs_ffi" c(0) v1(ammo_box_ger_inf) t(all 39 40 41 42 43 44 45) s(fra) n(2) g(b10) b(v1)) {level 1} {cost 25} {fore 0.0}}	;0sec
+{"ammo_box_ger_art_fra"	("vs_ffi" c(0) v1(ammo_box_ger_art) t(all 39 40 41 42 43 44 45) s(fra) n(2) g(b11) b(v1)) {level 1} {cost 75} {fore 0.0}}	;0sec
+{"ammo_box_ger_special_fra" ("vs_ffi" c(300) v1(ammo_box_ger_special) t(all 39 40 41 42 43 44 45) s(fra) n(2) g(b12) b(v1)) {level 1} {cost 100} {fore 0.0}}	;0sec
+
+
+
+;°°°Button 2°°°
+
+{"mg34_lafette_fra"	("vs_ffi" c(10) v1(mg34_lafette) t(all 39 40 41 42 43 44 45 only-one) s(fra) n(2) g(c1) b(v2)) {level 1} {cost 110} {fore -2.0}}		;30sec
+{"mg42_lafette_fra"	("vs_ffi" c(10) v1(mg42_lafette) t(all 42 43 44 45 only-one) s(fra) n(2) g(c1) b(v2)) {level 1} {cost 125} {fore -2.0}}			;30sec
+{"5_cm_granatwerfer_36_fra" ("light_mortar" c(10) t(all 44 45 mortar only-one) s(fra) g(c56) b(v2)) {level 1} {cost 130} {fore -2.0}}		;30sec
+
+{"30_browning_m1919a4_fra"	("vs_ss_noinfo" c(10) v1(30_browning_m1919a4) t(all 39 40 41 42 43 44 45) s(fra) n(2) g(c1) b(v2)) {level 1} {cost 140} {fore -2.0}}		;30sec
+{"50_browning_m2hb_fra"	("vs_ss_noinfo" c(10) v1(50_browning_m2hb) t(all 39 40 41 42 43 44 45) s(fra) n(2) g(c1) b(v2)) {level 1} {cost 215} {fore -2.0}}		;30sec
+{"maxson_fra"	("vs_ss" c(10) v1(maxson) t(all 39 40 41 42 43 44 45) s(fra) n(2) g(c2) b(v2)) {level 1} {cost 255} {fore -4.0}}		;150sec
+{"60mm_brandt_usa_fra"	("vs_ss_noinfo" c(10) v1(60mm_brandt_usa) t(all 39 40 41 42 43 44 45 mortar) s(fra) n(2) g(c14) b(v2)) {level 1} {cost 220} {fore -2.0}}		;30sec
+{"sgrw_34_fra"		("vs_ffi" c(10) v1(sgrw_34) t(all 39 40 41 42 43 44 45 mortar only-one) s(fra) n(2) g(c3) b(v2)) {level 1} {cost 320} {fore -2.0}}		;30sec
+
+{"pak36_fra"		("vs_ffi" c(10) v1(pak36) t(all 44 45 only-one) s(fra) n(2) g(c8) b(v2)) {level 1} {cost 115} {fore -2.0}}				;30sec
+{"pak38_fra"		("vs_ffi" c(10) v1(pak38) t(all 40 41 42 43 44 45 only-one) s(fra) n(2) g(c9) b(v2)) {level 1} {cost 160} {fore -14.0}}			;150sec
+{"np_pak40_fra"		("vs_ffi" c(20) v1(np_pak40) t(all medium 42 43 44 45 only-one) s(fra) n(2) g(c10) b(v2)) {level 1} {cost 380} {fore -19.0}}			;400sec
+
+{"m3cannon_fra"		("vs_ss" c(10) v1(m3cannon) t(all 40 41 42 43 44 45) s(fra) n(2) g(c4) b(v2)) {level 1} {cost 240} {fore -2.0}}			;30sec
+{"m1_57mm_fra"		("vs_ss" c(20) v1(m1_57mm) t(all medium 42 43 44 45) s(fra) n(2) g(c5) b(v2)) {level 1} {cost 315} {fore -14.0}}			;400sec
+{"np_m5cannon_fra"		("vs_ss" c(20) v1(np_m5cannon) t(all medium 42 43 44 45) s(fra) n(2) g(c6) b(v2)) {level 1} {cost 415} {fore -19.0}}			;400sec
+
+("how" side(fra) name(how_aa) c(30) c1(gmc_cckw) c2(bofors)  	t(all medium 42 43 44 45) g(c7) b(v2) level(1) cost(300) f(-6.0))			;210sec
+
+{"m8_howitzer_fra"		("vs_ss" c(10) v1(m8_howitzer) t(all 40 41 42 43 44 45) s(fra) n(2) g(c13) b(v2)) {level 1} {cost 340} {fore -1.0}}			;120sec
+
+{"m4halftrack_fra"		("vs_ss" c(10) v1(m4halftrack) t(all 42 43 44 45 mortar) s(fra) n(5) g(c12) b(v2)) {level 1} {cost 400} {fore -14.0}}			;700sec
+{"m7_fra"		("vs_ss" c(60) v1(m7) t(all 42 43 44 45 artillery) s(fra) n(4) g(c14) b(v2)) {level 1} {cost 850} {fore -14.0}}		;900sec
+
+;°°°Button 3°°°
+
+{"np_m15a1_fra"		("vs_ss" c(10) v1(np_m15a1) t(all 44 45) s(fra) n(5) g(d1) b(v3)) {level 1} {cost 315} {fore -35.0}}		;320sec
+{"np_t48_fra"		("vs_ss" c(10) v1(np_t48) t(all 44 45) s(fra) n(4) g(d2) b(v3)) {level 1} {cost 390} {fore -35.0}}		;320sec
+{"np_t15_fra"		("vs_ss" c(10) v1(np_t15) t(all 44 45) s(fra) n(4) g(d3) b(v3)) {level 1} {cost 365} {fore -39.0}}		;380sec
+
+{"m20_fra"		("vs_spahi" c(10) v1(m20) t(all 44 45) s(fra) n1(1) n2(1) g(d4) b(v3)) {level 1} {cost 200} {fore -31.0}}		;320sec
+{"m16_fra"		("vs_ss" c(10) v1(m16) t(all 44 45) s(fra) n(3) g(d5) b(v3)) {level 1} {cost 250} {fore -35.0}}		;320sec
+{"m8grayhound_fra"		("vs_spahi" c(10) v1(m8grayhound) t(all 39 40 41 42 43 44 45) s(fra) n1(2) n2(1) g(d6) b(v3)) {level 1} {cost 275} {fore -35.0}}		;380sec
+
+{"m5a1_fra"		("vs_spahi" c(10) v1(m5a1) t(all 44 45) s(fra) n1(3) n2(1) g(d7) b(v3)) {level 1} {cost 300} {fore -42.0}}		;420sec
+{"m19_fra"		("vs_ss" c(10) v1(m19) t(all 45) s(fra) n(4) g(d8) b(v3)) {level 1} {cost 380} {fore -57.0}}		;420sec
+
+{"pz3_fra"		("v_ffi" c(10) v1(pz3) t(all 44 45 only-one) s(fra) n(4) g(d9) b(v3)) {level 1} {cost 360} {fore -42.0}}		;420sec
+{"pz4e_fra"	("v_ffi" c(10) v1(pz4e) t(all 44 45 only-one) s(fra) n(4) g(d10) b(v3)) {level 1} {cost 355} {fore -42.0}}	;460sec
+
+{"m4a3m"            ("v" c(150) t(deminer) 		s(fra) n1(1) n2(1) g(d11) sc(12.50) b(v3) cw(0) cp(0)) {level 1} {cost 250} {fore 0}}
+
+;°°°Button 4°°°
+
+{"m8_fra"	("v_ss_td" c(10) v1(m8) t(all 42 43 44 45 medium) 	s(fra) n1(3) n2(1) g(e2) b(v4)) {level 1} {cost 375} {fore -42.0}}		;500sec
+
+{"m4a2_fra"        ("v" c(10) t(all 44 45 medium) s(fra) n1(4) n2(1) g(e3) sc(19.00) b(v4) cw(0) cp(15)) {level 1} {cost 400} {fore -63.0}}	;640sec
+{"m4a3_75_fra"	("v_ss" c(10) v1(m4a3_75) t(all medium all 43 44 45) 	s(fra) n1(4) n2(1) g(e3) b(v4)) {level 1} {cost 420} {fore -63.0}}		;600sec
+;{"m4a3_105_fra"	("v_ss" c(10) v1(m4a3_105) t(all medium all 43 44 45) 	s(fra) n1(4) n2(1) g(e3) b(v4)) {level 1} {cost 600} {fore -63.0}}		;600sec
+{"m4a2_76w_fra"         ("v" c(60) t(all 44 45 medium) 	s(fra) n1(3) n2(1) g(e3) sc(27.50) b(v4) cw(0) cp(15)) {level 1} {cost 575} {fore -14.0}}	;900sec
+
+{"m4a3e8_fra"	("v_ss" c(60) v1(m4a3e8) t(all medium all 43 44 45) 	s(fra) n1(4) n2(1) g(e4) b(v4)) {level 1} {cost 625} {fore -11.0}}		;720sec
+
+;°°°Button 5°°°
+
+{"m10wolverine_fra"	("v_ss_td" c(10) v1(m10wolverine) t(medium all 43 44 45)	s(fra) n1(3) n2(1) g(f2) b(v5)) {level 1} {cost 525} {fore -65.0}}		;600sec
+{"m36_fra"	("v_ss_td" c(120) v1(m36) t(medium all 44 45) s(fra) n1(3) n2(1) g(f3) b(v5)) {level 1} {cost 750} {fore -7.0}}		;950sec
+{"m36b1_fra"	("v_ss_td" c(120) v1(m36b1) t(medium all 44 45) s(fra) n1(4) n2(1) g(f3) b(v5)) {level 1} {cost 775} {fore -7.0}}		;950sec
+
+;°°°Button vet°°° Veteran special
+	
+{"m10wolverine_vet"   ("v_vet_td" c(600) t(all medium 44 45) s(fra) n1(3) n2(1) g(g1) sc(30.00) b(v5) cw(0) cp(15)) {level 1} {cost 625} {fore 0.0}} 	;900sec
+{"m4a3e8_vet"     ("v_vet" c(780) t(all 44 45 medium) s(fra) n1(3) n2(1) g(g2) sc(30.00) b(v5) cw(0) cp(20)) {level 1} {cost 700} {fore 0.0}}	;900sec
+{"m36_vet"     ("v_vet_td" c(720) t(all 44 45 medium) s(fra) n1(3) n2(1) g(g3) sc(30.00) b(v5) cw(0) cp(20)) {level 1} {cost 850} {fore 0.0}}	;900sec
+{"m36b1_vet" ("v_vet_td" c(780) t(all medium 44 45) s(fra) n1(4) n2(1) g(g4) sc(30.00) b(v5) cw(0) cp(20)) {level 1} {cost 900} {fore 0.0}}	;1260sec
+
+;°°°Button Hero°°°
+
+{"hero1_fra"        ("v0" c(120) c1(m8_howitzer) 	t(all 42 43 44 45 hero) s(fra) n1(vehicle_supporter:2) g(h1) b(hero)) {level 1} {cost 2.0} {fore -0.5}}
+{"hero4_fra"        ("i3" c(240)  t(all hero 44 45) s(fra) n1(ffi_rifle:24) n2(ffi_smg:12) n3(jedburgh_radio:3) g(h2) b(hero)) {level 1} {cost 2.0} {fore -0.5}}
+{"hero_fra_rifle_platoon"	    ("i4" c(400)			t(all 42 43 44 45 hero) s(fra) n1(rifle:24) n2(rifle_grenadier:3) n3(mgun:6) n4(squadleader:3) g(h5) b(hero)) {level 1} {cost 4.0} {fore -0.5}}
+{"hero6_fra"  	    ("v1" c(400) c1(m4a3_105) 		t(all 44 45 hero) s(fra) n1(tankman:4) n2(tankman2:1) g(h6) b(hero)) {level 1} {cost 4.0} {fore -0.5}}
+{"panzeriv_hero_fra"	    ("v1" c(600) c1(pz4h_vet)		t(hero 44 45) s(fra) n1(vet_td:4) n2(vet_td_com:1) g(h6) b(hero)) {level 1}  {cost 4.0} {fore -0.5}}
+{"hero7_fra"  	    ("v2" c(720) c1(m4a3e8) 		t(all 44 45 hero) s(fra) n1(tankman:4) n2(tankman2:1) g(h8) b(hero)) {level 1} {cost 10.0} {fore -0.5}}
+{"hero_fra_m36_elite"     ("v1" c(1260) c1(m36_elite) 	t(all hero 44 45) s(fra) n1(elite_td:3) n2(elite_td_com:1) g(h9) b(hero)) {level 1} {cost 17.0} {fore -0.5}}
+{"panther_hero_fra"     ("v1" c(860) c1(pz5a) 	t(all hero 44 45) s(fra) n1(td:4) n2(td_com:1) g(h11) b(hero)) {level 1} {cost 13.0} {fore -0.5}}
+{"hero10_fra"	    ("v51" c(1400) c1(m10wolverine_vet) c2(m36b1) c3(m10wolverine) t(all 42 43 44 45 hero) s(fra) n1(td:5) g(h7) b(hero)) {level 1} {cost 19.0} {fore -0.5}}

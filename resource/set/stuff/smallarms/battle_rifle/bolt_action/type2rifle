@@ -1,0 +1,13 @@
+{from "pattern bolt_action"
+	{filling "ammo 7-7_jap" 5}
+	{entity "type2rifle"}
+	{mass 3.79}
+	{fireSound "rifle/type99_shot"}
+	{reloadSound "rifle_bolt_five"}
+	
+	("speed" s(755))
+	;("accuracy_boost")
+	("belt_reload_5")
+	
+	("7-7mm_bolt")
+}

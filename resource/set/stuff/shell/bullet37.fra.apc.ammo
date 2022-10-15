@@ -1,0 +1,10 @@
+{from "pattern apc"
+	{tag "size_minimum" "shell_minimum" "pierce"}
+	{inventory
+		{weight 30}
+		{size 2 1}
+	}
+	("ger" args 0.27)
+	{mass 0.5}
+	{entity "shell_ap_37_pak35"}
+}

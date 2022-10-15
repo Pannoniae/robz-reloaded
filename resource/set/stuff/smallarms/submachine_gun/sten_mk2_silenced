@@ -1,0 +1,4 @@
+{from "sten_mk2"
+	{entity "sten_mk2_silenced"}
+ 	("speed" s(305))
+}

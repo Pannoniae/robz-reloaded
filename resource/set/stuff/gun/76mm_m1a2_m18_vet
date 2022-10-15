@@ -1,0 +1,9 @@
+{from "76mm_m5"		; "m18_hellcat"
+	{rechargeTime 5.5}
+	("accuracy_maximum")
+	{range 210 210}
+	{parameters "fg"
+		{range 210 210}
+	}
+}
+

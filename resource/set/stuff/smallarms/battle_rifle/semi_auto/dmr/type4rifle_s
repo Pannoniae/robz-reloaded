@@ -1,0 +1,18 @@
+{from "type4rifle"
+	{entity "type4rifle_sniper"}
+	{tag "sniper"}
+	{special
+		{mode aim}
+		{PrepareTime 2.5}	
+		{PrepareCursor "aimed_shot"}
+		{accuracy 2.5}
+		{damage 1.5}
+		{throw_off}
+	}
+	("accuracy_marksman_rifle")
+	("accuracy_boost")
+	("sa_zeroing")
+	{range 130 130}
+	
+	("7-7mm_semi_sniper")
+}

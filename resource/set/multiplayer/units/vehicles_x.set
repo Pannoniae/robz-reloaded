@@ -24,10 +24,14 @@
 {"type4_75mm_elite"     ("extra" t() sc(30.00) cw(0) cp(10))}	;5
 {"type4_200mm"        	("extra" t() sc(30.00) cw(0) cp(15))}	;5
 {"ho-ri"        		("extra" t() sc(50.00) cw(0) cp(25))}	;9
+{"ho-ri_1"        		("extra" t() sc(75.00) cw(0) cp(40))}	;9
+
 {"chi_to_2"        		("extra" t() sc(28.75) cw(0) cp(20))}	;9
 
 {"m4a3e8_fury"      	("extra" t() sc(40.00) cw(0) cp(20))}	;6
 {"m36_vet"      		("extra" t() sc(52.50) cw(0) cp(20))}	;6
+{"m4a2_robztest"      	("extra" t() sc(40.00) cw(0) cp(20))}	;6
+
 {"m4a3e2_jumbo_76_vet"  ("extra" t() sc(70.00) cw(0) cp(30))}	;6
 {"m26_pershing_vet"     ("extra" t() sc(87.50) cw(0) cp(30))}	;6
 {"m26e4_ace"     ("extra" t() sc(110.00) cw(0) cp(30))}	;6
@@ -54,6 +58,17 @@
 {"pz3_l"			("extra" t() sc(18.00) cw(0) cp(15))}
 {"stug4g_vet"		("extra" t() sc(40.00) cw(0) cp(15))}
 {"stug3g_ace"		("extra" t() sc(45.00) cw(0) cp(15))}
+
+{"m4a3e8_vet"		("extra" t() sc(42.50) cw(0) cp(17))}
+{"m10wolverine_vet"		("extra" t() sc(33.75) cw(0) cp(17))}
+{"m36_vet"		("extra" t() sc(42.50) cw(0) cp(17))}
+{"m36_elite"		("extra" t() sc(42.50) cw(0) cp(17))}
+{"m36b1_vet"		("extra" t() sc(42.50) cw(0) cp(17))}
+{"m18_vet"		("extra" t() sc(33.75) cw(0) cp(17))}
+{"sdkfz182b_vet"     		("extra" t() sc(145.00) cw(0) cp(60))}	;10
+{"sdkfz182b_ace"     		("extra" t() sc(135.00) cw(0) cp(60))}	;10
+{"type5_ho-ri_production"     		("extra" t() sc(80.00) cw(0) cp(35))}	;10
+
 ;random shit
 
 

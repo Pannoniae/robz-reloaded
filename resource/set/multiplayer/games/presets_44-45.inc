@@ -4,7 +4,7 @@
 			{value "44|45|sf"}
 		}
 		{commandPoints "*=%cp"}
-		{unitLimits "flamer=3;officer=3;officer1=1;officer2=2;heavyaa=2;only-one=1"}
+		{unitLimits "flamer=3;officer=3;heavyaa=2;only-one=1"}
 		{chargeFactors
 			{value "*=1"}
 		}
@@ -16,47 +16,6 @@
 					{finish 	%finish}
 					{growTime	2300}		; in seconds
 					{growTable 	"0.65 0.65 0.65 0.70 0.70 0.70 0.75 0.75 0.75 0.80 0.80 0.80 0.80 0.80 0.80 0.85 0.85 0.85 0.90 0.90 0.90 0.90 0.90 0.90 1.00"}
-					{payback
-						{cp 		"0	25	50 	60	70	80	90"}  
-						{restore 	"1.50	1.25	0.75	0.50	0.40	0.30	0.20"}
-					}
-					{limitmin	1000}
-					{limitmax	50000}
-					{speedset 	"2500 3000 3500 4000 4500 5000 6000 8000 10000 20000 50000"}
-				} 
-				{buttons "squad1 squad2 v1 v2 v22 v3 v4 v5 v6 sf"}
-			}
-			{hero
-				{resource 
-					{start 		20}
-				} 
-				{buttons "hero"}
-				{tag "special"}
-			}
-		} 
-	}
-	{bots
-		(include "bots_generic.inc")
-	}
-)
-(define "custom_doc"
-	{common
-		{unitset
-			{value "doc"}
-		}
-		{commandPoints "*=%cp"}
-		{unitLimits "flamer=3;officer=2;officer_armor=2;heavyaa=2;only-one=1"}
-		{chargeFactors
-			{value "*=1"}
-		}
-		{budgets
-			{vehicle
-				{mode "custom"}
-				{resource 
-					{start 		%start};    ht  lt  hlt    mt   mt        ht   sht
-					{finish 	%finish};	5	10   15    20   25   30   35   40   45  min
-					{growTime	2700};0    300  600  900  1200 1500 1800 2100 2400 2700 sec
-					{growTable 	     "0.60 0.65 0.70 0.75 0.80 0.85 0.85 0.95 1.00"}
 					{payback
 						{cp 		"0	25	50 	60	70	80	90"}  
 						{restore 	"1.50	1.25	0.75	0.50	0.40	0.30	0.20"}
@@ -125,6 +84,13 @@
 		{apply "units_44-45"}
 		("custom_44-45" 			start(200) finish(6000) cp(100))
 	}
+	{"c:custom_80_44-45-45"
+		{gameMode "custom"}
+		{unitMode "44-45"}
+		{specMode "cp_80"}
+		{apply "units_44-45"}
+		("custom_44-45"			start(200) finish(6000) cp(80))
+	}
 	{"c:custom_120_44-45"
 		{gameMode "custom"}
 		{unitMode "44-45"}
@@ -160,14 +126,28 @@
 		{apply "units_44-45"}
 		("custom_44-45"  			start(200) finish(6000) cp(200))
 	}
-	{"c:custom_100_doc"
+	{"c:custom_300_44-45"
 		{gameMode "custom"}
-		{unitMode "doc"}
-		{specMode "cp_100"}
+		{unitMode "44-45"}
+		{specMode "cp_300"}
 		{apply "units_44-45"}
-		("custom_doc" 			start(200) finish(6000) cp(100))
+		("custom_44-45"  			start(200) finish(6000) cp(300))
 	}
-	
+	{"c:custom_400_44-45"
+		{gameMode "custom"}
+		{unitMode "44-45"}
+		{specMode "cp_400"}
+		{apply "units_44-45"}
+		("custom_44-45"  			start(200) finish(6000) cp(400))
+	}
+	{"c:custom_600_44-45"
+		{gameMode "custom"}
+		{unitMode "44-45"}
+		{specMode "cp_600"}
+		{apply "units_44-45"}
+		("custom_44-45"  			start(200) finish(6000) cp(600))
+	}
+
 ;-------------------------
 (define "wavemode_44-45"
 	{"c:custom_500_%cp_wave_44-45%period"
@@ -208,10 +188,14 @@
 )
 (define "wavemode_total44-45"
 	("wavemode_44-45" period(%period) cp(100))
+	("wavemode_44-45" period(%period) cp(120))
+	("wavemode_44-45" period(%period) cp(140))
+	("wavemode_44-45" period(%period) cp(160))
 	("wavemode_44-45" period(%period) cp(200))
 )
 	("wavemode_total44-45" period(180))
 	("wavemode_total44-45" period(300))
 	("wavemode_total44-45" period(420))
 	("wavemode_total44-45" period(600))
+;------------------------------------------------------------------------------------------------------------
 }

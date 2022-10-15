@@ -1,5 +1,5 @@
 {bullet
-	{tag "ammo ap2 shell dropboxed cumulative_small pierce rocketlauncher bazooka"}
+	{tag "ammo ap2 rocketlauncher shell dropboxed cumulative bazooka pierce"}
 	{entity "gewehrpanzergranate"}
 	{view "gewehrpanzergranate"
 		;{tail "grenade_tail" "tail"}
@@ -13,5 +13,4 @@
 		{size 2 1}
 	}
   	{mass 0.025}
-	{cumulative 1}
 }

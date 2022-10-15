@@ -1,0 +1,6 @@
+{army
+	{id 8}
+	{title "mp/army/usmc"} 
+	{icon "/interface/pages/multi/flag_usmc"}
+	{flag "/interface/scene/common/flag-usmc"}
+}

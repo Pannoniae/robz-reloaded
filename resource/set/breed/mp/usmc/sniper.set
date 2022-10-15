@@ -1,0 +1,82 @@
+{breed
+	{skin "usa-camo-rfl"}
+	{portrait usa_elite2}
+	{icon elite6}
+	{icon_priority 5}
+	{nationality usmc}
+	{armors
+		{head helmet_usa_marine_1}
+	}
+	{perks
+		{"health" "400%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "200%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" mp_sniper
+		}
+		{"speed" 1
+		}
+		{"stealth"}
+		{"telescope"}
+		{"field_glass"}
+		{"tank" 0.75
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 0.8
+		}
+		{"pistol" lvl_7
+		}
+		{"smg" lvl_7
+		}
+		{"mgun" lvl_7
+		}
+		{"rifle" lvl_7
+		}
+		{"rocketlauncher" lvl_7
+		}
+		{"melee" lvl_7
+		}
+		{"tankgun" lvl_5
+		}
+		{"aimedshot"}
+	}
+	{veterancy
+		{"lvl_1" 5
+		}
+		{"lvl_2" 11
+		}
+		{"lvl_3" 18
+		}
+		{"lvl_4" 26
+		}
+		{"lvl_5" 35
+		}
+		{"lvl_6" 45
+		}
+		{"lvl_7" 56
+		}
+		{"lvl_8" 68
+		}
+		{"lvl_9" 80
+		}
+		{"lvl_10" 93
+		}
+	}
+	{inventory
+		{item "m1903a4_vet" filling "springfield_clip 30-06_rifle ammo" 5}
+		{item "ammo springfield_clip" 100}
+		{item "colt" filled}
+		{item "ammo colt_mag" 28}
+		{item "bandage" 5}
+		{item "grenade m61" 2}
+		{item "smoke grenade" 2}
+		{item "plant" 3}
+		{item "knife_union"}
+		{in_hands 0}
+	}
+}

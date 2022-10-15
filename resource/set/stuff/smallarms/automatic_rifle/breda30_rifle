@@ -1,0 +1,16 @@
+{from "pattern automatic_rifle"
+	{filling "ammo carcano_rifle" 20}
+	{entity "breda30"}
+	{fireSound "mgun/breda_37_burst/"}
+	{reloadSound "bren"}
+
+	("spread_fg42")
+	("burst_medium")
+	
+	{mass 10}
+	{rechargeTime 5}
+	("recoveryTime" r(500))
+	("speed" s(620))
+	
+	("6-5mm_automatic_rifle")
+}

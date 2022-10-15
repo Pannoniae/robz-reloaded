@@ -128,6 +128,14 @@
     ("generic_v" c(%c) sc(%sc) t(%t %s) g(%g) b(%b) cw(%cw) cp(%cp))
     {content "* ( mp/%s/%n3 mp/%s/%n1 mp/%s/%n2)"}
 )
+(define "vs_sol"
+    ("generic_v" c(%c) sc(%sc) t(%t %s) g(%g) b(%b) cw(%cw) cp(%cp))
+    {content "* ( mp/%s/vehicle_supporter:%n1 mp/%s/vehicle_supporter:%n2)"}
+)
+(define "v_td"
+    ("generic_v" c(%c) sc(%sc) t(%t %s) g(%g) b(%b) cw(%cw) cp(%cp))
+    {content "* ( mp/%s/td:%n1 mp/%s/td_com:%n2)"}
+)
 (define "v_com"
     ("generic_v" c(%c) sc(%sc) t(%t %s) g(%g) b(%b) cw(%cw) cp(%cp))
     {content "* ( mp/%s/tankman2:%n2 mp/%s/tankman:%n1)"}
@@ -182,8 +190,22 @@
     {content "%v1 ( mp/rus/guard_vehicle_supporter:%n )"}
     {info %v1}
 )
+(define "v_rus_riders"
+    ("generic_v" c(%c) sc(%sc) t(%t %s) g(%g) b(%b) cw(%cw) cp(%cp))
+    {content "* ( mp/%s/tankman:%n1 mp/%s/tankman2:%n2 mp/%s/tank_rider:%n3)"}
+)
 
 ;------------- RUS Guard --------------
+(define "v_rusguard"
+    ("generic_v" c(%c) sc(%sc) t(%t %s) g(%g) b(%b) cw(%cw) cp(%cp))
+    {content "* ( mp/rus_guard/tankman:%n1 mp/rus_guard/tankman2:%n2)"}
+    {info %v1}
+)
+(define "vs_rusguard"
+    ("generic_v" c(%c) sc(%sc) t(%t %s) g(%g) b(%b) cw(%cw) cp(%cp))
+    {content "* ( mp/rus_guard/vehicle_supporter:%n )"}
+    {info %v1}
+)
 (define "v_rus_g"
     ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
     {content "%v1 ( mp/rus_guard/tankman:%n1 mp/rus_guard/tankman2:%n2 )"}
@@ -241,6 +263,61 @@
     ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
     {content "%v1 ( mp/usa/vehicle_supporter:%n ) %v2 ( mp/usa/vehicle_supporter:2 )"}
     {info %v2}
+)
+;------------- USMC --------------
+
+(define "v_usmc42"
+    ("generic_v" c(%c) sc(%sc) t(%t %s) g(%g) b(%b) cw(%cw) cp(%cp))
+    {content "* ( mp/%s/tankman_42:%n1 mp/%s/tankman2_42:%n2)"}
+)
+(define "vs_usmc42"
+    ("generic_v" c(%c) sc(%sc) t(%t %s) g(%g) b(%b) cw(%cw) cp(%cp))
+    {content "* ( mp/%s/vehicle_supporter_42:%n )"}
+)
+(define "v_ss_usmc42"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/%s/tankman_42:%n1 mp/%s/tankman2_42:%n2 )"}
+    {info %v1}
+)
+(define "vs_ss_usmc42"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/%s/vehicle_supporter_42:%n )"}
+    {info %v1}
+)
+(define "vs_ss_usmc42_noinfo"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/%s/vehicle_supporter_42:%n )"}
+)
+
+;------------- Free French --------------
+
+(define "v_ffi"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/%s/ffi_support2:%n )"}
+    {info %v1}
+)
+(define "vs_ffi"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/%s/ffi_support:%n )"}
+    {info %v1}
+)
+(define "vs_ffi_noinfo"				;starting entity name with number makes the game crash, ffs
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/%s/ffi_support:%n )"}
+)
+(define "v_ss_td"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/%s/td:%n1 mp/%s/td_com:%n2 )"}
+    {info %v1}
+)
+(define "v_vet_td"
+    ("generic_v" c(%c) sc(%sc) t(%t %s) g(%g) b(%b) cw(%cw) cp(%cp))
+    {content "* ( mp/%s/vet_td:%n1 mp/%s/vet_td_com:%n2)"}
+)
+(define "vs_spahi"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/%s/recon_rifle:%n1 mp/%s/recon_sl:%n2 )"}
+    {info %v1}
 )
 ;------------- WEHRMACHT --------------
 ; 1 vehicle with tankmen for wehrmacht, doctrines

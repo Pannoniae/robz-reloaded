@@ -1,0 +1,4 @@
+{from "johnson"
+	{rechargeTime 6.5}
+	{recoveryTime 0.35}
+}

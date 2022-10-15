@@ -1,5 +1,5 @@
 {bullet
-	{tag "bullet stackable pierce"}
+	{tag "bullet stackable pierce hmgun inc"}
 	{inventory
 		{weight 1}
 		{block 100}
@@ -7,7 +7,7 @@
 		{fsm "belt"}
 	}
 	{mass 0.120}
-	{entity "large_cartridge"}
+	{entity "50bmg_box"}
 	;{view "bullet"
 	;	{tail "tracer_red" "basis"}
 	;}
@@ -20,7 +20,7 @@
 	}
 	{damage fire
 		{radius 0.5}
-		{heating 1.0}
+		{heating 1.5}
 		{time 0.3}
 	}
 }

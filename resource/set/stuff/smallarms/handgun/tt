@@ -1,0 +1,12 @@
+{from "pattern handgun"
+	{filling "ammo tt_mag" 8}
+	{entity "tt"}
+	{fireSound	"pistol/tt"}
+	{reloadSound "tt"}
+	{mass 0.854}
+	("speed" s(450))
+	
+	("spread_1h_advanced")
+	
+	("7-62mm_tokarev")
+}

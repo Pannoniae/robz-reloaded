@@ -1,0 +1,11 @@
+{bullet
+  {tag "bullet small stackable pierce 7-92_kurz"}
+  {inventory
+    {weight 1.6666665}
+    {block 60}
+    {size 1 2}
+    {fsm "belt"}
+  }
+  {mass 0.017}
+  {entity "stg44_mag"}
+}

@@ -4,7 +4,7 @@
 	{entity "molotov_coctail"}
 	{mass 1.0}
 	{throw
-		{range 22}
+		{range 24}
 		{startAngle 30}
 	}
 	{damage fire

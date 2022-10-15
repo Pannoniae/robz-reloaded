@@ -1,0 +1,47 @@
+{from "pattern bullet"
+	{tag "weapon mgun bullet itemin2hands to_hand"}
+	{filling "ammo hmgun" 100}
+	{reloadSound "mg1"}
+	{inventory
+		{size 6 2 }
+		{link_bone "gun_back"}
+		{weight 100}
+	}
+	{entity "browningm2"}
+	{mass 38}
+	{traceFreq 5}
+	{Automatic}
+	("mg_zeroing")
+	
+	{cursor "zenite_on"}
+	{cursorReloading "zenite_reload"}
+
+	{range 130 130}
+
+	("burst_long")
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 95 90 85 80 70 55 40 10}
+	}
+	("recoveryTime" r(600))
+	{rechargeTime 12.0}
+	{speed 400}
+	
+	{healthDamage 75}
+	{projectileDamage 30}
+	{projectileDamageClip 5}
+	{projectileDamageTable {0 14} {50 8} {100 6} {150 5} {200 4}}
+	{projectileDamageThreshold 1.1}
+	{calibre 12.7}
+	{parameters "ap"
+		{projectileDamageTable {0 30} {50 19} {100 12} {150 8} {200 6}}
+	}
+	{parameters "inc"
+		{projectileDamageTable {0 23} {50 16} {100 10} {150 6} {200 5}}
+	}
+	
+	{aimingTolerance 1}
+	;{gravity 10}
+
+	("accuracy_hmg")
+}

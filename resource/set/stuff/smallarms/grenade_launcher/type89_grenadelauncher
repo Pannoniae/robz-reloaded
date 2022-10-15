@@ -1,0 +1,47 @@
+{from "pattern bullet"
+	{tag "weapon at_rifle rifle grenade_launcher bullet to_hand"}
+	{entity "type89zhidan"}
+	{filling "ammo 5cm_grenade" 1}
+	{fireSound "reactive/type89_mortar"}
+	{inventory
+		{size 4 1}
+		{link_bone "gun_back"}
+		{weight 10}
+		{fsm "smg"}
+	}
+	{burst
+		{short 1}
+		{Long 1}
+	}	
+	{preloaded}
+	{mass 4.12}
+	
+	{spreading 7.25
+		{SpreadXYRatio	1}
+		{radiusFunction
+			0.0		0
+			1.0		1.0
+			1.2		2.5
+			2.5		5.0
+		}
+	}
+	
+	{aimRange 105}
+	{maxRange 105}
+	{gravity 6}
+	{rechargeTime 5}
+	{curve "cumulative"}
+	{DisableRicochet}
+	{foresight "Foresight3"}
+
+        {projectileDamage 10}
+	{AimingTolerance 0.1}
+	{projectileDamageTable {90 10}}
+	{projectileDamageThreshold 1}
+	{AimingTolerance 3}
+	{speed 75}
+
+	{aimtype curved}
+	{cursor "cannon_on_fg"}
+	{cursorReloading "cannon_reload_fg"}
+}

@@ -1,0 +1,13 @@
+{from "type99_mg"
+	{entity "type99lmg1_optic"}
+	{rechargeTime 4.0}
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 97 94 91 86 83 76 60 50}
+	}
+	{range 130 130}
+	("spread_optic")
+	("accuracy_gpmg_optic")
+	
+	("7-7mm_gpmg_optic")
+}

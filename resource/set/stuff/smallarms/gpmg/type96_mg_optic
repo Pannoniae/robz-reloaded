@@ -1,0 +1,22 @@
+{from "pattern gpmg"
+	{tag "mgun_light"}
+	{filling "ammo 6-5_jap_mg" 30}
+	{entity "type96lmg_optic"}
+	{fireSound	"mgun/type96_lmg_burst/"}
+	{reloadSound "type99lmg_reload"}
+	{mass 9}
+	
+	{rechargeTime 4.0}
+	("recoveryTime" r(500))
+	("burst_short")
+	("speed" s(735))
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 98 95 92 88 85 80 75 60}
+	}
+	{range 130 130}
+	("spread_optic")
+	("accuracy_gpmg_optic")
+	
+	("6-5mm_gpmg")
+}

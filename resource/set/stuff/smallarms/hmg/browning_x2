@@ -1,0 +1,8 @@
+{from "browning"
+	{filling "ammo hmgun" 200}
+	
+	{rechargeTime 10}
+	("recoveryTime" r(1000))
+	
+	("12-7mm_nato_hmg_mount")
+}

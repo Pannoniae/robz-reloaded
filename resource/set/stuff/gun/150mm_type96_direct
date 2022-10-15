@@ -1,0 +1,14 @@
+{from "pattern gun"		; "150mm_type96"
+	{filling "bullet150 japo"}
+	{fireSound "gun/howitzer/152mm_ml20"}
+	("range_grazing_howitzer")
+	{rechargeTime 15}
+	{speed 540}
+	;{range 160 160}
+
+	{projectileDamage 125}
+	("damage_215" a(130) b(115) c(100) d(90) e(70) range(200))
+	{parameters "heat"
+		("damage_heat" a(150) range(200))
+	}
+}

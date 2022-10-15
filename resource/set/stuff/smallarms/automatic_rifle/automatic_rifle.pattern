@@ -1,0 +1,44 @@
+{from "pattern bullet"
+	{tag "weapon rifle assaultrifle bullet to_hand"}
+	{filling "ammo rifle" 20}
+	{inventory
+		{size 5 2}
+		{link_bone "gun_back"}
+		{weight 100}
+	}
+	{entity "bar"}
+	{cursor "carbine_on"}
+	{cursorReloading "carbine_reload"}
+	{burst
+		{short 2 0.3}
+		{long 4 1}
+	}	
+	{traceFreq 5}
+	{mass 9.0}
+	{reloadSound "bar"}
+
+	{Automatic}
+	("recoveryTime" r(650))
+	{rechargeTime 5}
+	{speed 380}
+
+	{ProjectileDamage 8}
+	{ProjectileDamageClip 5}
+	{projectileDamageTable {50 10} {250 0}}
+	{projectileDamageThreshold 1.5}
+	{calibre 7.92}
+	
+	;{spreading 1}
+	{healthDamage 35}
+	
+	{range 110 110}
+	{aimingTolerance 1}
+	;{gravity 10}
+	
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 92 84 76 65 60 50 40}
+	}
+	("accuracy_bar")
+	("automatic_zeroing")
+}

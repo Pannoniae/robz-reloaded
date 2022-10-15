@@ -1,5 +1,6 @@
 {from "pattern overcoat"
 	{entity "ru_backpack_m1938"}
+	{tag "itemin1hand keepEntity"}
 	{inventory
 		{size 2 2}
 		{weight 3}

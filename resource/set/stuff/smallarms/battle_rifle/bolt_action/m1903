@@ -1,0 +1,15 @@
+{from "pattern bolt_action"
+	{filling "ammo 30-06_rifle" 5}
+	{entity "m1903"}
+	{mass 3.9}
+	{fireSound "rifle/m1903a4_shot/"}
+	{reloadSound "kar98k"}
+	
+	("speed" s(855))
+	;("accuracy_boost")
+	("belt_reload_5")
+	
+	("7-62mm_bolt")
+}
+
+

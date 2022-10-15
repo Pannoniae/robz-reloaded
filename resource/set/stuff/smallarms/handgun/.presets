@@ -1,0 +1,143 @@
+(include "\set\small.firearms.accuracy")
+
+(define "speed"   
+	{speed (* 1.0 %s)}  
+)
+
+(define "recoveryTime"   
+	{recoveryTime (/ 60 %r)}
+)
+
+;;==========================================
+;	Misc
+;;==========================================
+
+(define "stripper_reload"
+	{rechargeTime 4.0}
+)
+
+(define "revolver"
+	{recoveryTime 0.5}
+	{rechargeTime 5.0}
+)
+
+(define "revolver_old"
+	{recoveryTime 0.5}
+	{rechargeTime 16.0}	;yes it takes that long deal with it bitch
+)
+
+;;==========================================
+;	Bursts/Discipline
+;;==========================================
+
+(define "burst_short"
+	{burst
+		{short 1.5 0.5}
+		{long 3.5 0.5}
+	}
+)
+
+(define "burst_medium"
+	{burst
+		{short 2.0 0.5}
+		{long 4.0 0.5}
+	}
+)
+
+(define "burst_long"
+	{burst
+		{short 2.5 0.5}
+		{long 4.0 0.5}
+	}
+)
+
+;;==========================================
+;	Recoil/Spreading
+;;==========================================
+
+(define "spread_wick"		;John motherfucking Wick
+	("recoveryTime" r(450))
+	{rechargeTime 1.0}
+	{spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 100 99 99 98 98 97 97 96 96 95 95 94 94 93 93 92 92 91 91 90 90 89 89 88 88 87 87 86 86 85 85 84 84 83 83 82 82 81 81 80 80 77.5 75.0 72.5 70}
+	}
+)
+
+(define "spread_collateral"		;like Tom Cruise in that movie badass af
+	("recoveryTime" r(450))
+	{rechargeTime 1.0}
+	{spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 99 98 97 96 95 94 93 92 91 90 89 88 87 86 85 84 83 82 81 80 77.5 75.0 72.5 70}
+	}
+)
+
+(define "spread_2h_advanced"
+	("recoveryTime" r(400))
+	{rechargeTime 2.0}
+	{spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 97.5 95.0 92.5 90.0 87.5 85.0 82.5 80.0 77.5 75.0 72.5 70 67.5 65 62.5 60}
+	}
+)
+
+(define "spread_2h"
+	("recoveryTime" r(400))
+	{rechargeTime 2.0}
+	{spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 95 90 85 80 75 70 65 60}
+	}
+)
+
+(define "spread_1h_advanced"
+	{spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 92.5 85 77.5 70 62.5 55 50}
+	}
+)
+
+(define "spread_1h"
+	{spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 90 80 70 60 50}
+	}
+)
+
+;;==========================================
+;	Cartridges
+;;==========================================
+
+(define "9mm_parabellum"
+	{healthDamage 25}
+	{ProjectileDamage 3}
+	{ProjectileDamageClip 3}
+	{projectileDamageTable {50 3} {250 0}}
+	{parameters "9_pistol_+p"
+		{healthDamage 27.5}
+		{ProjectileDamage 3.5}
+		{ProjectileDamageClip 3.5}
+		{projectileDamageTable {50 4} {250 0}}
+	}
+	{parameters "9_pistol_+p+"
+		{healthDamage 30}
+		{ProjectileDamage 3.5}
+		{ProjectileDamageClip 3.5}
+		{projectileDamageTable {50 4.5} {250 0}}
+	}
+)
+
+(define "7-62mm_tokarev"
+	{healthDamage 27.5}
+	{ProjectileDamage 3.5}
+	{ProjectileDamageClip 3.5}
+	{projectileDamageTable {50 4} {250 0}}
+)
+
+(define "45_acp"
+	{healthDamage 30}
+	{ProjectileDamage 3}
+	{ProjectileDamageClip 3}
+	{projectileDamageTable {50 3} {250 0}}
+)

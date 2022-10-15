@@ -1,0 +1,14 @@
+{from "pattern gun"		; "ho-ri"
+	{filling "bullet120 japl"}
+	{fireSound "gun/120mm_type97"}
+	{reloadSound "tankgun_r04"}
+	{rechargeTime 12}
+	("range_maximum")
+
+	("speed" s(825))
+	("caliber_maximum")
+	{range 250 250}
+	{projectileDamage 192}
+	("damage" a(192) b(184) c(172) d(163) e(145) range(250))
+	("accuracy_maximum")
+}

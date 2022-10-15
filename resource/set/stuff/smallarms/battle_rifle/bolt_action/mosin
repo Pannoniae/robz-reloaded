@@ -1,0 +1,15 @@
+{from "pattern bolt_action"
+	{filling "ammo 7-62_rus" 5}
+	{entity "mosin"}
+	{mass 4}
+	{fireSound "rifle/mosin_shot/"}
+	{reloadSound "mosin"}
+	
+	("speed" s(865))
+	;("accuracy_boost")
+	{recoveryTime 2.6}
+	{rechargeTime 5.5}
+	("belt_reload_5")
+	
+	("7-62mm_bolt")
+}

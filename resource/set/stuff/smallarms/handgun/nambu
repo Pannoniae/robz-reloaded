@@ -1,0 +1,10 @@
+{from "pattern handgun"
+	{filling "ammo nambu_mag" 8}
+	{entity "nambu"}
+	{fireSound	"pistol/valter"}
+	{reloadSound "nambu"}
+	{mass 0.9}
+	("speed" s(290))
+	
+	("spread_1h_advanced")
+}

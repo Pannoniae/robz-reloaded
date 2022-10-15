@@ -1,0 +1,251 @@
+(include "\set\small.firearms.accuracy")
+
+(define "speed"
+	{speed (* 1.0 %s)}  
+)
+
+(define "recoveryTime"   
+	{recoveryTime (/ 60 %r)}
+)
+
+;;==========================================
+;	Misc
+;;==========================================
+
+(define "battle_rifle_reload"
+	{parameters "speed_reload_pmag"
+		{rechargeTime 3.5}
+	}
+	{parameters "speed_reload_epm"
+		{rechargeTime 3.75}
+	}
+)
+
+(define "assault_rifle_reload"
+	{parameters "speed_reload_pmag"
+		{rechargeTime 3.25}
+	}
+	{parameters "speed_reload_epm"
+		{rechargeTime 3.5}
+	}
+)
+
+;;==========================================
+;	Zeroing
+;;==========================================
+
+(define "automatic_zeroing"
+	{ZeroingAccuracy 1 1 0.95 0.95 0.95 0.90 0.90 0.90 0.80 0.80 0.80 0.75}
+)
+
+(define "mg_zeroing"
+	{ZeroingAccuracy 1 1 1 1 0.95 0.95 0.95 0.95 0.95 0.90 0.90 0.90 0.90 0.90 0.80 0.80 0.80 0.80 0.80 0.70}
+)
+
+;;==========================================
+;	Bursts/Discipline
+;;==========================================
+
+(define "burst_single"
+	{burst
+		{short 1 0.5}
+		{Long 2 1}
+	}
+)
+
+(define "burst_short"
+	{burst
+		{short 2 0.5}
+		{Long 3 1}
+	}
+)
+
+(define "burst_medium"
+	{burst
+		{short 3 0.5}
+		{Long 4 1}
+	}
+)
+
+(define "burst_long"
+	{burst
+		{short 4 0.5}
+		{long 5 0.5}
+	}
+)
+
+(define "burst_lmg_short"
+	{burst
+		{short 3 0.1}
+		{long 5 1}
+	}	
+)
+
+(define "burst_lmg_medium"
+	{burst
+		{short 4 0.1}
+		{long 7 1}
+	}	
+)
+
+(define "burst_lmg_long"
+	{burst
+		{short 5 0.1}
+		{long 10 1}
+	}	
+)
+
+;;==========================================
+;	Recoil/Spreading
+;;==========================================
+
+(define "spread_m27"
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 97 94 91 85 75 65 55 45 40}	;old {BurstAccuracy 100 97 94 91 86 81 76 69 62 55 46 40}
+	}
+)
+
+(define "spread_rpk74"
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 96 92 88 80 70 60 50 45 40}	;old {BurstAccuracy 100 96 92 88 82 76 70 62 54 46 40}
+	}
+)
+
+(define "spread_rpk"
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 94 88 82 74 70 55 50 45 40}	;old {BurstAccuracy 100 94 88 82 74 66 58 48 40 30}
+	}
+)
+
+(define "spread_bar"
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 92 84 76 68 58 48 40 30}
+	}
+)
+
+(define "spread_fg42"
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 92 84 76 68 60 50 40 30}
+	}
+)
+
+(define "spread_m249"
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 97 94 91 88 85 80 70 50 30}
+	}
+)
+
+(define "spread_rpd"
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 96 92 88 84 80 75 70 50 30}
+	}
+)
+
+;;==========================================
+;	WW2 Weapons
+;;==========================================
+
+(define "6-5mm_automatic_rifle"
+	{projectileDamageTable {50 8} {250 0}}
+	("accuracy_bar")
+	{parameters "rifle_fg"
+		("accuracy_bar_ap")
+	}
+	{parameters "6-5_arisaka_ap"
+		{projectileDamageTable {50 15} {250 0}}
+		("accuracy_bar_ap")
+	}
+	{parameters "6-5_arisaka_sniper"
+		("accuracy_bar_match")
+	}
+	{parameters "6-5_carcano_ap"
+		{projectileDamageTable {50 15} {250 0}}
+		("accuracy_bar_ap")
+	}
+	{parameters "6-5_carcano_sniper"
+		("accuracy_bar_match")
+	}
+	{calibre 6.5}
+)
+
+(define "7-62mm_automatic_rifle"
+	("accuracy_bar")
+	{parameters "rifle_fg"
+		("accuracy_bar_ap")
+	}
+	{parameters "7-62_springfield_ap"
+		{projectileDamageTable {50 17} {250 0}}
+		("accuracy_bar_ap")
+	}
+	{parameters "7-62_springfield_sniper"
+		("accuracy_bar_match")
+	}
+	{parameters "7-62_54r_ap"
+		{projectileDamageTable {50 17} {250 0}}
+		("accuracy_bar_ap")
+	}
+	{parameters "7-62_54r_sniper"
+		("accuracy_bar_match")
+	}
+	{calibre 7.62}
+)
+
+(define "7-7mm_automatic_rifle"
+	("accuracy_bar")
+	{projectileDamageTable {50 9} {250 0}}
+	{parameters "rifle_fg"
+		("accuracy_bar_ap")
+	}
+	{parameters "7-7_british_ap"
+		{projectileDamageTable {50 16} {250 0}}
+		("accuracy_bar_ap")
+	}
+	{parameters "7-7_british_sniper"
+		("accuracy_bar_match")
+	}
+	{parameters "7-7_arisaka_ap"
+		{projectileDamageTable {50 16} {250 0}}
+		("accuracy_bar_ap")
+	}
+	{parameters "7-7_arisaka_sniper"
+		("accuracy_bar_match")
+	}
+	{calibre 7.7}
+)
+
+(define "7-92mm_automatic_rifle"
+	("accuracy_bar")
+	{parameters "rifle_fg"
+		("accuracy_bar_ap")
+	}
+	{parameters "7-92_mauser_ap"
+		{projectileDamageTable {50 17} {250 0}}
+		("accuracy_bar_ap")
+	}
+	{parameters "7-92_mauser_sniper"
+		("accuracy_bar_match")
+	}
+	{calibre 7.92}
+)
+
+(define "7-92mm_automatic_rifle_rco"
+	("accuracy_bar_rco")
+	{parameters "rifle_fg"
+		("accuracy_bar_rco_ap")
+	}
+	{parameters "7-92_mauser_ap"
+		{projectileDamageTable {50 17} {250 0}}
+		("accuracy_bar_rco_ap")
+	}
+	{parameters "7-92_mauser_sniper"
+		("accuracy_bar_rco_match")
+	}
+	{calibre 7.92}
+)

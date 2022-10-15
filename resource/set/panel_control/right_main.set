@@ -36,6 +36,10 @@
 	{rotate
 		{position 2 1}
 	}
+	{gc_cp_state_speed
+		{position 3 0}
+		{condition "human"}
+	}
 	{emit
 		{position 3 1}
 		{condition "vehicle"}

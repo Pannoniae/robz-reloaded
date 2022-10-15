@@ -1,0 +1,6 @@
+{from "m1a1_carbine"
+	{filling "ammo 30-carbine" 30}
+	{entity "m2_carbine"}
+	{reloadSound "mp44"}
+	("recoveryTime" r(750))
+}

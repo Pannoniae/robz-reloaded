@@ -1,0 +1,18 @@
+{from "pattern semi_auto"
+	{tag "autorifle"}
+	{filling "ammo 30-06_rifle" 10}
+	{entity "johnsonrifle"}
+	{mass 4.31}
+	{fireSound "rifle/johnson_shot"}
+	{reloadSound "rifle_bolt_ten"}
+	
+	{Automatic}
+	{rechargeTime 7}
+	("belt_reload_10")
+	{recoveryTime 0.4}
+	("accuracy_semi_rifle")
+	("speed" s(866))
+	("sa_zeroing")
+	
+	("7-62mm_semi")
+}

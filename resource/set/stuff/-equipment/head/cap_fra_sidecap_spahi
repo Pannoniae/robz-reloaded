@@ -1,0 +1,4 @@
+{from "fieldcap_rus"
+	{desc "French Spahi Cap"}
+	{entity "cap_fra_sidecap_spahi"}
+}

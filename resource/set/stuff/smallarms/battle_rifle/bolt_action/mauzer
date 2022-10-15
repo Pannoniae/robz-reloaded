@@ -1,0 +1,13 @@
+{from "pattern bolt_action"
+	{filling "ammo mauser" 5}
+	{entity "mauzer"}
+	{mass 3.7}
+	{fireSound "rifle/mauzer_shot"}
+	{reloadSound "kar98k"}
+	
+	("speed" s(755))
+	;("accuracy_boost")
+	("belt_reload_5")
+	
+	("7-92mm_bolt")
+}

@@ -1,3 +1,4 @@
 {from "pattern overcoat"
+	{tag "itemin1hand keepEntity"}
 	{entity "us_haversack_shovel"}
 }

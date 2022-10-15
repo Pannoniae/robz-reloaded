@@ -1,0 +1,18 @@
+{from "pattern semi_auto"
+	{tag "autorifle"}
+	{filling "ammo 7-7_jap" 10}
+	{entity "type4rifle"}
+	{mass 4.097}
+	{fireSound "rifle/type4_om_shot/"}
+	{reloadSound "svt40"}
+	
+	{Automatic}
+	{rechargeTime 7.0}
+	("belt_reload_5")
+	{recoveryTime 0.4}
+	("accuracy_semi_rifle")
+	("speed" s(840))
+	("sa_zeroing")
+	
+	("7-7mm_semi")
+}

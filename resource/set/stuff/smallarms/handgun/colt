@@ -1,0 +1,12 @@
+{from "pattern handgun"
+	{filling "ammo colt_mag" 7}
+	{entity "colt"}
+	{mass 1.1}
+	("speed" s(253))
+	{fireSound	"pistol/colt"}
+	{reloadSound "colt"}
+	
+	("spread_1h")
+	
+	("45_acp")
+}

@@ -1,0 +1,15 @@
+{from "pattern smg"
+	{filling "ammo 9-smg" 40}
+	{entity "mab38"}
+	{mass 3.27}
+	{fireSound	"smg/owen_burst/"}
+	{reloadSound "mp40"}
+
+	("recoveryTime" r(600))
+	("burst_minimal")
+ 	("speed" s(380))
+	("accuracy_smg_veryhigh")
+	
+	("9mm_parabellum")
+	("spread_hk")
+}

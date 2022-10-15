@@ -1,0 +1,15 @@
+{from "pattern smg"
+	{filling "ammo danuvia_mag" 40}
+	{entity "danuvia_39m"}
+	{mass 3.7}
+	{fireSound	"smg/owen_burst/"}
+	{reloadSound "mp40"}
+
+	("recoveryTime" r(750))
+	("burst_minimal")
+ 	("speed" s(450))
+	("accuracy_smg_veryhigh")
+	
+	("7-62mm_tokarev")
+	("spread_hk")
+}

@@ -1,0 +1,16 @@
+{from "pattern assault_rifle"
+	{filling "ammo 30-carbine" 30}
+	{mass 2.4}
+	{entity "m2_carbine"}
+	{fireSound "rifle/m1carbine_shot"}
+	{reloadSound "mp44"}	
+
+	("burst_medium")
+	("spread_7-62")
+
+	{rechargeTime 4}
+	("recoveryTime" r(750))
+ 	("speed" s(590))
+	
+	("m2_carbine")
+}

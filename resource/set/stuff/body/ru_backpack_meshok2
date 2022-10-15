@@ -1,8 +1,9 @@
 {from "pattern overcoat"
 	{entity "ru_backpack_meshok2"}
+	{tag "itemin1hand keepEntity"}
 	{inventory
 		{size 2 2}
-		{weight 3}
+		{weight 1}
 		{link_bone "IK_UpDown"}
 		{fsm "stuff"}
 	}

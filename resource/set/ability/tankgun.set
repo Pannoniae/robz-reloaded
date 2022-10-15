@@ -14,7 +14,7 @@
 			{accuracy 0.70}
 		}
 		{vehicle
-			{accuracy 1.00}
+			{accuracy 0.70}
 		}
 	}
 	{level "lvl_2"
@@ -31,7 +31,7 @@
 			{accuracy 0.90}
 		}
 		{vehicle
-			{accuracy 1.20}
+			{accuracy 0.80}
 		}
 	}
 	{level "lvl_3"
@@ -48,7 +48,7 @@
 			{accuracy 0.95}
 		}
 		{vehicle
-			{accuracy 1.35}
+			{accuracy 0.90}
 		}
 	}
 	{level "lvl_4"
@@ -65,7 +65,7 @@
 			{accuracy 1.00}
 		}
 		{vehicle
-			{accuracy 1.50}
+			{accuracy 1.00}
 		}
 	}
 	{level "lvl_5"
@@ -82,7 +82,7 @@
 			{accuracy 1.15}
 		}
 		{vehicle
-			{accuracy 1.65}
+			{accuracy 1.10}
 		}
 	}
 	{level "lvl_6"
@@ -99,7 +99,7 @@
 			{accuracy 1.30}
 		}
 		{vehicle
-			{accuracy 1.80}
+			{accuracy 1.20}
 		}
 	}
 	{level "lvl_7"
@@ -116,7 +116,7 @@
 			{accuracy 1.45}
 		}
 		{vehicle
-			{accuracy 1.90}
+			{accuracy 1.30}
 		}
 	}
 	{level "lvl_8"
@@ -133,7 +133,7 @@
 			{accuracy 1.60}
 		}
 		{vehicle
-			{accuracy 2.00}
+			{accuracy 1.40}
 		}
 	}
 	{level "lvl_9"
@@ -150,7 +150,7 @@
 			{accuracy 1.75}
 		}
 		{vehicle
-			{accuracy 2.10}
+			{accuracy 1.50}
 		}
 	}
 	{level "lvl_10"
@@ -167,7 +167,7 @@
 			{accuracy 1.90}
 		}
 		{vehicle
-			{accuracy 2.20}
+			{accuracy 1.60}
 		}
 	}
 	{level "lvl_11"
@@ -184,7 +184,7 @@
 			{accuracy 1.90}
 		}
 		{vehicle
-			{accuracy 2.30}
+			{accuracy 1.70}
 		}
 	}
 	{level "lvl_12"
@@ -201,7 +201,7 @@
 			{accuracy 1.90}
 		}
 		{vehicle
-			{accuracy 2.35}
+			{accuracy 1.80}
 		}
 	}
 	{level "lvl_13"
@@ -218,7 +218,7 @@
 			{accuracy 1.90}
 		}
 		{vehicle
-			{accuracy 2.40}
+			{accuracy 1.90}
 		}
 	}
 	{level "lvl_14"
@@ -235,7 +235,7 @@
 			{accuracy 1.90}
 		}
 		{vehicle
-			{accuracy 2.45}
+			{accuracy 2.00}
 		}
 	}
 	{level "lvl_15"

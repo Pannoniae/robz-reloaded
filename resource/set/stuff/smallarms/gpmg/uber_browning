@@ -1,0 +1,40 @@
+{from "pattern gpmg"
+	{entity "browningm2"}
+	{filling "ammo hmgun" 100}
+	{fireSound	"mgun/browning_burst/"}
+	{inventory 	{handle_bone "handle_box"}}
+
+	("burst_long")
+	{filling "ammo hmgun" 500}
+	{reloadSound "ptrd"}
+	{cursor "zenite_on"}
+	{cursorReloading "zenite_reload"}
+	{mass 34}
+	
+	{Spreading	
+		{BurstAccuracy 100 95 90 80 75 65 50}
+	}
+
+	{range 180 180}
+
+	("recoveryTime" r(500))
+	{rechargeTime 1.5}
+	
+	{aimingTolerance 1}
+
+	{healthDamage 500}
+	{projectileDamage 30}
+	{projectileDamageTable {0 24} {62.5 18} {125 16} {187.5 15} {250 14}}
+	{projectileDamageThreshold 1.1}
+	{projectileDamageClip 20}
+	{calibre 12}
+	{parameters "ap"
+		{projectileDamageTable {0 40} {62.5 29} {125 22} {187.5 18} {250 16}}
+	}
+	{parameters "inc"
+		{projectileDamageTable {0 35} {62.5 26} {125 20} {187.5 16} {250 15}}
+	}
+	
+	("accuracy_hmg")
+	("speed" s(856))
+}

@@ -1,0 +1,11 @@
+{from "pattern handgun"
+	{filling "ammo revolver_fra_clip" 6}
+	{entity "revolver_mle_1892"}
+	{fireSound	"pistol/tt"}
+	{reloadSound "webley"}
+	("revolver")
+	{mass 0.85}
+	("speed" s(225))
+	
+	("spread_1h")
+}

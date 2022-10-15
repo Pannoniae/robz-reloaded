@@ -1,0 +1,14 @@
+{bullet
+	{tag "bullet stackable pierce 12g_shotgun"}
+	{inventory
+		{size 1 1 }
+		{weight 8.33333}
+		{block 12}
+	}
+	{mass 0.0374}
+	{damage blastwave  
+		{energy 0.25}
+		{area 0.5 1.5}
+	}
+	{entity "winm12_ammo"}
+}

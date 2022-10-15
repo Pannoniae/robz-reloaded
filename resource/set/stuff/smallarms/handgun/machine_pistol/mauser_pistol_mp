@@ -1,0 +1,12 @@
+{from "pattern machine_pistol"
+	{filling "ammo c96_mag" 20}
+	{entity "mauser_pistol_mp"}
+	{mass 1.56}
+	("speed" s(425))
+	{fireSound	"pistol/c96_shot/"}
+	{reloadSound "valter"}
+	
+	("recoveryTime" r(1500))
+	
+	("7-62mm_tokarev")
+}

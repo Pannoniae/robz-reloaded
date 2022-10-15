@@ -1,0 +1,15 @@
+{from "pattern gun"		; R-35
+	{filling "bullet37 fra"}
+	{fireSound "gun/37mm_pak35"}
+	{reloadSound "pak35"}
+	{rechargeTime 3.12}
+	("range_minimum")
+	
+	{range 170 170}
+	("speed" s(705))
+	("caliber_minimum")     
+	{projectileDamage 37}	
+	("damage_170" a(45) b(32) c(24) d(20) e(16) range(170))
+	
+	("accuracy_minimum")
+}

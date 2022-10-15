@@ -1,0 +1,8 @@
+{from "90mm_m3"		; "m36 / b1"
+	{range 250 250}
+	{parameters "fg"
+		{range 250 250}
+	}
+	("accuracy_max_high")
+	{rechargeTime 6.65}
+}

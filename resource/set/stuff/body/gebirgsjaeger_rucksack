@@ -1,8 +1,8 @@
 {from "pattern overcoat"
-	{tag "itemin1hand"}
+	{tag "itemin1hand keepEntity"}
 	{entity "gebirgsjaeger_rucksack"}
 	{inventory
-		{size 3 3}
+		{size 2 2}
 		{weight 100}
 		{fsm "belt"}
 	}

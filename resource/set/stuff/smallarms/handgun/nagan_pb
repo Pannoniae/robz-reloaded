@@ -1,0 +1,19 @@
+{from "pattern handgun"
+	{filling "ammo nagant_clip" 7}
+	{inventory
+		{weight 100 }
+		{size 3 1}
+	}
+	{mass 0.8}
+	("speed" s(272))
+	{entity "nagan_pb"}
+	{fireSound	"pistol/silent/welrod"}
+	
+	{spreading 0.5}
+	{reloadSound "nagan"}
+	("revolver_old")
+	
+	("spread_1h_advanced")
+	
+	("9mm_parabellum")
+}

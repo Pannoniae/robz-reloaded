@@ -1,23 +1,51 @@
 {terms
+
+;;==========================================
+;	Suppressed Firearms
+;;==========================================
 	{welrod 					firing "welrod"}
 	{nagan_pb					firing "nagan_pb"}
 	{delisle					firing "de_lisle"}
 	{hdm						firing "hdm"}
+	{sten_mk2_silenced			firing "sten_mk2_silenced"}
 	{sten_v_silencer			firing "sten_v_silencer"}
+;;==========================================
+;	Flash Hider/Low Muzzle Flash
+;;==========================================
+	{dp 					firing "dp"}
+	{type38rifle					firing "type38rifle"}
+	{type38rifle_bayonet					firing "type38rifle_bayonet"}
+	{type38rifle_bayonet_vet						firing "type38rifle_bayonet_vet"}
+	{type38rifle_vet			firing "type38rifle_vet"}
+	{type97sniper			firing "type97sniper"}
+	{type97sniper_vet			firing "type97sniper_vet"}
+;;==========================================
+;	Melee Weapons
+;;==========================================
+	{katana_type3  					firing "katana_type3"}
 	{knife_ger  				firing "knife_ger"}
 	{knife_rus   				firing "knife_rus"}
 	{knife_union   				firing "knife_union"}
 	{knife_japan   				firing "knife_japan"}
 	{axe  						firing "axe"}
 	{crow_bar  					firing "crow_bar"}
+;;==========================================
+;	Grenades
+;;==========================================
+	{breda35   					firing "breda35"}
+	{breda42at   		firing "breda42at"}
+	{hohlladung  firing "hohlladung"}
 	{smoke   					firing "smoke"}
 	{smoke_paradrop_ammo   		firing "smoke_paradrop_ammo"}
 	{smoke_paradrop_ammo_heavy  firing "smoke_paradrop_ammo_heavy"}
+	{smoke_rus   					firing "smoke_rus"}
 	{f1   						firing "f1"}
 	{m24   						firing "m24"}
 	{m39   						firing "m39"}
 	{m61   						firing "m61"}
 	{mk1   						firing "mk1"}
+	{n77_smoke   						firing "n77_smoke"}
+	{oto42flam   						firing "oto42flam"}
 	{satchel  					firing "satchel"}
 	{type97   					firing "type97"}
 	{type99   					firing "type99"}
@@ -26,6 +54,7 @@
 	{n73at   					firing "n73at"}
 	{pwm1   					firing "pwm1"}
 	{rg42x3   					firing "rg42x3"}
+	{rgd33   					firing "rgd33"}
 	{rpg40   					firing "rpg40"}
 	{rpg43   					firing "rpg43"}
 	{type3at   					firing "type3at"}

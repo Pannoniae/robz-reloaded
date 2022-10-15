@@ -1,0 +1,5 @@
+{from "garand"
+	{entity "garand_b"}
+	{rechargeTime 3.75}
+	{recoveryTime 0.35}
+}

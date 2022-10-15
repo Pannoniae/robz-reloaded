@@ -1,0 +1,12 @@
+{from "lee_enfield_no4_s"
+	{special
+		{mode aim}
+		{PrepareTime 2.5}	
+		{PrepareCursor "aimed_shot"}
+		{accuracy 2.5}
+		{damage 2.00}
+		{throw_off}
+	}
+	
+	{recoveryTime 1.5}
+}

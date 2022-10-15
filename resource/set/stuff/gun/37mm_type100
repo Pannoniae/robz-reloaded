@@ -1,0 +1,18 @@
+{from "pattern gun"		; "ke-ni_a2"
+	{filling "bullet37 jap"}
+	{fireSound "gun/37mm_pak35"}
+	{reloadSound "pak35"}
+	{rechargeTime 4}
+	("range_short")
+	
+	{range 180 180}
+	("speed" s(720))
+	("caliber_minimum")
+	{projectileDamage 58}
+	("damage_170" a(58) b(46) c(30) d(23) e(15) range(170))
+	{parameters "fg"
+		;{range 140 140}
+	}
+	
+	("accuracy_minimum")
+}

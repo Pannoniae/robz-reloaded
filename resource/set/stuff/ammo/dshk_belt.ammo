@@ -24,7 +24,7 @@
 	}
 	{damage fire
 		{radius 0.5}
-		{heating 1.5}
+		{heating 2}
 		{time 0.5}
 	}
 }

@@ -1,5 +1,6 @@
 {from "pattern overcoat"
 	{entity "barrel_case"}
+	{tag "itemin1hand keepEntity"}
 	{inventory
 		{size 2 1}
 		{weight 3}

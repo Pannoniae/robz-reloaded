@@ -1,0 +1,14 @@
+{from "pattern grenade_smoke"
+	{tag "-missile wp fg ic ap"}
+	{inventory {size 1 1}}
+	{entity "Grenade_oto42flam"}
+	{mass 0.3}
+	{throw
+		{range 22}
+	}
+	{damage fire
+		{radius 6}
+		{heating 0.5}
+		{time 0.2}
+	}
+}

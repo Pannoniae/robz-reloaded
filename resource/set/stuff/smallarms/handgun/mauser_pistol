@@ -1,0 +1,13 @@
+{from "pattern handgun"
+	{filling "ammo c96_mag" 10}
+	{entity "mauser_pistol"}
+	{fireSound	"pistol/c96_shot/"}
+	{reloadSound "c96"}
+	{mass 1.13}
+	("speed" s(425))
+	
+	("stripper_reload")
+	("spread_1h_advanced")
+	
+	("7-62mm_tokarev")
+}

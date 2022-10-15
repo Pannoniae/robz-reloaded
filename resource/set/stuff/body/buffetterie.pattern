@@ -6,5 +6,5 @@
 		{link_bone "gun_back"}
 		{fsm "stuff"}
 	}
-	{mass 3}
+	{mass 1}
 }

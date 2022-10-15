@@ -1,0 +1,4 @@
+{from "browning_m2hb"
+	{rechargeTime 9}
+	("12-7mm_nato_hmg_optic")
+}

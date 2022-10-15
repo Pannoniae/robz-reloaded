@@ -1,5 +1,5 @@
 {bullet
-	{tag "bullet stackable pierce"}
+	{tag "bullet stackable pierce hmgun"}
 	{inventory
 		{weight 1}
 		{block 100}
@@ -7,7 +7,7 @@
 		{fsm "belt"}
 	}
 	{mass 0.120}
-	{entity "large_cartridge"}
+	{entity "50bmg_box"}
 	;{view "bullet"
 	;	{tail "tracer_red" "basis"}
 	;}

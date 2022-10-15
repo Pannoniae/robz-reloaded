@@ -1,0 +1,3 @@
+{from "m12_shotgun"
+	{entity "winchester_model_12_b"}
+}

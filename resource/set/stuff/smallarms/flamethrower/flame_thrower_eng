@@ -1,0 +1,7 @@
+{from "flame_thrower"
+
+	{aimRange 36}
+	{maxRange 36}
+	{recoveryTime 0.8}
+    	{RelaxationTime 0.5}
+}

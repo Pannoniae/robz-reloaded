@@ -10,7 +10,7 @@
 	}
 	{throw
 		{range 14}
-		{startAngle 40}
+		{startAngle 90}
 		{spreading 0.2}	
 		{constantSpeed 10.5}
 	}

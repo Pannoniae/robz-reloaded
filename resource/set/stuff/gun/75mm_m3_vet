@@ -1,0 +1,8 @@
+{from "75mm_m3"		; "m4a3" "m4a2_robztest"
+	{rechargeTime 6.8}
+	{range 200 200}
+	("accuracy_high")
+	{parameters "fg"
+		{range 190 190}
+	}
+}

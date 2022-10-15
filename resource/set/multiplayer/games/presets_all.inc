@@ -4,7 +4,7 @@
 			{value "all|doc"}
 		}
 		{commandPoints "*=%cp"}
-		{unitLimits "flamer=3;officer=3;officer1=1;officer2=2;heavyaa=2;maus=1;only-one=1"}
+		{unitLimits "flamer=3;officer=3;heavyaa=2;maus=1;only-one=1"}
 		{chargeFactors
 			{value "*=1"}
 		}
@@ -45,7 +45,7 @@
 			{value "%value"}
 		}
 		{commandPoints "*=%cp"}
-		{unitLimits "flamer=3;officer=3;officer1=1;officer2=2;heavyaa=2;maus=1;only-one=1"}
+		{unitLimits "flamer=3;officer=3;heavyaa=2;maus=1;only-one=1"}
 		{chargeFactors
 			{value "*=1"}
 		}

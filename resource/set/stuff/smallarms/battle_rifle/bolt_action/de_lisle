@@ -1,0 +1,19 @@
+{from "pattern bolt_action"
+	{tag "autorifle"}
+	{filling "ammo colt_mag" 7}
+	{entity "de_lisle"}
+	{mass 3.74}
+	{fireSound	"pistol/silent/welrod"}
+	{reloadSound "m1carbine"}
+	
+	{range 80 80}
+
+	{Automatic}	
+	{recoveryTime 0.5}
+	{rechargeTime 4.0}
+	{healthDamage 30}
+	("sa_zeroing")
+	("speed" s(250))
+	
+	("accuracy_semi_rifle")
+}

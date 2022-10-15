@@ -1,0 +1,4 @@
+{from "mosin"
+	{recoveryTime 2.2}
+	{rechargeTime 5.25}
+}

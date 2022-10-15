@@ -1,0 +1,27 @@
+{from "pattern gun"		; "vk1602_robztest"
+	{filling "bullet28" 30}	
+	{fireSound "gun/zenite/20mm"}
+	{reloadSound "flak38"}
+	{rechargeTime 3}
+	("range_zenite")
+	
+	("speed" s(860))
+	("caliber_zenite")
+	("recoveryTime" r(420))
+	{projectileDamage 75}
+	("damage_170" a(75) b(55) c(45) d(35) e(25) range(170))
+	{parameters "apcr"
+		("damage_170" a(75) b(55) c(45) d(35) e(25) range(170))
+		{cursor "cannon_on_apcr"}
+		{cursorReloading "cannon_reload_apcr"}
+	}
+	
+	{Automatic}
+	{burst
+		{short 2.5 1}
+		{long 7 2}
+	}	
+	{RelaxationTime 0}
+	
+	("accuracy_zenite_medium")
+}

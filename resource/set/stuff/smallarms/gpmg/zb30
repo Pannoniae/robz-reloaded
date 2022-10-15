@@ -1,0 +1,18 @@
+{from "pattern gpmg"
+	{entity "zb30"}
+	{tag "mgun_light"}
+	{filling "ammo mg_mauser" 20}
+	{rechargeTime 5}
+	{fireSound "mgun/zb26_burst/"}
+	{reloadSound "bren"}
+	("recoveryTime" r(600))
+	("burst_long")
+	("speed" s(750))
+	{mass 9.1}
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 97 94 91 88 85 80 70 60 50 40 30 25}
+	}
+	
+	("7-92mm_gpmg")
+}

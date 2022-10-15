@@ -247,24 +247,36 @@
 				{if volume_armored
 					{play_sound "hit/small/helmet"}
 					{spawn "metal_hit_bul"}
-					{if stuff "pistol" {if rand 0.7 ("health_damage" c(400))}
-					else stuff "smg" {if rand 0.7 ("health_damage" c(400))}
-					else stuff "rifle" {if rand 0.95 ("health_damage" c(500))}
-					else stuff "mgun" {if rand 0.95 ("health_damage" c(500))}
-					else stuff "7-62_pistol" {if rand 0.8 ("health_damage" c(400))}
-					else stuff "8_pistol" {if rand 0.7 ("health_damage" c(400))}
-					else stuff "9_pistol" {if rand 0.7 ("health_damage" c(400))}
-					else stuff "45_pistol" {if rand 0.7 ("health_damage" c(400))}
-					else stuff "30_carbine" {if rand 0.8 ("health_damage" c(400))}
-					else stuff "7-92_kurz" {if rand 0.85 ("health_damage" c(500))}
-					else stuff "6-5_rifle" {if rand 0.85 ("health_damage" c(500))}
-					else stuff "7-62_rifle" {if rand 0.95 ("health_damage" c(500))}
-					else stuff "7-7_rifle" {if rand 0.95 ("health_damage" c(500))}
-					else stuff "7-92_rifle" {if rand 0.95 ("health_damage" c(500))}
+					{if stuff "pistol" {if rand 0.7 ("health_damage" c(250))}
+					else stuff "smg" {if rand 0.7 ("health_damage" c(250))}
+					else stuff "rifle" {if rand 0.95 ("health_damage" c(300))}
+					else stuff "mgun" {if rand 0.95 ("health_damage" c(300))}
+					else stuff "7-62_pistol" {if rand 0.75 ("health_damage" c(250))}
+					else stuff "8_pistol" {if rand 0.6 ("health_damage" c(250))}
+					else stuff "9_pistol" {if rand 0.7 ("health_damage" c(250))}
+					else stuff "9_pistol_+p" {if rand 0.75 ("health_damage" c(275))}
+					else stuff "9_pistol_+p+" {if rand 0.8 ("health_damage" c(300))}
+					else stuff "45_pistol" {if rand 0.6 ("health_damage" c(250))}
+					else stuff "30_carbine" {if rand 0.85 ("health_damage" c(300))}
+					else stuff "7-92_kurz" {if rand 0.85 ("health_damage" c(300))}
+					else stuff "6-5_carcano" {if rand 0.875 ("health_damage" c(300))}
+					else stuff "6-5_arisaka" {if rand 0.9 ("health_damage" c(300))}
+					else stuff "7-62_springfield" {if rand 0.95 ("health_damage" c(300))}
+					else stuff "7-62_springfield_ap" {if rand 0.95 ("health_damage" c(300))}
+					else stuff "7-62_54r" {if rand 0.95 ("health_damage" c(300))}
+					else stuff "7-62_54r_ap" {if rand 0.95 ("health_damage" c(300))}
+					else stuff "7-62_54r_sniper" {if rand 0.95 ("health_damage" c(300))}
+					else stuff "7-7_british" {if rand 0.95 ("health_damage" c(300))}
+					else stuff "7-7_british_ap" {if rand 0.95 ("health_damage" c(300))}
+					else stuff "7-7_arisaka" {if rand 0.95 ("health_damage" c(300))}
+					else stuff "7-7_arisaka_ap" {if rand 0.95 ("health_damage" c(300))}
+					else stuff "7-92_mauser" {if rand 0.95 ("health_damage" c(300))}
+					else stuff "7-92_mauser_ap" {if rand 0.95 ("health_damage" c(300))}
+					else stuff "7-92_mauser_sniper" {if rand 0.95 ("health_damage" c(300))}
 					else ("health_damage" c(500))
 					}
 				else
-					("health_damage" c(500))
+					("health_damage" c(300))
 				}
 			}
 			{spawn "bloodspark_small03"}
@@ -272,7 +284,7 @@
 			{if rand 0.2
 				{call "head_splat"}
 			}
-			{if rand 0.15
+			{if rand 0.01
 				{set "take_off_head" 1}
 				{take_off "head"
 					{impulse up 5 2 dir 7 3}
@@ -280,28 +292,28 @@
 			}
 		}
 		{if volume "body"
-			{if stuff "pistol" {if rand 0.05 {call "body_bleed"}}}
-			{if stuff "smg" {if rand 0.05 {call "body_bleed"}}}
-			{if stuff "stg" {if rand 0.1 {call "body_bleed"}}}
-			{if stuff "carbine" {if rand 0.05 {call "body_bleed"}}}
-			{if stuff "6_5rifle" {if rand 0.1 {call "body_bleed"}}}
-			{if stuff "sniper" {if rand 0.15 {call "body_bleed"}}}
-			{if stuff "6_5mgun" {if rand 0.1 {call "body_bleed"}}}
-			{if stuff "rifle" {if rand 0.15 {call "body_bleed"}}}
-			{if stuff "mgun" {if rand 0.15 {call "body_bleed"}}}
-			{if stuff "hmgun" {if rand 0.2 {call "body_bleed"}}}
-			{if stuff "bullet15" {if rand 0.4 {call "body_bleed"}}}
+			;{if stuff "pistol" {if rand 0.05 {call "body_bleed"}}}
+			;{if stuff "smg" {if rand 0.05 {call "body_bleed"}}}
+			;{if stuff "stg" {if rand 0.1 {call "body_bleed"}}}
+			;{if stuff "carbine" {if rand 0.05 {call "body_bleed"}}}
+			;{if stuff "6_5rifle" {if rand 0.1 {call "body_bleed"}}}
+			;{if stuff "sniper" {if rand 0.15 {call "body_bleed"}}}
+			;{if stuff "6_5mgun" {if rand 0.1 {call "body_bleed"}}}
+			;{if stuff "rifle" {if rand 0.15 {call "body_bleed"}}}
+			;{if stuff "mgun" {if rand 0.15 {call "body_bleed"}}}
+			;{if stuff "hmgun" {if rand 0.2 {call "body_bleed"}}}
+			;{if stuff "bullet15" {if rand 0.4 {call "body_bleed"}}}
 
-			{if stuff "7-62_pistol" {if rand 0.06 {call "body_bleed"}}}
-			{if stuff "8_pistol" {if rand 0.05 {call "body_bleed"}}}
-			{if stuff "9_pistol" {if rand 0.06 {call "body_bleed"}}}
-			{if stuff "45_pistol" {if rand 0.08 {call "body_bleed"}}}
-			{if stuff "30_carbine" {if rand 0.05 {call "body_bleed"}}}
-			{if stuff "7-92_kurz" {if rand 0.12 {call "body_bleed"}}}
-			{if stuff "6-5_rifle" {if rand 0.1 {call "body_bleed"}}}
-			{if stuff "7-62_rifle" {if rand 0.15 {call "body_bleed"}}}
-			{if stuff "7-7_rifle" {if rand 0.15 {call "body_bleed"}}}
-			{if stuff "7-92_rifle" {if rand 0.15 {call "body_bleed"}}}
+			;{if stuff "7-62_pistol" {if rand 0.06 {call "body_bleed"}}}
+			;{if stuff "8_pistol" {if rand 0.05 {call "body_bleed"}}}
+			;{if stuff "9_pistol" {if rand 0.06 {call "body_bleed"}}}
+			;{if stuff "45_pistol" {if rand 0.08 {call "body_bleed"}}}
+			;{if stuff "30_carbine" {if rand 0.05 {call "body_bleed"}}}
+			;{if stuff "7-92_kurz" {if rand 0.12 {call "body_bleed"}}}
+			;{if stuff "6-5_rifle" {if rand 0.1 {call "body_bleed"}}}
+			;{if stuff "7-62_rifle" {if rand 0.15 {call "body_bleed"}}}
+			;{if stuff "7-7_rifle" {if rand 0.15 {call "body_bleed"}}}
+			;{if stuff "7-92_rifle" {if rand 0.15 {call "body_bleed"}}}
 			{if dead
 				{if stuff "stg" {spawn "bloodspark_small03"}{spawn "blood_hit"}}
 				{if stuff "carbine" {spawn "bloodspark_small03"}{spawn "blood_hit"}}
@@ -311,15 +323,34 @@
 				{if stuff "rifle" {spawn "bloodspark_small03"}{spawn "blood_hit"}}
 				{if stuff "mgun" {spawn "bloodspark_small03"}{spawn "blood_hit"}}
 				{if stuff "hmgun" {spawn "bloodspark_small03"}{spawn "blood_hit"}}
+				{if stuff "ptr" {spawn "bloodspark_small03"}{spawn "blood_hit"}}
+				{if stuff "12g_shotgun" {spawn "bloodspark_small03"}{spawn "blood_hit"}}
 				{if stuff "bullet15" {spawn "bloodspark_small03"}{spawn "blood_hit"}}
 
+				{if stuff "7-62_pistol" {spawn "bloodspark_small03"}{spawn "blood_hit"}}
+				{if stuff "8_pistol" {spawn "bloodspark_small03"}{spawn "blood_hit"}}
+				{if stuff "9_pistol" {spawn "bloodspark_small03"}{spawn "blood_hit"}}
+				{if stuff "9_pistol_+p" {spawn "bloodspark_small03"}{spawn "blood_hit"}}
+				{if stuff "9_pistol_+p+" {spawn "bloodspark_small03"}{spawn "blood_hit"}}
 				{if stuff "45_pistol" {spawn "bloodspark_small03"}{spawn "blood_hit"}}
 				{if stuff "30_carbine" {spawn "bloodspark_small03"}{spawn "blood_hit"}}
 				{if stuff "7-92_kurz" {spawn "bloodspark_small03"}{spawn "blood_hit"}}
-				{if stuff "6-5_rifle" {spawn "bloodspark_small03"}{spawn "blood_hit"}}
-				{if stuff "7-62_rifle" {spawn "bloodspark_small03"}{spawn "blood_hit"}}
-				{if stuff "7-7_rifle" {spawn "bloodspark_small03"}{spawn "blood_hit"}}
-				{if stuff "7-92_rifle" {spawn "bloodspark_small03"}{spawn "blood_hit"}}
+				{if stuff "6-5_carcano" {spawn "bloodspark_small03"}{spawn "blood_hit"}}
+				{if stuff "6-5_arisaka" {spawn "bloodspark_small03"}{spawn "blood_hit"}}
+				{if stuff "7-62_springfield" {spawn "bloodspark_small03"}{spawn "blood_hit"}}
+				{if stuff "7-62_springfield_ap" {spawn "bloodspark_small03"}{spawn "blood_hit"}}
+				{if stuff "7-62_54r" {spawn "bloodspark_small03"}{spawn "blood_hit"}}
+				{if stuff "7-62_54r_ap" {spawn "bloodspark_small03"}{spawn "blood_hit"}}
+				{if stuff "7-62_54r_sniper" {spawn "bloodspark_small03"}{spawn "blood_hit"}}
+				{if stuff "7-7_british" {spawn "bloodspark_small03"}{spawn "blood_hit"}}
+				{if stuff "7-7_british_ap" {spawn "bloodspark_small03"}{spawn "blood_hit"}}
+				{if stuff "7-7_arisaka" {spawn "bloodspark_small03"}{spawn "blood_hit"}}
+				{if stuff "7-7_arisaka_ap" {spawn "bloodspark_small03"}{spawn "blood_hit"}}
+				{if stuff "7-92_mauser" {spawn "bloodspark_small03"}{spawn "blood_hit"}}
+				{if stuff "7-92_mauser_ap" {spawn "bloodspark_small03"}{spawn "blood_hit"}}
+				{if stuff "7-92_mauser_sniper" {spawn "bloodspark_small03"}{spawn "blood_hit"}}
+				{if stuff "rifle_fg" {spawn "bloodspark_small03"}{spawn "blood_hit"}}
+				
 			}
 			{if not dead
 				{if stuff "pistol"
@@ -328,7 +359,7 @@
 					else
 						("rand_damage" args 15 20 25 30 35)
 					}
-					{if rand 0.05 {tags add "human_bleeding"}{call "bleeding"}}
+					;{if rand 0.05 {tags add "human_bleeding"}{call "bleeding"}}
 				}
 				{if stuff "smg"
 					{if rand 0.3
@@ -336,57 +367,79 @@
 					else
 						("rand_damage" args 15 20 25 30 35)
 					}
-					{if rand 0.05 {tags add "human_bleeding"}{call "bleeding"}}
+					;{if rand 0.05 {tags add "human_bleeding"}{call "bleeding"}}
 				}
 				{if stuff "7-62_pistol"
-					{if rand 0.3
-						("rand_damage" args 50 60 70 75 90)
+					{spawn "blood_hit"}
+					{if rand 0.325
+						("rand_damage" args 50 60 70 80 90)
 					else
-						("rand_damage" args 15 20 25 30 35)
+						("rand_damage" args 17.5 22.5 27.5 33 40)
 					}
-					{if rand 0.04 {tags add "human_bleeding"}{call "bleeding"}}
+					;{if rand 0.04 {tags add "human_bleeding"}{call "bleeding"}}
 				}
 				{if stuff "8_pistol"
+					{spawn "blood_hit"}
 					{if rand 0.3
 						("rand_damage" args 45 55 65 70 85)
 					else
 						("rand_damage" args 15 20 25 30 35)
 					}
-					{if rand 0.04 {tags add "human_bleeding"}{call "bleeding"}}
+					;{if rand 0.04 {tags add "human_bleeding"}{call "bleeding"}}
 				}
 				{if stuff "9_pistol"
+					{spawn "blood_hit"}
 					{if rand 0.3
 						("rand_damage" args 50 60 70 75 90)
 					else
 						("rand_damage" args 15 20 25 30 35)
 					}
-					{if rand 0.05 {tags add "human_bleeding"}{call "bleeding"}}
+					;{if rand 0.05 {tags add "human_bleeding"}{call "bleeding"}}
 				}
-				{if stuff "45_pistol"
+				{if stuff "9_pistol_+p"
+					{spawn "blood_hit"}
+					{if rand 0.325
+						("rand_damage" args 50 60 70 80 90)
+					else
+						("rand_damage" args 17.5 22.5 27.5 33 40)
+					}
+					;{if rand 0.04 {tags add "human_bleeding"}{call "bleeding"}}
+				}
+				{if stuff "9_pistol_+p+"
+					{spawn "blood_hit"}
 					{if rand 0.35
 						("rand_damage" args 50 60 70 80 90)
 					else
 						("rand_damage" args 20 25 30 35 40)
 					}
-					{if rand 0.07 {tags add "human_bleeding"}{call "bleeding"}}
+					;{if rand 0.04 {tags add "human_bleeding"}{call "bleeding"}}
+				}
+				{if stuff "45_pistol"
+					{spawn "blood_hit"}
+					{if rand 0.35
+						("rand_damage" args 50 60 70 80 90)
+					else
+						("rand_damage" args 20 25 30 35 40)
+					}
+					;{if rand 0.07 {tags add "human_bleeding"}{call "bleeding"}}
 				}
 				{if stuff "30_carbine"
 					{spawn "blood_hit"}
-					{if rand 0.3 
-						("rand_damage" args 50 60 70 80 90)
+					{if rand 0.5
+						("rand_damage" args 55 65 75 80 95)
 					else
-						("rand_damage" args 15 20 25 30 35)
+						("rand_damage" args 20 25 35 40 50)
 					}
-					{if rand 0.07 {tags add "human_bleeding"}{call "bleeding"}}
+					;{if rand 0.07 {tags add "human_bleeding"}{call "bleeding"}}
 				}
 				{if stuff "7-92_kurz"
 					{spawn "blood_hit"}
 					{if rand 0.5
-						("rand_damage" args 60 70 80 90 100)
+						("rand_damage" args 55 65 75 85 95)
 					else
-						("rand_damage" args 20 30 40 50 60)
+						("rand_damage" args 20 30 40 45 55)
 					}
-					{if rand 0.1 {tags add "human_bleeding"}{call "bleeding"}}
+					;{if rand 0.1 {tags add "human_bleeding"}{call "bleeding"}}
 				}
 				{if stuff "stg"
 					{spawn "blood_hit"}
@@ -395,7 +448,7 @@
 					else
 						("rand_damage" args 20 30 40 50 60)
 					}
-					{if rand 0.1 {tags add "human_bleeding"}{call "bleeding"}}
+					;{if rand 0.1 {tags add "human_bleeding"}{call "bleeding"}}
 				}
 				{if stuff "carbine"
 					{spawn "blood_hit"}
@@ -404,7 +457,7 @@
 					else
 						("rand_damage" args 20 25 30 35 40)
 					}
-					{if rand 0.07 {tags add "human_bleeding"}{call "bleeding"}}
+					;{if rand 0.07 {tags add "human_bleeding"}{call "bleeding"}}
 				else stuff "6_5rifle"
 					{spawn "blood_hit"}
 					{if rand 0.4
@@ -412,7 +465,7 @@
 					else
 						("rand_damage" args 20 30 40 50 60)
 					}
-					{if rand 0.1 {tags add "human_bleeding"}{call "bleeding"}}
+					;{if rand 0.1 {tags add "human_bleeding"}{call "bleeding"}}
 				else stuff "rifle"
 					{spawn "blood_hit"}  
 					{if rand 0.7 
@@ -420,43 +473,133 @@
 					else
 						("rand_damage" args 30 40 50 60 65)
 					}
-					{if rand 0.15 {tags add "human_bleeding"}{call "bleeding"}}
+					;{if rand 0.15 {tags add "human_bleeding"}{call "bleeding"}}
 				}
-				{if stuff "6-5_rifle"
+				{if stuff "6-5_carcano"
 					{spawn "blood_hit"}
-					{if rand 0.4
+					{if rand 0.625
 						("rand_damage" args 60 70 80 90 100)
 					else
-						("rand_damage" args 20 30 40 50 60)
+						("rand_damage" args 27 38 47 58 65)
 					}
-					{if rand 0.1 {tags add "human_bleeding"}{call "bleeding"}}
+					;{if rand 0.1 {tags add "human_bleeding"}{call "bleeding"}}
 				}
-				{if stuff "7-62_rifle"
-					{spawn "blood_hit"}  
-					{if rand 0.65 
-						("rand_damage" args 65 75 85 95 105)
+				{if stuff "6-5_arisaka"
+					{spawn "blood_hit"}
+					{if rand 0.65
+						("rand_damage" args 60 71 80 91 100)
 					else
 						("rand_damage" args 30 40 50 60 65)
 					}
-					{if rand 0.15 {tags add "human_bleeding"}{call "bleeding"}}
+					;{if rand 0.1 {tags add "human_bleeding"}{call "bleeding"}}
 				}
-				{if stuff "7-7_rifle"
+				{if stuff "7-62_springfield"
+					{spawn "blood_hit"}  
+					{if rand 0.7 
+						("rand_damage" args 68 79 88 98 109)
+					else
+						("rand_damage" args 30 40 50 60 65)
+					}
+					;{if rand 0.15 {tags add "human_bleeding"}{call "bleeding"}}
+				}
+				{if stuff "7-62_springfield_ap"
+					{spawn "blood_hit"}  
+					{if rand 0.65 
+						("rand_damage" args 68 79 88 98 109)
+					else
+						("rand_damage" args 30 40 50 60 65)
+					}
+					;{if rand 0.15 {tags add "human_bleeding"}{call "bleeding"}}
+				}
+				{if stuff "7-62_54r"
 					{spawn "blood_hit"}  
 					{if rand 0.675 
 						("rand_damage" args 67 77 87 97 107)
 					else
 						("rand_damage" args 30 40 50 60 65)
 					}
-					{if rand 0.15 {tags add "human_bleeding"}{call "bleeding"}}
+					;{if rand 0.15 {tags add "human_bleeding"}{call "bleeding"}}
 				}
-				{if stuff "7-92_rifle"
+				{if stuff "7-62_54r_ap"
+					{spawn "blood_hit"}  
+					{if rand 0.65
+						("rand_damage" args 67 77 87 97 107)
+					else
+						("rand_damage" args 30 40 50 60 65)
+					}
+					;{if rand 0.15 {tags add "human_bleeding"}{call "bleeding"}}
+				}
+				{if stuff "7-62_54r_sniper"
+					{spawn "blood_hit"}  
+					{if rand 0.675
+						("rand_damage" args 67 77 87 97 107)
+					else
+						("rand_damage" args 30 40 50 60 65)
+					}
+					;{if rand 0.15 {tags add "human_bleeding"}{call "bleeding"}}
+				}
+				{if stuff "7-7_british"
+					{spawn "blood_hit"}  
+					{if rand 0.65 
+						("rand_damage" args 65 75 85 95 105)
+					else
+						("rand_damage" args 30 40 50 60 65)
+					}
+					;{if rand 0.15 {tags add "human_bleeding"}{call "bleeding"}}
+				}
+				{if stuff "7-7_british_ap"
+					{spawn "blood_hit"}  
+					{if rand 0.60
+						("rand_damage" args 65 75 85 95 105)
+					else
+						("rand_damage" args 30 40 50 60 65)
+					}
+					;{if rand 0.15 {tags add "human_bleeding"}{call "bleeding"}}
+				}
+				{if stuff "7-7_arisaka"
+					{spawn "blood_hit"}  
+					{if rand 0.65
+						("rand_damage" args 65 75 85 95 105)
+					else
+						("rand_damage" args 30 40 50 60 65)
+					}
+					;{if rand 0.15 {tags add "human_bleeding"}{call "bleeding"}}
+				}
+				{if stuff "7-7_arisaka_ap"
+					{spawn "blood_hit"}  
+					{if rand 0.60
+						("rand_damage" args 65 75 85 95 105)
+					else
+						("rand_damage" args 30 40 50 60 65)
+					}
+					;{if rand 0.15 {tags add "human_bleeding"}{call "bleeding"}}
+				}
+				{if stuff "7-92_mauser"
 					{spawn "blood_hit"}  
 					{if rand 0.7
 						("rand_damage" args 70 80 90 100 110)
 					else
 						("rand_damage" args 30 40 50 60 65)
 					}
-					{if rand 0.15 {tags add "human_bleeding"}{call "bleeding"}}
+					;{if rand 0.15 {tags add "human_bleeding"}{call "bleeding"}}
+				}
+				{if stuff "7-92_mauser_ap"
+					{spawn "blood_hit"}  
+					{if rand 0.65
+						("rand_damage" args 70 80 90 100 110)
+					else
+						("rand_damage" args 30 40 50 60 65)
+					}
+					;{if rand 0.15 {tags add "human_bleeding"}{call "bleeding"}}
+				}
+				{if stuff "7-92_mauser_sniper"
+					{spawn "blood_hit"}  
+					{if rand 0.7
+						("rand_damage" args 70 80 90 100 110)
+					else
+						("rand_damage" args 30 40 50 60 65)
+					}
+					;{if rand 0.15 {tags add "human_bleeding"}{call "bleeding"}}
 				}
 				{if stuff "rifle_fg"
 					{spawn "blood_hit"}
@@ -465,7 +608,7 @@
 					else
 						("rand_damage" args 70 80 90 100 110)
 					}
-					{if rand 0.4 {tags add "human_bleeding"}{call "bleeding"}}
+					;{if rand 0.4 {tags add "human_bleeding"}{call "bleeding"}}
 				}
 				{if stuff "sniper"
 					{spawn "blood_hit"}
@@ -474,7 +617,7 @@
 					else
 						("rand_damage" args 30 40 50 60 65)
 					}
-					{if rand 0.15 {tags add "human_bleeding"}{call "bleeding"}}
+					;{if rand 0.15 {tags add "human_bleeding"}{call "bleeding"}}
 				}
 				{if stuff "6_5mgun"
 					{spawn "blood_hit"}
@@ -483,7 +626,7 @@
 					else
 						("rand_damage" args 20 30 40 50 60)
 					}
-					{if rand 0.1 {tags add "human_bleeding"}{call "bleeding"}}
+					;{if rand 0.1 {tags add "human_bleeding"}{call "bleeding"}}
 				else stuff "mgun"
 					{spawn "blood_hit"}
 					{if rand 0.7 
@@ -491,7 +634,7 @@
 					else
 						("rand_damage" args 30 40 50 60 65)
 					}
-					{if rand 0.15 {tags add "human_bleeding"}{call "bleeding"}}
+					;{if rand 0.15 {tags add "human_bleeding"}{call "bleeding"}}
 				}
 				{if stuff "hmgun"
 					{spawn "blood_hit"}
@@ -500,7 +643,25 @@
 					else
 						("rand_damage" args 75 90 100 110 125)
 					}
-					{if rand 0.3 {tags add "human_bleeding"}{call "bleeding"}}
+					;{if rand 0.3 {tags add "human_bleeding"}{call "bleeding"}}
+				}
+				{if stuff "ptr"
+					{spawn "blood_hit"}
+					{if rand 1.0
+						("rand_damage" args 130 145 155 175 200)
+					else
+						("rand_damage" args 75 95 105 115 125)
+					}
+					;{if rand 0.3 {tags add "human_bleeding"}{call "bleeding"}}
+				}
+				{if stuff "12g_shotgun"
+					{spawn "blood_hit"}
+					{if rand 0.7 
+						("rand_damage" args 110 125 150 165 175)
+					else
+						("rand_damage" args 75 90 100 110 125)
+					}
+					;{if rand 0.15 {tags add "human_bleeding"}{call "bleeding"}}
 				}
 				{if stuff "bullet15"
 					{spawn "blood_hit"}
@@ -510,50 +671,80 @@
 		}
 		{if volume "foot1l"
 			{if not dead
-				{if stuff "pistol" 		{if rand 0.3 ("rand_damage2" dmg(25))} {if rand 0.03 {tags add "human_bleeding"}{call "bleeding"}}}
-				{if stuff "stg"    		{if rand 0.5 ("rand_damage2" dmg(35))} {if rand 0.07 {tags add "human_bleeding"}{call "bleeding"}}}
-				{if stuff "6_5mm"    	{if rand 0.5 ("rand_damage2" dmg(35))} {if rand 0.07 {tags add "human_bleeding"}{call "bleeding"}}}
-				{if stuff "smg"    		{if rand 0.3 ("rand_damage2" dmg(25))} {if rand 0.03 {tags add "human_bleeding"}{call "bleeding"}}}
-				{if stuff "7-62_pistol" {if rand 0.3 ("rand_damage2" dmg(25))} {if rand 0.03 {tags add "human_bleeding"}{call "bleeding"}}}
-				{if stuff "8_pistol"    {if rand 0.3 ("rand_damage2" dmg(25))} {if rand 0.03 {tags add "human_bleeding"}{call "bleeding"}}}
-				{if stuff "9_pistol"    {if rand 0.3 ("rand_damage2" dmg(25))} {if rand 0.03 {tags add "human_bleeding"}{call "bleeding"}}}
-				{if stuff "45_pistol"   {if rand 0.4 ("rand_damage2" dmg(35))} {if rand 0.04 {tags add "human_bleeding"}{call "bleeding"}}}
-				{if stuff "carbine"  	{if rand 0.4 ("rand_damage2" dmg(35))} {if rand 0.03 {tags add "human_bleeding"}{call "bleeding"}}}
-				{if stuff "30_carbine"  {if rand 0.4 ("rand_damage2" dmg(35))} {if rand 0.03 {tags add "human_bleeding"}{call "bleeding"}}}
-				{if stuff "7-92_kurz"  	{if rand 0.4 ("rand_damage2" dmg(45))} {if rand 0.07 {tags add "human_bleeding"}{call "bleeding"}}}
-				{if stuff "rifle"  		{if rand 0.5 ("rand_damage2" dmg(50))} {if rand 0.1 {tags add "human_bleeding"}{call "bleeding"}}}
-				{if stuff "6-5_rifle"  	{if rand 0.5 ("rand_damage2" dmg(35))} {if rand 0.07 {tags add "human_bleeding"}{call "bleeding"}}}
-				{if stuff "7-62_rifle"  {if rand 0.5 ("rand_damage2" dmg(50))} {if rand 0.1 {tags add "human_bleeding"}{call "bleeding"}}}
-				{if stuff "7-7_rifle"  	{if rand 0.5 ("rand_damage2" dmg(50))} {if rand 0.1 {tags add "human_bleeding"}{call "bleeding"}}}
-				{if stuff "7-92_rifle"  {if rand 0.5 ("rand_damage2" dmg(50))} {if rand 0.1 {tags add "human_bleeding"}{call "bleeding"}}}
-				{if stuff "sniper" 		{if rand 0.5 ("rand_damage2" dmg(50))} {if rand 0.1 {tags add "human_bleeding"}{call "bleeding"}}}
-				{if stuff "mgun"   		{if rand 0.5 ("rand_damage2" dmg(50))} {if rand 0.1 {tags add "human_bleeding"}{call "bleeding"}}}
-				{if stuff "hmgun"  		{if rand 0.7 ("rand_damage2" dmg(125))} {if rand 0.15 {tags add "human_bleeding"}{call "bleeding"}}}
-				{if stuff "bullet15"  	{if rand 0.9 ("rand_damage2" dmg(200))} {if rand 0.20 {tags add "human_bleeding"}{call "bleeding"}}}
+				{if stuff "pistol" 		{if rand 0.3 ("rand_damage2" dmg(25))} {spawn "blood_hit"}}
+				{if stuff "stg"    		{if rand 0.5 ("rand_damage2" dmg(35))} {spawn "blood_hit"}}
+				{if stuff "6_5mm"    	{if rand 0.5 ("rand_damage2" dmg(35))} {spawn "blood_hit"}}
+				{if stuff "smg"    		{if rand 0.3 ("rand_damage2" dmg(25))} {spawn "blood_hit"}}
+				{if stuff "7-62_pistol" {if rand 0.35 ("rand_damage2" dmg(30))} {spawn "blood_hit"}}
+				{if stuff "8_pistol"    {if rand 0.3 ("rand_damage2" dmg(25))} {spawn "blood_hit"}}
+				{if stuff "9_pistol"    {if rand 0.3 ("rand_damage2" dmg(25))} {spawn "blood_hit"}}
+				{if stuff "9_pistol_+p"    {if rand 0.35 ("rand_damage2" dmg(30))} {spawn "blood_hit"}}
+				{if stuff "9_pistol_+p+"    {if rand 0.4 ("rand_damage2" dmg(35))} {spawn "blood_hit"}}
+				{if stuff "45_pistol"   {if rand 0.4 ("rand_damage2" dmg(35))} {spawn "blood_hit"}}
+				{if stuff "carbine"  	{if rand 0.4 ("rand_damage2" dmg(35))} {spawn "blood_hit"}}
+				{if stuff "30_carbine"  {if rand 0.45 ("rand_damage2" dmg(40))} {spawn "blood_hit"}}
+				{if stuff "7-92_kurz"  	{if rand 0.45 ("rand_damage2" dmg(40))} {spawn "blood_hit"}}
+				{if stuff "rifle"  		{if rand 0.5 ("rand_damage2" dmg(60))} {spawn "blood_hit"}}
+				{if stuff "6-5_carcano"  	{if rand 0.5 ("rand_damage2" dmg(45))} {spawn "blood_hit"}}
+				{if stuff "6-5_arisaka"  	{if rand 0.55 ("rand_damage2" dmg(47.5))} {spawn "blood_hit"}}
+				{if stuff "7-62_springfield"  {if rand 0.6 ("rand_damage2" dmg(50))} {spawn "blood_hit"}}
+				{if stuff "7-62_springfield_ap"  {if rand 0.6 ("rand_damage2" dmg(45))} {spawn "blood_hit"}}
+				{if stuff "7-62_54r"  {if rand 0.6 ("rand_damage2" dmg(50))} {spawn "blood_hit"}}
+				{if stuff "7-62_54r_ap"  {if rand 0.6 ("rand_damage2" dmg(45))} {spawn "blood_hit"}}
+				{if stuff "7-62_54r_sniper"  {if rand 0.6 ("rand_damage2" dmg(50))} {spawn "blood_hit"}}
+				{if stuff "7-7_british"  	{if rand 0.6 ("rand_damage2" dmg(50))} {spawn "blood_hit"}}
+				{if stuff "7-7_british_ap"  	{if rand 0.6 ("rand_damage2" dmg(45))} {spawn "blood_hit"}}
+				{if stuff "7-7_arisaka"  	{if rand 0.6 ("rand_damage2" dmg(50))} {spawn "blood_hit"}}
+				{if stuff "7-7_arisaka_ap"  	{if rand 0.6 ("rand_damage2" dmg(45))} {spawn "blood_hit"}}
+				{if stuff "7-92_mauser"  {if rand 0.6 ("rand_damage2" dmg(50))} {spawn "blood_hit"}}
+				{if stuff "7-92_mauser_ap"  {if rand 0.6 ("rand_damage2" dmg(45))} {spawn "blood_hit"}}
+				{if stuff "7-92_mauser_sniper"  {if rand 0.6 ("rand_damage2" dmg(50))} {spawn "blood_hit"}}
+				{if stuff "rifle_fg"  		{if rand 0.7 ("rand_damage2" dmg(100))} {spawn "blood_hit"}}
+				{if stuff "sniper" 		{if rand 0.6 ("rand_damage2" dmg(50))} {spawn "blood_hit"}}
+				{if stuff "mgun"   		{if rand 0.6 ("rand_damage2" dmg(50))} {spawn "blood_hit"}}
+				{if stuff "hmgun"  		{if rand 0.8 ("rand_damage2" dmg(125))} {spawn "blood_hit"}}
+				{if stuff "ptr"  		{if rand 0.8 ("rand_damage2" dmg(170))} {spawn "blood_hit"}}
+				{if stuff "12g_shotgun" 		{if rand 0.5 ("rand_damage2" dmg(100))} {spawn "blood_hit"}}
+				{if stuff "bullet15"  	{if rand 0.9 ("rand_damage2" dmg(200))} {spawn "blood_hit"}}
 			}
 		}
 		{if volume "foot1r"
 			{if not dead
-				{if stuff "pistol" 		{if rand 0.3 ("rand_damage2" dmg(25))} {if rand 0.03 {tags add "human_bleeding"}{call "bleeding"}}}
-				{if stuff "stg"    		{if rand 0.5 ("rand_damage2" dmg(35))} {if rand 0.07 {tags add "human_bleeding"}{call "bleeding"}}}
-				{if stuff "6_5mm"    	{if rand 0.5 ("rand_damage2" dmg(35))} {if rand 0.07 {tags add "human_bleeding"}{call "bleeding"}}}
-				{if stuff "smg"    		{if rand 0.3 ("rand_damage2" dmg(25))} {if rand 0.03 {tags add "human_bleeding"}{call "bleeding"}}}
-				{if stuff "7-62_pistol" {if rand 0.3 ("rand_damage2" dmg(25))} {if rand 0.03 {tags add "human_bleeding"}{call "bleeding"}}}
-				{if stuff "8_pistol"    {if rand 0.3 ("rand_damage2" dmg(25))} {if rand 0.03 {tags add "human_bleeding"}{call "bleeding"}}}
-				{if stuff "9_pistol"    {if rand 0.3 ("rand_damage2" dmg(25))} {if rand 0.03 {tags add "human_bleeding"}{call "bleeding"}}}
-				{if stuff "45_pistol"   {if rand 0.4 ("rand_damage2" dmg(35))} {if rand 0.04 {tags add "human_bleeding"}{call "bleeding"}}}
-				{if stuff "carbine"  	{if rand 0.4 ("rand_damage2" dmg(35))} {if rand 0.03 {tags add "human_bleeding"}{call "bleeding"}}}
-				{if stuff "30_carbine"  {if rand 0.4 ("rand_damage2" dmg(35))} {if rand 0.03 {tags add "human_bleeding"}{call "bleeding"}}}
-				{if stuff "7-92_kurz"  	{if rand 0.4 ("rand_damage2" dmg(45))} {if rand 0.07 {tags add "human_bleeding"}{call "bleeding"}}}
-				{if stuff "rifle"  		{if rand 0.5 ("rand_damage2" dmg(50))} {if rand 0.1 {tags add "human_bleeding"}{call "bleeding"}}}
-				{if stuff "6-5_rifle"  	{if rand 0.5 ("rand_damage2" dmg(35))} {if rand 0.07 {tags add "human_bleeding"}{call "bleeding"}}}
-				{if stuff "7-62_rifle"  {if rand 0.5 ("rand_damage2" dmg(50))} {if rand 0.1 {tags add "human_bleeding"}{call "bleeding"}}}
-				{if stuff "7-7_rifle"  	{if rand 0.5 ("rand_damage2" dmg(50))} {if rand 0.1 {tags add "human_bleeding"}{call "bleeding"}}}
-				{if stuff "7-92_rifle"  {if rand 0.5 ("rand_damage2" dmg(50))} {if rand 0.1 {tags add "human_bleeding"}{call "bleeding"}}}
-				{if stuff "sniper" 		{if rand 0.5 ("rand_damage2" dmg(50))} {if rand 0.1 {tags add "human_bleeding"}{call "bleeding"}}}
-				{if stuff "mgun"   		{if rand 0.5 ("rand_damage2" dmg(50))} {if rand 0.1 {tags add "human_bleeding"}{call "bleeding"}}}
-				{if stuff "hmgun"  		{if rand 0.7 ("rand_damage2" dmg(125))} {if rand 0.15 {tags add "human_bleeding"}{call "bleeding"}}}
-				{if stuff "bullet15"  	{if rand 0.9 ("rand_damage2" dmg(200))} {if rand 0.20 {tags add "human_bleeding"}{call "bleeding"}}}
+				{if stuff "pistol" 		{if rand 0.3 ("rand_damage2" dmg(25))} {spawn "blood_hit"}}
+				{if stuff "stg"    		{if rand 0.5 ("rand_damage2" dmg(35))} {spawn "blood_hit"}}
+				{if stuff "6_5mm"    	{if rand 0.5 ("rand_damage2" dmg(35))} {spawn "blood_hit"}}
+				{if stuff "smg"    		{if rand 0.3 ("rand_damage2" dmg(25))} {spawn "blood_hit"}}
+				{if stuff "7-62_pistol" {if rand 0.35 ("rand_damage2" dmg(30))} {spawn "blood_hit"}}
+				{if stuff "8_pistol"    {if rand 0.3 ("rand_damage2" dmg(25))} {spawn "blood_hit"}}
+				{if stuff "9_pistol"    {if rand 0.3 ("rand_damage2" dmg(25))} {spawn "blood_hit"}}
+				{if stuff "9_pistol_+p"    {if rand 0.35 ("rand_damage2" dmg(30))} {spawn "blood_hit"}}
+				{if stuff "9_pistol_+p+"    {if rand 0.4 ("rand_damage2" dmg(35))} {spawn "blood_hit"}}
+				{if stuff "45_pistol"   {if rand 0.4 ("rand_damage2" dmg(35))} {spawn "blood_hit"}}
+				{if stuff "carbine"  	{if rand 0.4 ("rand_damage2" dmg(35))} {spawn "blood_hit"}}
+				{if stuff "30_carbine"  {if rand 0.45 ("rand_damage2" dmg(40))} {spawn "blood_hit"}}
+				{if stuff "7-92_kurz"  	{if rand 0.45 ("rand_damage2" dmg(40))} {spawn "blood_hit"}}
+				{if stuff "rifle"  		{if rand 0.5 ("rand_damage2" dmg(60))} {spawn "blood_hit"}}
+				{if stuff "6-5_carcano"  	{if rand 0.5 ("rand_damage2" dmg(45))} {spawn "blood_hit"}}
+				{if stuff "6-5_arisaka"  	{if rand 0.55 ("rand_damage2" dmg(47.5))} {spawn "blood_hit"}}
+				{if stuff "7-62_springfield"  {if rand 0.6 ("rand_damage2" dmg(50))} {spawn "blood_hit"}}
+				{if stuff "7-62_springfield_ap"  {if rand 0.6 ("rand_damage2" dmg(45))} {spawn "blood_hit"}}
+				{if stuff "7-62_54r"  {if rand 0.6 ("rand_damage2" dmg(50))} {spawn "blood_hit"}}
+				{if stuff "7-62_54r_ap"  {if rand 0.6 ("rand_damage2" dmg(45))} {spawn "blood_hit"}}
+				{if stuff "7-62_54r_sniper"  {if rand 0.6 ("rand_damage2" dmg(50))} {spawn "blood_hit"}}
+				{if stuff "7-7_british"  	{if rand 0.6 ("rand_damage2" dmg(50))} {spawn "blood_hit"}}
+				{if stuff "7-7_british_ap"  	{if rand 0.6 ("rand_damage2" dmg(45))} {spawn "blood_hit"}}
+				{if stuff "7-7_arisaka"  	{if rand 0.6 ("rand_damage2" dmg(50))} {spawn "blood_hit"}}
+				{if stuff "7-7_arisaka_ap"  	{if rand 0.6 ("rand_damage2" dmg(45))} {spawn "blood_hit"}}
+				{if stuff "7-92_mauser"  {if rand 0.6 ("rand_damage2" dmg(50))} {spawn "blood_hit"}}
+				{if stuff "7-92_mauser_ap"  {if rand 0.6 ("rand_damage2" dmg(45))} {spawn "blood_hit"}}
+				{if stuff "7-92_mauser_sniper"  {if rand 0.6 ("rand_damage2" dmg(50))} {spawn "blood_hit"}}
+				{if stuff "rifle_fg"  		{if rand 0.7 ("rand_damage2" dmg(100))} {spawn "blood_hit"}}
+				{if stuff "sniper" 		{if rand 0.6 ("rand_damage2" dmg(50))} {spawn "blood_hit"}}
+				{if stuff "mgun"   		{if rand 0.6 ("rand_damage2" dmg(50))} {spawn "blood_hit"}}
+				{if stuff "hmgun"  		{if rand 0.8 ("rand_damage2" dmg(125))} {spawn "blood_hit"}}
+				{if stuff "ptr"  		{if rand 0.8 ("rand_damage2" dmg(170))} {spawn "blood_hit"}}
+				{if stuff "12g_shotgun" 		{if rand 0.5 ("rand_damage2" dmg(100))} {spawn "blood_hit"}}
+				{if stuff "bullet15"  	{if rand 0.9 ("rand_damage2" dmg(200))} {spawn "blood_hit"}}
 			}
 		}
 	}

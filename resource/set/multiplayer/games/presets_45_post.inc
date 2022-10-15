@@ -4,7 +4,7 @@
 			{value "45|postwar"}
 		}
 		{commandPoints "*=%cp"}
-		{unitLimits "flamer=3;officer=3;officer1=1;officer2=2;heavyaa=2;maus=1;only-one=1"}
+		{unitLimits "flamer=3;officer=3;heavyaa=2;maus=1;only-one=1"}
 		{chargeFactors
 			{value "*=1"}
 		}
@@ -26,13 +26,13 @@
 				} 
 				{buttons "squad1 squad2 v1 v2 v22 v3 v4 v5 v6"}
 			}
-			;{hero
-			;	{resource 
-			;		{start 		20}
-			;	} 
-			;	{buttons "hero"}
-			;	{tag "special"}
-			;}
+			{hero
+				{resource 
+					{start 		20}
+				} 
+				{buttons "hero"}
+				{tag "special"}
+			}
 		} 
 	}
 	{bots
@@ -45,7 +45,7 @@
 			{value "%value"}
 		}
 		{commandPoints "*=%cp"}
-		{unitLimits "flamer=3;officer=3;officer1=1;officer2=2;heavyaa=2;maus=1;only-one=1"}
+		{unitLimits "flamer=3;officer=3;heavyaa=2;maus=1;only-one=1"}
 		{chargeFactors
 			{value "*=1"}
 		}
@@ -67,13 +67,13 @@
 				} 
 				{buttons "squad1 squad2 v1 v2 v22 v3 v4 v5 v6"}
 			}
-			;{hero
-			;	{resource 
-			;		{start 		20}
-			;	} 
-			;	{buttons "hero"}
-			;	{tag "special"}
-			;}
+			{hero
+				{resource 
+					{start 		20}
+				} 
+				{buttons "hero"}
+				{tag "special"}
+			}
 		} 
 	}
 	{bots
@@ -86,7 +86,7 @@
 			{value "45|postwar"}
 		}
 		{commandPoints "*=%cp"}
-		{unitLimits "flamer=3;officer=3;officer1=1;officer2=2;heavyaa=2;maus=1;only-one=1"}
+		{unitLimits "flamer=3;officer=3;heavyaa=2;maus=1;only-one=1"}
 		{chargeFactors
 			{value "*=1"}
 			{available "*=0 *=1.0"}
@@ -109,13 +109,13 @@
 				} 
 				{buttons "squad1 squad2 v1 v2 v22 v3 v4 v5 v6"}
 			}
-			;{hero
-			;	{resource 
-			;		{start 		20}
-			;	} 
-			;	{buttons "hero"}
-			;	{tag "special"}
-			;}
+			{hero
+				{resource 
+					{start 		20}
+				} 
+				{buttons "hero"}
+				{tag "special"}
+			}
 		} 
 	}
 	{bots

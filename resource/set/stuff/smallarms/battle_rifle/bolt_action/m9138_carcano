@@ -1,0 +1,13 @@
+{from "pattern bolt_action"
+	{entity "m9138_carcano"}
+	{mass 3.9}
+	{filling "ammo carcano_rifle" 6}
+	{fireSound "rifle/carcano_m91-38"}
+	{reloadSound "type38_reload"}
+	
+	("speed" s(700))
+	;("accuracy_boost")
+	("belt_reload_5")
+	("6-5mm_bolt")
+	{rechargeTime 4.0}
+}

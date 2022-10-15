@@ -8,7 +8,7 @@
 	{throw
 		{range 25}
 		{startAngle 40}		
-		{spreading 3.5}
+		{spreading 0.1}
 	}	
 	{damage blastwave
 		{energy 1.0} ; kg

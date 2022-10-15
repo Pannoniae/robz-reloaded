@@ -9,6 +9,21 @@
     (define "damage_process_pierce" ;by Svoyak  ;define's call's see in tank-armoredcar.inc, tank-light.inc, tank-medium.inc & tank-heavy.inc.
 ;=================================
         {if stuff "%staff"
+			{if component "shield"
+				{if stuff "heat_shell"
+					{tags add "shell_shattered"}
+					{bullet_detonate}
+					{delay 0.1
+						{tags remove "shell_shattered"}
+					}
+				else stuff "bazooka"
+					{tags add "shell_shattered"}
+					{bullet_detonate}
+					{delay 0.1
+						{tags remove "shell_shattered"}
+					}
+				}
+			}
 			{if not stuff "capped"
 			{if rand %shell_shatter
 				{tags add "shell_shattered"}
@@ -2512,6 +2527,17 @@
 	("smoke_launcher_usa_turret")
 	("burn_by_engine" args 0.3)
 }
+{"t29 tank"
+	{on "add_movement_sound" overload
+		{link_sound "move"				"vehicle/tracks/m26"	}
+		{link_sound "rotate_turret" 	"vehicle/turret/pershing"		}
+		{link_sound "engine"			"vehicle/engine/m26_engine"		}
+		{link_sound "engine_end"		"vehicle/engine/m4a2_end"	}
+		{link_sound "exhaust"			"vehicle/engine/m4a2_up"	}
+		{link_sound "idle"			"vehicle/engine/m26_idle"	}
+	}
+	("burn_by_engine" args 0.3)
+}
 {"isu152 tank"
 	{on "add_movement_sound" overload
 		{link_sound "move"			"vehicle/tracks/is"		}
@@ -2560,6 +2586,14 @@
 	("burn_by_engine" args 0.3)
 }
 {"su85 tank"
+	("t34_sound")
+	("burn_by_engine" args 0.3)
+}
+{"su85m tank"
+	("t34_sound")
+	("burn_by_engine" args 0.3)
+}
+{"su85m_guard tank"
 	("t34_sound")
 	("burn_by_engine" args 0.3)
 }
@@ -2824,6 +2858,10 @@
 	("smoke_launcher_usa_turret")
 	("burn_by_engine" args 0.3)
 }
+{"m4a2_robztest tank"
+	("m4_sound")
+	("burn_by_engine" args 0.3)
+}
 {"m4a4 tank"
 	("m4_sound")
 	("smoke_launcher_usa_turret")
@@ -2928,6 +2966,10 @@
 	("burn_by_engine" args 0.3)
 	("smoke_launcher_ger_hull")
 }
+{"pantherf_robztest tank"
+	("pz5g_sound")
+	("burn_by_engine" args 0.3)
+}
 (define "pz6_sound"
 	{on "add_movement_sound" overload
 		{link_sound "move"				"vehicle/tracks/pz6"	}
@@ -2995,6 +3037,17 @@
 		{link_sound "move"				"vehicle/tracks/pz6"	}
 		{link_sound "engine"			"vehicle/engine/ferdi_engine"		}
 		{link_sound "engine_end"		"vehicle/engine/ferdi_engine_end"	}
+		{link_sound "exhaust"			"vehicle/engine/ferdi_engine_up"	}
+		{link_sound "idle"			"vehicle/engine/ferdi_engine"}
+	}
+	("burn_by_engine" args 0.3)
+}
+{"tigerp_robztest tank"
+	{on "add_movement_sound" overload
+		{link_sound "move"				"vehicle/tracks/pz6"	}
+		{link_sound "engine"			"vehicle/engine/ferdi_engine"		}
+		{link_sound "engine_end"		"vehicle/engine/ferdi_engine_end"	}
+		{link_sound "rotate_turret" 	"vehicle/turret/pz6"	}
 		{link_sound "exhaust"			"vehicle/engine/ferdi_engine_up"	}
 		{link_sound "idle"			"vehicle/engine/ferdi_engine"}
 	}
@@ -3086,11 +3139,49 @@
 	("pz3_sound")
 	("burn_by_engine" args 0.3)
 	("smoke_launcher_3_sides")
+	{on bullet_hit
+		{if volume "shieldl7"
+			{if not hit_side front 
+				{if stuff "heat_shell"
+					{tags add "shell_shattered"}
+					{bullet_detonate}
+					{delay 0.1
+						{tags remove "shell_shattered"}
+					}
+				else stuff "bazooka"
+					{tags add "shell_shattered"}
+					{bullet_detonate}
+					{delay 0.1
+						{tags remove "shell_shattered"}
+					}
+				}
+			}
+		}
+	}
 }
 {"pz3n_42 tank"
 	("pz3_sound")
 	("burn_by_engine" args 0.3)
 	("smoke_launcher_3_sides")
+	{on bullet_hit
+		{if volume "shieldl7"
+			{if not hit_side front 
+				{if stuff "heat_shell"
+					{tags add "shell_shattered"}
+					{bullet_detonate}
+					{delay 0.1
+						{tags remove "shell_shattered"}
+					}
+				else stuff "bazooka"
+					{tags add "shell_shattered"}
+					{bullet_detonate}
+					{delay 0.1
+						{tags remove "shell_shattered"}
+					}
+				}
+			}
+		}
+	}
 }
 {"stug3g tank"
 	("pz3_sound")
@@ -3122,6 +3213,25 @@
 		{link_sound "idle"			"vehicle/engine/pz3_idle"	}
 	}
 	("burn_by_engine" args 0.3)
+	{on bullet_hit
+		{if volume "shieldl7"
+			{if not hit_side front 
+				{if stuff "heat_shell"
+					{tags add "shell_shattered"}
+					{bullet_detonate}
+					{delay 0.1
+						{tags remove "shell_shattered"}
+					}
+				else stuff "bazooka"
+					{tags add "shell_shattered"}
+					{bullet_detonate}
+					{delay 0.1
+						{tags remove "shell_shattered"}
+					}
+				}
+			}
+		}
+	}
 }
 (define "pz4_sound"
 	{on "add_movement_sound" overload
@@ -3192,6 +3302,25 @@
 {"pz4h tank"
 	("pz4_sound")
 	("burn_by_engine" args 0.3)		
+	{on bullet_hit
+		{if volume "shieldl6"
+			{if not hit_side front 
+				{if stuff "heat_shell"
+					{tags add "shell_shattered"}
+					{bullet_detonate}
+					{delay 0.1
+						{tags remove "shell_shattered"}
+					}
+				else stuff "bazooka"
+					{tags add "shell_shattered"}
+					{bullet_detonate}
+					{delay 0.1
+						{tags remove "shell_shattered"}
+					}
+				}
+			}
+		}
+	}
 }
 {"hummel tank"
 	("pz4_sound")
@@ -3944,6 +4073,370 @@
 	("smoke_launcher_usa_turret")
 }
 
+{"m10wolverine_vet tank"
+	{on "add_movement_sound" overload
+		{link_sound "move"				"vehicle/tracks/mk2"	}
+		{link_sound "engine"			"vehicle/engine/m10wolverine"		}
+		{link_sound "engine_end"		"vehicle/engine/m4_end"	}
+		{link_sound "rotate_turret" 	"vehicle/turret/manual_turret2"	}
+		{link_sound "exhaust"			"vehicle/engine/m4a2_up"	}
+		{link_sound "idle"			"vehicle/engine/m10wolverine"}
+	}
+	{on "gunner_hatch_open" overload
+		{ani_play "open" -1.0 resume}
+	}
+	("burn_by_engine" args 0.3)
+}
+{"m10_rus tank"
+	{on "add_movement_sound" overload
+		{link_sound "move"				"vehicle/tracks/mk2"	}
+		{link_sound "engine"			"vehicle/engine/m10wolverine"		}
+		{link_sound "engine_end"		"vehicle/engine/m4_end"	}
+		{link_sound "rotate_turret" 	"vehicle/turret/manual_turret2"	}
+		{link_sound "exhaust"			"vehicle/engine/m4a2_up"	}
+		{link_sound "idle"			"vehicle/engine/m10wolverine"}
+	}
+	{on "gunner_hatch_open" overload
+		{ani_play "open" -1.0 resume}
+	}
+	("burn_by_engine" args 0.3)
+}
+{"m36_vet tank"
+	("m10wolverine_sound")
+	{on "gunner_hatch_open" overload
+		{ani_play "open" -1.0 resume}
+	}
+	("burn_by_engine" args 0.3)
+}
+{"m36b1_vet tank"
+	("m10wolverine_sound")
+	{on "gunner_hatch_open" overload
+		{ani_play "open" -1.0 resume}
+	}
+	("burn_by_engine" args 0.3)
+}
+{"r35 tank"
+	{on "add_movement_sound" overload
+		{link_sound "move"				"vehicle/tracks/mk7"	}
+		{link_sound "engine"			"vehicle/engine/r35"		}
+		{link_sound "engine_end"		"vehicle/engine/r35_end"	}
+		{link_sound "rotate_turret" 	"vehicle/turret/light"		}
+		{link_sound "exhaust"			"vehicle/engine/r35_up" 	}
+		{link_sound "idle"			"vehicle/engine/r35"}
+	}
+	("burn_by_engine" args 0.3)
+}
+{"fcmpak40_robztest tank"
+	{on "add_movement_sound" overload
+		{link_sound "move"				"vehicle/tracks/mk7"	}
+		{link_sound "engine"			"vehicle/engine/r35"		}
+		{link_sound "engine_end"		"vehicle/engine/r35_end"	}
+		{link_sound "rotate_turret" 	"vehicle/turret/light"		}
+		{link_sound "exhaust"			"vehicle/engine/r35_up" 	}
+		{link_sound "idle"			"vehicle/engine/r35"}
+	}
+	("burn_by_engine" args 0.3)
+}
+{"m4a2_76w_vet tank"
+	("m4_turret_sound")
+	("burn_by_engine" args 0.3)
+}
+{"m4a2_76w_fra tank"
+	("m4_turret_sound")
+	("burn_by_engine" args 0.3)
+}
+{"m4a2_fra tank"
+	("m4_turret_sound")
+	("burn_by_engine" args 0.3)
+}
+{"m4a3e8_vet tank"
+	("m4_sound")
+	("burn_by_engine" args 0.3)
+}
+{"t70_ger2 tank"
+	("t70_sound")
+	("burn_by_engine" args 0.3)
+}
+{"su76_ger2 tank"
+	("su76_sound")
+	("burn_by_engine" args 0.3)
+}
+{"pz5g_rus tank"
+	("pz5g_sound")
+	("burn_by_engine" args 0.3)
+}
+{"lvt4_a tank"
+	("m4_sound")
+	("burn_by_engine" args 0.3)
+}
+{"lvt4_wb tank"
+	("m4_sound")
+	("burn_by_engine" args 0.3)
+}
+{"lvt1_a tank"
+	("m4_sound")
+	("burn_by_engine" args 0.3)
+}
+{"lvt2_a tank"
+	("m4_sound")
+	("burn_by_engine" args 0.3)
+}
+{"lvt2_a_nogun tank"
+	("m4_sound")
+	("burn_by_engine" args 0.3)
+}
+{"ka-mi tank"
+	{on "add_movement_sound" overload
+		{link_sound "rotate_turret" 	"vehicle/turret/light"	}
+		{link_sound "move"				"vehicle/tracks/pz1"	}
+		{link_sound "engine"			"vehicle/engine/chi-ha"	}
+		{link_sound "engine_end"		"vehicle/engine/mb_end"}
+		{link_sound "exhaust"			"vehicle/engine/mb_up"	}
+		{link_sound "idle"			"vehicle/engine/chi-ha"	}
+	}
+	("burn_by_engine" args 0.3)
+}
+{"m3a1_satan tank"
+	{on spawn
+		{add_view "flamer_fire" "flame1" "foresight1"}
+		{add_view "flamer_fire_barrel" "fire1" "foresight1"}
+		{add_view "flamer_fire" "flame1" "foresight7"}
+		{add_view "flamer_fire_barrel" "fire1" "foresight7"}
+		{add_view "flamer_fire" "flame1" "foresight8"}
+		{add_view "flamer_fire_barrel" "fire1" "foresight8"}
+		{add_view "flamer_fire" "flame1" "foresight9"}
+		{add_view "flamer_fire_barrel" "fire1" "foresight9"}
+		{add_view "flamer_fire" "flame1" "foresight10"}
+		{add_view "flamer_fire_barrel" "fire1" "foresight10"}
+		{view show	"fire1"}
+
+		{view start	"fire1"}
+	}
+	{on operatable on	
+		{view start	"fire1"}
+	}	
+	{on operatable off		
+		{view stop	"fire1"}
+	}
+	{on "_explosion"
+		{spawn "fuel_die"}
+		{blastwave c4 5 r0 4 r1 15}
+		{fire radius 5 time 15 heating 10}
+	}
+	{on fire "flamer1"
+		{view start	"flame1"}
+		{kill_delay "fire1"}
+		{delay 0.5 "fire1"
+			{view pause	"flame1"}
+		}
+	}
+	{on "add_movement_sound" overload
+		{link_sound "move"				"vehicle/tracks/m3stuart"	}
+		{link_sound "engine"			"vehicle/engine/m3stuart"		}
+		{link_sound "engine_end"		"vehicle/engine/tankengine_end"	}
+		{link_sound "rotate_turret" 	"vehicle/turret/light"	}
+		{link_sound "exhaust"			"vehicle/engine/tankengine_up"	}
+	}
+	("burn_by_engine" args 0.3)	
+}
+{"sdkfz182b_vet tank"
+	{on "add_movement_sound" overload
+		{link_sound "move"				"vehicle/tracks/jugdpanther"	}
+		{link_sound "engine"			"vehicle/engine/pz6bh"		}
+		{link_sound "engine_end"		"vehicle/engine/pz6bh_end"	}
+		{link_sound "rotate_turret" 	"vehicle/turret/pz6"	}
+		{link_sound "exhaust"			"vehicle/engine/pz6bh_up"	}
+		{link_sound "idle"			"vehicle/engine/pz6bh_idle"}
+	}
+	{on "gunner_hatch_open" overload
+		{ani_play "open2"}
+	}
+	("burn_by_engine" args 0.3)
+}
+{"sdkfz182b_ace tank"
+	{on "add_movement_sound" overload
+		{link_sound "move"				"vehicle/tracks/jugdpanther"	}
+		{link_sound "engine"			"vehicle/engine/pz6bh"		}
+		{link_sound "engine_end"		"vehicle/engine/pz6bh_end"	}
+		{link_sound "rotate_turret" 	"vehicle/turret/pz6"	}
+		{link_sound "exhaust"			"vehicle/engine/pz6bh_up"	}
+		{link_sound "idle"			"vehicle/engine/pz6bh_idle"}
+	}
+	{on "gunner_hatch_open" overload
+		{ani_play "open2"}
+	}
+	("burn_by_engine" args 0.3)
+}
+{"o-i tank"
+	("ho-ri_sound")
+	("burn_by_engine" args 0.3)
+}
+{"type_5_ho_ri_prototype tank"
+	("ho-ri_sound")
+	("burn_by_engine" args 0.3)
+}
+{"type_95_heavy_ro-go tank"
+	("ho-ri_sound")
+	("burn_by_engine" args 0.3)
+}
+{"type5_ho-ri_production tank"
+	("ho-ri_sound")
+	("burn_by_engine" args 0.3)
+}
+{"chi-ha47_1944 tank"
+	{on "add_movement_sound" overload
+		{link_sound "rotate_turret" 	"vehicle/turret/churchill_turret"	}
+		{link_sound "move"			"vehicle/tracks/chi-ha"	}
+		{link_sound "engine"			"vehicle/engine/chi-ha"	}
+		{link_sound "engine_end"		"vehicle/engine/mb_end"}
+		{link_sound "exhaust"			"vehicle/engine/mb_up"	}
+		{link_sound "idle"			"vehicle/engine/chi-ha"	}
+	}
+	("burn_by_engine" args 0.3)
+}
+{"ke-ho tank"
+	{on "add_movement_sound" overload
+		{link_sound "rotate_turret" 	"vehicle/turret/churchill_turret"	}
+		{link_sound "move"			"vehicle/tracks/chi-ha"	}
+		{link_sound "engine"			"vehicle/engine/chi-ha"	}
+		{link_sound "engine_end"		"vehicle/engine/mb_end"}
+		{link_sound "exhaust"			"vehicle/engine/mb_up"	}
+		{link_sound "idle"			"vehicle/engine/chi-ha"	}
+	}
+	("burn_by_engine" args 0.3)
+}
+{"ke-ni_a2 tank"
+	{on "add_movement_sound" overload
+		{link_sound "rotate_turret" 	"vehicle/turret/churchill_turret"	}
+		{link_sound "move"			"vehicle/tracks/chi-ha"	}
+		{link_sound "engine"			"vehicle/engine/chi-ha"	}
+		{link_sound "engine_end"		"vehicle/engine/mb_end"}
+		{link_sound "exhaust"			"vehicle/engine/mb_up"	}
+		{link_sound "idle"			"vehicle/engine/chi-ha"	}
+	}
+	("burn_by_engine" args 0.3)
+}
+{"type_2_ka_mi tank"
+	{on "add_movement_sound" overload
+		{link_sound "rotate_turret" 	"vehicle/turret/light"	}
+		{link_sound "move"				"vehicle/tracks/pz1"	}
+		{link_sound "engine"			"vehicle/engine/chi-ha"	}
+		{link_sound "engine_end"		"vehicle/engine/mb_end"}
+		{link_sound "exhaust"			"vehicle/engine/mb_up"	}
+		{link_sound "idle"			"vehicle/engine/chi-ha"	}
+	}
+	("burn_by_engine" args 0.3)
+}
+{"type_5_na_to tank"
+	{on "add_movement_sound" overload
+		{link_sound "rotate_turret" 	"vehicle/turret/churchill_turret"	}
+		{link_sound "move"			"vehicle/tracks/chi-ha"	}
+		{link_sound "engine"			"vehicle/engine/chi-ha"	}
+		{link_sound "engine_end"		"vehicle/engine/mb_end"}
+		{link_sound "exhaust"			"vehicle/engine/mb_up"	}
+		{link_sound "idle"			"vehicle/engine/chi-ha"	}
+	}
+	("burn_by_engine" args 0.3)
+}
+{"type_95_so_ki tank"
+	{on "add_movement_sound" overload
+		{link_sound "rotate_turret" 	"vehicle/turret/churchill_turret"	}
+		{link_sound "move"			"vehicle/tracks/chi-ha"	}
+		{link_sound "engine"			"vehicle/engine/chi-ha"	}
+		{link_sound "engine_end"		"vehicle/engine/mb_end"}
+		{link_sound "exhaust"			"vehicle/engine/mb_up"	}
+		{link_sound "idle"			"vehicle/engine/chi-ha"	}
+	}
+	("burn_by_engine" args 0.3)
+}
+{"type_98_ke_ni tank"
+	{on "add_movement_sound" overload
+		{link_sound "rotate_turret" 	"vehicle/turret/churchill_turret"	}
+		{link_sound "move"			"vehicle/tracks/chi-ha"	}
+		{link_sound "engine"			"vehicle/engine/chi-ha"	}
+		{link_sound "engine_end"		"vehicle/engine/mb_end"}
+		{link_sound "exhaust"			"vehicle/engine/mb_up"	}
+		{link_sound "idle"			"vehicle/engine/chi-ha"	}
+	}
+	("burn_by_engine" args 0.3)
+}
+{"type_98_ta_se tank"
+	{on "add_movement_sound" overload
+		{link_sound "rotate_turret" 	"vehicle/turret/churchill_turret"	}
+		{link_sound "move"			"vehicle/tracks/chi-ha"	}
+		{link_sound "engine"			"vehicle/engine/chi-ha"	}
+		{link_sound "engine_end"		"vehicle/engine/mb_end"}
+		{link_sound "exhaust"			"vehicle/engine/mb_up"	}
+		{link_sound "idle"			"vehicle/engine/chi-ha"	}
+	}
+	("burn_by_engine" args 0.3)
+}
+{"chi-he_1944 tank"
+	{on "add_movement_sound" overload
+		{link_sound "rotate_turret" 		"vehicle/turret/medium1"	}
+		{link_sound "move"			"vehicle/tracks/chi-ha"	}
+		{link_sound "engine"			"vehicle/engine/chi-ha"	}
+		{link_sound "engine_end"		"vehicle/engine/mb_end"}
+		{link_sound "exhaust"			"vehicle/engine/mb_up"	}
+		{link_sound "idle"			"vehicle/engine/chi-ha"	}
+	}
+	("burn_by_engine" args 0.3)
+}
+{"chi-nu2 tank"
+	{on "add_movement_sound" overload
+		{link_sound "rotate_turret" 		"vehicle/turret/medium1"	}
+		{link_sound "move"			"vehicle/tracks/chi-ha"	}
+		{link_sound "engine"			"vehicle/engine/chi-ha"	}
+		{link_sound "engine_end"		"vehicle/engine/mb_end"}
+		{link_sound "exhaust"			"vehicle/engine/mb_up"	}
+		{link_sound "idle"			"vehicle/engine/chi-ha"	}
+	}
+	("burn_by_engine" args 0.3)
+}
+{"ka-chi tank"
+	{on "add_movement_sound" overload
+		{link_sound "rotate_turret" 		"vehicle/turret/medium1"	}
+		{link_sound "move"			"vehicle/tracks/chi-ha"	}
+		{link_sound "engine"			"vehicle/engine/chi-ha"	}
+		{link_sound "engine_end"		"vehicle/engine/mb_end"}
+		{link_sound "exhaust"			"vehicle/engine/mb_up"	}
+		{link_sound "idle"			"vehicle/engine/chi-ha"	}
+	}
+	("burn_by_engine" args 0.3)
+}
+{"type_4_chi_to_late tank"
+	{on "add_movement_sound" overload
+		{link_sound "rotate_turret" 		"vehicle/turret/medium1"}
+		{link_sound "move"			"vehicle/tracks/chi-ha"	}
+		{link_sound "engine"			"vehicle/engine/mk7"	}
+		{link_sound "engine_end"		"vehicle/engine/mk7_end"}
+		{link_sound "exhaust"			"vehicle/engine/mk7_up"	}
+		{link_sound "idle"			"vehicle/engine/chi-ha"	}
+	}
+	("burn_by_engine" args 0.3)
+}
+{"type_5_chi_ri tank"
+	("ho-ri_sound")
+	("burn_by_engine" args 0.3)
+}
+{"m18_vet tank"
+	{on "add_movement_sound" overload
+		{link_sound "move"				"vehicle/tracks/mk2"	}
+		{link_sound "engine"			"vehicle/engine/m18hellcat"		}
+		{link_sound "engine_end"		"vehicle/engine/m4_end"	}
+		{link_sound "rotate_turret" 	"vehicle/turret/sherman"	}
+		{link_sound "exhaust"			"vehicle/engine/m4a2_up"	}
+		{link_sound "idle"			"vehicle/engine/m18hellcat"	}
+	}
+	("burn_by_engine" args 0.3)
+}
+{"m36_elite tank"
+	("m10wolverine_sound")
+	{on "gunner_hatch_open" overload
+		{ani_play "open" -1.0 resume}
+	}
+	("burn_by_engine" args 0.3)
+}
 
 ;================	special
 {"airborne_spawner"

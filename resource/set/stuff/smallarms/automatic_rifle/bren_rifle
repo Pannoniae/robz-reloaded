@@ -1,0 +1,16 @@
+{from "pattern automatic_rifle"
+	{filling "ammo 303-mg" 28}
+	{entity "bren_folded"}
+	{fireSound	"mgun/bren_burst/"}
+	{reloadSound "bren"}
+
+	("spread_bar")
+	("burst_medium")
+	
+	{mass 10.35}
+	{rechargeTime 5}
+	("recoveryTime" r(520))
+	("speed" s(744))
+	
+	("7-7mm_automatic_rifle")
+}

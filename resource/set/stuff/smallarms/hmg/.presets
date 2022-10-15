@@ -1,0 +1,155 @@
+(include "\set\small.firearms.accuracy")
+
+(define "speed"   
+	{speed (* 1.0 %s)}
+)
+
+(define "recoveryTime"   
+	{recoveryTime (/ 60 %r)}
+)
+
+;;==========================================
+;	Zeroing
+;;==========================================
+
+(define "mg_zeroing"
+	{ZeroingAccuracy 1 1 1 1 0.95 0.95 0.95 0.95 0.95 0.90 0.90 0.90 0.90 0.90 0.80 0.80 0.80 0.80 0.80 0.70}
+)
+
+;;==========================================
+;	Bursts/Discipline
+;;==========================================
+
+(define "burst_short"
+	{burst
+		{short 3 0.1}
+		{long 5 1}
+	}	
+)
+
+(define "burst_medium"
+	{burst
+		{short 4 0.1}
+		{long 7 1}
+	}	
+)
+
+(define "burst_long"
+	{burst
+		{short 5 0.1}
+		{long 10 1}
+	}	
+)
+
+;;==========================================
+;	Recoil/Spreading
+;;==========================================
+
+(define "spread_hmg"
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 95 90 85 80 70 55 40 10}
+	}
+)
+
+(define "spread_hmg_mount"
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 95 90 85 80 70 55 40 20}
+	}
+)
+
+(define "spread_hmg_optic"
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 95 90 85 80 70 60 40 30}
+	}
+)
+
+;;==========================================
+;	Weapons
+;;==========================================
+
+(define "12-7mm_nato_hmg"
+	("accuracy_hmg")
+	{healthDamage 75}
+	{projectileDamage 30}
+	{projectileDamageTable {0 14} {50 8} {100 6} {150 5} {200 4}}
+	{projectileDamageThreshold 1.1}
+	{parameters "ap"
+		{projectileDamageTable {0 30} {50 19} {100 12} {150 8} {200 6}}
+	}
+	{parameters "inc"
+		{projectileDamageTable {0 23} {50 16} {100 10} {150 6} {200 5}}
+	}
+	{calibre 12.7}
+)
+
+(define "12-7mm_nato_hmg_mount"
+	("accuracy_hmg_mount")
+	{healthDamage 75}
+	{projectileDamage 30}
+	{projectileDamageTable {0 14} {50 8} {100 6} {150 5} {200 4}}
+	{projectileDamageThreshold 1.1}
+	{parameters "ap"
+		{projectileDamageTable {0 30} {50 19} {100 12} {150 8} {200 6}}
+	}
+	{parameters "inc"
+		{projectileDamageTable {0 23} {50 16} {100 10} {150 6} {200 5}}
+	}
+	{calibre 12.7}
+)
+
+(define "12-7mm_nato_hmg_optic"
+	("accuracy_hmg_optic")
+	{healthDamage 75}
+	{projectileDamage 30}
+	{projectileDamageTable {0 14} {50 8} {100 6} {150 5} {200 4}}
+	{projectileDamageThreshold 1.1}
+	{parameters "ap"
+		{projectileDamageTable {0 30} {50 19} {100 12} {150 8} {200 6}}
+	}
+	{parameters "inc"
+		{projectileDamageTable {0 23} {50 16} {100 10} {150 6} {200 5}}
+	}
+	{calibre 12.7}
+)
+
+(define "12-7mm_rus_hmg"
+	{traceFreq 4}
+	("accuracy_hmg")
+	{healthDamage 75}
+	{projectileDamage 27}
+	{projectileDamageTable {0 21} {50 15} {100 9} {150 6} {200 5}}
+	{projectileDamageThreshold 1.1}
+	{parameters "ap"
+		{projectileDamageTable {0 27} {50 17} {100 11} {150 7} {200 6}}
+	}
+	{calibre 12.7}
+)
+
+(define "12-7mm_rus_hmg_mount"
+	{traceFreq 4}
+	("accuracy_hmg_mount")
+	{healthDamage 75}
+	{projectileDamage 27}
+	{projectileDamageTable {0 21} {50 15} {100 9} {150 6} {200 5}}
+	{projectileDamageThreshold 1.1}
+	{parameters "ap"
+		{projectileDamageTable {0 27} {50 17} {100 11} {150 7} {200 6}}
+	}
+	{calibre 12.7}
+)
+
+(define "12-7mm_rus_hmg_optic"
+	{traceFreq 4}
+	("accuracy_hmg_optic")
+	{healthDamage 75}
+	{projectileDamage 27}
+	{projectileDamageTable {0 21} {50 15} {100 9} {150 6} {200 5}}
+	{projectileDamageThreshold 1.1}
+	{parameters "ap"
+		{projectileDamageTable {0 27} {50 17} {100 11} {150 7} {200 6}}
+	}
+	{calibre 12.7}
+)

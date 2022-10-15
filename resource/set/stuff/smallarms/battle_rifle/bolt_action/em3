@@ -1,0 +1,17 @@
+{from "pattern bolt_action"
+	{filling "ammo 303-rifle" 10}
+	{entity "lee_enfield_mk3"}
+	{mass 3.96}
+	{fireSound "rifle/enfield_shot"}
+	{reloadSound "rifle_bolt_ten"}
+	
+	{recoveryTime 1.8}
+	{rechargeTime 7.5}
+	("sa_mag_reload")
+	("belt_reload_10")
+	("speed" s(744))
+	;("accuracy_boost")
+	("sa_zeroing")
+	
+	("7-7mm_bolt")
+}

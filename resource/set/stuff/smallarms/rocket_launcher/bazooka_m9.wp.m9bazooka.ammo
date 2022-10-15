@@ -1,0 +1,29 @@
+{from "pattern rpg_ammo"
+    {entity "bazooka_wp"}
+    {tag "wp grenade wp_small"}
+    {view "bazooka_wp"
+        {tail "bazooka_tail" "tail"}
+    } 
+    {damage blastwave
+        {energy 1.2}
+        {area 1.5 4}
+    }
+    {damage add blastwave
+        {energy 1.2}
+        {area 4 8}
+    }
+    {damage add blastwave
+        {energy 1.2}
+        {area 9 10}
+    }
+    {damage fire
+        {radius 10}
+        {heating 2}
+        {time 0.1}
+    }
+    {damage add fire
+        {radius 6}
+        {heating 0.01}
+        {time 60}
+    }
+}
