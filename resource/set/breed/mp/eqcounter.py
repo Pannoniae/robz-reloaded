@@ -3,7 +3,7 @@ import shutil
 
 used_skins = set()
 
-for root, dirs, files in os.walk("../"):
+for root, dirs, files in os.walk("./"):
     for name in files:
         with open(os.path.join(root, name)) as f:
             for line in f:
@@ -13,8 +13,8 @@ for root, dirs, files in os.walk("../"):
                     used_skins.add(equipment)
                 except:
                     continue
-print(used_skins)
-for root, dirs, files in os.walk("../../../../entity/inventory/-equipment/head/"):
-    for dir in dirs:
-        if dir not in used_skins and len(dir) > 6:
-            shutil.rmtree(os.path.join(root, dir))
+print(sorted(used_skins))
+#for root, dirs, files in os.walk("../../../entity/inventory/-equipment/head/"):
+#    for dir in dirs:
+#        if dir not in used_skins and len(dir) > 6:
+#            shutil.rmtree(os.path.join(root, dir))
