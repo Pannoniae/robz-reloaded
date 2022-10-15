@@ -43,8 +43,8 @@
 	("phrase_voice" args %0 hun 1 %1)
 	("phrase_voice" args %0 hun 2 %1)
 
-	("phrase_voice" args %0 ita 1 %1)
-	("phrase_voice" args %0 ita 2 %1)
+	;("phrase_voice" args %0 ita 1 %1)
+	;("phrase_voice" args %0 ita 2 %1)
 
 	("phrase_voice" args %0 eng 1 %1)
 	("phrase_voice" args %0 eng 2 %1)
@@ -52,14 +52,14 @@
 	("phrase_voice" args %0 usa 1 %1)
 	("phrase_voice" args %0 usa 2 %1)
 
-	("phrase_voice" args %0 usmc 1 %1)
-	("phrase_voice" args %0 usmc 2 %1)
+	;("phrase_voice" args %0 usmc 1 %1)
+	;("phrase_voice" args %0 usmc 2 %1)
 
 	("phrase_voice" args %0 fra 1 %1)
 	("phrase_voice" args %0 fra 2 %1)
 	
-	("phrase_voice" args %0 jap 1 %1)
-	("phrase_voice" args %0 jap 2 %1)
+	;("phrase_voice" args %0 jap 1 %1)
+	;("phrase_voice" args %0 jap 2 %1)
 )
 
 (define "human_phrases"
