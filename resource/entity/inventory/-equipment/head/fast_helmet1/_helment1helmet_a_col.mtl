@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "$/humanskin/ranger/helmet_a_col"}
-	{blend none}
-}

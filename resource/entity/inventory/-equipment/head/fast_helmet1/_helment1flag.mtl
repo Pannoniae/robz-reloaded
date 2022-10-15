@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "$/humanskin/ranger/flag"}
-	{blend none}
-}

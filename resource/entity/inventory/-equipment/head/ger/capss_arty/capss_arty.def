@@ -1,7 +1,0 @@
-{actor
-	(include "/properties/stuff_small.ext")
-	{extender "stuff"
-		{item "capss_arty"}
-	}
-	{Extension "capss_arty.mdl"}
-}

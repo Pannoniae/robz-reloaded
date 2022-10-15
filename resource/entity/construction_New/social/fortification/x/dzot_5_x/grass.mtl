@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "$/ground/grass/grass"}
-	{blend none}
-}

@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "env_101_07_doghouse_am"}
-	{blend none}
-}

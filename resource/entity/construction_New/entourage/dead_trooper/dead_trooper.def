@@ -1,4 +1,0 @@
-{game_entity
-	{Extension "dead_trooper.mdl"}
-	{props "flag"}
-}

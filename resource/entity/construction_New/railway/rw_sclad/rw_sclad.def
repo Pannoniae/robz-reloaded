@@ -1,8 +1,0 @@
-{game_entity
-	{Extension "rw_sclad.mdl"}
-	{Volume "body"
-		{Tags  "body"}
-		{Thickness 10}
-		{able {visible 1}}
-	}
-}

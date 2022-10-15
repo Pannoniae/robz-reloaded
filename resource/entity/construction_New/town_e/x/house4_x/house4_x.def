@@ -1,4 +1,0 @@
-{game_entity
-	{Extension "house4_x.mdl"}
-	(include "/properties/texmod.inc")
-}

@@ -1,5 +1,0 @@
-{material bump
-	{diffuse "m43 cap"}
-	{bump "m43 bp"}
-	{blend none}
-}

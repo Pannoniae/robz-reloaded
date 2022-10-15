@@ -1,8 +1,0 @@
-{game_entity
-	{Extension "dog_house_01.mdl"}
-	{Volume "body"
-		{Tags  "body"}
-		{Thickness 3}
-		{able {visible 1}}
-	}
-}

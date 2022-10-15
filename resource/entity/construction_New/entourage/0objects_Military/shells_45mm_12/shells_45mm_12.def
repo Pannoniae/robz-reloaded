@@ -1,7 +1,0 @@
-{game_entity
-(include "/properties/building.inc")
-	{obstacleid "unbreakable" "construction" }
-	{props "wood" "no_destroyed_stamp"}
-	{Extension "shells_45mm_12.mdl"}
-	{lodclass "decor_small"}
-}

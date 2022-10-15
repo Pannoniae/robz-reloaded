@@ -1,5 +1,0 @@
-{game_entity
-	{Extension "land_supermarket_rus.mdl"}
-	{Extender "land_patch"
-	}
-}

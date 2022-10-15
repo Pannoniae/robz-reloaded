@@ -1,8 +1,0 @@
-{game_entity
-	{Extension "build_ru_2et_4.mdl"}
-	{Volume "body"
-		{Tags  "body"}
-		{Thickness 20}
-		{able {visible 1}}
-	}
-}

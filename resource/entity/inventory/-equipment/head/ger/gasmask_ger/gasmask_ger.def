@@ -1,8 +1,0 @@
-{actor
-	(include "/properties/stuff_small.ext")
-	{props "mask"} 
-	{extender "stuff"
-		{item "gasmask_ger"}
-	}
-	{Extension "gasmask_ger.mdl"}
-}

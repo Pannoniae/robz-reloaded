@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "env603_washingline"}
-	{blend none}
-}
