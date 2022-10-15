@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "$/humanskin/ranger/headset_col"}
-	{blend none}
-}

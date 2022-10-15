@@ -1,7 +1,0 @@
-{actor
-	(include "/properties/stuff_small.ext")
-	{extender "stuff"
-		{item "fieldcap_ger_tank"}
-	}
-	{Extension "fieldcap_ger.mdl"}
-}

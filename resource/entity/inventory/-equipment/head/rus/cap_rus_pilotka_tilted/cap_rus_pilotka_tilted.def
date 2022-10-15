@@ -1,7 +1,0 @@
-{actor
-	(include "/properties/stuff_small.ext")
-	{extender "stuff"
-		{item "cap_rus_pilotka_tilted"}
-	}
-	{Extension "cap_rus_pilotka_tilted.mdl"}
-}

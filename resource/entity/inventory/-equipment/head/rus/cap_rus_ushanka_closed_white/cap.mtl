@@ -1,6 +1,0 @@
-{material bump
-	{diffuse "ushanka down"}
-	{bump "ushanka down bp"}
-	{color "229 229 229 152"}
-	{blend test}
-}
