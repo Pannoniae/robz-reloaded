@@ -34,19 +34,19 @@
 
 ;°°°Button 2°°°
 
-{"mg34_lafette_fra"	("vs_ffi" c(10) v1(mg34_lafette) t(all 39 40 41 42 43 44 45 only-one) s(fra) n(2) g(c1) b(v2)) {level 1} {cost 110} {fore -2.0}}		;30sec
-{"mg42_lafette_fra"	("vs_ffi" c(10) v1(mg42_lafette) t(all 42 43 44 45 only-one) s(fra) n(2) g(c1) b(v2)) {level 1} {cost 125} {fore -2.0}}			;30sec
-{"5_cm_granatwerfer_36_fra" ("light_mortar" c(10) t(all 44 45 mortar only-one) s(fra) g(c56) b(v2)) {level 1} {cost 130} {fore -2.0}}		;30sec
+{"mg34_lafette_fra"	("vs_ffi" c(10) v1(mg34_lafette) t(all 39 40 41 42 43 44 45 ) s(fra) n(2) g(c1) b(v2)) {level 1} {cost 110} {fore -2.0}}		;30sec
+{"mg42_lafette_fra"	("vs_ffi" c(10) v1(mg42_lafette) t(all 42 43 44 45 ) s(fra) n(2) g(c1) b(v2)) {level 1} {cost 125} {fore -2.0}}			;30sec
+{"5_cm_granatwerfer_36_fra" ("light_mortar" c(10) t(all 44 45 mortar ) s(fra) g(c56) b(v2)) {level 1} {cost 130} {fore -2.0}}		;30sec
 
 {"30_browning_m1919a4_fra"	("vs_ss_noinfo" c(10) v1(30_browning_m1919a4) t(all 39 40 41 42 43 44 45) s(fra) n(2) g(c1) b(v2)) {level 1} {cost 140} {fore -2.0}}		;30sec
 {"50_browning_m2hb_fra"	("vs_ss_noinfo" c(10) v1(50_browning_m2hb) t(all 39 40 41 42 43 44 45) s(fra) n(2) g(c1) b(v2)) {level 1} {cost 215} {fore -2.0}}		;30sec
 {"maxson_fra"	("vs_ss" c(10) v1(maxson) t(all 39 40 41 42 43 44 45) s(fra) n(2) g(c2) b(v2)) {level 1} {cost 255} {fore -4.0}}		;150sec
 {"60mm_brandt_usa_fra"	("vs_ss_noinfo" c(10) v1(60mm_brandt_usa) t(all 39 40 41 42 43 44 45 mortar) s(fra) n(2) g(c14) b(v2)) {level 1} {cost 220} {fore -2.0}}		;30sec
-{"sgrw_34_fra"		("vs_ffi" c(10) v1(sgrw_34) t(all 39 40 41 42 43 44 45 mortar only-one) s(fra) n(2) g(c3) b(v2)) {level 1} {cost 320} {fore -2.0}}		;30sec
+{"sgrw_34_fra"		("vs_ffi" c(10) v1(sgrw_34) t(all 39 40 41 42 43 44 45 mortar ) s(fra) n(2) g(c3) b(v2)) {level 1} {cost 320} {fore -2.0}}		;30sec
 
-{"pak36_fra"		("vs_ffi" c(10) v1(pak36) t(all 44 45 only-one) s(fra) n(2) g(c8) b(v2)) {level 1} {cost 115} {fore -2.0}}				;30sec
-{"pak38_fra"		("vs_ffi" c(10) v1(pak38) t(all 40 41 42 43 44 45 only-one) s(fra) n(2) g(c9) b(v2)) {level 1} {cost 160} {fore -14.0}}			;150sec
-{"np_pak40_fra"		("vs_ffi" c(20) v1(np_pak40) t(all medium 42 43 44 45 only-one) s(fra) n(2) g(c10) b(v2)) {level 1} {cost 380} {fore -19.0}}			;400sec
+{"pak36_fra"		("vs_ffi" c(10) v1(pak36) t(all 44 45 ) s(fra) n(2) g(c8) b(v2)) {level 1} {cost 115} {fore -2.0}}				;30sec
+{"pak38_fra"		("vs_ffi" c(10) v1(pak38) t(all 40 41 42 43 44 45 ) s(fra) n(2) g(c9) b(v2)) {level 1} {cost 160} {fore -14.0}}			;150sec
+{"np_pak40_fra"		("vs_ffi" c(20) v1(np_pak40) t(all medium 42 43 44 45 ) s(fra) n(2) g(c10) b(v2)) {level 1} {cost 380} {fore -19.0}}			;400sec
 
 {"m3cannon_fra"		("vs_ss" c(10) v1(m3cannon) t(all 40 41 42 43 44 45) s(fra) n(2) g(c4) b(v2)) {level 1} {cost 240} {fore -2.0}}			;30sec
 {"m1_57mm_fra"		("vs_ss" c(20) v1(m1_57mm) t(all medium 42 43 44 45) s(fra) n(2) g(c5) b(v2)) {level 1} {cost 315} {fore -14.0}}			;400sec
@@ -72,8 +72,8 @@
 {"m5a1_fra"		("vs_spahi" c(10) v1(m5a1) t(all 44 45) s(fra) n1(3) n2(1) g(d7) b(v3)) {level 1} {cost 300} {fore -42.0}}		;420sec
 {"m19_fra"		("vs_ss" c(10) v1(m19) t(all 45) s(fra) n(4) g(d8) b(v3)) {level 1} {cost 380} {fore -57.0}}		;420sec
 
-{"pz3_fra"		("v_ffi" c(10) v1(pz3) t(all 44 45 only-one) s(fra) n(4) g(d9) b(v3)) {level 1} {cost 360} {fore -42.0}}		;420sec
-{"pz4e_fra"	("v_ffi" c(10) v1(pz4e) t(all 44 45 only-one) s(fra) n(4) g(d10) b(v3)) {level 1} {cost 355} {fore -42.0}}	;460sec
+{"pz3_fra"		("v_ffi" c(10) v1(pz3) t(all 44 45 ) s(fra) n(4) g(d9) b(v3)) {level 1} {cost 360} {fore -42.0}}		;420sec
+{"pz4e_fra"	("v_ffi" c(10) v1(pz4e) t(all 44 45 ) s(fra) n(4) g(d10) b(v3)) {level 1} {cost 355} {fore -42.0}}	;460sec
 
 {"m4a3m"            ("v" c(150) t(deminer) 		s(fra) n1(1) n2(1) g(d11) sc(12.50) b(v3) cw(0) cp(0)) {level 1} {cost 250} {fore 0}}
 
