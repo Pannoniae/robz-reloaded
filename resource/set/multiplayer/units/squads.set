@@ -124,6 +124,18 @@
 		{fore %f}
 	}
 )
+(define "squad_with4types_vehicle"
+	{"%name(%side)"
+		{charge %c}
+		{content "%v1 ( mp/%side/%c1 mp/%side/%c2 mp/%side/%c3 mp/%side/%c4"}
+		{tags "frontline_cp infantry %side %t"}
+		{group "%g"}
+		{button "%b"}
+		{level %level}
+		{cost %cost}
+		{fore %f}
+	}
+)
 (define "squad_with5types"
 	{"%name(%side)"
 		{charge %c}
