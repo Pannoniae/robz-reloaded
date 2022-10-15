@@ -1,6 +1,15 @@
 import zipfile
+import subprocess
 import os
+import shlex
 from zipfile import *
+import shutil
+
+# delete git shit
+try:
+    shutil.rmtree(".git")
+except:
+    print("Couldn't delete git folder, remove it manually")
 
 # go in resource
 os.chdir("resource")
@@ -33,8 +42,13 @@ def zip_dir(dirpath, zippath):
         raise ValueError("invalid dirpath")
 
 # paks
-zip_dir("entity", "entity.pak")
-zip_dir("map", "map.pak")
-zip_dir("sound", "sound.pak")
-zip_dir("texture", "texture.pak")
-zip_dir(["interface", "properties", "script", "set", "SKINCHANGES", "WIP"], "game.pak")
+subprocess.call(shlex.split("D:/path/7z/7z.exe a entity.pak ./entity -mx=7 -mmt=16 -sdel -tzip"))
+subprocess.call(shlex.split("D:/path/7z/7z.exe a map.pak ./map -mx=7 -mmt=16 -sdel -tzip"))
+subprocess.call(shlex.split("D:/path/7z/7z.exe a sound.pak ./sound -mx=7 -mmt=16 -sdel -tzip"))
+subprocess.call(shlex.split("D:/path/7z/7z.exe a texture.pak ./texture -mx=7 -mmt=16 -sdel -tzip"))
+subprocess.call(shlex.split("D:/path/7z/7z.exe a game.pak ./interface -i!./properties -i!./script -i!./set -mx=7 -mmt=16 -sdel -tzip"))
+#zip_dir("entity", "entity.pak")
+#zip_dir("map", "map.pak")
+#zip_dir("sound", "sound.pak")
+#zip_dir("texture", "texture.pak")
+#zip_dir(["interface", "properties", "script", "set"], "game.pak")
