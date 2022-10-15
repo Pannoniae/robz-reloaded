@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "helmet36"}
-	{bump "helmet36 bp"}
-	{specular "helmet36 sp"}
-	{color "229 229 229 152"}
-	{blend test}
-}
