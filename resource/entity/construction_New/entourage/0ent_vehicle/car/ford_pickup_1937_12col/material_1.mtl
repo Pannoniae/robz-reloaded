@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "env420_oldglightvan_01_crash1"}
-	{blend none}
-}

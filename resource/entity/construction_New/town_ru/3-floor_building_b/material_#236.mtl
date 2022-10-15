@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "mtl_z_trba"}
-	{blend none}
-}

@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "$/decor/crash_wood2"}
-	{blend test}
-}

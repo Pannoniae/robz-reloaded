@@ -1,8 +1,0 @@
-{game_entity
-        (include "/properties/building.inc")
-        {obstacleid "unbreakable" "construction" }
-	{props "concrete" "no_destroyed_stamp"}
-	{Extension "building_rus_2.mdl"}
-	{Volume "box01"
-	}
-}

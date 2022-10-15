@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "env625_background_trees"}
-	{blend test}
-}

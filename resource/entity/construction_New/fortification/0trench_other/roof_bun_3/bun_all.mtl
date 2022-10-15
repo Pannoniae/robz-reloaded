@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "$/cut_entity/shellhole_tif"}
-	{blend none}
-}
