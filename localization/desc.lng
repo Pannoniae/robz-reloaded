@@ -1722,6 +1722,9 @@
 				{"volksgren_sl_stg" "<c(c3baae)>Volksgrenadier Gruppenführer [Unteroffizier]"}
 				{"volksgren_smg" "<c(c3baae)>Volksgrenadier"}
 				{"volksgren_stg44" "<c(c3baae)>Volksgrenadier"}
+				{"volksgren_grenadier" "<c(c3baae)>Volksgrenadier Gewehrgranat-schütze"}
+				{"volksgren_at" "<c(c3baae)>Volksgrenadier Panzerschreck Schütze"}
+				{"volksgren_at2" "<c(c3baae)>Volksgrenadier Panzerschreck Schütze asst."}
 			}
 			{"eng"
 				{"ap_miner" "<c(c3baae)>Sapper (AP mines)"}
