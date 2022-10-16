@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "johnson mag"}
-	{blend none}
-}

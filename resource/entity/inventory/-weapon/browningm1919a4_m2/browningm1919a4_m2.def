@@ -1,8 +1,9 @@
-{actor
+{Actor
 	(include "/properties/stuff_small.ext")
-	{Extension "browningm1919a4_m2.mdl"}
+	{Extension "browningm1919a4.mdl"}
 	{extender "stuff"
 		{item "browning_m1919a4"}
 	}
 	{nogroupmesh 1}
+	{lodclass "human"}
 }

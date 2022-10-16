@@ -1,6 +1,0 @@
-{from "mg34_optic"
-	{filling "ammo mg_mauser" 500}
-	
-	{rechargeTime 16}
-	("recoveryTime" r(1600))
-}

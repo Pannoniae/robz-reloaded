@@ -1,8 +1,0 @@
-{Actor
-	(include "/properties/stuff_small.ext")
-	{Extension "sg44_scope.mdl"}
-	{extender "stuff"
-		{item "sg44_scope"}
-	}
-	{nogroupmesh 1}	
-}

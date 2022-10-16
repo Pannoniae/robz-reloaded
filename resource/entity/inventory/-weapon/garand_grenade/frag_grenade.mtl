@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "garand frag grenade"}
-	{blend none}
-}

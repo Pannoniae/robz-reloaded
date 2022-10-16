@@ -1,8 +1,0 @@
-{Actor
-	(include "/properties/stuff_small.ext")
-	{Extension "mp40_folded.mdl"}
-	{extender "stuff"
-		{item "mp40_folded"}
-	}
-	{nogroupmesh 1}	
-}

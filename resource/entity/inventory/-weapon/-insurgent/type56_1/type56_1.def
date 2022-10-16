@@ -1,9 +1,0 @@
-{Actor
-	(include "/properties/stuff_small.ext")
-	{Extension "type56-1.mdl"}
-	{Volume "body"}
-	{extender "stuff"
-		{item "type56_1"}
-	}
-}
-

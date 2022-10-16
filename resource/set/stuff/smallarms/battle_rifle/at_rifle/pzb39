@@ -1,9 +1,0 @@
-{from "pattern at_rifle"
-	{entity "pzb39"}
-	{reloadSound "rifle_at"}
-	{mass 12}
-	
-	("accuracy_at_rifle_bolt")
-	{projectileDamageTable {0 37} {50 30} {100 22} {150 13} {200 5}}
-	("speed" s(1210))
-}

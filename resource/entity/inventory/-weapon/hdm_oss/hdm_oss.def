@@ -1,8 +1,0 @@
-{Actor
-	(include "/properties/stuff_small.ext")
-	{Extension "hdm.mdl"}
-	{extender "stuff"
-		{item "hdm_oss"}
-	}
-	{nogroupmesh 1}	
-}

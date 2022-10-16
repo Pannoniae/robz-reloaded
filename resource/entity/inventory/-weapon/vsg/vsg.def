@@ -1,8 +1,8 @@
-{Actor
+{actor
 	(include "/properties/stuff_small.ext")
-	{Extension "vg.mdl"}
+	{extension "vsg.mdl"}
 	{extender "stuff"
 		{item "vsg"}
 	}
-	{nogroupmesh 1}	
+	{nogroupmesh 1}
 }

@@ -1,8 +1,0 @@
-{actor
-	(include "/properties/stuff_small.ext")
-	{extension "breda30.mdl"}
-	{extender "stuff"
-		{item "breda_30"}
-	}
-	{nogroupmesh 1}
-}

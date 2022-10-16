@@ -1,8 +1,8 @@
-{Actor
+{actor
 	(include "/properties/stuff_small.ext")
-	{Extension "mg34_st.mdl"}
+	{extension "mg34_t.mdl"}
 	{extender "stuff"
-		{item "mg34_optic"}
+		{item "mg34_stan"}
 	}
-	{nogroupmesh 1}	
+	{nogroupmesh 1}
 }

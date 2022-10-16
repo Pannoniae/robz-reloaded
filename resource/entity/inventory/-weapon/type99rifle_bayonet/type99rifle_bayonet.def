@@ -1,8 +1,9 @@
-{actor
+{Actor
 	(include "/properties/stuff_small.ext")
-	{Extension "type99rifle_bayonet.mdl"}
+	{Extension "arisaka_type_99b.mdl"}
 	{extender "stuff"
 		{item "type99rifle_bayonet"}
 	}
 	{nogroupmesh 1}
+	{lodclass "human"}
 }

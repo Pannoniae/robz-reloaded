@@ -50,7 +50,7 @@
 {"type93scout"      ("v" c(10) t(all light 42 43 44 45) s(jap) n1(4) n2(1) g(d1) sc(8.00) b(v3) cw(0) cp(5)) {level 1} {cost 160} {fore -24.0}}	;250sec
 {"ha-go"            ("v" c(10) t(all light 42 43 44 45) s(jap) n1(2) n2(1) g(d2) sc(12.00) b(v3) cw(0) cp(5)) {level 1} {cost 200} {fore -29.0}}	;300sec
 {"ke-nu"            ("v" c(10) t(all light 44 45) 	s(jap) n1(2) n2(1) g(d3) sc(13.00) b(v3) cw(0) cp(5)) {level 1} {cost 220} {fore -35.0}}	;360sec
-{"ka-mi"            ("v" c(10) t(all light 42 43 44 45) 	s(jap) n1(4) n2(1) g(d3) sc(13.00) b(v3) cw(0) cp(5)) {level 1} {cost 260} {fore -35.0}}	;360sec
+{"ka-mi"            ("v" c(10) t(all light 42 43 44 45) 	s(jap) n1(3) n2(1) g(d3) sc(13.00) b(v3) cw(0) cp(5)) {level 1} {cost 260} {fore -35.0}}	;360sec
 
 {"chi-ha57"         ("v" c(10) t(all light 42 43 44 45) s(jap) n1(3) n2(1) g(d4) sc(15.00) b(v3) cw(0) cp(5)) {level 1} {cost 260} {fore -41.0}};420sec
 {"chi-ha47_1944"         ("v" c(10) t(all light 42 43 44 45) s(jap) n1(4) n2(1) g(d5) sc(16.00) b(v3) cw(0) cp(5)) {level 1} {cost 320} {fore -45.0}};460sec
@@ -65,7 +65,7 @@
 
 {"chi-he_1944"           ("v" c(10) t(all medium 43 44 45) 	s(jap) n1(3) n2(1) g(e1) sc(17.50) b(v4) cw(0) cp(15)) {level 1} {cost 300} {fore -49.0}}	;500sec
 {"ho-i"             ("v" c(10) t(all medium 42 43 44 45) s(jap) n1(3) n2(1) g(e2) sc(19.00) b(v4) cw(0) cp(15)) {level 1} {cost 380} {fore -49.0}}	;500sec
-{"chi-ha120"        ("v" c(10) t(all medium 44 45) 	s(jap) n1(3) n2(1) g(e3) sc(25.00) b(v4) cw(0) cp(15)) {level 1} {cost 500} {fore -59.0}}	;600sec
+{"chi-ha120"        ("v" c(10) t(all medium 44 45) 	s(jap) n1(4) n2(1) g(e3) sc(25.00) b(v4) cw(0) cp(15)) {level 1} {cost 500} {fore -59.0}}	;600sec
 {"chi-nu"           ("v" c(10) t(all medium 44 45) 	s(jap) n1(3) n2(1) g(e4) sc(18.50) b(v4) cw(0) cp(15)) {level 1} {cost 370} {fore -59.0}}	;600sec
 {"chi-nu2"           ("v" c(60) t(all medium 44 45) 	s(jap) n1(4) n2(1) g(e4) sc(18.50) b(v4) cw(0) cp(15)) {level 1} {cost 525} {fore -14.0}}	;900sec
 
@@ -77,10 +77,10 @@
 
 ;°°°Button 5°°°
 
-{"ho-ni1"           ("v"  c(10) t(all medium 42 43 44 45) s(jap) n1(2) n2(1) g(f1) sc(18.00) b(v5) cw(0) cp(10)) {level 1} {cost 360} {fore -59.0}}		;600sec
-{"ho-ni_3"          ("v"  c(10) t(all medium 44 45) s(jap) n1(2) n2(1) g(f2) sc(18.00) b(v5) cw(0) cp(10)) {level 1} {cost 400} {fore -59.0}}			;600sec
-{"ho-ri_1"     	    ("v"  c(800) t(all sheavy 44 45) 	s(jap) n1(3) n2(1) g(f3) sc(70.00) b(v5) cw(0) cp(40)) {level 1} {cost 1400} {fore -1.0}}		;1600sec
-{"ho-ri"      	    ("v"  c(690) t(all sheavy 44 45) 	s(jap) n1(3) n2(1) g(f4) sc(80.00) b(v5) cw(0) cp(40)) {level 1} {cost 1600} {fore -1.0}}		;1380sec
+{"ho-ni1"           ("v"  c(10) t(all medium 42 43 44 45) s(jap) n1(3) n2(1) g(f1) sc(18.00) b(v5) cw(0) cp(10)) {level 1} {cost 360} {fore -59.0}}		;600sec
+{"ho-ni_3"          ("v"  c(10) t(all medium 44 45) s(jap) n1(3) n2(1) g(f2) sc(18.00) b(v5) cw(0) cp(10)) {level 1} {cost 400} {fore -59.0}}			;600sec
+{"ho-ri_1"     	    ("v"  c(800) t(all sheavy 44 45) 	s(jap) n1(4) n2(1) g(f3) sc(70.00) b(v5) cw(0) cp(40)) {level 1} {cost 1400} {fore -1.0}}		;1600sec
+{"ho-ri"      	    ("v"  c(690) t(all sheavy 44 45) 	s(jap) n1(4) n2(1) g(f4) sc(80.00) b(v5) cw(0) cp(40)) {level 1} {cost 1600} {fore -1.0}}		;1380sec
 
 
 

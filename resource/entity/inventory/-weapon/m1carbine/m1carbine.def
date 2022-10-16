@@ -1,8 +1,12 @@
-{game_entity
+{Actor
 	(include "/properties/stuff_small.ext")
-	{extension "m1carbine.mdl"}
+
+
+
+	{Extension "m1carbine.mdl"}
 	{extender "stuff"
 		{item "m1_carbine"}
 	}
 	{nogroupmesh 1}
+	{lodclass "human"}
 }

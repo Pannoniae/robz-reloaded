@@ -1,8 +1,0 @@
-{game_entity
-	(include "/properties/stuff_small.ext")
-	{extension "m2_carbine.mdl"}
-	{extender "stuff"
-		{item "m2_carbine"}
-	}
-	{nogroupmesh 1}
-}

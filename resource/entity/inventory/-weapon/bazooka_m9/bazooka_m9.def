@@ -1,6 +1,6 @@
-{Actor
+{actor
 	(include "/properties/stuff_small.ext")
-	{Extension "m9bazooka.mdl"}
+	{extension "m9_bazooka.mdl"}
 	{extender "stuff"
 		{item "bazooka_m9"}
 	}

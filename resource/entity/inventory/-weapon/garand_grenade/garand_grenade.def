@@ -1,6 +1,6 @@
 {actor
 	(include "/properties/stuff_small.ext")
-	{extension "garand_grenade.mdl"}
+	{extension "m1garand.mdl"}
 	{extender "stuff"
 		{item "garand_grenade"}
 	}

@@ -1,5 +1,6 @@
 {mod
-	{name "robz realism mod 1.28.6 fixpatch dev"}
+	{name "RobZ Reloaded 0.2.1 dev"}
+    {desc "A derivative project of RobZ Realism, with inspiration and content from other mods such as Emergence, GSM, et cetera. Compiled and coded by Pannoniae, localization work by KRIEG."}
 	
 	{minGameVersion "3.262.1"}
 	{maxGameVersion "3.262.1"}

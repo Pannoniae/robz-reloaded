@@ -1,8 +1,0 @@
-{Actor
-	(include "/properties/stuff_small.ext")
-	{Extension "welrod.mdl"}
-	{extender "stuff"
-		{item "muffledpistol"}
-	}
-	{nogroupmesh 1}	
-}

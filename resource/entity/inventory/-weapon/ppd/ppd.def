@@ -1,8 +1,9 @@
-{Actor
+{actor
 	(include "/properties/stuff_small.ext")
-	{Extension "ppd.mdl"}
+	{Extension "ppd_1940.mdl"}
 	{extender "stuff"
-		{item "ppd40"}
+		{item "ppd_40"}
 	}
-	{nogroupmesh 1}	
+	{nogroupmesh 1}
+	{lodclass "human"}
 }

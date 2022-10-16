@@ -34,6 +34,7 @@
 	 
 	{extender "inventory"
 		{box
+			{item "ammo bullet75 japs aphe" 10}
 			{item "ammo bullet75 japs fg" 41}
 			{item "ammo bullet75 japs heat" 10}
 			{item "ammo type97_mag" 2200}

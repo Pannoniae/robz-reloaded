@@ -1,8 +1,0 @@
-{Actor
-	(include "/properties/stuff_small.ext")
-	{Extension "mg42_drum_folded.mdl"}
-	{extender "stuff"
-		{item "mg42"}
-	}
-	{nogroupmesh 1}	
-}

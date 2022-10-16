@@ -1,6 +1,6 @@
 {from "pattern automatic_rifle"
 	{filling "ammo 303-mg" 28}
-	{entity "bren_folded"}
+	{entity "bren"}
 	{fireSound	"mgun/bren_burst/"}
 	{reloadSound "bren"}
 

@@ -39,6 +39,8 @@
 	{extender "inventory"
 		{box
 			{item "ammo bullet75 japl aphe" 40}
+			{item "ammo bullet75 japl aphe2" 10}
+			{item "ammo bullet75 japl aphe3" 5}
 			{item "ammo bullet75 japl fg" 32}
 			{item "type99_mg" filled {user "mgun"}}
 			{item "ammo type99_mag" 600}

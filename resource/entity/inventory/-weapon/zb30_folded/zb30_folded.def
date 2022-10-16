@@ -1,8 +1,0 @@
-{game_entity
-	(include "/properties/stuff_small.ext")
-	{Extension "zb30_folded.mdl"}
-	{extender "stuff"
-		{item "zb30_folded"}
-	}
-	{nogroupmesh 1}
-}
