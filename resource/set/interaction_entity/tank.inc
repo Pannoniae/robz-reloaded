@@ -9,21 +9,6 @@
     (define "damage_process_pierce" ;by Svoyak  ;define's call's see in tank-armoredcar.inc, tank-light.inc, tank-medium.inc & tank-heavy.inc.
 ;=================================
         {if stuff "%staff"
-			{if component "shield"
-				{if stuff "heat_shell"
-					{tags add "shell_shattered"}
-					{bullet_detonate}
-					{delay 0.1
-						{tags remove "shell_shattered"}
-					}
-				else stuff "bazooka"
-					{tags add "shell_shattered"}
-					{bullet_detonate}
-					{delay 0.1
-						{tags remove "shell_shattered"}
-					}
-				}
-			}
 			{if not stuff "capped"
 			{if rand %shell_shatter
 				{tags add "shell_shattered"}

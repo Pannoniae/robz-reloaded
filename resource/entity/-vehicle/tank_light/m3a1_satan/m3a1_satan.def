@@ -61,9 +61,9 @@
 			{weapon "flame_thrower_tank" filled}
 			{foresight "foresight1"}
 			{foresight "foresight7"}
-			{foresight "foresight8"}
-			{foresight "foresight9"}
-			{foresight "foresight10"}
+			;{foresight "foresight8"}
+			;{foresight "foresight9"}
+			;{foresight "foresight10"}
 			{charger "gunner"}
 			{basic}
 		}

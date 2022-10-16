@@ -2,18 +2,18 @@
 	{sound "detonation/explosion wp"}
 	{#+ particleview "smoke particles"
 		{generator
-			{totalparticles 26}
+			{totalparticles 28}
 			{emissionarea
 				{radius 1 1}
 				{alpha0 0}
-				{alpha1 90}
+				{alpha1 100}
 			}
 			{particleinit
-				{speed 6 4}
-				{lifetime 27.5 2.5}
+				{speed 5.5 2.5}
+				{lifetime 72.5 2.5}
 			}
 			{timetolive 0.1}
-			{particlesinblock 26}
+			{particlesinblock 28}
 			{axisz}
 		}
 		{mover
@@ -21,6 +21,7 @@
 				{value 0}
 			}
 			{damping 0.96}
+			{nodependonwind}
 		}
 		{visualizer
 			{stage 
@@ -54,19 +55,19 @@
 	}
 	{#+ particleview smoke
 		{generator
-			{totalparticles 26}
+			{totalparticles 28}
 			{emissionarea
 				{radius 25 25}
 				{alpha0 0}
-				{alpha1 90}
+				{alpha1 100}
 				{distributionlaw sphere}
 			}
 			{particleinit
-				{speed 2 2}
-				{lifetime 27.5 2.5}
+				{speed 2.5 1.5}
+				{lifetime 72.5 2.5}
 			}
 			{timetolive 0.1}
-			{particlesinblock 26}
+			{particlesinblock 28}
 			{axisz}
 		}
 		{mover
@@ -74,6 +75,7 @@
 				{value 0}
 			}
 			{damping 0.99}
+			{nodependonwind}
 		}
 		{visualizer
 			{stage 
@@ -234,18 +236,18 @@
 	}
 	{#+ particleview smoke
 		{generator
-			{totalparticles 26}
+			{totalparticles 28}
 			{emissionarea
 				{radius 10 10}
 				{alpha0 0}
-				{alpha1 90}
+				{alpha1 100}
 			}
 			{particleinit
-				{speed 10.5 9.5}
-				{lifetime 27.5 2.5}
+				{speed 10 5}
+				{lifetime 72.5 2.5}
 			}
 			{timetolive 0.1}
-			{particlesinblock 26}
+			{particlesinblock 28}
 			{axisz}
 		}
 		{mover
@@ -253,6 +255,7 @@
 				{value 0}
 			}
 			{damping 0.9}
+			{nodependonwind}
 		}
 		{visualizer
 			{stage 
@@ -311,18 +314,18 @@
 	}
 	{#+ particleview "smoke particles"
 		{generator
-			{totalparticles 26}
+			{totalparticles 28}
 			{emissionarea
 				{radius 1 1}
 				{alpha0 0}
-				{alpha1 90}
+				{alpha1 100}
 			}
 			{particleinit
 				{speed 2 1}
-				{lifetime 27.5 2.5}
+				{lifetime 72.5 2.5}
 			}
 			{timetolive 0.1}
-			{particlesinblock 26}
+			{particlesinblock 28}
 			{axisz}
 		}
 		{mover
@@ -330,6 +333,7 @@
 				{value 0}
 			}
 			{damping 0.99}
+			{nodependonwind}
 		}
 		{visualizer
 			{stage 
@@ -575,7 +579,7 @@
 			}
 			{damping 0.99}
 			{collisions
-				{objects}
+				{## objects}
 				{terrain}
 				{restitution 0.2}
 			}
@@ -614,6 +618,17 @@
 				}
 				{flags ground }
 			}
+		}
+	}
+	{#+ particleview "smoke zone"
+		{entitygenerator
+			{totalparticles 1}
+			{particlesinblock 1}
+			{particleinit
+				{speed 0}
+				{lifetime 0}
+			}
+			{entity "smoke_zone_wp_big"}
 		}
 	}
 }

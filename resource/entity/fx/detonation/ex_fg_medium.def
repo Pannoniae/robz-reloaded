@@ -1502,4 +1502,16 @@
 			}
 		}
 	}
+	{#+ particleview killzone
+		{entitygenerator
+			{emissionarea}
+			{particleinit
+				{speed 0}
+				{lifetime 1}
+			}
+			{entity "killzone_medium"}
+			{totalparticles 1}
+			{particlesinblock 1}
+		}
+	}
 }

@@ -430,7 +430,7 @@
 		}
 		{##+ notifyowner}
 	}
-	{#+ particleview kaboom
+	{##+ particleview kaboom
 		{#+ generator
 			{particlesinblock 1}
 			{totalparticles 1}
@@ -791,7 +791,7 @@
 		{notifyowner}
 		{autovisible}
 	}
-	{#+ spriteview halo2
+	{##+ spriteview halo2
 		{sprite "$/flash/halo01"
 			{timer
 				{mode }
@@ -1976,6 +1976,7 @@
 							{max 0}
 						}
 					}
+					{highlight 0xfffea652}
 				}
 				{##+ sprite "$/_bmp/smoke/smokeend_loop"
 					{timer

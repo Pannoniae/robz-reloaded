@@ -285,10 +285,10 @@
 			{"allies_west" "ALLIES"}
 			{"allies_rus" "SOVIET Eastern Front (Red Army)"}
 			{"allies_rus_guard" "SOVIET Eastern Front (Guards Army)"}
-			{"allies_eng" "ALLIES Western Front (England)"}
+			{"allies_eng" "ALLIES Western Front (UK)"}
 			{"allies_usa" "ALLIES Western Front (USA)"}
 			{"allies_fra" "ALLIES Western Front (Free French)"}
-			{"allies_realistic" "ALLIES Western Front (Eng/USA/Fra)"}
+			{"allies_realistic" "ALLIES Western Front (UK/USA/Fra)"}
 			{"allies" "ALLIES/SOVIET"}
 			{"allies_ussr" "SOVIET Eastern Front (USSR)"}
 			{"allies_pacific" "ALLIES Pacific (USMC)"}

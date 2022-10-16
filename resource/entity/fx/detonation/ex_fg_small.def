@@ -279,7 +279,7 @@
 			{timetolive 0.01}
 			{axisz}
 		}
-		{offset 0 0 20}
+		{offset 0 0 10}
 		{mover
 			{damping 0.97}
 			{gravity

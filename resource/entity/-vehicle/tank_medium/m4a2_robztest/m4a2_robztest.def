@@ -43,8 +43,6 @@
 
 	{component "shieldl1" {tags "shield"}}
 	{component "shieldl2" {tags "shield"}}
-	{component "shieldr1" {tags "shield"}}
-	{component "shieldr2" {tags "shield"}}
 
 	
 	("crew_5_human")

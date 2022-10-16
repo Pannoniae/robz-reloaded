@@ -540,226 +540,226 @@
 
 
 (define "accuracy_zenite_low"		 ;orignal value before veterancy increase multiplied by 1.5
-	("accuracy_curve_190m" r1(1.30)) ;0,7 ;old 1.40
+	("accuracy_curve_190m" r1(0.7)) ;0,7 ;old 1.40
 )
 (define "accuracy_zenite_medium"
-	("accuracy_curve_190m" r1(1.15)) ;0,6 ;old 1.25
+	("accuracy_curve_190m" r1(0.6)) ;0,6 ;old 1.25
 )
 (define "accuracy_zenite_high"
-	("accuracy_curve_190m" r1(1.0)) ;0,5 ;old 1.10
+	("accuracy_curve_190m" r1(0.5)) ;0,5 ;old 1.10
 )
 (define "accuracy_minimum" 
-	("accuracy_curve_190m" r1(1.10)) ;0,8 ;old 1.20
+	("accuracy_curve_190m" r1(0.8)) ;0,8 ;old 1.20
 )	
 (define "accuracy_low" 
-	("accuracy_curve_190m" r1(1.05)) ;0,75 ;old 1.125
+	("accuracy_curve_190m" r1(0.75)) ;0,75 ;old 1.125
 )
 (define "accuracy_low_10m_he" 
-	("accuracy_curve_190m_10m_he" r1(1.05)) ;0,75 ;old 1.125
+	("accuracy_curve_190m_10m_he" r1(0.75)) ;0,75 ;old 1.125
 )
 (define "accuracy_medium" 
-	("accuracy_curve_190m" r1(1.0)) ;0,70 ;old 1.05
+	("accuracy_curve_190m" r1(0.7)) ;0,70 ;old 1.05
 )
 (define "accuracy_sup" 
-	("accuracy" r1(0.85) r2(1.95) r3(2.75) r4(3.75))
+	("accuracy" r1(0.65) r2(1.65) r3(2.45) r4(3.4))
 )
 (define "accuracy_extralong" 
-	("accuracy" r1(0.6) r2(1.2) r3(1.5) r4(2))
+	("accuracy" r1(0.4) r2(0.9) r3(1.1) r4(1.7))
 )
 (define "accuracy_long" 
-	("accuracy" r1(0.7) r2(1.5) r3(2) r4(2.7))
+	("accuracy" r1(0.5) r2(1.2) r3(1.7) r4(2.4))
 )
 (define "accuracy_short" 
-	("accuracy" r1(0.9) r2(2.1) r3(3) r4(4.1))
+	("accuracy" r1(0.7) r2(1.8) r3(2.7) r4(3.7))
 )
 (define "accuracy_zenite_small" 
-	("accuracy" r1(0.85) r2(1.95) r3(2.65) r4(3.65))
+	("accuracy" r1(0.65) r2(1.75) r3(2.45) r4(3.35))
 )
 (define "accuracy_zenite_big" 
-	("accuracy" r1(0.75) r2(1.65) r3(2.25) r4(3.05))
+	("accuracy" r1(0.55) r2(1.45) r3(2.05) r4(2.85))
 	{range 150 170}	
 )
 
 (define "accuracy_artillery" 
-	("accuracy_arty" r1(4) r2(8) r3(12) r4(16) r5(21) r6(27))
+	("accuracy_arty" r1(3) r2(7) r3(10) r4(14) r5(18) r6(24))
 )
 (define "accuracy_karl" 
-	("accuracy_arty" r1(5) r2(10) r3(15) r4(20) r5(25) r6(27))
+	("accuracy_arty" r1(3) r2(7) r3(10) r4(17) r5(24) r6(27))
 )
 (define "accuracy_medium_10m_he" 
-	("accuracy_curve_190m_10m_he" r1(1.0)) ;0,70 ;old 1.05
+	("accuracy_curve_190m_10m_he" r1(0.7)) ;0,70 ;old 1.05
 )
 (define "accuracy_medium_200m" 
-	("accuracy_curve_200m" r1(1.0)) ;0,70 ;old 1.05
+	("accuracy_curve_200m" r1(0.7)) ;0,70 ;old 1.05
 )
 (define "accuracy_medium_200m_10m_he" 
-	("accuracy_curve_200m_10m_he" r1(1.0)) ;0,70 ;old 1.05
+	("accuracy_curve_200m_10m_he" r1(0.7)) ;0,70 ;old 1.05
 )
 (define "accuracy_high" 
-	("accuracy_curve_200m" r1(0.95)) ;0,65
+	("accuracy_curve_200m" r1(0.65)) ;0,65
 )
 (define "accuracy_high_vet" 
-	("accuracy_curve_200m_vet" r1(0.95)) ;0,65
+	("accuracy_curve_200m_vet" r1(0.65)) ;0,65
 )
 (define "accuracy_high_10m_he" 
-	("accuracy_curve_200m_10m_he" r1(0.95)) ;0,65
+	("accuracy_curve_200m_10m_he" r1(0.65)) ;0,65
 )
 (define "accuracy_high_210m" 
-	("accuracy_curve_210m" r1(0.95)) ;0,65
+	("accuracy_curve_210m" r1(0.65)) ;0,65
 )
 (define "accuracy_high_210m_10m_he" 
-	("accuracy_curve_210m_10m_he" r1(0.95)) ;0,65
+	("accuracy_curve_210m_10m_he" r1(0.65)) ;0,65
 )
 (define "accuracy_high_210m_vet" 
-	("accuracy_curve_210m_vet" r1(0.95)) ;0,65
+	("accuracy_curve_210m_vet" r1(0.65)) ;0,65
 )
 (define "accuracy_high_220m_vet" 
-	("accuracy_curve_220m_vet" r1(0.95)) ;0,65
+	("accuracy_curve_220m_vet" r1(0.65)) ;0,65
 )
 (define "accuracy_maximum_200m" 
-	("accuracy_curve_200m" r1(0.925)) ;0,6
+	("accuracy_curve_200m" r1(0.6)) ;0,6
 )
 (define "accuracy_maximum_210m" 
-	("accuracy_curve_210m" r1(0.925)) ;0,6
+	("accuracy_curve_210m" r1(0.6)) ;0,6
 )
 (define "accuracy_maximum_210m_10m_he" 
-	("accuracy_curve_210m_10m_he" r1(0.925)) ;0,6
+	("accuracy_curve_210m_10m_he" r1(0.6)) ;0,6
 )
 (define "accuracy_maximum" 
-	("accuracy_curve_220m" r1(0.925)) ;0,6
+	("accuracy_curve_220m" r1(0.6)) ;0,6
 )
 (define "accuracy_maximum_vet" 
-	("accuracy_curve_220m_vet" r1(0.925)) ;0,6
+	("accuracy_curve_220m_vet" r1(0.6)) ;0,6
 )
 (define "accuracy_maximum_10m_he" 
-	("accuracy_curve_220m_10m_he" r1(0.925)) ;0,6
+	("accuracy_curve_220m_10m_he" r1(0.6)) ;0,6
 )
 (define "accuracy_maximum_230m" 
-	("accuracy_curve_230m" r1(0.925)) ;0,6
+	("accuracy_curve_230m" r1(0.6)) ;0,6
 )
 (define "accuracy_maximum_230m_10m_he" 
-	("accuracy_curve_230m_10m_he" r1(0.925)) ;0,6
+	("accuracy_curve_230m_10m_he" r1(0.6)) ;0,6
 )
 (define "accuracy_maximum_230m_vet" 
-	("accuracy_curve_230m_vet" r1(0.925)) ;0,6
+	("accuracy_curve_230m_vet" r1(0.6)) ;0,6
 )
 (define "accuracy_maximum_240m"
-	("accuracy_curve_240m" r1(0.925)) ;0,6
+	("accuracy_curve_240m" r1(0.6)) ;0,6
 )
 (define "accuracy_maximum_240m_10m_he"
-	("accuracy_curve_240m_10m_he" r1(0.925)) ;0,6
+	("accuracy_curve_240m_10m_he" r1(0.6)) ;0,6
 )
 (define "accuracy_maximum_240m_vet" 
-	("accuracy_curve_240m_vet" r1(0.925)) ;0,6
+	("accuracy_curve_240m_vet" r1(0.6)) ;0,6
 )
 (define "accuracy_maximum_250m_vet"
-	("accuracy_curve_250m_vet" r1(0.925)) ;0,6
+	("accuracy_curve_250m_vet" r1(0.6)) ;0,6
 )
 (define "accuracy_max_high" 
-	("accuracy_curve_230m" r1(0.90)) ;0,55
+	("accuracy_curve_230m" r1(0.55)) ;0,55
 )
 (define "accuracy_max_high_10m_he" 
-	("accuracy_curve_230m_10m_he" r1(0.90)) ;0,55
+	("accuracy_curve_230m_10m_he" r1(0.55)) ;0,55
 )
 (define "accuracy_max_high_17pdr" 
-	("accuracy_curve_230m_17pdr" r1(0.90)) ;0,55
+	("accuracy_curve_230m_17pdr" r1(0.55)) ;0,55
 )
 (define "accuracy_max_high_240m" 
-	("accuracy_curve_240m" r1(0.90)) ;0,55
+	("accuracy_curve_240m" r1(0.55)) ;0,55
 )
 (define "accuracy_max_high_240m_10m_he" 
-	("accuracy_curve_240m_10m_he" r1(0.90)) ;0,55
+	("accuracy_curve_240m_10m_he" r1(0.55)) ;0,55
 )
 (define "accuracy_max_high_240m_17pdr" 
-	("accuracy_curve_240m_17pdr" r1(0.90)) ;0,55
+	("accuracy_curve_240m_17pdr" r1(0.55)) ;0,55
 )
 (define "accuracy_max_high_250m_vet" 
-	("accuracy_curve_250m_vet" r1(0.90)) ;0,55
+	("accuracy_curve_250m_vet" r1(0.55)) ;0,55
 )
 (define "accuracy_max_high_250m_17pdr" 
-	("accuracy_curve_250m_17pdr" r1(0.90)) ;0,55
+	("accuracy_curve_250m_17pdr" r1(0.55)) ;0,55
 )
 (define "accuracy_max" 
-	("accuracy_curve_250m" r1(0.875)) ;0,5
+	("accuracy_curve_250m" r1(0.5)) ;0,5
 	{parameters "fg"
 		{gravity 5}
 	}
 )
 (define "accuracy_max_10m_he" 
-	("accuracy_curve_250m_10m_he" r1(0.875)) ;0,5
+	("accuracy_curve_250m_10m_he" r1(0.5)) ;0,5
 	{parameters "fg"
 		{gravity 5}
 	}
 )
 (define "accuracy_max_vet" 
-	("accuracy_curve_250m_vet" r1(0.875)) ;0,5
+	("accuracy_curve_250m_vet" r1(0.5)) ;0,5
 	{parameters "fg"
 		{gravity 5}
 	}
 )
 (define "accuracy_max_260m" 
-	("accuracy_curve_260m" r1(0.875)) ;0,5
+	("accuracy_curve_260m" r1(0.5)) ;0,5
 	{parameters "fg"
 		{gravity 5}
 	}
 )
 (define "accuracy_max_260m_10m_he" 
-	("accuracy_curve_260m_10m_he" r1(0.875)) ;0,5
+	("accuracy_curve_260m_10m_he" r1(0.5)) ;0,5
 	{parameters "fg"
 		{gravity 5}
 	}
 )
 (define "accuracy_max_270m_vet" 
-	("accuracy_curve_270m" r1(0.875)) ;0,5
+	("accuracy_curve_270m" r1(0.5)) ;0,5
 	{parameters "fg"
 		{gravity 5}
 	}
 )
 
 (define "accuracy_lighthowitzer_m8"	;for m8
-	("accuracy_curve_direct_howitz_180m" r1(0.975) heat(1.125) ap(1.05)) ;0,65 0,75 0,7
+	("accuracy_curve_direct_howitz_180m" r1(0.65) heat(0.75) ap(0.7)) ;0,65 0,75 0,7
 )
 (define "accuracy_lighthowitzer_leig"	;for leig 18
-	("accuracy_curve_direct_howitz_180m" r1(1.125) heat(1.125) ap(1.05)) ;0,75 0,75 0,7
+	("accuracy_curve_direct_howitz_180m" r1(0.75) heat(0.75) ap(0.7)) ;0,75 0,75 0,7
 )
 (define "accuracy_grazinghowitzer_sig"	;for sig33b
-	("accuracy_curve_direct_howitz_190m" r1(1.35) heat(1.35) ap(1.35)) ;0,9 0,9 0,9
+	("accuracy_curve_direct_howitz_190m" r1(0.9) heat(0.9) ap(0.9)) ;0,9 0,9 0,9
 )
 (define "accuracy_lighthowitzer"	;for other 75mm direct howitzers
-	("accuracy_curve_direct_howitz_180m" r1(1.05) heat(1.125) ap(1.05)) ;0,7 0,75 0,7
+	("accuracy_curve_direct_howitz_180m" r1(0.7) heat(0.75) ap(0.7)) ;0,7 0,75 0,7
 	{parameters "fg"
 		{gravity 10}
 	}
 )
 (define "accuracy_grazinghowitzer_190m"	;for low velocity direct howitzers
-	("accuracy_curve_direct_howitz_190m" r1(1.20) heat(1.20) ap(1.125)) ;0,8 0,8 0,75
+	("accuracy_curve_direct_howitz_190m" r1(0.8) heat(0.8) ap(0.75)) ;0,8 0,8 0,75
 )
 (define "accuracy_grazinghowitzer"	;for 150mm direct howitzers
-	("accuracy_curve_direct_howitz_200m" r1(1.05) heat(1.05) ap(0.90)) ;0,7 0,7 0,6
+	("accuracy_curve_direct_howitz_200m" r1(0.7) heat(0.7) ap(0.6)) ;0,7 0,7 0,6
 	{parameters "fg"
 		{gravity 10}
 	}
 )
 (define "accuracy_grazinghowitzer_210m"	;super large caliber or high velocity direct howitzers
-	("accuracy_curve_direct_howitz_210m" r1(0.975) heat(0.975) ap(0.825)) ;0,65 0,65 0,55
+	("accuracy_curve_direct_howitz_210m" r1(0.65) heat(0.65) ap(0.55)) ;0,65 0,65 0,55
 	{parameters "fg"
 		{gravity 10}
 	}
 )
 (define "accuracy_grazinghowitzer_220m"	;super large caliber or high velocity direct howitzers
-	("accuracy_curve_direct_howitz_220m" r1(0.975) heat(0.975) ap(0.825)) ;0,65 0,65 0,55
+	("accuracy_curve_direct_howitz_220m" r1(0.65) heat(0.65) ap(0.55)) ;0,65 0,65 0,55
 	{parameters "fg"
 		{gravity 10}
 	}
 )
 (define "accuracy_grazinghowitzer_high"	;for 105mm base direct howitzers
-	("accuracy_curve_direct_howitz_190m" r1(0.90) heat(1.05) ap(0.825)) ;0,6 0,7 0,55
+	("accuracy_curve_direct_howitz_190m" r1(0.6) heat(0.7) ap(0.55)) ;0,6 0,7 0,55
 	{parameters "fg"
 		{gravity 10}
 	}
 )
 (define "accuracy_grazinghowitzer_high_200m" ;for 122mm base direct howitzers
-	("accuracy_curve_direct_howitz_200m" r1(0.90) heat(1.05) ap(0.825)) ;0,6 0,7 0,55
+	("accuracy_curve_direct_howitz_200m" r1(0.6) heat(0.7) ap(0.55)) ;0,6 0,7 0,55
 	{parameters "fg"
 		{gravity 10}
 	}

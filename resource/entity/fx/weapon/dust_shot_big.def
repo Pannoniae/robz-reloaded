@@ -23,14 +23,14 @@
 					{scale 1
 						{linear
 							{min 0.1}
-							{max 7}
+							{max 6}
 						}
 					}
 					{highlight 0xff0a0a0a}
 					{visibility 1
 						{peak
 							{min 0}
-							{max 0.65}
+							{max 0.4}
 						}
 					}
 					{preturn 90 90}
@@ -41,26 +41,26 @@
 		{notifyowner}
 	}
 	{#+ particleview dust
-		{#+ delay 0.03}
+		{delay 0.02}
 		{generator
-			{totalparticles 80}
+			{totalparticles 100}
 			{emissionarea
-				{radius 60 40}
+				{radius 75 65}
 				{alpha0 0}
 				{alpha1 0}
 			}
 			{particleinit
 				{speed 0.5 0.5}
-				{lifetime 4.5 3.5}
+				{lifetime 8.5 7.5}
 			}
 			{axisz}
-			{particlesinblock 80}
+			{particlesinblock 100}
 			{timetolive 0.01}
 		}
-		{offset 0 0 20}
+		{offset 0 0 5}
 		{mover
 			{gravity
-				{value 0.01}
+				{value 0.001}
 			}
 			{damping 0.8}
 		}
@@ -75,10 +75,15 @@
 					{turn 1
 						{linear
 							{min 0}
-							{max 0 100}
+							{max 0 200}
 						}
 					}
-					{scale 1.25 0.75}
+					{scale 0
+						{linear
+							{min 1.35 0.65}
+							{max 4 2}
+						}
+					}
 					{visibility 1
 						{linear
 							{min 1}
@@ -92,16 +97,95 @@
 						{duration -1}
 					}
 					{preturn 90 90}
+					{scale 0
+						{linear
+							{min 1.25 0.75}
+							{max 2.5 0.5}
+						}
+					}
+					{visibility 1
+						{linear
+							{min 0.5}
+							{max 0}
+						}
+					}
+				}
+				{sprite "$/smoke/smokesmal4c"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{preturn 90 90}
 					{turn 1
 						{linear
 							{min 0}
-							{max 0 100}
+							{max 0 200}
 						}
 					}
-					{scale 1.25 0.75}
+					{scale 0
+						{linear
+							{min 3 1}
+							{max 6 2}
+						}
+					}
 					{visibility 1
 						{linear
-							{min 0.25}
+							{min 0.4 0.2}
+							{max 0}
+						}
+					}
+				}
+			}
+		}
+		{notifyowner}
+	}
+	{#+ particleview dust
+		{delay 0.02}
+		{generator
+			{totalparticles 50}
+			{emissionarea
+				{radius 112.5 62.5}
+				{alpha0 0}
+				{alpha1 0}
+			}
+			{particleinit
+				{speed 0.5 0.5}
+				{lifetime 8.5 7.5}
+			}
+			{axisz}
+			{particlesinblock 50}
+			{timetolive 0.01}
+		}
+		{offset 0 0 5}
+		{mover
+			{gravity
+				{value 0.001}
+			}
+			{damping 0.8}
+		}
+		{visualizer
+			{stage 
+				{sprite "$/smoke/smokesmal4c"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{preturn 90 90}
+					{turn 1
+						{linear
+							{min 0}
+							{max 0 200}
+						}
+					}
+					{scale 0
+						{linear
+							{min 0.85 0.15}
+							{max 3 2}
+						}
+					}
+					{visibility 1
+						{linear
+							{min 0.75 0.25}
 							{max 0}
 						}
 					}

@@ -1,4 +1,23 @@
-			{"axis_realistic" 
+			{"axis" 
+				{title "mp/alliance/axis"}
+				{armies "ger"}
+				{armies "ger2"}
+				{armies "jap"}
+				{armies "ger_ss"}
+				{armies "hun"}
+				{icon "/interface/pages/multi/flag_axis"}
+			}
+            {"allies"
+				{title "mp/alliance/allies"}
+				{armies "usa"}
+				{armies "usmc"}
+				{armies "eng"}
+				{armies "fra"}
+				{armies "rus"}
+				{armies "rus_guard"}
+				{icon "/interface/pages/multi/flag_allies"}
+			}
+            {"axis_realistic" 
 				{title "mp/alliance/axis_realistic"}
 				{armies "ger"}
 				{armies "ger2"}
@@ -11,11 +30,6 @@
 				{armies "eng"}
 				{armies "fra"}
 				{icon "/interface/pages/multi/flag_allies_realistic"}
-			}
-			{"allies_pacific"
-				{title "mp/alliance/allies_pacific"}
-				{armies "usmc"}
-				{icon "/interface/pages/multi/flag_usmc"}
 			}
 			{"allies_west"
 				{title "mp/alliance/allies_west"}
@@ -57,15 +71,6 @@
 				{armies "ger_ss"}
 				{icon "/interface/pages/multi/flag_ger_ss"}
 			}
-			{"axis" 
-				{title "mp/alliance/axis"}
-				{armies "ger"}
-				{armies "ger2"}
-				{armies "jap"}
-				{armies "ger_ss"}
-				{armies "hun"}
-				{icon "/interface/pages/multi/flag_axis"}
-			}
 			
 			{"allies_rus"
 				{title "mp/alliance/allies_rus"}
@@ -82,41 +87,19 @@
 				{armies "usa"}
 				{icon "/interface/pages/multi/flag_usa"}
 			}
+            {"allies_pacific"
+				{title "mp/alliance/allies_pacific"}
+				{armies "usmc"}
+				{icon "/interface/pages/multi/flag_usmc"}
+			}
 			{"allies_eng"
 				{title "mp/alliance/allies_eng"}
 				{armies "eng"}
 				{icon "/interface/pages/multi/flag_eng"}
 			}
-			
-			
-			{"axis_ger-ger2" 
-				{title "mp/alliance/axis_ger-ger2"}
-				{armies "ger"}
-				{armies "ger2"}
-				{icon "/interface/pages/multi/flag_ger"}
-			}
-			
-			{"axis_ss-ger2" 
-				{title "mp/alliance/axis_ss-ger2"}
-				{armies "ger_ss"}
-				{armies "ger2"}
-				{icon "/interface/pages/multi/flag_ger"}
-			}
 			{"allies_fra"
 				{title "mp/alliance/allies_fra"}
 				{armies "fra"}
 				{icon "/interface/pages/multi/flag_fra"}
-			}
-			
-			
-			{"allies"
-				{title "mp/alliance/allies"}
-				{armies "usa"}
-				{armies "usmc"}
-				{armies "eng"}
-				{armies "fra"}
-				{armies "rus"}
-				{armies "rus_guard"}
-				{icon "/interface/pages/multi/flag_allies"}
 			}
 			

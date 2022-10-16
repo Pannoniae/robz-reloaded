@@ -297,7 +297,7 @@
 		}
 		{notifyowner}
 	}
-	{particleview "burner particles"
+	{#+ particleview "burner particles"
 		{entitygenerator
 			{emissionarea
 				{alpha0 0}
@@ -305,11 +305,31 @@
 				{speed 0.6}
 			}
 			{particleinit
-				{speed 28.5 1.5}
+				{speed 33.5 1.5}
 				{lifetime 1}
 			}
 			{entity "fx_piece_flame"}
 			{totalparticles 75}
+			{timetolive 2}
+			{## ownerspeed}
+		}
+		{## offset 0 0 10}
+	}
+	{##+ particleview things
+		{entitygenerator
+			{emissionarea
+				{alpha0 0}
+				{alpha1 0}
+				{speed 0.2}
+			}
+			{particleinit
+				{speed 25 10}
+				{lifetime 1}
+			}
+			{entity "fx_piece"
+				{fx "flame_drop"}
+			}
+			{totalparticles 25}
 			{timetolive 2}
 			{## ownerspeed}
 		}

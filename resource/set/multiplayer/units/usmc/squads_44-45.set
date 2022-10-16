@@ -17,14 +17,14 @@
 
 ;------------------------------marine squad || vet 4/5-----------------------------------------------------------
 
-("squad_with6types" side(usmc) name(specialinf) c(0) g(squad_3) c1(marine_sl_43:1) c2(marine_sl_asst:3) c3(marine_rifle:2) c4(marine_grenadier:1) c5(marine_bar:3) c6(marine_bar_asst:3) b(squad1) t(all inf_only 44 45) level(1) cost(200) f(1.0))
-("squad_with7types" side(usmc) name(specialinf_assault) c(0) g(squad_3) c1(engineer_sl:1) c2(engineer_sl_asst:3) c3(engineer_rifle:3) c4(engineer_grenadier:1) c5(engineer_at:1) c6(engineer_at_asst:1) c7(engineer_flamer:3) b(squad1) t(all inf_only 44 45) level(1) cost(186) f(1.0))
+("squad_with6types" side(usmc) name(specialinf) c(10) g(squad_3) c1(marine_sl_43:1) c2(marine_sl_asst:3) c3(marine_rifle:2) c4(marine_grenadier:1) c5(marine_bar:3) c6(marine_bar_asst:3) b(squad1) t(all inf_only 44 45) level(1) cost(200) f(1.0))
+("squad_with7types" side(usmc) name(specialinf_assault) c(10) g(squad_3) c1(engineer_sl:1) c2(engineer_sl_asst:3) c3(engineer_rifle:3) c4(engineer_grenadier:1) c5(engineer_at:1) c6(engineer_at_asst:1) c7(engineer_flamer:3) b(squad1) t(all inf_only 44 45) level(1) cost(186) f(1.0))
 
-("squad_with6types" side(usmc) name(specialinf_vet) c(0) g(squad_3) c1(marine_vet_sl:1) c2(marine_vet_sl_asst:3) c3(marine_vet_rifle:2) c4(marine_vet_grenadier:1) c5(marine_vet_bar:3) c6(marine_vet_bar_asst:3) b(squad1) t(all inf_only 44 45) level(1) cost(235) f(1.0))
+("squad_with6types" side(usmc) name(specialinf_vet) c(10) g(squad_3) c1(marine_vet_sl:1) c2(marine_vet_sl_asst:3) c3(marine_vet_rifle:2) c4(marine_vet_grenadier:1) c5(marine_vet_bar:3) c6(marine_vet_bar_asst:3) b(squad1) t(all inf_only 44 45) level(1) cost(235) f(1.0))
 
-("squad_with7types_vehicle" side(usmc) name(lvt_specialinf) c(10) g(squad_33) v1(lvt4_wb) c1(vehicle_supporter:3) c2(marine_sl_43:1) c3(marine_sl_asst:3) c4(marine_rifle:2) c5(engineer_grenadier:1) c6(marine_bar:3) c7(marine_bar_asst:3) b(squad1) t(all inf_only 44 45) level(5) cost(320) f(-23.0)) ;240sec
+("squad_with7types_vehicle" side(usmc) name(lvt_specialinf) c(180) g(squad_33) v1(lvt4_wb) c1(vehicle_supporter:3) c2(marine_sl_43:1) c3(marine_sl_asst:3) c4(marine_rifle:2) c5(engineer_grenadier:1) c6(marine_bar:3) c7(marine_bar_asst:3) b(squad1) t(all inf_only 44 45) level(5) cost(320) f(-23.0)) ;240sec
 
-("squad_with7types_vehicle" side(usmc) name(lvt_specialinf_vet) c(10) g(squad_33) v1(lvt4_wb) c1(vehicle_supporter:3) c2(marine_vet_sl:1) c3(marine_vet_sl_asst:3) c4(marine_vet_rifle:2) c5(marine_vet_grenadier:1) c6(marine_vet_bar:3) c7(marine_vet_bar_asst:3) b(squad1) t(all inf_only 44 45) level(5) cost(350) f(-23.0)) ;240sec
+("squad_with7types_vehicle" side(usmc) name(lvt_specialinf_vet) c(180) g(squad_33) v1(lvt4_wb) c1(vehicle_supporter:3) c2(marine_vet_sl:1) c3(marine_vet_sl_asst:3) c4(marine_vet_rifle:2) c5(marine_vet_grenadier:1) c6(marine_vet_bar:3) c7(marine_vet_bar_asst:3) b(squad1) t(all inf_only 44 45) level(5) cost(350) f(-23.0)) ;240sec
 
 ;------------------------------paramarine squad ||| vet 6-----------------------------------------------------------
 
