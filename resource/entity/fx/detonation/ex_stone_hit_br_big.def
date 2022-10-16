@@ -1387,4 +1387,16 @@
 		}
 		{delay 0.1}
 	}
+	{#+ particleview killzone
+		{entitygenerator
+			{emissionarea}
+			{particleinit
+				{speed 0}
+				{lifetime 1}
+			}
+			{entity "killzone_big"}
+			{totalparticles 1}
+			{particlesinblock 1}
+		}
+	}
 }

@@ -462,6 +462,12 @@
     {content "%c1 ( mp/%s/%n1 ) %c1 ( mp/%s/%n1 ) %c2 ( mp/%s/%n1 ) %c2 ( mp/%s/%n1 )"}
 )
 
+; 4 vehicles - 2 infantry types
+(define "v42"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%c1 ( mp/%s/%n1 ) %c1 ( mp/%s/%n1 ) %c2 ( mp/%s/%n2 ) %c2 ( mp/%s/%n2 )"}
+)
+
 ; 2 vehicles - 2 infantry types
 (define "2v"
     ("generic_h" c(%c) t(%t %s) g(%g) b(%b))

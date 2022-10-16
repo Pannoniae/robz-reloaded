@@ -94,7 +94,7 @@
 	{extender "inventory"
 		{box
             		{item "ammo bullet105 us fg" 44}
-            		{item "ammo bullet105 us wp" 12}
+            		{item "ammo bullet105 us wp" 8}
             		{item "ammo bullet105 us heat" 4}
 			{item "browning" filled {user "mgun"}}
 			{item "ammo hmgun" 1500}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "mp28 barrel"}
+	{blend none}
+}

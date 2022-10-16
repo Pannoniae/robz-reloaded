@@ -1,5 +1,5 @@
 {fx
-	{spriteview start
+	{#+ spriteview start
 		{sprite "$/particle/bloodspot02"
 			{visibility 1
 				{linear
@@ -8,7 +8,7 @@
 				}
 			}
 			{timer
-				{duration 10}
+				{duration 3000}
 			}
 			{scale 0.175 0.025}
 			{preturn 90 90}

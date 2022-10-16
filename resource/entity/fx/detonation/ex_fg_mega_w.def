@@ -2223,7 +2223,7 @@
 				{lifetime 11.5 3.5}
 			}
 			{axisz}
-			{timetolive 30}
+			{timetolive 10}
 		}
 		{offset 0 0 -10}
 		{mover

@@ -1,7 +1,7 @@
 {fx
 	{particleview "240 shells"
 		{entitygenerator
-			{totalparticles 1}
+			{totalparticles 3}
 			{particlesinblock 1}
 			{emissionarea
 				{radius 500 500}

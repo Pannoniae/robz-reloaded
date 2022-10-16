@@ -2633,7 +2633,7 @@
 		{"hero_amphibious_usmc" "Amphibious Assault"}
 		{"hero_satan_usmc" "M3A1 Satan"}
 		{"hero_crocodile_usmc" "M4A3R2 Crocodile"}
-		{"hero_sherman_usmc" "M4A2 Sherman Battlegroup"}
+		{"hero_sherman_usmc" "Tank Battlegroup"}
 		{"hero_m7_usmc" "Two M7 Priest artillery tanks"}
 		{"hero_support_usmc""Support weapon platoon"}
 		{"hero_m4a3e8_usmc" "M4A3E8(76)W Veteran"}
@@ -5002,6 +5002,10 @@
 			{"mgun_rear" "<f(arial_hq)><c(20a601)>Rear</c>"}
 			{"mgun_right" "<f(arial_hq)><c(20a601)>Right</c>"}
 			{"mgun_left" "<f(arial_hq)><c(20a601)>Left</c>"}
+            {"mgun_middle_left" "<f(arial_hq)><c(20a601)>Middle left</c>"}
+            {"mgun_middle_right" "<f(arial_hq)><c(20a601)>Middle right</c>"}
+            {"mgun_front_left" "<f(arial_hq)><c(20a601)>Front left</c>"}
+            {"mgun_front_right" "<f(arial_hq)><c(20a601)>Front right</c>"}
 		}
 		;new weapons
 		{"1xsmokegun" "1 x smoke gun"}

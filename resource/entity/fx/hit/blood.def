@@ -8,7 +8,7 @@
 				}
 			}
 			{timer
-				{duration 10}
+				{duration 3000}
 			}
 			{scale 0.125 0.025}
 			{preturn 90 90}
@@ -26,7 +26,7 @@
 				}
 			}
 			{timer
-				{duration 7}
+				{duration 3000}
 			}
 			{scale 0.325 0.025}
 			{preturn 90 90}
@@ -35,5 +35,4 @@
 		{layer groundshadow}
 		{notifyowner}
 	}
-	{sound "human/hit/impact_flesh1"}
 }

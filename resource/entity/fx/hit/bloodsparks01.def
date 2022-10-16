@@ -6,19 +6,19 @@
 			{emissionarea
 				{radius 0}
 				{alpha0 1 0.5}
-				{alpha1 0.2 0.7}
+				{alpha1 12.5 12.5}
 			}
 			{particleinit
 				{speed 0.1 1.1}
-				{lifetime 0.3 0.1}
+				{lifetime 0.6 0.4}
 			}
 			{timetolive 0.05}
 		}
 		{mover
 			{gravity
-				{value -0.01}
+				{value 0.05}
 			}
-			{damping 0.81}
+			{damping 0.95}
 			{collisions
 				{terrain}
 				{restitution 0.4}
@@ -30,8 +30,8 @@
 				{sprite "$/particle/bloodspot03"
 					{scale 1
 						{linear
-							{min 0.0075 0.0025}
-							{max 0.04 0.01}
+							{min 0.0175 0.0125}
+							{max 0.05 0.02}
 						}
 					}
 					{visibility 1
@@ -50,7 +50,6 @@
 						{mode play }
 						{duration -1}
 					}
-					;{preturn 180 90}
 				}
 			}
 		}

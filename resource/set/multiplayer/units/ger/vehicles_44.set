@@ -150,7 +150,7 @@
 ("squad_with14types" side(ger) name(hero_ger_volks) c(260) g(h22) c1(volksgren_sl_stg:2) c2(volksgren_sl_smg:1) c3(volksgren_sl_asst:3) c4(volksgren_stg44:5) c5(volksgren_pzfst2:2) c6(volksgren_smg:1) c7(volksgren_sa:3) c8(volksgren_rifle:6) c9(volksgren_mg:2) c10(volksgren_mg_asst:1) c11(volksgren_mg_asst3:1) c12(volksgren_grenadier:3) c13(volksgren_at:1) c14(volksgren_at2:1) b(hero) t(all hero 44 45) level(1) cost(4) f(-0.5))
 {"heronew2_ger"	    ("v1" c(360) c1(marder_3m)		t(all hero 44) s(ger) n1(tankman:3) n2(tankman2:1) g(h2) b(hero)) {level 1} {cost 4.0} {fore -0.5}}
 
-{"hero7_ger"        ("v1" c(480) c1(nebelwerfer41) 	t(all hero artillery rocket 44) s(ger) n1(vehicle_supporter:2) n2(tankman2:0) g(h4) b(hero)) {level 1} {cost 4.0} {fore -0.5}}
+{"hero7_ger"        ("v1" c(480) c1(sdkfz4) 	t(all hero artillery rocket 44) s(ger) n1(vehicle_supporter:2) n2(tankman2:0) g(h4) b(hero)) {level 1} {cost 4.0} {fore -0.5}}
 {"hero6_ger"	    ("v1" c(500) c1(stuh42) 		t(all hero 44) s(ger) n1(tankman:4) n2(tankman2:1) g(h5) b(hero)) {level 1} {cost 4.0} {fore -0.5}}
 {"hero10_ger"	    ("v2" c(500) c1(pz4h_vet)		t(all hero 44) s(ger) n1(tankman:4) n2(tankman2:1) g(h6) b(hero)) {level 1}  {cost 7.0} {fore -0.5}}
 

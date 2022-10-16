@@ -8,7 +8,7 @@
 				}
 			}
 			{timer
-				{duration 300}
+				{duration 3000}
 			}
 			{scale 0.125 0.025}
 			{preturn 90 90}
@@ -26,13 +26,13 @@
 				}
 			}
 			{timer
-				{duration 300}
+				{duration 3000}
 			}
 			{scale 0.325 0.025}
 			{preturn 90 90}
 		}
 		{ground}
-                {layer groundshadow}
+		{layer groundshadow}
 		{notifyowner}
 	}
 }
