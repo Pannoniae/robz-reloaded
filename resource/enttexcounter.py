@@ -20,9 +20,11 @@ os.chdir("./texture/common")
 for root, dirs, files in os.walk("./humanskin"):
     for file in files:
         path = os.path.join(root, os.path.splitext(file)[0]).removeprefix(".").replace("\\", "/").lower()
-        #print(path)
+        filename = os.path.splitext(file)[0]
+        print(path)
         if path not in used_texs and ("#1" not in path and "#d" not in path and "#burned" not in path):
             print("NOTIN:"+path)
+            #print(filename)
             #os.remove(os.path.join(root, file))
             pass
         else:
@@ -55,7 +57,7 @@ for root, dirs, files in os.walk("./humanskin"):
         path = os.path.join(root, os.path.splitext(file)[0]).removeprefix(".").replace("\\", "/").lower()
         filename = os.path.splitext(file)[0]
         #print(path)
-        if orig_path.endswith(".dds")  and filename not in used_texs_local and ("#1" not in path and "#d" not in path and "#burned" not in path):
+        if orig_path.endswith(".dds") and filename not in used_texs_local and ("#1" not in path and "#d" not in path and "#burned" not in path):
             print("NOTIN2:"+orig_path)
             #os.remove(os.path.join(root, file))
             pass
