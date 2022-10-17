@@ -5232,6 +5232,7 @@
 		{"105mm_m4a3_2" "105mm M4<c(ffffff)>\n Range - <c(ff0000)>380 m<c(ffffff)>\n Barrage - <c(ffaf00)>4 shells<c(ffffff)>\n Muzzle velocity - 472 m/s\n Accuracy - <c(ff0000)>Low"}
 		{"105mm_stuh42" "105mm StuH 42<c(ffffff)>\n Range - <c(ffaf00)>190 m<c(ffffff)>\n Penetration APC - <c(ff0000)>78 - 57 mm<c(ffffff)>\n Muzzle velocity - 475 m/s\n Accuracy - <c(ff0000)>Low"}
 		{"105mm_stuh42_vet" "105mm StuH 42<c(ffffff)>\n Range - <c(ffaf00)>200 m<c(ffffff)>\n Penetration APC - <c(ff0000)>78 - 57 mm<c(ffffff)>\n Muzzle velocity - 475 m/s\n Accuracy - <c(ff0000)>Low"}
+		{"105mm_type5" "105mm Type 5<c(ffffff)>\n Range - <c(00ff04)>250 m<c(ffffff)>\n Penetration APHE - <c(00ff04)>233 - 140 mm<c(ffffff)>\n Muzzle velocity - 915 m/s\n Accuracy - <c(00ff04)>Maximum"} ;the gun file is incorrectly named
 		{"105mm_type6" "105mm Type 5<c(ffffff)>\n Range - <c(00ff04)>250 m<c(ffffff)>\n Penetration APHE - <c(00ff04)>233 - 140 mm<c(ffffff)>\n Muzzle velocity - 915 m/s\n Accuracy - <c(00ff04)>Maximum"} ;the gun file is incorrectly named
 		{"105mm_type91" "105mm Type 91<c(ffffff)>\n Range - <c(ff0000)>360 m<c(ffffff)>\n Barrage - <c(ffaf00)>4 shells<c(ffffff)>\n Muzzle velocity - 546 m/s\n Accuracy - <c(ff0000)>Low"}
 		{"105mm_type91_2" "105mm Type 91<c(ffffff)>\n Range - <c(ffaf00)>190 m<c(ffffff)>\n Muzzle velocity - 546 m/s\n Accuracy - <c(ff0000)>Low"}

@@ -421,15 +421,21 @@
 	{extender "supply_zone"
 		{resupply
 			{item "mauser_clip" "mauser" "ammo" 50 {max 100}}
+			{item "g43_mag" "mauser" "ammo" 20 {max 80}}
+			{item "fg42_mag" "ammo" 20 {max 160}}
 			{item "mosin_clip" "ammo" 50 {max 100}}
 			{item "walther_mag" "ammo" 32 {max 32}}
+			{item "mp28_mag" "ammo" 90 {max 180}}
+			{item "mp28_50_mag" "ammo" 50 {max 150}}
 			{item "c96_mag" "ammo" 60 {max 120}}
 			{item "mp40_mag" "ammo" 96 {max 256}}
 			{item "danuvia_mag" "ammo" 160 {max 320}}
 			{item "stg44_mag" "ammo" 90 {max 240}}
-			{item "mg_mauser" "belt" "ammo" 250 {max 1500}}
-			{item "k98_grenade" "fg" 1 {max 10}}
-			{item "k98_grenade" "ap" 1 {max 5}}
+			{item "mg_mauser" "drum" "ammo" 100 {max 300}}
+			{item "mg_mauser" "belt" "ammo" 100 {max 1500}}
+			{item "zb30_mag" "ammo" 60 {max 600}}
+			{item "k98_grenade" "fg" 1 {max 10}{value 2}}
+			{item "k98_grenade" "ap" 1 {max 5}{value 2}}
 			{item "mortar_flaer" "ammo" 1 {max 5}{value 15}}
 			{item "nagant_clip" "ammo" 28 {max 28}}
 			{item "tt_mag" "ammo" 32 {max 32}}
@@ -450,11 +456,11 @@
 			{item "bandage"	1 {max 3}}
 			{item "ptr" "ammo" 10 {max 35}}
 			{item "panzershreck" "ammo" 4 {max 8}}
-			{item "mortar50" "ger" "fg" "ammo" 3 {max 100}{value 2}}
-			{item "mortar81" "ger" "fg" "ammo" 3 {max 100}{value 2}}
-			{item "mortar81" "ger" "sm" "ammo" 3 {max 100}{value 2}}
-			{item "mortar120" "ger" "fg" "ammo" 2 {max 100}{value 2}}
-			{item "mortar120" "ger" "sm" "ammo" 2 {max 100}{value 2}}
+			{item "mortar50" "ger" "fg" "ammo" 2 {max 100}{value 2}}
+			{item "mortar81" "ger" "fg" "ammo" 2 {max 100}{value 3}}
+			{item "mortar81" "ger" "sm" "ammo" 2 {max 100}{value 3}}
+			{item "mortar120" "ger" "fg" "ammo" 1 {max 100}{value 6}}
+			{item "mortar120" "ger" "sm" "ammo" 1 {max 100}{value 6}}
 			;
 			{item "bullet20" "ger" "zenite" "ap" "ammo" 10 {max 1000}{value 2}}
 			{item "bullet20" "ger" "zenite" "fg" "ammo" 10 {max 1000}{value 2}}
@@ -805,15 +811,21 @@
 	{extender "supply_zone"
 		{resupply
 			{item "mauser_clip" "mauser" "ammo" 50 {max 100}}
+			{item "g43_mag" "mauser" "ammo" 20 {max 80}}
+			{item "fg42_mag" "ammo" 20 {max 160}}
 			{item "mosin_clip" "ammo" 50 {max 100}}
 			{item "walther_mag" "ammo" 32 {max 32}}
 			{item "c96_mag" "ammo" 60 {max 120}}
+			{item "mp28_mag" "ammo" 90 {max 180}}
+			{item "mp28_50_mag" "ammo" 50 {max 150}}
 			{item "mp40_mag" "ammo" 96 {max 256}}
 			{item "danuvia_mag" "ammo" 160 {max 320}}
 			{item "stg44_mag" "ammo" 90 {max 240}}
+			{item "mg_mauser" "drum" "ammo" 100 {max 400}}
 			{item "mg_mauser" "belt" "ammo" 250 {max 1500}}
-			{item "k98_grenade" "fg" 1 {max 10}}
-			{item "k98_grenade" "ap" 1 {max 5}}
+			{item "zb30_mag" "ammo" 60 {max 300}}
+			{item "k98_grenade" "fg" 1 {max 10}{value 2}}
+			{item "k98_grenade" "ap" 1 {max 5}{value 2}}
 			{item "mortar_flaer" "ammo" 1 {max 5}{value 15}}
 			{item "nagant_clip" "ammo" 28 {max 28}}
 			{item "tt_mag" "ammo" 32 {max 32}}
@@ -834,9 +846,9 @@
 			{item "bandage"	1 {max 3}}
 			{item "ptr" "ammo" 10 {max 35}}
 			{item "panzershreck" "ammo" 4 {max 8}}
-			{item "mortar50" "ger" "fg" "ammo" 3 {max 100}{value 2}}
-			{item "mortar81" "ger" "fg" "ammo" 3 {max 100}{value 2}}
-			{item "mortar81" "ger" "sm" "ammo" 3 {max 100}{value 2}}
+			{item "mortar50" "ger" "fg" "ammo" 2 {max 100}{value 2}}
+			{item "mortar81" "ger" "fg" "ammo" 2 {max 100}{value 3}}
+			{item "mortar81" "ger" "sm" "ammo" 2 {max 100}{value 3}}
 			{item "bullet37" "ger" "ap" "ammo" 3 {max 100}{value 3}}
 			{item "bullet37" "ger" "fg" "ammo" 3 {max 100}{value 3}}
 		}
@@ -857,15 +869,21 @@
 	{extender "supply_zone"
 		{resupply
 			{item "mauser_clip" "mauser" "ammo" 50 {max 100}}
+			{item "g43_mag" "mauser" "ammo" 20 {max 80}}
+			{item "fg42_mag" "ammo" 20 {max 160}}
 			{item "mosin_clip" "ammo" 50 {max 100}}
 			{item "walther_mag" "ammo" 32 {max 32}}
+			{item "mp28_mag" "ammo" 90 {max 180}}
+			{item "mp28_50_mag" "ammo" 50 {max 150}}
 			{item "c96_mag" "ammo" 60 {max 120}}
 			{item "mp40_mag" "ammo" 96 {max 256}}
 			{item "danuvia_mag" "ammo" 160 {max 320}}
 			{item "stg44_mag" "ammo" 90 {max 240}}
+			{item "mg_mauser" "drum" "ammo" 50 {max 400}}
 			{item "mg_mauser" "belt" "ammo" 250 {max 1500}}
-			{item "k98_grenade" "fg" 1 {max 10}}
-			{item "k98_grenade" "ap" 1 {max 5}}
+			{item "zb30_mag" "ammo" 60 {max 300}}
+			{item "k98_grenade" "fg" 1 {max 10}{value 2}}
+			{item "k98_grenade" "ap" 1 {max 5}{value 2}}
 			{item "mortar_flaer" "ammo" 1 {max 5}{value 15}}
 			{item "nagant_clip" "ammo" 28 {max 28}}
 			{item "tt_mag" "ammo" 32 {max 32}}
@@ -886,11 +904,11 @@
 			{item "bandage"	1 {max 3}}
 			{item "ptr" "ammo" 10 {max 35}}
 			{item "panzershreck" "ammo" 4 {max 8}}
-			{item "mortar50" "ger" "fg" "ammo" 3 {max 100}{value 2}}
-			{item "mortar81" "ger" "fg" "ammo" 3 {max 100}{value 2}}
-			{item "mortar81" "ger" "sm" "ammo" 3 {max 100}{value 2}}
-			{item "bullet37" "ger" "ap" "ammo" 3 {max 100}{value 3}}
-			{item "bullet37" "ger" "fg" "ammo" 3 {max 100}{value 3}}
+			{item "mortar50" "ger" "fg" "ammo" 2 {max 10}{value 2}}
+			{item "mortar81" "ger" "fg" "ammo" 2 {max 10}{value 3}}
+			{item "mortar81" "ger" "sm" "ammo" 2 {max 10}{value 3}}
+			{item "bullet37" "ger" "ap" "ammo" 3 {max 10}{value 3}}
+			{item "bullet37" "ger" "fg" "ammo" 3 {max 10}{value 3}}
 		}
 		{radius 			12}		;resupply radius in meter
 		{resupplyPeriod 	5}		;resupply period in seconds
@@ -909,15 +927,20 @@
 	{extender "supply_zone"
 		{resupply
 			{item "mauser_clip" "mauser" "ammo" 50 {max 100}}
+			{item "g43_mag" "mauser" "ammo" 20 {max 80}}
+			{item "fg42_mag" "ammo" 20 {max 160}}
 			{item "mosin_clip" "ammo" 50 {max 100}}
 			{item "walther_mag" "ammo" 32 {max 32}}
 			{item "c96_mag" "ammo" 60 {max 120}}
+			{item "mp28_mag" "ammo" 90 {max 180}}
+			{item "mp28_50_mag" "ammo" 50 {max 150}}
 			{item "mp40_mag" "ammo" 96 {max 256}}
 			{item "danuvia_mag" "ammo" 160 {max 320}}
 			{item "stg44_mag" "ammo" 90 {max 240}}
+			{item "mg_mauser" "drum" "ammo" 50 {max 400}}
 			{item "mg_mauser" "belt" "ammo" 250 {max 1500}}
-			{item "k98_grenade" "fg" 1 {max 10}}
-			{item "k98_grenade" "ap" 1 {max 5}}
+			{item "k98_grenade" "fg" 1 {max 10}{value 5}}
+			{item "k98_grenade" "ap" 1 {max 5}{value 5}}
 			{item "mortar_flaer" "ammo" 1 {max 5}{value 15}}
 			{item "nagant_clip" "ammo" 28 {max 28}}
 			{item "tt_mag" "ammo" 32 {max 32}}
@@ -938,9 +961,9 @@
 			{item "bandage"	1 {max 3}}
 			{item "ptr" "ammo" 10 {max 35}}
 			{item "panzershreck" "ammo" 4 {max 8}}
-			{item "mortar50" "ger" "fg" "ammo" 3 {max 10}{value 2}}
-			{item "mortar81" "ger" "fg" "ammo" 3 {max 10}{value 2}}
-			{item "mortar81" "ger" "sm" "ammo" 3 {max 10}{value 2}}
+			{item "mortar50" "ger" "fg" "ammo" 2 {max 10}{value 2}}
+			{item "mortar81" "ger" "fg" "ammo" 2 {max 10}{value 3}}
+			{item "mortar81" "ger" "sm" "ammo" 2 {max 10}{value 3}}
 		}
 		{radius 			9}		;resupply radius in meter
 		{resupplyPeriod 	5}		;resupply period in seconds
@@ -960,14 +983,20 @@
 		{resupply
 			{item "mauser_clip" "mauser" "ammo" 50 {max 100}}
 			{item "mosin_clip" "ammo" 50 {max 100}}
+			{item "g43_mag" "mauser" "ammo" 20 {max 80}}
+			{item "fg42_mag" "ammo" 20 {max 160}}
 			{item "walther_mag" "ammo" 32 {max 32}}
 			{item "c96_mag" "ammo" 60 {max 120}}
 			{item "mp40_mag" "ammo" 96 {max 256}}
+			{item "mp28_mag" "ammo" 90 {max 180}}
+			{item "mp28_50_mag" "ammo" 50 {max 150}}
 			{item "danuvia_mag" "ammo" 160 {max 320}}
 			{item "stg44_mag" "ammo" 90 {max 240}}
+			{item "mg_mauser" "drum" "ammo" 50 {max 400}}
 			{item "mg_mauser" "belt" "ammo" 250 {max 1500}}
-			{item "k98_grenade" "fg" 1 {max 10}}
-			{item "k98_grenade" "ap" 1 {max 5}}
+			{item "zb30_mag" "ammo" 60 {max 300}}
+			{item "k98_grenade" "fg" 1 {max 10}{value 5}}
+			{item "k98_grenade" "ap" 1 {max 5}{value 5}}
 			{item "mortar_flaer" "ammo" 1 {max 5}{value 15}}
 			{item "nagant_clip" "ammo" 28 {max 28}}
 			{item "tt_mag" "ammo" 32 {max 32}}
@@ -988,11 +1017,11 @@
 			{item "bandage"	1 {max 3}}
 			{item "ptr" "ammo" 10 {max 35}}
 			{item "panzershreck" "ammo" 4 {max 8}}
-			{item "mortar50" "ger" "fg" "ammo" 3 {max 100}{value 2}}
-			{item "mortar81" "ger" "fg" "ammo" 3 {max 100}{value 2}}
-			{item "mortar81" "ger" "sm" "ammo" 3 {max 100}{value 2}}
-			{item "bullet37" "ger" "ap" "ammo" 3 {max 100}{value 3}}
-			{item "bullet37" "ger" "fg" "ammo" 3 {max 100}{value 3}}
+			{item "mortar50" "ger" "fg" "ammo" 2 {max 10}{value 2}}
+			{item "mortar81" "ger" "fg" "ammo" 2 {max 10}{value 3}}
+			{item "mortar81" "ger" "sm" "ammo" 2 {max 10}{value 3}}
+			{item "bullet37" "ger" "ap" "ammo" 3 {max 10}{value 3}}
+			{item "bullet37" "ger" "fg" "ammo" 3 {max 10}{value 3}}
 		}
 		{radius 			9}		;resupply radius in meter
 		{resupplyPeriod 	5}		;resupply period in seconds
@@ -1017,9 +1046,13 @@
 			{item "arisaka7-7_clip" "ammo" 60 {max 120}}
 			{item "nambu_mag" "ammo" 32 {max 32}}
 			{item "c96_mag" "ammo" 60 {max 120}}
+			{item "type2_mag" "ammo" 100 {max 150}}
 			{item "type100_mag" "ammo" 120 {max 240}}
 			{item "0_jap6-5_strip" "ammo" 90 {max 1500}}
 			{item "0_jap7-7_strip" "ammo" 90 {max 1500}}
+			{item "type96_mag" "ammo" 120 {max 1500}}
+			{item "type97_mag" "ammo" 120 {max 1500}}
+			{item "type99_mag" "ammo" 120 {max 1500}}
 
 			{item "mauser_clip" "mauser" "ammo" 50 {max 100}}
 			{item "walther_mag" "ammo" 32 {max 32}}
@@ -1254,7 +1287,11 @@
 			{item "arisaka7-7_clip" "ammo" 60 {max 120}}
 			{item "nambu_mag" "ammo" 32 {max 32}}
 			{item "c96_mag" "ammo" 60 {max 120}}
+			{item "type2_mag" "ammo" 100 {max 150}}
 			{item "type100_mag" "ammo" 120 {max 240}}
+			{item "type96_mag" "ammo" 120 {max 1020}}
+			{item "type97_mag" "ammo" 120 {max 1020}}
+			{item "type99_mag" "ammo" 120 {max 1020}}
 			{item "0_jap6-5_strip" "ammo" 90 {max 1500}}
 			{item "0_jap7-7_strip" "ammo" 90 {max 1500}}
 

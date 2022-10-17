@@ -105,7 +105,7 @@
 	  		{maxSpeedAtMaxTurn 6}
 			{StartTime	30}
      			{Gears  0.1 0.2 0.3 1}
-			{RearGears 0.25}
+			{RearGears 0.5}
 		}
 		{FuelBag
 			{volume 230 }	

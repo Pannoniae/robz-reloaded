@@ -32,7 +32,7 @@
 
 ;--------------------Artillery--------------------------------------------------
 
-{"sgrw_34" ("vs" c(240) t(all 44 45 mortar ) 	s(hun) n(2) g(mortar) sc(30) b(v22) i(0) cp(7)) {level 1} {cost 300} {fore -1}}
+{"sgrw_34_hun" ("vs_ss" c(240) v1(sgrw_34) t(all 44 45 mortar ) 	s(hun) n(2) g(mortar) sc(30) b(v22) i(0) cp(7)) {level 1} {cost 300} {fore -1}}
 
 {"8cmFKM5"          ("vs" c(240) t(all 44 45 supporter ) 	s(hun) n(2) g(support) sc(36) b(v22) i(1) cp(7)) {level 1} {cost 360} {fore -0.5}}
 

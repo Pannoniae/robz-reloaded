@@ -1,5 +1,5 @@
 {from "pattern smg"
-	{filling "ammo 45-smg" 30}
+	{filling "ammo thompson_m1a1_mag" 30}
 	{entity "thompson_m1928a1_30"}
 	{mass 4.9}
 	{fireSound	"smg/thompson_burst/"}
