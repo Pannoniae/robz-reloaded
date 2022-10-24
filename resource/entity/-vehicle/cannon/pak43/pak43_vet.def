@@ -45,14 +45,10 @@
 	("ger_5x8_sight")
 	{extender "inventory"
 	   {box
-        	{item "ammo bullet88 gerl apcbc"}
-			{item "ammo bullet88 gerl apcbc"}
-			{item "ammo bullet88 gerl apcbc"}
-       		{item "ammo bullet88 gerl fg"}
-			{item "ammo bullet88 gerl fg"}
-			{item "ammo bullet88 gerl fg"}
-			;{item "ammo bullet88 gerl apcr" 5}
-			;{item "ammo bullet88 gerl heat" 5}
+        	{item "ammo bullet88 gerl apcbc" 30}
+       		{item "ammo bullet88 gerl fg" 20}
+			{item "ammo bullet88 gerl apcr" 5}
+			{item "ammo bullet88 gerl heat" 5}
 			{item "sandbag_kit2"}
 			{Size 6 8}
 			{Weight 100}

@@ -85,7 +85,7 @@
 		{box
             {item "bullet88 gerl apcbc" 35}
             {item "bullet88 gerl fg" 26}
-            ;{item "bullet88 gerl apcr" 4}
+            {item "bullet88 gerl apcr" 4}
 		}
 	}
 	{Weaponry

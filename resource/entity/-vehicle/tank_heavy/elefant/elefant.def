@@ -72,9 +72,9 @@
 
 	{extender "inventory"
 		{box
-          		{item "ammo bullet88 gerl apcbc" 29}
-          		{item "ammo bullet88 gerl fg" 20}
-			;{item "ammo bullet88 gerl apcr" 4}
+            {item "ammo bullet88 gerl apcbc" 29}
+            {item "ammo bullet88 gerl fg" 20}
+			{item "ammo bullet88 gerl apcr" 4}
 			{item "ammo bullet88 gerl heat" 5}
 			{item "ammo mg_mauser belt" 2500}
 		}

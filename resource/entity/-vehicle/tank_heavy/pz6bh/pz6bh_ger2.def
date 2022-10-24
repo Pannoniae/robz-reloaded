@@ -82,7 +82,7 @@
 		{box
 			{item "bullet88 gerl apcbc" 40}
 			{item "bullet88 gerl fg" 40}
-			;{item "bullet88 gerl apcr" 2}
+			{item "bullet88 gerl apcr" 3}
 			{item "bullet88 gerl heat" 5}
 			{item "mg42" filled {user "mgun"}}
 			{item "ammo mg_mauser belt" 5850}

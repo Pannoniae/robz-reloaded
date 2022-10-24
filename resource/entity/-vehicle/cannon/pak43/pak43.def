@@ -44,8 +44,8 @@
 	("ger_5x8_sight")
 	{extender "inventory"
 	   {box
-        		{item "ammo bullet88 gerl apcbc" 5}
-       			{item "ammo bullet88 gerl fg" 5}
+            {item "ammo bullet88 gerl apcbc" 25}
+            {item "ammo bullet88 gerl fg" 18}
 			{item "ammo bullet88 gerl apcr" 5}
 			{item "ammo bullet88 gerl heat" 5}
 			{item "sandbag_kit2"}

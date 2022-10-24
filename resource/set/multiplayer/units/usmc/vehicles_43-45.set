@@ -108,6 +108,6 @@
 {"hero_support_usmc"	    ("v51" c(450) c1(81mm_brandt_usa) c2(m1_57mm) c3(30_browning_m1919a4) t(all 42 43 44 45 hero) s(usmc) n1(vehicle_supporter:2) g(h8) b(hero)) {level 1} {cost 6.0} {fore -0.5}}
 
 {"hero_m4a3e8_usmc"  	    ("v1" c(720) c1(m4a3e8_vet) 	t(all 45 hero) s(usmc) n1(vet_vehicle_supporter:5) n2(tankman2:0) g(h88) b(hero)) {level 1} {cost 6.0} {fore -0.5}}
-{"hero_sherman_usmc"  	    ("v41" c(600) c1(m4a3) c2(m5a1) 		t(all 43 44 45 hero) s(usmc) n1(tankman:5) n2(tankman:4) g(h9) b(hero)) {level 1} {cost 6.0} {fore -0.5}}
+{"hero_sherman_usmc"  	    ("v42" c(600) c1(m4a3_75) c2(m5a1) 		t(all 43 44 45 hero) s(usmc) n1(tankman:5) n2(tankman:4) g(h9) b(hero)) {level 1} {cost 6.0} {fore -0.5}}
 {"hero_m7_usmc"  	    ("v2" c(760) c1(m7) 		t(all artillery 42 43 44 45 hero) s(usmc) n1(vehicle_supporter:4) n2(tankman2:0) g(h10) b(hero)) {level 1} {cost 13.0} {fore -0.5}}
 {"hero_pershing_usmc"    ("v1" c(1200) c1(m26_pershing_vet)	t(all 45 postwar hero) s(usmc) n1(tankman:4) n2(vehicle_supporter:1) g(h11) b(hero)) {level 1} {cost 15.0} {fore -0.5}}
