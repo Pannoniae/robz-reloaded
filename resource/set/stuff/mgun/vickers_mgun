@@ -4,7 +4,7 @@
 	{fireSound	"mgun/maxim_burst/"}
 	{rechargeTime 9}
 
-	("recoveryTime" r(500))
+	("recoveryTime" r(550))
 	("burst_long")
 	("speed" s(744))
 	{range 150 150}
@@ -12,5 +12,5 @@
 		{SpreadPower	1}
 		{BurstAccuracy 100 97.5 95 92.5 90 85 80 70 50 20}
 	}
-	("accuracy_mgun_mount")
+	("accuracy_mgun_mount_good")
 }

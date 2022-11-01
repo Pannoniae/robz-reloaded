@@ -1,11 +1,11 @@
 {breed
-	{skin "ger-zelt-smg"}
+	{skin "ger_officer"}
 	{portrait "ger2_officer"}
 	{nationality ger2}
 	{icon "officer"}
 	{icon_priority 6}
 	{armors
-		{head cap_ger_off}
+		{head helmet1_ger}
 	}
 	{tags "officer"}
 	{perks

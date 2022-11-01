@@ -1,11 +1,11 @@
 {breed
-	{skin "ger-smock2-mgun"}
+	{skin "ger_t4"}
 	{portrait ger_elite2}
 	{icon elite6}
 	{icon_priority 3}
 	{nationality ger}
 	{armors
-		{head helmet_ger_m40_camo_wire}
+		{head helmet1_ger}
 	}
 	{perks
 		{"health" "500%"

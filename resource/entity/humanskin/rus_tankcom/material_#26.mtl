@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "face_3"}
-	{blend none}
-}

@@ -1,12 +1,12 @@
 {breed
-	{skin "ger-regnco-stg44"}
+	{skin "ger_t2"}
 	{portrait "ger_soldier3"}
 	{nationality ger}
 	{icon "squadleader"}
 	{icon_priority 2}
 	{nationality ger}
 	{armors
-		{head helmet_ger_m40_camo_net}
+		{head helmet1_ger}
 	}
 	{perks
 		{"health" "250%"

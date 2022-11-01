@@ -1,11 +1,11 @@
 {breed
-	{skin "ger-reg-rfl"}
+	{skin "ger_t2"}
 	{portrait "ger_soldier3"}
 	{nationality ger}
 	{icon "radioman"}
 	{icon_priority 5}
 	{armors
-		{head "radioman_hat"}
+		{head helmet1_ger}
 	}
 	{perks
 		{"health" "150%"

@@ -1,12 +1,12 @@
 {breed
-	{skin "usa-marine2-smg"}
+	{skin "us_t3"}
 	{portrait usa_elite2}
 	{icon elite5}
 	{icon_priority 4}
 	{nationality usmc}
 	{armors
 		{body us_haversack_shovel}
-		{head helmet_usa_marine_2}
+		{head "helmet1_usa"}
 	}
 	{perks
 		{"health" "300%"

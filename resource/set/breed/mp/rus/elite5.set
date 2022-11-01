@@ -1,12 +1,12 @@
 {breed
-	{skin "rus-smguner"}
+	{skin "rus_t2"}
 	{portrait rus_elite2}
 	{icon elite5}
 	{icon_priority 3}
 	{nationality rus}
 	{armors
 		{body ammo_rus}
-		{head fieldcap1_rus}
+		{head helmet1_rus}
 	}
 	{perks
 		{"health" "300%"

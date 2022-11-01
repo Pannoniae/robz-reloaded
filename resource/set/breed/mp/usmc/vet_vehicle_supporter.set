@@ -1,11 +1,11 @@
 {breed
-	{skin "usa-marine2-carbine"}
+	{skin "us_tankman"}
 	{portrait usa_elite2}
 	{icon elite6}
 	{icon_priority 3}
 	{nationality usmc}
 	{armors
-		{head helmet_usa_marine_2}
+		{head "helmet1_usa"}
 	}
 	{perks
 		{"health" "350%"

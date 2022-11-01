@@ -1,11 +1,11 @@
 {breed
-	{skin "usa-tank-cpl"}
+	{skin "us_tankman"}
 	{portrait usa_tankman}
 	{icon tankman}
 	{icon_priority 0}
 	{nationality usa}
 	{armors
-		{head helmet_usa_tank}
+		{head "helmet1_usa"}
 	}
 	{perks
 		{"health" "400%"

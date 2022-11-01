@@ -1,4 +1,0 @@
-{from "helmet pattern"
-	{desc "M40 Helmet Fall camo"}
-	{entity "helm_eich"}
-}

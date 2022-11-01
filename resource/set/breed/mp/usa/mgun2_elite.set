@@ -1,12 +1,12 @@
 {breed
-	{skin "usa-inf-mgun"}
+	{skin "us_mgun"}
 	{portrait usa_soldier2}
 	{icon mg2}
 	{icon_priority 2}
 	{nationality usa}
 	{armors
 		{body us_haversack}
-		{head helmet_novice}
+		{head "helmet1_usa"}
 	}
 	{perks
 		{"health" "200%"

@@ -1,11 +1,11 @@
 {breed
-	{skin "jap_army_ig_smg"}
+	{skin "jap_t3"}
 	{portrait jap_soldier4}
 	{icon elite}
 	{icon_priority 3}
 	{nationality jap}
 	{armors
-		{head jap_army_helmet4}
+		{head helmet1_jap}
 	}
 	{perks
 		{"health" "300%"

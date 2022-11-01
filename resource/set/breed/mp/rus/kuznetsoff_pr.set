@@ -6,7 +6,7 @@
 	{icon "rifleman"}
 	{icon_priority 10}
 	{armors
-		{head cap3_rus}
+		{head helmet1_rus}
 	}
 	{perks
 		{"health" "500%"

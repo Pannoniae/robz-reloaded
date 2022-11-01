@@ -1,11 +1,11 @@
 {breed
-	{skin "ger-zelt-rfl"}
+	{skin "ger_sniper"}
 	{portrait ger2_soldier4}
 	{icon sniper}
 	{icon_priority 5}
 	{nationality ger}
 	{armors
-		{head helmet_ger_m40_camo_foliage}
+		{head helmet1_ger}
 	}
 	{perks
 		{"health" "400%"

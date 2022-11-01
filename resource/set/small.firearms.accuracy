@@ -290,14 +290,23 @@
 (define "accuracy_mgun"
 	("distance_mg" r1(0.60) r2(0.96) r3(1.80) r4(2.95) r5(4.5) r6(6.0)) ;old r1(0.50) r2(0.80) r3(1.50) r4(2.40) r5(2.75)
 )
+(define "accuracy_mgun_good"
+	("distance_mg" r1(0.50) r2(0.80) r3(1.50) r4(2.40) r5(2.75) r6(4.0)) ;old r1(0.50) r2(0.80) r3(1.50) r4(2.40) r5(2.75)
+)
 (define "accuracy_mgun_mount"
 	("distance_mg" r1(0.60) r2(0.96) r3(1.80) r4(2.90) r5(4.0) r6(5.0)) ;old r1(0.50) r2(0.80) r3(1.50) r4(2.40) r5(2.75)
+)
+(define "accuracy_mgun_mount_good"
+	("distance_mg" r1(0.50) r2(0.80) r3(1.50) r4(2.40) r5(2.75) r6(4.0)) ;old r1(0.50) r2(0.80) r3(1.50) r4(2.40) r5(2.75)
 )
 (define "accuracy_mgun_hull"
 	("distance_mg" r1(0.60) r2(0.96) r3(1.80) r4(2.90) r5(4.25) r6(5.5)) ;old r1(0.50) r2(0.80) r3(1.50) r4(2.40) r5(2.75)
 )
 (define "accuracy_mgun_tank"
 	("distance_mg" r1(0.60) r2(0.96) r3(1.80) r4(2.85) r5(3.5) r6(4.5)) ;old r1(0.50) r2(0.80) r3(1.50) r4(2.40) r5(2.75)
+)
+(define "accuracy_mgun_tank_good"
+	("distance_mg" r1(0.50) r2(0.80) r3(1.50) r4(2.40) r5(2.75) r6(3.5)) ;old r1(0.50) r2(0.80) r3(1.50) r4(2.40) r5(2.75)
 )
 
 (define "accuracy_ptr"

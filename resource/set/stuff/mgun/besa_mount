@@ -12,5 +12,5 @@
 		{SpreadPower	1}
 		{BurstAccuracy 100 97.5 95 92.5 90 85 80 75 70 60 40 20}
 	}
-	("accuracy_mgun_mount")
+	("accuracy_mgun_mount_good")
 }

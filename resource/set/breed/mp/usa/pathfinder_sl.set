@@ -1,12 +1,12 @@
 {breed
-	{skin "usa-air-sgt"}
+	{skin "usa_t3"}
 	{portrait usa_elite1}
 	{icon elite2}
 	{icon_priority 4}
 	{nationality usa}
 	{armors
 		{body us_haversack}
-		{head helmet_airborne_usa}
+		{head "helmet1_usa"}
 	}
 	{perks
 		{"health" "300%"

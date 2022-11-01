@@ -1,12 +1,12 @@
 {breed
-	{skin "usa-inf-rfl"}
+	{skin "us_t1"}
 	{portrait usa_soldier2}
 	{icon rifleman}
 	{icon_priority 1}
 	{nationality usa}
 	{armors
 		{body us_haversack}
-		{head helmet4_usa}
+		{head "helmet1_usa"}
 	}
 	{perks
 		{"health" "150%"
@@ -67,8 +67,8 @@
 	{inventory
 		{item "garand" filling "garand_clip 30-06_rifle ammo" 8}
 		{item "ammo garand_clip" 80}
-		{item "bandage" 5}
 		{item "ammo_box_small_us_57mm"}
+		{item "bandage" 5}
 		{in_hands 0}
 	}
 }

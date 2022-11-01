@@ -1,12 +1,12 @@
 {breed
-	{skin "rus-sco-late-svt"}
+	{skin "rus_t3"}
 	{portrait rus_elite3}
 	{icon smg3}
 	{icon_priority 1}
 	{nationality rus}
 	{armors
 		{body body_armor}
-		{head helmet_rus_ssh40_cover_camo}
+		{head helmet1_rus}
 	}
 	{perks
 		{"health" "200%"

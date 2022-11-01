@@ -1,11 +1,11 @@
 {breed
-	{skin "fra-us-spahi-mgun"}
+	{skin "us_t3"}
 	{portrait "fr_soldier2"}
 	{nationality fra}
 	{icon "mg"}
 	{icon_priority 2}
 	{armors
-		{head "helmet_fra_m1"}
+		{head helmet1_usa}
 	}
 	{perks
 		{"health" "250%"

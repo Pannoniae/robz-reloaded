@@ -1,11 +1,11 @@
 {breed
-	{skin "usa-marine-mgun"}
+	{skin "us_tankman"}
 	{portrait usa_elite2}
 	{icon tankman}
 	{icon_priority 0}
 	{nationality usmc}
 	{armors
-		{head helmet_usa_tank}
+		{head "helmet1_usa"}
 	}
 	{perks
 		{"health" "250%"

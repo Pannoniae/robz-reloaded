@@ -1,11 +1,11 @@
 {breed
-	{skin "fra-us-inf-bar"}
+	{skin "us_t1"}
 	{portrait "fr_soldier2"}
 	{nationality fra}
 	{icon "mg"}
 	{icon_priority 2}
 	{armors
-		{head "helmet_fra_m26_ffl"}
+		{head helmet1_usa}
 	}
 	{perks
 		{"health" "150%"

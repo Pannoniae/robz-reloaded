@@ -1,12 +1,12 @@
 {breed
-	{skin "usa-inf-rfl"}
+	{skin "us_t2"}
 	{portrait usa_soldier3}
 	{icon squadleader}
 	{icon_priority 2}
 	{nationality usa}
 	{armors
 		{body us_haversack_shovel}
-		{head helmet_novice}
+		{head "helmet1_usa"}
 	}
 	{perks
 		{"health" "200%"

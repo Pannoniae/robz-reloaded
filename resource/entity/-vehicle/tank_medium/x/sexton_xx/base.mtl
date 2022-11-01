@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "sexton_chassis_xx"}
+	{blend test}
+}

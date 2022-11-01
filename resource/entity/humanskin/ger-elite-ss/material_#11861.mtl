@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "$/humanskin/hands"}
-	{blend none}
-}

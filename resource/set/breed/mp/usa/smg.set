@@ -1,11 +1,11 @@
 {breed
-	{skin "usa-inf-smg"}
+	{skin "us_t2"}
 	{portrait usa_soldier2}
 	{icon smg}
 	{icon_priority 1}
 	{nationality usa}
 	{armors
-		{head helmet4_usa}
+		{head "helmet1_usa"}
 	}
 	{perks
 		{"health" "150%"

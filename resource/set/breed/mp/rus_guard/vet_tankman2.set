@@ -1,11 +1,11 @@
 {breed
-	{skin "rus-late-tankcom"}
+	{skin "rus_tankman"}
 	{portrait rus_tankman}
 	{icon tankman}
 	{icon_priority 1}
 	{nationality rus}
 	{armors
-		{head helmet_rus_tank_goggles2}
+		{head helmet1_rus}
 	}
 	{perks
 		{"health" "200%"

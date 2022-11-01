@@ -1,5 +1,5 @@
 {breed
-	{skin "rus-partisan2"}
+	{skin "rus_partizan2"}
 	{portrait ger_soldier1}
 	{icon home_guard}
 	{icon_priority 0}

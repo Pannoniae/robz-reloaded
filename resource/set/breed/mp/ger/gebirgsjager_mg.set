@@ -1,12 +1,12 @@
 {breed
-	{skin "ger-geb-mgun"}
+	{skin "ger_t4"}
 	{portrait ger_soldier4}
 	{icon elite2}
 	{icon_priority 4}
 	{nationality ger}
 	{armors
 		{body mgun_ammo}
-		{head fieldcap_ger_geb}
+		{head helmet1_ger}
 	}
 	{perks
 		{"health" "400%"

@@ -1,11 +1,11 @@
 {breed
-	{skin "eng-scout-cpl"}
+	{skin "eng_t4"}
 	{portrait fr_elite2}
 	{nationality fra}
 	{icon "stormtrooper4"}
 	{icon_priority 4}
 	{armors
-		{head helmet_eng_para_camo}
+		{head helmet1_eng}
 	}
 	{perks
 		{"health" "400%"

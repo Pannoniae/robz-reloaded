@@ -1,11 +1,11 @@
 {breed
-	{skin "rus-guard-smg"}
+	{skin "rus_t2"}
 	{portrait rus_soldier3}
 	{icon radioman}
 	{icon_priority 5}
 	{nationality rus}
 	{armors
-		{head radioman_hat}
+		{head helmet1_rus}
 	}
 	{perks
 		{"health" "200%"

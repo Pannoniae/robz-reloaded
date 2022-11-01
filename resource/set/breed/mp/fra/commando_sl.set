@@ -1,11 +1,11 @@
 {breed
-	{skin "fra-en-commando-officer"}
+	{skin "us_t3"}
 	{portrait "fr_elite1"}
 	{nationality fra}
 	{icon "elite"}
 	{icon_priority 3}
 	{armors
-		{head cap_fra_beret_commando}
+		{head helmet1_usa}
 	}
 	{perks
 		{"health" "350%"

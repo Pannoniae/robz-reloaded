@@ -1,11 +1,11 @@
 {breed
-	{skin "ger2_sniper"}
+	{skin "ger_t2"}
 	{portrait "ger2_elite1"}
 	{nationality ger2}
 	{icon "elite2"}
 	{icon_priority 3}
 	{armors
-		{head "fieldcap2_ger"}
+		{head helmet1_ger}
 	}
 	{perks
 		{"health" "250%"

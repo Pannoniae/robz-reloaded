@@ -1,12 +1,12 @@
 {breed
-	{skin "usa-82nd-carbine"}
+	{skin "us_t3"}
 	{portrait usa_elite1}
 	{icon elite_para}
 	{icon_priority 3}
 	{nationality usa}
 	{armors
 		{body us_haversack}
-		{head helmet_usa_para}
+		{head "helmet1_usa"}
 	}
 	{perks
 		{"health" "400%"

@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "$/humanskin/usa-air-pvt"}
-	{blend none}
-}

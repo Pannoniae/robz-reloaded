@@ -1,11 +1,11 @@
 {breed
-	{skin "rus-mgunner_w"}
+	{skin "rus_t2"}
 	{portrait "rus_soldier5"}
 	{nationality rus}
 	{icon "stormtrooper"}
 	{icon_priority 4}
 	{armors
-		{head "winterhat"}
+		{head helmet1_rus}
 	}
 	{perks
 		{"health" "350%"

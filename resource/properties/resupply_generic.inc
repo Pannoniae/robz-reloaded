@@ -76,7 +76,7 @@
 			{item "m1garand_grenade" "ap" 1 {max 5}}
 			{item "m1garand_grenade" "wp" 1 {max 4}}
 
-			{item "bren_mag" "ammo" 56 {max 224}}
+			{item "bren_mag" "ammo" 28 {max 300}}
 			{item "british303_belt" "ammo" 50 {max 250}}
 			{item "british303_clip" "ammo" 50 {max 100}}
 			{item "lewis_mag" "ammo" 47 {max 235}}
@@ -1546,7 +1546,7 @@
 			{item "sten_mag" "ammo" 128 {max 256}}
 			{item "mg_mauser" "belt" "red" "ammo" 250 {max 1500}}
 			{item "mauser_clip" "mauser" "ammo" 50 {max 100}}
-			{item "bren_mag" "ammo" 112 {max 1456}}
+			{item "bren_mag" "ammo" 28 {max 300}}
 			{item "british303_belt" "ammo" 250 {max 1500}}
 			{item "british303_clip" "ammo" 50 {max 100}}
 			{item "webley_clip" "ammo" 30 {max 30}}
@@ -1777,7 +1777,7 @@
 			{item "sten_mag" "ammo" 128 {max 256}}
 			{item "mg_mauser" "belt" "red" "ammo" 250 {max 1500}}
 			{item "mauser_clip" "mauser" "ammo" 50 {max 100}}
-			{item "bren_mag" "ammo" 112 {max 1456}}
+			{item "bren_mag" "ammo" 28 {max 300}}
 			{item "british303_belt" "ammo" 250 {max 1500}}
 			{item "british303_clip" "ammo" 50 {max 100}}
 			{item "webley_clip" "ammo" 30 {max 30}}
@@ -1849,7 +1849,7 @@
 			{item "sten_mag" "ammo" 128 {max 256}}
 			{item "mg_mauser" "belt" "red" "ammo" 250 {max 1500}}
 			{item "mauser_clip" "mauser" "ammo" 50 {max 100}}
-			{item "bren_mag" "ammo" 112 {max 1456}}
+			{item "bren_mag" "ammo" 28 {max 300}}
 			{item "british303_belt" "ammo" 250 {max 1500}}
 			{item "british303_clip" "ammo" 50 {max 100}}
 			{item "webley_clip" "ammo" 30 {max 30}}
@@ -1921,7 +1921,7 @@
 			{item "sten_mag" "ammo" 128 {max 256}}
 			{item "mg_mauser" "belt" "red" "ammo" 250 {max 1500}}
 			{item "mauser_clip" "mauser" "ammo" 50 {max 100}}
-			{item "bren_mag" "ammo" 112 {max 1456}}
+			{item "bren_mag" "ammo" 28 {max 300}}
 			{item "british303_belt" "ammo" 250 {max 1500}}
 			{item "british303_clip" "ammo" 50 {max 100}}
 			{item "webley_clip" "ammo" 30 {max 30}}
@@ -2033,7 +2033,7 @@
 			{item "sten_mag" "ammo" 128 {max 256}}
 			{item "mg_mauser" "belt" "red" "ammo" 250 {max 1500}}
 			{item "mauser_clip" "mauser" "ammo" 50 {max 100}}
-			{item "bren_mag" "ammo" 112 {max 1456}}
+			{item "bren_mag" "ammo" 28 {max 300}}
 			{item "british303_belt" "ammo" 250 {max 1500}}
 			{item "british303_clip" "ammo" 50 {max 100}}
 			{item "webley_clip" "ammo" 30 {max 30}}
@@ -2109,9 +2109,15 @@
 			{item "sten_mag" "ammo" 128 {max 256}}
 			{item "mg_mauser" "belt" "red" "ammo" 250 {max 1500}}
 			{item "mauser_clip" "mauser" "ammo" 50 {max 100}}
-			{item "bren_mag" "ammo" 112 {max 1456}}
+			{item "bren_mag" "ammo" 28 {max 300}}
 			{item "british303_belt" "ammo" 250 {max 1500}}
 			{item "british303_clip" "ammo" 50 {max 100}}
+			{item "lewis_mag" "ammo" 47 {max 235}}
+			{item "vickersk_mag" "ammo" 96 {max 288}}
+			{item "webley_clip" "ammo" 30 {max 30}}
+			{item "welrod_mag" "ammo" 30 {max 30}}
+			{item "sten_mag" "ammo" 96 {max 256}}
+			{item "owen_mag" "ammo" 96 {max 256}}
 			{item "webley_clip" "ammo" 30 {max 30}}
 			{item "welrod_mag" "ammo" 30 {max 30}}
 			{item "french7-5_clip" "ammo" 40 {max 80}}
@@ -2195,6 +2201,8 @@
 			{item "bullet155" "us" "aphe" "ammo" 1 {max 5}{value 15}}
 			{item "bullet155" "us" "sm" "ammo" 1 {max 5}{value 15}}
 			{item "bullet183" "ammo" 1 {max 3}{value 35}}
+            {item "bullet240" "usa" "fg" "ammo" 1 {max 3}{value 50}}
+            
 			;
 			{item "lm_ammo" "ammo" 4 {max 64}{value 15}}
 			{item "bullet290" "ammo" 1 {max 20}{value 15}}
@@ -2315,6 +2323,7 @@
 			{item "bullet155" "us" "aphe" "ammo" 1 {max 5}{value 15}}
 			{item "bullet155" "us" "sm" "ammo" 1 {max 5}{value 15}}
 			{item "bullet183" "ammo" 1 {max 3}{value 35}}
+            {item "bullet240" "usa" "fg" "ammo" 1 {max 3}{value 50}}
 			;
 			{item "lm_ammo" "ammo" 4 {max 64}{value 15}}
 			{item "bullet290" "ammo" 1 {max 20}{value 15}}
@@ -2351,9 +2360,15 @@
 			{item "sten_mag" "ammo" 128 {max 256}}
 			{item "mg_mauser" "belt" "red" "ammo" 250 {max 1500}}
 			{item "mauser_clip" "mauser" "ammo" 50 {max 100}}
-			{item "bren_mag" "ammo" 112 {max 1456}}
+			{item "bren_mag" "ammo" 28 {max 300}}
 			{item "british303_belt" "ammo" 250 {max 1500}}
 			{item "british303_clip" "ammo" 50 {max 100}}
+			{item "lewis_mag" "ammo" 47 {max 235}}
+			{item "vickersk_mag" "ammo" 96 {max 288}}
+			{item "webley_clip" "ammo" 30 {max 30}}
+			{item "welrod_mag" "ammo" 30 {max 30}}
+			{item "sten_mag" "ammo" 96 {max 256}}
+			{item "owen_mag" "ammo" 96 {max 256}}
 			{item "webley_clip" "ammo" 30 {max 30}}
 			{item "welrod_mag" "ammo" 30 {max 30}}
 			{item "french7-5_clip" "ammo" 40 {max 80}}
@@ -2415,9 +2430,15 @@
 			{item "sten_mag" "ammo" 128 {max 256}}
 			{item "mg_mauser" "belt" "red" "ammo" 250 {max 1500}}
 			{item "mauser_clip" "mauser" "ammo" 50 {max 100}}
-			{item "bren_mag" "ammo" 112 {max 1456}}
+			{item "bren_mag" "ammo" 28 {max 300}}
 			{item "british303_belt" "ammo" 250 {max 1500}}
 			{item "british303_clip" "ammo" 50 {max 100}}
+            {item "lewis_mag" "ammo" 47 {max 235}}
+			{item "vickersk_mag" "ammo" 96 {max 288}}
+			{item "webley_clip" "ammo" 30 {max 30}}
+			{item "welrod_mag" "ammo" 30 {max 30}}
+			{item "sten_mag" "ammo" 96 {max 256}}
+			{item "owen_mag" "ammo" 96 {max 256}}
 			{item "webley_clip" "ammo" 30 {max 30}}
 			{item "welrod_mag" "ammo" 30 {max 30}}
 			{item "french7-5_clip" "ammo" 40 {max 80}}
@@ -2479,9 +2500,15 @@
 			{item "sten_mag" "ammo" 128 {max 256}}
 			{item "mg_mauser" "belt" "red" "ammo" 250 {max 1500}}
 			{item "mauser_clip" "mauser" "ammo" 50 {max 100}}
-			{item "bren_mag" "ammo" 112 {max 1456}}
+			{item "bren_mag" "ammo" 28 {max 300}}
 			{item "british303_belt" "ammo" 250 {max 1500}}
 			{item "british303_clip" "ammo" 50 {max 100}}
+            {item "lewis_mag" "ammo" 47 {max 235}}
+			{item "vickersk_mag" "ammo" 96 {max 288}}
+			{item "webley_clip" "ammo" 30 {max 30}}
+			{item "welrod_mag" "ammo" 30 {max 30}}
+			{item "sten_mag" "ammo" 96 {max 256}}
+			{item "owen_mag" "ammo" 96 {max 256}}
 			{item "webley_clip" "ammo" 30 {max 30}}
 			{item "welrod_mag" "ammo" 30 {max 30}}
 			{item "french7-5_clip" "ammo" 40 {max 80}}
@@ -2543,9 +2570,15 @@
 			{item "sten_mag" "ammo" 128 {max 256}}
 			{item "mg_mauser" "belt" "red" "ammo" 250 {max 1500}}
 			{item "mauser_clip" "mauser" "ammo" 50 {max 100}}
-			{item "bren_mag" "ammo" 112 {max 1456}}
+			{item "bren_mag" "ammo" 28 {max 300}}
 			{item "british303_belt" "ammo" 250 {max 1500}}
 			{item "british303_clip" "ammo" 50 {max 100}}
+            {item "lewis_mag" "ammo" 47 {max 235}}
+			{item "vickersk_mag" "ammo" 96 {max 288}}
+			{item "webley_clip" "ammo" 30 {max 30}}
+			{item "welrod_mag" "ammo" 30 {max 30}}
+			{item "sten_mag" "ammo" 96 {max 256}}
+			{item "owen_mag" "ammo" 96 {max 256}}
 			{item "webley_clip" "ammo" 30 {max 30}}
 			{item "welrod_mag" "ammo" 30 {max 30}}
 			{item "french7-5_clip" "ammo" 40 {max 80}}
@@ -2607,9 +2640,15 @@
 			{item "sten_mag" "ammo" 128 {max 256}}
 			{item "mg_mauser" "belt" "red" "ammo" 250 {max 1500}}
 			{item "mauser_clip" "mauser" "ammo" 50 {max 100}}
-			{item "bren_mag" "ammo" 112 {max 1456}}
+			{item "bren_mag" "ammo" 28 {max 300}}
 			{item "british303_belt" "ammo" 250 {max 1500}}
 			{item "british303_clip" "ammo" 50 {max 100}}
+            {item "lewis_mag" "ammo" 47 {max 235}}
+			{item "vickersk_mag" "ammo" 96 {max 288}}
+			{item "webley_clip" "ammo" 30 {max 30}}
+			{item "welrod_mag" "ammo" 30 {max 30}}
+			{item "sten_mag" "ammo" 96 {max 256}}
+			{item "owen_mag" "ammo" 96 {max 256}}
 			{item "webley_clip" "ammo" 30 {max 30}}
 			{item "welrod_mag" "ammo" 30 {max 30}}
 			{item "french7-5_clip" "ammo" 40 {max 80}}

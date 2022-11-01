@@ -1,12 +1,12 @@
 {breed
-	{skin "usa-late-mgun"}
+	{skin "us_mgun"}
 	{portrait usa_soldier2}
 	{icon bazooker}
 	{icon_priority 3}
 	{nationality usa}
 	{armors
 		{body us_haversack}
-		{head helmet4_usa}
+		{head "helmet1_usa"}
 	}
 	{perks
 		{"health" "150%"

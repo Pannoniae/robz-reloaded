@@ -1,11 +1,11 @@
 {breed
-	{skin "ger-smock2sump-stg44"}
+	{skin "ger_t2"}
 	{portrait "ger_soldier2"}
 	{icon "smg"}
 	{icon_priority 1}
 	{nationality ger}
 	{armors
-		{head helmet_heer_camo}
+		{head helmet1_ger}
 	}
 	{perks
 		{"health" "200%"

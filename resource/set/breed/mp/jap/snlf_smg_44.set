@@ -1,11 +1,11 @@
 {breed
-	{skin "snlf_mg_gear2"}
+	{skin "jap_t2"}
 	{portrait jap_soldier5}
 	{icon stormtrooper}
 	{icon_priority 4}
 	{nationality jap}
 	{armors
-		{head helmet_japmc6}
+		{head helmet1_jap}
 	}
 	{perks
 		{"health" "200%"

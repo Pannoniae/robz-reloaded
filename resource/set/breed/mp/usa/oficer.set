@@ -1,12 +1,12 @@
 {breed
-	{skin "us_flamer_hp"}
+	{skin "us_officer"}
 	{portrait usa_officer}
 	{icon officer}
 	{icon_priority 6}
 	{tags "officer"}
 	{nationality usa}
 	{armors
-		{head helmet2_usa}
+		{head "helmet1_usa"}
 	}
 	{perks
 		{"health" "250%"

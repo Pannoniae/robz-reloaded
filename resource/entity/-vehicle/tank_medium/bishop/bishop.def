@@ -63,7 +63,7 @@
 		}
 		{place "gun1_2"
 			{RestoreIKAfterAim}	
-			{type "gun_change_direct"}		
+			{type "gun_change_direct"}
 			{weapon "88mm_oqfmk2_2"}
 			("abm_medium")
 			{basic}

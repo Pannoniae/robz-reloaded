@@ -1,11 +1,11 @@
 {breed
-	{skin "jap_army_tankman"}
+	{skin "jap_tankman"}
 	{portrait jap_tankman}
 	{icon tankman}
 	{icon_priority 0}
 	{nationality jap}
 	{armors
-		{head tankhelmet_jap_old}
+		{head helmet1_jap}
 	}
 	{perks
 		{"health" "250%"

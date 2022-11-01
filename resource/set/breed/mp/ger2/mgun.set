@@ -1,11 +1,11 @@
 {breed
-	{skin "ger-smock2-mgun"}
+	{skin "ger_mgun"}
 	{portrait ger2_soldier2}
 	{icon mg}
 	{icon_priority 2}
 	{nationality ger}
 	{armors
-		{head helmet_heer_camo}
+		{head helmet1_ger}
 	}
 	{perks
 		{"health" "250%"

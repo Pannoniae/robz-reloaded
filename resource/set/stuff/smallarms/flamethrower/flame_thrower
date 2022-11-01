@@ -20,8 +20,8 @@
 	{fireSound "flame/shot"}
 	{foresight "Foresight3"}
 	{Automatic}
-	{aimRange 40}
-	{maxRange 40}
+	{aimRange 70}
+	{maxRange 70}
 	{recoveryTime 0.6}
 	{gravity 35}
 	{speed 150}

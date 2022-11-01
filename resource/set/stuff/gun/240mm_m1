@@ -1,0 +1,13 @@
+{from "pattern gun_art"		; "240mm"
+	{filling "usa bullet240"}
+	{fireSound "gun/howitzer/203mm"}
+	{reloadSound "tankgun_r02"}
+	("range_heavy_howitzer")
+	{rechargeTime 110}
+	{recoveryTime 110}
+    {speed 701}
+    {projectileDamage 1000}
+	{burst {min 1} {noaiming}}
+    {cursor "cannon_on_fg"}
+	{cursorReloading "cannon_reload_fg"}
+}

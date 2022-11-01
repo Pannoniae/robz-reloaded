@@ -2243,7 +2243,7 @@
 		{"stormtrooper6(jap)" "SNLF Type 99 MG team"}
 
 		{"elite3(eng)" "Commando Bren MG team"}
-		{"stormtrooper6(eng)" "SAS Bren MG team"}
+		{"stormtrooper6(eng)" "SAS VGO MG team"}
 
 		
 		{"engineers(usa)" "Combat engineer squad"}
@@ -3021,7 +3021,8 @@
 		{"tankmans(ger2)" "Veteran Support crew"}
 		{"hero1_eng" "Canadian Scout Sniper"}
 		{"hero2_eng" "Royal Engineers"}
-		{"hero_eng_wasp" "Wasp flamethrower universal carrier"}
+		{"eng_wasp" "Universal Carrier 'Wasp'"}
+		{"hero_eng_wasp" "Universal Carrier 'Wasp'"}
 		{"hero_airstrike_eng" "RAF Hawker Typhoon airstrike 'Forward Air Controller'"}
 		{"hero_eng_para(eng)" "Paratrooper platoon"}
 		{"hero3_eng" "ANZAC"}
@@ -3855,9 +3856,6 @@
 		{"how_a(ger2)" "sFH 18"}
 		{"how_aa(ger2)" "FlaK 37"}
 		{"how_b(ger2)" "le. FH 18 M"}
-		{"how_pak1(ger2)" "PaK 36"}
-		{"how_pak2(ger2)" "PaK 38"}
-		{"how_pak3(ger2)" "PaK 40"}
 		
 		
 		{"155gpf" "GPF"}
@@ -3879,6 +3877,7 @@
 		{"bedford_inf" "Bedford OYD Infantry ammo truck"}
 		{"bf109g" "BF-109 G-16"}
 		{"bishop" "Mk I Bishop"}
+		{"Sexton" "Sexton"}
 		{"bk1124_k" "Ship"}
 		{"bl6" "BL 6\" 26 cwt"}
 		{"black_prince" "Black Prince"}
@@ -4045,6 +4044,7 @@
 		{"kv85_guard" "KV-85 [Veteran]"}
 		{"land_mattress" "Land Mattress"}
 		{"land_mattress(eng)" "Land Mattress"}
+		{"t92" "T92 Howitzer Motor Carriage"}
 		{"lci(l)" "LCI(L)"}
 		{"lcvp" "Landing craft"}
 		{"lefh18" "105mm leFH 18M"}
@@ -4245,6 +4245,7 @@
 		{"type_97_150mm" "150mm Type 97 mortar"}
 		{"universal" "Universal-1"}
 		{"universal_carrier" "Universal Carrier"}
+		{"universal_carrier_at" "Universal Carrier w/ Boys AT"}
 		{"wasp" "Universal Carrier 'Wasp'"}
 		{"u-boat" "U-boat"}
 		{"veteran_tiger" "Pzkpfw VI Tiger Ausf. E [Veteran]"}
@@ -4659,6 +4660,8 @@
 		{"bullet152 eng fg"		"6-inch HE Shell Mk.II.D"}
 		
 		{"bullet183" 				"7.2-inch HE Shell Mk.I"}
+        
+        {"bullet240 usa fg" 		"240mm M114 Shell (HE)"}
 
 ;------------------------- new random stuff ----------------------------------
 		{"mgun green" "MG ammo (green tracer)"}
@@ -5135,11 +5138,11 @@
 		{"75mm_pak40_vet" "75mm PaK 40<c(ffffff)>\n Range - <c(ffaf00)>210 m<c(ffffff)>\n Penetration APCBC - <c(ffaf00)>146 - 93 mm<c(ffffff)>\n Muzzle velocity - 792 m/s\n Accuracy - <c(ffaf00)>High"}
 		{"75mm_stuk37" "75mm StuK 37 L/24<c(ffffff)>\n Range - <c(ff0000)>180 m<c(ffffff)>\n Penetration APC - <c(ff0000)>52 - 37 mm<c(ffffff)>\n Muzzle velocity - 440 m/s\n Accuracy - <c(ff0000)>Very low"}
 		{"75mm_stuk40" "75mm StuK 40<c(ffffff)>\n Range - <c(ffaf00)>200 m<c(ffffff)>\n Penetration APCBC - <c(ffaf00)>135 - 86 mm<c(ffffff)>\n Muzzle velocity - 750 m/s\n Accuracy - <c(ffaf00)>High"}
-		{"75mm_stuk40_vet" "75mm Stuk 40<c(ffffff)>\n Range - <c(ffaf00)>210 m<c(ffffff)>\n Penetration APCBC - <c(ffaf00)>135 - 86 mm<c(ffffff)>\n Muzzle velocity - 750 m/s\n Accuracy - <c(ffaf00)>High"}
-		{"75mm_stuk40_l43" "75mm Stuk 40 L/43<c(ffffff)>\n Range - <c(ffaf00)>200 m<c(ffffff)>\n Penetration APCBC - <c(ffaf00)>133 - 84 mm<c(ffffff)>\n Muzzle velocity - 740 m/s\n Accuracy - <c(ffaf00)>High"}
-		{"75mm_stuk40_ace" "75mm Stuk 40<c(ffffff)>\n Range - <c(00ff04)>220 m<c(ffffff)>\n Penetration APCBC - <c(ffaf00)>135 - 86 mm<c(ffffff)>\n Muzzle velocity - 750 m/s\n Accuracy - <c(ffaf00)>High"}
-		{"75mm_stuk42" "75mm Stuk 42<c(ffffff)>\n Range - <c(00ff04)>230 m<c(ffffff)>\n Penetration APCBC - <c(00ff04)>187 - 116 mm<c(ffffff)>\n Muzzle velocity - 935 m/s\n Accuracy - <c(00ff04)>Extremely high"}
-		{"75mm_stuk42_vet" "75mm Stuk 42<c(ffffff)>\n Range - <c(00ff04)>240 m<c(ffffff)>\n Penetration APCBC - <c(00ff04)>187 - 116 mm<c(ffffff)>\n Muzzle velocity - 935 m/s\n Accuracy - <c(00ff04)>Extremely high"}
+		{"75mm_stuk40_vet" "75mm StuK 40<c(ffffff)>\n Range - <c(ffaf00)>210 m<c(ffffff)>\n Penetration APCBC - <c(ffaf00)>135 - 86 mm<c(ffffff)>\n Muzzle velocity - 750 m/s\n Accuracy - <c(ffaf00)>High"}
+		{"75mm_stuk40_l43" "75mm StuK 40 L/43<c(ffffff)>\n Range - <c(ffaf00)>200 m<c(ffffff)>\n Penetration APCBC - <c(ffaf00)>133 - 84 mm<c(ffffff)>\n Muzzle velocity - 740 m/s\n Accuracy - <c(ffaf00)>High"}
+		{"75mm_stuk40_ace" "75mm StuK 40<c(ffffff)>\n Range - <c(00ff04)>220 m<c(ffffff)>\n Penetration APCBC - <c(ffaf00)>135 - 86 mm<c(ffffff)>\n Muzzle velocity - 750 m/s\n Accuracy - <c(ffaf00)>High"}
+		{"75mm_stuk42" "75mm StuK 42<c(ffffff)>\n Range - <c(00ff04)>230 m<c(ffffff)>\n Penetration APCBC - <c(00ff04)>187 - 116 mm<c(ffffff)>\n Muzzle velocity - 935 m/s\n Accuracy - <c(00ff04)>Extremely high"}
+		{"75mm_stuk42_vet" "75mm StuK 42<c(ffffff)>\n Range - <c(00ff04)>240 m<c(ffffff)>\n Penetration APCBC - <c(00ff04)>187 - 116 mm<c(ffffff)>\n Muzzle velocity - 935 m/s\n Accuracy - <c(00ff04)>Extremely high"}
 		{"75mm_type3" "75mm Type 3<c(ffffff)>\n Range - <c(ffaf00)>200 m<c(ffffff)>\n Penetration APHE - <c(ffaf00)>101 - 69 mm<c(ffffff)>\n Muzzle velocity - 680 m/s\n Accuracy - <c(ffaf00)>Medium"}
 		{"75mm_type41" "75mm Type 41<c(ffffff)>\n Range - <c(ff0000)>180 m<c(ffffff)>\n Penetration HEAT - <c(ffaf00)>100 mm<c(ffffff)>\n Muzzle velocity - 435 m/s\n Accuracy - <c(ff0000)>Low"}
 		{"75mm_type41_2" "75mm Type 41<c(ffffff)>\n Range - <c(ff0000)>300 m<c(ffffff)>\n Barrage - <c(ffaf00)>6 shells<c(ffffff)>\n Muzzle velocity - 435 m/s\n Accuracy - <c(ff0000)>Very low"}
@@ -5292,6 +5295,7 @@
 		{"155mm_m12_2_vet" "155mm M12<c(ffffff)>\n Range - <c(ffaf00)>210 m<c(ffffff)>\n Penetration APBC - <c(00ff04)>170 - 142 mm<c(ffffff)>\n Muzzle velocity - 735 m/s\n Accuracy - <c(ff0000)>Low"}
 		{"183mm_bl72" "183mm BL 7.2 inch<c(ffffff)>\n Range - <c(00ff04)>600 m<c(ffffff)>\n Barrage - <c(ffaf00)>1 shell<c(ffffff)>\n Muzzle velocity - 517 m/s\n Accuracy - <c(ff0000)>Low"}
 		{"183mm_bl72_2" "183mm BL 7.2 inch<c(ffffff)>\n Range - <c(ffaf00)>210 m<c(ffffff)>\n Muzzle velocity - 517 m/s\n Accuracy - <c(ff0000)>Low"}
+        {"240mm_m1" "240mm M1<c(ffffff)>\n Range - <c(ffaf00)>400 m<c(ffffff)>\n Muzzle velocity - 517 m/s\n Accuracy - <c(ff0000)>Low"}
 		{"203mm_gun" "203-mm mortar<c(ffffff)>\n Range - <c(00ff04)>600 m<c(ffffff)>\n Barrage - <c(ffaf00)>1 shell<c(ffffff)>\n Muzzle velocity - 600 m/s\n Accuracy - <c(ff0000)>Low"}
 		{"203mm_gun_2" "203-mm mortar<c(ffffff)>\n Range - <c(ffaf00)>210 m<c(ffffff)>\n Muzzle velocity - 600 m/s\n Accuracy - <c(ff0000)>Low"}
 		{"203mm_m115" "M115 203mm<c(ffffff)>\n Range - <c(00ff04)>560 m<c(ffffff)>\n Barrage - <c(ffaf00)>1 shell<c(ffffff)>\n Muzzle velocity - 587 m/s\n Accuracy - <c(ff0000)>Low"}

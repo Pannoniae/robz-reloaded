@@ -5,7 +5,7 @@
 	{icon_priority 0}
 	{nationality rus}
 	{armors
-		{head cap_rus_partisan2}
+		{head helmet1_rus}
 	}
 	{perks
 		{"health" "100%"

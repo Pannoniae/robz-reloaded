@@ -1,11 +1,11 @@
 {breed
-	{skin "fra-tankman"}
+	{skin "us_t1"}
 	{portrait fr_soldier1}
 	{nationality fra}
 	{icon home_guard}
 	{icon_priority 0}
 	{armors
-		{head "helmet_fra_m35_tank"}
+		{head helmet1_usa}
 	}
 	{perks
 		{"health" "100%"

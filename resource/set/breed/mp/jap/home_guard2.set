@@ -1,11 +1,11 @@
 {breed
-	{skin "jap_army_lightinfantry"}
+	{skin "jap_t1"}
 	{portrait jap_soldier1}
 	{icon home_guard2}
 	{icon_priority 0}
 	{nationality jap}
 	{armors
-		{head jap_army_helmet3}
+		{head helmet1_jap}
 	}
 	{perks
 		{"health" "100%"

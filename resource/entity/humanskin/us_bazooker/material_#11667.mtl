@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "$/humanskin/american/ammo_us"}
-	{blend none}
-}

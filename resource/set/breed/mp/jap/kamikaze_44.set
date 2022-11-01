@@ -1,5 +1,5 @@
 {breed
-	{skin "jap_army_kamikaze"}
+	{skin "jap_t1"}
 	{portrait jap_elite2}
 	{icon kamikaze}
 	{icon_priority 0}
@@ -7,7 +7,7 @@
 	{nationality jap}
 	{armors
 		{body kamikaze_bomb}
-		{head hachimaki_1}
+		{head helmet1_jap}
 	}
 	{perks
 		{"health" "300%"

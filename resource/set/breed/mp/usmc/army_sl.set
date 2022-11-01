@@ -1,11 +1,11 @@
 {breed
-	{skin "usa-late-smg"}
+	{skin "us_t2"}
 	{portrait usa_soldier3}
 	{icon squadleader}
 	{icon_priority 2}
 	{nationality usa}
 	{armors
-		{head helmet_novice}
+		{head "helmet1_usa"}
 	}
 	{perks
 		{"health" "200%"

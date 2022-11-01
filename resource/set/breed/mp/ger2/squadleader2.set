@@ -1,11 +1,11 @@
 {breed
-	{skin "ger-smock2-stg44-nco"}
+	{skin "ger_t2"}
 	{portrait "ger2_soldier3"}
 	{nationality ger}
 	{icon "squadleader2"}
 	{icon_priority 2}
 	{armors
-		{head helmet_heer_camo}
+		{head helmet1_ger}
 	}
 	{perks
 		{"health" "250%"

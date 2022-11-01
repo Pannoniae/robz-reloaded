@@ -1,12 +1,12 @@
 {breed
-	{skin "usa-inf-smg"}
+	{skin "us_mgun"}
 	{portrait usa_soldier2}
 	{icon ap_miner}
 	{icon_priority 3}
 	{nationality usa}
 	{armors
 		{body ammo_us2}
-		{head helmet4_usa}
+		{head "helmet1_usa"}
 	}
 	{perks
 		{"health" "150%"

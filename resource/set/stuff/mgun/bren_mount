@@ -5,5 +5,5 @@
 		{BurstAccuracy 100 97 94 91 88 85 80 75 65 45 25}
 	}
 	{range 150 150}
-	("accuracy_mgun_mount")
+	("accuracy_mgun_mount_good")
 }

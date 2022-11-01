@@ -1,12 +1,12 @@
 {breed
-	{skin "rus-early2-rfl"}
+	{skin "rus_t2"}
 	{portrait rus_soldier2}
 	{icon rifleman}
 	{icon_priority 1}
 	{nationality rus}
 	{armors
 		{body ru_backpack_meshok2}
-		{head fieldcap_rus}
+		{head helmet1_rus}
 	}
 	{perks
 		{"health" "150%"

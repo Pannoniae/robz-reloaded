@@ -1,12 +1,12 @@
 {breed
-	{skin "waffen-medic"}
+	{skin "ger_medic"}
 	{portrait ger_medic}
 	{icon medics}
 	{icon_priority 1}
 	{nationality ger2}
 	{armors
 		{body dfr_gear2}
-		{head helmet_ger_m40_medic}
+		{head helmet1_ger}
 	}
 	{perks
 		{"health" "250%"

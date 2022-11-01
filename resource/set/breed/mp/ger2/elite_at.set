@@ -1,11 +1,11 @@
 {breed
-	{skin "ger3_sniper"}
+	{skin "ger_t2"}
 	{portrait ger2_soldier5}
 	{icon stormtrooper5b}
 	{icon_priority 4}
 	{nationality ger2}
 	{armors
-		{head fieldcap3_ger}
+		{head helmet1_ger}
 	}
 	{perks
 		{"health" "350%"

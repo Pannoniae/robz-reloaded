@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "$/humanskin/ranger/eye"}
-	{blend none}
-}

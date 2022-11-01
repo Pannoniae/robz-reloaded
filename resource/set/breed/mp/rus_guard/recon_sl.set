@@ -1,5 +1,5 @@
 {breed
-	{skin "rus-guard-smg2"}
+	{skin "rus_t2"}
 	{portrait rus_soldier3}
 	{icon squadleader}
 	{icon_priority 3}

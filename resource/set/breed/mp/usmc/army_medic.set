@@ -1,11 +1,11 @@
 {breed
-	{skin "usa-late-medic"}
+	{skin "us_medic"}
 	{portrait usa_medic}
 	{icon medics}
 	{icon_priority 1}
 	{nationality usa}
 	{armors
-		{head helmet_usa_w}
+		{head "helmet1_usa"}
 	}
 	{perks
 		{"health" "150%"

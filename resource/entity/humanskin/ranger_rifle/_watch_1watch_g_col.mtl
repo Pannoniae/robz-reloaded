@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "$/humanskin/ranger/watch_g_col"}
-	{blend none}
-}

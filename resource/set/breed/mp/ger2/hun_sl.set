@@ -5,7 +5,7 @@
 	{icon_priority 2}
 	{nationality hun}
 	{armors
-		{head hun_m40helmet_wired}
+		{head helmet1_ger}
 	}
 	{perks
 		{"health" "200%"

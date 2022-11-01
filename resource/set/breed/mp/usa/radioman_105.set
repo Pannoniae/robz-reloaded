@@ -1,11 +1,11 @@
 {breed
-	{skin "usa-inf-smg"}
+	{skin "us_t2"}
 	{portrait usa_soldier3}
 	{icon radioman}
 	{icon_priority 5}
 	{nationality usa}
 	{armors
-		{head radioman_hat}
+		{head "helmet1_usa"}
 	}
 	{perks
 		{"health" "150%"

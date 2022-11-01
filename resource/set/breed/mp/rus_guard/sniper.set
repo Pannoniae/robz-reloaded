@@ -1,11 +1,11 @@
 {breed
-	{skin "rus-guard-rfl"}
+	{skin "rus_sniper"}
 	{portrait rus_soldier4}
 	{icon sniper}
 	{icon_priority 5}
 	{nationality rus}
 	{armors
-		{head fieldcap_rus}
+		{head helmet1_rus}
 	}
 	{perks
 		{"health" "400%"

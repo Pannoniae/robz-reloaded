@@ -5,7 +5,7 @@
 	{icon_priority 5}
 	{nationality usa}
 	{armors
-		{head helmet_novice}
+		{head "helmet1_usa"}
 	}
 	{perks
 		{"health" "500%"

@@ -1,11 +1,11 @@
 {breed
-	{skin "fra-us-inf-carbine"}
+	{skin "us_tankman"}
 	{portrait "fr_soldier2"}
 	{nationality fra}
 	{icon "rifleman"}
 	{icon_priority 1}
 	{armors
-		{head "helmet_fra_m1"}
+		{head helmet1_usa}
 	}
 	{perks
 		{"health" "200%"

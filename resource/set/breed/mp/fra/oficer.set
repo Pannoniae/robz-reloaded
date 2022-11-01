@@ -1,11 +1,11 @@
 {breed
-	{skin "fra-us-inf-officer"}
+	{skin "us_officer"}
 	{portrait "fr_officer"}
 	{nationality fra}
 	{icon "officer"}
 	{icon_priority 6}
 	{armors
-		{head "cap_fra_kepi_officer_colonial"}
+		{head helmet1_usa}
 	}
 	{perks
 		{"health" "250%"

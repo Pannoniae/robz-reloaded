@@ -1,12 +1,12 @@
 {breed
-	{skin "usa-camo-smg"}
+	{skin "us_t3"}
 	{portrait usa_elite2}
 	{icon elite4}
 	{icon_priority 3}
 	{nationality usmc}
 	{armors
 		{body us_haversack_shovel}
-		{head helmet_usa_marine_1}
+		{head "helmet1_usa"}
 	}
 	{perks
 		{"health" "350%"

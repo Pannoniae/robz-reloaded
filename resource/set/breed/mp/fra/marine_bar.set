@@ -1,12 +1,12 @@
 {breed
-	{skin "fra-us-marine-bar"}
+	{skin "us_t4"}
 	{portrait "fr_elite1"}
 	{nationality fra}
 	{icon "elite"}
 	{icon_priority 3}
 	{armors
 		{body us_haversack_shovel}
-		{head "cap_fra_marine"}
+		{head helmet1_usa}
 	}
 	{perks
 		{"health" "400%"

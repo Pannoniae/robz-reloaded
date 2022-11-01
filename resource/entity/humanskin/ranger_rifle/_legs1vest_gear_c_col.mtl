@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "$/humanskin/ranger/vest_gear_c_col"}
-	{blend none}
-}

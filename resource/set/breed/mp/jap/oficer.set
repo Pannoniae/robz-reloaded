@@ -1,5 +1,5 @@
 {breed
-	{skin "jap_army_officer"}
+	{skin "jap_officer"}
 	{portrait jap_officer}
 	{icon officer}
 	{icon_priority 6}
@@ -7,7 +7,7 @@
 	{nationality jap}
 	{armors
 		{body jp_katana_officer}
-		{head japarmy_officer_cap1}
+		{head helmet1_jap}
 	}
 	{perks
 		{"health" "250%"

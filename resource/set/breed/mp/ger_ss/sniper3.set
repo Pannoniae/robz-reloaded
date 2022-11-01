@@ -1,11 +1,11 @@
 {breed
-	{skin "waffen-smock2-g43"}
+	{skin "ger_sniper"}
 	{portrait "ger_soldier4"}
 	{nationality ger2}
 	{icon "sniper"}
 	{icon_priority 5}
 	{armors
-		{head helmet_ger_m40_grass}
+		{head helmet1_ger}
 	}
 	{perks
 		{"health" "350%"

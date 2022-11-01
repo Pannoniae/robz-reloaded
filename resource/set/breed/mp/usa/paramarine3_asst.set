@@ -1,12 +1,12 @@
 {breed
-	{skin "usa-paramarine-cpl"}
+	{skin "us_t3"}
 	{portrait usa_elite2}
 	{icon elite6}
 	{icon_priority 4}
 	{nationality usa}
 	{armors
 		{body ammo_us2}
-		{head helmet_marine_usa}
+		{head "helmet1_usa"}
 	}
 	{perks
 		{"health" "350%"

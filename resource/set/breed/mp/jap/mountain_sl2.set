@@ -1,12 +1,12 @@
 {breed
-	{skin "jap_army_squadleader"}
+	{skin "jap_t2"}
 	{portrait jap_soldier3}
 	{icon squadleader2}
 	{icon_priority 2}
 	{nationality jap}
 	{armors
 		{body jp_katana_nco}
-		{head jap_army_helmet5}
+		{head helmet1_jap}
 	}
 	{perks
 		{"health" "200%"

@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "$/humanskin/ranger/bru_head"}
-	{blend none}
-}

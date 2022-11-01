@@ -1,11 +1,11 @@
 {breed
-	{skin "jap_army_giretu"}
+	{skin "jap_sniper"}
 	{portrait jap_elite1}
 	{icon elite2}
 	{icon_priority 3}
 	{nationality jap}
 	{armors
-		{head jap_army_helmet_para}
+		{head helmet1_jap}
 	}
 	{perks
 		{"health" "400%"

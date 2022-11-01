@@ -1,11 +1,11 @@
 {breed
-	{skin "ger-cav2-stg44"}
+	{skin "ger_t3"}
 	{portrait "ger_soldier2"}
 	{icon "smg"}
 	{icon_priority 1}
 	{nationality ger}
 	{armors
-		{head helmet_heer_camo}
+		{head helmet1_ger}
 	}
 	{perks
 		{"health" "200%"

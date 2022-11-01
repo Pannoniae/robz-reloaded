@@ -1,11 +1,11 @@
 {breed
-	{skin "rus-early2-rfl"}
+	{skin "rus_t1"}
 	{portrait rus_soldier1}
 	{icon home_guard}
 	{icon_priority 1}
 	{nationality rus}
 	{armors
-		{head fieldcap_rus}
+		{head helmet1_rus}
 	}
 	{perks
 		{"health" "150%"

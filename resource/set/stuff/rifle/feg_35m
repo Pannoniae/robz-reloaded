@@ -1,4 +1,5 @@
 {from "pattern rifle"
+    {filling "ammo mauser_rifle mauser" 5}
 	{entity "feg_35_m"}
 	{fireSound "rifle/mosin"}
 	{reloadSound "mosin_reload"}

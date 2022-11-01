@@ -1,12 +1,12 @@
 {breed
-	{skin "usa-inf-rfl"}
+	{skin "us_t3"}
 	{portrait usa_soldier2}
 	{icon rifleman}
 	{icon_priority 1}
 	{nationality usa}
 	{armors
 		{body us_haversack}
-		{head helmet_novice}
+		{head "helmet1_usa"}
 	}
 	{perks
 		{"health" "200%"
@@ -70,7 +70,7 @@
 		{item "bandage" 5}
 		{item "grenade m61" 2}
 		{item "sandbag_kit"}
-		{item "weapon bazooka_m9" 0.5 1 filled}
+		{item "weapon bazooka_m9" 1 filled}
 		{item "ammo bazooka_m9 heat" 7}
 		{item "ammo bazooka_m9 wp" 2}
 		{in_hands 0}

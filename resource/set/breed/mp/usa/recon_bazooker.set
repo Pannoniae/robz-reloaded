@@ -1,11 +1,11 @@
 {breed
-	{skin "usa-inf-carbine"}
+	{skin "us_t3"}
 	{portrait usa_soldier2}
 	{icon bazooker}
 	{icon_priority 3}
 	{nationality usa}
 	{armors
-		{head helmet_novice}
+		{head "helmet1_usa"}
 	}
 	{perks
 		{"health" "200%"

@@ -10,7 +10,7 @@
 	("recoveryTime" r(800))
 	("burst_long")
 	("speed" s(793))
-	("accuracy_mgun_tank")
+	("accuracy_mgun_tank_good")
 	{Spreading 1
 		{SpreadPower	1}
 		{BurstAccuracy 100 97 94 91 88 85 82 75 70 50 30}

@@ -5,7 +5,7 @@
 	{icon "officer"}
 	{icon_priority 6}
 	{armors
-		{head cap1_ger}
+		{head helmet1_ger}
 	}
 	{tags "officer"}
 	{perks

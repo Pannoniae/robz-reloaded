@@ -71,7 +71,7 @@
 		{item "grenade mk1" 1}
 		{item "grenade n73at" 1}
 		;{item "n77_smoke grenade" 0 1}
-		{item "weapon piatrocket" 0.2 1 filled}
+		{item "weapon piatrocket" 1 filled}
 		{item "ammo piatrocket" 5}
 		{in_hands 0}
 	}

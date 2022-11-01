@@ -54,12 +54,12 @@
 	
 	{extender "inventory"
 		{box
-		      	{item "usa_bullet240_m1 fg" 12}
+		      	{item "usa bullet240 fg" 12}
 		}
 	}
 	{Weaponry
 		{place "gun"
-			{weapon "240mm_M1" filling "usa_bullet240_m1 fg"}
+			{weapon "240mm_M1" filling "usa bullet240 fg"}
 			{StationaryFiring}
 			("abm_howitzer")
 		}

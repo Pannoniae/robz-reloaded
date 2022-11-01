@@ -341,6 +341,9 @@
 	{"wasp"
 	        {structure "universal_carrier"}
 	}
+    {"universal_carrier_at"
+	        {structure "universal_carrier"}
+	}
 	{"gun_carrier_3_inch"
 	        {structure "universal_carrier"}
 	}
@@ -780,6 +783,12 @@
 		{structure "m7"}
 	}
 	{"m7_eng"
+		{structure "m7"}
+	}
+    {"sexton"
+		{structure "m7"}
+	}
+	{"t92"
 		{structure "m7"}
 	}
 	{"wespe"

@@ -1,11 +1,11 @@
 {breed
-	{skin "waffen-fj-rifleman"}
+	{skin "ger_t2"}
 	{portrait ger_elite1}
 	{icon elite}
 	{icon_priority 4}
 	{nationality ger2}
 	{armors
-		{head helmet_ger_m38_cover}
+		{head helmet1_ger}
 	}
 	{perks
 		{"health" "400%"

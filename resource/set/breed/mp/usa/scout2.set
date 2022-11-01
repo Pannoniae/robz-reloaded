@@ -5,7 +5,7 @@
 	{icon "scout"}
 	{icon_priority 5}
 	{armors
-		{head helmet_novice}
+		{head "helmet1_usa"}
 	}
 	{perks
 		{"health" "500%"

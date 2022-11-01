@@ -1,12 +1,12 @@
 {breed
-	{skin "usa-ranger-bar"}
+	{skin "us_t4"}
 	{portrait usa_soldier5}
 	{icon stormtrooper2}
 	{icon_priority 4}
 	{nationality usa}
 	{armors
 		{body us_haversack_shovel}
-		{head helmet_usa_ranger}
+		{head "helmet1_usa"}
 	}
 	{perks
 		{"health" "400%"

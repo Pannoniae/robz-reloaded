@@ -61,7 +61,7 @@
 	{Weaponry
 
 		{place "gun"
-			{weapon "50mm_pak38" filling "bullet50 gerl apc" 1}
+			{weapon "50mm_pak38_vet" filling "bullet50 gerl apc" 1}
 
 			{Rotate}
 			("abm_field_gun")

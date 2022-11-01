@@ -1,12 +1,12 @@
 {breed
-	{skin "usa-marine2-officer"}
+	{skin "usa_officer"}
 	{portrait usa_officer}
 	{icon officer}
 	{icon_priority 6}
 	{tags "officer"}
 	{nationality usmc}
 	{armors
-		{head helmet_usa_marine_2}
+		{head "helmet1_usa"}
 	}
 	{perks
 		{"health" "350%"

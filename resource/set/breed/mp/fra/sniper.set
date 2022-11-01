@@ -1,11 +1,11 @@
 {breed
-	{skin "fra-us-inf2-rfl"}
+	{skin "us_sniper"}
 	{portrait "fr_soldier4"}
 	{nationality fra}
 	{icon "snipers"}
 	{icon_priority 5}
 	{armors
-		{head "helmet_fra_m1"}
+		{head helmet1_usa}
 	}
 	{perks
 		{"health" "350%"

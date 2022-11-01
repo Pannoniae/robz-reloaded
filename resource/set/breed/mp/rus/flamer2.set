@@ -1,12 +1,12 @@
 {breed
-	{skin "rus-late-smg"}
+	{skin "rus_flamer"}
 	{portrait rus_soldier2}
 	{icon smg}
 	{icon_priority 1}
 	{nationality rus}
 	{armors
 		{body ammo_rus}
-		{head fieldcap1_rus}
+		{head helmet1_rus}
 	}
 	{perks
 		{"health" "150%"

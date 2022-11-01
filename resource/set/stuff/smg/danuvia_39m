@@ -1,5 +1,5 @@
 {from "mp40"
-	{filling "ammo pistol" 40}
+	{filling "ammo danuvia_mag" 40}
 	{entity "danuvia_39m"}
 	{fireSound	"smg/danuvia_39m_burst/"}
 	{reloadSound "mp40_reload"}

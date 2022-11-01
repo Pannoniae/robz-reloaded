@@ -1,12 +1,12 @@
 {breed
-	{skin "ger-zelt-mgun"}
+	{skin "ger_t3"}
 	{portrait ger2_elite1}
 	{icon rifleman}
 	{icon_priority 1}
 	{nationality ger}
 	{armors
 		{body ammo_ger3}
-		{head helmet_heer_camo}
+		{head helmet1_ger}
 	}
 	{perks
 		{"health" "350%"

@@ -1,11 +1,11 @@
 {breed
-	{skin "waffen-lsssmock2-rfl"}
+	{skin "ger_t3"}
 	{portrait ger_soldier6}
 	{icon rifleman}
 	{icon_priority 3}
 	{nationality ger2}
 	{armors
-		{head waffen_helmet_lssah}
+		{head helmet1_ger}
 	}
 	{perks
 		{"health" "400%"

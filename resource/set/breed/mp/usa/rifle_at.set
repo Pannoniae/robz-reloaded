@@ -1,12 +1,12 @@
 {breed
-	{skin "usa-inf-rfl"}
+	{skin "us_t2"}
 	{portrait usa_soldier2}
 	{icon bazooker}
 	{icon_priority 3}
 	{nationality usa}
 	{armors
 		{body us_haversack}
-		{head helmet4_usa}
+		{head "helmet1_usa"}
 	}
 	{perks
 		{"health" "150%"
@@ -70,7 +70,7 @@
 		{item "ammo colt_mag" 28}
 		{item "bandage" 5}
 		{item "grenade m61" 2}
-		{item "weapon bazooka" 0.25 1 filled}
+		{item "weapon bazooka" 1 filled}
 		{item "ammo bazooka" 7}
 		{in_hands 0}
 	}

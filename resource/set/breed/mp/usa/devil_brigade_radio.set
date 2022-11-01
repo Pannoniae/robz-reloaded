@@ -1,12 +1,12 @@
 {breed
-	{skin "usa-inf-rfl"}
+	{skin "us_t4"}
 	{portrait usa_elite4}
 	{icon devil_brigade}
 	{icon_priority 4}
 	{nationality usa}
 	{armors
 		{body us_haversack}
-		{head helmet_novice}
+		{head "helmet1_usa"}
 	}
 	{perks
 		{"health" "400%"

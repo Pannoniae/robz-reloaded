@@ -1,5 +1,5 @@
 {breed
-	{skin "rus-late-smg"}
+	{skin "rus_mgun"}
 	{portrait "rus_soldier2"}
 	{nationality rus}
 	{icon "at_rifle"}

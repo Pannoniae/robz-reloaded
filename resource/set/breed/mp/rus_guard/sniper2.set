@@ -1,11 +1,11 @@
 {breed
-	{skin "rus-sco-late-rfl"}
+	{skin "rus_sniper"}
 	{portrait rus_soldier5}
 	{icon elite5}
 	{icon_priority 5}
 	{nationality rus}
 	{armors
-		{head fieldcap_rus}
+		{head helmet1_rus}
 	}
 	{perks
 		{"health" "500%"

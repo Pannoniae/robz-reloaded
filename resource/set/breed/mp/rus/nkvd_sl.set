@@ -1,11 +1,11 @@
 {breed
-	{skin "rus-coat-smg"}
+	{skin "rus_t3"}
 	{portrait rus_elite2}
 	{icon elite4}
 	{icon_priority 3}
 	{nationality rus}
 	{armors
-		{head cap1_rus}
+		{head helmet1_rus}
 	}
 	{perks
 		{"health" "200%"

@@ -1,11 +1,11 @@
 {breed
-	{skin "us_flamer_hp"}
+	{skin "us_com"}
 	{portrait usa_tankman}
 	{icon tankman}
 	{icon_priority 1}
 	{nationality usa}
 	{armors
-		{head helmet_usa_tank2}
+		{head "helmet1_usa"}
 	}
 	{perks
 		{"health" "400%"

@@ -1,11 +1,11 @@
 {breed
-	{skin "usa-marine2-rfl"}
+	{skin "us_flamer"}
 	{portrait "usa_elite2"}
 	{nationality usmc}
 	{icon "elite5"}
 	{icon_priority 3}
 	{armors
-		{head helmet_usa_marine_2}
+		{head "helmet1_usa"}
 	}
 	{perks
 		{"health" "250%"

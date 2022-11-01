@@ -1,11 +1,11 @@
 {breed
-	{skin "ger-stug-tankcom"}
+	{skin "ger_com"}
 	{portrait ger_tankman}
 	{icon tankman}
 	{icon_priority 1}
 	{nationality ger}
 	{armors
-		{head cap_ger_m43_radiohead_officer}
+		{head helmet1_ger}
 	}
 	{perks
 		{"health" "200%"

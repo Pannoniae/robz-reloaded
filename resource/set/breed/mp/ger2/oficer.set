@@ -1,12 +1,12 @@
 {breed
-	{skin "ger-zelt-smg"}
+	{skin "ger_officer"}
 	{portrait ger2_officer}
 	{icon officer}
 	{icon_priority 6}
 	{tags "officer"}
 	{nationality ger}
 	{armors
-		{head cap_ger_off}
+		{head helmet1_ger}
 	}
 	{perks
 		{"health" "400%"

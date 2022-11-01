@@ -1,12 +1,12 @@
 {breed
-	{skin "fra-us-inf2-carbine"}
+	{skin "us_mgun"}
 	{portrait "fr_soldier2"}
 	{nationality fra}
 	{icon "bazooker3"}
 	{icon_priority 1}
 	{armors
 		{body us_haversack}
-		{head "helmet_fra_m1_2"}
+		{head helmet1_usa}
 	}
 	{perks
 		{"health" "200%"

@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "$/humanskin/russelite_body_colspec"}
-	{blend none}
-}

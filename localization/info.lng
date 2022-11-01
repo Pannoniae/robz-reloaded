@@ -341,6 +341,56 @@
         
         ;uk---------------
         {"checkered_man(eng)" "A professional nazi hunter, donning incredibly handsome checkered uniform."}
+        {"recon_can(eng)" "A team of 4 Canadian recon troops in an unarmed Dodge WC-56 car, armed with 1 Sten Mk.II submachinegun and 3 Lee-Enfield No.4 Mk.1s. Use these troops to quickly recce a portion of the battlefield or to hold points until reinforcements arrive. Soldiers are skill 6."}
+        {"engineers(eng)" "The Sapper section is a 10-man squad armed with 8 Lee-Enfields and two Stens. Soldiers are skill 4 except the SL and the 2IC which is skill 5. They come with mines, trench-building equipment and anti-tank hedgehogs. You can rely on them any time to fortify a position and not let the enemy pass!"}
+        {"smgs(eng)" "The Assault section is a 10-man squad armed with 5 Lee-Enfields, 4 Stens and a Bren machine gunner. Soldiers are skill 4 except the SL and the 2IC which is skill 5."}
+        {"smgs_can(eng)" "The Canadian Assault section is a 10-man squad armed with 7 Stens and 3 StG 44s. These brave canucks are the perfect asset for storming any urban position with their overwhelming firepower and tenacity. Soldiers are skill 4 except the StG guys, the SL and the 2IC which is skill 5."}
+        {"smgs_desert(eng)" "The Desert Rats Assault section is a 10-man squad armed with 8 Thompsons and 2 Bren machine guns. This squad is perfect for situations where you <c(255 0 0)>really</c> need more kaboom to storm a position. However, these guys fare absolutely terrible on the defence. Soldiers are skill 5."}
+        {"riflemans(eng)" "The Rifle Section is a 10-man squad armed with 6 Lee-Enfields, one Lee-Enfield rifle grenadier, one PIAT AT, one Sten and a Bren machine gunner. These guys are a well-balanced fighting force providing a solid backbone for any combat formation. They are more suited to defence and long-range engagements with the machine gun providing suppressive fire and dispersive power and the riflemen picking their targets off from afar. Be careful not to expose them to close-range engagements where they fare poorly. Soldiers are skill 4 except the SL and the 2IC which is skill 5."}
+        {"riflemans_can(eng)" "The Canadian Rifle Section is a 10-man squad armed with 7 Lee-Enfields, one Lee-Enfield rifle grenadier, one Sten and a Bren machine gunner. We would like to express our condolences if you buy this squad as the Canadian Assault Section stole all the good equipment so this squad is a worse version of the British Rifle Section. Soldiers are skill 4 except the SL and the 2IC which is skill 5."}
+        {"riflemans_scot(eng)" "The Scottish Rifle Section is a 10-man squad armed with 7 Lee-Enfields, one Lee-Enfield rifle grenadier, one Thompson and a Bren machine gunner. These fine lads are livid at the enemy because they shagged their ma's. Soldiers are skill 5."}
+        {"riflemans_anzac(eng)" "The ANZAC Section is a 10-man squad armed with 5 Lee-Enfields, 3 Owen Guns and two Brens. They are great where regular Rifle Sections are inadequate for the job. Keep them away from harm and these ANZACs will serve you well. Soldiers are skill 5."}
+        {"riflemans_bw(eng)" "The Black Watch Section is a 10-man squad armed with 6 Lee-Enfields, one Lee-Enfield rifle grenadier, a Sten and two Lewis guns. They are great where regular Rifle Sections are inadequate for the job. Keep them away from harm and these ANZACs will serve you well. Soldiers are skill 5."}
+        {"riflemans_at(eng)" "The Rifle Section (/w two Brens) is a 10-man squad armed with 5 Lee-Enfields, one Lee-Enfield rifle grenadier, a Sten, one PIAT AT and two Brens. These guys are a well-balanced fighting force providing a solid backbone for any combat formation. They are more suited to defence and long-range engagements with the machine gun providing suppressive fire and dispersive power and the riflemen picking their targets off from afar. Be careful not to expose them to close-range engagements where they fare poorly. They are identical to the regular Rifle Section except the inclusion of the double Bren team. Soldiers are skill 4 except the SL and the 2IC which is skill 5."}
+        {"riflemans_desert(eng)" "The Desert Rats Rifle Section is a 10-man squad armed with 5 Lee-Enfields, one Lee-Enfield rifle grenadier, a Sten, two Thompsons and two Brens. This squad enjoys a respectable amount of firepower but can also keep its ground really well. They are a really good option for longer-range combat.  Soldiers are skill 5."}
+        {"mot_rifles_can(eng)" "The Motorised Canadian Rifle Section is a 10-man squad armed with 7 Lee-Enfields, one Lee-Enfield rifle grenadier, one Sten and a Bren machine gunner. Hey, you also get a Bedford truck for free! Soldiers are skill 4 except the SL and the 2IC which is skill 5."}
+        {"mech_armor_rifles(eng)" "The Mechanized Rifle Section is a 10-man squad armed with 6 Lee-Enfields, one Lee-Enfield rifle grenadier, one PIAT AT, one Sten and a Bren machine gunner. Hey, you also get a Bedford truck for free! Soldiers are skill 4 except the SL and the 2IC which is skill 5."}
+		{"elites(eng)" "The Commando Section is a 10-man squad armed with 5 Lee-Enfields, two Thompsons, a Sten, one PIAT AT and two Brens. This squad is a cost-effective way of reliably dispatching enemy soldiers from the field with their superior accuracy, stamina and well-rounded equipment. Soldiers are skill 6 except the SL and the 2IC which is skill 7."}
+		{"paratroopers(eng)" "The Paratrooper Section is a 10-man squad armed with 4 Lee-Enfields, one Lee-Enfield sniper, a Sten, one 2-inch mortar and three Brens. Three Brens, thrice the fun! Soldiers are skill 6 except the SL and the 2IC which is skill 7."}
+		{"elites_no6(eng)" "The No. 6 Commando Section is a 10-man squad armed with 4 M1 Garands, one Lee-Enfield sniper, a Thompson, one PIAT AT and two Brens. Soldiers are skill 7 except the SL and the 2IC which is skill 8."}
+        {"stormtroopers(eng)" "The SAS Section is a 10-man squad armed with 4 Lee-Enfields, one Lee-Enfield rifle grenadier, one Boys AT Rifle, a Thompson, one PIAT AT and two Vickers K (VGO)s. These soldiers are the best the entirely Commonwealth has so use them wisely! Soldiers are skill 8."}
+        
+        {"paratroopers_drop(eng)" "The Paratrooper Section is a 10-man squad armed with 4 Lee-Enfields, one Lee-Enfield sniper, a Sten, one 2-inch mortar and three Brens. Three Brens, thrice the fun! Soldiers are skill 6 except the SL and the 2IC which is skill 7. Comes with parachutes and a sense of hope."}
+        {"stormtroopers(eng)" "The SAS Section is a 10-man squad armed with 4 Lee-Enfields, one Lee-Enfield rifle grenadier, one Boys AT Rifle, a Thompson, one PIAT AT and two Vickers K (VGO)s. These soldiers are the best the entirely Commonwealth has so use them wisely! Soldiers are skill 8. Comes with parachutes and a sense of hope."}
+        {"stormtroopers_drop(eng)" "The SAS Section is a 10-man squad armed with 4 Lee-Enfields, one Lee-Enfield rifle grenadier, one Boys AT Rifle, a Thompson, one PIAT AT and two Vickers K (VGO)s. These soldiers are the best the entirely Commonwealth has so use them wisely! Soldiers are skill 8. Comes with parachutes and a sense of hope."}
+        {"storm_mech_eng" "This mechanized squad of our best infantry provides the perfect combination of firepower and mobility, capable of breaking through enemy lines and deliver a devastating blow to our enemies. Use the halftrack to support your infantry after they have been deployed and to rapidly bring any needed reinforcements to the front lines. Don't give the enemy a chance to recover -- pursue them relentlessly and seal your victory!"}
+        
+        {"ap_miners(eng)" "This team of specialists arrives with a full complement of anti-personnel mines which can be placed to provide the perfect defense against advancing infantry. Deploy them along likely routes of enemy advance or use them to secure a vulnerable flank from enemy attack."}
+        {"at_miners(eng)" "This team of specialists arrives with a full complement of anti-tank mines which can be deployed to thwart advances made by enemy vehicles. Place them along roads or other likely routes of enemy advance. In some cases, a mine might only disable a vehicle, so be prepared to finish off any enemy vehicles which get disabled by your mines."}
+        {"sappers(eng)" "This team of specialists is equipped with mine detectors and is trained in mine disposal. They are the most effective way of clearing enemy minefields. Once mines have been detected, they can be re-deployed for use against their former owners. However, these soldiers are vulnerable whilst searching for mines, so take measures to protect them."}
+        
+        {"vehic_supporter(eng)" "This pair of support crews are only lightly armed but are well-suited for crewing your armored vehicles and field guns. Use them to replace the losses you have suffered in combat and re-man your equipment. They are not suited for infantry combat and can't capture points."}
+        {"tankmans(eng)" "This pair of tank crews are only lightly armed but are well-suited for crewing your armored vehicles and field guns. Use them to replace the losses you have suffered in combat and re-man your equipment. They are not suited for infantry combat and can't capture points."}
+        {"elite_tankmans(eng)" "This pair of tank crews are only lightly armed but are well-suited for crewing your armored vehicles and field guns. Use them to replace the losses you have suffered in combat and re-man your equipment. They are not suited for infantry combat and can't capture points. They are the best of the Commonwealth so use them wisely!"}
+
+        {"riflemans2(eng)" "A single infantryman armed with a bolt-action Lee-Enfield rifle and sandbags."}
+		{"smgs2(eng)" "A single infantryman armed with a Sten submachine gun and AT grenades."}
+		{"smgs2_thompson(eng)" "A single infantryman armed with a Thompson submachine gun."}
+		{"at_rifles(eng)" "This team of anti-tank infantrymen is equipped with a Boys anti-tank rifle, perfectly suited for taking out lightly armored enemy vehicles. While the high velocity rifle packs a punch, it is insufficient to take on heavier vehicles and it may require several shots to fully disable light vehicles."}
+		{"bazookers(eng)" "This team of anti-tank rocket-launcher infantrymen is armed with a PIAT and they are trained to destroy tanks in close combat by launching armor-piercing rounds. They are capable of destroying even the heaviest armored vehicles -- provided they can find a weakness to exploit. Beware of the armored skirts on some vehicles, as they greatly reduce the effectiveness of these shaped-charge rounds."}
+		{"stormtrooper5(eng)" "This team of anti-tank rocket-launcher infantrymen is armed with a PIAT and they are trained to destroy tanks in close combat by launching armor-piercing rounds. They are capable of destroying even the heaviest armored vehicles -- provided they can find a weakness to exploit. Beware of the armored skirts on some vehicles, as they greatly reduce the effectiveness of these shaped-charge rounds."}
+
+		{"mgs2(eng)" "A Bren machine gun team and sandbags. Soldiers are skill 4."}
+		{"mgs2_can(eng)" "A Lewis machine gun team and sandbags. Soldiers are skill 5."}
+		{"elite3(eng)" "A Commando Bren machine gun team and sandbags. Soldiers are skill 6."}
+		{"stormtrooper6(eng)" "A SAS Commando Vickers K (VGO) machine gun team and sandbags. Soldiers are skill 8."}
+		{"engineers_assault(eng)" "A Heavy Sapper Section armed with satchel charges, flamethrowers and minesweepers. Soldiers are skill 5."}
+        {"flamers(eng)" "This team of specialists comes equipped with a flamethrower which strikes terror into the hearts of the enemy. It is one of the deadliest weapons in close range combat, capable of igniting buildings and setting cover ablaze -- invaluable when seeking to ferret out the enemy. However, the fuel canister each troop carries  on his back is highly volatile and could lead to sudden and certain death if hit by enemy fire. Use these specialists wisely, as you only have few available for each battle."}
+		{"snipers(eng)" "This well-trained marksman is armed with a scoped rifle and is capable of eliminating enemy infantry with precision, at long range. He relies on stealth to avoid detection while seeking to eliminate his targets. Use him to take out enemy officers or other important targets before engaging general infantry."}
+		{"officers(eng)" "This experienced field officer is capable of supporting your troops by spotting enemy units from afar with his binoculars. Use his skill in locating enemy units through the fog of war, so that your other units can engage or avoid them as necessary. The officer also reduces your current CP by 20 which allows you to field a bigger army."}
+
+        {"light_mortar_eng" "The 2-inch Mk.II mortar was a light mortar used by the Commonwealth during World War II. It was intended to be used against targets which were beyond a hand grenade's throwing range. It was fairly effective in its role, only hampered by short range."}
+
         
 		;usmc-----------------
 		
@@ -357,17 +407,11 @@
 		
 
 		{"specialinf(usmc)" "A squad of 13 Marines, consisting of a rifle-grenadier and two BAR teams. Soldiers are skill 4. Unlike their Army brethens, all marines completed their basic in only either Parris Island or San Diego recruit depots. U.S.M.C had been known to have among the hardest training out of any branch in the U.S. military. Nicknamed 'Devil Dogs' gained from their actions in WW1, U.S. Marines are well-trained professional infantrymen. While the U.S. Army outnumbered Marine personnel in the Pacific, the Marine Corps spearheaded most of the operations as well as the island-hopping campaigns, and thus first to fight often in the Pacific theater."}
-
-		{"specialinf_vet(usmc)" "A squad of 13 marines, composed of two a rifle grenadier and two BAR teams. Soldiers are skill 5. These marine grunts had been through some sh*t in the field as they honed their skill and experience. Oo-rah!"}
-
+		{"specialinf_vet(usmc)" "A squad of 13 marines, composed of two a rifle grenadier and two BAR teams. Soldiers are skill 5. These marine grunts had been through some shit in the field as they honed their skill and experience. Oo-rah!"}
 		{"specialinf_assault(usmc)" "A squad of 13 marines, composed of a rifle grenadier, three flamethrowers, and a bazooka. Soldiers are skill 5. These U.S. marines are combat engineers tasked with demolitions of obstacles and assaulting enemy positions, and thus equipped with satchel charges and M2 Flamethrowers."}
-		
 		{"paramarines(usmc)" "A squad of 13 paramines, composed of a sniper, two BAR teams, a rifle grenadier, and a .30 cal. team. Soldiers are skill 6. Paramarines were meant to be used as vanguards ahead and in support of amphibious operations, to capture critical points like airfields, and conduct reconnaissance behind enemy lines. It officially ceased to exist on 29 February 1944, folded into regular marine infantry units. Ensure these battle-hardened marines kick some ass out there."}
-		
 		{"raiders(usmc)" "A squad of 13 Marine Raiders, composed of a bazooka, two rifle grenadiers, 3 BAR teams, and a sniper. Soldiers are skill 8. Marine Raiders were elite units formed to conduct special amphibious light infantry warfare, to work behind the enemy lines on special operations capacity. With the changing nature of the Pacific theater from time to time and Raiders being misused as conventional infantry, Marine Raiders had been disbanded and folded into regular marine infantry units by 1944, along with Paramarines. Ensure these battle-hardened marines kick some ass out there."}
-		
 		{"lvt_specialinf(usmc)" "10 Marines mounted on LVT-4 Water Buffalo Amtracs, which are amphibious transports armed with 5 machine guns for self-defense and capable of resupplying nearby marines."}
-
 		{"lvt_specialinf_vet(usmc)" "10 Seasoned Marines mounted on LVT-4 Water Buffalo Amtracs, which are amphibious transports armed with 5 machine guns for self-defense and capable of resupplying nearby marines."}
 		
 		{"ap_miners(usmc)" "This team of specialists arrives with a full complement of anti-personnel mines which can be placed to provide the perfect defense against advancing infantry. Deploy them along likely routes of enemy advance or use them to secure a vulnerable flank from enemy attack."}
@@ -430,57 +474,43 @@
 		{"hero10_fra" "This deadly unit consists of 2 Jacksons, two Veteran Wolverines, and one regular Wolverine tank destroyers. They are the best when used to lock down the battlefield with their lethal weaponry."}
 
 		;old stuff vv---------------------
-		{"ap_miners(eng)" "This team of specialists arrives with a full complement of anti-personnel mines which can be placed to provide the perfect defense against advancing infantry. Deploy them along likely routes of enemy advance or use them to secure a vulnerable flank from enemy attack."}
 		{"ap_miners(ger)" "This team of specialists arrives with a full complement of anti-personnel mines which can be placed to provide the perfect defense against advancing infantry. Deploy them along likely routes of enemy advance or use them to secure a vulnerable flank from enemy attack."}
 		{"ap_miners(rus)" "This team of specialists arrives with a full complement of anti-personnel mines which can be placed to provide the perfect defense against advancing infantry. Deploy them along likely routes of enemy advance or use them to secure a vulnerable flank from enemy attack."}
 		{"ap_miners(usa)" "This team of specialists arrives with a full complement of anti-personnel mines which can be placed to provide the perfect defense against advancing infantry. Deploy them along likely routes of enemy advance or use them to secure a vulnerable flank from enemy attack."}
-		{"at_miners(eng)" "This team of specialists arrives with a full complement of anti-tank mines which can be deployed to thwart advances made by enemy vehicles. Place them along roads or other likely routes of enemy advance. In some cases, a mine might only disable a vehicle, so be prepared to finish off any enemy vehicles which get disabled by your mines."}
 		{"at_miners(ger)" "This team of specialists arrives with a full complement of anti-tank mines which can be deployed to thwart advances made by enemy vehicles. Place them along roads or other likely routes of enemy advance. In some cases, a mine might only disable a vehicle, so be prepared to finish off any enemy vehicles which get disabled by your mines."}
 		{"at_miners(rus)" "This team of specialists arrives with a full complement of anti-tank mines which can be deployed to thwart advances made by enemy vehicles. Place them along roads or other likely routes of enemy advance. In some cases, a mine might only disable a vehicle, so be prepared to finish off any enemy vehicles which get disabled by your mines."}
 		{"at_miners(usa)" "This team of specialists arrives with a full complement of anti-tank mines which can be deployed to thwart advances made by enemy vehicles. Place them along roads or other likely routes of enemy advance. In some cases, a mine might only disable a vehicle, so be prepared to finish off any enemy vehicles which get disabled by your mines."}
-		{"at_rifles(eng)" "This team of anti-tank infantrymen is equipped with an anti-tank rifle, perfectly suited for taking out lightly armored enemy vehicles. While the high velocity rifle packs a punch, it is insufficient to take on heavier vehicles and it may require several shots to fully disable light vehicles."}
 		{"at_rifles(ger)" "An anti-tank rifle team with a PzB39. Good for taking out light vehicles and as a heavy sniper rifle. Even though this rifle packs a terrifying punch, more well-armoured tanks easily bounce its shells."}
 		{"at_rifles(jap)" "This team of anti-tank infantrymen is equipped with an anti-tank rifle, perfectly suited for taking out lightly armored enemy vehicles. While the high velocity rifle packs a punch, it is insufficient to take on heavier vehicles and it may require several shots to fully disable light vehicles."}
 		{"at_rifles(rus)" "This team of anti-tank infantrymen is equipped with an anti-tank rifle, perfectly suited for taking out lightly armored enemy vehicles. While the high velocity rifle packs a punch, it is insufficient to take on heavier vehicles and it may require several shots to fully disable light vehicles."}
-		{"bazookers(eng)" "This team of anti-tank rocket-launcher infantrymen is armed with a PIAT and they are trained to destroy tanks in close combat by launching armor-piercing rounds. They are capable of destroying even the heaviest armored vehicles -- provided they can find a weakness to exploit. Beware of the armored skirts on some vehicles, as they greatly reduce the effectiveness of these shaped-charge rounds."}
 		{"bazookers(ger)" "This team of anti-tank rocket-launcher infantrymen is armed with a Panzerschreck and they are trained to destroy tanks in close combat using armor-piercing rockets. They are capable of destroying even the heaviest armored vehicles -- provided they can find a weakness to exploit. Beware of the armored skirts on some vehicles, as they greatly reduce the effectiveness of these shaped-charge rounds."}
 		{"bazookers(jap)" "This team of anti-tank rocket-launcher infantrymen is armed with a Type 4 RPG and they are trained to destroy tanks in close combat using armor piercing rockets. They are capable of destroying even the heaviest armored vehicles -- provided they can find a weakness to exploit. Beware of the armored skirts on some vehicles, as they greatly reduce the effectiveness of these shaped-charge rounds."}
 		{"bazookers(rus)" "This team of anti-tank rocket-launcher infantrymen is armed with a Bazooka and they are trained to destroy tanks in close combat using armor-piercing rockets. They are capable of destroying even the heaviest armored vehicles -- provided they can find a weakness to exploit. Beware of the armored skirts on some vehicles, as they greatly reduce the effectiveness of these shaped-charge rounds."}
-		{"elites(eng)" "This elite squad of dedicated commandos is equipped with weapons with silencers, and light machine guns. These are some of the best trained soldiers we have available, and they will fight with steadfast dedication for the Commonwealth."}
 		{"elites(ger)" "This squad of disciplined paratroopers is equipped with an excellent selection of scoped rifles, regular rifles and light machine guns. These are some of the most dedicated soldiers we have available, each one ready to fight for our Fatherland to the bitter end."}
 		{"elites(jap)" "This outstanding squad of marine paratroopers comes equipped with an excellent selection of rifles and light machine guns. These distinguished and honourable soldiers are fiercely loyal to our cause and will fight without mercy."}
 		{"elites(rus)" "This fearsomely effective marine squad is equipped with an excellent selection of submachine guns, automatic rifles and light machine guns. These are some of the bravest soldiers we have, and they will proudly fight for our Motherland."}
-		{"flamers(eng)" "This team of specialists comes equipped with a flamethrower which strikes terror into the hearts of the enemy. It is one of the deadliest weapons in close range combat, capable of igniting buildings and setting cover ablaze -- invaluable when seeking to ferret out the enemy. However, the fuel canister each troop carries  on his back is highly volatile and could lead to sudden and certain death if hit by enemy fire. Use these specialists wisely, as you only have few available for each battle."}
 		{"flamers(jap)" "This team of specialists comes equipped with a flamethrower which strikes terror into the hearts of the enemy. It is one of the deadliest weapons in close range combat, capable of igniting buildings and setting cover ablaze -- invaluable when seeking to ferret out the enemy. However, the fuel canister each troop carries  on his back is highly volatile and could lead to sudden and certain death if hit by enemy fire. Use these specialists wisely, as you only have few available for each battle."}
 		{"flamers(rus)" "This team of specialists comes equipped with a flamethrower which strikes terror into the hearts of the enemy. It is one of the deadliest weapons in close range combat, capable of igniting buildings and setting cover ablaze -- invaluable when seeking to ferret out the enemy. However, the fuel canister each troop carries  on his back is highly volatile and could lead to sudden and certain death if hit by enemy fire. Use these specialists wisely, as you only have few available for each battle."}
 		{"home_guards(eng)" "This squad is only lightly armed and minimally trained. With only bolt-action rifles and a few grenades, they are not equipped for serious combat. However, you may find them useful in defensive roles and for securing ground you've taken. Under the right conditions, and with proper support, they can be an effective fighting force worthy of the Commonwealth."}
 		{"home_guards(rus)" "This squad is only lightly armed and minimally trained. With only bolt-action rifles and a few grenades, they are not equipped for serious combat. However, you may find them useful in defensive roles and for securing ground you've taken. Under the right conditions, and with proper support, they can be an effective fighting force worthy of the Motherland."}
 		{"home_guards(usa)" "This squad is only lightly armed and minimally trained. With only bolt-action rifles and a few grenades, they are not equipped for serious combat. However, you may find them useful in defensive roles and for securing ground you've taken. Under the right conditions, and with proper support, they can be an effective fighting force worthy of upholding our freedom."}
-		{"mgs2(eng)" "A single infantryman armed with a Bren machine gun and sandbags."}
 		{"mgs2(jap)" "A single infantryman armed with a Type 99 machine gun and sandbags."}
 		{"mgs2(rus)" "A single infantryman armed with a DP-27 machine gun and sandbags."}
-		{"officers(eng)" "This experienced field officer is capable of supporting your troops by spotting enemy units from afar with his binoculars. Use his skill in locating enemy units through the fog of war, so that your other units can engage or avoid them as necessary. The officer also reduces your current CP by 20 which allows you to field a bigger army."}
 		{"officers(jap)" "This experienced field officer is capable of supporting your troops by spotting enemy units from afar with his binoculars. Use his skill in locating enemy units through the fog of war, so that your other units can engage or avoid them as necessary. The officer also reduces your current CP by 20 which allows you to field a bigger army."}
 		{"officers(rus)" "This experienced field officer is capable of supporting your troops by spotting enemy units from afar with his binoculars. Use his skill in locating enemy units through the fog of war, so that your other units can engage or avoid them as necessary. The officer also reduces your current CP by 20 which allows you to field a bigger army."}
-		{"riflemans(eng)" "This squad is a balanced fighting force that combines rifles and other small arms, along with a light machine gun, to provide fire support. While they are equipped with the firepower necessary to advance upon the enemy, you may find that they are better served in a defensive role. The machine gun can suppress and splinter enemy infantry formations, while riflemen pick off their targets. This squad provides a solid backbone for any fighting force."}
 		{"riflemans(ger)" "This squad is a balanced fighting force that combines rifles and other small arms, along with a light machine gun, to provide fire support. While they are equipped with the firepower necessary to advance upon the enemy, you may find that they are better served in a defensive role. The machine gun can suppress and splinter enemy infantry formations, while riflemen pick off their targets. This squad provides a solid backbone for any fighting force."}
 		{"riflemans(rus)" "This squad is a balanced fighting force that combines rifles and other small arms, along with a light machine gun, to provide fire support. While they are equipped with the firepower necessary to advance upon the enemy, you may find that they are better served in a defensive role. The machine gun can suppress and splinter enemy infantry formations, while riflemen pick off their targets. This squad provides a solid backbone for any fighting force."}
-		{"riflemans2(eng)" "A single infantryman armed with a bolt-action Lee-Enfield rifle and sandbags."}
 		{"riflemans2(jap)" "A single infantryman armed with a bolt-action Type 99 rifle and sandbags."}
 		{"riflemans2(rus)" "A single infantryman armed with a bolt-action Mosin rifle and sandbags."}
-		{"sappers(eng)" "This team of specialists is equipped with mine detectors and is trained in mine disposal. They are the most effective way of clearing enemy minefields. Once mines have been detected, they can be re-deployed for use against their former owners. However, these soldiers are vulnerable whilst searching for mines, so take measures to protect them."}
 		{"sappers(ger)" "This team of specialists is equipped with mine detectors and is trained in mine disposal. They are the most effective way of clearing enemy minefields. Once mines have been detected, they can be re-deployed for use against their former owners. However, these soldiers are vulnerable whilst searching for mines, so take measures to protect them."}
 		{"sappers(jap)" "This team of specialists is equipped with mine detectors and is trained in mine disposal. They are the most effective way of clearing enemy minefields. Once mines have been detected, they can be re-deployed for use against their former owners. However, these soldiers are vulnerable whilst searching for mines, so take measures to protect them."}
 		{"sappers(rus)" "This team of specialists is equipped with mine detectors and is trained in mine disposal. They are the most effective way of clearing enemy minefields. Once mines have been detected, they can be re-deployed for use against their former owners. However, these soldiers are vulnerable whilst searching for mines, so take measures to protect them."}
 		{"sappers(usa)" "This team of specialists is equipped with mine detectors and is trained in mine disposal. They are the most effective way of clearing enemy minefields. Once mines have been detected, they can be re-deployed for use against their former owners. However, these soldiers are vulnerable whilst searching for mines, so take measures to protect them."}
-		{"smgs(eng)" "Armed with rifles and submachine guns, these infantrymen are equipped to assault enemy positions. Their loadout also makes them ideal for close-quarter combat and urban fighting. They lack machine guns for suppressive fire, so it may be important to provide some additional fire support to cover their advance."}
 		{"smgs(ger)" "Armed with rifles and submachine guns, these infantrymen are equipped to assault enemy positions. Their loadout also makes them ideal for close-quarter combat and urban fighting. They lack machine guns for suppressive fire, so it may be important to provide some additional fire support to cover their advance."}
 		{"smgs(rus)" "Armed with rifles and submachine guns, these infantrymen are equipped to assault enemy positions. Their loadout also makes them ideal for close-quarter combat and urban fighting. They lack machine guns for suppressive fire, so it may be important to provide some additional fire support to cover their advance."}
-		{"smgs2(eng)" "A single infantryman armed with a Sten submachine gun and AT grenades."}
 		{"smgs2(ger)" "A single infantryman armed with an MP-40 submachine gun and AT grenades."}
 		{"smgs2(jap)" "A single infantryman armed with a Type 100 submachine gun and AT grenades."}
 		{"smgs2(rus)" "A single infantryman armed with a PPSh submachine gun and AT grenades."}
-		{"snipers(eng)" "This well-trained marksman is armed with a scoped rifle and is capable of eliminating enemy infantry with precision, at long range. He relies on stealth to avoid detection while seeking to eliminate his targets. Use him to take out enemy officers or other important targets before engaging general infantry."}
 		{"snipers(ger)" "This well-trained marksman is armed with a scoped rifle and is capable of eliminating enemy infantry with precision, at long range. He relies on stealth to avoid detection while seeking to eliminate his targets. Use him to take out enemy officers or other important targets before engaging general infantry."}
 		{"snipers(jap)" "This well-trained marksman is armed with a scoped rifle and is capable of eliminating enemy infantry with precision, at long range. He relies on stealth to avoid detection while seeking to eliminate his targets. Use him to take out enemy officers or other important targets before engaging general infantry."}
 		{"snipers(rus)" "This well-trained marksman is armed with a scoped rifle and is capable of eliminating enemy infantry with precision, at long range. He relies on stealth to avoid detection while seeking to eliminate his targets. Use him to take out enemy officers or other important targets before engaging general infantry."}
@@ -488,7 +518,6 @@
 		{"snipers_d(ger)" "This well-trained marksman is armed with a scoped rifle and is capable of eliminating enemy infantry with precision, at long range. He relies on stealth to avoid detection while seeking to eliminate his targets. Use him to take out enemy officers or other important targets before engaging general infantry."}
 		{"snipers_d(jap)" "This well-trained marksman is armed with a scoped rifle and is capable of eliminating enemy infantry with precision, at long range. He relies on stealth to avoid detection while seeking to eliminate his targets. Use him to take out enemy officers or other important targets before engaging general infantry."}
 		{"snipers_d(rus)" "This well-trained marksman is armed with a scoped rifle and is capable of eliminating enemy infantry with precision, at long range. He relies on stealth to avoid detection while seeking to eliminate his targets. Use him to take out enemy officers or other important targets before engaging general infantry."}
-		{"stormtroopers(eng)" "This squad of elite infantry comes armed to the teeth with the finest weaponry available. Though they come at a high price, these highly skilled veterans are even equipped to deal with any armored threats they may encounter. With stamina and endurance that puts other infantrymen to shame, they will serve the Commonwealth with distinction!"}
 		{"stormtroopers1(eng)" "A small squad of elite marksmen well trained to take out any enemy infantry."}
 		{"stormtroopers2(eng)" "A small squad with an elite anti-tank soldier who can take out the mightest of all enemy tanks."}
 		{"stormtroopers3(eng)" "A small squad with an elite machine gunner providing accurate and deadly fire support to your units."}
@@ -506,12 +535,10 @@
 		{"stormtroopers1(usa)" "A small squad of elite marksmen well trained to take out any enemy infantry."}
 		{"stormtroopers2(usa)" "A small squad with an elite anti-tank soldier who can take out the mightest of all enemy tanks."}
 		{"stormtroopers3(usa)" "A small squad with an elite machine gunner providing accurate and deadly fire support to your units."}
-		{"storm_mech_eng" "This mechanized squad of our best infantry provides the perfect combination of firepower and mobility, capable of breaking through enemy lines and deliver a devastating blow to our enemies. Use the halftrack to support your infantry after they have been deployed and to rapidly bring any needed reinforcements to the front lines. Don't give the enemy a chance to recover -- pursue them relentlessly and seal your victory!"}
 		{"storm_mech_ger" "This mechanized squad of our best infantry provides the perfect combination of firepower and mobility, capable of breaking through enemy lines and deliver a devastating blow to our enemies. Use the halftrack to support your infantry after they have been deployed and to rapidly bring any needed reinforcements to the front lines. Don't give the enemy a chance to recover -- pursue them relentlessly and seal your victory!"}
 		{"storm_mech_jap" "This mechanized squad of our best infantry provides the perfect combination of firepower and mobility, capable of breaking through enemy lines and deliver a devastating blow to our enemies. Use the halftrack to support your infantry after they have been deployed and to rapidly bring any needed reinforcements to the front lines. Don't give the enemy a chance to recover -- pursue them relentlessly and seal your victory!"}
 		{"storm_mech_rus" "This mechanized squad of our best infantry provides the perfect combination of firepower and mobility, capable of breaking through enemy lines and deliver a devastating blow to our enemies. Use the halftrack to support your infantry after they have been deployed and to rapidly bring any needed reinforcements to the front lines. Don't give the enemy a chance to recover -- pursue them relentlessly and seal your victory!"}
 		{"storm_mech_usa" "This mechanized squad of our best infantry provides the perfect combination of firepower and mobility, capable of breaking through enemy lines and deliver a devastating blow to our enemies. Use the halftrack to support your infantry after they have been deployed and to rapidly bring any needed reinforcements to the front lines. Don't give the enemy a chance to recover -- pursue them relentlessly and seal your victory!"}
-		{"tankmans(eng)" "This pair of tank crews are only lightly armed but are well-suited for crewing your armored vehicles and field guns. Use them to replace the losses you have suffered in combat and re-man your equipment. They are not suited for infantry combat and can't capture points."}
 		{"tankmans(ger)" "This pair of tank crews are only lightly armed but are well-suited for crewing your armored vehicles and field guns. Use them to replace the losses you have suffered in combat and re-man your equipment. They are not suited for infantry combat and can't capture points."}
 		{"tankmans(jap)" "This pair of tank crews are only lightly armed but are well-suited for crewing your armored vehicles and field guns. Use them to replace the losses you have suffered in combat and re-man your equipment. They are not suited for infantry combat and can't capture points."}
 		{"tankmans(rus)" "This pair of tank crews are only lightly armed but are well-suited for crewing your armored vehicles and field guns. Use them to replace the losses you have suffered in combat and re-man your equipment. They are not suited for infantry combat and can't capture points."}
@@ -873,6 +900,43 @@
 		{"m36" "The most powerful of all US Army tank destroyers entered mass production in November 1943. Its chassis was taken from its predecessor -- the self-propelled M10A1 anti-tank gun. The good armor penetration capabilities of the modified 90mm gun mounted on the \"Slugger\" allowed it to hold its own against heavy German tanks. Its thick frontal armor protected it from enemy shells and its high manoeuvrability compensated for its one serious flaw -- an open turret that left its crew vulnerable."}
 		{"m36b1" "The M36 tank destroyer, formally 90 mm Gun Motor Carriage, M36, was an American tank destroyer used during World War II. The need for 90 mm gunned tank destroyers was so urgent that, during October-December 1944, 187 conversions of standard Medium Tank M4A3 hulls were produced by Grand Blanc Arsenal. These vehicles, designated M36B1, were rushed to the European Theater of Operations and used in combat alongside standard M36s. The M36 was well liked by its crews, being one of the few armored fighting vehicles available to US forces that could destroy heavy German tanks from a distance."}
 
+        ;uk---------------		
+        {"willysmb_eng" "In 1941, over a relatively short period of time, American engineers developed a reliable and efficient military off-roader named the \"Willys\". The vehicle received a positive response, due to its excellent speed and manoeuvrability, making it one of the best in its class. The additional possibility of mounting a large-calibre machine gun on a vertical support also meant that this car could be used for reconnaissance purposes."}
+		{"dodgewc55" "In 1941, British Dodge began production of an all-wheel drive Weapon Carrier car, ordered by the British military. The vehicle was larger than its American counterparts and had a more powerful engine and greater transportation capacity. A special body mount allowed the installation of a 37mm gun for battling light-armored enemy vehicles. A Vickers gun could also be installed to counter enemy personnel."}
+		{"m3_eng" "This armored half-truck was produced by the US from 1941 onwards, and used as a transport vehicle for tank corps and artillery divisions. Some vehicles were delivered to USSR as part of a lend-lease program. The spacious hull was made open-top. Along with a compartment designed to take eight soldiers, it housed a large-calibre machinegun, with mounts for additional machineguns on the rear and sides. The M3 proved to be a fast and reliable vehicle, well-suited for use in the harsh conditions of war."}
+        {"universal_carrier" "The Universal Carrier is the best gun platform for transporting troops, eliminating enemy troops and carrying equipment. You can count on them!"}
+        {"universal_carrier_at" "A Universal Carrier with a Boys anti-tank rifle slapped on it. While it still disintegrates if you sneeze on it slightly, it can at least deal with lightly armoured targets."}
+        {"eng_wasp" "A Universal Carrier with a Ronson flamethrower fitted. This vehicle is a perfect asset when you have too much of the enemy existing in one place and you want to change that situation."}
+        {"hero_eng_wasp" "A Universal Carrier with a Ronson flamethrower fitted. This vehicle is a perfect asset when you have too much of the enemy existing in one place and you want to change that situation."}
+        {"churchill_kangaroo" "The Churchill Kangaroo is the answer to the question of \"What if you had a half-track which you can't destroy?\""}
+   		{"bedford" "Inside these trucks you will find a petrol can, a repair kit, small arms ammo, grenades and other ammunition.\nThe reliable and undemanding Bredfords were widely used by the British Army during World War II. These 3-ton trucks carried infantry and cargo, and towed pieces of artillery, as well as serving as fuel trucks, hospital and command vehicles, and mobile workshops."}
+		{"bedford_inf" "Inside these trucks you will find a repair kit, small arms ammo, grenades and other ammunition.\nThe reliable and undemanding Bredfords were widely used by the British Army during World War II. These 3-ton trucks carried infantry and cargo, and towed pieces of artillery, as well as serving as fuel trucks, hospital and command vehicles, and mobile workshops."}
+        {"bedford_art" "In the inventory of these trucks you will find armor-piercing and high-explosive rounds, alongside a box for transporting them, and a repair kit.\nThe reliable and undemanding Bredfords were widely used by the British Army during World War II. These 3-ton trucks carried infantry and cargo, and towed pieces of artillery, as well as serving as fuel trucks, hospital and command vehicles, and mobile workshops."}
+		{"bedford_eng" "Inside this truck you will find tools for repairing equipment, materials for building obstacles and defenses, and anti-personnel and anti-tank mines. Obstacles are usually built in front of occupied positions or occasionally on the flanks and in the gaps between them. defenses are made of sandbags and serve to strengthen the positions of friendly infantry.\nThe reliable and undemanding Bredfords were widely used by the British Army during World War II. These 3-ton trucks carried infantry and cargo, and towed pieces of artillery, as well as serving as fuel trucks, hospital and command vehicles, and mobile workshops."}
+        
+        {"303_bren_tripod" "A Bren machine gun mounted on a tripod."}
+        {"303_vickers_mkiv" "A Vickers machine gun mounted on a tripod."}
+        {"oerlikon" "This 20mm flak autocannon was developed in Sweden and became the most widely used anti-aircraft gun of WWII. Its ease of use and high rate of fire contributed to its popularity -- in 1939 it was fielded by the British Armed Forces, and in 1941 by the US Navy. Oerlikons were used against both aerial and ground targets and were effective against infantry and lightly-armored vehicles."}
+        
+        {"ml_3_inch_mk_ii" "The Ordnance ML 3-inch mortar is an British 3-inch (in reality, 81.2 millimeter) calibre mortar. It was a successor to the Stokes mortar and while having an unsatisfactory initial range compared to its German counterparts, the weapon was improved throughout the war and became an effective infantry mortar."}
+        {"4_2_inch_mortar_m_2" "The Ordnance ML 4.2-inch mortar was a British. rifled 4.2-inch (110 mm) mortar used during the Second World War. It entered service in 1941. Use this mortar when you really want the enemy to cease fire."}
+        {"qf2" "The British 2-pounder, developed in 1936, was considered one of the best guns in its class. During the early years of the war, the QF2 was successfully used to fight enemy APCs, and light and medium tanks. The arrival of the more heavily-protected Panzers quickly reduced its efficiency, however."}
+		{"qf6" "The low efficiency of QF2 guns became obvious immediately after they had been adopted, leading Great Britain to begin development of a new anti-tank gun before World War II. This was put into service 4 years later, replacing the obsolete 2-pounder. QF6 guns were successfully used in North Africa, to destroy light and medium enemy tanks, but they were incapable of penetrating the thick armor plates of the new Tigers and Panthers."}
+		{"qf17" "For a long time, this long-barrelled 17-pound gun was considered the best in its class. It was adopted by the British Army at the same time as the enemy's newest heavy tanks were arriving in North Africa. For this reason, mass production of the gun was started as quickly as possible. High armor-piercing performance and excellent ballistic qualities enabled the QF 17 to destroy almost any German vehicle from a long range. However, the gun's excessive weight greatly hindered its transportation."}
+		{"vickers" "The 3.7 inch QF AA gun was Britain's answer to the need for a heavy anti-aircraft gun during World War II. It had similar characteristics to the German 88 multi-purpose gun and, while it boasted a slightly larger payload, it almost never saw use as an anti-tank weapon, unlike the German 88. The mounting was not designed for horizontal firing and using it in this role placed undue stress on the unit. However, the potential for the weapon being used in that role was not ignored and the British looked to this weapon for the development of future anti-tank platforms."}
+
+		{"pdr25" "Based upon the now obsolete 18-pounder guns, British engineers developed a 25-pounder gun-howitzer which was able to fire 11kg high explosive shells at great distances. Its telescopic sights were of great use in direct fire against enemy tanks, while the large shield plate protected the crew from bullets and fragments. The gun showed excellent performance on the battlefield, earning respect for its range and impressive destructive ability."}
+        {"bl45" "The BL 4.5 inch medium gun had nothing in common with the QF 4.5 inch Howitzer or the QF 4.5 inch AA gun."}
+        {"bl6" "The Vickers 6 inch 26 cwt howitzer was developed in 1915 and, for a long time, served as the primary weapon of its class in the British Army. The high-explosive shells of the BL6 successfully eliminated enemy personnel and dealt significant damage to their fortifications. However, the lack of armor plating made its crew very vulnerable."}
+        {"gun_carrier_3_inch" "A 3-inch mortar in a Universal Carrier. Isn't this combination... just lovely?^^"}
+        {"m7_eng" "Mass-produced since April 1943, this self-propelled artillery gun was mainly used for infantry support. The 105mm field howitzer was mounted upon the chassis of a medium M3 tank, reinforcing the armament with a large-calibre AA machine gun. The impressive firepower of the main gun was supplemented by thick armor and excellent manoeuvrability for its class. The only shortcoming of the Priest was its open turret that left the crew vulnerable."}
+        {"land_mattress" "Developed in 1944, the 32-barrelled Land Mattress multiple rocket launcher was initially intended for marine support, and was used on British combat ships. This deadly gun proved to be so effective during the Battle of Walcheren Island that its mobile, ground-based modification was immediately put into production. Dealing massive damage, its single volley was equal to the fire of a howitzer battery. Perhaps the only drawback to this rocket launcher was its long reloading time."}
+        {"bl72" "In 1940 the British Army concluded that the only heavy howitzer available to it, the First World War-era BL 8-inch howitzer, had insufficient range for the conditions of the Second World War. As a stopgap the decision was made to re-line the existing barrels to a smaller calibre and develop a new range of ammunition to achieve the desired ranges. As expected, this artillery piece has devastating destructive power unrivalled by its contemporaries. Use it wisely and aim well."}
+        {"t92" "The biggest and the best gun we could find in the entire Allies, this 240mm howitzer surely does rain down death on our enemies. Indiscriminately. The best thing about this vehicle is that -- it can get away before the inevitable massive counter-barrage!"}
+        
+        
+        
+        {"hero_eng_para" "Three squads of the Commonwealth's finest paratroopers. Use them wisely and crush the enemy with them!"}
         
         {"achilles" "In 1944, British engineers created \"Achilles\", the improved tank destroyer, based on the American M10 Wolverine Gun Motor Carriage. Essentially, it consists of a long-barrelled QF17 gun with premium armor-piercing performance, mounted on an M4A2 Sherman battle tank chassis. Although providing excellent mobility, it unfortunately did not prove possible to install durable armor plating."}
 		{"archer" "In an effort to provide mobile anti-tank artillery support for their attacking infantry, the British Army placed an order with Vickers to develop a new self-propelled gun, capable of meeting all the requirements of current modern warfare. First produced in 1944, \"Archers\" had an original design: their long-barrelled 76mm QF17 guns proved capable of fighting any German tank, but their reversed position proved most inconvenient during offensives."}
@@ -880,12 +944,7 @@
 		{"ba64" "This light 4WD armored car, equipped with a machine gun, was used by the Soviet Army from 1942 onwards for reconnaissance and protection in combat. Its bullet-proof armor was unable to protect the crew from even small-calibre rounds, but its small size and high ride characteristics made the BA 64 a difficult target for enemy artillery."}
 		{"bm13" "The order for mass production of the \"Katyusha\" was signed on June 21, 1941 and, just three weeks later, the rocket launcher appeared on the battlefield in Orsha. Guiding rails for launching M13 rockets were mounted atop a ZIS-6 truck, providing the vehicle with much-needed mobility. Its long range caused the rockets to scatter over a large area, making the weapon unsuitable for pinpoint attacks, but area strikes were highly effective."}
 		{"bm37" "Developed in 1937, the Soviet 82mm mortar is a smooth-bore, indirect-fire grenade launcher used to engage enemy personnel and suppress its fortified emplacements. The weapon's construction follows the usual scheme: explosion is triggered by a fixed-pin primer, mounted inside the shell; and a two-legged mount supports the firing tube, providing it with the required firing angle. Reliability, ease of use and mobility made this weapon a popular choice amongst elite infantry troops."}
-		{"bedford" "Inside these trucks you will find a petrol can, a repair kit, small arms ammo, grenades and other ammunition.\nThe reliable and undemanding Bredfords were widely used by the British Army during World War II. These 3-ton trucks carried infantry and cargo, and towed pieces of artillery, as well as serving as fuel trucks, hospital and command vehicles, and mobile workshops."}
-		{"bedford_art" "In the inventory of these trucks you will find armor-piercing and high-explosive rounds, alongside a box for transporting them, and a repair kit.\nThe reliable and undemanding Bredfords were widely used by the British Army during World War II. These 3-ton trucks carried infantry and cargo, and towed pieces of artillery, as well as serving as fuel trucks, hospital and command vehicles, and mobile workshops."}
-		{"bedford_eng" "Inside this truck you will find tools for repairing equipment, materials for building obstacles and defenses, and anti-personnel and anti-tank mines. Obstacles are usually built in front of occupied positions or occasionally on the flanks and in the gaps between them. defenses are made of sandbags and serve to strengthen the positions of friendly infantry.\nThe reliable and undemanding Bredfords were widely used by the British Army during World War II. These 3-ton trucks carried infantry and cargo, and towed pieces of artillery, as well as serving as fuel trucks, hospital and command vehicles, and mobile workshops."}
-		{"bedford_inf" "Inside these trucks you will find a repair kit, small arms ammo, grenades and other ammunition.\nThe reliable and undemanding Bredfords were widely used by the British Army during World War II. These 3-ton trucks carried infantry and cargo, and towed pieces of artillery, as well as serving as fuel trucks, hospital and command vehicles, and mobile workshops."}
 		{"bishop" "A self-propelled howitzer, mounted on a Valentine tank hull. Its main purpose was to provide the 25-pounder howitzer with a mobile platform. The hurried design process resulted in a few flaws:  the fixed turret turned out to be rather tall which, in combination with the vehicle's low speed, made it an ideal target. Despite this, the Bishop was successfully used as an infantry support weapon and siege gun."}
-		{"bl6" "The Vickers 6 inch 26 cwt howitzer was developed in 1915 and, for a long time, served as the primary weapon of its class in the British Army. The high-explosive shells of the BL6 successfully eliminated enemy personnel and dealt significant damage to their fortifications. However, the lack of armor plating made its crew very vulnerable."}
 		{"browning_stan" "The Browning was initially developed for the air force, but in 1923 a different version was developed for ground force use as well. The upgraded version was dubbed the M1919 and was widely used by the US Army. Its good rate of fire and effective range made it one of the most successful and widely used mounted machine guns in US armed services."}
 		{"bt7a" "The BT, or Bystrokhodny tank ('fast tank'), was based on the 'convertible' M1931 Christie tank and produced in the USSR from 1935 onwards. Weighing 13.5 tons, this 'self-propelled gun' version was able to achieve high speeds, while retaining relatively thick armor and high firepower, thanks to its 76mm. The BT was designed to take part in fast raids into enemy territory, and for quick offensive operations without infantry support."}
 		{"centurion" "Development of this tank was begun by AEC in August, 1943. Within 2 years, it was being mass produced and had become a classic among the British armored vehicles of its time. The Centurion arrived too late for World War II but, had this not been the case, the German Panthers and Tigers would have had little to no chance of victory in a duel. The new vehicles had an excellent shell-proof capacity and their stabilized long-barrelled 76mm guns could quickly destroy almost any enemy."}
@@ -902,7 +961,6 @@
 		{"crusaderaa1" "The ZSU self-propelled AA gun was created in 1942 on the chassis of the \"Crusader\" cruiser tank. The chassis was left unchanged, but the standard turret was replaced with a purpose-built one, which housed two paired 40mm Bofors guns."}
 		{"d1" "The 152mm howitzer entered service with the Red Army on August 8th, 1943. It was designed for indirect fire at enemy personnel, fortifications and trench lines. The D-1 was considered equal to the world's best guns of its class, and its mobility, range and the destructive force of high-explosive rounds made it an almost perfect weapon for its time. On the battlefield, it earned a reputation for being a reliable and accurate artillery piece, boasting excellent ballistic characteristics and high mobility."}
 		{"degtyarev_stan" "Vasily Degtyaryov's machine gun design was in use by the Red Army from 1927 until the end of WWII. The weapon turned out to be quite the success: safe, easy to use, and demonstrating a high rate of fire, it was superior to all existing machineguns and its place in the Red Army's arsenal was well-deserved."}
-		{"dodgewc55" "In 1941, British Dodge began production of an all-wheel drive Weapon Carrier car, ordered by the British military. The vehicle was larger than its American counterparts and had a more powerful engine and greater transportation capacity. A special body mount allowed the installation of a 37mm gun for battling light-armored enemy vehicles. A Vickers gun could also be installed to counter enemy personnel."}
 		{"flak37" "The 88mm FlaK 18 was an anti-aircraft and anti-tank gun, mounted on a gun carriage that enabled it to fire in all directions. Widespread production started in 1933, and it soon proved to be the best anti-aircraft weapon available, when Germany intervened during the Spanish Civil War. It also turned out to be an excellent anti-tank weapon, as its high muzzle velocity and large calibre gave it the power and range to take out enemy armor. The success of this weapon lead to many variants, and it was one of the most recognizable German weapons throughout the war."}
 		{"flak38_wheeled" "Mounted on a wheeled carriage, the FlaK 38 gun was a further development of the FlaK-30 AA gun: lighter, but boasting higher rate of fire. It was used by the Wehrmacht, Luftwaffe and SS troops for anti-aircraft defense. It could, however, be easily employed against infantry and lightly-armored vehicles."}
 		{"gaz67b" "Mass production of GAZ-67 started in October 1943. Although being notably heavier than its American counterparts, this Soviet 4WD car nevertheless enjoyed comparable mobility, while its enhanced cross-country ability, reliability and simplicity, quickly won the Ivan-Wyllis popularity among the soldiers and officers of the Red Army. This vehicle was widely used for transporting medium-ranking command staff and headquarters staff, as well as for reconnaissance, communications and towing light artillery. On some modifications a vertical bar with a machine gun mount was installed."}
@@ -934,7 +992,6 @@
 		{"kv1" "World's first mass-produced tank with anti-artillery armor entered service with the Red Army on December 19, 1939. Until the arrival of the German Tigers, the KV-1 was virtually invincible: its 76mm main gun was capable of defeating any enemy tank, and German guns were unable to penetrate its thick frontal armor."}
 		{"kv2" "Entering into service with the Red Army in the early 1940s, the KV-2 was virtually impervious to enemy anti-tank weapons. However, due to its low manoeuvrability and slow rate of fire, it was mainly used as a siege weapon."}
 		{"kv85" "First entering into service with the Red Army on August 8, 1943, and actively used in battle throughout 1944, the KV85's low manoeuvrability was balanced out by its thick armor and powerful 85mm gun, which was capable of defeating almost all medium and heavy tanks."}
-		{"land_mattress" "Developed in 1944, the 32-barrelled Land Mattress multiple rocket launcher was initially intended for marine support, and was used on British combat ships. This deadly gun proved to be so effective during the Battle of Walcheren Island that its mobile, ground-based modification was immediately put into production. Dealing massive damage, its single volley was equal to the fire of a howitzer battery. Perhaps the only drawback to this rocket launcher was its long reloading time."}
 		{"m114" "This heavy field howitzer design was based on the old 155mm French guns and entered into mass production in 1941. Intended for indirect fire on enemy personnel, fortifications and important shallow objectives, the M114 proved to be an excellent tool on the battlefield, and its easy maintenance, good ballistics and sturdy construction made it popular among US artillery troops."}
 		{"m1mortar" "The design of this US-produced mortar was purchased from French engineer Edgar Brandt. The smoothbore tube rested upon a rectangular support plate and was supported by a simple, two-legged mount -- this standard scheme allowed the mortar to fire fragmentation, incendiary and illumination shells along a plunging trajectory. Fire was triggered by the shell primer descending upon a fixed pin inside the tube."}
 		{"m1_57mm" "QF6 is a 57mm gun which saw use primarily in anti-tank roles throughout World War II. The quick-firing 6 pounder gun had a significant impact on the battlefield when it made its combat debut in May 1942. However, with the introduction of much heavier German armor, the QF6 was only effective at relatively close ranges. Despite this, it remained the primary anti-tank gun used in infantry units and was successful enough for the US Army to adopt it into their service as a replacement for the 37mm M3."}
@@ -943,7 +1000,6 @@
 		{"m30_1938" "The M-30 a 122mm howitzer of Soviet design was, in fact, a modernization of the 122mm howitzers employed by the Red Army during World War I. This allowed the newer artillery piece to make use of ammunition which had already become familiar among the Red Army. While initially this artillery piece represented but a small fraction of the total artillery service, its percentage increased rapidly as older designs were lost in combat."}
 		{"m37" "The legendary \"Sorokopyatka\" entered service with the Red Army on April 24, 1938 and became the main artillery gun during the early stages of war. Along with its high rate of fire, its compact design and a low shield plate allowed it to be easily concealed, while its high mobility permitted its operators to change positions quickly. After the appearance of the new German tanks it became largely obsolete and was mainly used against lightly armored targets, or for infantry support."}
 		{"m3cannon" "Mass produced since 1940, this light gun became the standard issue AT weapon of the US infantry during the early stages of the war. Having a relatively high rate of fire and fair mobility, it successfully engaged light vehicles and infantry, but the increasingly thick armor of German tanks caused these guns to rapidly become obsolete."}
-		{"m3_eng" "This armored half-truck was produced by the US from 1941 onwards, and used as a transport vehicle for tank corps and artillery divisions. Some vehicles were delivered to USSR as part of a lend-lease program. The spacious hull was made open-top. Along with a compartment designed to take eight soldiers, it housed a large-calibre machinegun, with mounts for additional machineguns on the rear and sides. The M3 proved to be a fast and reliable vehicle, well-suited for use in the harsh conditions of war."}
 		{"m4a3m" "This 1942 Sherman tank modification was built to clear minefields with a special mine flail. The engine-powered spinning rotor, with its steel chains and balls attached, was mounted in front of the vehicle on two arms. The rotation caused the chains to hit the ground, exploding all mines in front of the vehicle. The turret of these tanks was often removed, leaving nothing but a machine gun for defense."}
 		{"m4a3m_eng" "This 1942 Sherman tank modification was built to clear minefields with a special mine flail. The engine-powered spinning rotor, with its steel chains and balls attached, was mounted in front of the vehicle on two arms. The rotation caused the chains to hit the ground, exploding all mines in front of the vehicle. The turret of these tanks was often removed, leaving nothing but a machine gun for defense."}
 		{"m4a3vc" "Refitted with a British 17-pounder gun, the Sherman VC entered production in 1944 and was widely used by the Allies during the last months of the war. The high velocity of the new, long-barrelled, anti-tank gun allowed it to penetrate armor as thick as 100mm. The tank's own armor was also enhanced. The Firefly performed well on the battlefield and a mounted large-calibre AA machine gun added to its efficiency."}
@@ -952,7 +1008,6 @@
 		{"m4a4_firefly" "The Firefly was put into production in early 1944 and was based on the American M4A4 Sherman. It fitted a powerful 17pdr gun that was capable of penetrating most German heavy armor of that time. Despite the Firefly's superior anti-tank capabilities, the tank was regarded as inferior to the regular M4A4 against soft targets such as enemy infantry, buildings and lightly armored vehicles."}
 		{"m5" "In late 1940, US engineers undertook the project to adapt the 3-inch anti-aircraft gun T9 to an anti-tank role. The result was named the M5, and it entered service with the US Army in December 1942. Thanks to the high muzzle velocity of its round and its excellent armor penetration capabilities, this gun succeeded in replacing the early AT guns which were quickly becoming ineffective against new German tanks."}
 		{"m72" "The M72 \"Dnepr\" army motorcycles entered mass production in 1941, following a decision to form motorcycle troops within the Red Army. The side-car model came equipped with a 7.62mm DP machine gun and earned the soldiers' respect for being reliable and fast."}
-		{"m7_eng" "Mass-produced since April 194, this self-propelled artillery gun was mainly used for infantry support. The 105mm field howitzer was mounted upon the chassis of a medium M3 tank, reinforcing the armament with a large-calibre AA machine gun. The impressive firepower of the main gun was supplemented by thick armor and excellent manoeuvrability for its class. The only shortcoming of the Priest was its open turret that left the crew vulnerable."}
 		{"mg42_stan" "With an approximate rate of fire of 1200 rounds per minute, the MG 42 is a weapon capable of putting a stunning amount of suppressive fire on the enemy. The MG 42 had proven itself to be reliable and durable in the field, and was more economical to manufacture than previous machine guns. On the battlefield, the sound of an MG 42 was distinct, as it boasted a rate of fire nearly twice that of the allied machine guns. This was often a terrifying prospect for those allied soldiers that had to face it."}
 		{"mk2a" "Allied forces began to field Matildas in 1940. The concept behind this British infantry tank was a strengthened armor, which cost it both speed and firepower. Indeed, the German 37mm AT guns were unable to penetrate the Matilda's armor, but the weak armament and low mobility of these tanks made them poor performers in tank duels, mainly relegating them to the role of infantry support."}
 		{"mk2daimler" "The Daimler, developed in 1939, was considered to be the most successful British wheeled armored car of WWII. The welded hull had good slope angles which protected the crew from bullets and fragments, while the six-cylinder carburettor engine and all-wheeled drive provided the vehicle with great speed and manoeuvrability. The fully revolving turret was equipped with a machine gun and a 40mm cannon, to combat lightly-armored targets."}
@@ -962,21 +1017,16 @@
 		{"mk7" "Perhaps one of Great Britain's most original military projects was that developed in the 1930s by Vickers-Armstrong Limited, as a typical cruiser tank. Tetrarchs were distinguished by their high mobility, excellent steering and extremely low weight, allowing it to be used in airborne operations. The armor-piercing rounds from the tank's 40mm gun were effective against light enemy vehicles, however, its own light armor could not protect its crew from high-calibre bullets."}
 		{"cromwell_mk_vii" "One of the most widely used British cruiser tanks entered mass production in January 1943: the modified version of the Crusader tank. Although the turret-mounted 75mm gun was unable to penetrate the frontal armor of the newest German tanks, the Mk.VIII Cromwell was respected by tank crews for its speed and manoeuvrability. The tank was designed for quick penetration deep into enemy territory and for strategic initiative support."}
 		{"ml3" "Adopted by the British Army in 1920, this 3-inch infantry mortar was often used to provide fire support for attacking and defending infantry. The gun had a high rate of fire and its simple design allowed the shortest firing time under artificial or natural cover."}
-		{"oerlikon" "This 20mm flak autocannon was developed in Sweden and became the most widely used anti-aircraft gun of WWII. Its ease of use and high rate of fire contributed to its popularity -- in 1939 it was fielded by the British Armed Forces, and in 1941 by the US Navy. Oerlikons were used against both aerial and ground targets and were effective against infantry and lightly-armored vehicles."}
 		{"pak36" "The PaK 36 being a small-calibre weapon, it was found to be inadequate against allied medium and heavy tanks. Still, the gun was effective against the most common light tanks. During the initial phases of Operation Barbarossa the PaK 36 could still penetrate the majority of Soviet tanks at ranges up to 1000m from the front."}
 		{"pak38" "The 50mm PaK 38 was the successor to the 37mm PaK 36, and the predecessor to the 75mm PaK 40. When the Soviets introduced their T-34, the PaK 38 was one of the few anti-tank guns capable of penetrating its armor at the time. Though this weapon was replaced by the PaK 40 and other more-powerful anti-tank weapons, the PaK 38 remained in useful service until the end of the war."}
 		{"pak40" "The first guns of this type appeared during the spring of 1942, on the Eastern Front. The PaK 40 was designed to take on tanks and armored vehicles, however, its fairly large calibre and the availability of high-explosive rounds allowed it to be used to suppress weapon emplacements, demolish light fortifications and eliminate enemy personnel. Its accuracy and effective range exceed that of the Soviet ZIS-3 field artillery gun."}
 		{"pak47" "Before the World War II, Japan realized that their 37mm anti-tank guns would be ineffective against the newest British and Soviet tanks. For this reason, it was decided to develop a more advanced gun that would become the Japanese infantry's standard means of dealing with enemy vehicles. The result was indexed the \"Type 1\" and introduced to the Army in 1941. Battles on Pacific islands had proved that 37mm guns could not inflict sufficient damage to American tanks, but were effective against temporary firing positions and lightly armored vehicles."}
 		{"pak57" "While the Type 1 47mm anti-tank gun proved effective against light allied vehicles, it did little to halt the allied medium tanks which were making their appearance in the Pacific War. It was thought that the Type 2 57mm cannon could fill this role whilst more permanent measures were sought. Its slightly larger calibre afforded this weapon greater anti-armor capabilities than its predecessor, but while it did indeed prove to be slightly more effective against tanks, it was still clear that a more powerful weapon was needed."}
-		{"pdr25" "Based upon the now obsolete 18-pounder guns, British engineers developed a 25-pounder gun-howitzer which was able to fire 11kg high explosive shells at great distances. Its telescopic sights were of great use in direct fire against enemy tanks, while the large shield plate protected the crew from bullets and fragments. The gun showed excellent performance on the battlefield, earning respect for its range and impressive destructive ability."}
 		{"pz1" "The Flakpanzer I is a self propelled anti-aircraft gun based on the Panzer I chassis. Up to this point, motorized flak vehicles had been unarmored, and prone to small arms fire and other common weapons. Joining a Flak 38 to the readily available Panzer I chassis provided a minimal amount of protection, and the vehicle also had substantial anti-aircraft and anti-infantry capabilities due to its 20mm cannon. However, it still lacked sufficient protection for combat use and crews suffered high casualty rates."}
 		{"pz1b" "Thanks to its six-cylinder Maybach engine, the Pz.I light tank -- mass produced since July 1943 -- was fast and manoeuvrable, while its turret-mounted double machine guns proved to be excellent against enemy infantry. However, its light armor and lack of sufficient armament rendered the Pz.I useless in tank battles."}
 		{"pz3" "The PzKpfw III entered mass production in September 1939. One year later, it received improved armor, as well as a new, long-barrelled 50mm gun. The tank was able to successfully engage and destroy armored cars and light tanks, although with the appearance of the T-34 it became largely obsolete."}
 		{"pz3f" "The PzKpfw III Ausf. F was intended to fight alongside other tanks, using the same 37mm PaK 36 type gun favoured by the infantry at that time. This cannon provided adequate armament until 1940. Thankfully, the Panzer III design accommodated a larger armament, greatly increasing its lifespan once a larger cannon was required."}
 		{"pz3m" "In order to clear minefields, German engineers developed a special mine roller. When mounted upon the chassis of a Pz.Kpfw.III tank, it allowed the vehicle to drive through minefields unharmed. The resulting corridors were then used by infantry and ordinary tanks. It was armed with only a machine-gun."}
-		{"qf2" "The British 2-pounder, developed in 1936, was considered one of the best guns in its class. During the early years of the war, the QF2 was successfully used to fight enemy APCs, and light and medium tanks. The arrival of the more heavily-protected Panzers quickly reduced its efficiency, however."}
-		{"qf6" "The low efficiency of QF2 guns became obvious immediately after they had been adopted, leading Great Britain to begin development of a new anti-tank gun before World War II. This was put into service 4 years later, replacing the obsolete 2-pounder. QF6 guns were successfully used in North Africa, to destroy light and medium enemy tanks, but they were incapable of penetrating the thick armor plates of the new Tigers and Panthers."}
-		{"qf17" "For a long time, this long-barrelled 17-pound gun was considered the best in its class. It was adopted by the British Army at the same time as the enemy's newest heavy tanks were arriving in North Africa. For this reason, mass production of the gun was started as quickly as possible. High armor-piercing performance and excellent ballistic qualities enabled the QF 17 to destroy almost any German vehicle from a long range. However, the gun's excessive weight greatly hindered its transportation."}
 		{"sdkfz234" "The SdKfz 234 armored, all-wheel drive vehicle was mass produced in 1943. Thanks to sloping armor plates, the hull protected the crew not only from shell fragments and infantry weapons, but also from low-calibre artillery fire. Moreover, the powerful engine allowed the vehicle to achieve high speeds, and its armament proved to be very effective against enemy infantry and lightly-armored vehicles, winning the \"Puma\" the rightfully deserved title of 'best armored car of WWII'."}
 		{"sdkfz251_1" "The SdKfz 251 half-track armored vehicle entered service with the Wehrmacht in the summer of 1939. It was widely used as a means of troop transportation along the Soviet-German front, but because of its open top, the crew was not given sufficient protection. Apart from seating, the infantry compartment also contained mounts for several machine guns. The Hanomag engine allowed this 9-ton vehicle to achieve high speeds, while sloping armor plates provided some protection to the transported infantry."}
 		{"sdkfz4" "The smoke trails left by the Nebelwerfer's rocket volley exposed its position, making it very vulnerable to counter-attacks, so it was decided to mount this weapon on a mobile platform. The first versions of the Sdkzf.4 with a mounted rocket launcher entered service with the Wehrmacht in early 1944. Bullet-proof armor and a fair degree of manoeuvrability increased the vehicle's overall resilience, while a volley of ten 150mm rockets was capable of inflicting devastating damage on the enemy."}
@@ -1005,11 +1055,9 @@
 		{"type94" "This 90mm Japanese infantry mortar was adopted in 1934. It was widely used in China and Indo-China, as well as on the Pacific islands. Thanks to its high rate of fire and rather powerful high-explosive fragmentation ammo, the Type 94 was widely used by the Imperial Japanese Army for supporting friendly infantry, and eliminating enemy infantry. The simple assembly and transport of this mortar meant it required little more than a few minutes to establish a firing position and get the tube ready."}
 		{"type96_150mm" "The 150mm Type 96 was the primary towed artillery employed by the Imperial Japanese Army throughout World War II. Based on its European counterparts, the Type 96 performed remarkably well and replaced the aging Type 4 howitzer. The Type 96 proved to be effective in its role, and its modern design earned it a place in the Japanese arsenal."}
 		{"type97" "In 1935, Sankyo Co. purchased a license from Harley Davidson to produce motorcycles. The Japanese modification was appreciated and adopted by the Imperial Japanese Army, where it was further modified and indexed as the \"Type 97\". These motorcycles performed well on the fronts of mainland Asia, but their use was greatly limited by the bad roads and dense jungles of the Pacific islands."}
-		{"vickers" "The 3.7 inch QF AA gun was Britain's answer to the need for a heavy anti-aircraft gun during World War II. It had similar characteristics to the German 88 multi-purpose gun and, while it boasted a slightly larger payload, it almost never saw use as an anti-tank weapon, unlike the German 88. The mounting was not designed for horizontal firing and using it in this role placed undue stress on the unit. However, the potential for the weapon being used in that role was not ignored and the British looked to this weapon for the development of future anti-tank platforms."}
 		{"vickers_stan" "The Vickers medium machine gun first appeared in Great Britain in 1912 as a modification of the famous Maxim gun and was subsequently used by the British Army until the 1960s. The machine gun offered an excellent rate of fire at long range but its heavy weight made transportation difficult."}
 		{"willysat" "This reliable, undemanding all-terrain jeep was manufactured for the US Army from 1941 onwards. Thanks to its excellent ride performance and strong cross-country ability, the Willys quickly gained popularity amongst American military personnel. On some models, a special vertical bar was installed, carrying a pair of mounted rocket grenade launchers. This feature meant that the vehicle could be used as an auxiliary tool for providing fire support for the troops, by fighting enemy armored vehicles."}
 		{"willysmb" "Over a short period of time, three US companies -- Willys, Ford and Bantam -- worked together to develop a reliable and efficient off-roader to suit military needs. Production began in 1941, and it quickly proved its worth on the battlefield. Its excellent speed, and its capacity to mount large-calibre machine guns, made the Willys one of the finest army vehicles of WWII."}
-		{"willysmb_eng" "In 1941, over a relatively short period of time, American engineers developed a reliable and efficient military off-roader named the \"Willys\". The vehicle received a positive response, due to its excellent speed and manoeuvrability, making it one of the best in its class. The additional possibility of mounting a large-calibre machine gun on a vertical support also meant that this car could be used for reconnaissance purposes."}
 		{"zis2" "The ZIS-2 anti-tank gun entered mass production on June 1, 1941, but its production was soon halted, not to be resumed until first German Tiger and Panther tanks appeared on the field of battle. Due to a specially designed breech-block, this long-barrelled artillery piece demonstrated a high rate of fire, while also being lightweight and compact. Firing 57mm armor-piercing rounds, it could even penetrate heavy German tanks. Despite all these advantages, its high-explosive rounds were much underpowered, hampering the ZIS's use against enemy personnel or fortifications."}
 		{"zis3" "The ZIS-3 was the world's first conveyor-assembled artillery piece. It was highly praised by artillery specialists and, on February 12, 1942, it entered service with the Red Army. Firing armor-piercing rounds, it was able to penetrate 70mm of armor at medium range, while its high-explosive shells demonstrated high stopping power and a great damage radius."}
 		{"zis5" "You can scavenge these trucks for fuel canisters, repair kits, ammunition, grenades and other equipment.\nThe 3-ton Soviet ZIS-5 truck was mass produced since the 1930s. Easy to maintain, it could reach reasonable speeds and was used during the war for the transportation of troops, cargo and artillery towing."}
@@ -1020,16 +1068,72 @@
 		{"zis_30" "In 1941, about a hundred Komsomolet armored tractors were upgraded and converted into open-type, self-propelled vehicles, by having long-barrelled 57mm guns mounted on them. The new machines were given the name ZiS-30 and had entered the field by the end of September. The anti-tank guns proved excellent for fighting light and medium enemy equipment, but their insufficient cockpit protection, and the consequent vulnerability of the crew, lead to heavy losses among these SPGs in their very first outings."}
 	}
 	{"special"
+    
+        ;uk---------------
+        {"m3_eng" "<c(c3baae)>half-track</c>"}
+        {"universal_carrier" "<c(c3baae)>troop carrier</c>"}
+        {"universal_carrier_at" "<c(c3baae)>troop carrier</c>"}
+        {"eng_wasp" "<c(c3baae)>flamethrower</c>"}
+        {"churchill_kangaroo" "<c(c3baae)>heavy troop carrier</c>"}
+        {"bedford_6art" "<c(c3baae)>supply truck</c>"}
+		{"bedford" "<c(c3baae)>supply truck</c>"}
+		{"bedford_art" "<c(c3baae)>supply truck</c>"}
+		{"bedford_eng" "<c(c3baae)>engineer truck</c>"}
+		{"bedford_inf" "<c(c3baae)>supply truck</c>"}
+        
+        {"ammo_box_eng_art" "<c(c3baae)>ammunition crate</c>"}
+        {"ammo_box_eng_inf" "<c(c3baae)>ammunition crate</c>"}
+        {"ammo_box_eng_special" "<c(c3baae)>ammunition crate</c>"}
+        
+        {"303_vickers_mki" "<c(c3baae)>machine gun</c>"}
+		{"303_vickers_mkiv" "<c(c3baae)>machine gun</c>"}
+        {"2_inch_mk_ii" "<c(c3baae)>light mortar</c>"}
+		{"4_2_inch_mk_ii" "<c(c3baae)>heavy mortar</c>"}
+        {"qf6_42" "<c(c3baae)>medium AT gun</c>"}
+		{"qf6_43" "<c(c3baae)>medium AT gun</c>"}
+		{"qf17_43" "<c(c3baae)>heavy AT gun</c>"}
+        {"vickers" "<c(c3baae)>AA gun</c>"}
+		{"vickers_stan" "<c(c3baae)>machine gun</c>"}
+        
+        {"bl45" "<c(c3baae)>field gun</c>"}
+        {"bl6" "<c(c3baae)>heavy field howitzer</c>"}
+        {"pdr25" "<c(c3baae)>medium field howitzer</c>"}
+        {"longtom_155mm" "<c(c3baae)>heavy field howitzer</c>"}
+		{"longtom_155mm_vet" "<c(c3baae)>heavy field howitzer</c>"}
+        {"gun_carrier_3_inch" "<c(c3baae)>self-propelled mortar</c>"}
+		{"bishop" "<c(c3baae)>medium self-propelled howitzer</c>"}
+		{"sexton" "<c(c3baae)>medium self-propelled howitzer</c>"}
+        {"m7" "<c(c3baae)>medium self-propelled howitzer</c>"}
+        {"land_mattress" "<c(c3baae)>rocket artillery</c>"}
+        {"bl72" "<c(c3baae)>super-heavy field howitzer</c>"}
+        {"t92" "<c(c3baae)>super-heavy self-propelled howitzer</c>"}
+        
+        {"mk7" "<c(c3baae)>airborne tank</c>"}
+        {"humber" "<c(c3baae)>armoured car</c>"}
+        {"mk2daimler" "<c(c3baae)>armoured car</c>"}
+        {"staghound" "<c(c3baae)>armoured car</c>"}
+        {"staghound_mk3" "<c(c3baae)>armoured car</c>"}
+        {"crusaderaa2" "<c(c3baae)>AA tank</c>"}
+        {"crusaderaa1" "<c(c3baae)>AA tank</c>"}
+        
+        {"cromwell_mk_vi" "<c(c3baae)>medium self-propelled gun</c>"}
+        {"cromwell_mk_viii" "<c(c3baae)>medium self-propelled gun</c>"}
+		
+		{"churchill_avre" "<c(c3baae)>super heavy self-propelled gun</c>"}
+		{"churchill_crocodile" "<c(c3baae)>flame tank</c>"}
+        {"m10wolverine_eng" "<c(c3baae)>medium tank destroyer</c>"}
+        
+        {"archer" "<c(c3baae)>medium tank destroyer</c>"}
+        {"achilles" "<c(c3baae)>heavy tank destroyer</c>"}
+		{"achilles_elite_gun" "<c(c3baae)>heavy tank destroyer</c>"}
+    
 		;new stuff --------------------
 		{"m4a3e2_jumbo_76_vet" "<c(c3baae)>assault tank</c>"}
 		{"np_bm31" "<c(c3baae)>rocket artillery</c>"}
 		{"bm8-48" "<c(c3baae)>rocket artillery</c>"}
 		{"m10wolverine_42" "<c(c3baae)>medium tank destroyer</c>"}
-		{"m10wolverine_eng" "<c(c3baae)>medium tank destroyer</c>"}
+		
 		{"maus" "<c(c3baae)>super-heavy tank</c>"}
-		{"qf6_42" "<c(c3baae)>medium AT gun</c>"}
-		{"qf6_43" "<c(c3baae)>medium AT gun</c>"}
-		{"qf17_43" "<c(c3baae)>heavy AT gun</c>"}
 		{"flak36a" "<c(c3baae)>heavy AA/AT gun</c>"}
 		{"2cm_flak38" "<c(c3baae)>AA gun</c>"}
 		{"2cm_flak38_fix" "<c(c3baae)>AA gun</c>"}
@@ -1046,52 +1150,46 @@
 		{"zis3_41" "<c(c3baae)>medium AT gun</c>"}
 		{"75mm_leig18" "<c(c3baae)>infantry support gun</c>"}
 		{"karlthor" "<c(c3baae)>self-propelled siege mortar</c>"}
-		{"longtom_155mm" "<c(c3baae)>heavy field howitzer</c>"}
-		{"longtom_155mm_vet" "<c(c3baae)>heavy field howitzer</c>"}
 		{"m115" "<c(c3baae)>super-heavy field howitzer</c>"}
 		{"m115_vet" "<c(c3baae)>super-heavy field howitzer</c>"}
 		{"np_ml20" "<c(c3baae)>heavy field howitzer</c>"}
 		{"np_pak40" "<c(c3baae)>heavy AT gun</c>"}
 		{"pak44" "<c(c3baae)>super-heavy AT gun</c>"}
 		{"np_sdkfz251_1w" "<c(c3baae)>rocket artillery</c>"}
-		{"ammo_box_eng_special" "<c(c3baae)>ammunition crate</c>"}
 		{"ammo_box_ger_special" "<c(c3baae)>ammunition crate</c>"}
         {"ammo_box_ger_special_hun" "<c(c3baae)>ammunition crate</c>"}
 		{"ammo_box_jap_special" "<c(c3baae)>ammunition crate</c>"}
 		{"ammo_box_rus_special" "<c(c3baae)>ammunition crate</c>"}
 		{"ammo_box_us_special" "<c(c3baae)>ammunition crate</c>"}
-		{"ammo_box_eng_art" "<c(c3baae)>ammunition crate</c>"}
+		
 		{"ammo_box_ger_art" "<c(c3baae)>ammunition crate</c>"}
         {"ammo_box_ger_art_hun" "<c(c3baae)>ammunition crate</c>"}
 		{"ammo_box_jap_art" "<c(c3baae)>ammunition crate</c>"}
 		{"ammo_box_rus_art" "<c(c3baae)>ammunition crate</c>"}
 		{"ammo_box_us_art" "<c(c3baae)>ammunition crate</c>"}
-		{"ammo_box_eng_inf" "<c(c3baae)>ammunition crate</c>"}
+		
 		{"ammo_box_ger_inf" "<c(c3baae)>ammunition crate</c>"}
         {"ammo_box_ger_inf_hun" "<c(c3baae)>ammunition crate</c>"}
 		{"ammo_box_jap_inf" "<c(c3baae)>ammunition crate</c>"}
 		{"ammo_box_rus_inf" "<c(c3baae)>ammunition crate</c>"}
 		{"ammo_box_us_inf" "<c(c3baae)>ammunition crate</c>"}
-		{"303_vickers_mki" "<c(c3baae)></c>"}
-		{"303_vickers_mkiv" "<c(c3baae)></c>"}
-		{"mg34_lafette" "<c(c3baae)></c>"}
-		{"mg42_lafette" "<c(c3baae)></c>"}
-		{"303_bren_tripod" "<c(c3baae)></c>"}
-		{"30_browning_m1919a4" "<c(c3baae)></c>"}
-		{"50_browning_m2hb" "<c(c3baae)></c>"}
-		{"browning_30cal" "<c(c3baae)></c>"}
-		{"browning_m2hb" "<c(c3baae)></c>"}
-		{"dshk_stank" "<c(c3baae)></c>"}
-		{"dshk_zenit" "<c(c3baae)></c>"}
-		{"ds39_degtyaryov" "<c(c3baae)></c>"}
-		{"maxim_1910_30" "<c(c3baae)></c>"}
-		{"sg43_goryunov" "<c(c3baae)></c>"}
+		
+		{"mg34_lafette" "<c(c3baae)>machine gun</c>"}
+		{"mg42_lafette" "<c(c3baae)>machine gun</c>"}
+		{"303_bren_tripod" "<c(c3baae)>machine gun</c>"}
+		{"30_browning_m1919a4" "<c(c3baae)>machine gun</c>"}
+		{"50_browning_m2hb" "<c(c3baae)>machine gun</c>"}
+		{"browning_30cal" "<c(c3baae)>machine gun</c>"}
+		{"browning_m2hb" "<c(c3baae)>machine gun</c>"}
+		{"dshk_stank" "<c(c3baae)>machine gun</c>"}
+		{"dshk_zenit" "<c(c3baae)>machine gun</c>"}
+		{"ds39_degtyaryov" "<c(c3baae)>machine gun</c>"}
+		{"maxim_1910_30" "<c(c3baae)>machine gun</c>"}
+		{"sg43_goryunov" "<c(c3baae)>machine gun</c>"}
 		{"pm_38" "<c(c3baae)>heavy mortar</c>"}
 		{"pm_38_vet" "<c(c3baae)>heavy mortar</c>"}
 		{"sgrw_42" "<c(c3baae)>heavy mortar</c>"}
 		{"sgrw_42_vet" "<c(c3baae)>heavy mortar</c>"}
-		{"2_inch_mk_ii" "<c(c3baae)>light mortar</c>"}
-		{"4_2_inch_mk_ii" "<c(c3baae)>heavy mortar</c>"}
 		{"60mm_brandt_usa" "<c(c3baae)>light mortar</c>"}
 		{"81mm_brandt_usa" "<c(c3baae)>medium mortar</c>"}
 		{"bm_37" "<c(c3baae)>medium mortar</c>"}
@@ -1106,7 +1204,6 @@
 		{"stug3g" "<c(c3baae)>medium tank destroyer</c>"}
 		{"np_sdkfz250_7" "<c(c3baae)>self-propelled mortar</c>"}
 		{"m4halftrack" "<c(c3baae)>self-propelled mortar</c>"}
-		{"gun_carrier_3_inch" "<c(c3baae)>self-propelled mortar</c>"}
 		{"airborne_spawner" "<c(c3baae)>Drop-zone</c>"}
 		{"type97mortar" "<c(c3baae)>medium mortar</c>"}
 		{"type41_mountaingun" "<c(c3baae)>infantry mountain gun</c>"}
@@ -1147,14 +1244,8 @@
 
 		;vanilla -------------------
 		{"203b4" "<c(c3baae)>super heavy self-propelled howitzer</c>"}
-		{"achilles" "<c(c3baae)>heavy tank destroyer</c>"}
-		{"achilles_elite" "<c(c3baae)>heavy tank destroyer</c>"}
-		{"archer" "<c(c3baae)>medium tank destroyer</c>"}
-		{"bedford_6art" "<c(c3baae)>supply truck</c>"}
-		{"bedford_eng" "<c(c3baae)>engineer truck</c>"}
-		{"bedford_inf" "<c(c3baae)>supply truck</c>"}
-		{"bishop" "<c(c3baae)>medium self-propelled howitzer</c>"}
-		{"bl6" "<c(c3baae)>heavy field howitzer</c>"}
+		
+		
 		{"blitz3_6art" "<c(c3baae)>supply truck</c>"}
 		{"blitz3_6eng" "<c(c3baae)>engineer truck</c>"}
 		{"blitz3_6inf" "<c(c3baae)>supply truck</c>"}
@@ -1165,10 +1256,6 @@
 		{"browning_stan" "<c(c3baae)></c>"}
 		{"bs3" "<c(c3baae)>super heavy AT gun</c>"}
 		{"chi-ha120" "<c(c3baae)>medium self-propelled gun</c>"}
-		{"cromwell_mk_vi" "<c(c3baae)>medium self-propelled gun</c>"}
-		{"crusaderaa2" "<c(c3baae)>AA tank</c>"}
-		{"churchill_avre" "<c(c3baae)>super heavy self-propelled gun</c>"}
-		{"churchill_crocodile" "<c(c3baae)>flame tank</c>"}
 		{"d1" "<c(c3baae)>heavy field howitzer</c>"}
 		{"degtyarev_stan" "<c(c3baae)></c>"}
 		{"elefant" "<c(c3baae)>heavy tank destroyer</c>"}
@@ -1200,7 +1287,6 @@
 		{"k61" "<c(c3baae)>AA gun</c>"}
 		{"dshk_stan" "<c(c3baae)>heavy MG</c>"}
 		{"kv2" "<c(c3baae)>heavy self-propelled gun</c>"}
-		{"land_mattress" "<c(c3baae)>rocket artillery</c>"}
 		{"lefh18" "<c(c3baae)>medium field howitzer</c>"}
 		{"m10wolverine" "<c(c3baae)>medium tank destroyer</c>"}
 		{"m114" "<c(c3baae)>heavy field howitzer</c>"}
@@ -1227,7 +1313,6 @@
 		{"m4a3_zippo" "<c(c3baae)>flame tank</c>"}
 		{"m4a4_tulip" "<c(c3baae)>rocket artillery</c>"}
 		{"m5" "<c(c3baae)>heavy AT gun</c>"}
-		{"m7" "<c(c3baae)>medium self-propelled howitzer</c>"}
 		{"m72" "<c(c3baae)>motorcycle</c>"}
 		{"m7_eng" "<c(c3baae)>medium self-propelled howitzer</c>"}
 		{"m8_howitzer" "<c(c3baae)>light howitzer</c>"}
@@ -1250,7 +1335,6 @@
 		{"pak47" "<c(c3baae)>light AT gun</c>"}
 		{"pak47_1944" "<c(c3baae)>light AT gun</c>"}
 		{"pak57" "<c(c3baae)>medium AT gun</c>"}
-		{"pdr25" "<c(c3baae)>medium field howitzer</c>"}
 		{"pz1" "<c(c3baae)>AA tank</c>"}
 		{"pz1b" "<c(c3baae)>tankette</c>"}
 		{"pz3m" "<c(c3baae)>minesweeper</c>"}
@@ -1286,8 +1370,6 @@
 		{"type94" "<c(c3baae)></c>"}
 		{"type96_150mm" "<c(c3baae)>heavy field howitzer</c>"}
 		{"type_97_150mm" "<c(c3baae)>heavy mortar</c>"}
-		{"vickers" "<c(c3baae)>AA gun</c>"}
-		{"vickers_stan" "<c(c3baae)></c>"}
 		{"welberwind" "<c(c3baae)>AA tank</c>"}
 		{"wespe" "<c(c3baae)>medium self-propelled howitzer</c>"}
 		{"zis2" "<c(c3baae)>light AT gun</c>"}

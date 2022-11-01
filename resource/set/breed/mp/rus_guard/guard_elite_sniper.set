@@ -1,5 +1,5 @@
 {breed
-	{skin "rus-guard-rfl"}
+	{skin "rus_t2"}
 	{portrait rus_soldier5}
 	{icon stormtrooper4b}
 	{icon_priority 1}

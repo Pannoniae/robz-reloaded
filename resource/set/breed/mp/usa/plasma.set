@@ -1,11 +1,11 @@
 {breed
-	{skin "us_ranger1_hp"}
+	{skin "us_t2"}
 	{portrait "usa_soldier5"}
 	{nationality usa}
 	{icon "stormtrooper"}
 	{icon_priority 4}
 	{armors
-		{head "helmet4_usa"}
+		{head "helmet1_usa"}
 	}
 	{perks
 		{"health" "350%"

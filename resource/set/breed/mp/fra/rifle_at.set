@@ -1,12 +1,12 @@
 {breed
-	{skin "fra-us-inf2-rfl"}
+	{skin "us_t2"}
 	{portrait "fr_soldier2"}
 	{nationality fra}
 	{icon "rifleman"}
 	{icon_priority 0}
 	{armors
 		{body us_haversack}
-		{head "helmet_fra_m1"}
+		{head helmet1_usa}
 	}
 	{perks
 		{"health" "200%"
@@ -70,7 +70,7 @@
 		{item "bandage" 5}
 		{item "grenade m61" 2}
 		;{item "grenade n73at" 0 1}
-		{item "weapon bazooka" 0.25 1 filled}
+		{item "weapon bazooka" 1 filled}
 		{item "ammo bazooka" 7}
 		{item "sandbag_kit" 1}
 		{in_hands 0}

@@ -1,11 +1,11 @@
 {breed
-	{skin "usa-camo-smg"}
+	{skin "us_sniper"}
 	{portrait usa_elite2}
 	{icon elite6}
 	{icon_priority 5}
 	{nationality usmc}
 	{armors
-		{head helmet_usa_marine_1}
+		{head "helmet1_usa"}
 	}
 	{perks
 		{"health" "400%"

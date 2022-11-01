@@ -1,11 +1,11 @@
 {breed
-	{skin "ger_roa_mgun"}
+	{skin "ger_t1"}
 	{portrait ger2_elite2}
 	{icon elite4}
 	{icon_priority 1}
 	{nationality rus}
 	{armors
-		{head helmet_ger_m40_clean}
+		{head helmet1_ger}
 	}
 	{perks
 		{"health" "150%"

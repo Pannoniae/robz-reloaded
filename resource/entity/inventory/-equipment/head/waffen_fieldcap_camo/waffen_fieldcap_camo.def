@@ -1,7 +1,0 @@
-{actor
-	(include "/properties/stuff_small.ext")
-	{extender "stuff"
-		{item "waffen_fieldcap_camo"}
-	}
-	{Extension "waffen_fieldcap_camo.mdl"}
-}

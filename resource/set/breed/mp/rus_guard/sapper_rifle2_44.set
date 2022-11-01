@@ -1,5 +1,5 @@
 {breed
-	{skin "rus-sco-late-rfl"}
+	{skin "rus_t2"}
 	{portrait rus_soldier2}
 	{icon sapper}
 	{icon_priority 3}

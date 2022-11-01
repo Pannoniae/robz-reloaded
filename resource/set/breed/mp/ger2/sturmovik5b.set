@@ -1,11 +1,11 @@
 {breed
-	{skin "ger-zelt-rfl"}
+	{skin "ger_t4"}
 	{portrait ger2_soldier5}
 	{icon stormtrooper5b}
 	{icon_priority 4}
 	{nationality ger2}
 	{armors
-		{head helmet_heer_camo}
+		{head helmet1_ger}
 	}
 	{perks
 		{"health" "400%"

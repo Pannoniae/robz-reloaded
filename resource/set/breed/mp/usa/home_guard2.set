@@ -1,11 +1,11 @@
 {breed
-	{skin "us_flamer_hp"}
+	{skin "us_t1"}
 	{portrait usa_soldier1}
 	{icon home_guard2}
 	{icon_priority 0}
 	{nationality usa}
 	{armors
-		{head "usmc-cap1"}
+		{head "helmet1_usa"}
 	}
 	{perks
 		{"health" "100%"

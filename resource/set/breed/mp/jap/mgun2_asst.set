@@ -1,11 +1,11 @@
 {breed
-	{skin "jap_army_lmg2"}
+	{skin "jap_mgun"}
 	{portrait jap_soldier2}
 	{icon mg}
 	{icon_priority 2}
 	{nationality jap}
 	{armors
-		{head jap_army_helmet11}
+		{head helmet1_jap}
 	}
 	{perks
 		{"health" "150%"

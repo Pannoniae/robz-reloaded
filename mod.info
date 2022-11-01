@@ -1,5 +1,5 @@
 {mod
-	{name "RobZ Reloaded 0.2.1 dev"}
+	{name "RobZ Reloaded 0.2.4.3 dev"}
     {desc "A derivative project of RobZ Realism, with inspiration and content from other mods such as Emergence, GSM, et cetera. Compiled and coded by Pannoniae, localization work by KRIEG."}
 	
 	{minGameVersion "3.262.1"}

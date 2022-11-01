@@ -1,11 +1,11 @@
 {breed
-	{skin "usa-marine-pvt"}
+	{skin "us_t3"}
 	{portrait usa_elite2}
 	{icon elite4}
 	{icon_priority 3}
 	{nationality usa}
 	{armors
-		{head helmet_marine_usa}
+		{head "helmet1_usa"}
 	}
 	{perks
 		{"health" "200%"

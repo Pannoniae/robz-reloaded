@@ -1,11 +1,11 @@
 {breed
-	{skin "waffen-smock2-rfl"}
+	{skin "ger_sniper"}
 	{portrait "ger_soldier5"}
 	{nationality ger2}
 	{icon "sniper2"}
 	{icon_priority 5}
 	{armors
-		{head waffen_fieldcap_camo}
+		{head helmet1_ger}
 	}
 	{perks
 		{"health" "500%"

@@ -1,11 +1,11 @@
 {breed
-	{skin "fra-partisan4"}
+	{skin "us_t1"}
 	{portrait fr_soldier1}
 	{nationality fra}
 	{icon home_guard}
 	{icon_priority 0}
 	{armors
-		{head helmet_ger_m40_clean}
+		{head helmet1_usa}
 	}
 	{perks
 		{"health" "100%"

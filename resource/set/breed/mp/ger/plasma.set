@@ -1,11 +1,11 @@
 {breed
-	{skin "gerssplantane"}
+	{skin "ger_t2"}
 	{portrait "ger_soldier4"}
 	{icon "smg"}
 	{icon_priority 1}
 	{nationality ger}
 	{armors
-		{head helmet_ger_platane_autumn}
+		{head helmet1_ger}
 	}
 	{perks
 		{"health" "250%"

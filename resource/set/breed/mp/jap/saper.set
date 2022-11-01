@@ -1,11 +1,11 @@
 {breed
-	{skin "jap_armyts_gear2"}
+	{skin "jap_com"}
 	{portrait jap_soldier2}
 	{icon sapper}
 	{icon_priority 3}
 	{nationality jap}
 	{armors
-		{head japarmy_cap_hohei2}
+		{head helmet1_jap}
 	}
 	{perks
 		{"health" "250%"

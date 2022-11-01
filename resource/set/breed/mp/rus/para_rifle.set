@@ -1,11 +1,11 @@
 {breed
-	{skin "rus-sco-late-rfl"}
+	{skin "rus_t4"}
 	{portrait rus_soldier5}
 	{icon stormtrooper4}
 	{icon_priority 1}
 	{nationality rus}
 	{armors
-		{head helmet_rus_para_goggles2}
+		{head helmet1_rus}
 	}
 	{perks
 		{"health" "400%"

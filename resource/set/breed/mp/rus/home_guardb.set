@@ -1,11 +1,11 @@
 {breed
-	{skin "rus-partisan2"}
+	{skin "rus_partizan2"}
 	{portrait rus_soldier1}
 	{icon home_guard}
 	{icon_priority 0}
 	{nationality rus}
 	{armors
-		{head cap_rus_partisan2}
+		{head helmet1_rus}
 	}
 	{perks
 		{"health" "100%"

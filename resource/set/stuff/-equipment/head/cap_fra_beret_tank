@@ -1,4 +1,0 @@
-{from "fieldcap_rus"
-	{desc "French Tank Beret"}
-	{entity "cap_fra_beret_tank"}
-}

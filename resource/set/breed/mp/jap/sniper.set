@@ -1,11 +1,11 @@
 {breed
-	{skin "jap_army_gilly"}
+	{skin "jap_sniper"}
 	{portrait jap_soldier4}
 	{icon sniper}
 	{icon_priority 5}
 	{nationality jap}
 	{armors
-		{head jap_army_helmet2_net}
+		{head helmet1_jap}
 	}
 	{perks
 		{"health" "350%"

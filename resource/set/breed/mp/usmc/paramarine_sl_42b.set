@@ -1,11 +1,11 @@
 {breed
-	{skin "usa-camo-rfl"}
+	{skin "us_t3"}
 	{portrait usa_elite2}
 	{icon elite4}
 	{icon_priority 4}
 	{nationality usmc}
 	{armors
-		{head helmet_usa_marine_1}
+		{head "helmet1_usa"}
 	}
 	{perks
 		{"health" "400%"

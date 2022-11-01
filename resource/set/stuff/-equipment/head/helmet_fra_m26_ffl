@@ -1,4 +1,0 @@
-{from "helmet pattern"
-	{desc "FFI M26 Helmet"}
-	{entity "helmet_fra_m26_ffl"}
-}

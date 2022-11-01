@@ -1,5 +1,5 @@
 {breed
-	{skin "rus-late-rfl"}
+	{skin "rus_mgun"}
 	{portrait rus_soldier2}
 	{icon rifleman}
 	{icon_priority 1}

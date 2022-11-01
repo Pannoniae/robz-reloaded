@@ -1,11 +1,11 @@
 {breed
-	{skin "waffen-smock2-mgun"}
+	{skin "ger_t3"}
 	{portrait "ger_soldier6"}
 	{icon "stormtrooper2"}
 	{icon_priority 4}
 	{nationality ger2}
 	{armors
-		{head waffen_helmet_camo}
+		{head helmet1_ger}
 	}
 	{perks
 		{"health" "400%"

@@ -134,8 +134,8 @@
 		{box
 			{item "ammo mortar81 eng fg" 44}
 			{item "ammo mortar81 eng wp" 12}
-			{item "ammo mgun red" 1100}
-			{item "bren" filling "ammo mgun red" 28 {user "mgun"}}
+			{item "ammo bren_mag" 280}
+			{item "bren" filling "ammo bren_mag" 28 {user "mgun"}}
 		}
 	}
 	{Weaponry

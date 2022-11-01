@@ -1,11 +1,11 @@
 {breed
-	{skin "usa-late-mgun"}
+	{skin "us_flamer"}
 	{portrait "usa_soldier2"}
 	{nationality usa}
 	{icon "flamer"}
 	{icon_priority 3}
 	{armors
-		{head helmet1_usa}
+		{head "helmet1_usa"}
 	}
 	{perks
 		{"health" "150%"

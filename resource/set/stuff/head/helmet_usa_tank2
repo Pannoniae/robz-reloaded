@@ -1,4 +1,0 @@
-{from "helmet pattern"
-	{desc "US Tanker Helmet"}
-	{entity "helmet_usa_tank2"}
-}

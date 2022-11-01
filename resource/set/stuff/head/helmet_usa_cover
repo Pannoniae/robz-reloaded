@@ -1,4 +1,0 @@
-{from "helmet pattern"
-	{desc "USMC Helmet Full Camo"}
-	{entity "helmet_usa_cover"}
-}

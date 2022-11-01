@@ -1,12 +1,12 @@
 {breed
-	{skin "ger-volkg2-rfl"}
+	{skin "ger_t1"}
 	{portrait ger_soldier2}
 	{icon rifleman}
 	{icon_priority 1}
 	{nationality ger}
 	{armors
 		{body ammo_ger3}
-		{head helmet_heer_camo}
+		{head helmet1_ger}
 	}
 	{perks
 		{"health" "150%"

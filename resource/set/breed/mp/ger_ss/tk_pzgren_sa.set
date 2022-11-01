@@ -1,11 +1,11 @@
 {breed
-	{skin "waffen-tk2-g43"}
+	{skin "ger_t3"}
 	{portrait ger_soldier6}
 	{icon rifleman}
 	{icon_priority 3}
 	{nationality ger2}
 	{armors
-		{head waffen_helmet_totenkopf}
+		{head helmet1_ger}
 	}
 	{perks
 		{"health" "350%"

@@ -1,11 +1,11 @@
 {breed
-	{skin "fra-partisan3"}
+	{skin "us_t1"}
 	{portrait fr_soldier1}
 	{nationality fra}
 	{icon home_guard}
 	{icon_priority 0}
 	{armors
-		{head "cap_rus_partisan2"}
+		{head helmet1_usa}
 	}
 	{perks
 		{"health" "100%"

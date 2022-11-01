@@ -7,11 +7,12 @@
 
 	{mass 10}
 	{rechargeTime 4.5}
-	("recoveryTime" r(520))
+	("recoveryTime" r(620))
 	("burst_short")
 	("speed" s(744))
 	{Spreading 1
 		{SpreadPower	1}
 		{BurstAccuracy 100 97 94 91 88 85 80 70 60 40 20}
 	}
+    ("accuracy_mgun_good")
 }

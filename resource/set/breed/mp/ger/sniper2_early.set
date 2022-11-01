@@ -1,11 +1,11 @@
 {breed
-	{skin "ger-geb-rfl"}
+	{skin "ger_sniper"}
 	{portrait "ger_soldier5"}
 	{nationality ger}
 	{icon "sniper2"}
 	{icon_priority 5}
 	{armors
-		{head fieldcap_ger_geb}
+		{head helmet1_ger}
 	}
 	{perks
 		{"health" "500%"

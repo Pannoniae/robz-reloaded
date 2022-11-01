@@ -1,11 +1,11 @@
 {breed
-	{skin "usa-inf-carbine"}
+	{skin "us_t1"}
 	{portrait usa_soldier3}
 	{icon squadleader}
 	{icon_priority 2}
 	{nationality usa}
 	{armors
-		{head helmet2_usa}
+		{head "helmet1_usa"}
 	}
 	{perks
 		{"health" "200%"

@@ -1,12 +1,12 @@
 {breed
-	{skin "rus-early-officer"}
+	{skin "rus_officer"}
 	{portrait rus_officer}
 	{icon officer}
 	{icon_priority 6}
 	{tags "officer"}
 	{nationality rus}
 	{armors
-		{head cap1_rus}
+		{head helmet1_rus}
 	}
 	{perks
 		{"health" "250%"

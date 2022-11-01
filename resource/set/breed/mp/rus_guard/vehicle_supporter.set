@@ -1,5 +1,5 @@
 {breed
-	{skin "rus-guard-rfl"}
+	{skin "rus_tankman"}
 	{portrait rus_elite2}
 	{icon smg}
 	{icon_priority 1}

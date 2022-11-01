@@ -1,12 +1,12 @@
 {breed
-	{skin "rus-late-medic"}
+	{skin "rus_medic"}
 	{portrait rus_medic}
 	{icon medics}
 	{icon_priority 1}
 	{nationality rus}
 	{armors
 		{body medsumka}
-		{head helmet1_rus_w}
+		{head helmet1_rus}
 	}
 	{perks
 		{"health" "150%"

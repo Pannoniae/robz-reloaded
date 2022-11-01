@@ -1,12 +1,12 @@
 {breed
-	{skin "usa-marine2-rfl"}
+	{skin "us_mgun"}
 	{portrait "usa_elite2"}
 	{nationality usmc}
 	{icon "elite4"}
 	{icon_priority 3}
 	{armors
 		{body us_marine_haversack}
-		{head helmet_usa_marine_2}
+		{head "helmet1_usa"}
 	}
 	{perks
 		{"health" "250%"
